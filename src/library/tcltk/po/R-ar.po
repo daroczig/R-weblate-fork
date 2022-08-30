@@ -3,107 +3,100 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2021-11-06 17:18\n"
-"PO-Revision-Date: 2023-09-01 18:31+0000\n"
-"Last-Translator: Abdulrahman Alswaji <alswajiab@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
-"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr "لا يمكن التعامل مع كائن وضعه ‪'%s'"
+msgstr ""
 
 msgid "cannot change names on Tcl array"
-msgstr "لا يمكن تغيير الأسماء على مصفوفه Tcl"
+msgstr ""
 
 msgid "cannot set length of Tcl array"
-msgstr "لا يمكن تعيين طول مصفوفه Tcl"
+msgstr ""
 
 msgid "Tcl package '%s' not found"
-msgstr "لم يتم العثور على حزمة‪ Tcl ‪'%s'"
+msgstr ""
 
 msgid "The tkGUI is not available under Windows"
-msgstr "لا يتوفر tkGUI ضمن Windows"
+msgstr ""
 
 msgid "File"
-msgstr "ملف"
+msgstr ""
 
 msgid "Demos"
-msgstr "العروض التوضيحية"
+msgstr ""
 
 msgid "Packages"
-msgstr "الحزم"
+msgstr ""
 
 msgid "Help"
-msgstr "المساعدة"
+msgstr ""
 
 msgid "Source R code"
-msgstr "شفرة المصدر R"
+msgstr ""
 
 msgid "Quit"
-msgstr "انهاء"
+msgstr ""
 
 msgid "Save workspace"
-msgstr "حفظ مساحة العمل"
+msgstr ""
 
 msgid "Don't save workspace"
-msgstr "لا تحفظ مساحة العمل"
+msgstr ""
 
 msgid "t test"
-msgstr "اختبار ت"
+msgstr ""
 
 msgid "Density"
-msgstr "كثافة"
+msgstr ""
 
 msgid "Interactive linear fitting"
-msgstr "تركيب خطي تفاعلي"
+msgstr ""
 
-#, fuzzy
 msgid "R FAQ"
-msgstr "R التعليمات"
+msgstr ""
 
-#, fuzzy
 msgid "Load"
-msgstr "حمل"
+msgstr ""
 
-#, fuzzy
 msgid "Go get them!"
-msgstr "اذهب واحصل عليها!"
+msgstr ""
 
 msgid "Load packages"
-msgstr "تحميل الحزم"
+msgstr ""
 
 msgid "Install packages from CRAN"
-msgstr "تثبيت الحزم من CRAN"
+msgstr ""
 
 msgid "Help topic:"
-msgstr "موضوع المساعدة:"
+msgstr ""
 
 msgid "Manuals in PDF format"
-msgstr "كتيبات بتنسيق PDF"
+msgstr ""
 
 msgid "OK"
-msgstr "موافق"
+msgstr ""
 
 msgid "Cancel"
-msgstr "إلغاء الأمر"
+msgstr ""
 
 msgid "'pb' is not from class %s"
-msgstr "\"pb\" ليس من الفئة ‫‪%s"
+msgstr ""
 
 msgid "'filters' must be a 2-column character matrix"
-msgstr "يجب أن تكون 'filters' عبارة عن مصفوفة أحرف مكونة من عامودين"
+msgstr ""
 
 msgid "tcltk DLL is linked to"
-msgstr "يرتبط tcltk DLL ب"
+msgstr ""
 
 msgid "Tcl/Tk support is not available on this system"
-msgstr "دعم Tcl / Tk غير متوفر على هذا النظام"
+msgstr ""
 
-#, fuzzy
 msgid "Tcl/Tk support files were not installed"
-msgstr "لم يتم تثبيت ملفات دعم Tcl/Tk"
+msgstr ""
