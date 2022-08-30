@@ -8,15 +8,13 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-23 12:08+0000\n"
-"Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -24,7 +22,7 @@ msgstr ""
 
 #: Srunmed.c:262
 #, c-format
-msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
+msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%ld]"
 msgstr ""
 
 #: Srunmed.c:265
@@ -141,15 +139,11 @@ msgstr ""
 msgid "invalid expression in '%s'"
 msgstr ""
 
-#: deriv.c:865
-msgid "too many variables"
-msgstr ""
-
-#: deriv.c:1080 model.c:93
+#: deriv.c:1085 model.c:99
 msgid "invalid variable names"
 msgstr ""
 
-#: deriv.c:1088 deriv.c:1090
+#: deriv.c:1094
 msgid "invalid tag"
 msgstr ""
 
@@ -165,11 +159,11 @@ msgstr ""
 msgid "distance(): invalid distance"
 msgstr ""
 
-#: distn.c:41
+#: distn.c:44
 msgid "NaNs produced"
 msgstr ""
 
-#: distn.c:42
+#: distn.c:45
 msgid "Non-numeric argument to mathematical function"
 msgstr ""
 
@@ -188,12 +182,12 @@ msgstr ""
 msgid "argument %s must be a numeric vector of length 1 or length %d"
 msgstr ""
 
-#: fexact.c:276
+#: fexact.c:273
 #, c-format
 msgid "integer overflow would happen in 'mult * ldkey' = %g"
 msgstr ""
 
-#: fexact.c:656
+#: fexact.c:653
 #, c-format
 msgid ""
 "FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
@@ -201,14 +195,12 @@ msgid ""
 "Try increasing the size of the workspace and possibly 'mult'"
 msgstr ""
 
-#: fexact.c:1040
+#: fexact.c:1037
 #, c-format
-msgid ""
-"FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
-"Rather set 'simulate.p.value=TRUE'\n"
+msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
 msgstr ""
 
-#: fexact.c:1073
+#: fexact.c:1069
 #, c-format
 msgid ""
 "FEXACT error 30.  Stack length exceeded in f3xact,\n"
@@ -216,14 +208,14 @@ msgid ""
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
 
-#: fexact.c:1407
+#: fexact.c:1404
 #, c-format
 msgid ""
 "FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
 "Try increasing the size of the workspace."
 msgstr ""
 
-#: fexact.c:1420
+#: fexact.c:1417
 #, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
@@ -231,7 +223,7 @@ msgid ""
 "Increase workspace or consider using 'simulate.p.value=TRUE'."
 msgstr ""
 
-#: fexact.c:1458
+#: fexact.c:1454
 #, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
@@ -253,12 +245,14 @@ msgstr ""
 
 #: fourier.c:213
 #, c-format
-msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
+msgid ""
+"nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' "
+"instead of 'n'"
 msgstr ""
 
 #: fourier.c:225
 #, c-format
-msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
+msgid "nextn<64>() found no solution < %ld = UINT64_MAX (the maximal integer)"
 msgstr ""
 
 #: fourier.c:241
@@ -279,7 +273,9 @@ msgstr ""
 
 #: fourier.c:290
 #, c-format
-msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
+msgid ""
+"nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double"
+"\")"
 msgstr ""
 
 #: integrate.c:79 integrate.c:81 integrate.c:123
@@ -287,12 +283,7 @@ msgstr ""
 msgid "'%s' must be of length one"
 msgstr ""
 
-#: isoreg.c:55
-#, c-format
-msgid "non-finite sum(y) == %g is not allowed"
-msgstr ""
-
-#: ksmooth.c:63
+#: ksmooth.c:69
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
 msgstr ""
 
@@ -302,7 +293,7 @@ msgstr ""
 
 #: lm.c:56
 #, c-format
-msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
+msgid "dimensions of 'x' (%d,%d) and 'y' (%d) do not match"
 msgstr ""
 
 #: lm.c:71 lm.c:75
@@ -405,7 +396,7 @@ msgstr ""
 #: model.c:373 model.c:381 optim.c:221
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "الوسيطة '%s' غير صالحة"
+msgstr ""
 
 #: model.c:392
 msgid "invalid model frame"
@@ -504,7 +495,9 @@ msgstr ""
 
 #: model.c:1867
 #, c-format
-msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
+msgid ""
+"'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should "
+"no longer happen!"
 msgstr ""
 
 #: model.c:2151
@@ -640,152 +633,152 @@ msgstr ""
 msgid "unknown 'method'"
 msgstr ""
 
-#: optimize.c:214 optimize.c:300 optimize.c:522
+#: optimize.c:220 optimize.c:306 optimize.c:528
 msgid "NA replaced by maximum positive value"
 msgstr ""
 
-#: optimize.c:222 optimize.c:312 optimize.c:530
+#: optimize.c:228 optimize.c:318 optimize.c:536
 msgid "NA/Inf replaced by maximum positive value"
 msgstr ""
 
-#: optimize.c:231
+#: optimize.c:237
 msgid "invalid function value in 'optimize'"
 msgstr ""
 
-#: optimize.c:249 optimize.c:341 optimize.c:716
+#: optimize.c:255 optimize.c:347 optimize.c:721
 msgid "attempt to minimize non-function"
 msgstr ""
 
-#: optimize.c:256 optimize.c:263 optimize.c:272 optimize.c:346 optimize.c:351
-#: optimize.c:367
+#: optimize.c:262 optimize.c:269 optimize.c:278 optimize.c:352 optimize.c:357
+#: optimize.c:373
 #, c-format
 msgid "invalid '%s' value"
 msgstr ""
 
-#: optimize.c:265 optimize.c:352
+#: optimize.c:271 optimize.c:358
 msgid "'xmin' not less than 'xmax'"
 msgstr ""
 
-#: optimize.c:309
+#: optimize.c:315
 msgid "-Inf replaced by maximally negative value"
 msgstr ""
 
-#: optimize.c:322
+#: optimize.c:328
 msgid "invalid function value in 'zeroin'"
 msgstr ""
 
-#: optimize.c:357 optimize.c:362
+#: optimize.c:363 optimize.c:368
 #, c-format
 msgid "NA value for '%s' is not allowed"
 msgstr ""
 
-#: optimize.c:372
+#: optimize.c:378
 msgid "'maxiter' must be positive"
 msgstr ""
 
-#: optimize.c:514
+#: optimize.c:520
 msgid "non-finite value supplied by 'nlm'"
 msgstr ""
 
-#: optimize.c:549
+#: optimize.c:555
 msgid "invalid function value in 'nlm' optimizer"
 msgstr ""
 
-#: optimize.c:561 optimize.c:576
+#: optimize.c:566 optimize.c:581
 msgid "function value caching for optimization is seriously confused"
 msgstr ""
 
-#: optimize.c:591
+#: optimize.c:596
 msgid "numeric parameter expected"
 msgstr ""
 
-#: optimize.c:595
+#: optimize.c:600
 msgid "conflicting parameter lengths"
 msgstr ""
 
-#: optimize.c:599
+#: optimize.c:604
 msgid "invalid parameter length"
 msgstr ""
 
-#: optimize.c:609 optimize.c:616
+#: optimize.c:614 optimize.c:621
 msgid "missing value in parameter"
 msgstr ""
 
-#: optimize.c:621
+#: optimize.c:626
 msgid "invalid parameter type"
 msgstr ""
 
-#: optimize.c:632
+#: optimize.c:637
 msgid "non-positive number of parameters in nlm"
 msgstr ""
 
-#: optimize.c:634
+#: optimize.c:639
 msgid "nlm is inefficient for 1-d problems"
 msgstr ""
 
-#: optimize.c:636
+#: optimize.c:641
 msgid "invalid gradient tolerance in nlm"
 msgstr ""
 
-#: optimize.c:638
+#: optimize.c:643
 msgid "invalid iteration limit in nlm"
 msgstr ""
 
-#: optimize.c:640
+#: optimize.c:645
 msgid "minimization function has no good digits in nlm"
 msgstr ""
 
-#: optimize.c:642
+#: optimize.c:647
 msgid "no analytic gradient to check in nlm!"
 msgstr ""
 
-#: optimize.c:644
+#: optimize.c:649
 msgid "no analytic Hessian to check in nlm!"
 msgstr ""
 
-#: optimize.c:646
+#: optimize.c:651
 msgid "probable coding error in analytic gradient"
 msgstr ""
 
-#: optimize.c:648
+#: optimize.c:653
 msgid "probable coding error in analytic Hessian"
 msgstr ""
 
-#: optimize.c:650
+#: optimize.c:655
 #, c-format
 msgid ""
 "*** unknown error message (msg = %d) in nlm()\n"
 "*** should not happen!"
 msgstr ""
 
-#: optimize.c:661
+#: optimize.c:666
 msgid "Relative gradient close to zero.\n"
 msgstr ""
 
-#: optimize.c:662 optimize.c:666
+#: optimize.c:667 optimize.c:671
 msgid "Current iterate is probably solution.\n"
 msgstr ""
 
-#: optimize.c:665
+#: optimize.c:670
 msgid "Successive iterates within tolerance.\n"
 msgstr ""
 
-#: optimize.c:669
+#: optimize.c:674
 msgid "Last global step failed to locate a point lower than x.\n"
 msgstr ""
 
-#: optimize.c:670
+#: optimize.c:675
 msgid ""
 "Either x is an approximate local minimum of the function,\n"
 "the function is too non-linear for this algorithm,\n"
 "or steptol is too large.\n"
 msgstr ""
 
-#: optimize.c:675
+#: optimize.c:680
 msgid "Iteration limit exceeded.  Algorithm failed.\n"
 msgstr ""
 
-#: optimize.c:678
+#: optimize.c:683
 msgid ""
 "Maximum step size exceeded 5 consecutive times.\n"
 "Either the function is unbounded below,\n"
@@ -794,16 +787,16 @@ msgid ""
 "or stepmx is too small.\n"
 msgstr ""
 
-#: optimize.c:740 optimize.c:745 optimize.c:749 optimize.c:753 optimize.c:757
-#: optimize.c:761 optimize.c:766
+#: optimize.c:745 optimize.c:750 optimize.c:754 optimize.c:758 optimize.c:762
+#: optimize.c:766 optimize.c:771
 msgid "invalid NA value in parameter"
 msgstr ""
 
-#: optimize.c:795
+#: optimize.c:800
 msgid "hessian supplied is of the wrong length or mode, so ignored"
 msgstr ""
 
-#: optimize.c:799
+#: optimize.c:804
 msgid "gradient supplied is of the wrong length or mode, so ignored"
 msgstr ""
 
@@ -955,3 +948,5 @@ msgstr ""
 #, c-format
 msgid "missing value in last %d observations"
 msgstr ""
+
+
