@@ -3,31 +3,21 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2023-09-01 18:31+0000\n"
-"Last-Translator: Abdulrahman Alswaji <alswajiab@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.16.4\n"
 
-msgid ""
-"RShowDoc() should be used with a character string argument specifying\n"
-"   a documentation file"
+msgid "RShowDoc() should be used with a character string argument specifying\n   a documentation file"
 msgstr ""
 
 msgid "no documentation for %s found in package %s"
 msgstr ""
 
 msgid "document not found"
-msgstr ""
-
-msgid "some options in argument 'restrict' were not recognized and hence ignored"
-msgstr ""
-
-msgid "argument 'format' is deprecated and has no affect on search results"
 msgstr ""
 
 msgid "A search query has been submitted to %s"
@@ -57,9 +47,7 @@ msgstr ""
 msgid "target syntax contains no translation table"
 msgstr ""
 
-msgid ""
-"parse error or empty option in\n"
-"%s"
+msgid "parse error or empty option in\n%s"
 msgstr ""
 
 msgid "Warning: unknown option '--clean='%s"
@@ -102,7 +90,7 @@ msgid "No"
 msgstr ""
 
 msgid "Cancel"
-msgstr "إلغاء الأمر"
+msgstr ""
 
 msgid "Unrecognized response"
 msgstr ""
@@ -116,28 +104,19 @@ msgstr ""
 msgid "Invalid 'filter' argument."
 msgstr ""
 
-msgid ""
-"The following dictionaries were not found:\n"
-"%s"
+msgid "The following dictionaries were not found:\n%s"
 msgstr ""
 
 msgid "Processing file %s"
 msgstr ""
 
-msgid ""
-"Running aspell failed with diagnostics:\n"
-"%s"
+msgid "Running aspell failed with diagnostics:\n%s"
 msgstr ""
 
 msgid "No suitable spell check program found."
 msgstr ""
 
-msgid "Performing query %s"
-msgstr ""
-
-msgid ""
-"Use <code> %s </code> \n"
-" to list the vignettes in all <strong>available</strong> packages."
+msgid "Use <code> %s </code> \n to list the vignettes in all <strong>available</strong> packages."
 msgstr ""
 
 msgid "No vignettes found by %s"
@@ -191,21 +170,25 @@ msgstr ""
 msgid "%s should be one of %s"
 msgstr ""
 
-msgid "To cite package %s in publications use:"
+msgid "Argument '%s' is deprecated; rather set '%s' instead."
 msgstr ""
 
 msgid "A BibTeX entry for LaTeX users is"
 msgstr ""
 
-msgid ""
-"Dropping invalid entry %d:\n"
-"%s"
+msgid "Dropping invalid entry %d:\n%s"
+msgstr ""
+
+msgid "no date field in DESCRIPTION file of package %s"
 msgstr ""
 
 msgid "package %s has no %s file: only auto-generation is possible"
 msgstr ""
 
 msgid "could not determine year for %s from package DESCRIPTION file"
+msgstr ""
+
+msgid "To cite package %s in publications use:"
 msgstr ""
 
 msgid "ATTENTION: This citation information has been auto-generated from the package DESCRIPTION file and may need manual editing, see %s."
@@ -217,10 +200,19 @@ msgstr ""
 msgid "cannot handle S4 methods yet"
 msgstr ""
 
-msgid "'package' must be a character vector or NULL"
+msgid "'package' must be a character string or NULL"
+msgstr ""
+
+msgid "datasets have been moved from package 'base' to package 'datasets'"
+msgstr ""
+
+msgid "datasets have been moved from package 'stats' to package 'datasets'"
 msgstr ""
 
 msgid "data index for package %s is invalid and will be ignored"
+msgstr ""
+
+msgid "file 'filelist' is missing for directory %s"
 msgstr ""
 
 msgid "data set %s not found"
@@ -289,9 +281,7 @@ msgstr ""
 msgid "No demo found for topic %s"
 msgstr ""
 
-msgid ""
-"Demo for topic %s' found more than once,\n"
-"using the one found in %s"
+msgid "Demo for topic %s' found more than once,\nusing the one found in %s"
 msgstr ""
 
 msgid "invalid 'data' argument"
@@ -357,13 +347,7 @@ msgstr ""
 msgid "'form' must be a two-sided formula with one term on each side"
 msgstr ""
 
-msgid "invalid object for 'as.environment'"
-msgstr ""
-
-msgid "invalid 'n' - must contain at least one non-missing element, got none."
-msgstr ""
-
-msgid "invalid 'n' - must be numeric, possibly NA."
+msgid "invalid 'n' -  must contain at least one non-missing element, got none."
 msgstr ""
 
 msgid "invalid 'n' - must have length one when dim(x) is NULL, got %d"
@@ -375,9 +359,7 @@ msgstr ""
 msgid "no method found for %s(., n=%s) and class %s"
 msgstr ""
 
-msgid ""
-"tail(., addrownums = V) is deprecated.\n"
-"Use"
+msgid "tail(., addrownums = V) is deprecated.\nUse"
 msgstr ""
 
 msgid "tail(., keepnums = V) instead."
@@ -386,9 +368,7 @@ msgstr ""
 msgid "tail(., addrownums=.) is"
 msgstr ""
 
-msgid ""
-"deprecated.\n"
-"Use"
+msgid "deprecated.\nUse"
 msgstr ""
 
 msgid "tail(., keepnums=.) instead."
@@ -445,7 +425,7 @@ msgstr ""
 msgid "Unable to connect to CRAN to check R version."
 msgstr ""
 
-msgid "'%s' must be a character string"
+msgid "argument %s must be a single character string"
 msgstr ""
 
 msgid "incorrect field specification"
@@ -478,9 +458,7 @@ msgstr ""
 msgid "help.start() requires the HTTP server to be running"
 msgstr ""
 
-msgid ""
-"If nothing happens, you should open\n"
-"%s yourself"
+msgid "If nothing happens, you should open\n%s yourself"
 msgstr ""
 
 msgid "If the browser launched by '%s' is already running, it is *not* restarted, and you must switch to its window."
@@ -489,7 +467,10 @@ msgstr ""
 msgid "Otherwise, be patient ..."
 msgstr ""
 
-msgid "'%s' must be a non-empty character string"
+msgid "'url' must be a non-empty character string"
+msgstr ""
+
+msgid "'browser' must be a non-empty character string"
 msgstr ""
 
 msgid "no package '%s' was found"
@@ -514,9 +495,6 @@ msgid "cannot update HTML package index"
 msgstr ""
 
 msgid "done"
-msgstr ""
-
-msgid "Source must be a seekable connection"
 msgstr ""
 
 msgid "menu() cannot be used non-interactively"
@@ -672,12 +650,6 @@ msgstr ""
 msgid "invalid options(\"pkgType\"); must be a character string"
 msgstr ""
 
-msgid "No matching repositories found for"
-msgstr ""
-
-msgid ","
-msgstr ""
-
 msgid "--- Please select repositories for use in this session ---"
 msgstr ""
 
@@ -690,9 +662,7 @@ msgstr ""
 msgid "packages %s are mutually dependent"
 msgstr ""
 
-msgid ""
-"Do not know which element of 'lib' to install dependencies into\n"
-"skipping dependencies"
+msgid "Do not know which element of 'lib' to install dependencies into\nskipping dependencies"
 msgstr ""
 
 msgid "type 'binary' is not supported on this platform"
@@ -710,10 +680,7 @@ msgstr ""
 msgid "unable to install packages"
 msgstr ""
 
-msgid ""
-"Would you like to create a personal library\n"
-"%s\n"
-"to install packages into?"
+msgid "Would you like to create a personal library\n%s\nto install packages into?"
 msgstr ""
 
 msgid "unable to create %s"
@@ -743,9 +710,7 @@ msgstr ""
 msgid "cannot install Windows binary packages on this platform"
 msgstr ""
 
-msgid ""
-"This version of R is not set up to install source packages\n"
-"If it was installed from an RPM, you may need the R-devel RPM"
+msgid "This version of R is not set up to install source packages\nIf it was installed from an RPM, you may need the R-devel RPM"
 msgstr ""
 
 msgid "system (cmd0): %s"
@@ -760,26 +725,13 @@ msgstr ""
 msgid "files: %s"
 msgstr ""
 
-msgid "Windows default 'timeout' command is not usable for parallel installs"
-msgstr ""
-
 msgid "timeouts for parallel installs require the 'timeout' command"
 msgstr ""
 
-msgid "installation of package %s failed"
+msgid "installation of one or more packages failed,\n  probably %s"
 msgstr ""
 
-msgid "installation of %d packages failed:  %s"
-msgstr ""
-
-msgid ""
-"installation of %d packages failed:\n"
-"  %s"
-msgstr ""
-
-msgid ""
-"The downloaded source packages are in\n"
-"\t%s"
+msgid "The downloaded source packages are in\n\t%s"
 msgstr ""
 
 msgid "The namespace for package \"%s\" is locked; no changes in the global variables list may be made."
@@ -801,7 +753,7 @@ msgid "must have 'max' > 'min'"
 msgstr ""
 
 msgid "'pb' is not from class %s"
-msgstr "\"pb\" ليس من الفئة ‫‪%s"
+msgstr ""
 
 msgid "cannot determine a usable name"
 msgstr ""
@@ -983,7 +935,7 @@ msgstr ""
 msgid "The number of tokens is not consistent across 'x'"
 msgstr ""
 
-msgid "cannot coerce %s to TRUE or FALSE"
+msgid "cannot coerce %s to logical"
 msgstr ""
 
 msgid "no lines found in %s"
@@ -1076,9 +1028,7 @@ msgstr ""
 msgid "invalid gid value replaced by that for user 'nobody'"
 msgstr ""
 
-msgid ""
-"vignette %s found more than once,\n"
-"using the one found in %s"
+msgid "vignette %s found more than once,\nusing the one found in %s"
 msgstr ""
 
 msgid "vignette %s not found"
@@ -1123,7 +1073,13 @@ msgstr ""
 msgid "attempt to set '%s' ignored"
 msgstr ""
 
+msgid "'unzip' must be a single character string"
+msgstr ""
+
 msgid "'files' must be a character vector specifying one or more filepaths"
+msgstr ""
+
+msgid "argument 'zip' must be a non-empty character string"
 msgstr ""
 
 msgid "cannot find program to open 'mailto:' URIs: reverting to 'method=\"none\"'"
@@ -1156,9 +1112,6 @@ msgstr ""
 msgid "'curl' call had nonzero exit status"
 msgstr ""
 
-msgid "invalid method:"
-msgstr ""
-
 msgid "download had nonzero exit status"
 msgstr ""
 
@@ -1171,9 +1124,7 @@ msgstr ""
 msgid "package %s successfully unpacked and MD5 sums checked"
 msgstr ""
 
-msgid ""
-"ERROR: failed to lock directory %s for modifying\n"
-"Try removing %s"
+msgid "ERROR: failed to lock directory %s for modifying\nTry removing %s"
 msgstr ""
 
 msgid "ERROR: failed to create lock directory %s"
@@ -1188,9 +1139,7 @@ msgstr ""
 msgid "cannot remove prior installation of package %s"
 msgstr ""
 
-msgid ""
-"The downloaded binary packages are in\n"
-"\t%s"
+msgid "The downloaded binary packages are in\n\t%s"
 msgstr ""
 
 msgid "'memory.size()' is Windows-specific"
@@ -1237,15 +1186,6 @@ msgid_plural "%d Sweave files for basename %s found"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "Output/used file:  "
-msgid_plural "Output/used files:  "
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
-
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"
 msgstr[0] ""
@@ -1290,21 +1230,8 @@ msgid_plural "objects '%s' not found"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "package %s is a base package, and cannot be removed"
-msgid_plural "packages %s are base packages, and cannot be removed"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
-msgstr[4] ""
-msgstr[5] ""
-
-msgid ""
-"Removing package from %s\n"
-"(as %s is unspecified)"
-msgid_plural ""
-"Removing packages from %s\n"
-"(as %s is unspecified)"
+msgid "Removing package from %s\n(as %s is unspecified)"
+msgid_plural "Removing packages from %s\n(as %s is unspecified)"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1313,12 +1240,8 @@ msgid_plural "packages %s are base packages, and should not be updated"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid ""
-"A version of this package for your version of R might be available elsewhere,\n"
-"see the ideas at\n"
-msgid_plural ""
-"Versions of these packages for your version of R might be available elsewhere,\n"
-"see the ideas at\n"
+msgid "A version of this package for your version of R might be available elsewhere,\nsee the ideas at\n"
+msgid_plural "Versions of these packages for your version of R might be available elsewhere,\nsee the ideas at\n"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1342,12 +1265,8 @@ msgid_plural "packages %s are in use and will not be installed"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid ""
-"Installing package into %s\n"
-"(as %s is unspecified)"
-msgid_plural ""
-"Installing packages into %s\n"
-"(as %s is unspecified)"
+msgid "Installing package into %s\n(as %s is unspecified)"
+msgid_plural "Installing packages into %s\n(as %s is unspecified)"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1395,3 +1314,5 @@ msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
 msgstr[0] ""
 msgstr[1] ""
+
+
