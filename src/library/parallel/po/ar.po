@@ -8,107 +8,108 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-03-23 12:08+0000\n"
-"Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.16.4\n"
 
-#: fork.c:223
+#: fork.c:215
 #, c-format
 msgid "unable to terminate child process: %s"
-msgstr "غير قادر على إنهاء العملية الفرعية: %s"
+msgstr ""
 
-#: fork.c:250
+#: fork.c:242
 #, c-format
 msgid "unable to terminate child: %s"
-msgstr "غير قادر على إنهاء العملية الفرعية: %s"
+msgstr ""
 
-#: fork.c:329 fork.c:620 ncpus.c:87 ncpus.c:123 ncpus.c:178
+#: fork.c:321 fork.c:608 ncpus.c:90 ncpus.c:126 ncpus.c:191
 msgid "memory allocation error"
-msgstr "خطأ في تخصيص الذاكرة"
+msgstr ""
 
-#: fork.c:385 fork.c:389 fork.c:393
+#: fork.c:377 fork.c:381 fork.c:385
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "الوسيطة '%s' غير صالحة"
+msgstr ""
 
-#: fork.c:451
-msgid "Error while shutting down parallel: unable to terminate some child processes\n"
-msgstr "خطأ أثناء إيقاف التشغيل بالتوازي: غير قادر على إنهاء بعض العمليات الفرعية\n"
+#: fork.c:443
+msgid ""
+"Error while shutting down parallel: unable to terminate some child "
+"processes\n"
+msgstr ""
 
-#: fork.c:544 fork.c:547
+#: fork.c:532 fork.c:535
 msgid "unable to create a pipe"
-msgstr "غير قادر على إنشاء أنبوب"
+msgstr ""
 
-#: fork.c:569
+#: fork.c:557
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr "غير قادر على الشوكة ، السبب المحتمل: %s"
+msgstr ""
 
-#: fork.c:761
+#: fork.c:749
 msgid "only children can send data to the master process"
-msgstr "يمكن للأطفال فقط إرسال البيانات إلى العملية الرئيسية"
+msgstr ""
 
-#: fork.c:763
+#: fork.c:751
 msgid "there is no pipe to the master process"
-msgstr "لا يوجد أنبوب للعملية الرئيسية"
+msgstr ""
 
-#: fork.c:765
+#: fork.c:753
 msgid "content to send must be RAW, use serialize() if needed"
-msgstr "يجب أن يكون المحتوى المراد إرساله RAW ، استخدم serialize () إذا لزم الأمر"
+msgstr ""
 
-#: fork.c:774 fork.c:785 fork.c:1204
+#: fork.c:762 fork.c:770 fork.c:1180
 msgid "write error, closing pipe to the master"
-msgstr "خطأ في الكتابة ، إغلاق الأنبوب للسيد"
+msgstr ""
 
-#: fork.c:795
+#: fork.c:780
 msgid "only the master process can send data to a child process"
-msgstr "يمكن للعملية الرئيسية فقط إرسال البيانات إلى عملية فرعية"
+msgstr ""
 
-#: fork.c:803
+#: fork.c:788
 #, c-format
 msgid "child %d does not exist"
 msgstr ""
 
-#: fork.c:809
+#: fork.c:794
 msgid "write error"
-msgstr "خطأ في الكتابة"
+msgstr ""
 
-#: fork.c:897
+#: fork.c:880
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
 msgstr ""
 
-#: fork.c:956 fork.c:1083
+#: fork.c:939 fork.c:1059
 #, c-format
 msgid "error '%s' in select"
-msgstr "خطأ \"%s\" في التحديد"
+msgstr ""
 
-#: fork.c:1173
+#: fork.c:1149
 msgid "'mckill' failed"
 msgstr ""
 
-#: fork.c:1186
+#: fork.c:1162
 msgid "'mcexit' can only be used in a child process"
-msgstr "لا يمكن استخدام \"mcexit\" إلا في عملية فرعية"
+msgstr ""
 
-#: fork.c:1218
+#: fork.c:1194
 msgid "'mcexit' failed"
 msgstr ""
 
-#: fork.c:1247 fork.c:1256
+#: fork.c:1223 fork.c:1232
 msgid "invalid CPU affinity specification"
-msgstr "مواصفات تقارب وحدة المعالجة المركزية غير صالحة"
+msgstr ""
 
-#: fork.c:1267
+#: fork.c:1243
 msgid "requested CPU set is too large for this system"
-msgstr "مجموعة وحدة المعالجة المركزية المطلوبة كبيرة جدا لهذا النظام"
+msgstr ""
 
-#: fork.c:1290
+#: fork.c:1266
 msgid "retrieving CPU affinity set failed"
-msgstr "فشل استرداد مجموعة تقارب وحدة المعالجة المركزية"
+msgstr ""
+
