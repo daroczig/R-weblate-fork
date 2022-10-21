@@ -16,7 +16,6 @@ msgstr ""
 msgid "invalid value of %s"
 msgstr "valor inválido de %s"
 
-#, fuzzy
 msgid "need at least one argument"
 msgstr "precisa de pelo menos um argumento"
 
