@@ -129,7 +129,7 @@ msgstr "颜色数值必需大于等于零，现在得到的是%d"
 
 #: colors.c:1510
 msgid "invalid argument type"
-msgstr "参数种类无效"
+msgstr "参数类型无效"
 
 #: colors.c:1521
 msgid "unknown palette (need >= 2 colors)"
