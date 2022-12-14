@@ -921,7 +921,7 @@ msgid "Information on package %s"
 msgstr "关于程序包%s的信息"
 
 msgid "Documentation for package %s"
-msgstr "关于这个程序包%s的说明书"
+msgstr "关于这个程序包%s的文档"
 
 msgid "package %s required by %s could not be found"
 msgstr "找不到%2$s所需要的程序包%1$s"
