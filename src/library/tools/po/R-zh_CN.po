@@ -245,7 +245,7 @@ msgid "Malformed Description field: should contain one or more complete sentence
 msgstr ""
 
 msgid "See section 'The DESCRIPTION file' in the 'Writing R Extensions' manual."
-msgstr "请参考'如何写R附加软件'说明书'写R程序包'这一段中关于DESCRIPTION文件的信息."
+msgstr "请参考'如何写R附加软件'文档'写R程序包'这一段中关于DESCRIPTION文件的信息."
 
 msgid "Malformed Authors@R field:"
 msgstr "畸形Authors@R域."
@@ -555,7 +555,7 @@ msgid "Rd files must have a non-empty %s."
 msgstr "Rd文件里必需要有非空白的%s。"
 
 msgid "See chapter 'Writing R documentation' in manual 'Writing R Extensions'."
-msgstr "请参考说明书'如何写R附加软件'中'如何写R使用文档'这一章."
+msgstr "请参考文档'如何写R附加软件'中'如何写R使用文档'这一章."
 
 msgid "missing/empty \\title field in '%s'"
 msgstr "'%s'里缺少或有空白的\\title域"
