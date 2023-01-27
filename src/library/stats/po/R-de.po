@@ -4,6 +4,7 @@
 # Detlef Steuer <steuer@hsu-hh.de>, 2008-2023.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid "models are not all fitted to the same number of observations"
 msgstr "Modelle sind nicht alle mit der gleichen Datensatzgröße angepasst worden"
