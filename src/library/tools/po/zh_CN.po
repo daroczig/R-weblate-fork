@@ -193,7 +193,7 @@ msgstr "这个平台不支持psnice()"
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr "参数类型无效"
+msgstr "参数种类无效"
 
 #: text.c:225 text.c:247
 msgid "out of memory"
