@@ -245,7 +245,7 @@ msgid "Malformed Description field: should contain one or more complete sentence
 msgstr ""
 
 msgid "See section 'The DESCRIPTION file' in the 'Writing R Extensions' manual."
-msgstr "请参考'如何写R附加软件'文档'写R程序包'这一段中关于DESCRIPTION文件的信息."
+msgstr "请参考'如何写R附加软件'说明书'写R程序包'这一段中关于DESCRIPTION文件的信息."
 
 msgid "Malformed Authors@R field:"
 msgstr "畸形Authors@R域."
@@ -371,7 +371,7 @@ msgid "File %s:"
 msgstr "文件%s:"
 
 msgid "%s has wrong argument list %s"
-msgstr "%s的参数列表%s有误"
+msgstr "%s的参数列表%s不对"
 
 msgid "%s calls:"
 msgstr "%s调用："
@@ -1014,7 +1014,7 @@ msgid "restoration failed"
 msgstr "载入失败"
 
 msgid "invalid value"
-msgstr "无效值"
+msgstr "程序包无效."
 
 msgid "for R_CROSS_BUILD"
 msgstr ""
@@ -1476,7 +1476,7 @@ msgid "Files 'DESCRIPTION' and 'DESCRIPTION.in' are missing."
 msgstr "缺少'DESCRIPTION'和'DESCRIPTION.in'这两个文件"
 
 msgid "invalid package layout"
-msgstr "程序包布局无效"
+msgstr "程序包布局不对"
 
 msgid "*not* using 'C' for LC_COLLATE locale"
 msgstr ""
