@@ -342,7 +342,7 @@ msgid "numbers of columns of arguments do not match"
 msgstr "变量的列数不正确"
 
 msgid "invalid list argument: all variables should have the same length"
-msgstr "列表参数有错误：所有变量的长度都应该是一样的"
+msgstr "列表参数有错：所有变数的长度都应该是一样的"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
 msgstr "结果的列数 %1$d 不是 arg %3$d 的向量长度 %2$d 的倍数"
@@ -372,7 +372,7 @@ msgid "cannot xtfrm data frames"
 msgstr "无法 xtfrm 数据帧"
 
 msgid "all variables should have the same length"
-msgstr "列表参数有错误：所有变量的长度都应该是一样的"
+msgstr "列表参数有错：所有变数的长度都应该是一样的"
 
 msgid "character string is not in a standard unambiguous format"
 msgstr "字符串的格式不足标准明确"
@@ -610,7 +610,7 @@ msgid "level sets of factors are different"
 msgstr "因子的水平集不同"
 
 msgid "invalid factor level, NA generated"
-msgstr "因子水平有错误，产生了NA"
+msgstr "因子水平有错，产生了NA"
 
 msgid "'%s' is not meaningful for ordered factors"
 msgstr "'%s'对順序化的因子没有意义"
@@ -921,7 +921,7 @@ msgid "Information on package %s"
 msgstr "关于程序包%s的信息"
 
 msgid "Documentation for package %s"
-msgstr "关于这个程序包%s的文档"
+msgstr "关于这个程序包%s的说明书"
 
 msgid "package %s required by %s could not be found"
 msgstr "找不到%2$s所需要的程序包%1$s"
