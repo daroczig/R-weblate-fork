@@ -635,7 +635,7 @@ msgid "'recursive' will be ignored as 'to' is not a single existing directory"
 msgstr "'recursive' será ignorado já que 'to' não é um único diretório existente"
 
 msgid "cannot overwrite a non-directory with a directory"
-msgstr "impossível sobrescrever um não-diretório com um diretório"
+msgstr "impossível sobrescrever um não diretório com um diretório"
 
 msgid "directories are omitted unless 'recursive = TRUE'"
 msgstr ""
@@ -665,7 +665,7 @@ msgid "invalid 'time' argument"
 msgstr "argumento 'time' inválido"
 
 msgid "'vec' must be sorted non-decreasingly and not contain NAs"
-msgstr "'vec' deve ser ordenado de forma não-decrescente e não conter NAs"
+msgstr "'vec' deve ser ordenado de forma não decrescente e não conter NAs"
 
 msgid "'fun' is not a function"
 msgstr "'fun' não é uma função"
@@ -1628,7 +1628,7 @@ msgid "'bin' must be numeric or a factor"
 msgstr "'bin' deve ser numérico ou um fator"
 
 msgid "invalid value of %s"
-msgstr "valor inválido de %s"
+msgstr "valor de %s inválido"
 
 msgid "'X' must be a data frame when 'INDEX' is a formula"
 msgstr ""
