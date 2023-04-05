@@ -357,6 +357,7 @@ msgstr "itens de lista demais (no máximo %d)"
 msgid "no vector columns were selected"
 msgstr "nenhuma coluna vetorial foi selecionada"
 
+#, fuzzy
 msgid "non-vector columns will be ignored"
 msgstr "colunas não vetoriais serão ignoradas"
 
