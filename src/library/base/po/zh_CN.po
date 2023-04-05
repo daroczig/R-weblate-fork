@@ -1274,7 +1274,7 @@ msgstr "'dimnames'的长度[%d]必需与陈列范围相等"
 #: src/main/attrib.c:1223
 #, c-format
 msgid "invalid second argument, must be %s"
-msgstr "第二个参数无效，必须是  %s"
+msgstr "第二个参数无效，必须是 %s"
 
 #: src/main/attrib.c:1230
 msgid "length-0 dimension vector is invalid"
