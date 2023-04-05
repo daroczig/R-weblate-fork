@@ -980,7 +980,7 @@ msgid "The 'flesh' argument does not contain a skeleton attribute."
 msgstr "'flesh'参数不包含骨架属性"
 
 msgid "Either ensure you unlist a relistable object, or specify the skeleton separately."
-msgstr "你要么得保证你解列表了一个可重新列表的目标对象，要么你得分别指定一个骨架"
+msgstr "你要么得保证你解列表了一个可重新列表的目标对象，要么你得分别设定一个骨架"
 
 msgid "cannot coerce 'x' to roman"
 msgstr "无法将'x'转变成罗马数"
