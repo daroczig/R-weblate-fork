@@ -484,7 +484,7 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr "distâncias deve ser resultado de \"dist\", ou de uma matriz quadrada"
 
 msgid "invalid value of %s"
-msgstr "valor de %s inválido"
+msgstr "valor inválido de %s"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr "'k' deve estar em {1, 2, ..  n - 1}"
