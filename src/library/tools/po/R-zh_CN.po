@@ -1014,7 +1014,7 @@ msgid "restoration failed"
 msgstr "载入失败"
 
 msgid "invalid value"
-msgstr "程序包无效."
+msgstr "无效值"
 
 msgid "for R_CROSS_BUILD"
 msgstr ""
