@@ -371,7 +371,7 @@ msgid "File %s:"
 msgstr "文件%s:"
 
 msgid "%s has wrong argument list %s"
-msgstr "%s的参数列表%s不对"
+msgstr "%s的参数列表%s有误"
 
 msgid "%s calls:"
 msgstr "%s调用："
@@ -555,7 +555,7 @@ msgid "Rd files must have a non-empty %s."
 msgstr "Rd文件里必需要有非空白的%s。"
 
 msgid "See chapter 'Writing R documentation' in manual 'Writing R Extensions'."
-msgstr "请参考文档'如何写R附加软件'中'如何写R使用文档'这一章."
+msgstr "请参考说明书'如何写R附加软件'中'如何写R使用文档'这一章."
 
 msgid "missing/empty \\title field in '%s'"
 msgstr "'%s'里缺少或有空白的\\title域"
@@ -1476,7 +1476,7 @@ msgid "Files 'DESCRIPTION' and 'DESCRIPTION.in' are missing."
 msgstr "缺少'DESCRIPTION'和'DESCRIPTION.in'这两个文件"
 
 msgid "invalid package layout"
-msgstr "程序包布局不对"
+msgstr "程序包布局无效"
 
 msgid "*not* using 'C' for LC_COLLATE locale"
 msgstr ""
