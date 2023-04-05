@@ -95,7 +95,7 @@ msgid "'X' must have named dimnames"
 msgstr "'X' deve ter dimnames nomeados"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr "nem todos elementos de 'MARGIN' são nomes de dimensões"
+msgstr "nem todos os elementos de 'MARGIN' são nomes de dimensões"
 
 msgid "'MARGIN' does not match dim(X)"
 msgstr "'MARGIN' não corresponde a dim(X)"
