@@ -242,7 +242,7 @@ msgid "Invalid fill rule"
 msgstr "'file'无效"
 
 msgid "Invalid pattern type"
-msgstr "字体类型无效"
+msgstr "字体种类无效"
 
 #, fuzzy
 msgid "Invalid 'extend' value"
@@ -286,7 +286,7 @@ msgid "invalid PDF version"
 msgstr "PDF版本无效"
 
 msgid "Invalid font type"
-msgstr "字体类型无效"
+msgstr "字体种类无效"
 
 msgid "invalid family name in font specification"
 msgstr "字体设置里的系列名称无效"
