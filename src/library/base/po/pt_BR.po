@@ -2288,11 +2288,12 @@ msgstr "erro ao escrever na conexão:  %s"
 msgid "Error writing to connection"
 msgstr "Erro ao escrever na conexão"
 
-#: src/main/connections.c:4096 src/main/connections.c:4098
-#: src/main/connections.c:4386 src/main/connections.c:4943
-#: src/main/connections.c:4968 src/main/connections.c:5809 src/main/dcf.c:100
-#: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2458
-#: src/main/source.c:294
+#: src/main/connections.c:4092 src/main/connections.c:4094
+#: src/main/connections.c:4382 src/main/connections.c:4937
+#: src/main/connections.c:4962 src/main/connections.c:5798 src/main/dcf.c:100
+#: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2454
+#: src/main/source.c:293
+#, fuzzy
 msgid "cannot read from this connection"
 msgstr "não é possível ler a partir desta conexão"
 
@@ -8880,3 +8881,4 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
