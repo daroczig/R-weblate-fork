@@ -1628,7 +1628,7 @@ msgid "'bin' must be numeric or a factor"
 msgstr "'bin' deve ser numérico ou um fator"
 
 msgid "invalid value of %s"
-msgstr "valor de %s inválido"
+msgstr "valor inválido de %s"
 
 msgid "'X' must be a data frame when 'INDEX' is a formula"
 msgstr ""
