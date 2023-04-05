@@ -188,10 +188,10 @@ msgid "invalid 'grob' argument"
 msgstr "'grob'参数值无效"
 
 msgid "invalid 'vp' slot"
-msgstr "'vp'类型的值无效"
+msgstr "'vp'类型的值不对"
 
 msgid "invalid 'gp' slot"
-msgstr "'gp'类型的值无效"
+msgstr "'gp'类型的值不对"
 
 msgid "invalid 'grob' class"
 msgstr "'grob'的类别无效"
