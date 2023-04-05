@@ -805,7 +805,7 @@ msgid "wrong embedding dimension"
 msgstr "嵌入维度有误"
 
 msgid "'covmat' is not a valid covariance list"
-msgstr "'covmat'这个协方差列表有错误"
+msgstr "'covmat'这个协方差列表有错"
 
 msgid "neither 'x' nor 'covmat' supplied"
 msgstr "'x'和'covmat'都没有被设定"
@@ -2037,7 +2037,7 @@ msgid "no 'reshapeWide' attribute, must specify 'varying'"
 msgstr "没有'reshapeWide'这个属性，必需指定varying'"
 
 msgid "'varying' must be nonempty list or vector"
-msgstr "'varying'必需是非空列表或向量"
+msgstr "'varying'必需是非空列表或矢量"
 
 msgid "length of 'v.names' does not evenly divide length of 'varying'"
 msgstr "'v.names'的长度不能整除'varying'的长度"
