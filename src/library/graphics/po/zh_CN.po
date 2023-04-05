@@ -493,7 +493,7 @@ msgstr "x/y的值或极限无效"
 
 #: plot3d.c:257
 msgid "invalid contour levels: must be strictly increasing"
-msgstr "等高水平无效: 必需严格增加"
+msgstr "等高水平不对: 必需严格增加"
 
 #: plot3d.c:1049 plot3d.c:1062
 msgid "Axis orientation not calculated"
