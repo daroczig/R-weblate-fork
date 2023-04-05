@@ -949,7 +949,7 @@ msgid "first five rows are empty: giving up"
 msgstr "primeiras cinco linhas estão vazias: desistindo"
 
 msgid "relist() requires recursively unlisted objects."
-msgstr "relist() requer objetos recursivamente não listados."
+msgstr "relist() requer objetos recursivamente deslistados"
 
 msgid "The 'flesh' argument does not contain a skeleton attribute."
 msgstr "O argumento 'flesh' não contém um atributo skeleton."
