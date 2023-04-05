@@ -1518,7 +1518,7 @@ msgstr "无法设置非（向量或列表）的长度"
 
 #: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
 msgid "invalid value"
-msgstr "程序包无效."
+msgstr "无效值"
 
 #: src/main/builtin.c:840
 msgid "length of NULL cannot be changed"
@@ -7007,7 +7007,7 @@ msgstr ""
 
 #: src/main/util.c:842
 msgid "missing value is invalid"
-msgstr "遗漏值无效"
+msgstr "缺失值无效"
 
 #: src/main/util.c:851 src/main/util.c:858
 msgid "cannot change working directory"
