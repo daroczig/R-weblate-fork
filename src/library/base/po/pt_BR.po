@@ -2293,7 +2293,6 @@ msgstr "Erro ao escrever na conexão"
 #: src/main/connections.c:4962 src/main/connections.c:5798 src/main/dcf.c:100
 #: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2454
 #: src/main/source.c:293
-#, fuzzy
 msgid "cannot read from this connection"
 msgstr "não é possível ler a partir desta conexão"
 
