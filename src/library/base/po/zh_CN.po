@@ -4706,7 +4706,7 @@ msgstr ""
 
 #: src/main/memory.c:4129
 msgid "not safe to return vector pointer"
-msgstr "回覆向量指针不是安全的做法"
+msgstr "返回向量指针不是安全的做法"
 
 #: src/main/memory.c:4140
 #, c-format
