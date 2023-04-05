@@ -357,7 +357,6 @@ msgstr "itens de lista demais (no máximo %d)"
 msgid "no vector columns were selected"
 msgstr "nenhuma coluna vetorial foi selecionada"
 
-#, fuzzy
 msgid "non-vector columns will be ignored"
 msgstr "colunas não vetoriais serão ignoradas"
 
@@ -949,7 +948,7 @@ msgid "first five rows are empty: giving up"
 msgstr "primeiras cinco linhas estão vazias: desistindo"
 
 msgid "relist() requires recursively unlisted objects."
-msgstr "relist() requer objetos recursivamente deslistados"
+msgstr "relist() requer objetos recursivamente não listados."
 
 msgid "The 'flesh' argument does not contain a skeleton attribute."
 msgstr "O argumento 'flesh' não contém um atributo skeleton."
@@ -1036,7 +1035,6 @@ msgstr "nenhum evento foi registrado"
 msgid "argument 'compressed' is ignored for the internal method"
 msgstr "argumento 'compressed' é ignorado para o método interno"
 
-#, fuzzy
 msgid "invalid 'tarfile' argument"
 msgstr "argumento 'tarfile' inválido"
 
@@ -1103,7 +1101,6 @@ msgstr "arquivo '%s' não encontrado"
 msgid "file '%s' did not have execute permissions: corrected"
 msgstr "arquivo '%s' não tinha permissões de execução: corrigido"
 
-#, fuzzy
 msgid "file size is limited to 8GB"
 msgstr "o tamanho do arquivo é limitado a 8GB"
 
