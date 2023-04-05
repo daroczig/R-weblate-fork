@@ -330,7 +330,7 @@ msgid "some AR parameters were fixed: setting transform.pars = FALSE"
 msgstr "一些AR参数是固定的：把transform.pars设成FALSE"
 
 msgid "too few non-missing observations"
-msgstr "非缺失的观察量数目不够"
+msgstr "非缺失的观察量数目不足"
 
 msgid "'init' is of the wrong length"
 msgstr "'init'长度有误"
@@ -618,7 +618,7 @@ msgid "Cannot compute exact p-value with ties"
 msgstr "无法给连结计算精确p值"
 
 msgid "'formula' missing or invalid"
-msgstr "'formula'缺失或有错"
+msgstr "'formula'缺失或有错误"
 
 msgid "invalid formula"
 msgstr "公式无效"
@@ -805,7 +805,7 @@ msgid "wrong embedding dimension"
 msgstr "嵌入维度有误"
 
 msgid "'covmat' is not a valid covariance list"
-msgstr "'covmat'这个协方差列表有错"
+msgstr "'covmat'这个协方差列表有错误"
 
 msgid "neither 'x' nor 'covmat' supplied"
 msgstr "'x'和'covmat'都没有被设定"
@@ -2028,7 +2028,7 @@ msgid "'idvar' must uniquely identify records"
 msgstr ""
 
 msgid "there are records with missing times, which will be dropped."
-msgstr "含缺失时间的记录略过不用。"
+msgstr "含缺失时间的记录忽略不用。"
 
 msgid "some constant variables (%s) are really varying"
 msgstr "某些恆量变量(%s)其实在变动"
@@ -2037,7 +2037,7 @@ msgid "no 'reshapeWide' attribute, must specify 'varying'"
 msgstr "没有'reshapeWide'这个属性，必需指定varying'"
 
 msgid "'varying' must be nonempty list or vector"
-msgstr "'varying'必需是非空列表或矢量"
+msgstr "'varying'必需是非空列表或向量"
 
 msgid "length of 'v.names' does not evenly divide length of 'varying'"
 msgstr "'v.names'的长度不能整除'varying'的长度"
