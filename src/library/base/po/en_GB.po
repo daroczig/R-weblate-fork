@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -38,7 +40,6 @@ msgid "initial value in 'vmmin' is not finite"
 msgstr "initial value in 'vmmin' is not finite"
 
 #: src/appl/optim.c:297
-#, fuzzy
 msgid "function cannot be evaluated at initial parameters"
 msgstr "function cannot be evaluated at initial parameters"
 
