@@ -206,6 +206,7 @@ msgstr "sólo se pueden escribir objetos de tipo character"
 msgid "'headers' must have names and must not be NA"
 msgstr "'headers' debe tener nombres y no deben ser NA"
 
+#, fuzzy
 msgid "'name' must be a single character string"
 msgstr "'name' debe ser un string de un solo caracter"
 
@@ -221,6 +222,7 @@ msgstr "argumento 'endian' no válido"
 msgid "can only write vector objects"
 msgstr "sólo se pueden escribir objetos de tipo vector"
 
+#, fuzzy
 msgid "'timeout' must be NULL or a non-negative number"
 msgstr "'timeout' debe ser NULL o un número no negativo"
 
