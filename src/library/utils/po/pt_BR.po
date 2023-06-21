@@ -38,6 +38,7 @@ msgid "cannot open the connection"
 msgstr "não é possível abrir a conexão"
 
 #: io.c:365 io.c:369
+#, fuzzy
 msgid "cannot read from this connection"
 msgstr "não é possível ler a partir desta conexão"
 
