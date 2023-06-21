@@ -80,7 +80,7 @@ msgid "target is %s, current is %s"
 msgstr "objetivo es %s, actualmente es %s"
 
 msgid "'tolerance' should be numeric"
-msgstr "'tolerance' debe ser de tipo numérico"
+msgstr "'tolerance' debe ser numérico"
 
 msgid "'scale' should be numeric or NULL"
 msgstr "'scale' debe ser de tipo numérico o NULL"
