@@ -172,6 +172,7 @@ msgstr "El argumento LINPACK ya no existe desde R 3.1.0"
 msgid "complex matrices not permitted at present"
 msgstr "matrices complejas no permitidas actualmente"
 
+#, fuzzy
 msgid "'x' must be an array of at least two dimensions"
 msgstr "'x' debe ser un array de al menos dos dimensiones"
 
