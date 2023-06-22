@@ -16,6 +16,7 @@ msgstr ""
 msgid "named list expected"
 msgstr "se espera lista con nombres"
 
+#, fuzzy
 msgid "some named values are not arguments to the supplied log-likelihood"
 msgstr ""
 "algunos valores con nombres no son argumentos para la verosimilitud "
