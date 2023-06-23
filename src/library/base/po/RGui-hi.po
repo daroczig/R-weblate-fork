@@ -906,6 +906,7 @@ msgstr "डेटाएंट्री: आंतरिक मेमोरी �
 #: src/library/utils/src/windows/dataentry.c:1265
 msgid "dataentry: internal memory error"
 msgstr "डेटाएंट्री: आंतरिक मेमोरी त्रुटि"
+msgstr ""
 
 #: src/library/utils/src/windows/dataentry.c:786
 #: src/library/utils/src/windows/dataentry.c:799
