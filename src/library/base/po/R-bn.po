@@ -26,7 +26,7 @@ msgid "See help(\"Defunct\")"
 msgstr "help(\"Defunct\") দেখুন"
 
 msgid "'%s' is deprecated."
-msgstr "'%s' এখানে অপ্রচলিত।"
+msgstr "'%s' এখন অপ্রচলিত।"
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
 msgstr "help(\"Deprecated\") এবং help(\"%s-deprecated\") দেখুন।"
