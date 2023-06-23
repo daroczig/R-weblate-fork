@@ -4,6 +4,7 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -735,7 +737,6 @@ msgstr "无法为“DllInfo”分配空间"
 msgid "path too long"
 msgstr "路径太长"
 
-#: src/main/Rdynload.c:1225 src/main/Rdynload.c:1242 src/main/util.c:840
 msgid "character argument expected"
 msgstr "需要字符参数"
 
@@ -1194,11 +1195,7 @@ msgstr "无法在符号上设置属性"
 #: src/main/attrib.c:407
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-<<<<<<< HEAD
-msgstr "'names' 的类型（%s）无效：必须是向量或为NULL"
-=======
 msgstr "'names'的类型(%s)无效: 必需是向量"
->>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
@@ -1240,11 +1237,7 @@ msgstr "无法设非适当'class'属性"
 #: src/main/attrib.c:926
 #, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-<<<<<<< HEAD
-msgstr "在类 '%s' 的 S4 对象上使用 names()<- 无效"
-=======
 msgstr "在非向量类别('%s')里不能用names()<-来设'names'这个类型"
->>>>>>> f5b22048 (resolve conflict in src/library/base/po/zh_CN.po)
 
 #: src/main/attrib.c:968
 msgid "incompatible 'names' argument"
@@ -4093,7 +4086,6 @@ msgstr "剪裁多重线的时候内存不足"
 msgid "contextstack overflow (%s:%d:%d)"
 msgstr "节点堆叠上溢"
 
-#: src/main/gram.y:2382 src/main/gram.y:2388 src/main/gram.y:2410
 #, c-format
 msgid "unexpected input"
 msgstr "意外的输入"
@@ -8820,5 +8812,6 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
 
 
