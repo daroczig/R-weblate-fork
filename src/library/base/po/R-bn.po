@@ -26,7 +26,7 @@ msgid "See help(\"Defunct\")"
 msgstr "help(\"Defunct\") দেখুন"
 
 msgid "'%s' is deprecated."
-msgstr "'%s' এখন অপ্রচলিত।"
+msgstr "'%s' এখানে অপ্রচলিত।"
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
 msgstr "help(\"Deprecated\") এবং help(\"%s-deprecated\") দেখুন।"
@@ -37,6 +37,7 @@ msgstr "help(\"Deprecated\") দেখুন"
 msgid "argument to 'La.svd' must be numeric or complex"
 msgstr "'La.svd' এর আর্গুমেন্ট অবশ্যই সংখ্যাসূচক অথবা জটিল সংখ্যা হতে হবে"
 
+#, fuzzy
 msgid "infinite or missing values in 'x'"
 msgstr "'x' অসীম অথবা এর কিছু সংখ্যা অনুপস্থিত"
 
