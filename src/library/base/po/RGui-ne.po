@@ -912,6 +912,7 @@ msgstr "डाटाएन्ट्री: आन्तरिक मेमोर
 #: src/library/utils/src/windows/dataentry.c:1263
 msgid "dataentry: internal memory error"
 msgstr "डाटाएन्ट्री: आन्तरिक मेमोरी समस्या"
+msgstr ""
 
 #: src/library/utils/src/windows/dataentry.c:785
 #: src/library/utils/src/windows/dataentry.c:798
