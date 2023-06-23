@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -4213,7 +4215,7 @@ msgstr "\\U{xxxxxxxx}顺序无效(%d行)"
 
 #: src/main/gram.y:3099
 #, fuzzy, c-format
-msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
+msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
 msgstr "“\\%c”转义符号在以“%s”开头的字符串中无法识别"
 
 #: src/main/gram.y:3180 src/main/gram.y:3320
