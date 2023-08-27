@@ -4,6 +4,7 @@
 # 陈斐 <feic@normipaiva.com>, 2007.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: Rmd5.c:57 Rsha256.c:70
+
+#: Rmd5.c:47
 msgid "argument 'files' must be character"
 msgstr "参数'files'必需是字符"
 
