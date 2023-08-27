@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -12,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -5882,6 +5884,9 @@ msgstr ""
 #: src/main/saveload.c:2131
 msgid "loaded data is not in pair list form"
 msgstr ""
+
+msgid "arguments imply differing number of rows: %s"
+msgstr "तर्क अलग-अलग पंक्तियों की संख्या दर्शाते हैं: %s"
 
 #: src/main/saveload.c:2167
 #, fuzzy
