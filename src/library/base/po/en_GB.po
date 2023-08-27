@@ -366,9 +366,9 @@ msgstr "character string expected as first argument"
 msgid "character string expected as third argument"
 msgstr "character string expected as third argument"
 
-#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:359
-#: src/modules/internet/libcurl.c:362 src/modules/internet/libcurl.c:365
-#: src/modules/internet/libcurl.c:370 src/modules/internet/libcurl.c:406
+#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
+#: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
+#: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
 #, c-format
 msgid "invalid %s argument"
 msgstr "invalid %s argument"
@@ -3340,6 +3340,7 @@ msgstr "invalid hcl colour"
 
 #: src/main/envir.c:2096
 #, fuzzy
+#: src/main/envir.c:2066
 msgid "first argument has length > 1"
 msgstr "first argument has length > 1"
 
@@ -8081,3 +8082,5 @@ msgstr "WARNING: Only editing the first in the list of files"
 
 #~ msgid "invalid gray level, must be in [0,1]."
 #~ msgstr "invalid grey level, must be in [0,1]."
+
+
