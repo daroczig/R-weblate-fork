@@ -4990,7 +4990,19 @@ msgstr ""
 msgid "OpenMP SIMD is not supported in this build of R"
 msgstr ""
 
-#: src/main/options.c:844
+msgid "See help(\"Defunct\")"
+msgstr "help(\"Defunct\") हेर्नुहोस्"
+
+msgid "'%s' is defunct."
+msgstr ""
+
+msgid "Use '%s' instead."
+msgstr ""
+
+msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
+msgstr ""
+
+#: src/main/options.c:833
 msgid "'PCRE_study' has no effect with PCRE2"
 msgstr ""
 
