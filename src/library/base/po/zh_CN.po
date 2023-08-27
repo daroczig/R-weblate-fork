@@ -6,6 +6,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1197,7 +1199,7 @@ msgstr "无法在符号上设置属性"
 #: src/main/attrib.c:407
 #, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-msgstr "'names'的类型(%s)无效: 必需是向量"
+msgstr "'names' 的类型（%s）无效：必须是向量或为NULL"
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
@@ -1239,7 +1241,7 @@ msgstr "无法设非适当'class'属性"
 #: src/main/attrib.c:926
 #, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-msgstr "在非向量类别('%s')里不能用names()<-来设'names'这个类型"
+msgstr "在类 '%s' 的 S4 对象上使用 names()<- 无效"
 
 #: src/main/attrib.c:968
 msgid "incompatible 'names' argument"
@@ -1779,7 +1781,6 @@ msgstr "参数列表无效"
 #: src/main/coerce.c:1798
 #, c-format
 msgid "'length = %lld' in coercion to '%s'"
-msgstr ""
 
 #: src/main/coerce.c:2143
 msgid "type \"single\" unimplemented in R"
@@ -1998,7 +1999,11 @@ msgstr "区组太大"
 msgid "allocation of fifo name failed"
 msgstr "先进先出名称分配失败"
 
-#: src/main/connections.c:1394
+#: src/main/connections.c:1336
+msgid "allocation of fifo name failed"
+msgstr "先进先出名称分配失败"
+
+#: src/main/connections.c:1283
 #, c-format
 msgid "cannot open fifo '%s', reason '%s'"
 msgstr "无法打开 fifo '%s'，原因为“%s”"
@@ -8814,6 +8819,7 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
 
 
 
