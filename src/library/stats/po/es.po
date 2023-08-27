@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -232,7 +234,7 @@ msgstr ""
 "Error FEXACT 6 (f5xact). LDKEY=%d es demasiado pequeño para este problema: kval=%d.\n"
 "Intente aumentar el tamaño del espacio de trabajo."
 
-#: fexact.c:1420
+#: fexact.c:1417
 #, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
@@ -271,9 +273,9 @@ msgstr "Se requieren series con valores vectoriales (multivariantes)"
 msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
 msgstr "nextn() no encontró solución < %d = INT_MAX (el entero máximo); pase '0+ n' en lugar de 'n'"
 
-#: fourier.c:225
-#, fuzzy, c-format
-msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
+#: fourier.c:233
+#, c-format
+msgid "nextn<64>() found no solution < %ld = UINT64_MAX (the maximal integer)"
 msgstr "nextn<64>() no encontró solución < %ld = UINT64_MAX (el entero máximo)"
 
 #: fourier.c:241
@@ -974,3 +976,5 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
 #~ msgstr "Error en fexact3, it[i=%d]=%d: clave negativa %d (kyy=%d)\n"
+
+
