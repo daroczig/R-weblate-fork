@@ -4,6 +4,7 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid "models are not all fitted to the same number of observations"
 msgstr "模型拟合时没有用同样大小的数据集"
@@ -2502,7 +2504,7 @@ msgstr[0] "有%d个错误项，但最多只允许有一个"
 
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] "'split'列表里的名称%s不正确"
+msgstr[0] "'split'列表里的名字%s不正确"
 
 #, fuzzy
 msgid "extra argument %s is not of class \"%s\""
@@ -2886,3 +2888,4 @@ msgstr[0] "'start.innov'太短了，需要%d个点"
 
 #~ msgid "link not available for quasibinomial family, available links are \"logit\", \", \"\"probit\" and \"cloglog\""
 #~ msgstr "quasibinomial分布族里没有\"%s\"这一鏈結函数；可以用的鏈結是\"logit\", \", \"\"probit\"和\"cloglog\""
+
