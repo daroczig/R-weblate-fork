@@ -307,7 +307,7 @@ msgid "inserting method into non-methods-list object (class %s)"
 msgstr "无法将方法插入非方法列表对象(类别为%s)"
 
 msgid "invalid method sublist"
-msgstr "方法子列表有错"
+msgstr "方法子列表有错误"
 
 msgid "%f is not a valid generic function: methods list was an object of class %s"
 msgstr "%f不是正确的泛型函数: 方法列表是类别为%s的对象"
@@ -322,13 +322,13 @@ msgid "trying to match a method signature to an object (of class %s) that is not
 msgstr "无法将方法标记同一个不是泛型函数的对象(类别是%s)相对应起来"
 
 msgid "invalid 'package' slot or attribute, wrong length"
-msgstr "'package'类型或属性出了错，其长度不对"
+msgstr "'package'类型或属性出了错，其长度无效"
 
 msgid "invalid element in a list for \"signature\" argument; element %d is neither a class definition nor a class name"
 msgstr "\"signature\"参数里列表元素出了错；第%d个元素不是类别定义出不是类别名称"
 
 msgid "trying to match a method signature of class %s; expects a list or a character vector"
-msgstr "无法同类别为%s的方法标记相对应; 必需用列表或字符矢量"
+msgstr "无法同类别为%s的方法标记相对应; 必需用列表或字符向量"
 
 msgid "object to use as a method signature for function %s does not look like a legitimate signature (a vector of single class names): there were %d class names, but %d elements in the signature object"
 msgstr "为函数%1$s作为方法标记而用的对象看来不象是合法的标记(单类别名称向量)：一共有%2$d类别名称，但标记对象里只有%3$d个元素"
@@ -403,7 +403,7 @@ msgid "potential cycle in class inheritance: %s has duplicates in superclasses a
 msgstr "类别继承里有可能有循环: %s在父类别和子类别(%s)里有重复"
 
 msgid "undefined slot classes in definition of %s: %s"
-msgstr "在%s的定义中不存在这种类型类别: %s"
+msgstr "在%s的定义中不存在这类型型类别: %s"
 
 msgid "(class %s)"
 msgstr "(类别%s)"
@@ -626,7 +626,7 @@ msgid "%s is not a generic function (or not visible here)"
 msgstr "%s不是泛型函数(或从这儿看不到)"
 
 msgid "invalid element in the \"groupMembers\" slot (class %s)"
-msgstr "\"groupMembers\"类型里的單元不对(类别为%s)"
+msgstr "\"groupMembers\"类型里的單元无效(类别为%s)"
 
 msgid "argument f must be a generic function with signature \"...\""
 msgstr "参数f必需是带\"...\"标记的泛型函数"
@@ -964,7 +964,7 @@ msgid "slot %s: class %s should extend class %s"
 msgstr "类型%s：类别%s无法扩充类别%s"
 
 msgid "invalid S4 class corresponding to S3 class: slots in  S4 version must extend corresponding slots in S3 version: fails for %s"
-msgstr "与S3类别相对应的S4类别不对：S4类别里的类型必需擴充类别S3中相应的类型：%s出了错"
+msgstr "与S3类别相对应的S4类别无效：S4类别里的类型必需擴充类别S3中相应的类型：%s出了错"
 
 msgid "explicit coercion of old-style class (%s) is not defined"
 msgstr "旧式类别(%s)的明确强制转换没有定义"
@@ -1279,7 +1279,7 @@ msgstr[0] "重复类型名: %s"
 
 msgid "invalid name for slot of class %s: %s"
 msgid_plural "invalid names for slots of class %s: %s"
-msgstr[0] "类别%s的类型的名字不对：%s"
+msgstr[0] "类别%s的类型的名字无效：%s"
 
 msgid ""
 "multiple definition of class %s visible (%s); using the definition\n"
