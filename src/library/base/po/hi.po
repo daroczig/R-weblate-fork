@@ -5574,6 +5574,9 @@ msgstr ""
 msgid "incorrect number of probabilities"
 msgstr ""
 
+msgid "dim(x) must have a positive length"
+msgstr "dim(X) की लंबाई की संख्या घनात्मक होनी चाहिए"
+
 #: src/main/random.c:531
 msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
 msgstr ""
