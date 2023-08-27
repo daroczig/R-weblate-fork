@@ -4,6 +4,7 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid "Checking %s"
 msgstr "%s 检查中"
@@ -137,6 +139,9 @@ msgstr "使用文档对象'%s'里\\usage赋值:"
 #, fuzzy
 msgid "Bad \\usage lines found in Rd file '%s':"
 msgstr "使用文档对象'%s'有些\\usage不对:"
+
+msgid "Bad \\usage lines found in documentation object '%s':"
+msgstr "使用文档对象'%s'有些\\usage不正确:"
 
 #, fuzzy
 msgid "S3 methods shown with full name in Rd file '%s':"
@@ -350,6 +355,9 @@ msgstr "使用文档对象'%s'缺少联结:"
 #, fuzzy
 msgid "Non-file package-anchored link(s) in Rd file '%s':"
 msgstr "使用文档对象'%s'联结可能不对:"
+
+msgid "Non-file package-anchored link(s) in documentation object '%s':"
+msgstr "使用文档对象'%s'联结可能不正确:"
 
 #, fuzzy
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
