@@ -2,6 +2,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -15,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -456,12 +458,15 @@ msgstr "clase incorrecta"
 msgid "binary '+' is not defined for \"POSIXt\" objects"
 msgstr "el operador binario '+' no esta definido para objetos \"POSIXt\""
 
+#, fuzzy
 msgid "can only subtract from \"POSIXt\" objects"
 msgstr "solo se puede sustraer de objetos \"POSIXt\""
 
+#, fuzzy
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr "el operador unitario - no está definido para objetos \"POSIXt”"
+msgstr "el unario \"-\" no está definido para objetos \"POSIXt\""
 
+#, fuzzy
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 
@@ -510,9 +515,11 @@ msgstr "ambos argumentos de * no pueden ser objetos \"difftime\""
 msgid "second argument of / cannot be a \"difftime\" object"
 msgstr "el segundo argumento de / no puede ser un objeto \"difftime\""
 
+#, fuzzy
 msgid "'from' must be a \"POSIXt\" object"
 msgstr "'from' debe ser un objeto \"POSIXt\""
 
+#, fuzzy
 msgid "'to' must be a \"POSIXt\" object"
 msgstr "'to' debe ser un objeto \"POSIXt\""
 
@@ -523,9 +530,7 @@ msgstr "el subíndice del componente debe ser una cadena de caracteres"
 msgid "no Olson database found"
 msgstr "base de datos Olson no encontrada"
 
-msgid "No element named \"%s\" found in x, did you mean x[, \"%1$s\"] instead?"
-msgstr ""
-
+#, fuzzy
 msgid "'file' must be a character string or connection"
 msgstr "'file' debe ser una conexión o cadena de caracteres"
 
@@ -2068,4 +2073,6 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
+
+
 
