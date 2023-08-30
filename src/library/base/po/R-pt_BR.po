@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -376,7 +378,9 @@ msgid "list of length %d not meaningful"
 msgstr "lista de comprimento %d sem sentido"
 
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr "somente definido para um data frame com todas as variáveis numéricas ou similares"
+msgstr ""
+"somente definido para um data frame com todas as variáveis numéricas ou "
+"similares"
 
 msgid "cannot xtfrm data frames"
 msgstr "não é possível aplicar xtfrm a um data frame"
@@ -2278,5 +2282,6 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valor inválido"
+
 
 
