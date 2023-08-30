@@ -3,98 +3,95 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-21 03:05+0000\n"
-"Last-Translator: Natalia Labadie <nlabadie.fbioyf@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 msgid "models are not all fitted to the same number of observations"
-msgstr "No todos los modelos se han ajustado usando el mismo número de observaciones"
+msgstr ""
 
 msgid "empty model supplied"
-msgstr "Se ha suministrado un Modelo vacío"
+msgstr ""
 
 msgid "'acf' must be of length two or more"
-msgstr "«ACF» debe tener longitud de dos o más"
+msgstr ""
 
 msgid "object not interpretable as a factor"
-msgstr "El objeto no es interpretable como factor"
+msgstr ""
 
 msgid "cannot fit models without level ('alpha' must not be 0 or FALSE)"
-msgstr "No se puede ajustar modelos sin un nivel ('alpha' no debe ser 0 o FALSO)"
+msgstr ""
 
 msgid "'alpha', 'beta' and 'gamma' must be within the unit interval"
-msgstr "'alpha', 'beta' y 'gamma' deben estar dentro del intervalo unitario"
+msgstr ""
 
 msgid "data must be non-zero for multiplicative Holt-Winters"
-msgstr "Los datos deben ser distintos de cero para Holt-Winters Multiplicativo"
+msgstr ""
 
 msgid "need at least 2 periods to compute seasonal start values"
-msgstr "Necesita al menos 2 períodos para calcular los valores iniciales de estacionalidad"
+msgstr ""
 
 msgid "invalid length(x)"
-msgstr "Longitud no válida para x: length(x)"
+msgstr ""
 
 msgid "optimization difficulties: %s"
-msgstr "dificultades de optimización: %s"
+msgstr ""
 
 msgid "optimization failure"
-msgstr "fallo de optimización"
+msgstr ""
 
 msgid "time series has no or less than 2 periods"
-msgstr "la serie temporal no tiene periodos o tiene menos de 2 periodos"
+msgstr ""
 
 msgid "the series is entirely NA"
-msgstr "la serie está compuesta totalmente por NA"
+msgstr ""
 
 msgid "frequency must be a positive integer >= 2 for BSM"
-msgstr "la frecuencia debe ser un entero positivo >= 2 para BSM"
+msgstr ""
 
 msgid "only implemented for univariate time series"
-msgstr "solo implementado para series temporales univariadas"
+msgstr ""
 
 msgid "'x' must be numeric"
-msgstr "'x' debe ser numérico"
+msgstr ""
 
 msgid "the first value of the time series must not be missing"
-msgstr "el primer valor de la serie temporal no puede estar ausente"
+msgstr ""
 
 msgid "all parameters were fixed"
-msgstr "todos los parámetros se fijaron"
+msgstr ""
 
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
-msgstr "posible problema de convergencia: 'optim' ha dado código = %d y mensaje %s"
+msgstr ""
 
 msgid "no factors in the fitted model"
-msgstr "no hay factores en el modelo ajustado"
+msgstr ""
 
 msgid "'which' specified no factors"
-msgstr "'which' no especificaba ningún factor"
+msgstr ""
 
 msgid "'which' specified some non-factors which will be dropped"
-msgstr "'which' especificó algunos no-factores que se eliminarán"
+msgstr ""
 
 msgid "'sampleT' and 'nser' must be integer"
-msgstr "Las variables 'sampleT y 'nser' deben ser enteros"
+msgstr ""
 
 msgid "'lag.max' must be at least 0"
-msgstr "'lag.max' debe ser al menos 0"
+msgstr ""
 
 msgid "'lag.max' must be at least 1"
-msgstr "'lag.max' debe ser al menos 1"
+msgstr ""
 
-#, fuzzy
 msgid "NAs in 'x'"
-msgstr "NAs en 'x'"
+msgstr ""
 
-#, fuzzy
 msgid "x$lag must have at least 1 column"
-msgstr "x$lag debe tener al menos 1 columna"
+msgstr ""
 
 msgid "can use ci.type=\"ma\" only if first lag is 0"
 msgstr ""
@@ -103,62 +100,55 @@ msgid "Page [%d,%d]: i =%s; j =%s"
 msgstr ""
 
 msgid "univariate time series only"
-msgstr "solo series temporales univariantes"
+msgstr ""
 
 msgid "no terms in scope"
-msgstr "Sin términos en el ámbito de trabajo"
+msgstr ""
 
 msgid "no terms in scope for adding to object"
 msgstr ""
 
 msgid "number of rows in use has changed: remove missing values?"
-msgstr "el número de filas en uso ha cambiado: ¿Eliminar los valores que faltan?"
+msgstr ""
 
 msgid "attempting model selection on an essentially perfect fit is nonsense"
-msgstr "no tiene sentido intentar seleccionar un modelo en un ajuste esencialmente perfecto"
+msgstr ""
 
 msgid "F test assumes quasi%s family"
-msgstr "la prueba F asume que la familia es quasi%s"
+msgstr ""
 
 msgid "no 'add1' method implemented for \"mlm\" models"
-msgstr "no se implementó el método 'add1' para los modelos \"mlm”"
+msgstr ""
 
 msgid "scope is not a subset of term labels"
 msgstr ""
 
 msgid "no 'drop1' method for \"mlm\" models"
-msgstr "no hay método 'drop1' para los modelos \"mlm\""
+msgstr ""
 
 msgid "F test assumes 'quasi%s' family"
-msgstr "la prueba F asume que la familia es ‘quasi%s’"
+msgstr ""
 
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
-msgstr "La AIC no está definida para este modelo, entonces 'step' no puede proceder"
+msgstr ""
 
 msgid "AIC is -infinity for this model, so 'step' cannot proceed"
-msgstr "el AIC es -infinito para este modelo, por lo que 'step' no puede proceder"
-
-#, fuzzy
-msgid "'A' must be an array or table"
-msgstr "'A' debe ser una matriz o tabla"
-
-#, fuzzy
-msgid ""
-"length of FUN, %d,\n"
-" does not match the length of the margins, %d"
 msgstr ""
-"longitud de FUN, %d,\n"
-" no coincide con la longitud de los márgenes, %d"
+
+msgid "'A' must be an array or table"
+msgstr ""
+
+msgid "length of FUN, %d,\n does not match the length of the margins, %d"
+msgstr ""
 
 msgid "no rows to aggregate"
-msgstr "no hay filas para combinar"
+msgstr ""
 
-#, fuzzy
 msgid "'by' must be a list"
-msgstr "'by' debe ser una lista"
+msgstr ""
 
 msgid "arguments must have same length"
-msgstr "los argumentos deben tener la misma longitud"
+msgstr ""
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
 msgstr ""
@@ -488,7 +478,7 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
 
 msgid "invalid value of %s"
-msgstr "valor invalido de %s"
+msgstr ""
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr ""
@@ -592,7 +582,7 @@ msgstr ""
 msgid "'V' is not a square numeric matrix"
 msgstr ""
 
-msgid "diag(V) had non-positive or NA entries; the non-finite result may be dubious"
+msgid "diag(.) had 0 or NA entries; non-finite result is doubtful"
 msgstr ""
 
 msgid "'x' must be a numeric vector"
@@ -847,9 +837,7 @@ msgstr ""
 msgid "non-integer counts in a %s glm!"
 msgstr ""
 
-msgid ""
-"for the '%s' family, y must be a vector of 0 and 1's\n"
-"or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
+msgid "for the '%s' family, y must be a vector of 0 and 1's\nor a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
 
 msgid "cannot simulate from non-integer prior.weights"
@@ -979,7 +967,7 @@ msgid "wrong method"
 msgstr ""
 
 msgid "'file' must be a character string or connection"
-msgstr "'file' debe ser una conexión o cadena de caracteres"
+msgstr ""
 
 msgid "'row.var.names' missing"
 msgstr ""
@@ -1266,9 +1254,7 @@ msgstr ""
 msgid "argument 'p' must be numeric"
 msgstr ""
 
-msgid ""
-"numeric y must be supplied.\n"
-"For density estimation use density()"
+msgid "numeric y must be supplied.\nFor density estimation use density()"
 msgstr ""
 
 msgid "'k' is not an integer"
@@ -1304,9 +1290,7 @@ msgstr ""
 msgid "essentially perfect fit: summary may be unreliable"
 msgstr ""
 
-msgid ""
-"lm object does not have a proper 'qr' component.\n"
-" Rank zero or should not have used lm(.., qr=FALSE)."
+msgid "lm object does not have a proper 'qr' component.\n Rank zero or should not have used lm(.., qr=FALSE)."
 msgstr ""
 
 msgid "simulate() is not yet implemented for multivariate lm()"
@@ -1519,9 +1503,7 @@ msgstr ""
 msgid "design is unbalanced so cannot proceed"
 msgstr ""
 
-msgid ""
-"Standard error information not returned as design is unbalanced. \n"
-"Standard errors can be obtained through 'se.contrast'."
+msgid "Standard error information not returned as design is unbalanced. \nStandard errors can be obtained through 'se.contrast'."
 msgstr ""
 
 msgid "SEs for type '%s' are not yet implemented"
@@ -1567,9 +1549,6 @@ msgid "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`
 msgstr ""
 
 msgid "'termobj' must be a object of class %s"
-msgstr ""
-
-msgid "setting '%s' in terms.formula() is deprecated"
 msgstr ""
 
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
@@ -1749,9 +1728,7 @@ msgstr ""
 msgid "method L-BFGS-B uses 'factr' (and 'pgtol') instead of 'reltol' and 'abstol'"
 msgstr ""
 
-msgid ""
-"one-dimensional optimization by Nelder-Mead is unreliable:\n"
-"use \"Brent\" or optimize() directly"
+msgid "one-dimensional optimization by Nelder-Mead is unreliable:\nuse \"Brent\" or optimize() directly"
 msgstr ""
 
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
@@ -1772,9 +1749,7 @@ msgstr ""
 msgid "too few groups"
 msgstr ""
 
-msgid ""
-"not plotting observations with leverage one:\n"
-"  %s"
+msgid "not plotting observations with leverage one:\n  %s"
 msgstr ""
 
 msgid "use only with \"lm\" objects"
@@ -1789,9 +1764,7 @@ msgstr ""
 msgid "y is empty or has only NAs"
 msgstr ""
 
-msgid ""
-"hat values (leverages) are all = %s\n"
-" and there are no factor predictors; no plot no. 5"
+msgid "hat values (leverages) are all = %s\n and there are no factor predictors; no plot no. 5"
 msgstr ""
 
 msgid "'x' and 'T' have incompatible length"
@@ -2019,6 +1992,9 @@ msgstr ""
 msgid "invalid 'endrule' argument"
 msgstr ""
 
+msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
+msgstr ""
+
 msgid "invalid 'control.spar'"
 msgstr ""
 
@@ -2209,9 +2185,6 @@ msgid "'y' is missing for paired test"
 msgstr ""
 
 msgid "data are essentially constant"
-msgstr ""
-
-msgid "cannot use 'paired' in formula method"
 msgstr ""
 
 msgid "'main' must be TRUE, FALSE, NULL or character (vector)."
@@ -2435,7 +2408,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 msgid "extra argument %s is not of class \"%s\""
-msgid_plural "extra arguments %s are not of class \"%s\""
+msgid_plural "extra arguments %s are not of class \"%s\"s"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -2548,3 +2521,4 @@ msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
 msgstr[0] ""
 msgstr[1] ""
+
