@@ -3,17 +3,18 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-08-30 14:09+0000\n"
+"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "invalid value of %s"
-msgstr ""
+msgstr "%s कि संख्या अमान्य है"
 
 msgid "need at least one argument"
 msgstr ""
@@ -32,30 +33,31 @@ msgstr ""
 
 msgid "no cluster 'cl' supplied and none is registered"
 msgstr ""
+"नाही कोई समूह (cluster) 'cl' उपलब्ध करवया गाय है नाही कोई दर्ज किया गाय है"
 
 msgid "not a valid cluster"
-msgstr ""
+msgstr "मान्य समूह नही है"
 
 msgid "unknown cluster type"
-msgstr ""
+msgstr "अज्ञात प्रकार का समूह"
 
 msgid "numeric 'names' must be >= 1"
-msgstr ""
+msgstr "संखीकीय 'names' का >= 1 हो ना अनिवार्य है"
 
 msgid "node of a socket cluster on host %s with pid %d"
 msgstr ""
 
 msgid "Connection setup failed or timed out."
-msgstr ""
+msgstr "संपर्त्क स्प्रथापना कि प्रक्रिया असफल हुई या समय सीमा से बाहर|"
 
 msgid "PORT must be specified"
-msgstr ""
+msgstr "पोर्ट (PORT) का उल्लेख करना अनिवार्य है"
 
 msgid "'nnodes' must be >= 1"
-msgstr ""
+msgstr "'न्नोदेस' कि संख्या >= 1 होना अनिवार्य है"
 
 msgid "Cluster setup failed."
-msgstr ""
+msgstr "समूह स्थापना असफल|"
 
 msgid "invalid 'child' argument"
 msgstr ""
@@ -73,10 +75,10 @@ msgid "'what' must be a character or raw vector"
 msgstr ""
 
 msgid "'mc.cores' must be >= 1"
-msgstr ""
+msgstr "'ms.core' कि संख्या >= 1 होना अनिवार्य है"
 
 msgid "affinity.list and X must have the same length"
-msgstr ""
+msgstr "affinity.list और X कि लंबायी समान होनी चाहिय"
 
 msgid "%d function calls resulted in an error"
 msgstr ""
