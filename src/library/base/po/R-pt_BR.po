@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -202,7 +204,7 @@ msgid "condition handlers must be functions"
 msgstr "gerenciadores de condições devem ser funções"
 
 msgid "pushing duplicate `%s` handler on top of the stack"
-msgstr "levando gerenciador de `%s` duplicado ao topo do stack"
+msgstr "levando gerenciador de `%s` duplicado ao topo da pilha"
 
 msgid "argument 'where' of length 0"
 msgstr "argumento 'where' com comprimento 0"
