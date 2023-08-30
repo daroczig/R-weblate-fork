@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -12,6 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid ""
 "RShowDoc() should be used with a character string argument specifying\n"
@@ -27,7 +29,7 @@ msgid "document not found"
 msgstr "documento não encontrado"
 
 msgid "some options in argument 'restrict' were not recognized and hence ignored"
-msgstr "algumas opções do argumento 'restrict' não foram reconhecidas e portanto ignoradas"
+msgstr "algumas op"
 
 msgid "argument 'format' is deprecated and has no affect on search results"
 msgstr "o argumento 'format' está obsoleto e não tem efeito nos resultados da busca"
@@ -1465,3 +1467,4 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
