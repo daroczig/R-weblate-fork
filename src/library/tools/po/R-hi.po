@@ -3,15 +3,14 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-08-31 20:16+0000\n"
-"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 msgid "Checking %s"
 msgstr ""
@@ -55,13 +54,13 @@ msgstr ""
 msgid "directory '%s' does not contain Rd objects"
 msgstr ""
 
-msgid "Functions or methods with usage in Rd file '%s' but not in code:"
+msgid "Functions or methods with usage in documentation object '%s' but not in code:"
 msgstr ""
 
-msgid "Data with usage in Rd file '%s' but not in code:"
+msgid "Data with usage in documentation object '%s' but not in code:"
 msgstr ""
 
-msgid "Variables with usage in Rd file '%s' but not in code:"
+msgid "Variables with usage in documentation object '%s' but not in code:"
 msgstr ""
 
 msgid "Argument names in code not in docs:"
@@ -82,7 +81,7 @@ msgstr ""
 msgid "Mismatches in argument default values:"
 msgstr ""
 
-msgid "Codoc mismatches from Rd file '%s':"
+msgid "Codoc mismatches from documentation object '%s':"
 msgstr ""
 
 msgid "Code: %s"
@@ -91,37 +90,37 @@ msgstr ""
 msgid "Docs: %s"
 msgstr ""
 
-msgid "S4 class codoc mismatches from Rd file '%s':"
+msgid "S4 class codoc mismatches from documentation object '%s':"
 msgstr ""
 
 msgid "Slots for class '%s'"
 msgstr ""
 
-msgid "Data codoc mismatches from Rd file '%s':"
+msgid "Data codoc mismatches from documentation object '%s':"
 msgstr ""
 
 msgid "Variables in data frame '%s'"
 msgstr ""
 
-msgid "Undocumented arguments in Rd file '%s'"
+msgid "Undocumented arguments in documentation object '%s'"
 msgstr ""
 
-msgid "Duplicated \\argument entries in Rd file '%s':"
+msgid "Duplicated \\argument entries in documentation object '%s':"
 msgstr ""
 
-msgid "Documented arguments not in \\usage in Rd file '%s':"
+msgid "Documented arguments not in \\usage in documentation object '%s':"
 msgstr ""
 
-msgid "Objects in \\usage without \\alias in Rd file '%s':"
+msgid "Objects in \\usage without \\alias in documentation object '%s':"
 msgstr ""
 
-msgid "Assignments in \\usage in Rd file '%s':"
+msgid "Assignments in \\usage in documentation object '%s':"
 msgstr ""
 
-msgid "Bad \\usage lines found in Rd file '%s':"
+msgid "Bad \\usage lines found in documentation object '%s':"
 msgstr ""
 
-msgid "S3 methods shown with full name in Rd file '%s':"
+msgid "S3 methods shown with full name in documentation object '%s':"
 msgstr ""
 
 msgid "you must specify 'package', 'dir' or 'file'"
@@ -130,17 +129,16 @@ msgstr ""
 msgid "file '%s' does not exist"
 msgstr ""
 
-msgid ""
-"parse error in file '%s':\n"
-"%s"
+msgid "parse error in file '%s':\n%s"
 msgstr ""
 
 msgid "cannot check R code installed as image"
 msgstr ""
 
-msgid ""
-"parse error in examples from file '%s':\n"
-"%s"
+msgid "parse error in file '%s':"
+msgstr ""
+
+msgid "parse error in examples from file '%s':"
 msgstr ""
 
 msgid "File '%s':"
@@ -263,9 +261,6 @@ msgstr ""
 msgid "Unknown encoding with non-ASCII data"
 msgstr ""
 
-msgid "Record: %d Field(s): %s"
-msgstr ""
-
 msgid "Non-standard license specification:"
 msgstr ""
 
@@ -287,12 +282,6 @@ msgstr ""
 msgid "License components which are templates and need '+ file LICENSE':"
 msgstr ""
 
-msgid "License stub is invalid DCF."
-msgstr ""
-
-msgid "License stub records with missing/empty fields:"
-msgstr ""
-
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
 
@@ -308,10 +297,10 @@ msgstr ""
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
 msgstr ""
 
-msgid "Missing link or links in Rd file '%s':"
+msgid "Missing link or links in documentation object '%s':"
 msgstr ""
 
-msgid "Non-file package-anchored link(s) in Rd file '%s':"
+msgid "Non-file package-anchored link(s) in documentation object '%s':"
 msgstr ""
 
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
@@ -464,24 +453,19 @@ msgstr ""
 msgid "Invalid package aliases in Rd file '%s':"
 msgstr ""
 
-msgid "Argument items with no description in Rd file '%s':"
+msgid "Argument items with no description in Rd object '%s':"
 msgstr ""
 
-msgid "Auto-generated content requiring editing in Rd file '%s':"
+msgid "Auto-generated content requiring editing in Rd object '%s':"
 msgstr ""
 
-msgid "Rd files without \\description:"
+msgid "Rd objects without \\description:"
 msgstr ""
 
 msgid "no Rd sections specified"
 msgstr ""
 
-msgid ""
-"Generics 'g' in 'env' %s where '%s' errors: %s\n"
-"May need something like\n"
-"\n"
-"%s\n"
-"in NAMESPACE."
+msgid "Generics 'g' in 'env' %s where '%s' errors: %s\nMay need something like\n\n%s\nin NAMESPACE."
 msgstr ""
 
 msgid "concordance is not valid"
@@ -616,14 +600,10 @@ msgstr ""
 msgid "--- re-building %s using %s"
 msgstr ""
 
-msgid ""
-"Error: processing vignette '%s' failed with diagnostics:\n"
-"%s"
+msgid "Error: processing vignette '%s' failed with diagnostics:\n%s"
 msgstr ""
 
-msgid ""
-"Error: tangling vignette '%s' failed with diagnostics:\n"
-"%s"
+msgid "Error: tangling vignette '%s' failed with diagnostics:\n%s"
 msgstr ""
 
 msgid "--- finished re-building %s"
@@ -710,14 +690,10 @@ msgstr ""
 msgid "processing %s"
 msgstr ""
 
-msgid ""
-"running %s on vignette '%s' failed with message:\n"
-"%s"
+msgid "running %s on vignette '%s' failed with message:\n%s"
 msgstr ""
 
-msgid ""
-"compiling TeX file %s failed with message:\n"
-"%s"
+msgid "compiling TeX file %s failed with message:\n%s"
 msgstr ""
 
 msgid "cannot copy '%s' to '%s'"
@@ -928,7 +904,7 @@ msgid "restoration failed"
 msgstr ""
 
 msgid "invalid value"
-msgstr "अमान्य संख्या"
+msgstr ""
 
 msgid "for R_CROSS_BUILD"
 msgstr ""
@@ -1056,10 +1032,7 @@ msgstr ""
 msgid "Reverted installation-time patch"
 msgstr ""
 
-msgid ""
-"See\n"
-"  %s\n"
-"for details."
+msgid "See\n  %s\nfor details."
 msgstr ""
 
 msgid "namespace must not be already loaded"
@@ -1086,15 +1059,7 @@ msgstr ""
 msgid "package seems to be using lazy loading already"
 msgstr ""
 
-msgid "'files' and 'bytes' are mutually exclusive"
-msgstr ""
-
-msgid "'bytes' must be a raw vector"
-msgstr ""
-
-msgid ""
-"Cannot process chunk/lines:\n"
-"%s"
+msgid "Cannot process chunk/lines:\n%s"
 msgstr ""
 
 msgid "DESCRIPTION file not found"
@@ -1109,36 +1074,19 @@ msgstr ""
 msgid "Could not extract news from the following text chunks:"
 msgstr ""
 
-msgid ""
-"Chunk %s:\n"
-"%s"
+msgid "Chunk %s:\n%s"
 msgstr ""
 
-msgid ""
-"Cannot extract version info from the following section titles:\n"
-"%s"
+msgid "Cannot extract version info from the following section titles:\n%s"
 msgstr ""
 
-msgid ""
-"Malformed NEWS.Rd file:\n"
-"Chunk starting\n"
-"  %s\n"
-"contains no \\itemize."
+msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\itemize."
 msgstr ""
 
-msgid ""
-"Malformed NEWS.Rd file:\n"
-"Chunk starting\n"
-"  %s\n"
-"contains more than one \\itemize.\n"
-"Using the first one."
+msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains more than one \\itemize.\nUsing the first one."
 msgstr ""
 
-msgid ""
-"Malformed NEWS.Rd file:\n"
-"Chunk starting\n"
-"  %s\n"
-"contains no \\item."
+msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\item."
 msgstr ""
 
 msgid "Processing packages:"
@@ -1147,15 +1095,7 @@ msgstr ""
 msgid "Invalid DESCRIPTION file for package %s"
 msgstr ""
 
-msgid ""
-"reading DESCRIPTION for package %s failed with message:\n"
-"  %s"
-msgstr ""
-
-msgid "unable to create temporary directory %s"
-msgstr ""
-
-msgid "expected one package directory, found %d."
+msgid "reading DESCRIPTION for package %s failed with message:\n  %s"
 msgstr ""
 
 msgid "argument '%s' must be a character string or connection"
@@ -1281,9 +1221,7 @@ msgstr ""
 msgid "OFF"
 msgstr ""
 
-msgid ""
-"]\n"
-"Detected PACKAGES file with"
+msgid "]\nDetected PACKAGES file with"
 msgstr ""
 
 msgid "entries at"
@@ -1479,12 +1417,8 @@ msgid_plural "Generics without any methods in %s: %s"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid ""
-"missing/empty \\name field in Rd file\n"
-"%s"
-msgid_plural ""
-"missing/empty \\name field in Rd files\n"
-"%s"
+msgid "missing/empty \\name field in Rd file\n%s"
+msgid_plural "missing/empty \\name field in Rd files\n%s"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1532,3 +1466,5 @@ msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] ""
 msgstr[1] ""
+
+
