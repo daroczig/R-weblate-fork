@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the R package.
 # Fernando Henrique Ferraz P. da Rosa <feferraz@ime.usp.br>, 2005.
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -16,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -447,7 +449,7 @@ msgstr "opção '%s' requer um argumento não vazio"
 #: src/gnuwin32/system.c:1299 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
-msgstr "ATENÇÃO: '-e %s' omitido por entrada ser muito grande\n"
+msgstr "ATENÇÃO: '-e %s' omitido na entrada por ser muito grande\n"
 
 #: src/gnuwin32/system.c:1303 src/unix/system.c:458
 #, c-format
