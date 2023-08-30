@@ -4,6 +4,7 @@
 # Fernando Henrique Ferraz P. da Rosa <feferraz@ime.usp.br>, 2005.
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -487,12 +489,12 @@ msgstr "índice ausente"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
-msgstr "ALERTA: nenhum valor fornecido para --encoding"
+msgstr "ATENÇÃO: nenhum valor especificado para --encoding"
 
 #: src/main/CommandLineArgs.c:201
 #, c-format
 msgid "WARNING: option '%s' no longer supported"
-msgstr "ATENÇÃO: opção '%s' não é mais suportada"
+msgstr "ATENÇÃO: opção '%s' não mais suportada"
 
 #: src/main/CommandLineArgs.c:212
 #, c-format
@@ -1794,8 +1796,8 @@ msgstr "predicativo não implementado"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() aplicado a um objeto diferente de lista ou vetor de tipo '%s'"
 
-#: src/main/coerce.c:2530 src/main/coerce.c:2591 src/main/coerce.c:2667
-#, fuzzy, c-format
+#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
+#, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "tipo não implementado '%s' em '%s'"
 
@@ -3567,7 +3569,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Mensagens de aviso perdidas\n"
 
-#: src/main/errors.c:613
+#: src/main/errors.c:602
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Mensagen de aviso:"
@@ -3578,14 +3580,14 @@ msgstr[1] "Mensagens de aviso:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:676
+#: src/main/errors.c:665
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "Houve %d aviso (use warnings() para vê-lo)"
 msgstr[1] "Houve %d avisos (use warnings() para vê-los)"
 
-#: src/main/errors.c:681
+#: src/main/errors.c:670
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
 msgstr "Houve %d ou mais avisos (use warnings() para ver os primeiros %d)"
@@ -8882,4 +8884,6 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
+
 
