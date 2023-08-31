@@ -6,6 +6,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -3638,7 +3640,7 @@ msgstr "opção inválida \"error\"\n"
 #: src/modules/lapack/Lapack.c:895
 #, c-format
 msgid "'%s' must be a character string"
-msgstr "'%s' deve ser uma string"
+msgstr "'%s' deve ser uma string de caracteres"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
