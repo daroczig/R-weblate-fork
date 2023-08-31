@@ -608,7 +608,7 @@ msgid "changing locked binding for %s in %s whilst loading %s"
 msgstr "alterando vinculação travada para %s em %s enquanto carrega %s"
 
 msgid "changing locked binding for %s in %s"
-msgstr "alterando vinculação bloqueada para %s em %s"
+msgstr "alterando vinculação travada para %s em %s"
 
 msgid "'fixInNamespace' requires a name"
 msgstr "'fixInNamespace' requer um nome"
@@ -1480,6 +1480,7 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
 
 
 
