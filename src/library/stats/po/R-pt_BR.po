@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -841,7 +843,8 @@ msgid "%s link not recognised"
 msgstr "%s link não reconhecido"
 
 msgid "link \"%s\" not available for %s family; available links are %s"
-msgstr "link \"%s\" não está disponível para a família %s; links disponíveis são %s"
+msgstr ""
+"link \"%s\" não está disponível para a família %s; links disponíveis são %s"
 
 msgid "negative values not allowed for the 'Poisson' family"
 msgstr "valores negativos não são permitidos para a família 'Poisson'"
@@ -885,7 +888,9 @@ msgid "positive values only are allowed for the 'inverse.gaussian' family"
 msgstr "valores positivos permitidos somente para a família 'inverse.gaussian'"
 
 msgid "need CRAN package 'SuppDists' for simulation from the 'inverse.gaussian' family"
-msgstr "necessário pacote CRAN 'SuppDists' para simulação da família 'inverse.gaussian'"
+msgstr ""
+"necessário pacote CRAN 'SuppDists' para simulação da família 'inverse."
+"gaussian'"
 
 msgid "using weights as inverse variances"
 msgstr "usando pesos como variâncias inversas"
@@ -2786,6 +2791,7 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
 
