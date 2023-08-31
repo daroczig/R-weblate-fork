@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -353,9 +355,9 @@ msgstr "'names' não é um vetor de caracteres"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"expanded path length %llu would be too long for\n"
+"expanded path length %d would be too long for\n"
 "%s\n"
 msgstr ""
 "o comprimento do caminho expandido %d seria longo demais para\n"
@@ -8888,6 +8890,7 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
 
 
