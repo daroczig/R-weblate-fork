@@ -5,6 +5,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -273,7 +275,7 @@ msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
 msgstr "colunas de 'contrast.obj' devem definir um contraste (somatório zero)"
 
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
-msgstr "'ties' não é \"ordered\", uma função ou lista(<string>, <function>)"
+msgstr "'ties'não é \"ordered\", uma função ou list(<string>, <function>)"
 
 msgid "collapsing to unique 'x' values"
 msgstr "colapsando para valores de 'x' únicos"
@@ -420,7 +422,7 @@ msgid "there must be at least 2 observations in each group"
 msgstr "deve haver ao menos duas observações em cada grupo"
 
 msgid "'formula' should be of the form response ~ group"
-msgstr "'formula' deve ser do formato resposta ~ grupo"
+msgstr "'formula' deve ser no formato resposta ~ grupo"
 
 msgid "'x' must be nonnegative and integer"
 msgstr "'x' deve ser inteiro e não negativo"
@@ -492,7 +494,7 @@ msgid "NA values not allowed in 'd'"
 msgstr "valores NA não permitidos em 'd'"
 
 msgid "eig=TRUE is disregarded when list.=FALSE"
-msgstr "eig=TRUE é ignorado quando list.=FALSE"
+msgstr "eig=TRUE é desconsiderado quando list.=FALSE"
 
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
 msgstr "x-ret=TRUE é desconsiderado quando list.=FALSE"
@@ -788,7 +790,8 @@ msgid "x[] and prob[] must be equal length vectors."
 msgstr "x[] e prob[] devem ser vetores de comprimento igual."
 
 msgid "probabilities must be finite, non-negative and not all 0"
-msgstr "probabilidades devem ser finitas, não-negativas e ao menos uma diferente de 0"
+msgstr ""
+"probabilidades devem ser finitas, não-negativas e ao menos uma diferente de 0"
 
 msgid "'x' must be non-negative"
 msgstr "'x' deve ser não-negativo"
@@ -873,7 +876,8 @@ msgid ""
 "or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
 "para a família '%s', y deve ser um vetor de 0 e 1's\n"
-"ou uma matriz de 2 colunas onde col 1 é o número de sucessos e col 2 é o número de falhas"
+"ou uma matriz de 2 colunas onde col 1 é o número de sucessos e col 2 é o "
+"número de falhas"
 
 msgid "cannot simulate from non-integer prior.weights"
 msgstr "não é possível simular a partir de prior.weights não-inteiros"
@@ -1127,7 +1131,8 @@ msgid "observations with zero weight not used for calculating dispersion"
 msgstr "observações com peso zero não foram usadas para calcular dispersão"
 
 msgid "The \"ward\" method has been renamed to \"ward.D\"; note new \"ward.D2\""
-msgstr "O método \"ward\" foi renomeado para \"ward\". D\"; note novo \"ward. D2\""
+msgstr ""
+"O método \"ward\" foi renomeado para \"ward\". D\"; note novo \"ward. D2\""
 
 msgid "invalid clustering method"
 msgstr "método de agrupamento inválido"
@@ -1253,7 +1258,8 @@ msgid "'x' is a list, so ignoring argument 'g'"
 msgstr "'x' é uma lista, portanto ignorando o argumento 'g'"
 
 msgid "some elements of 'x' are not numeric and will be coerced to numeric"
-msgstr "alguns elementos de 'x' não são numéricos e serão convertidos a numéricos"
+msgstr ""
+"alguns elementos de 'x' não são numéricos e serão convertidos a numéricos"
 
 msgid "not enough 'x' data"
 msgstr "insuficientes dados 'x'"
@@ -1274,7 +1280,9 @@ msgid "'y' must be numeric or a function or a string naming a valid function"
 msgstr "'y' deve ser numérico ou uma string nomeando uma função válida"
 
 msgid "ties should not be present for the one-sample Kolmogorov-Smirnov test"
-msgstr "não devem existir empates no teste de Kolmogorov-Smirnov de apenas uma amostra"
+msgstr ""
+"não devem existir empates no teste de Kolmogorov-Smirnov de apenas uma "
+"amostra"
 
 msgid "invalid arguments"
 msgstr "argumentos inválidos"
@@ -1286,7 +1294,9 @@ msgid "argument 'q' must be numeric"
 msgstr "argumento 'q ' deve ser numérico"
 
 msgid "computation of exact probability failed, returning Monte Carlo approximation"
-msgstr "a computação da probabilidade exata falhou, retornando a aproximação de Monte Carlo"
+msgstr ""
+"a computação da probabilidade exata falhou, retornando a aproximação de "
+"Monte Carlo"
 
 msgid "argument 'p' must be numeric"
 msgstr "argumento 'p ' deve ser numérico"
@@ -1373,7 +1383,9 @@ msgid "predictions on current data refer to _future_ responses"
 msgstr "predições sobre dados atuais fazem referência a respostas _futuras_"
 
 msgid "assuming prediction variance inversely proportional to weights used for fitting"
-msgstr "assumindo variância de predição inversamente proporcional aos pesos utilizados para o ajuste"
+msgstr ""
+"assumindo variância de predição inversamente proporcional aos pesos "
+"utilizados para o ajuste"
 
 msgid "Assuming constant prediction variance even though model fit is weighted"
 msgstr "Assumindo variância da predição constante mesmo quando o ajuste do modelo é ponderado"
@@ -1594,16 +1606,15 @@ msgid "'termlabels' must be a character vector of length at least one"
 msgstr "'termlabels' deve ser um vetor de caracteres com um comprimento de pelo menos um"
 
 msgid "'%s' must be a character string"
-msgstr "'%s' deve ser uma string de caracteres"
+msgstr "'%s' deve ser uma string"
 
 msgid "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
-msgstr "'response' não parseável \"%s\"; o uso foi descontinuado. Use as.name(.) ou `.. `!"
+msgstr ""
+"'response' não parseável \"%s\"; o uso foi descontinuado. Use as.name(.) ou `"
+".. `!"
 
 msgid "'termobj' must be a object of class %s"
 msgstr "'termobj' deve ser um objeto da classe %s"
-
-msgid "setting '%s' in terms.formula() is deprecated"
-msgstr ""
 
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
 msgstr "variável '%s' foi ajustada com tipo \"%s\" mas tipo \"%s\" foi fornecido"
@@ -1681,7 +1692,9 @@ msgid "no sign change found in %d iterations"
 msgstr "nenhuma alteração de sinal encontrada em %d iterações"
 
 msgid "did not succeed extending the interval endpoints for f(lower) * f(upper) <= 0"
-msgstr "não foi possível estender os limites do intervalo para f(inferior) * f(superior) <= 0"
+msgstr ""
+"não foi possível estender os limites do intervalo para f(inferior) * "
+"f(superior) <= 0"
 
 msgid "f() values at end points not of opposite sign"
 msgstr "valores f() nas extremidades não têm sinais opostos"
@@ -1851,25 +1864,32 @@ msgid "'r' must be a single positive number"
 msgstr "'r' deve ser um único número positivo"
 
 msgid "exactly one of 'n', 'delta', 'sd', 'power', and 'sig.level' must be NULL"
-msgstr "exatamente um de 'n', 'delta', 'sd', 'power' e 'sig.level' deve ser NULL"
+msgstr ""
+"exatamente um de 'n', 'delta', 'sd', 'power' e 'sig.level' deve ser NULL"
 
 msgid "exactly one of 'n', 'p1', 'p2', 'power', and 'sig.level' must be NULL"
 msgstr "exatamente um de 'n', 'p1', 'p2', 'power' e 'sig.level' deve ser NULL"
 
 msgid "No p1 in [0, p2] can be found to achieve the desired power"
-msgstr "Nenhum p1 em [0, p2] pode ser encontrado para alcançar a potência desejada"
+msgstr ""
+"Nenhum p1 em [0, p2] pode ser encontrado para alcançar a potência desejada"
 
 msgid "No p2 in [p1, 1] can be found to achieve the desired power"
-msgstr "Nenhum p2 em [p1, 1] pode ser encontrado para alcançar a potência desejada"
+msgstr ""
+"Nenhum p2 em [p1, 1] pode ser encontrado para alcançar a potência desejada"
 
 msgid "No significance level [0, 1] can be found to achieve the desired power"
-msgstr "Nenhum nível de significância [0, 1] pode ser encontrado para alcançar o poder desejado"
+msgstr ""
+"Nenhum nível de significância [0, 1] pode ser encontrado para alcançar o "
+"poder desejado"
 
 msgid "'%s' must be numeric in [0, 1]"
 msgstr "'%s' deve ser numérico em [0, 1]"
 
 msgid "exactly one of 'groups', 'n', 'between.var', 'within.var', 'power', and 'sig.level' must be NULL"
-msgstr "exatamente um dentre 'groups', 'n', 'between.var', 'within.var', 'power' e 'sig.level' deve ser NULL"
+msgstr ""
+"exatamente um dentre 'groups', 'n', 'between.var', 'within.var', 'power' e "
+"'sig.level' deve ser NULL"
 
 msgid "number of groups must be at least 2"
 msgstr "o número de grupos deve ser pelo menos 2"
@@ -1902,7 +1922,9 @@ msgid "'newdata' must be a matrix or data frame"
 msgstr "'newdata' deve ser uma matriz ou um quadro de dados"
 
 msgid "'newdata' does not have named columns matching one or more of the original columns"
-msgstr "'newdata' não tem colunas nomeadas que correspondam a uma ou mais das colunas originais"
+msgstr ""
+"'newdata' não tem colunas nomeadas que correspondam a uma ou mais das "
+"colunas originais"
 
 msgid "'newdata' does not have the correct number of columns"
 msgstr "'newdata' não tem o número correto de colunas"
@@ -2016,10 +2038,13 @@ msgid "'varying' must be nonempty list or vector"
 msgstr "'varying' deve ser uma lista ou vetor não vazio"
 
 msgid "length of 'v.names' does not evenly divide length of 'varying'"
-msgstr "comprimento de 'v.names' não divide uniformemente o comprimento de 'varying'"
+msgstr ""
+"comprimento de 'v.names' não divide uniformemente o comprimento de 'varying'"
 
 msgid "length of 'varying' must be the product of length of 'v.names' and length of 'times'"
-msgstr "comprimento de 'varying' deve ser o produto do comprimento de 'v.names' e o comprimento de 'times'"
+msgstr ""
+"comprimento de 'varying' deve ser o produto do comprimento de 'v.names' e o "
+"comprimento de 'times'"
 
 msgid "'k' must be positive"
 msgstr "'k' deve ser positivo"
@@ -2056,6 +2081,9 @@ msgstr "tentativa de suavizar os valores NA"
 
 msgid "invalid 'endrule' argument"
 msgstr "argumento 'endrule' inválido"
+
+msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
+msgstr ".nknots.smspl() agora é exportado; usá-lo em vez de n.knots()"
 
 msgid "invalid 'control.spar'"
 msgstr "'control.spar' inválido"
@@ -2097,7 +2125,9 @@ msgid "'all.knots' is vector of knots; 'nknots' specification is disregarded"
 msgstr "'all.knots' é um vetor de nós; especificação 'nknots' desconsiderada"
 
 msgid "numeric 'all.knots' must cover [0,1] (= the transformed data-range)"
-msgstr "'all.knots' numérico deve abranger [0,1] (= o intervalo de dados transformado)"
+msgstr ""
+"'all.knots' numérico deve abranger [0,1] (= o intervalo de dados "
+"transformado)"
 
 msgid "'all.knots' is TRUE; 'nknots' specification is disregarded"
 msgstr "'all.knots' é TRUE; especificação 'nknots' desconsiderada"
@@ -2118,7 +2148,8 @@ msgid "'spar' must be of length 1"
 msgstr "'spar' deve ter comprimento 1"
 
 msgid "not using invalid df; must have 1 < df <= n := #{unique x} ="
-msgstr "não usando df inválido; df deve ser tal que 1 < df <= n := #{unique x} ="
+msgstr ""
+"não usando df inválido; df deve ser tal que 1 < df <= n := #{unique x} ="
 
 msgid "NA lev[]; probably smoothing parameter 'spar' way too large!"
 msgstr "NA lev[]; provavelmente suavizando o parâmetro 'spar' muito grande!"
@@ -2791,6 +2822,7 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
 
