@@ -5,6 +5,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -610,7 +612,7 @@ msgid "changing locked binding for %s in %s whilst loading %s"
 msgstr "alterando vinculação bloqueada para %s em %s enquato %s carrega"
 
 msgid "changing locked binding for %s in %s"
-msgstr "alterando vinculação travada para %s em %s"
+msgstr "alterando vinculação bloqueada para %s em %s"
 
 msgid "'fixInNamespace' requires a name"
 msgstr "'fixInNamespace' requer um nome"
@@ -736,6 +738,9 @@ msgstr ""
 "Não é sabido em qual elemento de 'lib' instalar as dependências\n"
 "pulando dependências"
 
+msgid "'%s' must be a character string"
+msgstr "'%s' deve ser uma string de caracteres"
+
 msgid "type 'binary' is not supported on this platform"
 msgstr "tipo 'binary' não é suportado nesta plataforma"
 
@@ -770,7 +775,9 @@ msgid "unable to create temporary directory %s"
 msgstr "não é possível criar diretório temporário %s"
 
 msgid "type == \"both\" can only be used on Windows or a CRAN build for macOS"
-msgstr "type == \"both\" só pode ser usado no Windows ou em um build do CRAN para macOS"
+msgstr ""
+"type == \"both\" só pode ser usado no Windows ou em um build do CRAN para "
+"macOS"
 
 msgid "type == \"both\" cannot be used with 'repos = NULL'"
 msgstr "type == \"both\" não pode ser usado com 'repos = NULL'"
@@ -807,7 +814,9 @@ msgid "files: %s"
 msgstr "arquivos: %s"
 
 msgid "Windows default 'timeout' command is not usable for parallel installs"
-msgstr "O comando 'timeout' padrão do Windows não é utilizável para instalações paralelas"
+msgstr ""
+"O comando 'timeout' padrão do Windows não é utilizável para instalações "
+"paralelas"
 
 msgid "timeouts for parallel installs require the 'timeout' command"
 msgstr "limites de tempo para instalações paralelas requerem o comando 'timeout'"
@@ -1482,6 +1491,8 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
+
 
 
 
