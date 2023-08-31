@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1161,7 +1163,9 @@ msgid "'title' must be NULL or a length-1 character vector"
 msgstr "'title' deve ser NULL ou um vetor de caracteres de comprimento 1"
 
 msgid "Enter one or more numbers separated by spaces and then ENTER, or 0 to cancel"
-msgstr "Digite um ou mais números separados por espaços e, em seguida, ENTER ou 0 para cancelar"
+msgstr ""
+"Digite um ou mais números separados por espaços e, em seguida, ENTER ou 0 "
+"para cancelar"
 
 msgid "Invalid input, please try again"
 msgstr "Entrada inválida, tente novamente"
@@ -1179,7 +1183,7 @@ msgid "'col.names = NA' makes no sense when 'row.names = FALSE'"
 msgstr "'col.names = NA' não faz sentido quando 'row.names = FALSE'"
 
 msgid "invalid 'col.names' specification"
-msgstr "especificação inválida para 'col.names'"
+msgstr "especificação inválida de 'col.names'"
 
 msgid "appending column names to file"
 msgstr "adicionando nomes de colunas ao arquivo"
