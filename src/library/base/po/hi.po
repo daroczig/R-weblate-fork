@@ -1,14 +1,10 @@
 msgid ""
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2023-08-31 20:16+0000\n"
-"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
+"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -16,10 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -117,7 +109,7 @@ msgstr ""
 #: src/gnuwin32/extra.c:98
 #, c-format
 msgid "'%ls' not found"
-msgstr "फ़ाइल '%ls' नहीं मिली"
+msgstr ""
 
 #: src/gnuwin32/extra.c:100
 #, c-format
