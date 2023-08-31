@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -605,7 +607,7 @@ msgid "environment specified is not a package"
 msgstr "ambiente especificado não é um pacote"
 
 msgid "changing locked binding for %s in %s whilst loading %s"
-msgstr "alterando vinculação travada para %s em %s enquanto carrega %s"
+msgstr "alterando vinculação bloqueada para %s em %s enquato %s carrega"
 
 msgid "changing locked binding for %s in %s"
 msgstr "alterando vinculação travada para %s em %s"
