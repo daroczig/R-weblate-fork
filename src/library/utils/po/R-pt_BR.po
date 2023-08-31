@@ -15,6 +15,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -28,6 +29,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -757,7 +759,7 @@ msgstr ""
 "pulando dependências"
 
 msgid "'%s' must be a character string"
-msgstr "'%s' deve ser uma string de caracteres"
+msgstr "'%s' deve ser uma string"
 
 msgid "type 'binary' is not supported on this platform"
 msgstr "tipo 'binary' não é suportado nesta plataforma"
