@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
 "PO-Revision-Date: 2023-08-31 20:16+0000\n"
-"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
+"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -785,7 +785,9 @@ msgstr ""
 #: src/main/Renviron.c:515 src/main/objects.c:1366 src/main/raw.c:207
 #, c-format
 msgid "argument '%s' must be a character string"
-msgstr "अर्गुमेंत (argument) %1$s एक केरेक्टेर (character) स्ट्रिंग (string) होनी चाहिये"
+msgstr ""
+"अर्गुमेंत (argument) %1$s एक केरेक्टेर (character) स्ट्रिंग (string) होनी "
+"चाहिये"
 
 #: src/main/Renviron.c:519
 #, c-format
@@ -889,6 +891,7 @@ msgstr ""
 #: src/modules/X11/devX11.c:3295 src/modules/X11/devX11.c:3300
 #: src/modules/X11/devX11.c:3304 src/modules/X11/devX11.c:3308
 #: src/modules/X11/devX11.c:3313
+#: src/modules/X11/devX11.c:3309
 #, c-format
 msgid "invalid '%s' value"
 msgstr "अमान्य %s संख्या"
@@ -925,7 +928,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr ""
 
-#: src/main/apply.c:343 src/main/coerce.c:2726
+#: src/main/apply.c:343 src/main/coerce.c:2729
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' एक लिस्ट (list) या एक्ष्प्रेशन (expression) होना चाहिए"
@@ -1242,7 +1245,7 @@ msgstr ""
 msgid "'dimnames' applied to non-array"
 msgstr ""
 
-#: src/main/attrib.c:1098 src/main/coerce.c:2729
+#: src/main/attrib.c:1098 src/main/coerce.c:2732
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s ' एक लिस्ट (list) होनी चाहिए"
@@ -1426,7 +1429,7 @@ msgstr "'dim' बहुत बड़ा ऐरे निर्दिष्ट �
 #: src/main/builtin.c:75 src/main/builtin.c:112 src/main/envir.c:1868
 #: src/main/envir.c:1987 src/main/envir.c:2092 src/main/envir.c:2226
 #: src/main/paste.c:103 src/main/paste.c:345 src/main/random.c:481
-#: src/main/random.c:510 src/main/unique.c:2261
+#: src/main/random.c:510 src/main/unique.c:2257
 msgid "invalid first argument"
 msgstr "पेहली आर्गुमेंट (argument) अमान्य है"
 
@@ -1514,7 +1517,7 @@ msgstr ""
 msgid "cannot set length of non-(vector or list)"
 msgstr ""
 
-#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3096
+#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
 msgid "invalid value"
 msgstr "अमान्य संख्या"
 
@@ -7717,7 +7720,9 @@ msgstr ""
 
 #: src/modules/lapack/Lapack.c:1143
 msgid "'size' argument must be a positive integer"
-msgstr "'size' अर्गुमेंत (argument) एक पोझीतीव (positive) इंतीजर (integer) होना चाहिये"
+msgstr ""
+"'size' अर्गुमेंत (argument) एक पोझीतीव (positive) इंतीजर (integer) होना "
+"चाहिये"
 
 #: src/modules/lapack/Lapack.c:1158
 #, c-format
@@ -7966,7 +7971,7 @@ msgstr ""
 msgid "no history available to save"
 msgstr ""
 
-#: src/unix/sys-std.c:1422
+#: src/unix/sys-std.c:1417
 msgid "invalid timestamp"
 msgstr "अमान्य timestamp"
 
@@ -7979,7 +7984,7 @@ msgstr ""
 msgid "non-empty character argument expected"
 msgstr ""
 
-#: src/unix/sys-unix.c:906
+#: src/unix/sys-unix.c:890
 msgid "'intern' must be logical and not NA"
 msgstr "'intern' का लोजिकल (logical) या NA होना अनिवार्य है"
 
@@ -8002,7 +8007,7 @@ msgstr ""
 msgid "error in running command: '%s'"
 msgstr ""
 
-#: src/unix/sys-unix.c:1156
+#: src/unix/sys-unix.c:1140
 msgid "Sys.info() is not implemented on this system"
 msgstr "Sys.info() का इस प्रणाली मे अमल नही है"
 
@@ -8197,4 +8202,5 @@ msgstr ""
 
 #~ msgid "duplicate row.names: %s"
 #~ msgstr "पंक्तियों के नाम समान है"
+
 
