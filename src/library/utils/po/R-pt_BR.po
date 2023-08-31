@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1192,7 +1194,9 @@ msgid "attempt to set '%s' ignored"
 msgstr "tentativa de definir '%s' ignorada"
 
 msgid "'files' must be a character vector specifying one or more filepaths"
-msgstr "'files' deve ser um vetor de caracteres especificando um ou mais caminhos de arquivos"
+msgstr ""
+"'files' deve ser um vetor de caracteres especificando um ou mais caminhos de "
+"arquivos"
 
 msgid "cannot find program to open 'mailto:' URIs: reverting to 'method=\"none\"'"
 msgstr "não foi possível encontrar um programa para abrir URIs 'mailto:': revertendo para 'method=\"none\"'"
@@ -1497,6 +1501,7 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
 
 
 
