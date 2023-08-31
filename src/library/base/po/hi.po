@@ -2,6 +2,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -15,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -115,7 +117,7 @@ msgstr ""
 #: src/gnuwin32/extra.c:98
 #, c-format
 msgid "'%ls' not found"
-msgstr ""
+msgstr "फ़ाइल '%ls' नहीं मिली"
 
 #: src/gnuwin32/extra.c:100
 #, c-format
@@ -261,7 +263,8 @@ msgstr ""
 #: src/modules/lapack/Lapack.c:182 src/modules/lapack/Lapack.c:287
 #: src/modules/lapack/Lapack.c:862 src/modules/lapack/Lapack.c:970
 #: src/modules/lapack/Lapack.c:1032 src/modules/lapack/Lapack.c:1377
-#: src/unix/sys-std.c:1415 src/unix/sys-std.c:1438 src/unix/sys-unix.c:909
+#: src/unix/sys-std.c:1363 src/unix/sys-std.c:1386 src/unix/sys-unix.c:893
+#: src/unix/sys-std.c:1360 src/unix/sys-std.c:1383 src/unix/sys-unix.c:893
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -361,9 +364,9 @@ msgstr ""
 msgid "character string expected as third argument"
 msgstr ""
 
-#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:359
-#: src/modules/internet/libcurl.c:362 src/modules/internet/libcurl.c:365
-#: src/modules/internet/libcurl.c:370 src/modules/internet/libcurl.c:406
+#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
+#: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
+#: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
 #, c-format
 msgid "invalid %s argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -8248,3 +8251,5 @@ msgstr ""
 
 #~ msgid "duplicate row.names: %s"
 #~ msgstr "पंक्तियों के नाम समान है"
+
+
