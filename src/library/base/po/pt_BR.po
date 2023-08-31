@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -495,7 +497,7 @@ msgstr "índice ausente"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
-msgstr "ATENÇÃO: nenhum valor especificado para --encoding"
+msgstr "ALERTA: nenhum valor fornecido para --encoding"
 
 #: src/main/CommandLineArgs.c:201
 #, c-format
@@ -579,7 +581,9 @@ msgstr "RNG_Init: tipo RNG não implementado %d"
 #: src/main/RNG.c:356
 #, c-format
 msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
-msgstr "'. Random.seed' não é um vetor de inteiros, mas do tipo '%s', portanto ignorado"
+msgstr ""
+"'. Random.seed' não é um vetor de inteiros, mas do tipo '%s', portanto "
+"ignorado"
 
 #: src/main/RNG.c:364
 msgid "'.Random.seed[1]' is not a valid integer, so ignored"
@@ -591,7 +595,8 @@ msgstr "'. Random.seed[1]' não é um tipo Normal válido, portanto ignorado"
 
 #: src/main/RNG.c:385
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
-msgstr "'. Random.seed[1] = 5', mas nenhum gerador foi fornecido, então ignorado"
+msgstr ""
+"'. Random.seed[1] = 5', mas nenhum gerador foi fornecido, então ignorado"
 
 #: src/main/RNG.c:390
 msgid "'.Random.seed[1]' is not a valid RNG kind so ignored"
@@ -612,11 +617,14 @@ msgstr "RNGkind: tipo RNG não implementado %d"
 
 #: src/main/RNG.c:509
 msgid "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-Multicarry"
-msgstr "RNGkind: desvios graves da normalidade para Kinderman-Ramage + Marsaglia-Multicarry"
+msgstr ""
+"RNGkind: desvios graves da normalidade para Kinderman-Ramage + Marsaglia-"
+"Multicarry"
 
 #: src/main/RNG.c:512
 msgid "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
-msgstr "RNGkind: desvios da normalidade para Ahrens-Dieter + Marsaglia-Multicarry"
+msgstr ""
+"RNGkind: desvios da normalidade para Ahrens-Dieter + Marsaglia-Multicarry"
 
 #: src/main/RNG.c:516
 msgid "invalid Normal type in 'RNGkind'"
@@ -8890,6 +8898,7 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
 
 
