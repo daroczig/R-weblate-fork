@@ -2,6 +2,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -15,6 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1582,7 +1584,7 @@ msgid "'termlabels' must be a character vector of length at least one"
 msgstr "'termlabels' deve ser um vetor de caracteres com um comprimento de pelo menos um"
 
 msgid "'%s' must be a character string"
-msgstr "'%s' deve ser uma string"
+msgstr "'%s' deve ser uma string de caracteres"
 
 msgid "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
 msgstr "'response' não parseável \"%s\"; o uso foi descontinuado. Use as.name(.) ou `.. `!"
@@ -2779,5 +2781,6 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
