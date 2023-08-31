@@ -9,6 +9,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -22,6 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -655,7 +657,8 @@ msgstr "R_MAX_NUM_DLLS não pode ser maior que %d"
 #: src/main/Rdynload.c:203
 #, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
-msgstr "R_MAX_NUM_DLLS não pode ser maior que %d quando o limite fd não for conhecido"
+msgstr ""
+"R_MAX_NUM_DLLS não pode ser maior que %d quando o limite fd não for conhecido"
 
 #: src/main/Rdynload.c:209 src/main/Rdynload.c:228
 msgid "the limit on the number of open files is too low"
@@ -8898,6 +8901,7 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
 
 
