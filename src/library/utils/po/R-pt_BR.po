@@ -1185,7 +1185,7 @@ msgid "'col.names = NA' makes no sense when 'row.names = FALSE'"
 msgstr "'col.names = NA' não faz sentido quando 'row.names = FALSE'"
 
 msgid "invalid 'col.names' specification"
-msgstr "especificação inválida de 'col.names'"
+msgstr "especificação inválida para 'col.names'"
 
 msgid "appending column names to file"
 msgstr "adicionando nomes de colunas ao arquivo"
@@ -1238,7 +1238,7 @@ msgid "'tar' returned non-zero exit code %d"
 msgstr "'tar' retornou código de saída diferente de zero %d"
 
 msgid "file %s is not a macOS binary package"
-msgstr "arquivo %s não é um pacote binário de macOS"
+msgstr "arquivo %s não é um pacote binário macOS"
 
 msgid "package %s successfully unpacked and MD5 sums checked"
 msgstr "pacote %s desempacotado com sucesso e somas MD5 verificadas"
@@ -1501,6 +1501,7 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
 
 
 
