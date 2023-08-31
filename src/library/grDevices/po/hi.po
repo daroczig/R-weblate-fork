@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-08-31 12:38+0000\n"
-"Last-Translator: Weblate Admin <gergely@rx.studio>\n"
+"PO-Revision-Date: 2023-08-31 20:16+0000\n"
+"Last-Translator: Ayush Bipin Patel <ayush.ap58@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr ""
 #: colors.c:556 cairo/cairoBM.c:617
 #, c-format
 msgid "invalid '%s' value"
-msgstr ""
+msgstr "अमान्य %s संख्या"
 
 #: colors.c:1343
 msgid "invalid hex digit in 'color' or 'lty'"
