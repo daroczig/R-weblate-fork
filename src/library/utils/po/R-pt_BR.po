@@ -13,6 +13,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -26,6 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1207,7 +1209,9 @@ msgstr ""
 "arquivos"
 
 msgid "cannot find program to open 'mailto:' URIs: reverting to 'method=\"none\"'"
-msgstr "não foi possível encontrar um programa para abrir URIs 'mailto:': revertendo para 'method=\"none\"'"
+msgstr ""
+"não foi possível encontrar um programa para abrir URIs 'mailto:': revertendo "
+"para 'method=\"none\"'"
 
 msgid "Using the browser to open a mailto: URI"
 msgstr "Usando o navegador para abrir um URI mailto:"
@@ -1265,7 +1269,7 @@ msgid "restored %s"
 msgstr "%s restaurado"
 
 msgid "unable to move temporary installation %s to %s"
-msgstr "não foi possível mover a instalação temporária de %s para %s"
+msgstr "não foi possível mover a instalação temporária %s para %s"
 
 msgid "cannot remove prior installation of package %s"
 msgstr "não foi possível remover a instalação prévia do pacote %s"
@@ -1296,7 +1300,9 @@ msgid "there is no 'libs' directory in package %s"
 msgstr "não há diretório 'libs' no pacote %s"
 
 msgid "unable to move temporary installation %s to %s, copying instead"
-msgstr "não foi possível mover a instalação temporária %s para %s, copiando em vez disso"
+msgstr ""
+"não foi possível mover a instalação temporária %s para %s, copiando em vez "
+"disso"
 
 msgid "unable to copy temporary installation %s to %s"
 msgstr "não foi possível copiar instalação temporária %s para %s"
@@ -1396,10 +1402,12 @@ msgid_plural ""
 "Versions of these packages for your version of R might be available elsewhere,\n"
 "see the ideas at\n"
 msgstr[0] ""
-"Uma versão deste pacote para a sua versão do R pode estar disponível em outro lugar,\n"
+"Uma versão deste pacote para a sua versão do R pode estar disponível em "
+"outro lugar,\n"
 "veja as ideias em\n"
 msgstr[1] ""
-"Versões destes pacotes para a sua versão do R podem estar disponíveis em outro lugar,\n"
+"Versões destes pacotes para a sua versão do R podem estar disponíveis em "
+"outro lugar,\n"
 "veja as ideias em\n"
 
 msgid "package %s is not available %s"
@@ -1442,18 +1450,28 @@ msgstr[1] "os elementos 'lib' %s não são diretórios graváveis"
 
 msgid "There is a binary version available but the source version is later"
 msgid_plural "There are binary versions available but the source versions are later"
-msgstr[0] "Existe uma versão binária disponível, mas a versão de código-fonte é posterior"
-msgstr[1] "Existem versões binárias disponíveis, mas as versões de código-fonte são posteriores"
+msgstr[0] ""
+"Existe uma versão binária disponível, mas a versão de código-fonte é "
+"posterior"
+msgstr[1] ""
+"Existem versões binárias disponíveis, mas as versões de código-fonte são "
+"posteriores"
 
 msgid "Do you want to install from sources the package which needs compilation?"
 msgid_plural "Do you want to install from sources the packages which need compilation?"
-msgstr[0] "Você deseja instalar do código-fonte o pacote que precisa de compilação?"
-msgstr[1] "Você deseja instalar dos códigos-fonte os pacotes que precisam de compilação?"
+msgstr[0] ""
+"Você deseja instalar do código-fonte o pacote que precisa de compilação?"
+msgstr[1] ""
+"Você deseja instalar dos códigos-fonte os pacotes que precisam de compilação?"
 
 msgid "Package which is only available in source form, and may need compilation of C/C++/Fortran"
 msgid_plural "Packages which are only available in source form, and may need compilation of C/C++/Fortran"
-msgstr[0] "Pacote que só está disponível na forma de código-fonte e pode precisar de compilação de C/C++/Fortran"
-msgstr[1] "Pacotes que só estão disponíveis na forma de código-fonte e podem precisar de compilação de C/C++/Fortran"
+msgstr[0] ""
+"Pacote que só está disponível na forma de código-fonte e pode precisar de "
+"compilação de C/C++/Fortran"
+msgstr[1] ""
+"Pacotes que só estão disponíveis na forma de código-fonte e podem precisar "
+"de compilação de C/C++/Fortran"
 
 msgid "installing the source package %s"
 msgid_plural "installing the source packages %s"
@@ -1462,13 +1480,20 @@ msgstr[1] "instalando os pacotes de código-fonte %s"
 
 msgid "package %s is available as a source package but not as a binary"
 msgid_plural "packages %s are available as source packages but not as binaries"
-msgstr[0] "o pacote %s está disponível como pacote de código-fonte, mas não como binário"
-msgstr[1] "os pacotes %s estão disponíveis como pacotes de código-fonte, mas não como binários"
+msgstr[0] ""
+"o pacote %s está disponível como pacote de código-fonte, mas não como binário"
+msgstr[1] ""
+"os pacotes %s estão disponíveis como pacotes de código-fonte, mas não como "
+"binários"
 
 msgid "There is a binary version available (and will be installed) but the source version is later"
 msgid_plural "There are binary versions available (and will be installed) but the source versions are later"
-msgstr[0] "Existe uma versão binária disponível (e será instalada), mas a versão de código-fonte é posterior"
-msgstr[1] "Existem versões binárias disponíveis (e serão instaladas), mas as versões de código-fonte são posteriores"
+msgstr[0] ""
+"Existe uma versão binária disponível (e será instalada), mas a versão de "
+"código-fonte é posterior"
+msgstr[1] ""
+"Existem versões binárias disponíveis (e serão instaladas), mas as versões de "
+"código-fonte são posteriores"
 
 msgid "last record incomplete, %d line discarded"
 msgid_plural "last record incomplete, %d lines discarded"
@@ -1509,6 +1534,7 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
 
 
 
