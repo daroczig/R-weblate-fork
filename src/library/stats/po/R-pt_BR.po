@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -13,6 +14,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
+
 msgid "models are not all fitted to the same number of observations"
 msgstr "os modelos não foram todos ajustados com o mesmo número de observações"
 
@@ -26,7 +28,9 @@ msgid "object not interpretable as a factor"
 msgstr "objeto não interpretável como fator"
 
 msgid "cannot fit models without level ('alpha' must not be 0 or FALSE)"
-msgstr "não é possível ajustar modelos sem nível especificado ('alpha' não pode ser 0 ou FALSE)"
+msgstr ""
+"não é possível ajustar modelos sem nível especificado ('alpha' não pode ser "
+"0 ou FALSE)"
 
 msgid "'alpha', 'beta' and 'gamma' must be within the unit interval"
 msgstr "'alpha', 'beta' e 'gamma' devem estar dentro do intervalo unitário"
@@ -69,7 +73,8 @@ msgid "all parameters were fixed"
 msgstr "todos os parâmetros fixados"
 
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
-msgstr "possível problema na convergência: 'optim' retornou código = %d e mensagem %s"
+msgstr ""
+"possível problema na convergência: 'optim' retornou código = %d e mensagem %s"
 
 msgid "no factors in the fitted model"
 msgstr "nenhum fator no modelo ajustado"
@@ -2768,3 +2773,4 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
