@@ -3,6 +3,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -16,6 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -646,13 +648,16 @@ msgid "either 'k' or 'h' must be specified"
 msgstr "ou 'k' ou 'h' deve ser especificado"
 
 msgid "the 'height' component of 'tree' is not sorted (increasingly)"
-msgstr "componente 'height' de 'tree' não está ordenada (em ordem crescente)"
+msgstr ""
+"componente 'height' de 'tree' não está classificada (em ordem crescente)"
 
 msgid "elements of 'k' must be between 1 and %d"
 msgstr "elementos de 'k' deve estar entre 1 e %d"
 
 msgid "dendrogram entries must be 1,2,..,%d (in any order), to be coercible to \"hclust\""
-msgstr "entradas do dendrogram devem ser 1,2,..,%d (em qualquer ordem), para serem coercíveis para \"hclust\""
+msgstr ""
+"entradas do dendrogram devem ser 1,2,..,%d (em qualquer ordem), para serem "
+"coercíveis para \"hclust\""
 
 msgid "dendrogram node with non-positive #{branches}"
 msgstr "nó do dendrograma com #{ramos} não-positivos"
@@ -2781,6 +2786,7 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
 
