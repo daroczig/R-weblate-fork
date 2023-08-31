@@ -12,6 +12,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -25,6 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1263,7 +1265,7 @@ msgid "restored %s"
 msgstr "%s restaurado"
 
 msgid "unable to move temporary installation %s to %s"
-msgstr "não foi possível mover a instalação temporária %s para %s"
+msgstr "não foi possível mover a instalação temporária de %s para %s"
 
 msgid "cannot remove prior installation of package %s"
 msgstr "não foi possível remover a instalação prévia do pacote %s"
@@ -1507,6 +1509,7 @@ msgstr[1] "algarismos romanos inválidos: %s"
 
 #~ msgid "datasets have been moved from package 'stats' to package 'datasets'"
 #~ msgstr "conjuntos de dados foram movidos do pacote 'stats' para o pacote 'datasets'"
+
 
 
 
