@@ -3,20 +3,21 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-08-31 20:16+0000\n"
+"Last-Translator: Geraldine Gomez Millan <geralidine.gomez@javeriana.edu.co>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "invalid 'at' location in 'axis'"
-msgstr ""
+msgstr "invalida ubicación de 'at' en el eje"
 
 msgid "invalid to specify axis labels when 'at' is NULL"
-msgstr ""
+msgstr "invalido especificar etiquetas de ejes cuando 'at' es NULL"
 
 msgid "'labels' and 'at' locations must have same length"
 msgstr ""
@@ -28,340 +29,350 @@ msgid "Invalid coordinates"
 msgstr ""
 
 msgid "Invalid grob coordinates"
-msgstr ""
+msgstr "coordenadas grob invalidas"
 
 msgid "Invalid gTree coordinates"
-msgstr ""
+msgstr "coordenadas gTree invalidas"
 
 msgid "Closed must not be a missing value"
-msgstr ""
+msgstr "Closed no debería tener un valor no informado"
 
 msgid "end points must not be identical"
-msgstr ""
+msgstr "los puntos finales no deben ser iguales"
 
 msgid "'x1', 'y1', 'x2', and 'y2' must be units"
-msgstr ""
+msgstr "'x1', 'y1', 'x2', y 'y2' deben ser unidades"
 
 msgid "'shape' must be between -1 and 1"
-msgstr ""
+msgstr "'shape' debe estar entre -1 y 1"
 
 msgid "'squareShape' must be between -1 and 1"
-msgstr ""
+msgstr "'squareShape' debe estar entre -1 y 1"
 
 msgid "'arrow' must be an arrow object or NULL"
-msgstr ""
+msgstr "'arrow' debe ser un objeto tipo arrow or NULL"
 
 msgid "how did we get here?"
-msgstr ""
+msgstr "¿Cómo llegamos aquí?"
 
 msgid "must start new page if showing leaves separately"
-msgstr ""
+msgstr "debe comenzar una página nueva si muestra las hojas por separado"
 
 msgid "invalid 'edit' information"
-msgstr ""
+msgstr "información invalida de 'edit'"
 
 msgid "'gEditList' can only contain 'gEdit' objects"
-msgstr ""
+msgstr "'gEditList' solo pueden contener objetos 'gEdit'"
 
 msgid "invalid 'frame'"
-msgstr ""
+msgstr "'frame' invalido"
 
 msgid "invalid 'grob'"
-msgstr ""
+msgstr "'grob' es invalido"
 
 msgid "invalid 'row' and/or 'col' (no such cell in frame layout)"
 msgstr ""
+"'row' y/or 'col' no validas (no existe esa celda en el diseño del layout)"
 
 msgid "'col' can only be a range of existing columns"
-msgstr ""
+msgstr "'col' puede estar solamente en un rango de las columnas existentes"
 
 msgid "invalid 'col' specification"
-msgstr ""
+msgstr "especificación de 'col' no valida"
 
 msgid "'row' can only be a range of existing rows"
-msgstr ""
+msgstr "'row' puede estar solamente en un rango existente de filas"
 
 msgid "invalid 'row' specification"
-msgstr ""
+msgstr "especificación de 'row' no valida"
 
 msgid "cannot specify more than one of 'side=[\"left\", \"right\"]', 'col', 'col.before', or 'col.after'"
 msgstr ""
+"no se puede especificar más de uno de 'side=[\"left\", \"right\"]', 'col', "
+"'col.before' o 'col.after'"
 
 msgid "must specify exactly one of 'side=[\"top\", \"bottom\"]', 'row', 'row.before', or 'row.after'"
 msgstr ""
+"se debe especificar exactamente uno de 'side=[\"left\", \"right\"]', 'col', "
+"'col.before' o 'col.after'"
 
 msgid "invalid 'n'"
-msgstr ""
+msgstr "'n' no valida"
 
 msgid "invalid 'f'"
-msgstr ""
+msgstr "'f' no valida"
 
 msgid "'gpar' element '%s' must not be length 0"
-msgstr ""
+msgstr "el elemento 'gpar' '%s' no debe tener longitud 0"
 
 msgid "mixture of missing and non-missing values for %s"
-msgstr ""
+msgstr "mezcla de valores no informados e informados para %s"
 
 msgid "'gamma' 'gpar' element is defunct"
-msgstr ""
+msgstr "el elemento 'gamma' 'gpar' está desaparecido"
 
 msgid "'fill' gpar list components must all be patterns"
-msgstr ""
+msgstr "todos los componentes de la lista gpar 'fill' deben ser patrones"
 
 msgid "invalid 'linemitre' value"
-msgstr ""
+msgstr "valor de 'linemitre' no válido"
 
 msgid "invalid 'alpha' value"
-msgstr ""
+msgstr "valor de 'alpha' no válido"
 
 msgid "must specify only one of 'font' and 'fontface'"
-msgstr ""
+msgstr "se debe especificar solo uno de 'font' y 'fontface'"
 
 msgid "invalid fontface"
-msgstr ""
+msgstr "fontface no válido"
 
 msgid "argument must be a 'gpar' object"
-msgstr ""
+msgstr "el argumento debe ser un objeto 'gpar'"
 
 msgid "must specify only valid 'gpar' names"
-msgstr ""
+msgstr "se debe especificar solamente nombres validos de 'gpar'"
 
 msgid "invalid display list element"
-msgstr ""
+msgstr "elemento de lista de visualización no válido"
 
 msgid "one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')"
 msgstr ""
+"uno o más grobs sobrescritos (grab NO SERÁ confiable; pruebe con 'wrap.grobs "
+"= TRUE')"
 
 msgid "viewport overwritten (grab MAY not be faithful)"
-msgstr ""
+msgstr "ventana gráfica sobrescrita (la captura PUEDE no ser confiable)"
 
 msgid "grob pushed viewports and did not pop/up them (grab MAY not be faithful)"
-msgstr ""
+msgstr "grob empujó las ventanas y no las abrió (grab PUEDE no ser confiable)"
 
 msgid "only valid to push viewports"
-msgstr ""
+msgstr "válido solamente para impulsar ventanas"
 
 msgid "must specify at least one viewport"
-msgstr ""
+msgstr "se debe especificar al menos una ventana"
 
 msgid "Down viewport failed to record on display list"
 msgstr ""
 
 msgid "Down viewport incorrectly recorded on display list"
 msgstr ""
+"La ventana inferior grabada incorrectamente en la lista de visualizaciones"
 
 msgid "must pop at least one viewport"
-msgstr ""
+msgstr "se debe abrir al menos una ventana"
 
 msgid "must navigate up at least one viewport"
-msgstr ""
+msgstr "debe abrir al menos una ventana"
 
 msgid "Invalid number of generations"
-msgstr ""
+msgstr "número no válido de generaciones"
 
 msgid "Invalid 'clearGroups' argument"
-msgstr ""
+msgstr "Argumento 'clearGroups' no válido"
 
 msgid "invalid object inserted on the display list"
-msgstr ""
+msgstr "objeto no válido insertado en la lista de visualizaciones"
 
 msgid "invalid modification of the display list"
-msgstr ""
+msgstr "modificación no válida de la lista de visualizaciones"
 
 msgid "'expr' must return a grob or gList"
 msgstr ""
 
 msgid "invalid 'grob' argument"
-msgstr ""
+msgstr "argumento 'grob' no válido"
 
 msgid "invalid 'vp' slot"
-msgstr ""
+msgstr "espacio 'vp' no válido"
 
 msgid "invalid 'gp' slot"
-msgstr ""
+msgstr "ranura 'gp' no válida"
 
 msgid "invalid 'grob' class"
-msgstr ""
+msgstr "clase 'grob' no válida"
 
 msgid "a 'grob' path must contain at least one 'grob' name"
-msgstr ""
+msgstr "una ruta 'grob' debe contener al menos un nombre 'grob'"
 
 msgid "unable to coerce to \"gList\""
-msgstr ""
+msgstr "no se puede forzar a \"gList\""
 
 msgid "only 'grobs' allowed in \"gList\""
-msgstr ""
+msgstr "solo se permiten 'grobs' en 'gList'"
 
 msgid "invalid element to add to \"gList\""
-msgstr ""
+msgstr "elemento no válido para agregar a \"gList\""
 
 msgid "can only set 'children' for a \"gTree\""
-msgstr ""
+msgstr "sólo se permite definir 'children' para \"gTree\""
 
 msgid "'children' must be a \"gList\""
-msgstr ""
+msgstr "'children' debe ser un \"gList\""
 
 msgid "it is only valid to get 'children' from a \"gTree\""
-msgstr ""
+msgstr "solo es valido obtener 'children' de un \"gTree\""
 
 msgid "invalid \"gTree\" class"
-msgstr ""
+msgstr "clase \"gTree\" no válida"
 
 msgid "'allDevices' not yet implemented"
-msgstr ""
+msgstr "'allDevices' no han sido implementados"
 
 msgid "invalid 'gPath'"
-msgstr ""
+msgstr "'gPath' no válido"
 
 msgid "invalid 'grep' value"
-msgstr ""
+msgstr "valor 'grep' no válido"
 
 msgid "it is only valid to get a child from a \"gTree\""
-msgstr ""
+msgstr "solo es válido obtener un hijo de \"gTree\""
 
 msgid "'gPath' does not specify a valid child"
-msgstr ""
+msgstr "'gPath' no especifica un hijo válido"
 
 msgid "it is only valid to set a child of a \"gTree\""
-msgstr ""
+msgstr "solamente es valido obtener un hijo de \"gTree\""
 
 msgid "it is only valid to set a 'grob' as child of a \"gTree\""
-msgstr ""
+msgstr "solamente es valido definir un 'grob' como hijo de \"gTree\""
 
 msgid "New 'grob' name (%s) does not match 'gPath' (%s)"
-msgstr ""
+msgstr "Nuevo nombre de 'grob' (%s) no coincide con 'gPath' (%s)"
 
 msgid "it is only valid to add a 'grob' to a \"gTree\""
-msgstr ""
+msgstr "solamente es válido agregar un 'grob' a un \"gTree\""
 
 msgid "it is only valid to add a child to a \"gTree\""
-msgstr ""
+msgstr "solamente es válido agregar un hijo en un \"gTree\""
 
 msgid "'gPath' (%s) not found"
-msgstr ""
+msgstr "'gPath' (%s) no encontrado"
 
 msgid "it is only valid to remove a child from a \"gTree\""
-msgstr ""
+msgstr "solamente es válido remover un hijo de un \"gTree\""
 
 msgid "it is only valid to edit a child of a \"gTree\""
-msgstr ""
+msgstr "solamente es válido editar un hijo de un \"gTree\""
 
 msgid "it is invalid to directly edit the 'children' or 'childrenOrder' slot"
 msgstr ""
+"no es válido editar directamente la ranura 'children' or 'childrenOrder'"
 
 msgid "invalid 'result'"
-msgstr ""
+msgstr "'result' no válido"
 
 msgid "the new 'grob' must have the same name as the old 'grob'"
-msgstr ""
+msgstr "El nuevo 'grob' debe tener el mismo nombre del 'grob' antiguo"
 
 msgid "slot '%s' not found"
-msgstr ""
+msgstr "slot '%s' no encontrado"
 
 msgid "gPath (%s) not found"
-msgstr ""
+msgstr "gPath (%s) no encontrado"
 
 msgid "grob '%s' not found"
-msgstr ""
+msgstr "grob '%s' no encontrado"
 
 msgid "Invalid force target"
-msgstr ""
+msgstr "'frame' no válido"
 
 msgid "Invalid revert target"
-msgstr ""
+msgstr "argumento 'print' no válido"
 
 msgid "can only reorder 'children' for a \"gTree\""
-msgstr ""
+msgstr "solamente se puede reordenar un 'children' de un \"gTree\""
 
 msgid "Invalid 'order'"
-msgstr ""
+msgstr "'order' no válido"
 
 msgid "Group definition failed"
-msgstr ""
+msgstr "Error en la definición del grupo"
 
 msgid "Invalid source"
-msgstr ""
+msgstr "Origen no válido"
 
 msgid "Invalid destination"
-msgstr ""
+msgstr "Destino no válido"
 
 msgid "Unknown group:"
-msgstr ""
+msgstr "Grupo desconocido:"
 
 msgid "Invalid transform (nothing drawn)"
-msgstr ""
+msgstr "Transformación no válida (no se dibuja nada)"
 
 msgid "Invalid transform"
-msgstr ""
+msgstr "transformación no válida"
 
 msgid "'l' must be a layout"
-msgstr ""
+msgstr "'l' debe ser un layout"
 
 msgid "'pch' and 'labels' not the same length"
-msgstr ""
+msgstr "'pch' y 'labels' no tienen la misma longitud"
 
 msgid "'hgap' must be single unit"
-msgstr ""
+msgstr "'hgap' debe ser una sola unidad"
 
 msgid "'vgap' must be single unit"
-msgstr ""
+msgstr "'vgap' debe ser una sola unidad"
 
 msgid "'nrow' must be >= 1"
-msgstr ""
+msgstr "'nrow' debe ser >= 1"
 
 msgid "'ncol' must be >= 1"
-msgstr ""
+msgstr "'ncol' debe ser >= 1"
 
+#, fuzzy
 msgid "nrow * ncol < #{legend labels}"
-msgstr ""
+msgstr "nrow * ncol < #{legend labels}"
 
 msgid "invalid justification"
-msgstr ""
+msgstr "justificación no válida"
 
 msgid "invalid horizontal justification"
-msgstr ""
+msgstr "justificación horizontal no válida"
 
 msgid "invalid vertical justification"
-msgstr ""
+msgstr "justificación vertical no válida"
 
 msgid "'respect' must be logical or an 'nrow' by 'ncol' matrix"
-msgstr ""
+msgstr "'respect' debe ser lógico o una matriz 'nrow' por 'ncol'"
 
 msgid "invalid 'print' argument"
-msgstr ""
+msgstr "argumento 'print' no válido"
 
 msgid "invalid object in 'listing'"
-msgstr ""
+msgstr "objeto no válido en 'listing'"
 
 msgid "invalid listing"
-msgstr ""
+msgstr "listing no válido"
 
 msgid "invalid 'listing'"
-msgstr ""
+msgstr "'listing' no válido"
 
 msgid "Only a grob can be converted to a mask"
-msgstr ""
+msgstr "Solo un grob puede convertirse en una mascara"
 
 msgid "invalid 'origin'"
-msgstr ""
+msgstr "'origin' no válido"
 
 msgid "Only a grob can be converted to a path"
-msgstr ""
+msgstr "Solamente un grob puede ser convertido a una ruta"
 
 msgid "colours and stops must be at least length 1"
-msgstr ""
+msgstr "'colours' y 'stops' deben tener al menos una longitud de 1"
 
 msgid "x1, y1, x2, and y2 must all be length 1"
-msgstr ""
+msgstr "x1, y1, x2, y y2 deben tener una longitud de 1"
 
 msgid "cx1, cy1, cx2, cy2, r1, and r2 must all be length 1"
-msgstr ""
+msgstr "cx1, cy1, cx2, cy2, r1 y r2 deben tener una longitud de 1"
 
 msgid "x, y, width, and height must all be length 1"
-msgstr ""
+msgstr "x, y, width y height deben tener una longitud de 1"
 
 msgid "Pattern must be based on grob"
-msgstr ""
+msgstr "El patrón debe estar basados en grob"
 
 msgid "Missing pattern fill has been set to transparent"
 msgstr ""
