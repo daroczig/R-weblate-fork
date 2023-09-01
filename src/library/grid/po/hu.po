@@ -8,17 +8,15 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
-#: gpar.c:632
+#: gpar.c:621
 msgid "updateGContext must only be called after initGContext"
 msgstr ""
 
@@ -38,67 +36,61 @@ msgstr ""
 msgid "Masks within a (clipping) path are not honoured"
 msgstr ""
 
-#: grid.c:699 grid.c:877
-#, c-format
-msgid "Viewport '%s' was not found"
-msgstr ""
-
-#: grid.c:909 grid.c:914 grid.c:1035 grid.c:1040
+#: grid.c:917 grid.c:922 grid.c:1043 grid.c:1048
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
 msgstr ""
 
-#: grid.c:1241
+#: grid.c:1249
 msgid "attempt to plot on null device"
-msgstr "próbáljon üres eszközön rajzolni"
+msgstr ""
 
-#: grid.c:1711
+#: grid.c:1719
 msgid "there is no layout defined"
 msgstr ""
 
-#: grid.c:1933
+#: grid.c:1941
 msgid "polygon edge not found (zero-width or zero-height?)"
 msgstr ""
 
-#: grid.c:1942
+#: grid.c:1950
 msgid "polygon edge not found"
 msgstr ""
 
-#: grid.c:2096
+#: grid.c:2104
 msgid "require at least two points to draw arrow"
 msgstr ""
 
-#: grid.c:2467
+#: grid.c:2475
 msgid "non-finite control point in Xspline"
 msgstr ""
 
-#: grid.c:3436
-#, fuzzy
+#: grid.c:3444
 msgid "non-finite x or y in graphics path"
-msgstr "nem véges x vagy y van a grafikai útvonalban"
+msgstr ""
 
-#: grid.c:3487
+#: grid.c:3495
 msgid "Empty raster"
 msgstr ""
 
-#: grid.c:4038 grid.c:4094
+#: grid.c:4046 grid.c:4102
 msgid "Coordinates for text pch not yet supported"
 msgstr ""
 
-#: grid.c:4099
+#: grid.c:4107
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
 msgstr ""
 
-#: grid.c:4920
+#: grid.c:4928
 #, c-format
 msgid "unimplemented pch value '%d'"
 msgstr ""
 
-#: grid.c:5079
+#: grid.c:5087
 msgid "invalid plotting symbol"
-msgstr "érvénytelen rajz szimbólum"
+msgstr ""
 
-#: grid.c:5197
+#: grid.c:5205
 msgid "unable to clip to rotated rectangle"
 msgstr ""
 
@@ -112,7 +104,7 @@ msgstr ""
 
 #: matrix.c:50
 msgid "singular transformation matrix"
-msgstr "szinguláris transzformációs mátrix"
+msgstr ""
 
 #: state.c:191
 msgid "unable to store 'grid' state.  Too many devices open?"
@@ -136,7 +128,7 @@ msgstr ""
 
 #: unit.c:1555
 msgid "Invalid unit"
-msgstr "Érvénytelen egység"
+msgstr ""
 
 #: unit.c:1570
 msgid "'units' must be character"
@@ -147,7 +139,9 @@ msgid "'units' must be of length > 0"
 msgstr ""
 
 #: unit.c:1584
-msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgid ""
+"data must be either NULL, have length 1, or match the length of the final "
+"unit vector"
 msgstr ""
 
 #: unit.c:1596
@@ -193,3 +187,4 @@ msgstr ""
 #: viewport.c:330
 msgid "non-finite location and/or size for viewport"
 msgstr ""
+
