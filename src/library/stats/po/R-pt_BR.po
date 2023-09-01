@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -279,7 +281,7 @@ msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
 msgstr "colunas de 'contrast.obj' devem definir um contraste (somatório zero)"
 
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
-msgstr "'ties'não é \"ordered\", uma função ou list(<string>, <function>)"
+msgstr "'ties' não é \"ordered\", uma função ou lista(<string>, <function>)"
 
 msgid "collapsing to unique 'x' values"
 msgstr "colapsando para valores de 'x' únicos"
@@ -426,7 +428,7 @@ msgid "there must be at least 2 observations in each group"
 msgstr "deve haver ao menos duas observações em cada grupo"
 
 msgid "'formula' should be of the form response ~ group"
-msgstr "'formula' deve ser no formato resposta ~ grupo"
+msgstr "'formula' deve ser do formato resposta ~ grupo"
 
 msgid "'x' must be nonnegative and integer"
 msgstr "'x' deve ser inteiro e não negativo"
@@ -498,7 +500,7 @@ msgid "NA values not allowed in 'd'"
 msgstr "valores NA não permitidos em 'd'"
 
 msgid "eig=TRUE is disregarded when list.=FALSE"
-msgstr "eig=TRUE é desconsiderado quando list.=FALSE"
+msgstr "eig=TRUE é ignorado quando list.=FALSE"
 
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
 msgstr "x-ret=TRUE é desconsiderado quando list.=FALSE"
@@ -2453,7 +2455,8 @@ msgstr ""
 "assintótica"
 
 msgid "cannot fit an asymptotic regression model to these data"
-msgstr "não é possível ajustar um modelo de regressão assintótico com esses dados"
+msgstr ""
+"não é possível ajustar um modelo de regressão assintótico com esses dados"
 
 msgid "too few observations to fit an asymptotic regression model"
 msgstr "poucas observações para ajustar um modelo de regressão assintótico"
@@ -2468,13 +2471,17 @@ msgid "too few distinct input values to fit a biexponential"
 msgstr "muito poucos valores distintos para ajustar um biexponencial"
 
 msgid "must have length of response = length of second argument to 'SSfol'"
-msgstr "comprimento de resposta deve ser = comprimento do segundo argumento para 'SSfol'"
+msgstr ""
+"comprimento de resposta deve ser = comprimento do segundo argumento para "
+"'SSfol'"
 
 msgid "must have at least 4 observations to fit an 'SSfol' model"
 msgstr "ao menos 4 observações são necessárias para ajustar modelo «SSfol»"
 
 msgid "too few distinct input values to fit a four-parameter logistic"
-msgstr "muito poucos valores distintos para ajustar um modelo logístico com quatro parâmetros"
+msgstr ""
+"muito poucos valores distintos para ajustar um modelo logístico com quatro "
+"parâmetros"
 
 msgid "too few distinct input values to fit a logistic model"
 msgstr "muito poucos valores distintos para ajustar um modelo logístico"
@@ -2489,7 +2496,8 @@ msgid "too few distinct input values to fit the Weibull growth model"
 msgstr "muito poucos valores distintos para ajustar o modelo Weibull"
 
 msgid "all 'x' values must be non-negative to fit the Weibull growth model"
-msgstr "todos os valores 'x' devem ser não negativos para ajuste do modelo Weibull"
+msgstr ""
+"todos os valores 'x' devem ser não negativos para ajuste do modelo Weibull"
 
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
@@ -2833,6 +2841,7 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
 
