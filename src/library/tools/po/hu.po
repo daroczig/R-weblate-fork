@@ -8,17 +8,19 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
+"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: Rmd5.c:57 Rsha256.c:70
 msgid "argument 'files' must be character"
-msgstr ""
+msgstr "a 'files' argumentum csak szöveges típusú lehet"
 
 #: Rmd5.c:73
 #, c-format
@@ -28,7 +30,7 @@ msgstr ""
 #: Rmd5.c:75
 #, c-format
 msgid "md5 failed on file '%s'"
-msgstr ""
+msgstr "az md5 nem működik ezen a fájlon: '%s'"
 
 #: Rsha256.c:86
 #, fuzzy, c-format
@@ -178,18 +180,18 @@ msgstr ""
 
 #: signals.c:42
 msgid "pskill() is not supported on this platform"
-msgstr ""
+msgstr "a pskill() nem használható ezen a platformon"
 
 #: signals.c:140
 msgid "psnice() is not supported on this platform"
-msgstr ""
+msgstr "a psnice() nem használható ezen a platformon"
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr ""
+msgstr "hibás argumentum típus"
 
 #: text.c:225 text.c:247
 msgid "out of memory"
-msgstr ""
+msgstr "megtelt a memória"
 
 
