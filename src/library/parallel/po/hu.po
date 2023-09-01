@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
+"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: fork.c:223
 #, c-format
@@ -28,7 +30,7 @@ msgstr ""
 
 #: fork.c:329 fork.c:620 ncpus.c:87 ncpus.c:123 ncpus.c:179
 msgid "memory allocation error"
-msgstr ""
+msgstr "memória kiosztási hiba"
 
 #: fork.c:385 fork.c:389 fork.c:393
 #, c-format
@@ -42,42 +44,45 @@ msgid ""
 msgstr ""
 
 #: fork.c:544 fork.c:547
+#, fuzzy
 msgid "unable to create a pipe"
-msgstr ""
+msgstr "nem tudja létrehozni pipe-ot"
 
 #: fork.c:569
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr ""
+msgstr "nem tud elágazni, lehetséges oka: %s"
 
 #: fork.c:761
 msgid "only children can send data to the master process"
-msgstr ""
+msgstr "csak gyerek-folyamatok küldhetnek adatot a főfolyamatba"
 
 #: fork.c:763
 msgid "there is no pipe to the master process"
-msgstr ""
+msgstr "nincsen pipe a főfolyamathoz"
 
 #: fork.c:765
 msgid "content to send must be RAW, use serialize() if needed"
 msgstr ""
+"a küldendő tartalom RAW kell hogy legyen, ha kell használja a serialize() "
+"függvényt"
 
 #: fork.c:774 fork.c:785 fork.c:1198
 msgid "write error, closing pipe to the master"
-msgstr ""
+msgstr "írási hiba, a főfolyamat pipe lezár"
 
 #: fork.c:795
 msgid "only the master process can send data to a child process"
-msgstr ""
+msgstr "csak a főfolyamat küldhet adatot a gyerek folyamathoz"
 
 #: fork.c:803
 #, c-format
 msgid "child %d does not exist"
-msgstr ""
+msgstr "a(z) %d gyermek folyamat nem létezik"
 
 #: fork.c:809
 msgid "write error"
-msgstr ""
+msgstr "írási hiba"
 
 #: fork.c:895
 #, c-format
@@ -85,9 +90,9 @@ msgid "cannot wait for child %d as it does not exist"
 msgstr ""
 
 #: fork.c:954 fork.c:1077
-#, c-format
+#, c-format, fuzzy
 msgid "error '%s' in select"
-msgstr ""
+msgstr "'%s' hiba a kijelölésben"
 
 #: fork.c:1167
 msgid "'mckill' failed"
