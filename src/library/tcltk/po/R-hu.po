@@ -3,102 +3,101 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr "az objektum nem kezelhető '%s' módban"
+msgstr ""
 
 msgid "cannot change names on Tcl array"
-msgstr "nem változtathatók meg a Tcl tömb nevei"
+msgstr ""
 
 msgid "cannot set length of Tcl array"
-msgstr "nem változtatható meg a Tcl tömb hossza"
+msgstr ""
 
 msgid "Tcl package '%s' not found"
-msgstr "A(z) '%s' Tcl csomag nem található"
+msgstr ""
 
 msgid "The tkGUI is not available under Windows"
-msgstr "A tkGUI nem elérhető Windows-on"
+msgstr ""
 
 msgid "File"
-msgstr "Fájl"
+msgstr ""
 
 msgid "Demos"
-msgstr "Bemutatók"
+msgstr ""
 
 msgid "Packages"
-msgstr "Csomagok"
+msgstr ""
 
 msgid "Help"
-msgstr "Súgó"
+msgstr ""
 
 msgid "Source R code"
-msgstr "R forráskód"
+msgstr ""
 
 msgid "Quit"
-msgstr "Kilép"
+msgstr ""
 
 msgid "Save workspace"
-msgstr "Munkafolyamat mentése"
+msgstr ""
 
 msgid "Don't save workspace"
-msgstr "Ne mentse a munkafolyamatot"
+msgstr ""
 
 msgid "t test"
-msgstr "t-próba"
+msgstr ""
 
 msgid "Density"
-msgstr "Sűrűség"
+msgstr ""
 
 msgid "Interactive linear fitting"
-msgstr "Interaktív lineáris illesztés"
+msgstr ""
 
 msgid "R FAQ"
-msgstr "R-GYIK"
+msgstr ""
 
 msgid "Load"
-msgstr "Betölt"
+msgstr ""
 
 msgid "Go get them!"
-msgstr "Kapd el!"
+msgstr ""
 
 msgid "Load packages"
-msgstr "Csomagok betöltése"
+msgstr ""
 
 msgid "Install packages from CRAN"
-msgstr "Csomagok telepítése a CRAN-ról"
+msgstr ""
 
 msgid "Help topic:"
-msgstr "Súgó téma:"
+msgstr ""
 
 msgid "Manuals in PDF format"
-msgstr "Kézikönyvek PDF-ben"
+msgstr ""
 
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Mégse"
+msgstr ""
 
 msgid "'pb' is not from class %s"
 msgstr ""
 
 msgid "'filters' must be a 2-column character matrix"
-msgstr "a 'filters' egy kétoszlopos karakter mátrix kell hogy legyen"
+msgstr ""
 
 msgid "tcltk DLL is linked to"
 msgstr ""
 
 msgid "Tcl/Tk support is not available on this system"
-msgstr "Ezen a rendszeren a Tcl/Tk támogatás nem elérhető"
+msgstr ""
 
 msgid "Tcl/Tk support files were not installed"
-msgstr "A Tcl/Tk támogatás fájljai nincsenek telepítve"
+msgstr ""
+
