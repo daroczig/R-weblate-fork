@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2023-09-01 10:01+0000\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
 "Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -656,7 +656,7 @@ msgid "No matching repositories found for"
 msgstr ""
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "--- Please select repositories for use in this session ---"
 msgstr ""
@@ -851,13 +851,13 @@ msgid "invalid 'row.names' specification"
 msgstr ""
 
 msgid "invalid 'row.names' length"
-msgstr ""
+msgstr "érvénytelen 'row.names' hossz"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr ""
+msgstr "'row.names' ismétlődés nem megengedett"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr ""
+msgstr "hiányzó érték a 'row.names'-ben nem megengedett"
 
 msgid "missing lengths for some fields"
 msgstr ""
@@ -872,7 +872,7 @@ msgid "%s option must be a length one character vector or NULL"
 msgstr ""
 
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "'file' karakterlánc vagy összeköttetés kell hogy legyen"
 
 msgid "'as.is' should be specified by the caller; using TRUE"
 msgstr ""
@@ -1031,7 +1031,7 @@ msgid "unsupported entry type"
 msgstr ""
 
 msgid "file '%s' not found"
-msgstr ""
+msgstr "a(z) '%s' fájl nem található"
 
 msgid "file '%s' did not have execute permissions: corrected"
 msgstr ""
