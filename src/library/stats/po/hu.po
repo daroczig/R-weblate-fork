@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
+"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -56,7 +58,7 @@ msgstr ""
 
 #: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:33
 msgid "invalid argument type"
-msgstr ""
+msgstr "hibás argumentum típus"
 
 #: arima.c:444 arima.c:530 pacf.c:324 pacf.c:363
 msgid "can only transform 100 pars in arima0"
