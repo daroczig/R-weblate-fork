@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
+"PO-Revision-Date: 2023-09-01 18:31+0000\n"
 "Last-Translator: Reiko Okamoto <reiko.okamoto17@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -45,20 +45,20 @@ msgstr ""
 
 #: fork.c:544 fork.c:547
 msgid "unable to create a pipe"
-msgstr ""
+msgstr "パイプを作成できません"
 
 #: fork.c:569
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr ""
+msgstr "フォークできません。考えられる理由: %s"
 
 #: fork.c:761
 msgid "only children can send data to the master process"
-msgstr ""
+msgstr "子だけがマスタープロセスにデータを送信できます"
 
 #: fork.c:763
 msgid "there is no pipe to the master process"
-msgstr ""
+msgstr "マスタープロセスへのパイプがありません"
 
 #: fork.c:765
 msgid "content to send must be RAW, use serialize() if needed"
@@ -66,25 +66,25 @@ msgstr ""
 
 #: fork.c:774 fork.c:785 fork.c:1198
 msgid "write error, closing pipe to the master"
-msgstr ""
+msgstr "書き込みエラー、マスターへのパイプを閉じます"
 
 #: fork.c:795
 msgid "only the master process can send data to a child process"
-msgstr ""
+msgstr "マスタープロセスだけが子プロセスにデータを送信できます"
 
 #: fork.c:803
 #, c-format
 msgid "child %d does not exist"
-msgstr ""
+msgstr "子 %d が存在しません"
 
 #: fork.c:809
 msgid "write error"
-msgstr ""
+msgstr "書き込みエラー"
 
 #: fork.c:895
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
-msgstr ""
+msgstr "子 %d が存在しないため、待機できません"
 
 #: fork.c:954 fork.c:1077
 #, c-format
@@ -93,15 +93,15 @@ msgstr ""
 
 #: fork.c:1167
 msgid "'mckill' failed"
-msgstr ""
+msgstr "'mckill' が失敗しました"
 
 #: fork.c:1180
 msgid "'mcexit' can only be used in a child process"
-msgstr ""
+msgstr "'mcexit' は子プロセスでのみ使用できます"
 
 #: fork.c:1212
 msgid "'mcexit' failed"
-msgstr ""
+msgstr "'mcexit' が失敗しました"
 
 #: fork.c:1241 fork.c:1250
 msgid "invalid CPU affinity specification"
