@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -987,8 +989,8 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"不推荐在向量数组算术中使用长度为 1 的回收数组。\n"
-"   使用 c() 或 as.vector() 代替。"
+"不推荐使用向量数组算术中长度为 1 的回收数组。\n"
+"  请改用  c()  或 as.vector()"
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
 msgid "non-conformable arrays"
@@ -1365,7 +1367,7 @@ msgstr "一定要有'methods'程序包才能用正式类别"
 #: src/main/attrib.c:1909
 #, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "没有适用于`@`的方法应用于类“%s”的对象"
+msgstr "没有适用于类“%s”对象的 `@` 方法。"
 
 #: src/main/bind.c:165
 #, c-format
@@ -1780,9 +1782,10 @@ msgstr "as.call(<character>) 不可行;考虑 str2lang(<char.>)"
 msgid "invalid argument list"
 msgstr "参数列表无效"
 
-#: src/main/coerce.c:1798
-#, c-format
+#: src/main/coerce.c:1800
+#, c-format, fuzzy
 msgid "'length = %lld' in coercion to '%s'"
+msgstr ""
 
 #: src/main/coerce.c:2143
 msgid "type \"single\" unimplemented in R"
@@ -1882,7 +1885,7 @@ msgstr "多项式系数无效"
 msgid "root finding code failed"
 msgstr "寻根码运行失败"
 
-#: src/main/connections.c:193
+#: src/main/connections.c:180
 #, c-format
 msgid "all %d connections are in use"
 msgstr "所有 %d 连接都在使用"
@@ -2191,12 +2194,12 @@ msgstr "无法读取原始链结范围外的内容"
 msgid "allocation of raw connection failed"
 msgstr "原始链结分配失败"
 
-#: src/main/connections.c:3130
+#: src/main/connections.c:3069
 #, c-format
 msgid "'%s' is not a %s"
 msgstr "“%s”不是一个 %s"
 
-#: src/main/connections.c:3134
+#: src/main/connections.c:3073
 #, c-format
 msgid "internal connection is not a %s"
 msgstr "内部连接不是 %s"
@@ -2257,7 +2260,7 @@ msgstr "链结已打开"
 msgid "unknown 'rw' value"
 msgstr "没有这样的'rw'值"
 
-#: src/main/connections.c:3805
+#: src/main/connections.c:3744
 #, c-format
 msgid "Problem closing connection:  %s"
 msgstr "关闭连接时出现问题：%s"
@@ -2285,12 +2288,12 @@ msgstr "无法关闭'message'汇集链结"
 msgid "connection is not open"
 msgstr "链结没有打开"
 
-#: src/main/connections.c:4004 src/main/connections.c:4017
+#: src/main/connections.c:3943 src/main/connections.c:3956
 #, c-format
 msgid "line longer than buffer size %lu"
 msgstr "行长于缓冲区大小 %lu"
 
-#: src/main/connections.c:4035
+#: src/main/connections.c:3974
 #, c-format
 msgid "Error writing to connection:  %s"
 msgstr "写入连接时出错：%s"
@@ -2697,7 +2700,7 @@ msgstr ""
 msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
 msgstr "非空“POSIXlt”结构中的零长度组件 [%d]]"
 
-#: src/main/datetime.c:1791
+#: src/main/datetime.c:1765
 #, c-format
 msgid "'%s' is not a \"%s\""
 msgstr "“%s”不是一个 “%s”"
@@ -8821,6 +8824,8 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
+
 
 
 
