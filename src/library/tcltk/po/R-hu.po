@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-09-01 10:01+0000\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
 "Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -14,25 +14,25 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr ""
+msgstr "az objektum nem kezelhető '%s' módban"
 
 msgid "cannot change names on Tcl array"
-msgstr ""
+msgstr "nem változtathatók meg a Tcl tömb nevei"
 
 msgid "cannot set length of Tcl array"
-msgstr ""
+msgstr "nem változtatható meg a Tcl tömb hossza"
 
 msgid "Tcl package '%s' not found"
-msgstr ""
+msgstr "A(z) '%s' Tcl csomag nem található"
 
 msgid "The tkGUI is not available under Windows"
-msgstr ""
+msgstr "A tkGUI nem elérhető Windows-on"
 
 msgid "File"
 msgstr "Fájl"
 
 msgid "Demos"
-msgstr ""
+msgstr "Bemutatók"
 
 msgid "Packages"
 msgstr "Csomagok"
@@ -41,46 +41,46 @@ msgid "Help"
 msgstr "Súgó"
 
 msgid "Source R code"
-msgstr ""
+msgstr "R forráskód"
 
 msgid "Quit"
-msgstr ""
+msgstr "Kilép"
 
 msgid "Save workspace"
 msgstr "Munkafolyamat mentése"
 
 msgid "Don't save workspace"
-msgstr ""
+msgstr "Ne mentse a munkafolyamatot"
 
 msgid "t test"
-msgstr ""
+msgstr "t-próba"
 
 msgid "Density"
-msgstr ""
+msgstr "Sűrűség"
 
 msgid "Interactive linear fitting"
-msgstr ""
+msgstr "Interaktív lineáris illesztés"
 
 msgid "R FAQ"
-msgstr ""
+msgstr "R-GYIK"
 
 msgid "Load"
-msgstr ""
+msgstr "Betölt"
 
 msgid "Go get them!"
-msgstr ""
+msgstr "Kapd el!"
 
 msgid "Load packages"
-msgstr ""
+msgstr "Csomagok betöltése"
 
 msgid "Install packages from CRAN"
-msgstr ""
+msgstr "Csomagok telepítése a CRAN-ról"
 
 msgid "Help topic:"
-msgstr ""
+msgstr "Súgó téma:"
 
 msgid "Manuals in PDF format"
-msgstr ""
+msgstr "Kézikönyvek PDF-ben"
 
 msgid "OK"
 msgstr "OK"
@@ -92,14 +92,14 @@ msgid "'pb' is not from class %s"
 msgstr ""
 
 msgid "'filters' must be a 2-column character matrix"
-msgstr ""
+msgstr "a 'filters' egy kétoszlopos karakter mátrix kell hogy legyen"
 
 msgid "tcltk DLL is linked to"
 msgstr ""
 
 msgid "Tcl/Tk support is not available on this system"
-msgstr ""
+msgstr "Ezen a rendszeren a Tcl/Tk támogatás nem elérhető"
 
 msgid "Tcl/Tk support files were not installed"
-msgstr ""
+msgstr "A Tcl/Tk támogatás fájljai nincsenek telepítve"
 
