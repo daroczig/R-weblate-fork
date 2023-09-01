@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-01 10:01+0000\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
 "Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -1145,7 +1145,7 @@ msgstr ""
 
 #: src/main/array.c:1904
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "'x' numerikus kell legyen"
 
 #: src/main/array.c:1907
 msgid "'x' is too short"
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #: src/main/coerce.c:3082
 msgid "invalid to change the storage mode of a factor"
-msgstr ""
+msgstr "nem lehet változtatni a faktor tárolási módon"
 
 #: src/main/complex.c:95
 msgid "invalid complex unary operator"
@@ -2747,7 +2747,7 @@ msgstr ""
 
 #: src/main/deparse.c:398 src/main/deparse.c:443 src/main/source.c:204
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "'file' karakterlánc vagy összeköttetés kell hogy legyen"
 
 #: src/main/deparse.c:422 src/main/deparse.c:518 src/main/deparse.c:524
 msgid "wrote too few characters"
@@ -2868,7 +2868,7 @@ msgstr ""
 
 #: src/main/dotcode.c:493 src/main/seq.c:1040
 msgid "too many arguments"
-msgstr ""
+msgstr "túl sok argumentum"
 
 #: src/main/dotcode.c:554 src/main/dotcode.c:1531 src/main/dotcode.c:1787
 msgid "'.NAME' is missing"
@@ -3634,7 +3634,7 @@ msgstr ""
 
 #: src/main/errors.c:1428 src/main/logic.c:190
 msgid "invalid argument type"
-msgstr ""
+msgstr "hibás argumentum típus"
 
 #: src/main/errors.c:1430
 msgid "time-series/vector length mismatch"
@@ -5412,7 +5412,7 @@ msgstr ""
 
 #: src/main/radixsort.c:1591 src/main/sort.c:1443
 msgid "argument lengths differ"
-msgstr ""
+msgstr "eltérő argumentum hosszak"
 
 #: src/main/radixsort.c:1595
 msgid "length(decreasing) must match the number of order arguments"
@@ -5906,11 +5906,11 @@ msgstr ""
 
 #: src/main/seq.c:906
 msgid "'by' argument is much too small"
-msgstr ""
+msgstr "a 'by' argumentum túl kicsi"
 
 #: src/main/seq.c:908
 msgid "wrong sign in 'by' argument"
-msgstr ""
+msgstr "hibás előjel a 'by' argumentumban"
 
 #: src/main/seq.c:1096 src/main/seq.c:1103
 msgid "argument must be coercible to non-negative integer"
@@ -6608,7 +6608,7 @@ msgstr ""
 
 #: src/main/summary.c:1205
 msgid "no arguments"
-msgstr ""
+msgstr "nincsenek argumentumok"
 
 #: src/main/summary.c:1217 src/main/summary.c:1235
 msgid "invalid input type"
@@ -6616,7 +6616,7 @@ msgstr ""
 
 #: src/main/summary.c:1252
 msgid "an argument will be fractionally recycled"
-msgstr ""
+msgstr "egy argumentum szakaszosan újra lesz használva"
 
 #: src/main/sysutils.c:75 src/main/sysutils.c:89
 #, c-format
@@ -6946,7 +6946,7 @@ msgstr ""
 
 #: src/main/util.c:2395
 msgid "all arguments must be named"
-msgstr ""
+msgstr "minden argumentum nevesített kell hogy legyen"
 
 #: src/main/util.c:2552
 msgid "ICU is not supported on this build"
@@ -7352,7 +7352,7 @@ msgstr ""
 
 #: src/modules/internet/libcurl.c:557 src/modules/internet/libcurl.c:575
 msgid "out of memory"
-msgstr ""
+msgstr "megtelt a memória"
 
 #: src/modules/internet/libcurl.c:604
 #, c-format
