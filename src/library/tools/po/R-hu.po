@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-09-01 10:01+0000\n"
+"PO-Revision-Date: 2023-09-01 11:37+0000\n"
 "Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -617,7 +617,7 @@ msgid "running 'make' failed"
 msgstr ""
 
 msgid "file '%s' not found"
-msgstr ""
+msgstr "a(z) '%s' fájl nem található"
 
 msgid "vignette filename '%s' does not match any of the '%s' filename patterns"
 msgstr ""
@@ -740,7 +740,7 @@ msgid "inst/doc"
 msgstr ""
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "ignored as vignettes have been rebuilt."
 msgstr ""
@@ -761,7 +761,7 @@ msgid "cannot link from %s"
 msgstr ""
 
 msgid "-l option without value"
-msgstr ""
+msgstr "-l beállítás érték nélkül"
 
 msgid "configuration files are not supported as from R 2.12.0"
 msgstr ""
@@ -797,7 +797,7 @@ msgid "checking %s ..."
 msgstr ""
 
 msgid "wrong class"
-msgstr ""
+msgstr "rossz osztály"
 
 msgid "non-ASCII input in a CITATION file without a declared encoding"
 msgstr ""
@@ -1001,7 +1001,7 @@ msgid "invalid package"
 msgstr ""
 
 msgid "ERROR: no packages specified"
-msgstr ""
+msgstr "ERROR: nincsen meghatározva csomag"
 
 msgid "ERROR: cannot cd to directory %s"
 msgstr ""
