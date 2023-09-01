@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-08-31 11:40+0000\n"
-"Last-Translator: Iman Al Hasani <iman.s.alhasani@gmail.com>\n"
+"PO-Revision-Date: 2023-09-01 18:31+0000\n"
+"Last-Translator: Abdulrahman Alswaji <alswajiab@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -316,7 +316,7 @@ msgstr ""
 #: src/library/utils/src/windows/dataentry.c:1793
 #: src/library/grDevices/src/devWindows.c:1651
 msgid "File"
-msgstr ""
+msgstr "ملف"
 
 #: src/gnuwin32/editor.c:732 src/gnuwin32/pager.c:468 src/gnuwin32/rui.c:1126
 msgid "New script"
@@ -373,7 +373,7 @@ msgstr ""
 #: src/library/utils/src/windows/dataentry.c:1700
 #: src/library/utils/src/windows/dataentry.c:1810
 msgid "Help"
-msgstr ""
+msgstr "المساعدة"
 
 #: src/gnuwin32/editor.c:783
 msgid "Editor"
@@ -558,7 +558,7 @@ msgstr ""
 
 #: src/gnuwin32/rui.c:908
 msgid "Packages"
-msgstr ""
+msgstr "الحزم"
 
 #: src/gnuwin32/rui.c:909
 msgid "Load package..."
@@ -654,7 +654,7 @@ msgstr ""
 
 #: src/gnuwin32/rui.c:1086
 msgid "Save workspace"
-msgstr ""
+msgstr "حفظ مساحة العمل"
 
 #: src/gnuwin32/rui.c:1102
 msgid "Stop current computation"
@@ -820,12 +820,12 @@ msgstr ""
 #: src/extra/graphapp/dialogs.c:743 src/extra/graphapp/dialogs.c:749
 #: src/library/utils/src/windows/widgets.c:122
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء الأمر"
 
 #: src/extra/graphapp/dialogs.c:624 src/extra/graphapp/dialogs.c:745
 #: src/library/utils/src/windows/widgets.c:121
 msgid "OK"
-msgstr ""
+msgstr "موافق"
 
 #: src/extra/graphapp/dialogs.c:737
 msgid "User"
