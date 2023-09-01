@@ -8,19 +8,17 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 #: Rmd5.c:57 Rsha256.c:70
 msgid "argument 'files' must be character"
-msgstr "a 'files' argumentum csak szöveges típusú lehet"
+msgstr ""
 
 #: Rmd5.c:73
 #, c-format
@@ -30,7 +28,7 @@ msgstr ""
 #: Rmd5.c:75
 #, c-format
 msgid "md5 failed on file '%s'"
-msgstr "az md5 nem működik ezen a fájlon: '%s'"
+msgstr ""
 
 #: Rsha256.c:86
 #, fuzzy, c-format
@@ -69,97 +67,92 @@ msgstr ""
 msgid "at most one asterisk '*' is supported in each conversion specification"
 msgstr ""
 
-#: gramLatex.c:2592 gramRd.c:3971
+#: gramLatex.c:2392 gramRd.c:3995
 #, c-format
 msgid "unable to allocate buffer for long string at line %d"
 msgstr ""
 
-#: gramLatex.c:2869 gramRd.c:4524 gramRd.c:4530
+#: gramLatex.c:2629 gramRd.c:4541 gramRd.c:4547
 #, c-format
 msgid "invalid '%s' value"
 msgstr ""
 
-#: gramRd.c:2581 gramRd.c:2584
+#: gramRd.c:2549 gramRd.c:2552
 #, c-format
 msgid "bad markup (extra space?) at %s:%d:%d"
 msgstr ""
 
-#: gramRd.c:3117
+#: gramRd.c:3144
 #, c-format
 msgid "Macro '%s' previously defined."
 msgstr ""
 
-#: gramRd.c:3127
+#: gramRd.c:3154
 #, c-format
 msgid "At most 4 arguments are allowed for user defined macros."
 msgstr ""
 
-#: gramRd.c:3169
+#: gramRd.c:3196
 #, c-format
 msgid "No macro definition for '%s'."
 msgstr ""
 
-#: gramRd.c:3232
+#: gramRd.c:3258
 #, c-format
 msgid "Not enough arguments passed to user macro '%s'"
 msgstr ""
 
-#: gramRd.c:3372 gramRd.c:3376
+#: gramRd.c:3398 gramRd.c:3402
 #, c-format
 msgid "newline within quoted string at %s:%d"
 msgstr ""
 
-#: gramRd.c:3395
+#: gramRd.c:3421
 #, c-format
 msgid "unable to allocate buffer for long macro at line %d"
 msgstr ""
 
-#: gramRd.c:3425
+#: gramRd.c:3451
 msgid "macros nested too deeply: infinite recursion?"
 msgstr ""
 
-#: gramRd.c:3833
+#: gramRd.c:3857
 #, c-format
 msgid "Unable to find macro %s"
 msgstr ""
 
-#: gramRd.c:4032
+#: gramRd.c:4055
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 msgstr ""
 
-#: gramRd.c:4537
+#: gramRd.c:4554
 msgid "cannot open the connection"
 msgstr ""
 
-#: gramRd.c:4544
+#: gramRd.c:4561
 msgid "cannot read from this connection"
 msgstr ""
 
-#: gramRd.c:4552
+#: gramRd.c:4569
 msgid "invalid Rd file"
 msgstr ""
 
-#: gramRd.c:4571
+#: gramRd.c:4588
 msgid "'deparseRd' only supports deparsing character elements"
 msgstr ""
 
-#: gramRd.c:4574
+#: gramRd.c:4591
 msgid "bad state"
 msgstr ""
 
-#: gramRd.c:4587
+#: gramRd.c:4604
 #, c-format
 msgid "bad text mode %d in 'deparseRd'"
 msgstr ""
 
 #: http.c:32
 msgid "invalid bind address specification"
-msgstr ""
-
-#: http.c:37
-#, c-format
-msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
 msgstr ""
 
 #: install.c:95
@@ -185,16 +178,18 @@ msgstr ""
 
 #: signals.c:42
 msgid "pskill() is not supported on this platform"
-msgstr "a pskill() nem használható ezen a platformon"
+msgstr ""
 
 #: signals.c:140
 msgid "psnice() is not supported on this platform"
-msgstr "a psnice() nem használható ezen a platformon"
+msgstr ""
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr "hibás argumentum típus"
+msgstr ""
 
 #: text.c:225 text.c:247
 msgid "out of memory"
-msgstr "megtelt a memória"
+msgstr ""
+
+
