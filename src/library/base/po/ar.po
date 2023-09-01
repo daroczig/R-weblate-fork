@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-08-30 14:09+0000\n"
+"PO-Revision-Date: 2023-09-01 18:31+0000\n"
 "Last-Translator: Abdulrahman Alswaji <alswajiab@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ar\n"
@@ -15,61 +15,62 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "'%s' is defunct."
-msgstr ""
+msgstr "'%s' لم يعد موجودا."
 
 msgid "Use '%s' instead."
-msgstr ""
+msgstr "استخدم '%s' بدلا من ذلك."
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
-msgstr ""
+msgstr "انظر help(\"Defunct\") وhelp(\"%s-defunct\") ."
 
 msgid "See help(\"Defunct\")"
-msgstr ""
+msgstr "انظر help(\"Defunct\")"
 
 msgid "defunctError"
 msgstr ""
 
 msgid "'%s' is deprecated."
-msgstr ""
+msgstr "تم إهمال '%s'."
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
-msgstr ""
+msgstr "انظر help(\"Deprecated\") وhelp(\"%s-deprecated\") ."
 
 msgid "See help(\"Deprecated\")"
-msgstr ""
+msgstr "انظرhelp(\"Deprecated\")"
 
 msgid "deprecatedWarning"
 msgstr ""
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr ""
+msgstr "الوسيط إلى \"La.svd\" يجب أن يكون رقمي أو معقد"
 
 msgid "infinite or missing values in 'x'"
-msgstr ""
+msgstr "القيم لانهائية أو مفقودة في 'x'"
 
+#, fuzzy
 msgid "a dimension is zero"
-msgstr ""
+msgstr "البعد يساوي صفرا"
 
 msgid "\"all\" and \"exact\" are mutually exclusive"
-msgstr ""
+msgstr "\"all\" و \"exact\" يستبعد أحدهما الآخر"
 
 msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
-msgstr ""
+msgstr "\"hexNumeric\" و \"digits17\" يستبعد أحدهما الآخر"
 
 msgid "second argument must be a list"
-msgstr ""
+msgstr "الوسيطة الثاني يجب أن يكون قائمة"
 
 msgid "'iconvlist' is not available on this system"
-msgstr ""
+msgstr "\"iconvlist\" غير متوفر على هذا النظام"
 
 msgid "'kind' must be a character string of length 1 (RNG to be used)."
-msgstr ""
+msgstr "يجب أن يكون \"kind\" سلسلة أحرف بطول 1 (RNG ليتم استخدامها)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
-msgstr ""
+msgstr "\"‎%s\" ليس اختصارا صالحا ل RNG"
 
 msgid "'normal.kind' must be a character string of length 1"
-msgstr ""
+msgstr "يجب أن يكون \"normal.kind\" سلسلة أحرف بطول 1"
 
 msgid "'%s' is not a valid choice"
 msgstr ""
