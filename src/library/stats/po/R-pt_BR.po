@@ -6,6 +6,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -2369,7 +2371,9 @@ msgid "too many replacement values supplied"
 msgstr "muitos valores de substituição fornecidos"
 
 msgid "number of values supplied is not a sub-multiple of the number of values to be replaced"
-msgstr "número de valores fornecidos não é um submúltiplo do número de valores a serem substituídos"
+msgstr ""
+"número de valores fornecidos não é um submúltiplo do número de valores a "
+"serem substituídos"
 
 msgid "only replacement of elements is allowed"
 msgstr "apenas a substituição de elementos é permitida"
@@ -2414,7 +2418,9 @@ msgid "requested conf.level not achievable"
 msgstr "conf.level solicitado não alcançável"
 
 msgid "cannot compute confidence interval when all observations are zero or tied"
-msgstr "impossível computar os intervalos de confiança quando todas as observações são zero ou empates"
+msgstr ""
+"impossível computar os intervalos de confiança quando todas as observações "
+"são zero ou empates"
 
 msgid "cannot compute exact confidence interval with ties"
 msgstr "impossível computar os intervalos de confiança exatos com empate"
@@ -2429,7 +2435,9 @@ msgid "Requested conf.level not achievable"
 msgstr "conf.level solicitado não alcançável"
 
 msgid "cannot compute confidence interval when all observations are tied"
-msgstr "impossível computar os intervalos de confiança quando todas as observações são empates"
+msgstr ""
+"impossível computar os intervalos de confiança quando todas as observações "
+"são empates"
 
 #, fuzzy
 msgid "must supply 'formula' or 'data'"
@@ -2439,7 +2447,9 @@ msgid "%s applies only to two-way tables"
 msgstr "%s aplica-se apenas a tabelas bidirecionais"
 
 msgid "too few distinct input values to fit an asymptotic regression model"
-msgstr "poucos valores de entrada distintos para ajustar um modelo de regressão assintótica"
+msgstr ""
+"poucos valores de entrada distintos para ajustar um modelo de regressão "
+"assintótica"
 
 msgid "cannot fit an asymptotic regression model to these data"
 msgstr "não é possível ajustar um modelo de regressão assintótico com esses dados"
@@ -2822,6 +2832,7 @@ msgstr[1] ""
 
 #~ msgid "no terms component"
 #~ msgstr "nenhum componente de termos"
+
 
 
 
