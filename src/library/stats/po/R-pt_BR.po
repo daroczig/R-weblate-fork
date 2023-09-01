@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -178,10 +180,10 @@ msgid "arguments must have same length"
 msgstr "argumentos devem ter o mesmo comprimento"
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
-msgstr "argumento 'x' está ausente -- foi renomeado de 'formula'"
+msgstr "argumento 'x' está  ausente -- foi renomeado de 'formula'"
 
 msgid "argument 'x' must be a formula"
-msgstr "argumento 'x ' deve ser uma fórmula"
+msgstr "argumento 'x' deve ser uma fórmula"
 
 msgid "formula 'x' must have both left and right hand sides"
 msgstr "fórmula 'x' deve ter os lados tanto esquerdo quanto direito"
@@ -295,7 +297,7 @@ msgid "'approx' requires n >= 1"
 msgstr "'approx' necessita de n >= 1"
 
 msgid "NAs in 'x' must be the same row-wise"
-msgstr "NAs em 'x' devem ser iguais por linha"
+msgstr "NAs em 'x' devem ser iguais linha a linha"
 
 msgid "'order.max' must be >= 1"
 msgstr "'order.max' deve ser >= 1"
@@ -562,7 +564,7 @@ msgid "arguments must have the same length"
 msgstr "argumentos devem ter o mesmo comprimento"
 
 msgid "wrong number of columns in new data:"
-msgstr "número errado de colunas nos dados novos"
+msgstr "número errado de colunas nos dados novos:"
 
 msgid "contrasts apply only to factors"
 msgstr "contrastes aplicam-se apenas a fatores"
@@ -580,7 +582,7 @@ msgid "numeric contrasts or contrast name expected"
 msgstr "contrastes numérico ou contraste de nome são esperados"
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr "%s precisa do pacote \"Matrix\" instalado corretamente"
+msgstr "%s precisa do pacote 'Matrix' instalado corretamente"
 
 msgid "not enough degrees of freedom to define contrasts"
 msgstr "graus de liberdade insuficientes para definir contrastes"
@@ -654,8 +656,7 @@ msgid "either 'k' or 'h' must be specified"
 msgstr "ou 'k' ou 'h' deve ser especificado"
 
 msgid "the 'height' component of 'tree' is not sorted (increasingly)"
-msgstr ""
-"componente 'height' de 'tree' não está classificada (em ordem crescente)"
+msgstr "componente 'height' de 'tree' não está ordenada (em ordem crescente)"
 
 msgid "elements of 'k' must be between 1 and %d"
 msgstr "elementos de 'k' deve estar entre 1 e %d"
