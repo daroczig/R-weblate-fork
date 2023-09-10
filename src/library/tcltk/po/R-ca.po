@@ -3,125 +3,100 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr "No es pot utilitzar un objecte de tipus '%s'"
+msgstr ""
 
-#, fuzzy
 msgid "cannot change names on Tcl array"
-msgstr "no es poden canviar els noms a la matriu Tcl"
+msgstr ""
 
-#, fuzzy
 msgid "cannot set length of Tcl array"
-msgstr "no es pot establir la longitud de la matriu Tcl"
+msgstr ""
 
-#, fuzzy
 msgid "Tcl package '%s' not found"
-msgstr "No s'ha trobat el paquet Tcl «%s»"
+msgstr ""
 
-#, fuzzy
 msgid "The tkGUI is not available under Windows"
-msgstr "El tkGUI no està disponible en el Windows"
+msgstr ""
 
 msgid "File"
-msgstr "Fitxer"
+msgstr ""
 
-#, fuzzy
 msgid "Demos"
-msgstr "Demostracions"
+msgstr ""
 
 msgid "Packages"
-msgstr "Paquets"
+msgstr ""
 
 msgid "Help"
-msgstr "Ajuda"
+msgstr ""
 
-#, fuzzy
 msgid "Source R code"
-msgstr "Codi font de l'R"
+msgstr ""
 
-#, fuzzy
 msgid "Quit"
-msgstr "Surt"
+msgstr ""
 
 msgid "Save workspace"
-msgstr "Desa l'espai de treball"
+msgstr ""
 
-#, fuzzy
 msgid "Don't save workspace"
-msgstr "No desis l'espai de treball"
+msgstr ""
 
-#, fuzzy
 msgid "t test"
-msgstr "test t"
+msgstr ""
 
-#, fuzzy
 msgid "Density"
-msgstr "Densitat"
+msgstr ""
 
-#, fuzzy
 msgid "Interactive linear fitting"
-msgstr "Ajustament lineal interactiu"
+msgstr ""
 
-#, fuzzy
 msgid "R FAQ"
-msgstr "PMF DE L'R"
+msgstr ""
 
-#, fuzzy
 msgid "Load"
-msgstr "Carrega"
+msgstr ""
 
-#, fuzzy
 msgid "Go get them!"
-msgstr "Vés a per ells!"
+msgstr ""
 
-#, fuzzy
 msgid "Load packages"
-msgstr "Carrega els paquets"
+msgstr ""
 
-#, fuzzy
 msgid "Install packages from CRAN"
-msgstr "Instal·la els paquets des de la CRAN"
+msgstr ""
 
-#, fuzzy
 msgid "Help topic:"
-msgstr "Tema d'ajuda:"
+msgstr ""
 
-#, fuzzy
 msgid "Manuals in PDF format"
-msgstr "Manuals en format PDF"
+msgstr ""
 
 msgid "OK"
-msgstr "D'acord"
+msgstr ""
 
 msgid "Cancel"
-msgstr "Cancel·la"
+msgstr ""
 
-#, fuzzy
 msgid "'pb' is not from class %s"
-msgstr "«pb» no és de la classe %s"
+msgstr ""
 
-#, fuzzy
 msgid "'filters' must be a 2-column character matrix"
-msgstr "«filters» ha de ser una matriu de caràcters de 2 columnes"
+msgstr ""
 
-#, fuzzy
 msgid "tcltk DLL is linked to"
-msgstr "Tcltk DLL està enllaçat a"
+msgstr ""
 
-#, fuzzy
 msgid "Tcl/Tk support is not available on this system"
-msgstr "El suport Tcl/Tk no està disponible en aquest sistema"
+msgstr ""
 
-#, fuzzy
 msgid "Tcl/Tk support files were not installed"
-msgstr "No s'han instal·lat els fitxers de suport Tcl/Tk"
+msgstr ""
