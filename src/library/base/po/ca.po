@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-08-17 03:05+0000\n"
+"PO-Revision-Date: 2023-09-10 00:54+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -17,7 +17,7 @@ msgid "'%s' is defunct."
 msgstr "«%s» està desaparegut."
 
 msgid "Use '%s' instead."
-msgstr "Utilitzeu «%s» com a alternativa."
+msgstr "Utilitzeu «%s»."
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
 msgstr "Vegeu help(\"Defunct\") i help(\"%s-defunct\")."
@@ -26,1824 +26,1942 @@ msgid "See help(\"Defunct\")"
 msgstr "Vegeu help(\"Defunct\")"
 
 msgid "'%s' is deprecated."
-msgstr ""
+msgstr "«%s» és obsolet."
 
 msgid "See help(\"Deprecated\") and help(\"%s-deprecated\")."
-msgstr ""
+msgstr "Vegeu help(\"Deprecated\") i help(\"%s-deprecated\")."
 
 msgid "See help(\"Deprecated\")"
-msgstr ""
+msgstr "Vegeu help(\"Deprecated\")"
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr ""
+msgstr "el paràmetre de «La.svd» ha de ser numèric o complex"
 
 msgid "infinite or missing values in 'x'"
-msgstr ""
+msgstr "valors infinits o no disponibles a «x»"
 
 msgid "a dimension is zero"
-msgstr ""
+msgstr "una dimensió és zero"
 
 msgid "\"all\" and \"exact\" are mutually exclusive"
-msgstr ""
+msgstr "«all» i «exact» són mútuament excloents"
 
 msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
-msgstr ""
+msgstr "«hexNumeric» i «digits17» són mútuament excloents"
 
 msgid "second argument must be a list"
-msgstr ""
+msgstr "el segon argument ha de ser una llista"
 
 msgid "'iconvlist' is not available on this system"
-msgstr ""
+msgstr "«iconvlist» no està disponible en aquest sistema"
 
 msgid "'kind' must be a character string of length 1 (RNG to be used)."
-msgstr ""
+msgstr "«kind» ha de ser una cadena de caràcters de longitud 1 (RNG a usar)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
-msgstr ""
+msgstr "«%s» no és una abreviatura vàlida d'un RNG"
 
 msgid "'normal.kind' must be a character string of length 1"
-msgstr ""
+msgstr "«normal.kind» ha de ser una cadena de caràcters de longitud 1"
 
 msgid "'%s' is not a valid choice"
-msgstr ""
+msgstr "«%s» no és una elecció vàlida"
 
 msgid "'sample.kind' must be a character string of length 1"
-msgstr ""
+msgstr "«sample.kind» ha de ser una cadena de caràcters de longitud 1"
 
 msgid "malformed version string"
-msgstr ""
+msgstr "cadena de versió mal formatada"
 
 msgid "target is %s, current is %s"
-msgstr ""
+msgstr "l'objectiu és %s, l'actual és %s"
 
 msgid "'tolerance' should be numeric"
-msgstr ""
+msgstr "«tolerance» hauria de ser numèric"
 
 msgid "'scale' should be numeric or NULL"
-msgstr ""
+msgstr "«scale» hauria de ser numèric o NULL"
 
 msgid "'%s' must be logical"
-msgstr ""
+msgstr "«%s» ha de ser lògic"
 
 msgid "dim(X) must have a positive length"
-msgstr ""
+msgstr "dim(X) ha de tenir una longitud positiva"
 
 msgid "'X' must have named dimnames"
-msgstr ""
+msgstr "'X' ha de tenir dimnames amb noms"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
-msgstr ""
+msgstr "no tots els elements de «MARGIN» són noms de dimensions"
 
 msgid "'MARGIN' does not match dim(X)"
-msgstr ""
+msgstr "«MARGIN» no coincideix amb dim(X)"
 
 msgid "'dim' cannot be of length 0"
-msgstr ""
+msgstr "«dim» no pot ser de longitud 0"
 
 msgid "'dim' specifies too large an array"
-msgstr ""
+msgstr "«dim» especifica una matriu massa gran"
 
 msgid "'x' must have named dimnames"
-msgstr ""
+msgstr "'x' ha de tenir dimnames amb noms"
 
 msgid "incorrect value for 'MARGIN'"
-msgstr ""
+msgstr "valor incorrecte per a «MARGIN»"
 
 msgid "dim(x) must have a positive length"
-msgstr ""
+msgstr "dim(x) ha de tenir una longitud positiva"
 
 msgid "'pos=1' is not possible and has been warned about for years"
-msgstr ""
+msgstr "«pos=1» no és possible i fa anys que es va advertir"
 
 msgid "file '%s' not found"
-msgstr ""
+msgstr "no s'ha trobat el fitxer «%s»"
 
 msgid "invalid 'name' argument"
-msgstr ""
+msgstr "paràmetre «name» no vàlid"
 
 msgid "package %s is required by %s, which may no longer work correctly"
 msgstr ""
+"el paquet %s és requerit per %s, que pot haver deixat de funcionar "
+"correctament"
 
 msgid "package %s is required by %s so will not be detached"
-msgstr ""
+msgstr "el paquet %s és requerit per %s, per tant no es desadjuntarà"
 
 msgid "%s failed in %s() for '%s', details:\n  call: %s\n  error: %s"
 msgstr ""
+"%s ha fallat a %s() per a «%s», detalls:\n"
+"  crida: %s\n"
+"  error: %s"
 
 msgid "%s namespace cannot be unloaded:"
-msgstr ""
+msgstr "No es pot descarregar l'espai de noms %s:"
 
 msgid "%s converted to character string"
-msgstr ""
+msgstr "%s convertit a cadena de caràcters"
 
 msgid "replaced regular expression pattern '[' by  '\\\\['"
-msgstr ""
+msgstr "s'ha substituït el patró d'expressió regular «[» per «\\\\[»"
 
 msgid "replaced '[<-' by '\\\\[<-' in regular expression pattern"
-msgstr ""
+msgstr "s'ha substituït «[<-» per «\\\\[<-» en el patró d'expressió regular"
 
 msgid "'value' must be a list"
-msgstr ""
+msgstr "«value» ha de ser una llista"
 
 msgid "an object with that name already exists"
-msgstr ""
+msgstr "ja existeix un objecte amb aquest nom"
 
 msgid "autoloader did not find '%s' in '%s'"
-msgstr ""
+msgstr "el carregador automàtic no ha trobat «%s» a «%s»"
 
 msgid "can only splice inside a call"
-msgstr ""
+msgstr "només es pot empalmar dins d'una crida"
 
 msgid "can only splice vectors"
-msgstr ""
+msgstr "només es poden empalmar els vectors"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
-msgstr ""
+msgstr "el paràmetre LINPACK ha desaparegut des de R 3.1.0"
 
 msgid "complex matrices not permitted at present"
-msgstr ""
+msgstr "les matrius complexes no són permeses actualment"
 
 msgid "'x' must be an array of at least two dimensions"
-msgstr ""
+msgstr "«x» ha de ser una matriu d'almenys dues dimensions"
 
 msgid "invalid 'dims'"
-msgstr ""
+msgstr "«dims» no vàlid"
 
 msgid "condition handlers must be specified with a condition class"
-msgstr ""
+msgstr "els gestors de condició s'han d'especificar amb una classe de condició"
 
 msgid "no 'restart' '%s' found"
-msgstr ""
+msgstr "no s'ha trobat «restart» «%s»"
 
 msgid "not an interactive session"
-msgstr ""
+msgstr "no és una sessió interactiva"
 
 msgid "not a valid restart specification"
-msgstr ""
+msgstr "no és una especificació de reinici vàlida"
 
 msgid "condition handlers must be functions"
-msgstr ""
+msgstr "els gestors de condicions han de ser funcions"
 
 msgid "pushing duplicate `%s` handler on top of the stack"
-msgstr ""
+msgstr "s'està pujant el gestor «%s» duplicat a sobre de la pila"
 
 msgid "argument 'where' of length 0"
-msgstr ""
+msgstr "paràmetre «where» de longitud 0"
 
 msgid "can only write character objects"
-msgstr ""
+msgstr "només es poden escriure objectes de caràcters"
 
 msgid "'headers' must have names and must not be NA"
-msgstr ""
+msgstr "«headers» ha de tenir noms i no pot ser NA"
 
 msgid "'name' must be a single character string"
-msgstr ""
+msgstr "«name» ha de ser una única cadena de caràcters"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
-msgstr ""
+msgstr "«origin» ha de ser «start», «current» o «end»"
 
 msgid "can only truncate an open connection"
-msgstr ""
+msgstr "només es pot truncar una connexió oberta"
 
 msgid "invalid 'endian' argument"
-msgstr ""
+msgstr "paràmetre «endian» no vàlid"
 
 msgid "can only write vector objects"
-msgstr ""
+msgstr "només es poden escriure objectes de tipus vector"
 
 msgid "'timeout' must be NULL or a non-negative number"
-msgstr ""
+msgstr "«timeout» ha de ser NULL o un número no negatiu"
 
 msgid "'from' must be raw or character"
-msgstr ""
+msgstr "«from» ha de ser de tipus «raw» o «character»"
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "«x» ha de ser numèric"
 
 msgid "invalid number of intervals"
-msgstr ""
+msgstr "el nombre d'intervals no és vàlid"
 
 msgid "'breaks' are not unique"
-msgstr ""
+msgstr "Els «breaks» no són únics"
 
 msgid "number of intervals and length of 'labels' differ"
-msgstr ""
+msgstr "el nombre d'intervals i la longitud de «labels» difereixen"
 
 msgid "invalid 'row.names' length"
-msgstr ""
+msgstr "la longitud de «row.names» no és vàlida"
 
 msgid "invalid 'make.names'"
-msgstr ""
+msgstr "«make.names» no vàlid"
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr ""
+msgstr "no es permeten «row.names» duplicats"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr ""
+msgstr "no es permeten valors no disponibles a «row.names»"
 
 msgid "invalid 'dimnames' given for data frame"
-msgstr ""
+msgstr "s'han proporcionat «dimnames» no vàlids per al «data frame»"
 
 msgid "cannot coerce class %s to a data.frame"
-msgstr ""
+msgstr "no es pot forçar la classe %s a «data.frame»"
 
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr ""
+msgstr "«row.names» no és un vector de caràcters o enters de longitud %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr ""
+"els noms de les files als paràmetres de «data.frame» no coincideixen, "
+"element %d"
 
 msgid "some row.names duplicated: %s --> row.names NOT used"
-msgstr ""
+msgstr "alguns «row.names» duplicats: %s --s «row.names» NO utilitzats"
 
 msgid "row names contain missing values"
-msgstr ""
+msgstr "els noms de les files contenen valors no disponibles"
 
 msgid "duplicate row.names: %s"
-msgstr ""
+msgstr "«row.names» duplicats: %s"
 
 msgid "arguments imply differing number of rows: %s"
-msgstr ""
+msgstr "els paràmetres impliquen un nombre diferent de files: %s"
 
 msgid "'row.names' should specify one of the variables"
-msgstr ""
+msgstr "«row.names» hauria d'especificar una de les variables"
 
 msgid "row names supplied are of the wrong length"
-msgstr ""
+msgstr "els noms de fila proporcionats són de longitud incorrecta"
 
 msgid "row names were found from a short variable and have been discarded"
-msgstr ""
+msgstr "s'han trobat noms de files d'una variable curta i s'han descartat"
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr ""
+msgstr "es desaconsellen els paràmetres amb nom que no siguin «drop»"
 
 msgid "'drop' argument will be ignored"
-msgstr ""
+msgstr "s'ignorarà el paràmetre «drop»"
 
 msgid "undefined columns selected"
-msgstr ""
+msgstr "s'han seleccionat columnes no definides"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr ""
+msgstr "es desaconsellen els paràmetres amb nom que no sigui «exact»"
 
 msgid "named arguments are discouraged"
-msgstr ""
+msgstr "no s'aconsellen els paràmetres amb nom"
 
 msgid "number of items to replace is not a multiple of replacement length"
 msgstr ""
+"el nombre d'elements a substituir no és un múltiple de la longitud de "
+"substitució"
 
 msgid "'value' is the wrong length"
-msgstr ""
+msgstr "«value» és d'una longitud incorrecta"
 
 msgid "unsupported matrix index in replacement"
-msgstr ""
+msgstr "índex de matriu no suportat a la substitució"
 
 msgid "need 0, 1, or 2 subscripts"
-msgstr ""
+msgstr "necessita 0, 1 o 2 subíndexs"
 
 msgid "missing values are not allowed in subscripted assignments of data frames"
 msgstr ""
+"els valors no disponibles no estan permesos en les assignacions amb "
+"subíndexs de «data frames»"
 
 msgid "non-existent rows not allowed"
-msgstr ""
+msgstr "no es permeten files inexistents"
 
 msgid "column name \"\" cannot match any column"
-msgstr ""
+msgstr "el nom de la columna «» no coincideix amb cap columna"
 
 msgid "new columns would leave holes after existing columns"
-msgstr ""
+msgstr "les columnes noves deixarien forats després de les columnes existents"
 
 msgid "duplicate subscripts for columns"
-msgstr ""
+msgstr "duplica els subíndexs per a les columnes"
 
 msgid "only valid calls are x[[j]] <- value or x[[i,j]] <- value"
-msgstr ""
+msgstr "les crides vàlides només són x[[j]] <- valor o x[[i,j]] <- valor"
 
 msgid "replacing element in non-existent column: %s"
-msgstr ""
+msgstr "s'està reemplaçant l'element en una columna inexistent: %s"
 
 msgid "only a single element should be replaced"
-msgstr ""
+msgstr "només s'ha de substituir un únic element"
 
 msgid "names do not match previous names"
-msgstr ""
+msgstr "els noms no coincideixen amb els noms anteriors"
 
 msgid "numbers of columns of arguments do not match"
-msgstr ""
+msgstr "el nombre de columnes dels paràmetres no coincideix"
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr ""
+"paràmetre de llista no vàlid: totes les variables haurien de tenir la "
+"mateixa longitud"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
 msgstr ""
+"el nombre de columnes del resultat, %d, no és un múltiple de la longitud del "
+"vector %d de l'argument %d"
 
 msgid "<0 rows> (or 0-length row.names)"
-msgstr ""
+msgstr "<0 files> (o «row.names» de longitud 0)"
 
 msgid "invalid 'max' / getOption(\"max.print\"):"
-msgstr ""
+msgstr "«max» no vàlid / getOption(\"max.print\"):"
 
 msgid "non-numeric-alike variable(s) in data frame:"
-msgstr ""
+msgstr "Variable/s no numèrica/ques al «data frame»:"
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "%s only defined for equally-sized data frames"
-msgstr ""
+msgstr "%s només està definit per als «data frames» d'igual mida"
 
 msgid "list of length %d not meaningful"
-msgstr ""
+msgstr "una llista de longitud %d no té sentit"
 
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr ""
+msgstr "només definit en un «data frame» amb totes les variables numèriques"
 
 msgid "cannot xtfrm data frames"
-msgstr ""
+msgstr "no es pot xtfrm «data frames»"
 
 msgid "all variables should have the same length"
-msgstr ""
+msgstr "totes les variables han de tenir la mateixa longitud"
 
 msgid "character string is not in a standard unambiguous format"
-msgstr ""
+msgstr "la cadena de caràcters no té un format estàndard inequívoc"
 
 msgid "do not know how to convert '%s' to class %s"
-msgstr ""
+msgstr "no se sap com convertir «%s» a la classe %s"
 
 msgid "binary + is not defined for \"Date\" objects"
-msgstr ""
+msgstr "el + binari no està definit per als objectes «Date»"
 
 msgid "can only subtract from \"Date\" objects"
-msgstr ""
+msgstr "només es pot restar dels objectes «Date»"
 
 msgid "unary - is not defined for \"Date\" objects"
-msgstr ""
+msgstr "l'operador unari - no està definit per als objectes «Date»"
 
 msgid "can only subtract numbers from \"Date\" objects"
-msgstr ""
+msgstr "només es poden restar números dels objectes «Date»"
 
 msgid "unary %s not defined for \"Date\" objects"
-msgstr ""
+msgstr "no s'ha definit l'operador unari %s per als objectes «Date»"
 
 msgid "%s not defined for \"Date\" objects"
-msgstr ""
+msgstr "%s no està definit per als objectes «Date»"
 
 msgid "'from' must be specified"
-msgstr ""
+msgstr "s'ha d'especificar «from»"
 
 msgid "'from' must be a \"Date\" object"
-msgstr ""
+msgstr "«from» ha de ser un objecte «Date»"
 
 msgid "'from' must be of length 1"
-msgstr ""
+msgstr "«from» ha de ser de longitud 1"
 
 msgid "'to' must be a \"Date\" object"
-msgstr ""
+msgstr "«to» ha de ser un objecte «Date»"
 
 msgid "'to' must be of length 1"
-msgstr ""
+msgstr "«to» ha de ser de longitud 1"
 
 msgid "'length.out' must be of length 1"
-msgstr ""
+msgstr "«length.out» ha de ser de longitud 1"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
 msgstr ""
+"s'han d'especificar exactament dos de «to», «by» i «length.out» / «along."
+"with»"
 
 msgid "'by' must be of length 1"
-msgstr ""
+msgstr "«by» ha de ser de longitud 1"
 
 msgid "invalid 'by' string"
-msgstr ""
+msgstr "cadena 'by' no vàlida"
 
 msgid "invalid string for 'by'"
-msgstr ""
+msgstr "cadena no vàlida per a «by»"
 
 msgid "invalid mode for 'by'"
-msgstr ""
+msgstr "el mode «by» no és vàlid"
 
 msgid "'by' is NA"
-msgstr ""
+msgstr "«by« és NA"
 
 msgid "'x' must be a date-time object"
-msgstr ""
+msgstr "«x» ha de ser un objecte «date-time»"
 
 msgid "invalid specification of 'breaks'"
-msgstr ""
+msgstr "especificació no vàlida de «breaks»"
 
 msgid "'origin' must be of length one"
-msgstr ""
+msgstr "\"origin\" ha de ser de longitud u"
 
 msgid "'lag' and 'differences' must be integers >= 1"
-msgstr ""
+msgstr "«lag» i «differences» han de ser enters >= 1"
 
 msgid "unable to deduce timezone name from"
-msgstr ""
+msgstr "no s'ha pogut deduir el nom de la zona horària de"
 
 msgid "wrong class"
-msgstr ""
+msgstr "classe incorrecta"
 
 msgid "binary '+' is not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "l'operador binari «+» no està definit per als objectes «POSIXt»"
 
 msgid "can only subtract from \"POSIXt\" objects"
-msgstr ""
+msgstr "només es pot restar dels objectes «POSIXt»"
 
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "no s'ha definit l'operador unari «-» per als objectes «POSIXt»"
 
 msgid "can only subtract numbers from \"POSIXt\" objects"
-msgstr ""
+msgstr "només es poden restar números dels objectes «POSIXt»"
 
 msgid "unary '%s' not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "no s'ha definit l'operador unari «%s» per als objectes «POSIXt»"
 
 msgid "'%s' not defined for \"POSIXt\" objects"
-msgstr ""
+msgstr "«%s» no està definit per als objectes «POSIXt»"
 
 msgid "'tzone' attributes are inconsistent"
-msgstr ""
+msgstr "Els atributs «tzone» són inconsistents"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
+"as.character(td, ..) ja no respon al paràmetre «format», useu «format(td, "
+"..)» ?"
 
 msgid "'digits' must be numeric, integer valued"
-msgstr ""
+msgstr "«digits» ha de ser numèric, avaluat com a enter"
 
 msgid "'tim' is not character or numeric"
-msgstr ""
+msgstr "«tim» no és de tipus «character» ni «numeric»"
 
 msgid "need explicit units for numeric conversion"
-msgstr ""
+msgstr "es necessiten unitats explícites per a la conversió numèrica"
 
 msgid "invalid units specified"
-msgstr ""
+msgstr "s'han especificat unitats no vàlides"
 
 msgid "unary '%s' not defined for \"difftime\" objects"
-msgstr ""
+msgstr "no s'ha definit l'operador unari «%s» per als objectes «difftime»"
 
 msgid "'%s' not defined for \"difftime\" objects"
-msgstr ""
+msgstr "«%s» no està definit per als objectes «difftime»"
 
 msgid "both arguments of * cannot be \"difftime\" objects"
-msgstr ""
+msgstr "els dos paràmetres de * no poden ser objectes «difftime»"
 
 msgid "second argument of / cannot be a \"difftime\" object"
-msgstr ""
+msgstr "el segon paràmetre de / no pot ser un objecte «difftime»"
 
 msgid "'from' must be a \"POSIXt\" object"
-msgstr ""
+msgstr "«from» ha de ser un objecte «POSIXt»"
 
 msgid "'to' must be a \"POSIXt\" object"
-msgstr ""
+msgstr "«to» ha de ser un objecte «POSIXt»"
 
 msgid "component subscript must be a character string"
-msgstr ""
+msgstr "el subíndex del component ha de ser una cadena de caràcters"
 
 msgid "no Olson database found"
-msgstr ""
+msgstr "no s'ha trobat cap base de dades Olson"
 
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "«file» ha de ser una cadena de caràcters o una connexió"
 
 msgid "Invalid DCF format.\nRegular lines must have a tag.\nOffending lines start with:\n%s"
 msgstr ""
+"El format DCF no és vàlid.\n"
+"Les línies normals han de tenir una etiqueta.\n"
+"Les línies que s'envien comencen amb:\n"
+"%s"
 
 msgid "Invalid DCF format.\nContinuation lines must not start a record.\nOffending lines start with:\n%s"
 msgstr ""
+"El format DCF no és vàlid.\n"
+"Les línies de continuació no han d'iniciar un registre.\n"
+"Les línies que s'envien comencen amb:\n"
+"%s"
 
 msgid "failed to load the methods package for debugging by signature"
 msgstr ""
+"no s'ha pogut carregar el paquet «methods» per a la depuració per signatura"
 
 msgid "failed to load methods package for undebugging by signature"
 msgstr ""
+"no s'ha pogut carregar el paquet de mètodes per a desdepurar per signatura"
 
 msgid "failed to load methods package for handling signature"
-msgstr ""
+msgstr "no s'ha pogut carregar el paquet «methods» per a gestionar la signatura"
 
 msgid "'x' must be a square matrix"
-msgstr ""
+msgstr "«x» ha de ser una matriu quadrada"
 
 msgid "'determinant' not currently defined for complex matrices"
-msgstr ""
+msgstr "actualment «determinant» no està definit per a matrius complexes"
 
 msgid "'nrow' or 'ncol' cannot be specified when 'x' is a matrix"
-msgstr ""
+msgstr "no es pot especificar «nrow» o «ncol» quan «x» és una matriu"
 
 msgid "'x' is an array, but not one-dimensional."
-msgstr ""
+msgstr "«x» és una matriu, però no unidimensional."
 
 msgid "only matrix diagonals can be replaced"
-msgstr ""
+msgstr "només es poden substituir les diagonals de la matriu"
 
 msgid "replacement diagonal has wrong length"
-msgstr ""
+msgstr "la diagonal de substitució té una longitud incorrecta"
 
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr ""
+msgstr "MARGIN = %s no és vàlid per a dim = %s"
 
 msgid "must pass a package name, %s or %s object"
-msgstr ""
+msgstr "s'ha de passar un nom de paquet, %s o un objecte %s"
 
 msgid "No DLL currently loaded with name or path %s"
-msgstr ""
+msgstr "No s'ha carregat cap DLL amb el nom o el camí %s"
 
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr ""
+msgstr "múltiples DLLs coincideixen amb '%s'. S'està utilitzant «%s»"
 
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
 msgstr ""
+"s'ha d'especificar la DLL mitjançant un objecte %s. Vegeu getLoadedDLLs()"
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
 msgstr ""
+"la funció no es troba en un espai de noms, per tant no es pot localitzar la "
+"DLL associada"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
 msgstr ""
+"cercant DLL per a crida de rutina nadiua, però no hi ha DLLs a l'espai de "
+"noms de la crida"
 
 msgid "non-square matrix in 'eigen'"
-msgstr ""
+msgstr "matriu no quadrada a «eigen»"
 
 msgid "0 x 0 matrix"
-msgstr ""
+msgstr "matriu 0 x 0"
 
 msgid "invalid nrow(x)"
-msgstr ""
+msgstr "nrow(x) no vàlid"
 
 msgid "invalid 'labels'; length %d should be 1 or %d"
-msgstr ""
+msgstr "«labels» no vàlides; la longitud %d hauria de ser 1 o %d"
 
 msgid "number of levels differs"
-msgstr ""
+msgstr "el nombre de nivells difereix"
 
 msgid "%s not meaningful for factors"
-msgstr ""
+msgstr "%s no té sentit per a factors"
 
 msgid "level sets of factors are different"
-msgstr ""
+msgstr "els conjunts de nivells dels factors són diferents"
 
 msgid "invalid factor level, NA generated"
-msgstr ""
+msgstr "nivell de factor no vàlid, s'han generat NA"
 
 msgid "'%s' is not meaningful for ordered factors"
-msgstr ""
+msgstr "«%s» no té sentit per factors ordenats"
 
 msgid "'%s' not defined for ordered factors"
-msgstr ""
+msgstr "«%s» no està definit per factors ordenats"
 
 msgid "'%s' is only meaningful for ordered factors if all arguments have the same level sets"
 msgstr ""
+"«%s» només té sentit per factors ordenats si tots els arguments tenen els "
+"mateixos conjunts de nivells"
 
 msgid "no files to copy to"
-msgstr ""
+msgstr "no hi ha fitxers on copiar"
 
 msgid "attempt to copy a directory to itself"
-msgstr ""
+msgstr "s'ha intentat copiar un directori a si mateix"
 
 msgid "more 'from' files than 'to' files"
-msgstr ""
+msgstr "més fitxers «from» que fitxers «to»"
 
 msgid "'recursive' will be ignored as 'to' is not a single existing directory"
-msgstr ""
+msgstr "S'ignorarà «recursive» perquè «to» no és un únic directori existent"
 
 msgid "cannot overwrite a non-directory with a directory"
-msgstr ""
+msgstr "no es pot sobreescriure un no-directori amb un directori"
 
 msgid "directories are omitted unless 'recursive = TRUE'"
-msgstr ""
+msgstr "els directoris s'ometen llevat que «recursiu = TRUE»"
 
 msgid "file can not be copied both 'from' and 'to'"
-msgstr ""
+msgstr "el fitxer a copiar no pot ser tant a «from» com a «to»"
 
 msgid "no files to link from"
-msgstr ""
+msgstr "no hi ha fitxers des d'on enllaçar"
 
 msgid "no files/directory to link to"
-msgstr ""
+msgstr "no hi ha cap fitxer/directori a on enllaçar"
 
 msgid "no files to link to"
-msgstr ""
+msgstr "no hi ha cap fitxer a on enllaçar"
 
 msgid "'package' must be of length 1"
-msgstr ""
+msgstr "«package» ha de ser de longitud 1"
 
 msgid "no file found"
-msgstr ""
+msgstr "no s'ha trobat cap fitxer"
 
 msgid "invalid 'path' argument"
-msgstr ""
+msgstr "paràmetre «path» no vàlid"
 
 msgid "invalid 'time' argument"
-msgstr ""
+msgstr "paràmetre «time» no vàlid"
 
 msgid "'vec' must be sorted non-decreasingly and not contain NAs"
-msgstr ""
+msgstr "«vec» ha d'estar d'ordenat de forma no decreixent i no pot contenir NAs"
 
 msgid "'fun' is not a function"
-msgstr ""
+msgstr "«fun» no és una funció"
 
 msgid "using the first element of 'value' of type \"expression\""
-msgstr ""
+msgstr "s'està utilitzant el primer element de «value» de tipus «expressió»"
 
 msgid "Found no format() method for class \"%s\""
-msgstr ""
+msgstr "No s'ha trobat cap mètode format() per a la classe «%s»"
 
 msgid "class of 'x' was discarded"
-msgstr ""
+msgstr "s'ha descartat la classe d'«x»"
 
 msgid "'flag' must be a string, i.e., of length 1"
-msgstr ""
+msgstr "«flag» ha de ser una cadena, és a dir, de longitud 1"
 
 msgid "'flag' should contain only characters from [0+- #'I]"
-msgstr ""
+msgstr "«flag» només hauria de contenir caràcters de [0+- #'I]"
 
 msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
-msgstr ""
+msgstr "«mode» ha de ser «double» («real»), «integer» o «character»"
 
 msgid "coercing argument to \"character\" for format=\"s\""
-msgstr ""
+msgstr "s'està forçant el paràmetre a «character» per a «format=\"s\"»"
 
 msgid "'format' must be one of {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
-msgstr ""
+msgstr "«format» ha de ser un de {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 
 msgid "'digits' reduced to %d"
-msgstr ""
+msgstr "«digits» reduïts a %d"
 
 msgid "corrupt data frame: columns will be truncated or padded with NAs"
-msgstr ""
+msgstr "«data frame» corromput: les columnes es truncaran o s'ompliran amb NAs"
 
 msgid "'zero.print' has length > 1"
-msgstr ""
+msgstr "«zero.print» té longitud > 1"
 
 msgid "'zero.print' must be character, logical or NULL"
-msgstr ""
+msgstr "«zero.print» ha de ser «character», «logical» o NULL"
 
 msgid "'zero.print' is truncated to fit into formatted zeros; consider 'replace=TRUE'"
 msgstr ""
+"«zero.print» està truncat per a ajustar-se als zeros formatats; considereu "
+"«replace=TRUE»"
 
 msgid "'big.mark' and 'decimal.mark' are both '%s', which could be confusing"
 msgstr ""
+"«big.mark» i «decimal.mark» són tots dos «%s», la qual cosa podria ser "
+"confusa"
 
 msgid "'input.d.mark' has no characters"
-msgstr ""
+msgstr "«input.d.mark» no té caràcters"
 
 msgid "'subset' must be logical"
-msgstr ""
+msgstr "«subset» ha de ser «logical»"
 
 msgid "value for %s not found"
-msgstr ""
+msgstr "no s'ha trobat el valor per a %s"
 
 msgid "all arguments must be named"
-msgstr ""
+msgstr "cal posar el nom de tots els paràmetres"
 
 msgid "argument '%s' will be ignored"
-msgstr ""
+msgstr "s'ignorarà el paràmetre «%s»"
 
 msgid "match distance components must be non-negative"
-msgstr ""
+msgstr "els components de la distància coincident han de ser no negatius"
 
 msgid "unknown match distance components ignored"
-msgstr ""
+msgstr "s'han ignorat els components desconeguts de la distància coincident"
 
 msgid "unknown cost components ignored"
-msgstr ""
+msgstr "s'ignoren els components de cost desconeguts"
 
 msgid "cost components must be non-negative"
-msgstr ""
+msgstr "els components de cost han de ser no negatius"
 
 msgid "%s and %s must have the same length"
-msgstr ""
+msgstr "%s i %s han de tenir la mateixa longitud"
 
 msgid "need non-overlapping matches for %s"
-msgstr ""
+msgstr "es necessiten coincidències no superposades per a %s"
 
 msgid "missing replacement values are not allowed"
-msgstr ""
+msgstr "no es permeten els valors de reemplaçament no disponibles"
 
 msgid "must have replacement values for matches"
-msgstr ""
+msgstr "ha de tenir valors de reemplaçament per a les coincidències"
 
 msgid "value does not provide any replacement values"
-msgstr ""
+msgstr "el valor no proporciona cap valor de reemplaçament"
 
 msgid "must have replacements for non-matches"
-msgstr ""
+msgstr "ha de tenir reemplaçaments per a les no coincidents"
 
 msgid "must have replacements for matches"
-msgstr ""
+msgstr "ha de tenir reemplaçaments per a les coincidències"
 
 msgid "No factors specified"
-msgstr ""
+msgstr "No s'ha especificat cap factor"
 
 msgid "norm '%s' currently always uses exact = FALSE"
-msgstr ""
+msgstr "la norma «%s» actualment sempre usa «exact = FALSE»"
 
 msgid "triangular matrix should be square"
-msgstr ""
+msgstr "la matriu triangular ha de ser quadrada"
 
 msgid "unknown conflict policy: %s"
-msgstr ""
+msgstr "política de conflictes desconeguda: %s"
 
 msgid "only one of 'include.only' and 'exclude' can be used"
-msgstr ""
+msgstr "només es pot utilitzar o «include.only» o «exclude»"
 
 msgid "package %s has not been installed properly"
-msgstr ""
+msgstr "el paquet %s no s'ha instal·lat correctament"
 
 msgid "package %s was built before R 3.0.0: please re-install it"
-msgstr ""
+msgstr "el paquet %s es va construir abans d'R 3.0.0: torneu-lo a instal·lar"
 
 msgid "This is R %s, package %s needs %s %s"
-msgstr ""
+msgstr "Això és R %s, el paquet %s necessita %s %s"
 
 msgid "package %s was built under R version %s"
-msgstr ""
+msgstr "el paquet %s es va construir amb la versió d'R %s"
 
 msgid "package %s was built for %s"
-msgstr ""
+msgstr "el paquet %s s'ha construït per a %s"
 
 msgid "package %s is not installed for 'arch = %s'"
-msgstr ""
+msgstr "el paquet %s no està instal·lat per a «arch = %s»"
 
 msgid "Conflicts attaching package %s:\n%s"
 msgstr ""
+"Conflictes adjuntant el paquet %s:\n"
+"%s"
 
 msgid "Attaching package: %s"
-msgstr ""
+msgstr "S'està adjuntant el paquet: %s"
 
 msgid "'verbose' and 'quietly' are both true; being verbose then .."
-msgstr ""
+msgstr "«verbose» i «quietly» són tots dos certs; sent «verbose» llavors..."
 
 msgid "invalid package name"
-msgstr ""
+msgstr "el nom del paquet no és vàlid"
 
 msgid "there is no package called %s"
-msgstr ""
+msgstr "no hi ha cap paquet anomenat %s"
 
 msgid "no library trees found in 'lib.loc'"
-msgstr ""
+msgstr "no s'ha trobat cap arbre de biblioteques a «lib.loc»"
 
 msgid "%s is not a valid installed package"
-msgstr ""
+msgstr "%s no és un paquet instal·lat vàlid"
 
 msgid "%s not found on search path, using pos = 2"
-msgstr ""
+msgstr "No s'ha trobat %s al camí de cerca, s'usarà «pos = 2»"
 
 msgid "Package %s version %s cannot be unloaded:\n %s"
 msgstr ""
+"El paquet %s versió %s no es pot descarregar:\n"
+" %s"
 
 msgid "package or namespace load failed for %s%s:\n %s"
 msgstr ""
+"ha fallat la càrrega del paquet o de l'espai de noms per a %s%s:\n"
+" %s"
 
 msgid "package %s already present in search()"
-msgstr ""
+msgstr "el paquet %s ja està present a «search()»"
 
 msgid "'DESCRIPTION' has an 'Encoding' field and re-encoding is not possible"
-msgstr ""
+msgstr "«DESCRIPTION» té un camp «Encoding» i no és possible tornar a codificar"
 
 msgid "%sPackages in library %s:"
-msgstr ""
+msgstr "%sPaquets a la biblioteca %s:"
 
 msgid "no packages found"
-msgstr ""
+msgstr "no s'ha trobat cap paquet"
 
 msgid "R packages available"
-msgstr ""
+msgstr "Paquets d'R disponibles"
 
 msgid "DLL %s not found: maybe not installed for this architecture?"
 msgstr ""
+"No s'ha trobat la DLL %s: potser no està instal·lada per a aquesta "
+"arquitectura?"
 
 msgid "shared object %s not found"
-msgstr ""
+msgstr "no s'ha trobat l'objecte compartit %s"
 
 msgid "DLL %s already loaded"
-msgstr ""
+msgstr "la DLL %s ja està carregada"
 
 msgid "shared object '%s' already loaded"
-msgstr ""
+msgstr "l'objecte compartit «%s» ja està carregat"
 
 msgid "now dyn.load(\"%s\") ..."
-msgstr ""
+msgstr "ara «dyn.load(\"%s\")»..."
 
 msgid "no DLL was specified"
-msgstr ""
+msgstr "no s'ha especificat cap DLL"
 
 msgid "no shared object was specified"
-msgstr ""
+msgstr "no s'ha especificat cap objecte compartit"
 
 msgid "DLL %s was not loaded"
-msgstr ""
+msgstr "No s'ha carregat la DLL %s"
 
 msgid "shared object %s was not loaded"
-msgstr ""
+msgstr "l'objecte compartit %s no s'ha carregat"
 
 msgid "DLL %s not found"
-msgstr ""
+msgstr "No s'ha trobat la DLL %s"
 
 msgid "shared object '%s' not found"
-msgstr ""
+msgstr "no s'ha trobat l'objecte compartit «%s»"
 
 msgid "now dyn.unload(\"%s\") ..."
-msgstr ""
+msgstr "ara «dyn.unload(\"%s\")» ..."
 
 msgid "Loading required package: %s"
-msgstr ""
+msgstr "S'està carregant el paquet requerit: %s"
 
 msgid "none of the packages are loaded"
-msgstr ""
+msgstr "no s'ha carregat cap dels paquets"
 
 msgid "package %s found more than once, using the first from\n  %s"
 msgstr ""
+"el paquet %s s'ha trobat més d'una vegada, s'usarà el primer de\n"
+"  %s"
 
 msgid "Further information is available in the following vignettes in directory %s:"
 msgstr ""
+"Hi ha més informació disponible a les vinyetes següents al directori %s:"
 
 msgid "Description:"
-msgstr ""
+msgstr "Descripció:"
 
 msgid "Index:"
-msgstr ""
+msgstr "Índex:"
 
 msgid "Information on package %s"
-msgstr ""
+msgstr "Informació sobre el paquet %s"
 
 msgid "Documentation for package %s"
-msgstr ""
+msgstr "Documentació del paquet %s"
 
 msgid "package %s required by %s could not be found"
-msgstr ""
+msgstr "no s'ha pogut trobar el paquet %s requerit per %s"
 
 msgid "version %s of %s masked by %s in %s"
-msgstr ""
+msgstr "versió %s de %s emmascarada per %s a %s"
 
 msgid "package %s could not be loaded"
-msgstr ""
+msgstr "no s'ha pogut carregar el paquet %s"
 
 msgid "empty (zero-byte) input file"
-msgstr ""
+msgstr "fitxer d'entrada buit (zero-byte)"
 
 msgid "input has been corrupted, with LF replaced by CR"
-msgstr ""
+msgstr "l'entrada s'ha corromput, amb LF substituït per CR"
 
 msgid "bad 'file' argument"
-msgstr ""
+msgstr "paràmetre «file» erroni"
 
 msgid "'file' must be specified"
-msgstr ""
+msgstr "s'ha d'especificar «file»"
 
 msgid "nothing specified to be save()d"
-msgstr ""
+msgstr "no s'ha especificat res per a desar"
 
 msgid "'%s' must be a non-empty string"
-msgstr ""
+msgstr "«%s» ha de ser una cadena no buida"
 
 msgid "'compress' must be logical or character"
-msgstr ""
+msgstr "«compress» ha de ser «logical» o «character»"
 
 msgid "'compress = \"%s\"' is invalid"
-msgstr ""
+msgstr "«compress = \"%s\"» no és vàlid"
 
 msgid "bad file argument"
-msgstr ""
+msgstr "paràmetre «file» incorrecte"
 
 msgid "can only save to a binary connection"
-msgstr ""
+msgstr "només es pot desar en una connexió binària"
 
 msgid "image could not be renamed and is left in %s"
-msgstr ""
+msgstr "no s'ha pogut canviar el nom de la imatge i es deixa a %s"
 
 msgid "[Previously saved workspace restored]"
-msgstr ""
+msgstr "[S'ha restaurat l'espai de treball desat prèviament]"
 
 msgid "Attempting to load the environment %s"
-msgstr ""
+msgstr "S'està intentant carregar l'entorn %s"
 
 msgid "Specified environment not found: using '.GlobalEnv' instead"
 msgstr ""
+"No s'ha trobat l'entorn especificat: s'usarà «.GlobalEnv» com a alternativa"
 
 msgid "invalid 'category' argument"
-msgstr ""
+msgstr "paràmetre «category» no vàlid"
 
 msgid "must specify names of formal arguments for 'vectorize'"
-msgstr ""
+msgstr "s'han d'especificar els noms dels paràmetres formals per a «vectorize»"
 
 msgid "FUN"
-msgstr ""
+msgstr "FUN"
 
 msgid "may not have argument(s) named"
-msgstr ""
+msgstr "no pot haver-hi paràmetre/s anomenat/s"
 
 msgid "'arg' must be NULL or a character vector"
-msgstr ""
+msgstr "«arg» ha de ser NULL o un vector de caràcters"
 
 msgid "'arg' must be of length 1"
-msgstr ""
+msgstr "«arg» ha de ser de longitud 1"
 
 msgid "'arg' must be of length >= 1"
-msgstr ""
+msgstr "«arg» ha de ser de longitud >= 1"
 
 msgid "there is more than one match in 'match.arg'"
-msgstr ""
+msgstr "hi ha més d'una coincidència a «match.arg»"
 
 msgid "no match"
-msgstr ""
+msgstr "sense coincidència"
 
 msgid "'input' must have length 1"
-msgstr ""
+msgstr "«input» ha de tenir una longitud d'1"
 
 msgid "'input' and 'target' must be character vectors"
-msgstr ""
+msgstr "«input» i «target» han de ser vectors de caràcters"
 
 msgid "cannot mtfrm"
-msgstr ""
+msgstr "no es pot mtfrm"
 
 msgid "'%s' is not a function, character or symbol"
-msgstr ""
+msgstr "«%s» no és una funció, caràcter o símbol"
 
 msgid "found non-function '%s'"
-msgstr ""
+msgstr "s'ha trobat una no-funció «%s»"
 
 msgid "attempt to set 'rownames' on an object with no dimensions"
-msgstr ""
+msgstr "s'ha intentat establir «rownames» a un objecte sense dimensions"
 
 msgid "attempt to set 'colnames' on an object with less than two dimensions"
 msgstr ""
+"s'ha intentat establir «colnames» a un objecte amb menys de dues dimensions"
 
 msgid "argument is not numeric or logical: returning NA"
-msgstr ""
+msgstr "el paràmetre no és «numeric» ni «logical»: es retorna NA"
 
 msgid "'trim' must be numeric of length one"
-msgstr ""
+msgstr "«trim» ha de ser numèric de longitud u"
 
 msgid "trimmed means are not defined for complex data"
-msgstr ""
+msgstr "les mitjanes truncades no estan definides per a dades complexes"
 
 msgid "'by' must match numbers of columns"
-msgstr ""
+msgstr "«by» ha de coincidir amb el nombre de columnes"
 
 msgid "'by' must match number of columns"
-msgstr ""
+msgstr "«by» ha de coincidir amb el nombre de columnes"
 
 msgid "'by' must specify one or more columns as numbers, names or logical"
-msgstr ""
+msgstr "«by» ha d'especificar una o més columnes com a números, noms o booleans"
 
 msgid "long vectors are not supported"
-msgstr ""
+msgstr "no s'admeten vectors llargs"
 
 msgid "'by.x' and 'by.y' specify different numbers of columns"
-msgstr ""
+msgstr "«by.x» i «by.y» especifiquen un nombre diferent de columnes"
 
 msgid "'incomparables' is supported only for merging on a single column"
 msgstr ""
+"«incomparables» només és compatible amb la fusió a partir d'una sola columna"
 
 msgid "additional arguments ignored in message()"
-msgstr ""
+msgstr "paràmetres addicionals ignorats a «message()»"
 
 msgid "tracing functions requires the 'methods' package, but unable to load the 'methods' namespace"
 msgstr ""
+"les funcions de seguiment requereixen el paquet «methods», però no es pot "
+"carregar l'espai de noms «methods»"
 
 msgid "invalid to change the storage mode of a factor"
-msgstr ""
+msgstr "no és vàlid canviar el mode d'emmagatzematge d'un factor"
 
 msgid "namespace %s is not available and has been replaced\nby .GlobalEnv when processing object %s"
 msgstr ""
+"l'espai de noms %s no està disponible i s'ha substituït\n"
+"per .GlobalEnv en processar l'objecte %s"
 
 msgid "namespace is already attached"
-msgstr ""
+msgstr "l'espai de noms ja està adjuntat"
 
 msgid "not found in namespace %s: \n\n%s"
 msgstr ""
+"no s'ha trobat a l'espai de noms %s: \n"
+"\n"
+"%s"
 
 msgid "%s not found"
-msgstr ""
+msgstr "No s'ha trobat %s"
 
 msgid "namespace %s %s is already loaded, but %s %s is required"
-msgstr ""
+msgstr "l'espai de noms %s %s ja està carregat, però es requereix %s %s"
 
 msgid "- loading"
-msgstr ""
+msgstr "- s'està carregant"
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
-msgstr ""
+msgstr "l'espai de noms %s ja està segellat a «loadNamespace»"
 
 msgid "failed to assign RegisteredNativeSymbol for %s to %s since %s is already defined in the %s namespace"
 msgstr ""
+"no s'ha pogut assignar «RegisteredNativeSymbol» per %s a %s ja que %s ja "
+"està definit a l'espai de noms %s"
 
 msgid "failed to assign NativeSymbolInfo for %s to %s since %s is already defined in the %s namespace"
 msgstr ""
+"no s'ha pogut assignar «NativeSymbolInfo» per %s a %s ja que %s ja està "
+"definit a l'espai de noms %s"
 
 msgid "failed to assign NativeSymbolInfo for %s since %s is already defined in the %s namespace"
 msgstr ""
+"no s'ha pogut assignar «NativeSymbolInfo» per %s, ja que %s ja està definit "
+"a l'espai de noms %s"
 
 msgid "package %s does not have a namespace"
-msgstr ""
+msgstr "el paquet %s no té un espai de noms"
 
 msgid "package %s was installed before R 4.0.0: please re-install it"
-msgstr ""
+msgstr "el paquet %s s'ha instal·lat abans de l'R 4.0.0: torneu-lo a instal·lar"
 
 msgid "namespace %s %s is being loaded, but %s %s is required"
-msgstr ""
+msgstr "s'està carregant l'espai de noms %s %s, però es requereix %s %s"
 
 msgid "package %s has no 'package.rds' in Meta/"
-msgstr ""
+msgstr "el paquet %s no té «package.rds» a Meta/"
 
 msgid "package %s has a license that you need to accept in an interactive session"
 msgstr ""
+"el paquet %s té una llicència que cal que accepteu en una sessió interactiva"
 
 msgid "package %s has a license that you need to accept after viewing"
-msgstr ""
+msgstr "el paquet %s té una llicència que cal que accepteu després de veure-la"
 
 msgid "package %s has a license that you need to accept:"
-msgstr ""
+msgstr "el paquet %s té una llicència que cal que d'accepteu:"
 
 msgid "according to the DESCRIPTION file it is"
-msgstr ""
+msgstr "segons el fitxer «DESCRIPTION» és"
 
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 msgid "license for package %s not accepted"
-msgstr ""
+msgstr "no s'ha acceptat la llicència per al paquet %s"
 
 msgid "package %s was installed by an R version with different internals; it needs to be reinstalled for use with this R version"
 msgstr ""
+"el paquet %s s'ha instal·lat amb una versió R amb funcions internes "
+"diferents; s'ha de tornar a instal·lar per utilitzar-lo amb aquesta versió "
+"d'R"
 
 msgid "-- processing imports for"
-msgstr ""
+msgstr "-- s'estan processant les importacions per"
 
 msgid "-- done processing imports for"
-msgstr ""
+msgstr "-- s'ha processat les importacions per"
 
 msgid "-- loading code for"
-msgstr ""
+msgstr "-- s'està carregant el codi per"
 
 msgid "unable to load R code in package %s"
-msgstr ""
+msgstr "no s'ha pogut carregar el codi d'R al paquet %s"
 
 msgid "-- loading sysdata for"
-msgstr ""
+msgstr "-- s'està carregant sysdata per"
 
 msgid "-- loading lazydata for"
-msgstr ""
+msgstr "-- s'estan carregant els «lazydata» per"
 
 msgid "-- registerS3methods for"
-msgstr ""
+msgstr "-- registerS3methods per"
 
 msgid "-- done registerS3methods for"
-msgstr ""
+msgstr "-- fets registerS3methods per"
 
 msgid "-- running .onLoad for"
-msgstr ""
+msgstr "-- s'està executant .onLoad per"
 
 msgid "-- done running .onLoad for"
-msgstr ""
+msgstr "-- s'ha executat .onLoad per"
 
 msgid "S4 exports specified in 'NAMESPACE' but not defined in package %s"
 msgstr ""
+"les exportacions d'S4 especificades a «NAMESPACE», però no definides al "
+"paquet %s"
 
 msgid "-- processing S4 stuff for"
-msgstr ""
+msgstr "-- s'està processant el material S4 per"
 
 msgid "--- caching metadata"
-msgstr ""
+msgstr "--- desant les metadades a la memòria cau"
 
 msgid "--- done caching metadata"
-msgstr ""
+msgstr "--- metadades desades a la memòria cau"
 
 msgid "--- processing classes"
-msgstr ""
+msgstr "--- processant classes"
 
 msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in package %s"
 msgstr ""
+"s'ha especificat «exportClassPattern» a «NAMESPACE», però no hi ha classes "
+"coincidents al paquet %s"
 
 msgid "in package %s classes %s were specified for export but not defined"
 msgstr ""
+"en el paquet %s s'han especificat les classes %s per a l'exportació però no "
+"s'han definit"
 
 msgid "no function found corresponding to methods exports from %s for: %s"
 msgstr ""
+"no s'ha trobat cap funció corresponent als mètodes exportats de %s per: %s"
 
 msgid "in %s methods for export not found: %s"
-msgstr ""
+msgstr "no s'han trobat els mètodes d'exportació %s: %s"
 
 msgid "---- export method"
-msgstr ""
+msgstr "---- mètode d'exportació"
 
 msgid "multiple methods tables found for %s"
-msgstr ""
+msgstr "s'han trobat múltiples taules de mètodes per %s"
 
 msgid "failed to find metadata object for %s"
-msgstr ""
+msgstr "no s'ha pogut trobar l'objecte de metadades per %s"
 
 msgid "in package %s methods %s were specified for export but not defined"
 msgstr ""
+"en el paquet %s s'han especificat els mètodes %s per a exportar però no "
+"s'han definit"
 
 msgid "-- done processing S4 stuff for"
-msgstr ""
+msgstr "-- s'ha processat el material S4 per"
 
 msgid "--- processing exports for"
-msgstr ""
+msgstr "--- processant exportacions per"
 
 msgid "--- sealing exports for"
-msgstr ""
+msgstr "--- segellant exportacions per"
 
 msgid "- done loading"
-msgstr ""
+msgstr "- s'ha fet la càrrega"
 
 msgid "Loading required namespace: %s"
-msgstr ""
+msgstr "S'està carregant l'espai de noms requerit: %s"
 
 msgid "not loading a namespace"
-msgstr ""
+msgstr "no es carrega un espai de noms"
 
 msgid "namespace %s is imported by %s so cannot be unloaded"
-msgstr ""
+msgstr "l'espai de noms %s és importat per %s, per tant no es pot descarregar"
 
 msgid "not a namespace"
-msgstr ""
+msgstr "no és un espai de noms"
 
 msgid "operation not allowed on base namespace"
-msgstr ""
+msgstr "no es permet l'operació a l'espai de noms base"
 
 msgid "duplicate import names %s"
-msgstr ""
+msgstr "noms d'importació duplicats %s"
 
 msgid "replacing local value with import %s when loading %s"
-msgstr ""
+msgstr "s'està reemplaçant el valor local per l'importat %s en carregar %s"
 
 msgid "cannot import into a sealed namespace"
-msgstr ""
+msgstr "no es pot importar a un espai de noms segellat"
 
 msgid "replacing previous import by %s when loading %s"
-msgstr ""
+msgstr "s'està reemplaçant la importació anterior per %s en carregar %s"
 
 msgid "invalid import target"
-msgstr ""
+msgstr "objectiu d'importació no vàlid"
 
 msgid "found methods to import for function %s but not the generic itself"
 msgstr ""
+"s'han trobat mètodes per importar per la funció %s però no el genèric en si"
 
 msgid "replacing previous import %s by %s when loading %s"
-msgstr ""
+msgstr "s'està reemplaçant la importació anterior %s per %s en carregar %s"
 
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
 msgstr ""
+"No s'ha trobat cap funció genèrica %s corresponent als mètodes d'importació "
+"sol·licitats del paquet %s en carregar %s (exportacions mal formades?)"
 
 msgid "cannot add to exports of a sealed namespace"
-msgstr ""
+msgstr "no es pot afegir a les exportacions d'un espai de noms segellat"
 
 msgid "undefined exports: %s"
-msgstr ""
+msgstr "exportacions no definides: %s"
 
 msgid "unable to re-encode some lines in NAMESPACE file"
-msgstr ""
+msgstr "no s'han pogut tornar a codificar algunes línies al fitxer «NAMESPACE»"
 
 msgid "package %s has no 'NAMESPACE' file"
-msgstr ""
+msgstr "el paquet %s no té cap fitxer «NAMESPACE»"
 
 msgid "empty name in directive '%s' in 'NAMESPACE' file"
-msgstr ""
+msgstr "nom buit a la directiva «%s» del fitxer «NAMESPACE»"
 
 msgid "duplicate symbol names %s in useDynLib(\"%s\")"
-msgstr ""
+msgstr "noms de símbols duplicats %s a useDynLib(\"%s\")"
 
 msgid "bad 'S3method' directive: %s"
-msgstr ""
+msgstr "directiva «S3method» incorrecta: %s"
 
 msgid "unknown namespace directive: %s"
-msgstr ""
+msgstr "directiva d'espai de noms desconeguda: %s"
 
 msgid "S3 method %s was declared but not found"
-msgstr ""
+msgstr "S'ha declarat el mètode S3 %s però no s'ha trobat"
 
 msgid "bad method"
-msgstr ""
+msgstr "mètode incorrecte"
 
 msgid "object '%s' not found whilst loading namespace '%s'"
-msgstr ""
+msgstr "no s'ha trobat l'objecte «%s» en carregar l'espai de noms «%s»"
 
 msgid "While loading namespace \"%s\": \"%s\" differ in ncol(.), env=%d, newNS=%d."
 msgstr ""
+"En carregar l'espai de noms «%s»: «%s» difereix en ncol(.), env=%d, newNS=%d."
 
 msgid "Maybe package installed with version of R newer than %s ?"
-msgstr ""
+msgstr "Potser el paquet s'ha instal·lat amb una versió d'R més recent que %s?"
 
 msgid "'%s' is not implemented yet"
-msgstr ""
+msgstr "«%s» encara no està implementat"
 
 msgid "argument '%s' is not used (yet)"
-msgstr ""
+msgstr "el paràmetre «%s» no s'utilitza (encara)"
 
 msgid "'x' cannot be coerced to class \"octmode\""
-msgstr ""
+msgstr "«x» no es pot forçar a la classe «octmode»"
 
 msgid "'x' cannot be coerced to class \"hexmode\""
-msgstr ""
+msgstr "«x» no es pot forçar a la classe «hexmode»"
 
 msgid "using ... with FUN = \"*\" is an error"
-msgstr ""
+msgstr "usar ... amb FUN = \"*\" és un error"
 
 msgid "no arguments"
-msgstr ""
+msgstr "sense arguments"
 
 msgid "an argument will be fractionally recycled"
-msgstr ""
+msgstr "un argument es reciclarà fraccionadament"
 
 msgid "invalid ncol(x)"
-msgstr ""
+msgstr "ncol(x) no vàlid"
 
 msgid "too large a matrix for LINPACK"
-msgstr ""
+msgstr "la matriu és massa gran per a LINPACK"
 
 msgid "first argument must be a QR decomposition"
-msgstr ""
+msgstr "el primer paràmetre ha de ser una descomposició QR"
 
 msgid "invalid nrow(qr$qr)"
-msgstr ""
+msgstr "nrow(qr$qr) no vàlid"
 
 msgid "invalid ncol(qr$qr)"
-msgstr ""
+msgstr "ncol(qr$qr) no vàlid"
 
 msgid "invalid ncol(qr$rank)"
-msgstr ""
+msgstr "ncol(qr$rank) no vàlid"
 
 msgid "invalid ncol(y)"
-msgstr ""
+msgstr "ncol(y) no vàlid"
 
 msgid "'qr' and 'y' must have the same number of rows"
-msgstr ""
+msgstr "«qr» i «y» han de tenir el mateix nombre de files"
 
 msgid "exact singularity in 'qr.coef'"
-msgstr ""
+msgstr "singularitat exacta a «qr.coef»"
 
 msgid "argument is not a QR decomposition"
-msgstr ""
+msgstr "el paràmetre no és una descomposició QR"
 
 msgid "invalid NCOL(y)"
-msgstr ""
+msgstr "NCOL(y) no vàlid"
 
 msgid "not implemented for complex 'qr'"
-msgstr ""
+msgstr "no està implementat per «qr» complex"
 
 msgid "not supported for LAPACK QR"
-msgstr ""
+msgstr "no és compatible amb LAPACK QR"
 
 msgid "'k' is too large"
-msgstr ""
+msgstr "«k» és massa gran"
 
 msgid "need larger value of 'ncol' as pivoting occurred"
-msgstr ""
+msgstr "necessita un valor més gran de «ncol» ja que s'ha pivotat"
 
 msgid "invalid NCOL(R)"
-msgstr ""
+msgstr "NCOL(R) no vàlid"
 
 msgid "'x' must be a vector of an atomic type"
-msgstr ""
+msgstr "«x» ha de ser un vector d'un tipus atòmic"
 
 msgid "invalid 'rle' structure"
-msgstr ""
+msgstr "estructura 'rle' no vàlida"
 
 msgid "... must contain names or character strings"
-msgstr ""
+msgstr "... ha de contenir noms o cadenes de caràcters"
 
 msgid "incorrect length for 'group'"
-msgstr ""
+msgstr "longitud incorrecta per «group»"
 
 msgid "missing values for 'group'"
-msgstr ""
+msgstr "valors no disponibles a «group»"
 
 msgid "not a data frame"
-msgstr ""
+msgstr "no és un «data frame»"
 
 msgid "length of 'center' must equal the number of columns of 'x'"
-msgstr ""
+msgstr "la longitud de «center» ha de ser igual al nombre de columnes de «x»"
 
 msgid "length of 'scale' must equal the number of columns of 'x'"
-msgstr ""
+msgstr "la longitud de «scale» ha de ser igual al nombre de columnes d'«x»"
 
 msgid "either specify 'nmax' or 'n', but not both."
-msgstr ""
+msgstr "especifiqueu «nmax» o «n», però no ambdós."
 
 msgid "'from' must be a finite number"
-msgstr ""
+msgstr "«from» ha de ser un nombre finit"
 
 msgid "argument 'length.out' must be of length 1"
-msgstr ""
+msgstr "el paràmetre «length.out» ha de ser de longitud 1"
 
 msgid "first element used of 'length.out' argument"
-msgstr ""
+msgstr "primer element utilitzat del paràmetre «length.out»"
 
 msgid "'to' must be a finite number"
-msgstr ""
+msgstr "'to' ha de ser un nombre finit"
 
 msgid "invalid '(to - from)/by'"
-msgstr ""
+msgstr "«(to - from)/by» no és vàlid"
 
 msgid "wrong sign in 'by' argument"
-msgstr ""
+msgstr "signe incorrecte al paràmetre «by»"
 
 msgid "'by' argument is much too small"
-msgstr ""
+msgstr "el paràmetre «by» és massa petit"
 
 msgid "'length.out' must be a non-negative number"
-msgstr ""
+msgstr "«length.out» ha de ser un nombre no negatiu"
 
 msgid "too many arguments"
-msgstr ""
+msgstr "massa paràmetres"
 
 msgid "invalid 'compress' argument:"
-msgstr ""
+msgstr "el paràmetre «compress» no és vàlid:"
 
 msgid "'compress' is ignored unless 'file' is a file name"
-msgstr ""
+msgstr "s'ignora «compress» a no ser que «file» sigui un nom de fitxer"
 
 msgid "'connection' must be a connection"
-msgstr ""
+msgstr "«connection» ha de ser una connexió"
 
 msgid "'file' must be NULL or an already open connection"
-msgstr ""
+msgstr "«file» ha de ser NULL o una connexió ja oberta"
 
 msgid "cannot split the message connection"
-msgstr ""
+msgstr "no s'ha pogut dividir la connexió del missatge"
 
 msgid "'file' must be NULL, a connection or a character string"
-msgstr ""
+msgstr "«file» ha de ser NULL, una connexió o una cadena de caràcters"
 
 msgid "this is the \"qr\" method for the generic function solve()"
-msgstr ""
+msgstr "aquest és el mètode «qr» per a la funció genèrica solve()"
 
 msgid "singular matrix 'a' in 'solve'"
-msgstr ""
+msgstr "matriu singular «a» a «solve»"
 
 msgid "only square matrices can be inverted"
-msgstr ""
+msgstr "només es poden invertir matrius quadrades"
 
 msgid "solve.default called with a \"qr\" object: use 'qr.solve'"
-msgstr ""
+msgstr "solve.default cridat amb un objecte «qr»: usa «qr.solve»"
 
 msgid "singular matrix 'a' in solve"
-msgstr ""
+msgstr "matriu singular «a» a «solve»"
 
 msgid "'decreasing' must be a length-1 logical vector.\nDid you intend to set 'partial'?"
 msgstr ""
+"«decreasing» ha de ser un vector lògic de longitud 1.\n"
+"Volíeu d'establir \"parcial\"?"
 
 msgid "'partial' sorting not supported by radix method"
-msgstr ""
+msgstr "ordenació «partial» no suportada pel mètode «radix»"
 
 msgid "'index.return' only for non-factors"
-msgstr ""
+msgstr "«index.return» només per a no-factors"
 
 msgid "'x' must be atomic"
-msgstr ""
+msgstr "«x» ha de ser atòmic"
 
 msgid "'index.return' only for 'na.last = NA'"
-msgstr ""
+msgstr "«index.return» només per «na.last = NA»"
 
 msgid "unsupported options for partial sorting"
-msgstr ""
+msgstr "opcions no suportades per a l'ordenació parcial"
 
 msgid "non-finite 'partial'"
-msgstr ""
+msgstr "«partial» no finit"
 
 msgid "'decreasing' of length > 1 is only for method = \"radix\""
-msgstr ""
+msgstr "«decreasing» de longitud > 1 és només per al mètode = \"radix\""
 
 msgid "argument lengths differ"
-msgstr ""
+msgstr "les longituds dels paràmetres difereixen"
 
 msgid "method = \"quick\" is only for numeric 'x'"
-msgstr ""
+msgstr "«method = \"quick\"» només és per «x» numèriques"
 
 msgid "'x' must be atomic for 'sort.list', method \"shell\" and \"quick\"\nHave you called 'sort' on a list?"
 msgstr ""
+"«x» ha de ser atòmic per a «sort.list», mètode «shell» i «quick»\n"
+"Has cridat «sort» amb una llista?"
 
 msgid "cannot xtfrm 'x'"
-msgstr ""
+msgstr "no es pot xtfrm a «x»"
 
 msgid "'local' must be TRUE, FALSE or an environment"
-msgstr ""
+msgstr "«local» ha de ser «TRUE», «FALSE» o un entorn"
 
 msgid "'echo' must be logical"
-msgstr ""
+msgstr "«echo» ha de ser «logical»"
 
 msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
-msgstr ""
+msgstr "«verbose» és «TRUE», «echo» no; ... es forçarà «echo <- TRUE»"
 
 msgid "empty file/url name"
-msgstr ""
+msgstr "nom de fitxer/url buit"
 
 msgid "unable to find a plausible encoding"
-msgstr ""
+msgstr "no s'ha pogut trobar una codificació plausible"
 
 msgid "encoding = \"%s\" chosen"
-msgstr ""
+msgstr "s'ha escollit «encoding = \"%s\"»"
 
 msgid "'chdir = TRUE' makes no sense for a URL"
-msgstr ""
+msgstr "«chdir = TRUE» no té sentit per a un URL"
 
 msgid "cannot 'chdir' as current directory is unknown"
 msgstr ""
+"no es pot «chdir» (canviar de directori) perquè el directori actual és "
+"desconegut"
 
 msgid "'chdir = TRUE' makes no sense for a connection"
-msgstr ""
+msgstr "«chdir = TRUE» no té sentit per a una connexió"
 
 msgid "specify either 'file' or 'exprs' but not both"
-msgstr ""
+msgstr "especifiqueu «file» o «exprs», però no ambdós"
 
 msgid "'%s' is not an existing file"
-msgstr ""
+msgstr "«%s» no és un fitxer existent"
 
 msgid "'formula' must be a formula"
-msgstr ""
+msgstr "«formula» ha de ser una fórmula"
 
 msgid "Unexpected LHS in 'formula' has been ignored."
-msgstr ""
+msgstr "S'ha ignorat la part de l'esquerra inesperada de «formula» (LHS)."
 
 msgid "Unexpected LHS in 'formula' has been combined with RHS."
 msgstr ""
+"La inesperada part de l'esquerra a «formula» (LHS) s'ha combinat amb la part "
+"de la dreta (RHS)."
 
 msgid "Timestamp of %s has changed"
-msgstr ""
+msgstr "La marca horària de %s ha canviat"
 
 msgid "'x' and 'to' must refer to same file"
-msgstr ""
+msgstr "«x» i «to» han de referir-se al mateix fitxer"
 
 msgid "additional arguments ignored in stop()"
-msgstr ""
+msgstr "s'han ignorat els paràmetres addicionals a «stop()»"
 
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
-msgstr ""
+msgstr "Només un dels «exprs», «exprObject» o expressions, no més"
 
 msgid "%s and %s are not equal:\n  %s"
 msgstr ""
+"%s i %s no són iguals:\n"
+"  %s"
 
 msgid "additional arguments ignored in warning()"
-msgstr ""
+msgstr "s'han ignorat els paràmetres addicionals a «warning()»"
 
 msgid "Sys.setenv(LANGUAGE=\"%s\") may have failed"
-msgstr ""
+msgstr "Sys.setenv(LANGUAGE=\"%s\") pot haver fallat"
 
 msgid "Calling 'structure(NULL, *)' is deprecated, as NULL cannot have attributes.\n  Consider 'structure(list(), *)' instead."
 msgstr ""
+"El fet de cridar «structure(NULL, *)» és obsolet, ja que NULL no pot tenir "
+"atributs.\n"
+"  Considereu «structure(list(), *)» com a alternativa."
 
 msgid "incorrect value for 'x'"
-msgstr ""
+msgstr "valor incorrecte per a «x»"
 
 msgid "'x' and 'y' must have the same length"
-msgstr ""
+msgstr "«x» i «y» han de tenir la mateixa longitud"
 
 msgid "probably wrong encoding in names(.) of column"
-msgstr ""
+msgstr "probablement la codificació a «names(.)» de la columna és incorrecta"
 
 msgid "STATS is longer than the extent of 'dim(x)[MARGIN]'"
-msgstr ""
+msgstr "«STATS» és més llarg que l'extensió de «dim(x)[MARGIN]»"
 
 msgid "STATS does not recycle exactly across MARGIN"
-msgstr ""
+msgstr "«STATS» no es recicla exactament al llarg de «MARGIN»"
 
 msgid "length(STATS) or dim(STATS) do not match dim(x)[MARGIN]"
-msgstr ""
+msgstr "length(STATS) o dim(STATS) no coincideixen amb dim(x)[MARGIN]"
 
 msgid "'exclude' containing NA and 'useNA' != \"no\"' are a bit contradicting"
-msgstr ""
+msgstr "«exclude» que conté NA i 'useNA' != \"no\" són una mica contradictoris"
 
 msgid "nothing to tabulate"
-msgstr ""
+msgstr "no hi ha res a tabular"
 
 msgid "all arguments must have the same length"
-msgstr ""
+msgstr "tots els paràmetres han de tenir la mateixa longitud"
 
 msgid "attempt to make a table with >= 2^31 elements"
-msgstr ""
+msgstr "s'ha intentat crear una taula amb >= 2^31 elements"
 
 msgid "'object' must inherit from class %s"
-msgstr ""
+msgstr "«object» ha d'heretar de la classe %s"
 
 msgid "'x' must inherit from class %s"
-msgstr ""
+msgstr "«x» ha d'heretar de la classe %s"
 
 msgid "cannot coerce to a table"
-msgstr ""
+msgstr "no es pot forçar la conversió a una taula"
 
 msgid "'x' is not an array"
-msgstr ""
+msgstr "«x» no és una matriu"
 
 msgid "'bin' must be numeric or a factor"
-msgstr ""
+msgstr "«bin» ha de ser numèric o un factor"
 
 msgid "invalid value of %s"
-msgstr ""
+msgstr "valor no vàlid de %s"
 
 msgid "'X' must be a data frame when 'INDEX' is a formula"
-msgstr ""
+msgstr "«X» ha de ser un «data frame» quan «INDEX» és una fórmula"
 
 msgid "'INDEX' is of length zero"
-msgstr ""
+msgstr "«INDEX» té longitud zero"
 
 msgid "arguments must have same length"
-msgstr ""
+msgstr "els paràmetres han de tenir la mateixa longitud"
 
 msgid "total number of levels >= 2^31"
-msgstr ""
+msgstr "nombre total de nivells >= 2^31"
 
 msgid "handler must be a function"
-msgstr ""
+msgstr "el gestor ha de ser una funció"
 
 msgid "'which' must be of length 1"
-msgstr ""
+msgstr "«which» ha de ser de longitud 1"
 
 msgid "no such element '%s'"
-msgstr ""
+msgstr "no existeix l'element «%s»"
 
 msgid "invalid 'which' argument"
-msgstr ""
+msgstr "paràmetre «which» no vàlid"
 
 msgid "'which' must be character or numeric"
-msgstr ""
+msgstr "«which» ha de ser caràcters o un nombre"
 
 msgid "Removing %s"
-msgstr ""
+msgstr "S'està suprimint %s"
 
 msgid "Registering 'evaluate' as low-level callback"
-msgstr ""
+msgstr "S'està registrant «evaluate» com a crida de retorn de baix nivell"
 
 msgid "Timing stopped at:"
-msgstr ""
+msgstr "Temps aturat a:"
 
 msgid "user"
-msgstr ""
+msgstr "usuari"
 
 msgid "system"
-msgstr ""
+msgstr "sistema"
 
 msgid "elapsed"
-msgstr ""
+msgstr "transcorregut"
 
 msgid "'width' must be positive"
-msgstr ""
+msgstr "«width» ha de ser positiu"
 
 msgid "No traceback available"
-msgstr ""
+msgstr "No hi ha cap traça disponible"
 
 msgid "invalid non-character version specification 'x' (type: %s)"
-msgstr ""
+msgstr "especificació de versió de no-caràcter «x» no vàlida (tipus: %s)"
 
 msgid "Calls"
-msgstr ""
+msgstr "Crides"
 
 msgid "invalid version specification %s"
-msgstr ""
+msgstr "especificació de versió no vàlida %s"
 
 msgid "invalid 'value'"
-msgstr ""
+msgstr "«value» no vàlid"
 
 msgid "unary '%s' not defined for \"numeric_version\" objects"
-msgstr ""
+msgstr "«%s» unari no està definit per als objectes «numeric_version»"
 
 msgid "'%s' not defined for \"numeric_version\" objects"
-msgstr ""
+msgstr "«%s» no està definit per als objectes «numeric_version»"
 
 msgid "%s not defined for \"numeric_version\" objects"
-msgstr ""
+msgstr "%s no està definit per als objectes «numeric_version»"
 
 msgid "<0 elements>"
-msgstr ""
+msgstr "<0 elements>"
 
 msgid "'tags' must be a character vector of the same length as 'x'"
-msgstr ""
+msgstr "«tags» ha de ser un vector de caràcters de la mateixa longitud que «x»"
 
 msgid "Summary of (a total of %d) warning messages:"
-msgstr ""
+msgstr "Resum (d'un total de %d) missatges d'avís:"
 
 msgid "invalid 'digits'"
-msgstr ""
+msgstr "«digits» no vàlid"
 
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
 msgstr ""
+"La crida directa de «%s()» és obsoleta.  Utilitzeu «%s()» o «%s()» en el seu "
+"lloc"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr ""
+"els paràmetres «show.output.on.console», «minimized» i «invisible» només són "
+"per Window$"
 
 msgid "'intern' must be TRUE or FALSE"
-msgstr ""
+msgstr "«intern» ha de ser TRUE o FALSE"
 
 msgid "'ignore.stdout' must be TRUE or FALSE"
-msgstr ""
+msgstr "«ignore.stdout» ha de ser TRUE o FALSE"
 
 msgid "'ignore.stderr' must be TRUE or FALSE"
-msgstr ""
+msgstr "«ignore.stderr» ha de ser TRUE o FALSE"
 
 msgid "'wait' must be TRUE or FALSE"
-msgstr ""
+msgstr "«wait» ha de ser TRUE o FALSE"
 
 msgid "'receive.console.signals' must be TRUE or FALSE"
-msgstr ""
+msgstr "«receive.console.signals» ha de ser TRUE o FALSE"
 
 msgid "'input' must be a character vector or 'NULL'"
-msgstr ""
+msgstr "«input» ha de ser un vector de caràcters o «NULL»"
 
 msgid "arguments 'minimized' and 'invisible' are for Windows only"
-msgstr ""
+msgstr "els paràmetres «minimized» i «invisible» només són per a Windows"
 
 msgid "setting stdout = TRUE"
-msgstr ""
+msgstr "s'està establint stdout = TRUE"
 
 msgid "'stdout' must be of length 1"
-msgstr ""
+msgstr "«stdout» ha de ser de longitud 1"
 
 msgid "'stderr' must be of length 1"
-msgstr ""
+msgstr "«stderr» ha de ser de longitud 1"
 
 msgid "'which' was not found on this platform"
-msgstr ""
+msgstr "no s'ha trobat «which» en aquesta plataforma"
 
 msgid "fewer 'from' files than 'to' files"
-msgstr ""
+msgstr "menys fitxers «from» que fitxers «to»"
 
 msgid "link '%s' already exists"
-msgstr ""
+msgstr "l'enllaç «%s» ja existeix"
 
 msgid "failed to create directory for link '%s"
-msgstr ""
+msgstr "no s'ha pogut crear el directori per a l'enllaç «%s»"
 
 msgid "'show.output.on.console' must be TRUE or FALSE"
-msgstr ""
+msgstr "«show.output.on.console» ha de ser TRUE o FALSE"
 
 msgid "'minimized' must be TRUE or FALSE"
-msgstr ""
+msgstr "«minimized» ha de ser TRUE o FALSE"
 
 msgid "'invisible' must be TRUE or FALSE"
-msgstr ""
+msgstr "«invisible» ha de ser TRUE o FALSE"
 
 msgid "running command '%s' had status %d"
-msgstr ""
+msgstr "l'ordre en execució «%s» té l'estat %d"
 
 msgid "'%s' could not be run"
-msgstr ""
+msgstr "no s'ha pogut executar «%s»"
 
 msgid "'%s' execution failed with error code %d"
-msgstr ""
+msgstr "l'execució de «%s» ha fallat amb el codi d'error %d"
 
 msgid "-l option without value"
-msgstr ""
+msgstr "opció -l sense valor"
 
 msgid "ERROR: no packages specified"
-msgstr ""
+msgstr "ERROR: no s'ha especificat cap paquet"
 
 msgid "Removing from library"
-msgstr ""
+msgstr "S'està suprimint de la biblioteca"
 
 msgid "ERROR: cannot cd to directory"
-msgstr ""
+msgstr "ERROR: no es pot fer «cd» al directori"
 
 msgid "ERROR: no permission to remove from directory"
-msgstr ""
+msgstr "ERROR: no hi ha permís per suprimir del directori"
 
 msgid "deparse option %s is not recognized"
 msgid_plural "deparse options %s are not recognized"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "no es reconeix l'opció de «deparse» %s"
+msgstr[1] "no es reconeixen les opcions de «deparse» %s"
 
 msgid "The following object is masked _by_ %s:"
 msgid_plural "The following objects are masked _by_ %s:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s emmascara el següent objecte:"
+msgstr[1] "%s emmascara els següents objectes:"
 
 msgid "The following object is masked from %s:"
 msgid_plural "The following objects are masked from %s:"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "L'objecte següent està emmascarat per %s:"
+msgstr[1] "Els següents objectes estan emmascarats per %s:"
 
 msgid "invalid 'row.names', length %d for a data frame with %d row"
 msgid_plural "invalid 'row.names', length %d for a data frame with %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "«row.names» no és vàlid, longitud %d per a un «data frame» amb %d fila"
+msgstr[1] "«row.names» no és vàlid, longitud %d per a un «data frame» amb %d files"
 
 msgid "supplied %d row name for %d rows"
 msgid_plural "supplied %d row names for %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "S'ha proporcionat %d nom de fila per a %d files"
+msgstr[1] "S'han proporcionat %d noms de files per a %d files"
 
 msgid "replacement has %d row, data has %d"
 msgid_plural "replacement has %d rows, data has %d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "la substitució té %d fila, les dades en tenen %d"
+msgstr[1] "la substitució té %d files, les dades en tenen %d"
 
 msgid "replacement has %d item, need %d"
 msgid_plural "replacement has %d items, need %d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "la substitució té %d element, en calen %d"
+msgstr[1] "la substitució té %d elements, en calen %d"
 
 msgid "replacement element %d is a matrix/data frame of %d row, need %d"
 msgid_plural "replacement element %d is a matrix/data frame of %d rows, need %d"
 msgstr[0] ""
+"l'element de reemplaçament %d és una matriu/«data frame» de %d fila, en "
+"calen %d"
 msgstr[1] ""
+"l'element de reemplaçament %d és una matriu/«data frame» de %d files, en "
+"calen %d"
 
 msgid "replacement element %d has %d row, need %d"
 msgid_plural "replacement element %d has %d rows, need %d"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "l'element de reemplaçament %d té %d fila, en calen %d"
+msgstr[1] "l'element de reemplaçament %d té %d files, en calen %d"
 
 msgid "replacement element %d has %d row to replace %d rows"
 msgid_plural "replacement element %d has %d rows to replace %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "l'element de reemplaçament %d té %d fila per reemplaçar %d files"
+msgstr[1] "l'element de reemplaçament %d té %d files per reemplaçar %d files"
 
 msgid "%d row in value to replace %d rows"
 msgid_plural "%d rows in value to replace %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d fila en el valor per reemplaçar %d files"
+msgstr[1] "%d files al valor per reemplaçar %d files"
 
 msgid "replacement data has %d row to replace %d rows"
 msgid_plural "replacement data has %d rows to replace %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "les dades de reemplaçament té %d fila per reemplaçar %d files"
+msgstr[1] "les dades de reemplaçament tenen %d files per reemplaçar %d files"
 
 msgid "provided %d variable to replace %d variables"
 msgid_plural "provided %d variables to replace %d variables"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "s'ha proporcionat una variable %d per reemplaçar %d variables"
+msgstr[1] "s'han proporcionat %d variables per reemplaçar %d variables"
 
 msgid "data frame with 0 columns and %d row"
 msgid_plural "data frame with 0 columns and %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "«data frame» amb 0 columnes i %d fila"
+msgstr[1] "«data frame» amb 0 columnes i %d files"
 
 msgid "library %s contains no packages"
 msgid_plural "libraries %s contain no packages"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "la biblioteca %s no conté cap paquet"
+msgstr[1] "les biblioteques %s no contenen cap paquet"
 
 msgid "package %s is not loaded"
 msgid_plural "packages %s are not loaded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "el paquet %s no està carregat"
+msgstr[1] "els paquets %s no està carregat"
 
 msgid "there is no package called"
 msgid_plural "there are no packages called"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "no s'ha cridat cap paquet"
+msgstr[1] "no s'ha cridat cap paquet"
 
 msgid "object %s not found"
 msgid_plural "objects %s not found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "no s'ha trobat l'objecte %s"
+msgstr[1] "no s'han trobat els objectes %s"
 
 msgid "'arg' should be %s"
 msgid_plural "'arg' should be one of %s"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "«arg» hauria de ser %s"
+msgstr[1] "«arg» hauria de ser un de %s"
 
 msgid "'by' must specify a uniquely valid column"
 msgid_plural "'by' must specify uniquely valid columns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "«by» ha d'especificar una única columna vàlida"
+msgstr[1] "«by» ha d'especificar columnes vàlides de manera única"
 
 msgid "Function found when exporting methods from the namespace %s which is not S4 generic: %s"
 msgid_plural "Functions found when exporting methods from the namespace %s which are not S4 generic: %s"
 msgstr[0] ""
+"S'ha trobat una funció en exportar mètodes des de l'espai de noms %s que no "
+"és genèric d'S4: %s"
 msgstr[1] ""
+"S'han trobat funcions en exportar mètodes des de l'espai de noms %s que no "
+"són genèrics d'S4: %s"
 
 msgid "No methods found in package %s for request: %s when loading %s"
 msgid_plural "No methods found in package %s for requests: %s when loading %s"
 msgstr[0] ""
+"No s'han trobat mètodes al paquet %s per a la petició: %s en carregar %s"
 msgstr[1] ""
+"No s'han trobat mètodes al paquet %s per a les peticions: %s en carregar %s"
 
 msgid "requested method not found in environment/package %s: %s when loading %s"
 msgid_plural "requested methods not found in environment/package %s: %s when loading %s"
 msgstr[0] ""
+"no s'ha trobat el mètode sol·licitat a l'entorn/paquet %s: %s en carregar %s"
 msgstr[1] ""
+"no s'han trobat els mètodes sol·licitats a l'entorn/paquet %s: %s en "
+"carregar %s"
 
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "la classe %s no és exportada per «namespace:%s»"
+msgstr[1] "les classes %s no són exportades per «namespace:%s»"
 
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "l'objecte %s no és exportat per «namespace:%s»"
+msgstr[1] "els objectes %s no són exportats per «namespace:%s»"
 
 msgid "previous export '%s' is being replaced"
 msgid_plural "previous exports '%s' are being replaced"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "s'està reemplaçant l'exportació anterior «%s»"
+msgstr[1] "s'estan reemplaçant les exportacions anteriors «%s»"
 
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El mètode S3 %s s'ha declarat a «NAMESPACE» però no s'ha trobat"
+msgstr[1] "Els mètodes S3 %s s'han declarat a «NAMESPACE» però no s'han trobat"
 
 msgid "%s is not TRUE"
 msgid_plural "%s are not all TRUE"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%s no és TRUE"
+msgstr[1] "%s no són tots TRUE"
 
 msgid "Warning message:\n"
 msgid_plural "Warning messages:\n"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Missatge d'avís:\n"
+msgstr[1] "Missatges d'avís:\n"
 
 msgid "In %s :\n extra argument %s will be disregarded"
 msgid_plural "In %s :\n extra arguments %s will be disregarded"
 msgstr[0] ""
+"A %s :\n"
+" s'ignorarà el paràmetre addicional %s"
 msgstr[1] ""
+"A %s :\n"
+" s'ignoraran els paràmetres addicionals %s"
 
 
