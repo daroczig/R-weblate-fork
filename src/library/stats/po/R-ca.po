@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-09-10 02:19+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "models are not all fitted to the same number of observations"
 msgstr ""
@@ -58,7 +59,7 @@ msgid "only implemented for univariate time series"
 msgstr ""
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "«x» ha de ser numèric"
 
 msgid "the first value of the time series must not be missing"
 msgstr ""
@@ -148,7 +149,7 @@ msgid "'by' must be a list"
 msgstr ""
 
 msgid "arguments must have same length"
-msgstr ""
+msgstr "els paràmetres han de tenir la mateixa longitud"
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
 msgstr ""
@@ -436,7 +437,7 @@ msgid "'y' has rank 0"
 msgstr ""
 
 msgid "'x' and 'y' must have the same length"
-msgstr ""
+msgstr "«x» i «y» han de tenir la mateixa longitud"
 
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr ""
@@ -478,7 +479,7 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
 
 msgid "invalid value of %s"
-msgstr ""
+msgstr "valor no vàlid de %s"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr ""
@@ -934,7 +935,7 @@ msgid "incorrect specification for 'formula'"
 msgstr ""
 
 msgid "nothing to tabulate"
-msgstr ""
+msgstr "no hi ha res a tabular"
 
 msgid "incorrect specification for 'row.vars'"
 msgstr ""
@@ -967,7 +968,7 @@ msgid "wrong method"
 msgstr ""
 
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "«file» ha de ser una cadena de caràcters o una connexió"
 
 msgid "'row.var.names' missing"
 msgstr ""
@@ -1072,7 +1073,7 @@ msgid "the following arguments to 'anova.glm' are invalid and dropped:"
 msgstr ""
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "using F test with a '%s' family is inappropriate"
 msgstr ""
@@ -1189,10 +1190,10 @@ msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
 msgstr ""
 
 msgid "invalid nrow(x)"
-msgstr ""
+msgstr "nrow(x) no vàlid"
 
 msgid "invalid ncol(x)"
-msgstr ""
+msgstr "ncol(x) no vàlid"
 
 msgid "'centers' must be a number or a matrix"
 msgstr ""
