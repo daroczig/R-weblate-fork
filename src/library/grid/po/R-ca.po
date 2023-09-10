@@ -3,795 +3,585 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2024-03-19 03:05+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
 
-#, fuzzy
 msgid "invalid 'at' location in 'axis'"
-msgstr "posició «at» invàlida en «axis»"
+msgstr ""
 
 msgid "invalid to specify axis labels when 'at' is NULL"
-msgstr "no és vàlid especificar etiquetes a l'eix quan «at» és NULL"
+msgstr ""
 
-#, fuzzy
 msgid "'labels' and 'at' locations must have same length"
-msgstr "les ubicacions «etiquetes» i «a» han de tenir la mateixa longitud"
+msgstr ""
 
-#, fuzzy
 msgid "logical 'label' supplied of length 0"
-msgstr "s'ha proporcionat una «etiqueta» lògica de longitud 0"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid coordinates"
-msgstr "Coordenades no vàlides"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid grob coordinates"
-msgstr "Coordenades grob no vàlides"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid gTree coordinates"
-msgstr "Coordenades gTree no vàlides"
+msgstr ""
 
-#, fuzzy
 msgid "Closed must not be a missing value"
-msgstr "El tancat no pot ser un valor perdut"
+msgstr ""
 
-#, fuzzy
 msgid "end points must not be identical"
-msgstr "els punts finals no han de ser idèntics"
+msgstr ""
 
-#, fuzzy
 msgid "'x1', 'y1', 'x2', and 'y2' must be units"
-msgstr "«x1», «y1», «x2» i «y2» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'shape' must be between -1 and 1"
-msgstr "«shape» ha d'estar entre -1 i 1"
+msgstr ""
 
-#, fuzzy
 msgid "'squareShape' must be between -1 and 1"
-msgstr "«squareShape» ha d'estar entre -1 i 1"
+msgstr ""
 
-#, fuzzy
 msgid "'arrow' must be an arrow object or NULL"
-msgstr "«arrow» ha de ser un objecte de fletxa o NULL"
+msgstr ""
 
-#, fuzzy
 msgid "how did we get here?"
-msgstr "Com hem arribat fins aquí?"
+msgstr ""
 
-#, fuzzy
 msgid "must start new page if showing leaves separately"
-msgstr "cal iniciar una pàgina nova si es mostren les fulles per separat"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'edit' information"
-msgstr "la informació «edit» no és vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "'gEditList' can only contain 'gEdit' objects"
-msgstr "'gEditList' només pot contenir objectes 'gEdit'"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'frame'"
-msgstr "«frame» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'grob'"
-msgstr "«grob» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'row' and/or 'col' (no such cell in frame layout)"
 msgstr ""
-"«row» i/o «col» no vàlids (no existeix aquesta cel·la a la disposició del "
-"marc)"
 
-#, fuzzy
 msgid "'col' can only be a range of existing columns"
-msgstr "«col» només pot ser un interval de columnes existents"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'col' specification"
-msgstr "especificació «col» no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "'row' can only be a range of existing rows"
-msgstr "«row» només pot ser un interval de files existents"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'row' specification"
-msgstr "especificació «row» no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "cannot specify more than one of 'side=[\"left\", \"right\"]', 'col', 'col.before', or 'col.after'"
 msgstr ""
-"no es pot especificar més d'una de 'side=[\"left\", \"right\"]', 'col', "
-"'col.before' o 'col.after'"
 
-#, fuzzy
 msgid "must specify exactly one of 'side=[\"top\", \"bottom\"]', 'row', 'row.before', or 'row.after'"
 msgstr ""
-"s'ha d'especificar exactament un de 'side=[\"top\", \"bottom\"]', 'row', "
-"'row.before' o 'row.after'"
 
-#, fuzzy
 msgid "invalid 'n'"
-msgstr "«n» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'f'"
-msgstr "«f» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "'gpar' element '%s' must not be length 0"
-msgstr "l'element 'gpar' «%s» no ha de ser de longitud 0"
+msgstr ""
 
-#, fuzzy
 msgid "mixture of missing and non-missing values for %s"
-msgstr "mescla de valors que manquen i que no falten per a %s"
+msgstr ""
 
-#, fuzzy
 msgid "'gamma' 'gpar' element is defunct"
-msgstr "L'element «gamma» «gpar» és obsolet"
+msgstr ""
 
-#, fuzzy
 msgid "'fill' gpar list components must all be patterns"
-msgstr "Els components de la llista gpar «fill» han de ser patrons"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'linemitre' value"
-msgstr "el valor «linemitre» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'alpha' value"
-msgstr "el valor «alpha» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "must specify only one of 'font' and 'fontface'"
-msgstr "s'ha d'especificar només un dels tipus de lletra «font» i «fontface»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid fontface"
-msgstr "el tipus de lletra no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "argument must be a 'gpar' object"
-msgstr "l'argument ha de ser un objecte «gpar»"
+msgstr ""
 
-#, fuzzy
 msgid "must specify only valid 'gpar' names"
-msgstr "s'han d'especificar només els noms «gpar» vàlids"
+msgstr ""
 
-#, fuzzy
 msgid "invalid display list element"
-msgstr "element de llista de visualització no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')"
 msgstr ""
-"se sobreescriurà un o més «grobs» (la grab no serà fidel; proveu «wrap.grobs "
-"= TRUE»)"
 
-#, fuzzy
 msgid "viewport overwritten (grab MAY not be faithful)"
-msgstr "s'ha sobreescrit l'àrea de visualització (pot no ser fidel)"
+msgstr ""
 
-#, fuzzy
 msgid "grob pushed viewports and did not pop/up them (grab MAY not be faithful)"
 msgstr ""
-"grob va empènyer les àrees de visualització i no les va fer emergir/amunt ("
-"pot ser que el gra no sigui fidel)"
 
-#, fuzzy
 msgid "only valid to push viewports"
-msgstr "només és vàlid per pujar les àrees de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "must specify at least one viewport"
-msgstr "s'ha d'especificar almenys una àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "Down viewport failed to record on display list"
-msgstr "No s'ha pogut registrar a la llista de visualització baixa"
+msgstr ""
 
-#, fuzzy
 msgid "Down viewport incorrectly recorded on display list"
 msgstr ""
-"La subàrea de visualització registrada incorrectament a la llista de "
-"visualització"
 
-#, fuzzy
 msgid "must pop at least one viewport"
-msgstr "ha d'aparèixer com a mínim una àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "must navigate up at least one viewport"
-msgstr "s'ha de navegar cap amunt com a mínim una àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid number of generations"
-msgstr "El nombre de generacions no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid 'clearGroups' argument"
-msgstr "Argument «clearGroups» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid object inserted on the display list"
-msgstr "s'ha inserit un objecte no vàlid a la llista de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid modification of the display list"
-msgstr "modificació no vàlida de la llista de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "'expr' must return a grob or gList"
-msgstr "«expr» ha de retornar un «grob» o un «gList»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'grob' argument"
-msgstr "argument «grob» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'vp' slot"
-msgstr "ranura «vp» no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'gp' slot"
-msgstr "ranura «gp» no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'grob' class"
-msgstr "la classe «grob» no és vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "a 'grob' path must contain at least one 'grob' name"
-msgstr "un camí «grob» ha de contenir almenys un nom «grob»"
+msgstr ""
 
-#, fuzzy
 msgid "unable to coerce to \"gList\""
-msgstr "no es pot coaccionar a «gList»"
+msgstr ""
 
-#, fuzzy
 msgid "only 'grobs' allowed in \"gList\""
-msgstr "només es permet «grobs» a «gList»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid element to add to \"gList\""
-msgstr "element no vàlid per afegir a «gList»"
+msgstr ""
 
-#, fuzzy
 msgid "can only set 'children' for a \"gTree\""
-msgstr "només es pot establir «children» per a un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "'children' must be a \"gList\""
-msgstr "'nens' ha de ser una \"gList\""
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to get 'children' from a \"gTree\""
-msgstr "només és vàlid obtenir «nens» d'un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid \"gTree\" class"
-msgstr "classe «gTree» no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "'allDevices' not yet implemented"
-msgstr "Encara no s'ha implementat «allDevices»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'gPath'"
-msgstr "«gPath» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'grep' value"
-msgstr "valor «grep» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to get a child from a \"gTree\""
-msgstr "només és vàlid obtenir un fill d'un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "'gPath' does not specify a valid child"
-msgstr "«gPath» no especifica un fill vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to set a child of a \"gTree\""
-msgstr "només és vàlid establir un fill d'un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to set a 'grob' as child of a \"gTree\""
-msgstr "només és vàlid establir un «grob» com a fill d'«gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "New 'grob' name (%s) does not match 'gPath' (%s)"
-msgstr "El nom nou de «grob» (%s) no coincideix amb «gPath» (%s)"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to add a 'grob' to a \"gTree\""
-msgstr "només és vàlid afegir un «grob» a un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to add a child to a \"gTree\""
-msgstr "només és vàlid afegir un fill a un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "'gPath' (%s) not found"
-msgstr "no s'ha trobat «gPath» (%s)"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to remove a child from a \"gTree\""
-msgstr "només és vàlid eliminar un fill d'un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "it is only valid to edit a child of a \"gTree\""
-msgstr "només és vàlid editar un fill d'un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "it is invalid to directly edit the 'children' or 'childrenOrder' slot"
-msgstr "no és vàlid editar directament la ranura «children» o «childrenOrder»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'result'"
-msgstr "«resultat» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "the new 'grob' must have the same name as the old 'grob'"
-msgstr "el nou «grob» ha de tenir el mateix nom que l'antic «grob»"
+msgstr ""
 
-#, fuzzy
 msgid "slot '%s' not found"
-msgstr "no s'ha trobat la ranura «%s»"
+msgstr ""
 
-#, fuzzy
 msgid "gPath (%s) not found"
-msgstr "no s'ha trobat gPath (%s)"
+msgstr ""
 
-#, fuzzy
 msgid "grob '%s' not found"
-msgstr "no s'ha trobat l'objecte gràfic «%s»"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid force target"
-msgstr "L'objectiu de força no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid revert target"
-msgstr "Destinació de reversió no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "can only reorder 'children' for a \"gTree\""
-msgstr "només es pot reordenar «nens» per a un «gTree»"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid 'order'"
-msgstr "«order» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "Group definition failed"
-msgstr "Ha fallat la definició del grup"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid source"
-msgstr "Font no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid destination"
-msgstr "La destinació no és vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown group:"
-msgstr "Grup desconegut:"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid transform (nothing drawn)"
-msgstr "Transformació no vàlida (res dibuixat)"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid transform"
-msgstr "Transformació no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "'l' must be a layout"
-msgstr "«l» ha de ser una disposició"
+msgstr ""
 
-#, fuzzy
 msgid "'pch' and 'labels' not the same length"
-msgstr "«pch» i «labels» no tenen la mateixa longitud"
+msgstr ""
 
-#, fuzzy
 msgid "'hgap' must be single unit"
-msgstr "«hgap» ha de ser una unitat"
+msgstr ""
 
-#, fuzzy
 msgid "'vgap' must be single unit"
-msgstr "«vgap» ha de ser una unitat"
+msgstr ""
 
-#, fuzzy
 msgid "'nrow' must be >= 1"
-msgstr "'nrow' ha de ser == 1"
+msgstr ""
 
-#, fuzzy
 msgid "'ncol' must be >= 1"
-msgstr "'ncol' ha de ser == 1"
+msgstr ""
 
-#, fuzzy
 msgid "nrow * ncol < #{legend labels}"
-msgstr "nrow * ncol < #{legend labels}"
+msgstr ""
 
-#, fuzzy
 msgid "invalid justification"
-msgstr "justificació no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "invalid horizontal justification"
-msgstr "justificació horitzontal no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "invalid vertical justification"
-msgstr "justificació vertical no vàlida"
+msgstr ""
 
-#, fuzzy
 msgid "'respect' must be logical or an 'nrow' by 'ncol' matrix"
-msgstr "«respect» ha de ser lògic o una matriu «nrow» per «ncol»"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'print' argument"
-msgstr "argument «print» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid object in 'listing'"
-msgstr "l'objecte de la llista no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid listing"
-msgstr "llistat no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'listing'"
-msgstr "«listing» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "Only a grob can be converted to a mask"
-msgstr "Només es pot convertir un gràfic a una màscara"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'origin'"
-msgstr "«origin» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "Only a grob can be converted to a path"
-msgstr "Només es pot convertir un grob a un camí"
+msgstr ""
 
-#, fuzzy
 msgid "colours and stops must be at least length 1"
-msgstr "els colors i les aturades han de tenir almenys 1 longitud"
+msgstr ""
 
-#, fuzzy
 msgid "x1, y1, x2, and y2 must all be length 1"
-msgstr "x1, y1, x2, i y2 han de ser totes de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "cx1, cy1, cx2, cy2, r1, and r2 must all be length 1"
-msgstr "cx1, cy1, cx2, cy2, r1, i r2 han de ser totes de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "x, y, width, and height must all be length 1"
-msgstr "x, y, amplada i alçada han de ser totes de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "Pattern must be based on grob"
-msgstr "El patró ha de basar-se en l'objecte gràfic"
+msgstr ""
 
-#, fuzzy
 msgid "Missing pattern fill has been set to transparent"
-msgstr "L'emplenat del patró que manca s'ha establert a transparent"
+msgstr ""
 
-#, fuzzy
 msgid "grob drawing produces more shapes than grob coords\n(recycling coords)"
 msgstr ""
-"El dibuix de l'objecte gràfic produeix més formes que els acords de "
-"l'objecte gràfic\n"
-"(coords de reciclatge)"
 
-#, fuzzy
 msgid "Pattern fill applied to object with no inside"
-msgstr "L'emplenament del patró s'aplica a l'objecte sense cap a dins"
+msgstr ""
 
-#, fuzzy
 msgid "'length' must be a 'unit' object"
-msgstr "'length' ha de ser un objecte 'unit'"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'ends' or 'type' argument"
-msgstr "argument «ends» o «type» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must be units"
-msgstr "«x» i «y» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must have length 1"
-msgstr "«x» i «y» han de tenir una longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'arrow' argument"
-msgstr "argument «arrow» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "it is invalid to specify both 'id' and 'id.lengths'"
-msgstr "no és vàlid especificar tant «id» com «id.lengths»"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must be same length"
-msgstr "«x» i «y» han de tenir la mateixa longitud"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' and 'id' must all be same length"
-msgstr "«x» i «y» i «id» han de tenir la mateixa longitud"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' and 'id.lengths' must specify same overall length"
-msgstr "«x» i «y» i «id.lengths» han d'especificar la mateixa longitud global"
+msgstr ""
 
-#, fuzzy
 msgid "'x0', 'y0', 'x1', and 'y1' must be units"
-msgstr "«x0», «y0», «x1» i «y1» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must be units or NULL"
-msgstr "«x» i «y» han de ser unitats o NULL"
+msgstr ""
 
-#, fuzzy
 msgid "corrupt 'arrows' object"
-msgstr "objecte «arrows» corrupte"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' and 'pathId.lengths' must specify same overall length"
 msgstr ""
-"«x» i «y» i «pathId.lengths» han d'especificar la mateixa longitud global"
 
-#, fuzzy
 msgid "x and y must be units"
-msgstr "x i y han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "must have exactly 4 control points"
-msgstr "ha de tenir exactament 4 punts de control"
+msgstr ""
 
-#, fuzzy
 msgid "must have exactly 4 control points per Bezier curve"
-msgstr "ha de tenir exactament 4 punts de control per corba de Bézier"
+msgstr ""
 
-#, fuzzy
 msgid "'x', 'y', and 'r' must be units"
-msgstr "«x», «y» i «r» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'x', 'y', 'width', and 'height' must be units"
-msgstr "«x», «y», «width» i «height» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'rot' value"
-msgstr "el valor «rot» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "zero-length 'pch'"
-msgstr "«pch» de longitud zero"
+msgstr ""
 
-#, fuzzy
 msgid "'x', 'y' and 'size' must be units"
-msgstr "«x», «y» i «size» han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must be 'unit' objects and have the same length"
-msgstr "«x» i «y» han de ser objectes «units» i tenir la mateixa longitud"
+msgstr ""
 
-#, fuzzy
 msgid "'x', 'y', 'width', and 'height' must all be units of length 1"
-msgstr "«x», «y», «width» i «height» han de ser unitats de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must all be units of length 1"
-msgstr "«x» i «y» han de ser unitats de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "'r' must be a 'unit' object"
-msgstr "'r' ha de ser un objecte 'unit'"
+msgstr ""
 
-#, fuzzy
 msgid "'x', 'y', 'width', and 'height' must have length 1"
-msgstr "«x», «y», «width» i «height» han de tenir una longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "Invalid glyph info"
-msgstr "Informació del glif no vàlida"
+msgstr ""
 
 msgid "'x' and 'y' must have length > 0"
-msgstr "«x» i «y» han de tenir longitud have 0"
+msgstr ""
 
-#, fuzzy
 msgid "'hjust' and 'vjust' must be glyphJust() values"
-msgstr "«hjust» i «vjust» han de ser valors de «glyphJust()»"
+msgstr ""
 
-#, fuzzy
 msgid "'hjust' and 'vjust' must have length 1"
-msgstr "«hjust» i «vjust» han de tenir longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown width; using first width"
-msgstr "Amplada desconeguda; s'usarà la primera amplada"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown anchor; using left justification"
-msgstr "Àncora desconeguda; s'usarà la justificació esquerra"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown height; using first height"
-msgstr "Alçada desconeguda; s'usarà la primera alçada"
+msgstr ""
 
-#, fuzzy
 msgid "Unknown anchor; using bottom justification"
-msgstr "Àncora desconeguda; s'usarà la justificació inferior"
+msgstr ""
 
 msgid "'x' and 'units' must have length > 0"
-msgstr "«x» i «units» han de tenir longitud have 0"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'axis' or 'type'"
-msgstr "«axis» o «type» no vàlids"
+msgstr ""
 
-#, fuzzy
 msgid "'x' and 'y' must be units and 'device' must be logical"
-msgstr "«x» i «y» han de ser unitats i «device» ha de ser lògic"
+msgstr ""
 
-#, fuzzy
 msgid "'w' and 'h' must be units and 'device' must be logical"
-msgstr "«w» i «h» han de ser unitats i «device» ha de ser lògic"
+msgstr ""
 
-#, fuzzy
 msgid "Not a unit object"
-msgstr "No és un objecte unitari"
+msgstr ""
 
-#, fuzzy
 msgid "'Summary' function '%s' not meaningful for units"
-msgstr "la funció de resum «%s» no té sentit per a les unitats"
+msgstr ""
 
-#, fuzzy
 msgid "operator '%s' not meaningful for units"
-msgstr "l'operador «%s» no té sentit per a les unitats"
+msgstr ""
 
-#, fuzzy
 msgid "'*' or '/' cannot be used as a unary operator"
-msgstr "«*» o «/» no es poden utilitzar com a operador unari"
+msgstr ""
 
-#, fuzzy
 msgid "only one operand may be a unit"
-msgstr "només un operand pot ser una unitat"
+msgstr ""
 
-#, fuzzy
 msgid "non-unit operand must be numeric"
-msgstr "l'operand no unit ha de ser numèric"
+msgstr ""
 
-#, fuzzy
 msgid "can't divide with a unit"
-msgstr "no es pot dividir amb una unitat"
+msgstr ""
 
-#, fuzzy
 msgid "both operands must be units"
-msgstr "ambdós operands han de ser unitats"
+msgstr ""
 
-#, fuzzy
 msgid "index out of bounds (\"unit\" subsetting)"
-msgstr "índex fora dels límits (\"unitat\" subajust)"
+msgstr ""
 
-#, fuzzy
 msgid "Cannot create zero-length unit vector (\"unit\" subsetting)"
 msgstr ""
-"No es pot crear un vector unitari de longitud zero (\"unitat\" subajust)"
 
-#, fuzzy
 msgid "index must be of length 1"
-msgstr "l'índex ha de ser de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "replacement must be of length 1"
-msgstr "la substitució ha de ser de longitud 1"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'theta'"
-msgstr "«theta» no vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "'range' must be numeric"
-msgstr "«range» ha de ser numèric"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'gp' value"
-msgstr "el valor «gp» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'clip' value"
-msgstr "el valor «clip» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'mask' value"
-msgstr "el valor «mask» no és vàlid"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'xscale' in viewport"
-msgstr "«xscale» no vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'yscale' in viewport"
-msgstr "«yscale» no vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'angle' in viewport"
-msgstr "«angle» no vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'layout' in viewport"
-msgstr "«layout» no vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'layout.pos.row' in viewport"
-msgstr "«layout.pos.row» no és vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "invalid 'layout.pos.col' in viewport"
-msgstr "«layout.pos.col» no és vàlid a l'àrea de visualització"
+msgstr ""
 
-#, fuzzy
 msgid "only viewports allowed in 'vpList'"
-msgstr "només es permeten vistes a «vpList»"
+msgstr ""
 
-#, fuzzy
 msgid "only viewports allowed in 'vpStack'"
-msgstr "només es permeten vistes a «vpStack»"
+msgstr ""
 
-#, fuzzy
 msgid "'parent' must be a viewport and 'children' must be a 'vpList' in 'vpTree'"
 msgstr ""
-"\"pare\" ha de ser una àrea de visualització i \"nens\" ha de ser una "
-"\"vpList\" a \"vpTree\""
 
-#, fuzzy
 msgid "a viewport path must contain at least one viewport name"
 msgstr ""
-"un camí de l'àrea de visualització ha de contenir almenys un nom d'àrea de "
-"visualització"
 
-#, fuzzy
 msgid "must specify at least one of 'x' or 'xscale'"
-msgstr "s'ha d'especificar com a mínim un dels «x» o «xscale»"
+msgstr ""
 
-#, fuzzy
 msgid "must specify at least one of 'y' or 'yscale'"
-msgstr "ha d'especificar com a mínim un de «y» o «yscale»"
+msgstr ""
 
-#, fuzzy
 msgid "shutting down all devices when unloading 'grid' namespace"
 msgstr ""
-"S'estan aturant tots els dispositius en descarregar l'espai de noms «grid»"
 
-#, fuzzy
 msgid "invalid grob name"
 msgid_plural "invalid grob names"
-msgstr[0] "el nom de l'objecte gràfic no és vàlid"
-msgstr[1] "els noms de l'objecte gràfic no són vàlids"
+msgstr[0] ""
+msgstr[1] ""
 
-#, fuzzy
 msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
-msgstr[0] "el nom de l'àrea de visualització no és vàlid"
-msgstr[1] "els noms de les àrees de visualització no són vàlids"
+msgstr[0] ""
+msgstr[1] ""
