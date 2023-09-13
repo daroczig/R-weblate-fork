@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-09-12 16:19+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2023-09-14 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -146,31 +146,31 @@ msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr ""
 
 msgid "'add' will be ignored as there is no existing plot"
-msgstr "'add' serà ignorat atès que no hi ha cap gràfica existent"
+msgstr "«add» serà ignorat ja que no existeix cap gràfic"
 
 msgid "'from' and 'to' must be > 0 with log=\"x\""
-msgstr "'from' i 'to' han de ser > 0 amb log=\"x\""
+msgstr "«from» i «to» han de ser > 0 amb log=\"x\""
 
 msgid "'expr' did not evaluate to an object of length 'n'"
-msgstr "'expr' no s'ha avaluat com a un objecte de longitud 'n'"
+msgstr "«expr» no s'ha avaluat com a un objecte de longitud «n»"
 
 msgid "wrong method"
 msgstr "mètode incorrecte"
 
 msgid "Must specify 'breaks' in hist(<POSIXt>)"
-msgstr "Cal especificar 'breaks' a hist(<POSIXt>)"
+msgstr "Cal especificar «breaks» a hist(<POSIXt>)"
 
 msgid "invalid specification of 'breaks'"
 msgstr "especificació no vàlida de «breaks»"
 
 msgid "Must specify 'breaks' in hist(<Date>)"
-msgstr "Cal especificar 'breaks' a hist(<Date>)"
+msgstr "Cal especificar «breaks» a hist(<Date>)"
 
 msgid "'x' must be a numeric vector or matrix"
-msgstr "'x' ha de ser un vector o matriu numèrica"
+msgstr "«x» ha de ser un vector o matriu numèrica"
 
 msgid "'x' is neither a vector nor a matrix: using as.numeric(x)"
-msgstr "'x' no és un vector ni una matriu: utilitzant as.numeric(x)"
+msgstr "«x» no és un vector ni una matriu: utilitzant as.numeric(x)"
 
 msgid "'x' must be an array"
 msgstr ""
