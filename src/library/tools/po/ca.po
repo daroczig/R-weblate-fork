@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-13 17:19+0000\n"
+"PO-Revision-Date: 2023-09-14 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -77,7 +77,7 @@ msgstr ""
 #: gramLatex.c:2629 gramRd.c:4541 gramRd.c:4547
 #, c-format
 msgid "invalid '%s' value"
-msgstr ""
+msgstr "valor «%s» no vàlid"
 
 #: gramRd.c:2549 gramRd.c:2552
 #, c-format
@@ -130,11 +130,11 @@ msgstr ""
 
 #: gramRd.c:4537
 msgid "cannot open the connection"
-msgstr ""
+msgstr "no s'ha pogut obrir la connexió"
 
 #: gramRd.c:4544
 msgid "cannot read from this connection"
-msgstr ""
+msgstr "no es pot llegir d'aquesta connexió"
 
 #: gramRd.c:4569
 msgid "invalid Rd file"
