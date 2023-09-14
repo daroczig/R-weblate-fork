@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-14 03:05+0000\n"
+"PO-Revision-Date: 2023-09-15 00:19+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -20,17 +20,17 @@ msgstr ""
 
 #: Rmd5.c:57 Rsha256.c:70
 msgid "argument 'files' must be character"
-msgstr ""
+msgstr "el paràmetre «files» ha de ser un de tipus caràcter"
 
 #: Rmd5.c:73
 #, c-format
 msgid "md5 failed on file '%ls'"
-msgstr ""
+msgstr "md5 ha fallat al fitxer «%ls»"
 
 #: Rmd5.c:75
 #, c-format
 msgid "md5 failed on file '%s'"
-msgstr ""
+msgstr "md5 ha fallat al fitxer «%s»"
 
 #: Rsha256.c:86
 #, fuzzy, c-format
@@ -45,34 +45,37 @@ msgstr "md5 ha fallat al fitxer «%s»"
 #: getfmts.c:61
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr ""
+msgstr "només es permeten %d paràmetres"
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
-msgstr ""
+msgstr "«fmt» no és un vector de caràcters"
 
 #: getfmts.c:69
 msgid "'fmt' must be length 1"
-msgstr ""
+msgstr "«fmt» ha de ser de longitud 1"
 
 #: getfmts.c:75
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr ""
+msgstr "la longitud de «fmt» excedeix la longitud màxima de format %d"
 
 #: getfmts.c:96
 #, c-format
 msgid "unrecognised format specification '%s'"
-msgstr ""
+msgstr "especificació de format «%s» no reconeguda"
 
 #: getfmts.c:136
 msgid "at most one asterisk '*' is supported in each conversion specification"
 msgstr ""
+"com a màxim un asterisc «*» és compatible amb cada especificació de conversió"
 
 #: gramLatex.c:2392 gramRd.c:3995
 #, c-format
 msgid "unable to allocate buffer for long string at line %d"
 msgstr ""
+"no s'ha pogut assignar memòria intermèdia per a la cadena llarga a la línia "
+"%d"
 
 #: gramLatex.c:2629 gramRd.c:4541 gramRd.c:4547
 #, c-format
@@ -82,51 +85,54 @@ msgstr "valor «%s» no vàlid"
 #: gramRd.c:2549 gramRd.c:2552
 #, c-format
 msgid "bad markup (extra space?) at %s:%d:%d"
-msgstr ""
+msgstr "marcatge erroni (espai extra?) a %s:%d:%d"
 
 #: gramRd.c:3144
 #, c-format
 msgid "Macro '%s' previously defined."
-msgstr ""
+msgstr "Macro «%s» definida anteriorment."
 
 #: gramRd.c:3154
 #, c-format
 msgid "At most 4 arguments are allowed for user defined macros."
 msgstr ""
+"Com a màxim es permeten 4 paràmetres per a macros definides per l'usuari."
 
 #: gramRd.c:3196
 #, c-format
 msgid "No macro definition for '%s'."
-msgstr ""
+msgstr "No hi ha cap definició de macro per a «%s»."
 
 #: gramRd.c:3258
 #, c-format
 msgid "Not enough arguments passed to user macro '%s'"
-msgstr ""
+msgstr "No s'han passat suficients paràmetres a la macro d'usuari «%s»"
 
 #: gramRd.c:3398 gramRd.c:3402
 #, c-format
 msgid "newline within quoted string at %s:%d"
-msgstr ""
+msgstr "línia nova dins de la cadena entre cometes a %s:%d"
 
 #: gramRd.c:3421
 #, c-format
 msgid "unable to allocate buffer for long macro at line %d"
 msgstr ""
+"no s'ha pogut assignar memòria intermèdia per a la macro llarga a la línia %d"
 
 #: gramRd.c:3451
 msgid "macros nested too deeply: infinite recursion?"
-msgstr ""
+msgstr "macros aniuades massa profundament: recursivitat infinita?"
 
 #: gramRd.c:3857
 #, c-format
 msgid "Unable to find macro %s"
-msgstr ""
+msgstr "No s'ha pogut trobar la macro %s"
 
 #: gramRd.c:4055
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 msgstr ""
+"Final d'entrada inesperat (a la cadena entre cometes %c oberta a %s:%d:%d)"
 
 #: gramRd.c:4537
 msgid "cannot open the connection"
@@ -138,28 +144,28 @@ msgstr "no es pot llegir d'aquesta connexió"
 
 #: gramRd.c:4569
 msgid "invalid Rd file"
-msgstr ""
+msgstr "el fitxer Rd no és vàlid"
 
 #: gramRd.c:4588
 msgid "'deparseRd' only supports deparsing character elements"
-msgstr ""
+msgstr "«deparseRd» només permet analitzar elements de tipus caràcter"
 
 #: gramRd.c:4591
 msgid "bad state"
-msgstr ""
+msgstr "«state» dolent"
 
 #: gramRd.c:4604
 #, c-format
 msgid "bad text mode %d in 'deparseRd'"
-msgstr ""
+msgstr "mode de text %d incorrecte a 'deparseRd'"
 
 #: http.c:32
 msgid "invalid bind address specification"
-msgstr ""
+msgstr "especificació d'adreça de vinculació no vàlida"
 
 #: install.c:95
 msgid "path too long"
-msgstr ""
+msgstr "camí massa llarg"
 
 #: install.c:120 install.c:139 install.c:141
 #, c-format
@@ -168,30 +174,30 @@ msgstr "paràmetre «%s» no vàlid"
 
 #: install.c:170
 msgid "write error during file append"
-msgstr ""
+msgstr "s'ha produït un error d'escriptura en afegir el fitxer"
 
 #: pdscan.c:67
 msgid "too many items"
-msgstr ""
+msgstr "hi ha massa elements"
 
 #: pdscan.c:115
 msgid "non-character argument"
-msgstr ""
+msgstr "paràmetre que no és de tipus caràcter"
 
 #: signals.c:42
 msgid "pskill() is not supported on this platform"
-msgstr ""
+msgstr "pskill() no és compatible amb aquesta plataforma"
 
 #: signals.c:140
 msgid "psnice() is not supported on this platform"
-msgstr ""
+msgstr "psnice() no és compatible amb aquesta plataforma"
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr ""
+msgstr "tipus de paràmetre no vàlid"
 
 #: text.c:225 text.c:247
 msgid "out of memory"
-msgstr ""
+msgstr "sense memòria"
 
 
