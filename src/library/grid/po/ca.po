@@ -8,13 +8,15 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-09-15 08:19+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: gpar.c:621
 msgid "updateGContext must only be called after initGContext"
@@ -42,7 +44,7 @@ msgstr ""
 
 #: grid.c:1249
 msgid "attempt to plot on null device"
-msgstr ""
+msgstr "s'ha intentat dibuixar en un dispositiu nul"
 
 #: grid.c:1719
 msgid "there is no layout defined"
@@ -70,7 +72,7 @@ msgstr ""
 
 #: grid.c:3495
 msgid "Empty raster"
-msgstr ""
+msgstr "Ràster buit"
 
 #: grid.c:4046 grid.c:4102
 msgid "Coordinates for text pch not yet supported"
@@ -87,8 +89,9 @@ msgid "unimplemented pch value '%d'"
 msgstr ""
 
 #: grid.c:5087
+#, fuzzy
 msgid "invalid plotting symbol"
-msgstr ""
+msgstr "el símbol de traçat no és vàlid"
 
 #: grid.c:5205
 msgid "unable to clip to rotated rectangle"
