@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
@@ -908,7 +910,7 @@ msgstr "参数无效"
 
 #: devices.c:89 devices.c:97 devices.c:105
 msgid "NA argument is invalid"
-msgstr "NA 参数无效"
+msgstr "列表参数的名称无效"
 
 #: group.c:38
 msgid "Group definition ignored (device is appending path)"
@@ -1099,3 +1101,4 @@ msgstr "石英字体数据库里找不到字体系列"
 
 #~ msgid "unable to start device Quartz"
 #~ msgstr "无法启动石英装置"
+
