@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 msgid "invalid 'at' location in 'axis'"
@@ -37,7 +39,7 @@ msgid "Invalid coordinates"
 msgstr "'order'的值无效"
 
 msgid "Invalid grob coordinates"
-msgstr "无效的grob坐标"
+msgstr "'grob'名称无效"
 
 #, fuzzy
 msgid "Invalid gTree coordinates"
@@ -726,3 +728,4 @@ msgstr[0] "视口名称无效"
 
 #~ msgid "'x' must be numeric"
 #~ msgstr "'x'必需是数字"
+
