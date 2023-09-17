@@ -6,6 +6,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -208,7 +210,7 @@ msgid "can only write character objects"
 msgstr "只能写字符对象"
 
 msgid "'headers' must have names and must not be NA"
-msgstr "“headers”必须有名称，并且不能是 NA"
+msgstr "'X'必需有带名称的维名"
 
 msgid "'name' must be a single character string"
 msgstr "“name”必须是单个字符串"
@@ -247,7 +249,7 @@ msgid "invalid 'row.names' length"
 msgstr "'row.names'的长度无效"
 
 msgid "invalid 'make.names'"
-msgstr "无效的“make.names”"
+msgstr "程序包名称无效"
 
 msgid "duplicate 'row.names' are not allowed"
 msgstr "'row.names'里不能有重复的名称"
@@ -671,7 +673,7 @@ msgid "'vec' must be sorted non-decreasingly and not contain NAs"
 msgstr "“vec”必须以非递减方式排序，并且不包含 NA"
 
 msgid "'fun' is not a function"
-msgstr "'fn'不是函数"
+msgstr "处理程序必需是函数"
 
 msgid "using the first element of 'value' of type \"expression\""
 msgstr "用类型为\"expression\"的'value'的第一个元素"
@@ -1262,7 +1264,8 @@ msgstr "输入%2$s将代替前次引进%1$s"
 
 #, fuzzy
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
-msgstr "程序包\"%2$s\"里没有相应于为\"%1$s\"所要求的进口方法的泛型函数（是不是导出的格式不对？）"
+msgstr "程序包\"%2$s\"里没有相应于为\"%1$s\"所要求的进口方法的泛型函数"
+"（是不是导出的格式不对？）"
 
 msgid "cannot add to exports of a sealed namespace"
 msgstr "不能在封闭名称空间里进行导出"
@@ -2266,3 +2269,4 @@ msgstr[0] "额外参数%s忽略不用"
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "无效值"
+
