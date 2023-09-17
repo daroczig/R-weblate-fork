@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: class_support.c:29
@@ -87,7 +89,8 @@ msgstr "调用框里找不到'%s'这个符号"
 #: methods_list_dispatch.c:613
 #, c-format
 msgid "invalid symbol in checking for missing argument in method dispatch: expected a name, got an object of class \"%s\""
-msgstr "方法调度在检查短少参数时符号出了错：需要的是个名称，得到的却是类别为\"%s\"的对象"
+msgstr "方法调度在检查短少参数时符号出了错：需要的是个名称，得到的却是类别为\"%"
+"s\"的对象"
 
 #: methods_list_dispatch.c:616
 msgid "use of NULL environment is defunct"
@@ -170,3 +173,4 @@ msgstr "需要的是同属函数或原始函数，现在得到的却是类别为
 
 #~ msgid "Generic \"%s\" seems not to have been initialized for table dispatch---need to have .SigArgs and .AllMtable assigned in its environment"
 #~ msgstr "同属函数\"%s\"没有为表台调度进行初始化--.SigArgs 和.AllMtable 这两个量都需要在它的环境里有定义"
+
