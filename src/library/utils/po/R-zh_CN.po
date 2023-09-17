@@ -5,6 +5,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 msgid ""
@@ -1216,8 +1218,9 @@ msgstr "'ccaddress'的长度必需为一"
 msgid "'url' must be a length-one character vector"
 msgstr "'title'值要么是NULL，要么是长度为一的字符向量"
 
+#, fuzzy
 msgid "'headers' must have names and must not be NA"
-msgstr "“headers”必须有名称，并且不能是 NA"
+msgstr "'X'必需有带名称的维名"
 
 #, fuzzy
 msgid "'destfile' must be a length-one character vector"
@@ -1873,3 +1876,4 @@ msgstr[0] "罗马数字无效：%s"
 
 #~ msgid "Optionally other keywords from doc/KEYWORDS, one per line"
 #~ msgstr "可以从其他文件/KEYWORDS中任选其他关键字，每行一个"
+
