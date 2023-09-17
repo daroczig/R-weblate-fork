@@ -9,6 +9,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -22,6 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -2590,7 +2592,7 @@ msgstr "目标上下文不在堆叠上"
 
 #: src/main/context.c:385
 msgid "NA argument is invalid"
-msgstr "NA 参数无效"
+msgstr "列表参数的名称无效"
 
 #: src/main/context.c:393 src/main/context.c:408 src/main/context.c:491
 #: src/main/context.c:503 src/main/context.c:514 src/main/context.c:526
@@ -3477,7 +3479,7 @@ msgstr "无法切斷正在使用中的联编"
 
 #: src/main/envir.c:3810
 msgid "bad namespace name"
-msgstr "名字空间名字不正确"
+msgstr "命名空间名称不正确"
 
 #: src/main/envir.c:3823
 msgid "namespace already registered"
@@ -3490,12 +3492,12 @@ msgstr "命名空间没有注册"
 #: src/main/envir.c:3899
 #, fuzzy
 msgid "bad variable name"
-msgstr "变量名字不正确"
+msgstr "变量名称不正确"
 
 #: src/main/envir.c:3941
 #, fuzzy
 msgid "bad namespace"
-msgstr "名字空间名字不正确"
+msgstr "命名空间名称不正确"
 
 #: src/main/envir.c:3977
 #, c-format
@@ -5015,7 +5017,7 @@ msgstr "\"device.ask.default\"的值无效，用FALSE"
 
 #: src/main/options.c:520
 msgid "list argument has no valid names"
-msgstr "列表参数的名字不正确"
+msgstr "列表参数的名称不正确"
 
 #: src/main/options.c:572
 #, fuzzy, c-format
@@ -5810,7 +5812,7 @@ msgstr "復原文件幻数出错(文件可能有损坏)-- 没有载入任何数�
 
 #: src/main/saveload.c:1984
 msgid "bad file name"
-msgstr "文件名字不正确"
+msgstr "文件名称不正确"
 
 #: src/main/saveload.c:1988 src/main/saveload.c:2016
 msgid "unable to open 'file'"
@@ -5831,7 +5833,7 @@ msgstr "第一参数必需是字符向量"
 
 #: src/main/saveload.c:2116
 msgid "not a valid named list"
-msgstr "带名字的列表不正确"
+msgstr "带名称的列表不正确"
 
 #: src/main/saveload.c:2123 src/main/saveload.c:2144
 #, c-format
@@ -6269,7 +6271,7 @@ msgstr "环境有错误"
 
 #: src/main/serialize.c:3226
 msgid "bad variable names"
-msgstr "变量名字不正确"
+msgstr "变量名称不正确"
 
 #: src/main/sort.c:95
 msgid "only atomic vectors can be tested to be sorted"
@@ -6474,7 +6476,7 @@ msgstr "参数不是矩阵"
 
 #: src/main/startup.c:77
 msgid "R_LibraryFileName: buffer too small"
-msgstr "R_Library文件名字不正确: 缓冲区太小"
+msgstr "R_Library文件名称不正确: 缓冲区太小"
 
 #: src/main/subassign.c:151
 msgid "attempt to enlarge non-vector"
@@ -6488,7 +6490,7 @@ msgstr "不能在向量/列表极限外赋值(%d加大到%d)"
 #: src/main/subassign.c:274
 #, fuzzy
 msgid "bad names attribute"
-msgstr "名字空间名字不正确"
+msgstr "命名空间名称不正确"
 
 #: src/main/subassign.c:489
 #, c-format
