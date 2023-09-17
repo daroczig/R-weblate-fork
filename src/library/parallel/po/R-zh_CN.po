@@ -4,6 +4,19 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
+msgstr ""
+"Project-Id-Version: R 2.15.0\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2020-03-24 10:13\n"
+"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"Language-Team: Chinese\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgstr ""
 "Project-Id-Version: R 2.15.0\n"
@@ -157,3 +170,4 @@ msgstr[1] ""
 
 #~ msgid "host"
 #~ msgstr "主机"
+
