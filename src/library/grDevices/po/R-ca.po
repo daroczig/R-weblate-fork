@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-02 03:05+0000\n"
-"Last-Translator: Josep Pueyo-Ros <jospueyo@gmail.com>\n"
+"PO-Revision-Date: 2023-10-11 18:19+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -28,14 +28,17 @@ msgstr ""
 msgid "'coef' must not be negative"
 msgstr ""
 
+#, fuzzy
 msgid "no 'z' matrix specified"
-msgstr ""
+msgstr "no s'ha especificat cap matriu «z»"
 
+#, fuzzy
 msgid "increasing 'x' and 'y' values expected"
-msgstr ""
+msgstr "s'esperava un increment dels valors «x» i «y»"
 
+#, fuzzy
 msgid "no proper 'z' matrix specified"
-msgstr ""
+msgstr "no s'ha especificat cap matriu «z» adequada"
 
 msgid "dimensions of 'x', 'y' and 'z' do not match"
 msgstr ""
@@ -442,8 +445,9 @@ msgstr ""
 msgid "type = \"cairo-png\" is unavailable. trying \"Xlib\""
 msgstr ""
 
+#, fuzzy
 msgid "invalid 'title'"
-msgstr ""
+msgstr "'title' no vàlid"
 
 msgid "invalid 'file'"
 msgstr ""
