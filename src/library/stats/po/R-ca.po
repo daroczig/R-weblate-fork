@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-09-21 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2023-10-11 18:19+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -183,8 +183,9 @@ msgstr ""
 msgid "'anova' object must have colnames"
 msgstr ""
 
+#, fuzzy
 msgid "'conf.level' must be a single number between 0 and 1"
-msgstr ""
+msgstr "«conf.level» ha de ser un únic nombre entre 0 i 1"
 
 msgid "not enough 'x' observations"
 msgstr ""
@@ -210,8 +211,9 @@ msgstr ""
 msgid "cannot compute exact confidence intervals with ties"
 msgstr ""
 
+#, fuzzy
 msgid "'formula' missing or incorrect"
-msgstr ""
+msgstr "Manca la «fórmula» o és incorrecta"
 
 msgid "grouping factor must have exactly 2 levels"
 msgstr ""
@@ -444,11 +446,13 @@ msgstr "«x» i «y» han de tenir la mateixa longitud"
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr ""
 
+#, fuzzy
 msgid "all entries of 'x' must be nonnegative and finite"
-msgstr ""
+msgstr "totes les entrades de «x» han de ser no negatives i finites"
 
+#, fuzzy
 msgid "at least one entry of 'x' must be positive"
-msgstr ""
+msgstr "almenys una entrada de «x» ha de ser positiva"
 
 msgid "cannot compute simulated p-value with zero marginals"
 msgstr ""
@@ -591,8 +595,9 @@ msgstr ""
 msgid "'x' must be a numeric vector"
 msgstr ""
 
+#, fuzzy
 msgid "'y' must be a numeric vector"
-msgstr ""
+msgstr "«y» ha de ser un vector numèric"
 
 msgid "not enough finite observations"
 msgstr ""
@@ -606,8 +611,9 @@ msgstr ""
 msgid "invalid formula"
 msgstr ""
 
+#, fuzzy
 msgid "'x' must be a matrix or a data frame"
-msgstr ""
+msgstr "«x» ha de ser una matriu o un marc de dades"
 
 msgid "'x' must contain finite values only"
 msgstr ""
