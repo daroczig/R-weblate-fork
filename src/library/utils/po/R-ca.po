@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2023-10-14 06:55+0000\n"
+"PO-Revision-Date: 2023-10-15 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -132,9 +132,8 @@ msgstr "Sí"
 msgid "No"
 msgstr "No"
 
-#, fuzzy
 msgid "Cancel"
-msgstr "Cancel·lar"
+msgstr "Cancel·la"
 
 #, fuzzy
 msgid "Unrecognized response"
