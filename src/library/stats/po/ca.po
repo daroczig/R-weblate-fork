@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-14 06:41+0000\n"
+"PO-Revision-Date: 2023-10-14 06:55+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -19,646 +19,769 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 #: Srunmed.c:63
+#, fuzzy
 msgid "bandwidth/span of running medians is larger than n"
 msgstr ""
+"l'amplada de banda/envergadura de les medianes en execució és més gran que n"
 
 #: Srunmed.c:262
-#, c-format
+#, c-format, fuzzy
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%ld]"
-msgstr ""
+msgstr "runmed(x, .., na.action=\"na.fail\"): té els NA començant a x[%ld]"
 
 #: Srunmed.c:265
+#, fuzzy
 msgid "runmed(): invalid 'na.action'"
-msgstr ""
+msgstr "runmed(): «na.action» no és vàlid"
 
 #: Srunmed.c:315
-#, c-format
+#, c-format, fuzzy
 msgid "na_action logic error (%d), please report!"
-msgstr ""
+msgstr "error de lògica de naaction (%d), si us plau, informeu!"
 
-#: ansari.c:121
+#: ansari.c:118
+#, fuzzy
 msgid "probabilities outside [0,1] in qansari()"
-msgstr ""
+msgstr "probabilitats fora de [0,1] en qansari()"
 
-#: approx.c:107
+#: approx.c:114
+#, fuzzy
 msgid "approx(): invalid f value"
-msgstr ""
-
-#: approx.c:110
-msgid "approx(): invalid interpolation method"
-msgstr ""
+msgstr "approx(): el valor f no és vàlid"
 
 #: approx.c:117
-msgid "approx(): attempted to interpolate NA values"
-msgstr ""
+#, fuzzy
+msgid "approx(): invalid interpolation method"
+msgstr "approx(): el mètode d'interpolació no és vàlid"
 
-#: approx.c:121
+#: approx.c:124
+#, fuzzy
+msgid "approx(): attempted to interpolate NA values"
+msgstr "approx(): s'ha intentat interpolar els valors NA"
+
+#: approx.c:128
+#, fuzzy
 msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
-msgstr ""
+msgstr "approx(x,y, .., na.rm=FALSE): no es permeten els valors NA a x"
 
 #: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:33
 msgid "invalid argument type"
 msgstr "tipus de paràmetre no vàlid"
 
 #: arima.c:444 arima.c:530 pacf.c:324 pacf.c:363
+#, fuzzy
 msgid "can only transform 100 pars in arima0"
-msgstr ""
+msgstr "només es poden transformar 100 pars a arima0"
 
 #: arima.c:1016
+#, fuzzy
 msgid "maximum supported lag is 350"
-msgstr ""
+msgstr "el retard suportat màxim és 350"
 
 #: bandwidths.c:126
-#, c-format
+#, c-format, fuzzy
 msgid "non-finite x[%d] in bandwidth calculation"
-msgstr ""
+msgstr "x[%d] no definit en el càlcul de l'amplada de banda"
 
 #: complete_cases.c:26
-#, c-format
+#, c-format, fuzzy
 msgid "invalid 'type' (%s) of argument"
-msgstr ""
+msgstr "«type» no vàlid (%s) de l'argument"
 
-#: complete_cases.c:115
+#: complete_cases.c:120
+#, fuzzy
 msgid "no input has determined the number of cases"
-msgstr ""
+msgstr "cap entrada ha determinat el nombre de casos"
 
-#: complete_cases.c:218
+#: complete_cases.c:223
+#, fuzzy
 msgid "not all arguments have the same length"
-msgstr ""
+msgstr "no tots els arguments tenen la mateixa longitud"
 
-#: cov.c:563
+#: cov.c:569
+#, fuzzy
 msgid "missing observations in cov/cor"
-msgstr ""
+msgstr "manca observacions a la cov/cor"
 
-#: cov.c:644
+#: cov.c:650
+#, fuzzy
 msgid "'x' is NULL"
-msgstr ""
+msgstr "«x» és NULL"
 
 #: cov.c:682 cov.c:688
 #, fuzzy
 msgid "incompatible dimensions"
 msgstr "dimensions incompatibles"
 
-#: cov.c:701 cov.c:742 cov.c:775
+#: cov.c:707 cov.c:748 cov.c:781
+#, fuzzy
 msgid "no complete element pairs"
-msgstr ""
+msgstr "no hi ha cap parell d'elements complets"
 
-#: cov.c:714
+#: cov.c:720
+#, fuzzy
 msgid "invalid 'use' (computational method)"
-msgstr ""
+msgstr "«use» no vàlid (mètode computacional)"
 
 #: cov.c:723
 #, fuzzy
 msgid "'x' is empty"
 msgstr "«x» és buit"
 
-#: cov.c:811
+#: cov.c:817
+#, fuzzy
 msgid "the standard deviation is zero"
-msgstr ""
+msgstr "la desviació estàndard és zero"
 
-#: deriv.c:152
+#: deriv.c:158
+#, fuzzy
 msgid "invalid form in unary minus check"
-msgstr ""
+msgstr "formulari no vàlid a la comprovació unary menys"
 
 #: deriv.c:682
-#, c-format
+#, c-format, fuzzy
 msgid "Function '%s' is not in the derivatives table"
-msgstr ""
+msgstr "La funció «%s» no és a la taula de derivades"
 
 #: deriv.c:789
-#, c-format
+#, c-format, fuzzy
 msgid "expression must not be type '%s'"
-msgstr ""
+msgstr "l'expressió no pot ser del tipus «%s»"
 
-#: deriv.c:785
+#: deriv.c:792
+#, fuzzy
 msgid "variable must be a character string"
-msgstr ""
+msgstr "la variable ha de ser una cadena de caràcters"
 
-#: deriv.c:787
+#: deriv.c:794
+#, fuzzy
 msgid "only the first element is used as variable name"
-msgstr ""
+msgstr "només el primer element s'utilitza com a nom de variable"
 
 #: deriv.c:807
-#, c-format
+#, c-format, fuzzy
 msgid "invalid expression in '%s'"
-msgstr ""
+msgstr "expressió no vàlida a «%s»"
 
-#: deriv.c:865
+#: deriv.c:872
+#, fuzzy
 msgid "too many variables"
-msgstr ""
+msgstr "massa variables"
 
-#: deriv.c:1080 model.c:93
+#: deriv.c:1087 model.c:99
+#, fuzzy
 msgid "invalid variable names"
-msgstr ""
+msgstr "noms de variables no vàlids"
 
-#: deriv.c:1088 deriv.c:1090
+#: deriv.c:1095 deriv.c:1097
+#, fuzzy
 msgid "invalid tag"
-msgstr ""
+msgstr "etiqueta no vàlida"
 
 #: distance.c:152
+#, fuzzy
 msgid "treating non-finite values as NA"
-msgstr ""
+msgstr "tractant els valors no-finits com a NA"
 
 #: distance.c:225
+#, fuzzy
 msgid "distance(): invalid p"
-msgstr ""
+msgstr "distance(): p no vàlida"
 
 #: distance.c:229
+#, fuzzy
 msgid "distance(): invalid distance"
-msgstr ""
+msgstr "distance(): la distància no és vàlida"
 
-#: distn.c:41
+#: distn.c:47
+#, fuzzy
 msgid "NaNs produced"
-msgstr ""
+msgstr "NaNs produït"
 
-#: distn.c:42
+#: distn.c:48
+#, fuzzy
 msgid "Non-numeric argument to mathematical function"
-msgstr ""
+msgstr "Argument no numèric per a la funció matemàtica"
 
 #: family.c:45
-#, c-format
+#, c-format, fuzzy
 msgid "Value %g out of range (0, 1)"
-msgstr ""
+msgstr "El valor %g és fora de rang (0, 1)"
 
 #: family.c:66 family.c:80 family.c:98
-#, c-format
+#, c-format, fuzzy
 msgid "Argument %s must be a nonempty numeric vector"
-msgstr ""
+msgstr "L'argument %s ha de ser un vector numèric no buit"
 
 #: family.c:131 family.c:134
-#, c-format
+#, c-format, fuzzy
 msgid "argument %s must be a numeric vector of length 1 or length %d"
-msgstr ""
+msgstr "l'argument %s ha de ser un vector numèric de longitud 1 o longitud %d"
 
 #: fexact.c:276
-#, c-format
+#, c-format, fuzzy
 msgid "integer overflow would happen in 'mult * ldkey' = %g"
-msgstr ""
+msgstr "el desbordament d'enters ocorreria a 'mult * ldkey' = %g"
 
 #: fexact.c:656
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 6.  LDKEY=%d is too small for this problem,\n"
 "  (ii := key2[itp=%d] = %d, ldstp=%d)\n"
 "Try increasing the size of the workspace and possibly 'mult'"
 msgstr ""
+"Error exacte 6.  LDKEY=%d és massa petit per a aquest problema,\n"
+"  (ii := clau2[itp=%d] = %d, ldstp=%d)\n"
+"Proveu d'augmentar la mida de l'espai de treball i possiblement «mult»"
 
 #: fexact.c:1040
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= "
 "%d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
+"FEXACT[f3xact()] error: clau hash %.0g . INTMAX, kyy=%d, it[i (= nco = %d)]= "
+"%d.\n"
+"Més aviat defineix 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 30.  Stack length exceeded in f3xact,\n"
 "  (ldst=%d, key=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
+"Error exacte 30.  S'ha excedit la longitud de la pila en f3xact,\n"
+"  (ldst=%d, clau=%d, ipn=%d, itp=%d, ist[ii=%d]=%d).\n"
+"Augmenta l'espai de treball o considereu utilitzar «simulate.p.value=TRUE»"
 
 #: fexact.c:1407
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 6 (f5xact).  LDKEY=%d is too small for this problem: kval=%d.\n"
 "Try increasing the size of the workspace."
 msgstr ""
+"Error exacte 6 (f5xact).  LDKEY=%d és massa petit per a aquest problema: "
+"kval=%d.\n"
+"Proveu d'augmentar la mida de l'espai de treball."
 
 #: fexact.c:1420
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (kval=%d, itop-ldstp=%d).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'."
 msgstr ""
+"Error de FEXACT 7(%s). LDSTP=%d és massa petit per a aquest problema,\n"
+"  (kval=%d, itop-ldstp=%d).\n"
+"Incrementeu l'espai de treball o considereu utilitzar «simulate.p."
+"value=TRUE»."
 
 #: fexact.c:1458
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
+"Error de FEXACT 7(%s). LDSTP=%d és massa petit per a aquest problema,\n"
+"  (pastp=%g, ipn0:=ipoin[itp=%d]=%d, stp[ipn0]=%g).\n"
+"Augmenta l'espai de treball o considereu utilitzar «simulate.p.value=TRUE»"
 
-#: fourier.c:62 fourier.c:157
+#: fourier.c:70 fourier.c:165
+#, fuzzy
 msgid "non-numeric argument"
-msgstr ""
+msgstr "argument no numèric"
 
-#: fourier.c:80 fourier.c:98 fourier.c:171
+#: fourier.c:88 fourier.c:106 fourier.c:179
+#, fuzzy
 msgid "fft factorization error"
-msgstr ""
+msgstr "error de factorització fft"
 
-#: fourier.c:143
+#: fourier.c:151
+#, fuzzy
 msgid "vector-valued (multivariate) series required"
-msgstr ""
+msgstr "es requereix una sèrie vectorial (multivariada)"
 
 #: fourier.c:221
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' "
 "instead of 'n'"
 msgstr ""
+"nextn() no ha trobat cap solució ); %d = INTMAX (l'enter màxim); pass '0+ n' "
+"en comptes de 'n'"
 
 #: fourier.c:233
-#, c-format
+#, c-format, fuzzy
 msgid "nextn<64>() found no solution < %ld = UINT64_MAX (the maximal integer)"
 msgstr ""
+"nextn<64>() no s'ha trobat cap solució ) %ld = UINT64MAX (l'enter màxim)"
 
 #: fourier.c:249
+#, fuzzy
 msgid "no factors"
-msgstr ""
+msgstr "sense factors"
 
-#: fourier.c:242
+#: fourier.c:250
+#, fuzzy
 msgid "too many factors"
-msgstr ""
+msgstr "hi ha massa factors"
 
-#: fourier.c:245
+#: fourier.c:253
+#, fuzzy
 msgid "invalid factors"
-msgstr ""
+msgstr "factors no vàlids"
 
-#: fourier.c:249
+#: fourier.c:257
+#, fuzzy
 msgid "'n' must have typeof(.) \"integer\" or \"double\""
-msgstr ""
+msgstr "«n» ha de tenir tipus(.) \"enter\" o \"doble\""
 
 #: fourier.c:298
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as "
 "\"double\")"
 msgstr ""
+"nextn() = %<PRIu64> \") 2^53 pot no ser exactament representable a R (com a "
+"«doble»)"
 
 #: integrate.c:84 integrate.c:86 integrate.c:128
-#, c-format
+#, c-format, fuzzy
 msgid "'%s' must be of length one"
-msgstr ""
+msgstr "«%s» ha de ser d'una longitud"
 
-#: ksmooth.c:63
+#: ksmooth.c:69
+#, fuzzy
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
-msgstr ""
+msgstr "només es permeten 2.500 files per sm.method=\"spline\""
 
-#: lm.c:51
+#: lm.c:57
+#, fuzzy
 msgid "'x' is not a matrix"
-msgstr ""
+msgstr "«x» no és una matriu"
 
 #: lm.c:62
-#, c-format
+#, c-format, fuzzy
 msgid "dimensions of 'x' (%d,%d) and 'y' (%d) do not match"
-msgstr ""
+msgstr "les dimensions de «x» (%d,%d) i «y» (%d) no coincideixen"
 
 #: lm.c:77 lm.c:81
-#, c-format
+#, c-format, fuzzy
 msgid "NA/NaN/Inf in '%s'"
-msgstr ""
+msgstr "NA/NaN/Inf a «%s»"
 
 #: loessc.c:242
+#, fuzzy
 msgid "span is too small"
-msgstr ""
+msgstr "l'envergadura és massa petita"
 
 #: loessc.c:257
-#, c-format
+#, c-format, fuzzy
 msgid "workspace required (%.0f) is too large%s."
-msgstr ""
+msgstr "l'espai de treball necessari (%.0f) és massa gran%s."
 
 #: loessc.c:258
+#, fuzzy
 msgid " probably because of setting 'se = TRUE'"
-msgstr ""
+msgstr " probablement a causa de la configuració «se = TRUE»"
 
-#: loglin.c:367
+#: loglin.c:372
+#, fuzzy
 msgid "this should not happen"
-msgstr ""
+msgstr "això no hauria de passar"
 
-#: loglin.c:369
+#: loglin.c:374
+#, fuzzy
 msgid "algorithm did not converge"
-msgstr ""
+msgstr "l'algoritme no ha convergeixit"
 
-#: loglin.c:371
+#: loglin.c:376
+#, fuzzy
 msgid "incorrect specification of 'table' or 'start'"
-msgstr ""
+msgstr "especificació incorrecta de «table» o «start»"
 
-#: lowess.c:287
+#: lowess.c:292
+#, fuzzy
 msgid "'f' must be finite and > 0"
-msgstr ""
+msgstr "'f' ha de ser finit i  and 0"
 
-#: lowess.c:290
+#: lowess.c:295
+#, fuzzy
 msgid "'iter' must be finite and >= 0"
-msgstr ""
+msgstr "'iter' ha de ser finit i  and= 0"
 
-#: lowess.c:293
+#: lowess.c:298
+#, fuzzy
 msgid "'delta' must be finite and > 0"
-msgstr ""
+msgstr "'delta' ha de ser finit i  and 0"
 
 #: mAR.c:83
+#, fuzzy
 msgid "assert failed in src/library/ts/src/carray.c"
-msgstr ""
+msgstr "ha fallat l'asserció a src/library/ts/src/carray.c"
 
 #: mAR.c:470
+#, fuzzy
 msgid "Singular matrix in qr_solve"
-msgstr ""
+msgstr "Matriu singular en qrsolve"
 
 #: mAR.c:513
+#, fuzzy
 msgid "Singular matrix in ldet"
-msgstr ""
+msgstr "Matriu singular en ldet"
 
 #: mAR.c:700
+#, fuzzy
 msgid "Invalid vmethod"
-msgstr ""
+msgstr "Vmethod no vàlid"
 
 #: mAR.c:836
+#, fuzzy
 msgid "Burg's algorithm failed to find partial correlation"
-msgstr ""
+msgstr "L'algoritme de Burg no ha pogut trobar la correlació parcial"
 
-#: model.c:91
+#: model.c:97
+#, fuzzy
 msgid "invalid variables"
-msgstr ""
+msgstr "variables no vàlides"
 
-#: model.c:95 model.c:100
+#: model.c:101 model.c:106
+#, fuzzy
 msgid "number of variables != number of variable names"
-msgstr ""
+msgstr "nombre de variables != nombre de noms de variables"
 
-#: model.c:98
+#: model.c:104
+#, fuzzy
 msgid "invalid extra variables"
-msgstr ""
+msgstr "variables addicionals no vàlides"
 
-#: model.c:102
+#: model.c:108
+#, fuzzy
 msgid "invalid extra variable names"
-msgstr ""
+msgstr "noms de variables addicionals no vàlids"
 
 #: model.c:129
-#, c-format
+#, c-format, fuzzy
 msgid "overlong names in '%s'"
-msgstr ""
+msgstr "noms massa llargs a «%s»"
 
 #: model.c:156
-#, c-format
+#, c-format, fuzzy
 msgid "invalid type (%s) for variable '%s'"
-msgstr ""
+msgstr "tipus no vàlid (%s) per a la variable «%s»"
 
 #: model.c:161
-#, c-format
+#, c-format, fuzzy
 msgid "variable lengths differ (found for '%s')"
-msgstr ""
+msgstr "les longituds de les variables difereixen (es troben per a «%s»)"
 
-#: model.c:212
+#: model.c:218
+#, fuzzy
 msgid "invalid result from na.action"
-msgstr ""
+msgstr "resultat no vàlid de na.action"
 
 #: model.c:373 model.c:381 optim.c:221
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "paràmetre «%s» no vàlid"
 
-#: model.c:392
+#: model.c:398
+#, fuzzy
 msgid "invalid model frame"
-msgstr ""
+msgstr "el marc del model no és vàlid"
 
-#: model.c:394
+#: model.c:400
+#, fuzzy
 msgid "do not know how many cases"
-msgstr ""
+msgstr "no sé quants casos"
 
 #: model.c:424
-#, c-format
+#, c-format, fuzzy
 msgid "variable lengths differ (found for variable %d)"
 msgstr ""
+"les longituds de les variables difereixen (es troben per a la variable %d)"
 
 #: model.c:428 model.c:435
-#, c-format
+#, c-format, fuzzy
 msgid "variable %d has no levels"
-msgstr ""
+msgstr "la variable %d no té nivells"
 
-#: model.c:540
+#: model.c:547
+#, fuzzy
 msgid "the response appeared on the right-hand side and was dropped"
-msgstr ""
+msgstr "la resposta va aparèixer a la part dreta i es va deixar caure"
 
 #: model.c:567
-#, c-format
+#, c-format, fuzzy
 msgid "term %d would require %.0g columns"
-msgstr ""
+msgstr "el terme %d requeriria %.0g columnes"
 
 #: model.c:571
-#, c-format
+#, c-format, fuzzy
 msgid "matrix would require %.0g columns"
-msgstr ""
+msgstr "la matriu requeriria %.0g columnes"
 
 #: model.c:582
-#, c-format
+#, c-format, fuzzy
 msgid "problem with term %d in model.matrix: no columns are assigned"
-msgstr ""
+msgstr "problema amb el terme %d a model.matrix: no s'assigna cap columna"
 
-#: model.c:624 model.c:629 model.c:635 model.c:646 model.c:652 model.c:658
+#: model.c:631 model.c:636 model.c:642 model.c:653 model.c:659 model.c:665
+#, fuzzy
 msgid "term names will be truncated"
-msgstr ""
+msgstr "els noms dels termes es truncaran"
 
-#: model.c:638
+#: model.c:645
+#, fuzzy
 msgid "complex variables are not currently allowed in model matrices"
-msgstr ""
+msgstr "actualment no es permeten variables complexes en matrius de models"
 
 #: model.c:669
-#, c-format
+#, c-format, fuzzy
 msgid "variables of type '%s' are not allowed in model matrices"
-msgstr ""
+msgstr "les variables de tipus «%s» no estan permeses a les matrius del model"
 
-#: model.c:887
+#: model.c:894
+#, fuzzy
 msgid "invalid formula in 'update'"
-msgstr ""
+msgstr "fórmula no vàlida a «update»"
 
-#: model.c:921
+#: model.c:928
+#, fuzzy
 msgid "formula expected"
-msgstr ""
+msgstr "s'esperava una fórmula"
 
-#: model.c:1089
+#: model.c:1096
+#, fuzzy
 msgid "invalid term in model formula"
-msgstr ""
+msgstr "terme no vàlid a la fórmula del model"
 
-#: model.c:1180
+#: model.c:1187
+#, fuzzy
 msgid "invalid model formula"
-msgstr ""
+msgstr "fórmula de model no vàlida"
 
-#: model.c:1212 model.c:1519
+#: model.c:1219 model.c:1525
+#, fuzzy
 msgid "invalid power in formula"
-msgstr ""
+msgstr "potència no vàlida a la fórmula"
 
-#: model.c:1261
+#: model.c:1268
+#, fuzzy
 msgid "invalid model formula in ExtractVars"
-msgstr ""
+msgstr "fórmula de model no vàlida a ExtractVars"
 
 #: model.c:1636
-#, c-format
+#, c-format, fuzzy
 msgid "duplicated name '%s' in data frame using '.'"
-msgstr ""
+msgstr "nom duplicat «%s» en el marc de dades usant «.»"
 
-#: model.c:1697
+#: model.c:1703
+#, fuzzy
 msgid "invalid model formula in EncodeVars"
-msgstr ""
+msgstr "fórmula de model no vàlida a EncodeVars"
 
-#: model.c:1774
+#: model.c:1780
+#, fuzzy
 msgid "argument is not a valid model"
-msgstr ""
+msgstr "l'argument no és un model vàlid"
 
-#: model.c:1784
+#: model.c:1790
+#, fuzzy
 msgid "'specials' must be NULL or a character vector"
-msgstr ""
+msgstr "'especials' ha de ser NULL o un vector de caràcters"
 
-#: model.c:1795
+#: model.c:1801
+#, fuzzy
 msgid "'data' argument is of the wrong type"
-msgstr ""
+msgstr "l'argument «data» és d'un tipus incorrecte"
 
 #: model.c:1873
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should "
 "no longer happen!"
 msgstr ""
+"'varlist' ha canviat (des de nvar=%d) a un nou %d després de EncodeVars() -- "
+"no hauria de passar més!"
 
 #: model.c:2157
+#, fuzzy
 msgid "'.' in formula and no 'data' argument"
-msgstr ""
+msgstr "'.' a la fórmula i sense argument 'data'"
 
 #: monoSpl.c:36
+#, fuzzy
 msgid "n must be at least two"
-msgstr ""
+msgstr "n ha de ser com a mínim dos"
 
 #: monoSpl.c:69
+#, fuzzy
 msgid "Argument m must be numeric"
-msgstr ""
+msgstr "L'argument m ha de ser numèric"
 
 #: monoSpl.c:72
+#, fuzzy
 msgid "length(m) must be at least two"
-msgstr ""
+msgstr "length(m) ha de ser com a mínim dos"
 
 #: monoSpl.c:74
+#, fuzzy
 msgid "Argument Sx must be numeric vector one shorter than m[]"
-msgstr ""
+msgstr "Argument Sx ha de ser un vector numèric més curt que m[]"
 
-#: nls.c:96
+#: nls.c:95
+#, fuzzy
 msgid "'control' must be a list"
-msgstr ""
+msgstr "«control» ha de ser una llista"
 
-#: nls.c:98
+#: nls.c:97
+#, fuzzy
 msgid "'m' must be a list"
-msgstr ""
+msgstr "«m» ha de ser una llista"
 
 #: nls.c:104 nls.c:109 nls.c:114 nls.c:119 nls.c:124 nls.c:132 nls.c:137
 #: nls.c:142 nls.c:147 nls.c:152 nls.c:157
-#, c-format
+#, c-format, fuzzy
 msgid "'%s' absent"
-msgstr ""
+msgstr "«%s» absent"
 
-#: nls.c:234
+#: nls.c:233
+#, fuzzy
 msgid "singular gradient"
-msgstr ""
+msgstr "degradat singular"
 
 #: nls.c:255
-#, c-format
+#, c-format, fuzzy
 msgid "step factor %g reduced below 'minFactor' of %g"
-msgstr ""
+msgstr "factor de pas %g reduït per sota de «minFactor» de %g"
 
 #: nls.c:263
-#, c-format
+#, c-format, fuzzy
 msgid "number of iterations exceeded maximum of %d"
-msgstr ""
+msgstr "el nombre d'iteracions ha superat el màxim de %d"
 
-#: nls.c:268
+#: nls.c:267
+#, fuzzy
 msgid "converged"
-msgstr ""
+msgstr "convergeix"
 
-#: nls.c:285
+#: nls.c:284
+#, fuzzy
 msgid "'theta' should be of type character"
-msgstr ""
+msgstr "'theta' hauria de ser del tipus de caràcter"
 
 #: nls.c:287 port.c:383
 msgid "use of NULL environment is defunct"
 msgstr "l'ús d'un entorn NULL ha desaparegut"
 
-#: nls.c:291
+#: nls.c:290
+#, fuzzy
 msgid "'rho' should be an environment"
-msgstr ""
+msgstr "«rho» hauria de ser un entorn"
 
-#: nls.c:297
+#: nls.c:296
+#, fuzzy
 msgid "'dir' is not a numeric vector of the correct length"
-msgstr ""
+msgstr "'dir' no és un vector numèric de la longitud correcta"
 
-#: nls.c:300
+#: nls.c:299
+#, fuzzy
 msgid "'central' is NA, but must be TRUE or FALSE"
-msgstr ""
+msgstr "'central' és NA, però ha de ser cert o FALS"
 
-#: nls.c:316
+#: nls.c:315
+#, fuzzy
 msgid "Missing value or an infinity produced when evaluating the model"
-msgstr ""
+msgstr "Manca un valor o un infinit produït en avaluar el model"
 
 #: nls.c:328
-#, c-format
+#, c-format, fuzzy
 msgid "variable '%s' is integer, not numeric"
-msgstr ""
+msgstr "la variable «%s» és entera, no numèrica"
 
 #: nls.c:330
-#, c-format
+#, c-format, fuzzy
 msgid "variable '%s' is not numeric"
-msgstr ""
+msgstr "la variable «%s» no és numèrica"
 
-#: optim.c:76 optim.c:103
+#: optim.c:82 optim.c:109
+#, fuzzy
 msgid "non-finite value supplied by optim"
-msgstr ""
+msgstr "valor no definit proporcionat per l'optimitzador"
 
 #: optim.c:89
-#, c-format
+#, c-format, fuzzy
 msgid "objective function in optim evaluates to length %d not 1"
-msgstr ""
+msgstr "la funció objectiu a l'optimització avalua la longitud %d no 1"
 
 #: optim.c:116
-#, c-format
+#, c-format, fuzzy
 msgid "gradient in optim evaluated to length %d not %d"
-msgstr ""
+msgstr "gradient en l'òptim avaluat a la longitud %d no %d"
 
 #: optim.c:152 optim.c:191
-#, c-format
+#, c-format, fuzzy
 msgid "non-finite finite-difference value [%d]"
-msgstr ""
+msgstr "valor de diferència finita no definit [%d]"
 
-#: optim.c:217 optim.c:423
+#: optim.c:223 optim.c:429
+#, fuzzy
 msgid "'fn' is not a function"
-msgstr ""
+msgstr "'fn' no és una funció"
 
-#: optim.c:235 optim.c:429
+#: optim.c:241 optim.c:435
+#, fuzzy
 msgid "'parscale' is of the wrong length"
-msgstr ""
+msgstr "«parscale» té una longitud incorrecta"
 
-#: optim.c:264
+#: optim.c:270
+#, fuzzy
 msgid "'maxit' is not an integer"
-msgstr ""
+msgstr "'maxit' no és un enter"
 
-#: optim.c:284
+#: optim.c:290
+#, fuzzy
 msgid "'tmax' is not a positive integer"
-msgstr ""
+msgstr "«tmax» no és un enter positiu"
 
-#: optim.c:286 optim.c:303 optim.c:328 optim.c:358 optim.c:437
+#: optim.c:292 optim.c:309 optim.c:334 optim.c:364 optim.c:443
+#, fuzzy
 msgid "'gr' is not a function"
-msgstr ""
+msgstr "'gr' no és una funció"
 
-#: optim.c:309 optim.c:334 optim.c:364 optim.c:443
+#: optim.c:315 optim.c:340 optim.c:370 optim.c:449
+#, fuzzy
 msgid "'ndeps' is of the wrong length"
-msgstr ""
+msgstr "«ndeps» té una longitud incorrecta"
 
-#: optim.c:394
+#: optim.c:400
+#, fuzzy
 msgid "unknown 'method'"
-msgstr ""
+msgstr "«method» desconegut"
 
-#: optimize.c:214 optimize.c:300 optimize.c:522
+#: optimize.c:220 optimize.c:306 optimize.c:528
+#, fuzzy
 msgid "NA replaced by maximum positive value"
-msgstr ""
+msgstr "S'ha substituït el SD per un valor màxim positiu"
 
-#: optimize.c:222 optimize.c:312 optimize.c:530
+#: optimize.c:228 optimize.c:318 optimize.c:536
+#, fuzzy
 msgid "NA/Inf replaced by maximum positive value"
-msgstr ""
+msgstr "NA/Inf substituït pel valor màxim positiu"
 
-#: optimize.c:231
+#: optimize.c:237
+#, fuzzy
 msgid "invalid function value in 'optimize'"
-msgstr ""
+msgstr "el valor de la funció a «optimitza» no és vàlid"
 
-#: optimize.c:249 optimize.c:341 optimize.c:716
+#: optimize.c:255 optimize.c:347 optimize.c:721
+#, fuzzy
 msgid "attempt to minimize non-function"
-msgstr ""
+msgstr "s'ha intentat minimitzar la no-funció"
 
 #: optimize.c:262 optimize.c:269 optimize.c:278 optimize.c:352 optimize.c:357
 #: optimize.c:373
@@ -666,130 +789,165 @@ msgstr ""
 msgid "invalid '%s' value"
 msgstr "valor «%s» no vàlid"
 
-#: optimize.c:265 optimize.c:352
+#: optimize.c:271 optimize.c:358
+#, fuzzy
 msgid "'xmin' not less than 'xmax'"
-msgstr ""
+msgstr "«xmin» no és inferior a «xmax»"
 
-#: optimize.c:309
+#: optimize.c:315
+#, fuzzy
 msgid "-Inf replaced by maximally negative value"
-msgstr ""
+msgstr "-Inf reemplaçat pel valor màxim negatiu"
 
-#: optimize.c:322
+#: optimize.c:328
+#, fuzzy
 msgid "invalid function value in 'zeroin'"
-msgstr ""
+msgstr "el valor de la funció a «zeroin» no és vàlid"
 
 #: optimize.c:363 optimize.c:368
-#, c-format
+#, c-format, fuzzy
 msgid "NA value for '%s' is not allowed"
-msgstr ""
+msgstr "No es permet el valor NA per a «%s»"
 
-#: optimize.c:372
+#: optimize.c:378
+#, fuzzy
 msgid "'maxiter' must be positive"
-msgstr ""
+msgstr "«maxiter» ha de ser positiu"
 
-#: optimize.c:514
+#: optimize.c:520
+#, fuzzy
 msgid "non-finite value supplied by 'nlm'"
-msgstr ""
+msgstr "valor no definit proporcionat per «nlm»"
 
-#: optimize.c:549
+#: optimize.c:555
+#, fuzzy
 msgid "invalid function value in 'nlm' optimizer"
-msgstr ""
+msgstr "el valor de la funció a l'optimitzador «nlm» no és vàlid"
 
-#: optimize.c:561 optimize.c:576
+#: optimize.c:566 optimize.c:581
+#, fuzzy
 msgid "function value caching for optimization is seriously confused"
 msgstr ""
+"la memòria cau del valor de la funció per a l'optimització està seriosament "
+"confusa"
 
-#: optimize.c:591
+#: optimize.c:596
+#, fuzzy
 msgid "numeric parameter expected"
-msgstr ""
+msgstr "s'esperava un paràmetre numèric"
 
-#: optimize.c:595
+#: optimize.c:600
+#, fuzzy
 msgid "conflicting parameter lengths"
-msgstr ""
+msgstr "longituds de paràmetres conflictius"
 
-#: optimize.c:599
+#: optimize.c:604
+#, fuzzy
 msgid "invalid parameter length"
-msgstr ""
+msgstr "la longitud del paràmetre no és vàlida"
 
-#: optimize.c:609 optimize.c:616
+#: optimize.c:614 optimize.c:621
+#, fuzzy
 msgid "missing value in parameter"
-msgstr ""
+msgstr "falta el valor al paràmetre"
 
-#: optimize.c:621
+#: optimize.c:626
+#, fuzzy
 msgid "invalid parameter type"
-msgstr ""
+msgstr "tipus de paràmetre no vàlid"
 
-#: optimize.c:632
+#: optimize.c:637
+#, fuzzy
 msgid "non-positive number of parameters in nlm"
-msgstr ""
+msgstr "nombre no positiu de paràmetres a nlm"
 
-#: optimize.c:634
+#: optimize.c:639
+#, fuzzy
 msgid "nlm is inefficient for 1-d problems"
-msgstr ""
+msgstr "nlm és ineficient per a problemes d'1 d"
 
-#: optimize.c:636
+#: optimize.c:641
+#, fuzzy
 msgid "invalid gradient tolerance in nlm"
-msgstr ""
+msgstr "tolerància de degradat no vàlida a nlm"
 
-#: optimize.c:638
+#: optimize.c:643
+#, fuzzy
 msgid "invalid iteration limit in nlm"
-msgstr ""
+msgstr "límit d'iteració no vàlid a nlm"
 
-#: optimize.c:640
+#: optimize.c:645
+#, fuzzy
 msgid "minimization function has no good digits in nlm"
-msgstr ""
+msgstr "la funció de minimització no té dígits bons a nlm"
 
-#: optimize.c:642
+#: optimize.c:647
+#, fuzzy
 msgid "no analytic gradient to check in nlm!"
-msgstr ""
+msgstr "no hi ha cap degradat analític per a comprovar en nlm!"
 
-#: optimize.c:644
+#: optimize.c:649
+#, fuzzy
 msgid "no analytic Hessian to check in nlm!"
-msgstr ""
+msgstr "no hi ha cap Hessian analític per comprovar en nlm!"
 
-#: optimize.c:646
+#: optimize.c:651
+#, fuzzy
 msgid "probable coding error in analytic gradient"
-msgstr ""
+msgstr "probable error de codificació en el degradat analític"
 
-#: optimize.c:648
+#: optimize.c:653
+#, fuzzy
 msgid "probable coding error in analytic Hessian"
-msgstr ""
+msgstr "probable error de codificació en l'hessian analític"
 
 #: optimize.c:655
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "*** unknown error message (msg = %d) in nlm()\n"
 "*** should not happen!"
 msgstr ""
+"*** missatge d'error desconegut (msg = %d) a nlm()\n"
+"*** no hauria de passar!"
 
-#: optimize.c:661
+#: optimize.c:666
+#, fuzzy
 msgid "Relative gradient close to zero.\n"
-msgstr ""
+msgstr "Degradat relatiu proper a zero.\n"
 
-#: optimize.c:662 optimize.c:666
+#: optimize.c:667 optimize.c:671
+#, fuzzy
 msgid "Current iterate is probably solution.\n"
-msgstr ""
-
-#: optimize.c:665
-msgid "Successive iterates within tolerance.\n"
-msgstr ""
-
-#: optimize.c:669
-msgid "Last global step failed to locate a point lower than x.\n"
-msgstr ""
+msgstr "La iteració actual és probablement la solució.\n"
 
 #: optimize.c:670
+#, fuzzy
+msgid "Successive iterates within tolerance.\n"
+msgstr "Iterats successius dins de la tolerància.\n"
+
+#: optimize.c:674
+#, fuzzy
+msgid "Last global step failed to locate a point lower than x.\n"
+msgstr "L'últim pas global no ha pogut localitzar un punt inferior a x.\n"
+
+#: optimize.c:675
+#, fuzzy
 msgid ""
 "Either x is an approximate local minimum of the function,\n"
 "the function is too non-linear for this algorithm,\n"
 "or steptol is too large.\n"
 msgstr ""
+"O x és un mínim local aproximat de la funció,\n"
+"la funció és massa no lineal per a aquest algorisme,\n"
+"o el steptol és massa gran.\n"
 
-#: optimize.c:675
+#: optimize.c:680
+#, fuzzy
 msgid "Iteration limit exceeded.  Algorithm failed.\n"
-msgstr ""
+msgstr "S'ha excedit el límit d'iteració.  L'algorisme ha fallat.\n"
 
-#: optimize.c:678
+#: optimize.c:683
+#, fuzzy
 msgid ""
 "Maximum step size exceeded 5 consecutive times.\n"
 "Either the function is unbounded below,\n"
@@ -797,128 +955,156 @@ msgid ""
 "from above in some direction,\n"
 "or stepmx is too small.\n"
 msgstr ""
+"La mida màxima del pas ha excedit 5 vegades consecutives.\n"
+"O bé la funció no està fitada a sota,\n"
+"esdevé asimptòtic amb un valor finit\n"
+"des de dalt en alguna direcció,\n"
+"o la stepmx és massa petita.\n"
 
 #: optimize.c:745 optimize.c:750 optimize.c:754 optimize.c:758 optimize.c:762
 #: optimize.c:766 optimize.c:771
+#, fuzzy
 msgid "invalid NA value in parameter"
-msgstr ""
+msgstr "el valor NA del paràmetre no és vàlid"
 
-#: optimize.c:795
+#: optimize.c:800
+#, fuzzy
 msgid "hessian supplied is of the wrong length or mode, so ignored"
 msgstr ""
+"el subministrat per hessians té una longitud o mode incorrectes, per tant "
+"s'ignora"
 
-#: optimize.c:799
+#: optimize.c:804
+#, fuzzy
 msgid "gradient supplied is of the wrong length or mode, so ignored"
 msgstr ""
+"el degradat subministrat té una longitud o mode incorrectes, de manera que "
+"s'ignora"
 
 #: pacf.c:87
+#, fuzzy
 msgid "bad Starma struct"
-msgstr ""
+msgstr "estructura d'estrelles dolenta"
 
 #: pacf.c:233
-#, c-format
+#, c-format, fuzzy
 msgid "starma error code %d"
-msgstr ""
+msgstr "codi d'error de l'Starma %d"
 
 #: pacf.c:293
-#, c-format
+#, c-format, fuzzy
 msgid "forkal error code %d"
-msgstr ""
+msgstr "codi d'error forkal %d"
 
 #: pacf.c:466
+#, fuzzy
 msgid "invalid value of lag.max"
-msgstr ""
+msgstr "valor no vàlid de lag.max"
 
 #: port.c:133
-#, c-format
+#, c-format, fuzzy
 msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
-msgstr ""
+msgstr "Rfdivset: alg = %d ha de ser 1, 2, 3, o 4"
 
 #: port.c:149
+#, fuzzy
 msgid "port algorithms 3 or higher are not supported"
-msgstr ""
+msgstr "no s'admeten els algorismes de port 3 o superior"
 
 #: port.c:317
-#, c-format
+#, c-format, fuzzy
 msgid "gradient function must return a numeric vector of length %d"
-msgstr ""
+msgstr "la funció gradient ha de retornar un vector numèric de longitud %d"
 
 #: port.c:329
-#, c-format
+#, c-format, fuzzy
 msgid "Hessian function must return a square numeric matrix of order %d"
 msgstr ""
+"La funció hessiana ha de retornar una matriu numèrica quadrada d'ordre %d"
 
-#: port.c:387
+#: port.c:386
+#, fuzzy
 msgid "'rho' must be an environment"
-msgstr ""
+msgstr "«rho» ha de ser un entorn"
 
-#: port.c:389 port.c:555
+#: port.c:388 port.c:554
+#, fuzzy
 msgid "'d' must be a nonempty numeric vector"
-msgstr ""
+msgstr "«d» ha de ser un vector numèric no buit"
 
-#: port.c:391
+#: port.c:390
+#, fuzzy
 msgid "When Hessian defined must also have gradient defined"
-msgstr ""
+msgstr "Quan definit Hessian també ha de tenir definit un degradat"
 
 #: port.c:393
-#, c-format
+#, c-format, fuzzy
 msgid "environment 'rho' must contain a numeric vector '.par' of length %d"
-msgstr ""
+msgstr "l'entorn «rho» ha de contenir un vector numèric «.par» de longitud %d"
 
-#: port.c:408
+#: port.c:407
+#, fuzzy
 msgid "'lower' and 'upper' must be numeric vectors"
-msgstr ""
+msgstr "«més baix» i «superior» han de ser vectors numèrics"
 
-#: port.c:467
+#: port.c:466
+#, fuzzy
 msgid "'getElement' applies only to named lists"
-msgstr ""
+msgstr "«getElement» només s'aplica a les llistes amb nom"
 
 #: port.c:487
-#, c-format
+#, c-format, fuzzy
 msgid "%s$%s() not found"
-msgstr ""
+msgstr "No s'ha trobat %s$%s()"
 
 #: port.c:500
-#, c-format
+#, c-format, fuzzy
 msgid "'gradient' must be a numeric matrix of dimension (%d,%d)"
-msgstr ""
+msgstr "«gradient» ha de ser una matriu numèrica de dimensió (%d,%d)"
 
 #: port.c:521
-#, c-format
+#, c-format, fuzzy
 msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
-msgstr ""
+msgstr "fcn mode produït %d, longitud %d - mode desitjat %d, longitud %d"
 
-#: port.c:535
+#: port.c:534
+#, fuzzy
 msgid "invalid type for eval_check_store"
-msgstr ""
+msgstr "tipus no vàlid per evalcheckstore"
 
-#: port.c:556
+#: port.c:555
+#, fuzzy
 msgid "m must be a list"
-msgstr ""
+msgstr "m ha de ser una llista"
 
-#: port.c:576
+#: port.c:575
+#, fuzzy
 msgid "'lowerb' and 'upperb' must be numeric vectors"
-msgstr ""
+msgstr "«lowerb» i «upperb» han de ser vectors numèrics"
 
 #: prho.c:159
 msgid "invalid sample size 'n' in C routine prho(n,s,*)"
 msgstr ""
 
 #: rWishart.c:53
+#, fuzzy
 msgid "inconsistent degrees of freedom and dimension"
-msgstr ""
+msgstr "graus de llibertat i dimensió inconsistents"
 
 #: rWishart.c:86
+#, fuzzy
 msgid "'scal' must be a square, real matrix"
-msgstr ""
+msgstr "«scal» ha de ser una matriu quadrada real"
 
-#: rWishart.c:99
+#: rWishart.c:98
+#, fuzzy
 msgid "'scal' matrix is not positive-definite"
-msgstr ""
+msgstr "la matriu «scal» no està definida positivament"
 
 #: random.c:53 random.c:137 random.c:217 random.c:307
+#, fuzzy
 msgid "NAs produced"
-msgstr ""
+msgstr "S'ha produït un NA"
 
 #: random.c:60 random.c:66 random.c:72 random.c:87 random.c:167 random.c:256
 #: random.c:394
@@ -927,39 +1113,45 @@ msgid "invalid arguments"
 msgstr "arguments no vàlids"
 
 #: random.c:333
+#, fuzzy
 msgid "NA in probability vector"
-msgstr ""
+msgstr "NA en el vector de probabilitat"
 
 #: random.c:335
+#, fuzzy
 msgid "negative probability"
-msgstr ""
+msgstr "probabilitat negativa"
 
 #: random.c:341
+#, fuzzy
 msgid "no positive probabilities"
-msgstr ""
+msgstr "sense probabilitats positives"
 
 #: random.c:353
+#, fuzzy
 msgid "invalid first argument 'n'"
-msgstr ""
+msgstr "el primer argument «n» no és vàlid"
 
 #: random.c:355
+#, fuzzy
 msgid "invalid second argument 'size'"
-msgstr ""
+msgstr "el segon argument «size» no és vàlid"
 
 #: rcont.c:85
-#, c-format
+#, c-format, fuzzy
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr ""
+msgstr "rcont2 [%d,%d]: exp underflow a 0; error d'algoritme"
 
 #: smooth.c:107
-#, c-format
+#, c-format, fuzzy
 msgid "invalid end-rule for running median of 3: %d"
-msgstr ""
+msgstr "regla final no vàlida per a la mediana en execució de 3: %d"
 
 #: starma.c:364
-#, c-format
+#, c-format, fuzzy
 msgid "missing value in last %d observations"
-msgstr ""
+msgstr "manca un valor en les últimes %d observacions"
+
 
 
 
