@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-09-14 03:05+0000\n"
+"PO-Revision-Date: 2023-10-15 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -48,7 +48,7 @@ msgstr "cadena entre cometes a la línia %d acabada per EOF (final de fitxer)"
 
 #: io.c:569
 msgid "the first argument must be of mode character"
-msgstr "el primer argument ha de ser de mode caràcter"
+msgstr "el primer paràmetre ha de ser de mode caràcter"
 
 #: io.c:599
 #, c-format
