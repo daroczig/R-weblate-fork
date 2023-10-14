@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-14 03:05+0000\n"
+"PO-Revision-Date: 2023-10-15 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -88,13 +88,11 @@ msgid "log scale error: at least one 'height + offset' value <= 0"
 msgstr ""
 "error d'escala logarítmica: com a mínim un valor 'alçada + desplaçament' == 0"
 
-#, fuzzy
 msgid "log scale error: 'xlim' <= 0"
-msgstr "error d'escala log: «xlim»  = 0"
+msgstr "error d'escala log: «xlim» = 0"
 
-#, fuzzy
 msgid "log scale error: 'ylim' <= 0"
-msgstr "error d'escala log: «ylim»  = 0"
+msgstr "error d'escala log: «ylim» = 0"
 
 #, fuzzy
 msgid "incorrect number of names"
