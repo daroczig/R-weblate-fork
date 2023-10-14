@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2023-09-12 16:19+0000\n"
+"PO-Revision-Date: 2023-10-14 06:41+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -274,8 +274,9 @@ msgstr ""
 msgid "Demo for topic %s' found more than once,\nusing the one found in %s"
 msgstr ""
 
+#, fuzzy
 msgid "invalid 'data' argument"
-msgstr ""
+msgstr "argument «data» no vàlid"
 
 msgid "invalid 'modes' argument"
 msgstr ""
@@ -553,8 +554,9 @@ msgstr ""
 msgid "Malformed package name."
 msgstr ""
 
+#, fuzzy
 msgid "cannot create directory '%s'"
-msgstr ""
+msgstr "no es pot crear el directori «%s»"
 
 msgid "'code_files' must be a character vector"
 msgstr ""
@@ -667,8 +669,9 @@ msgstr ""
 msgid "Do not know which element of 'lib' to install dependencies into\nskipping dependencies"
 msgstr ""
 
+#, fuzzy
 msgid "'%s' must be a character string"
-msgstr ""
+msgstr "«%s» ha de ser una cadena de caràcters"
 
 msgid "type 'binary' is not supported on this platform"
 msgstr ""
@@ -1132,8 +1135,10 @@ msgstr ""
 msgid "file %s is not a macOS binary package"
 msgstr ""
 
+#, fuzzy
 msgid "package %s successfully unpacked and MD5 sums checked"
 msgstr ""
+"el paquet %s s'ha desempaquetat correctament i s'han marcat les sumes MD5"
 
 msgid "ERROR: failed to lock directory %s for modifying\nTry removing %s"
 msgstr ""
