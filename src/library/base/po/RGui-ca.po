@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-08-17 03:05+0000\n"
+"PO-Revision-Date: 2023-10-14 06:41+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -863,8 +863,9 @@ msgstr "Cancel·lar"
 
 #: src/extra/graphapp/dialogs.c:725 src/extra/graphapp/dialogs.c:855
 #: src/library/utils/src/windows/widgets.c:126
+#, fuzzy
 msgid "OK"
-msgstr "D'acord"
+msgstr "D'ACORD"
 
 #: src/extra/graphapp/dialogs.c:847
 msgid "User"
