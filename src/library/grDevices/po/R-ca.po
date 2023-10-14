@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-14 06:55+0000\n"
+"PO-Revision-Date: 2023-10-15 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -16,17 +16,27 @@ msgstr ""
 msgid "invalid 'filename'"
 msgstr "'filename' és not vàlid"
 
+#, fuzzy
 msgid "svg: Cairo-based devices are not available for this platform"
 msgstr ""
+"SVG: Els dispositius basats en Cairo no estan disponibles per a aquesta "
+"plataforma"
 
+#, fuzzy
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
 msgstr ""
+"cairopdf: Els dispositius basats en el Caire no estan disponibles per a "
+"aquesta plataforma"
 
+#, fuzzy
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
 msgstr ""
+"Cairps: els dispositius basats en el Caire no estan disponibles per a "
+"aquesta plataforma"
 
+#, fuzzy
 msgid "'coef' must not be negative"
-msgstr ""
+msgstr "\"coef\" no ha de ser negatiu"
 
 #, fuzzy
 msgid "no 'z' matrix specified"
@@ -40,492 +50,656 @@ msgstr "s'esperava un increment dels valors «x» i «y»"
 msgid "no proper 'z' matrix specified"
 msgstr "no s'ha especificat cap matriu «z» adequada"
 
+#, fuzzy
 msgid "dimensions of 'x', 'y' and 'z' do not match"
-msgstr ""
+msgstr "les dimensions de «x», «y» i «z» no coincideixen"
 
+#, fuzzy
 msgid "finite coordinates are needed"
-msgstr ""
+msgstr "Es necessiten coordenades finites"
 
+#, fuzzy
 msgid "'bias' must be positive"
-msgstr ""
+msgstr "\"bias\" ha de ser positiu"
 
+#, fuzzy
 msgid "'alpha' must be false if 'space' is specified"
-msgstr ""
+msgstr "«alpha» ha de ser fals si s'especifica «space»"
 
+#, fuzzy
 msgid "at least 3 columns needed"
-msgstr ""
+msgstr "calen almenys 3 columnes"
 
+#, fuzzy
 msgid "rgb matrix must be numeric"
-msgstr ""
+msgstr "la matriu rgb ha de ser numèrica"
 
+#, fuzzy
 msgid "rgb matrix must have 3 rows"
-msgstr ""
+msgstr "la matriu rgb ha de tenir 3 files"
 
+#, fuzzy
 msgid "rgb values must be in [0, maxColorValue]"
-msgstr ""
+msgstr "els valors rgb han de ser a [0, maxColorValue]"
 
+#, fuzzy
 msgid "'start' and 'end' must be distinct and in [0, 1]."
-msgstr ""
+msgstr "«start» i «end» han de ser diferents i a [0, 1]."
 
+#, fuzzy
 msgid "'palette' does not match any given palette"
-msgstr ""
+msgstr "«palette» no coincideix amb cap paleta donada"
 
+#, fuzzy
 msgid "'palette' is ambiguous"
-msgstr ""
+msgstr "«palette» és ambigua"
 
+#, fuzzy
 msgid "'n' set to %s, the maximum available for %s palette"
-msgstr ""
+msgstr "«n» establert a %s, el màxim disponible per a la paleta %s"
 
+#, fuzzy
 msgid "'gamma' must be a scalar or 'sRGB'"
-msgstr ""
+msgstr "«gamma» ha de ser un escalar o «sRGB»"
 
+#, fuzzy
 msgid "Color space converter: %s"
-msgstr ""
+msgstr "Convertidor d'espais de color: %s"
 
+#, fuzzy
 msgid "Reference white: %s"
-msgstr ""
+msgstr "Referència blanca: %s"
 
+#, fuzzy
 msgid "display gamma = %s"
-msgstr ""
+msgstr "gamma de visualització = %s"
 
+#, fuzzy
 msgid "'from' must be a \"colorConverter\" object or a string"
-msgstr ""
+msgstr "«from» ha de ser un objecte «colorConverter» o una cadena"
 
+#, fuzzy
 msgid "'to' must be a \"colorConverter\" object or a string"
-msgstr ""
+msgstr "«to» ha de ser un objecte «colorConverter» o una cadena"
 
+#, fuzzy
 msgid "'from.ref.white' disagrees with definition of %s"
-msgstr ""
+msgstr "'from.ref.white' no està d'acord amb la definició de %s"
 
+#, fuzzy
 msgid "'to.ref.white' disagrees with definition of %s"
-msgstr ""
+msgstr "'to.ref.white' no està d'acord amb la definició de %s"
 
+#, fuzzy
 msgid "color spaces use different reference whites"
-msgstr ""
+msgstr "els espais de color utilitzen blancs de referència diferents"
 
+#, fuzzy
 msgid "'name' must be a character vector"
-msgstr ""
+msgstr "«name» ha de ser un vector de caràcters"
 
+#, fuzzy
 msgid "cannot shut down device 1 (the null device)"
-msgstr ""
+msgstr "no es pot aturar el dispositiu 1 (el dispositiu nul)"
 
+#, fuzzy
 msgid "cannot supply 'which' and 'device' at the same time"
-msgstr ""
+msgstr "no es pot subministrar 'quin' i 'dispositiu' alhora"
 
+#, fuzzy
 msgid "cannot copy from the null device"
-msgstr ""
+msgstr "no es pot copiar des del dispositiu nul"
 
+#, fuzzy
 msgid "cannot copy to the null device"
-msgstr ""
+msgstr "no es pot copiar al dispositiu nul"
 
+#, fuzzy
 msgid "cannot copy device to itself"
-msgstr ""
+msgstr "no es pot copiar el dispositiu a si mateix"
 
+#, fuzzy
 msgid "'device' should be a function"
-msgstr ""
+msgstr "«device» hauria de ser una funció"
 
+#, fuzzy
 msgid "no device to print from"
-msgstr ""
+msgstr "no hi ha cap dispositiu des d'on imprimir"
 
+#, fuzzy
 msgid "can only print from a screen device"
-msgstr ""
+msgstr "només es pot imprimir des d'un dispositiu de pantalla"
 
+#, fuzzy
 msgid "need to specify one of 'width' and 'height'"
-msgstr ""
+msgstr "cal especificar un de «amplada» i «alçada»"
 
+#, fuzzy
 msgid "dev.control() called without an open graphics device"
-msgstr ""
+msgstr "s'ha cridat dev.control() sense un dispositiu gràfic obert"
 
+#, fuzzy
 msgid "argument is missing with no default"
-msgstr ""
+msgstr "manca l'argument sense el valor predeterminat"
 
+#, fuzzy
 msgid "dev.displaylist() called without an open graphics device"
-msgstr ""
+msgstr "s'ha cridat dev.displaylist() sense un dispositiu gràfic obert"
 
+#, fuzzy
 msgid "invalid setting for 'getOption(\"device\")'"
-msgstr ""
+msgstr "paràmetre no vàlid per 'getOption(\"device\")'"
 
+#, fuzzy
 msgid "device '%s' not found"
-msgstr ""
+msgstr "no s'ha trobat el dispositiu «%s»"
 
+#, fuzzy
 msgid "no suitable unused file name for pdf()"
-msgstr ""
+msgstr "no hi ha un nom de fitxer no utilitzat adequat per a pdf()"
 
+#, fuzzy
 msgid "dev.new(): using pdf(file=\"%s\")"
-msgstr ""
+msgstr "dev.new(): s'usa pdf(file=\"%s\")"
 
+#, fuzzy
 msgid "no suitable unused file name for postscript()"
-msgstr ""
+msgstr "no hi ha un nom de fitxer no utilitzat adequat per a postscript()"
 
+#, fuzzy
 msgid "dev.new(): using postscript(file=\"%s\")"
-msgstr ""
+msgstr "dev.new(): s'usa postscript(fitxer=\"%s\")"
 
+#, fuzzy
 msgid "Invalid capabilities - alert the device maintainer"
-msgstr ""
+msgstr "Capacitats no vàlides - avisa el mantenidor del dispositiu"
 
+#, fuzzy
 msgid "Invalid span weight"
-msgstr ""
+msgstr "El pes de l'envergadura no és vàlid"
 
+#, fuzzy
 msgid "length of arguments must match (and be greater than 0)"
-msgstr ""
+msgstr "la longitud dels arguments ha de coincidir (i ser més gran que 0)"
 
+#, fuzzy
 msgid "Invalid glyph width(s)"
-msgstr ""
+msgstr "Amplada del glif no vàlida"
 
+#, fuzzy
 msgid "Invalid glyph width"
-msgstr ""
+msgstr "Amplada del glif no vàlida"
 
+#, fuzzy
 msgid "Unknown width; using left anchor"
-msgstr ""
+msgstr "Amplada desconeguda; s'usarà l'àncora esquerra"
 
+#, fuzzy
 msgid "Invalid glyph height(s)"
-msgstr ""
+msgstr "Alçada/es del glif no vàlida/es"
 
+#, fuzzy
 msgid "Invalid glyph height"
-msgstr ""
+msgstr "Alçada del glif no vàlida"
 
+#, fuzzy
 msgid "Unknown height; using bottom anchor"
-msgstr ""
+msgstr "Alçada desconeguda; s'usarà l'àncora inferior"
 
+#, fuzzy
 msgid "Invalid glyph anchor"
-msgstr ""
+msgstr "Àncora del glif no vàlida"
 
+#, fuzzy
 msgid "Font file longer than 500 will be truncated"
-msgstr ""
+msgstr "El fitxer de tipus de lletra més llarg de 500 serà truncat"
 
+#, fuzzy
 msgid "Font family longer than 200 will be truncated"
-msgstr ""
+msgstr "Es truncarà la família del tipus de lletra més llarga de 200"
 
+#, fuzzy
 msgid "PostScript font name longer than 200 will be truncated"
-msgstr ""
+msgstr "Es truncarà el nom del tipus de lletra PostScript més llarg de 200"
 
+#, fuzzy
 msgid "Font information is inconsistent"
-msgstr ""
+msgstr "La informació del tipus de lletra és inconsistent"
 
+#, fuzzy
 msgid "List must include at least one font"
-msgstr ""
+msgstr "La llista ha d'incloure almenys un tipus de lletra"
 
+#, fuzzy
 msgid "Invalid glyph font"
-msgstr ""
+msgstr "El tipus de lletra del glif no és vàlid"
 
+#, fuzzy
 msgid "Invalid font list"
-msgstr ""
+msgstr "Llista de tipus de lletra no vàlida"
 
+#, fuzzy
 msgid "Unknown font"
-msgstr ""
+msgstr "Tipus de lletra desconegut"
 
+#, fuzzy
 msgid "There must be anchors named \"left\" and \"bottom\""
-msgstr ""
+msgstr "Hi ha d'haver àncores anomenades \"esquerra\" i \"inferior\""
 
 #, fuzzy
 msgid "Invalid glyph info"
 msgstr "Informació del glif no vàlida"
 
+#, fuzzy
 msgid "Invalid compositing operator"
-msgstr ""
+msgstr "Operador de composició no vàlid"
 
+#, fuzzy
 msgid "wrong 'type'; should never happen, please report!"
-msgstr ""
+msgstr "\"tipus\" erroni; mai hauria de succeir, si us plau, informeu!"
 
+#, fuzzy
 msgid "Invalid mask type"
-msgstr ""
+msgstr "Tipus de màscara no vàlid"
 
+#, fuzzy
 msgid "Invalid fill rule"
-msgstr ""
+msgstr "Regla de farciment no vàlida"
 
+#, fuzzy
 msgid "Invalid pattern type"
-msgstr ""
+msgstr "Tipus de patró no vàlid"
 
+#, fuzzy
 msgid "Invalid 'extend' value"
-msgstr ""
+msgstr "Valor 'extendent' no vàlid"
 
+#, fuzzy
 msgid "invalid arguments in '%s' (need named args)"
-msgstr ""
+msgstr "arguments no vàlids a «%s» (es necessiten arguments amb nom)"
 
+#, fuzzy
 msgid "'name.opt' must be character, name of an existing list"
-msgstr ""
+msgstr "«name.opt» ha de ser un caràcter, un nom d'una llista existent"
 
+#, fuzzy
 msgid "cannot reset non-existent '%s'"
-msgstr ""
+msgstr "no es pot restablir «%s» inexistent"
 
+#, fuzzy
 msgid "invalid options in '%s'"
-msgstr ""
+msgstr "opcions no vàlides a «%s»"
 
+#, fuzzy
 msgid "NOT changing %s"
-msgstr ""
+msgstr "NO s'està canviant %s"
 
+#, fuzzy
 msgid "argument 'append' is for back-compatibility and will be ignored"
-msgstr ""
+msgstr "l'argument «append» és per a la compatibilitat inversa i s'ignorarà"
 
+#, fuzzy
 msgid "unknown family '%s'"
-msgstr ""
+msgstr "família desconeguda «%s»"
 
+#, fuzzy
 msgid "invalid 'family' argument"
-msgstr ""
+msgstr "argument «family» no vàlid"
 
+#, fuzzy
 msgid "'title' argument \"%s\" contains invalid characters"
-msgstr ""
+msgstr "l'argument «%s» «title» conté caràcters no vàlids"
 
+#, fuzzy
 msgid "invalid 'file' argument '%s'"
-msgstr ""
+msgstr "argument «%s» no vàlid de «file»"
 
+#, fuzzy
 msgid "invalid PDF version"
-msgstr ""
+msgstr "versió PDF no vàlida"
 
+#, fuzzy
 msgid "Invalid font type"
-msgstr ""
+msgstr "Tipus de lletra no vàlid"
 
+#, fuzzy
 msgid "invalid family name in font specification"
-msgstr ""
+msgstr "nom de família no vàlid en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "invalid metric information in font specification"
-msgstr ""
+msgstr "informació mètrica no vàlida en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "invalid encoding in font specification"
-msgstr ""
+msgstr "codificació no vàlida en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "Not a CID font"
-msgstr ""
+msgstr "No és un tipus de lletra CID"
 
+#, fuzzy
 msgid "invalid CMap name in font specification"
-msgstr ""
+msgstr "el nom CMap no és vàlid en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "invalid 'cmapEncoding' in font specification"
-msgstr ""
+msgstr "«cmapEncoding» no és vàlid en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "invalid PDF resource in font specification"
-msgstr ""
+msgstr "recurs PDF no vàlid en l'especificació del tipus de lletra"
 
+#, fuzzy
 msgid "Invalid font database name"
-msgstr ""
+msgstr "El nom de la base de dades de tipus de lletra no és vàlid"
 
+#, fuzzy
 msgid "font %s already in use"
-msgstr ""
+msgstr "el tipus de lletra %s ja està en ús"
 
+#, fuzzy
 msgid "invalid arguments in '%s' (must be font names)"
-msgstr ""
+msgstr "arguments no vàlids a «%s» (han de ser noms de tipus de lletra)"
 
+#, fuzzy
 msgid "unknown font"
-msgstr ""
+msgstr "tipus de lletra desconegut"
 
+#, fuzzy
 msgid "font encoding mismatch '%s'/'%s'"
-msgstr ""
+msgstr "la codificació del tipus de lletra no coincideix amb «%s»/«%s»"
 
 #, fuzzy
 msgid "'%s' must be a non-empty character string"
 msgstr "«%s» ha de ser una cadena de caràcters no buida"
 
+#, fuzzy
 msgid "GhostScript was not found"
-msgstr ""
+msgstr "No s'ha trobat GhostScript"
 
+#, fuzzy
 msgid "invalid output format"
-msgstr ""
+msgstr "el format de sortida no és vàlid"
 
+#, fuzzy
 msgid "status %d in running command '%s'"
-msgstr ""
+msgstr "estat %d a l'ordre en execució «%s»"
 
+#, fuzzy
 msgid "'file' must be a non-empty character string"
-msgstr ""
+msgstr "«file» ha de ser una cadena de caràcters no buida"
 
+#, fuzzy
 msgid "Invalid 'glyphInfo'"
-msgstr ""
+msgstr "«glyphInfo» no vàlid"
 
+#, fuzzy
 msgid "failed to add more ticks; 'min.n' too large?"
-msgstr ""
+msgstr "no s'han pogut afegir més marques; «min.n» és massa gran?"
 
+#, fuzzy
 msgid "a raster matrix must be character, or numeric, or logical"
-msgstr ""
+msgstr "una matriu ràster ha de ser un caràcter, o numèric, o lògic"
 
+#, fuzzy
 msgid "a raster array must be numeric"
-msgstr ""
+msgstr "una matriu ràster ha de ser numèrica"
 
+#, fuzzy
 msgid "a raster array must have exactly 3 dimensions"
-msgstr ""
+msgstr "una matriu ràster ha de tenir exactament 3 dimensions"
 
+#, fuzzy
 msgid "a raster array must have exactly 3 or 4 planes"
-msgstr ""
+msgstr "una matriu de ràster ha de tenir exactament 3 o 4 plans"
 
+#, fuzzy
 msgid "'drop' is always implicitly FALSE in '[.raster'"
-msgstr ""
+msgstr "«drop» sempre és implícitament fals a «[.raster»"
 
+#, fuzzy
 msgid "invalid raster subsetting"
-msgstr ""
+msgstr "el subajust raster no és vàlid"
 
+#, fuzzy
 msgid "invalid raster subassignment"
-msgstr ""
+msgstr "subassignació raster no vàlida"
 
+#, fuzzy
 msgid "operator not meaningful for raster objects"
-msgstr ""
+msgstr "l'operador no té sentit per als objectes ràster"
 
+#, fuzzy
 msgid "no current device to record from"
-msgstr ""
+msgstr "no hi ha cap dispositiu actual des d'on enregistrar"
 
+#, fuzzy
 msgid "argument is not of class %s"
-msgstr ""
+msgstr "l'argument no és de la classe %s"
 
+#, fuzzy
 msgid "invalid \"recordedplot\":"
-msgstr ""
+msgstr "«recordedplot» no vàlid:"
 
+#, fuzzy
 msgid "snapshot recorded in different R version (pre 3.3.0)"
-msgstr ""
+msgstr "instantània gravada en una versió R diferent (pre 3.3.0)"
 
+#, fuzzy
 msgid "snapshot recorded in different R version (%s)"
-msgstr ""
+msgstr "instantània gravada en una versió R diferent (%s)"
 
+#, fuzzy
 msgid "snapshot contains invalid graphics call"
-msgstr ""
+msgstr "la instantània conté una crida gràfica no vàlida"
 
+#, fuzzy
 msgid "'nbin' must be numeric of length 1 or 2"
-msgstr ""
+msgstr "«nbin» ha de ser numèric de longitud 1 o 2"
 
+#, fuzzy
 msgid "'bandwidth' must be numeric"
-msgstr ""
+msgstr "«bandwidth» ha de ser numèric"
 
+#, fuzzy
 msgid "'bandwidth' must be positive"
-msgstr ""
+msgstr "«bandwidth» ha de ser positiu"
 
+#, fuzzy
 msgid "Must have the ('Recommended') package \"KernSmooth\" installed"
-msgstr ""
+msgstr "Ha de tenir instal·lat el paquet «KernSmooth» (recomanat)"
 
+#, fuzzy
 msgid "'r' must be a \"range\", hence of length 2"
-msgstr ""
+msgstr "'r' ha de ser un \"interval\", per tant de longitud 2"
 
+#, fuzzy
 msgid "points cut off after point[%d]"
-msgstr ""
+msgstr "punts retallats després del punt[%d]"
 
 msgid "invalid first argument"
 msgstr "el primer paràmetre no és vàlid"
 
+#, fuzzy
 msgid "'x' is a list, but does not have components 'x' and 'y'"
-msgstr ""
+msgstr "«x» és una llista, però no té els components «x» i «y»"
 
+#, fuzzy
 msgid "'x' and 'y' lengths differ"
-msgstr ""
+msgstr "les longituds «x» i «y» difereixen"
 
+#, fuzzy
 msgid "invalid first argument [bad language object]"
-msgstr ""
+msgstr "el primer argument no és vàlid [objecte d'idioma incorrecte]"
 
+#, fuzzy
 msgid "at least 2 columns needed"
-msgstr ""
+msgstr "calen almenys 2 columnes"
 
+#, fuzzy
 msgid "'x' is a list, but does not have components 'x', 'y'  and 'z'"
-msgstr ""
+msgstr "«x» és una llista, però no té els components «x», «y» i «z»"
 
+#, fuzzy
 msgid "'x', 'y' and 'z' lengths differ"
-msgstr ""
+msgstr "les longituds «x», «y» i «z» difereixen"
 
+#, fuzzy
 msgid "'file' is missing with no default"
-msgstr ""
+msgstr "manca el «fitxer» sense el valor predeterminat"
 
+#, fuzzy
 msgid "unrecognized format of gs -help"
-msgstr ""
+msgstr "format no reconegut de gs -help"
 
+#, fuzzy
 msgid "device '%s' is not available"
-msgstr ""
+msgstr "el dispositiu «%s» no està disponible"
 
+#, fuzzy
 msgid "Available devices are:\n%s"
 msgstr ""
+"Els dispositius disponibles són:\n"
+"%s"
 
+#, fuzzy
 msgid "invalid width"
-msgstr ""
+msgstr "l'amplada no és vàlida"
 
+#, fuzzy
 msgid "invalid height"
-msgstr ""
+msgstr "l'alçada no és vàlida"
 
+#, fuzzy
 msgid "'res' must be specified unless 'units = \"px\"'"
-msgstr ""
+msgstr "«res» s'ha d'especificar llevat que «units = «px»"
 
+#, fuzzy
 msgid "'filename' must be a non-empty character string"
-msgstr ""
+msgstr "«filename» ha de ser una cadena de caràcters no buida"
 
+#, fuzzy
 msgid "type = \"quartz\" is unavailable. trying \"Xlib\""
-msgstr ""
+msgstr "type = \"quartz\" no està disponible. s'està provant «Xlib»"
 
+#, fuzzy
 msgid "type = \"cairo\" is unavailable. trying \"Xlib\""
-msgstr ""
+msgstr "type = \"cairo\" no està disponible. s'està provant «Xlib»"
 
+#, fuzzy
 msgid "type = \"cairo-png\" is unavailable. trying \"Xlib\""
-msgstr ""
+msgstr "type = \"cairo-png\" no està disponible. s'està provant «Xlib»"
 
 #, fuzzy
 msgid "invalid 'title'"
 msgstr "'title' no vàlid"
 
+#, fuzzy
 msgid "invalid 'file'"
-msgstr ""
+msgstr "'fitxer' no vàlid"
 
+#, fuzzy
 msgid "invalid Quartz font:  must be 4 strings"
-msgstr ""
+msgstr "el tipus de lletra Quartz no és vàlid: ha de tenir 4 cadenes"
 
+#, fuzzy
 msgid "invalid arguments in 'quartzFonts' (must be font names)"
 msgstr ""
+"arguments no vàlids a «quartzFonts» (han de ser noms de tipus de lletra)"
 
+#, fuzzy
 msgid "invalid arguments in 'quartzFonts' (need named args)"
-msgstr ""
+msgstr "arguments no vàlids a «quartzFonts» (es necessiten arguments amb nom)"
 
+#, fuzzy
 msgid "cairo-based types are not supported on this build - using \"Xlib\""
 msgstr ""
+"No s'admeten els tipus basats en cairo en aquesta construcció - s'utilitzarà "
+"«Xlib»"
 
+#, fuzzy
 msgid "unknown family for X11(type = \"XLib\")"
-msgstr ""
+msgstr "família desconeguda per a X11(tipus = \"XLib\")"
 
+#, fuzzy
 msgid "invalid X11 font specification:"
-msgstr ""
+msgstr "especificació de tipus de lletra X11 no vàlida:"
 
+#, fuzzy
 msgid "invalid arguments in 'X11Fonts' (must be font names)"
-msgstr ""
+msgstr "arguments no vàlids a «X11Fonts» (han de ser noms de tipus de lletra)"
 
+#, fuzzy
 msgid "invalid arguments in 'X11Fonts' (need named args)"
-msgstr ""
+msgstr "arguments no vàlids a «X11Fonts» (es necessiten arguments amb nom)"
 
+#, fuzzy
 msgid "no such device"
-msgstr ""
+msgstr "no existeix el dispositiu"
 
+#, fuzzy
 msgid "can only copy from 'X11(type=\"*cairo\")' devices"
-msgstr ""
+msgstr "només es pot copiar des dels dispositius «X11(type=\"*cairo\")»"
 
+#, fuzzy
 msgid "invalid value for 'rescale'"
-msgstr ""
+msgstr "valor no vàlid per a «rescale»"
 
+#, fuzzy
 msgid "Calls like '%s' are unsafe and should be replaced by '%s'"
-msgstr ""
+msgstr "Les crides com «%s» no són segures i s'haurien de substituir per «%s»"
 
+#, fuzzy
 msgid "can only bring windows devices to the front"
-msgstr ""
+msgstr "només pot portar dispositius de finestres al davant"
 
+#, fuzzy
 msgid "'type' not applicable to the R console"
-msgstr ""
+msgstr "«type» no és aplicable a la consola R"
 
+#, fuzzy
 msgid "can only manipulate windows devices"
-msgstr ""
+msgstr "només es poden manipular els dispositius de finestres"
 
+#, fuzzy
 msgid "can only copy from 'windows' devices"
-msgstr ""
+msgstr "només es pot copiar des dels dispositius «windows»"
 
+#, fuzzy
 msgid "subscript out of range"
-msgstr ""
+msgstr "el subíndex és fora de rang"
 
+#, fuzzy
 msgid "invalid Windows font:  must be a single font family name"
 msgstr ""
+"el tipus de lletra del Windows no és vàlid: ha de ser un nom de família de "
+"tipus de lletra únic"
 
+#, fuzzy
 msgid "invalid arguments in 'windowsFonts' (must be font names)"
 msgstr ""
+"arguments no vàlids a «windowsFonts» (han de ser noms de tipus de lletra)"
 
+#, fuzzy
 msgid "invalid arguments in 'windowsFonts' (need named args)"
-msgstr ""
+msgstr "arguments no vàlids a «windowsFonts» (es necessiten arguments amb nom)"
 
+#, fuzzy
 msgid "invalid argument name %s in '%s'"
 msgid_plural "invalid argument names %s in '%s'"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "el nom de l'argument %s a «%s» no és vàlid"
+msgstr[1] "els noms d'argument %s a «%s» no són vàlids"
 
+#, fuzzy
 msgid "differs between new and previous"
 msgid_plural "differ between new and previous"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "difereix entre el nou i l'anterior"
+msgstr[1] "difereix entre el nou i l'anterior"
 
+#, fuzzy
 msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d %s valor == 0 omès del gràfic logarítmic"
+msgstr[1] "%d %s valors == 0 omesos en el gràfic logarítmic"
 
