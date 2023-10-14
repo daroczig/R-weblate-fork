@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-09-15 00:19+0000\n"
+"PO-Revision-Date: 2023-10-14 06:41+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -95,8 +95,9 @@ msgid "'x' is NULL"
 msgstr ""
 
 #: cov.c:682 cov.c:688
+#, fuzzy
 msgid "incompatible dimensions"
-msgstr ""
+msgstr "dimensions incompatibles"
 
 #: cov.c:707 cov.c:748 cov.c:781
 msgid "no complete element pairs"
@@ -107,8 +108,9 @@ msgid "invalid 'use' (computational method)"
 msgstr ""
 
 #: cov.c:723
+#, fuzzy
 msgid "'x' is empty"
-msgstr ""
+msgstr "«x» és buit"
 
 #: cov.c:817
 msgid "the standard deviation is zero"
@@ -916,8 +918,9 @@ msgstr ""
 
 #: random.c:60 random.c:66 random.c:72 random.c:87 random.c:167 random.c:256
 #: random.c:394
+#, fuzzy
 msgid "invalid arguments"
-msgstr ""
+msgstr "arguments no vàlids"
 
 #: random.c:333
 msgid "NA in probability vector"
