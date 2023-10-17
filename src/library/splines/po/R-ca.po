@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2023-10-18 03:05+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -13,11 +13,9 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#, fuzzy
 msgid "must have at least 'ord' knots"
-msgstr "ha de tenir almenys nusos «ord»"
+msgstr "ha de tenir com a mínim «ord» nusos"
 
-#, fuzzy
 msgid "length of 'derivs' is larger than length of 'x'"
 msgstr "la longitud de «derivs» és més gran que la longitud de «x»"
 
