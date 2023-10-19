@@ -14,6 +14,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -27,6 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -469,7 +471,7 @@ msgstr "opção '%s' requer um argumento não vazio"
 #: src/gnuwin32/system.c:1299 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
-msgstr "ATENÇÃO: '-e %s' omitido na entrada por ser muito grande\n"
+msgstr "ATENÇÃO: '-e %s' omitido por entrada ser muito grande\n"
 
 #: src/gnuwin32/system.c:1303 src/unix/system.c:458
 #, c-format
@@ -490,7 +492,8 @@ msgstr "você deve especificar '--save', '--no-save' ou '--vanilla'"
 
 #: src/gnuwin32/system.c:1398
 msgid "impossible to create 'reader thread'; you must free some system resources"
-msgstr "impossível criar 'reader thread'; você deve liberar algum recurso do sistema"
+msgstr ""
+"impossível criar 'reader thread'; você deve liberar algum recurso do sistema"
 
 #: src/include/Errormsg.h:27
 msgid "subscript out of bounds"
@@ -512,7 +515,7 @@ msgstr "ALERTA: nenhum valor fornecido para --encoding"
 #: src/main/CommandLineArgs.c:201
 #, c-format
 msgid "WARNING: option '%s' no longer supported"
-msgstr "ATENÇÃO: opção '%s' não mais suportada"
+msgstr "ATENÇÃO: opção '%s' não é mais suportada"
 
 #: src/main/CommandLineArgs.c:212
 #, c-format
