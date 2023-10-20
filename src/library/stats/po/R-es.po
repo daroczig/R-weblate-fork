@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"PO-Revision-Date: 2023-10-20 15:12+0000\n"
 "Last-Translator: Jesica Formoso <jesica.formoso@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -69,7 +69,7 @@ msgid "the first value of the time series must not be missing"
 msgstr ""
 
 msgid "all parameters were fixed"
-msgstr ""
+msgstr "todos los parámetros se fijaron"
 
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
 msgstr ""
@@ -78,25 +78,27 @@ msgid "no factors in the fitted model"
 msgstr ""
 
 msgid "'which' specified no factors"
-msgstr ""
+msgstr "'which' no especificaba ningún factor"
 
 msgid "'which' specified some non-factors which will be dropped"
-msgstr ""
+msgstr "'which' especificó algunos no-factores que se eliminarán"
 
 msgid "'sampleT' and 'nser' must be integer"
 msgstr ""
 
 msgid "'lag.max' must be at least 0"
-msgstr ""
+msgstr "'lag.max' debe ser al menos 0"
 
 msgid "'lag.max' must be at least 1"
-msgstr ""
+msgstr "'lag.max' debe ser al menos 1"
 
+#, fuzzy
 msgid "NAs in 'x'"
-msgstr ""
+msgstr "NAs en 'x'"
 
+#, fuzzy
 msgid "x$lag must have at least 1 column"
-msgstr ""
+msgstr "x$lag debe tener al menos 1 columna"
 
 msgid "can use ci.type=\"ma\" only if first lag is 0"
 msgstr ""
@@ -105,7 +107,7 @@ msgid "Page [%d,%d]: i =%s; j =%s"
 msgstr ""
 
 msgid "univariate time series only"
-msgstr ""
+msgstr "solo series temporales univariantes"
 
 msgid "no terms in scope"
 msgstr ""
@@ -115,9 +117,12 @@ msgstr ""
 
 msgid "number of rows in use has changed: remove missing values?"
 msgstr ""
+"el número de filas en uso ha cambiado: ¿Eliminar los valores que faltan?"
 
 msgid "attempting model selection on an essentially perfect fit is nonsense"
 msgstr ""
+"no tiene sentido intentar seleccionar un modelo en un ajuste esencialmente "
+"perfecto"
 
 msgid "F test assumes quasi%s family"
 msgstr ""
