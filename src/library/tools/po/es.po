@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-20 14:35+0000\n"
-"Last-Translator: Jan Strappa <jansf@disroot.org>\n"
+"PO-Revision-Date: 2023-10-21 02:10+0000\n"
+"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -49,25 +49,26 @@ msgstr ""
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
-msgstr ""
+msgstr "'fmt' no es un vector de caracteres"
 
 #: getfmts.c:69
 msgid "'fmt' must be length 1"
-msgstr ""
+msgstr "El 'fmt' debe tener longitud igual a 1"
 
 #: getfmts.c:75
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr ""
+msgstr "La longitud de 'fmt' excede la longitud máxima de %d"
 
 #: getfmts.c:96
 #, c-format
 msgid "unrecognised format specification '%s'"
-msgstr ""
+msgstr "La especificación del formato de %s es irreconocible"
 
 #: getfmts.c:136
 msgid "at most one asterisk '*' is supported in each conversion specification"
 msgstr ""
+"Al menos, un asterisco es soportado en la especificación de cada conversión"
 
 #: gramLatex.c:2392 gramRd.c:3995
 #, c-format
