@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-10-20 14:35+0000\n"
+"PO-Revision-Date: 2023-10-20 15:12+0000\n"
 "Last-Translator: Jan Strappa <jansf@disroot.org>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -62,7 +62,6 @@ msgid "there is no pipe to the master process"
 msgstr "no existe pipe hacia el proceso master"
 
 #: fork.c:765
-#, fuzzy
 msgid "content to send must be RAW, use serialize() if needed"
 msgstr "el contenido a enviar debe ser RAW, use serialize() si es necesario"
 
@@ -86,34 +85,34 @@ msgstr "error de escritura"
 #: fork.c:895
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
-msgstr ""
+msgstr "no es posible esperar al proceso hijo %d porque no existe"
 
 #: fork.c:954 fork.c:1077
 #, c-format
 msgid "error '%s' in select"
-msgstr ""
+msgstr "error '%s' en select"
 
 #: fork.c:1167
 msgid "'mckill' failed"
-msgstr ""
+msgstr "'mckill' fallló"
 
 #: fork.c:1180
 msgid "'mcexit' can only be used in a child process"
-msgstr ""
+msgstr "'mcexit' solo se puede usar en un proceso hijo"
 
 #: fork.c:1212
 msgid "'mcexit' failed"
-msgstr ""
+msgstr "'mcexit' falló"
 
 #: fork.c:1241 fork.c:1250
 msgid "invalid CPU affinity specification"
-msgstr ""
+msgstr "especificación de afinidad de CPU no válida"
 
 #: fork.c:1261
 msgid "requested CPU set is too large for this system"
-msgstr ""
+msgstr "el conjunto de CPU solicitado es demasiado grande para este sistema"
 
 #: fork.c:1284
 msgid "retrieving CPU affinity set failed"
-msgstr ""
+msgstr "error al recuperar el conjunto de afinidad de CPU"
 
