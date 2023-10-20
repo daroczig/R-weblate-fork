@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2023-10-20 15:12+0000\n"
-"Last-Translator: Néstor Montaño <nestor.montano@gmail.com>\n"
+"Last-Translator: Jan Strappa <jansf@disroot.org>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -45,37 +45,38 @@ msgid "invalid length(x)"
 msgstr "Longitud no válida para x: length(x)"
 
 msgid "optimization difficulties: %s"
-msgstr ""
+msgstr "dificultades de optimización: %s"
 
 msgid "optimization failure"
-msgstr ""
+msgstr "fallo de optimización"
 
 msgid "time series has no or less than 2 periods"
-msgstr ""
+msgstr "la serie temporal no tiene periodos o tiene menos de 2 periodos"
 
 msgid "the series is entirely NA"
-msgstr ""
+msgstr "la serie está compuesta totalmente por NA"
 
 msgid "frequency must be a positive integer >= 2 for BSM"
-msgstr ""
+msgstr "la frecuencia debe ser un entero positivo >= 2 para BSM"
 
 msgid "only implemented for univariate time series"
-msgstr ""
+msgstr "solo implementado para series temporales univariadas"
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "'x' debe ser numérico"
 
 msgid "the first value of the time series must not be missing"
-msgstr ""
+msgstr "el primer valor de la serie temporal no puede estar ausente"
 
 msgid "all parameters were fixed"
 msgstr "todos los parámetros se fijaron"
 
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
 msgstr ""
+"posible problema de convergencia: 'optim' ha dado código = %d y mensaje %s"
 
 msgid "no factors in the fitted model"
-msgstr ""
+msgstr "no hay factores en el modelo ajustado"
 
 msgid "'which' specified no factors"
 msgstr "'which' no especificaba ningún factor"
