@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2023-10-20 15:27+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"Last-Translator: Jesica Formoso <jesica.formoso@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -126,19 +126,19 @@ msgstr ""
 "perfecto"
 
 msgid "F test assumes quasi%s family"
-msgstr ""
+msgstr "la prueba F asume que la familia es quasi%s"
 
 msgid "no 'add1' method implemented for \"mlm\" models"
-msgstr ""
+msgstr "no se implementó el método 'add1' para los modelos \"mlm”"
 
 msgid "scope is not a subset of term labels"
 msgstr ""
 
 msgid "no 'drop1' method for \"mlm\" models"
-msgstr ""
+msgstr "no hay método 'drop1' para los modelos \"mlm\""
 
 msgid "F test assumes 'quasi%s' family"
-msgstr ""
+msgstr "la prueba F asume que la familia es ‘quasi%s’"
 
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
 msgstr ""
