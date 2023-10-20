@@ -5,6 +5,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -352,7 +354,9 @@ msgid "invalid list argument: all variables should have the same length"
 msgstr "argumento de lista inválido: todas las variables deben tener la misma longitud"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr "El número de columnas del resultado, %d, no es un múltiplo de la longitud del vector %d del argumento %d"
+msgstr ""
+"El número de columnas del resultado, %d, no es un múltiplo de la longitud "
+"del vector %d del argumento %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 rows> (o 0- extensión row.names)"
@@ -462,15 +466,12 @@ msgstr "clase incorrecta"
 msgid "binary '+' is not defined for \"POSIXt\" objects"
 msgstr "el operador binario '+' no esta definido para objetos \"POSIXt\""
 
-#, fuzzy
 msgid "can only subtract from \"POSIXt\" objects"
 msgstr "solo se puede sustraer de objetos \"POSIXt\""
 
-#, fuzzy
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr "el unario \"-\" no está definido para objetos \"POSIXt\""
+msgstr "el operador unitario - no está definido para objetos \"POSIXt”"
 
-#, fuzzy
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 
@@ -487,7 +488,9 @@ msgid "'tzone' attributes are inconsistent"
 msgstr "los atributos 'tzone' son inconsistentes"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
-msgstr "as.character(td, ..) ya no obedece a un argumento de 'formato'; use format(td, ..) ?"
+msgstr ""
+"as.character(td, ..) ya no obedece a un argumento de 'formato'; use format("
+"td, ..) ?"
 
 msgid "'digits' must be numeric, integer valued"
 msgstr "'digits' debe ser numérico, con valores enteros"
@@ -2078,6 +2081,7 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
+
 
 
 
