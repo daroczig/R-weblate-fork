@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -481,11 +483,9 @@ msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 msgid "unary '%s' not defined for \"POSIXt\" objects"
 msgstr "el unario '%s' no está definido para objetos \"POSIXt\""
 
-#, fuzzy
 msgid "'%s' not defined for \"POSIXt\" objects"
 msgstr "'%s' no definido para objetos \"POSIXt\""
 
-#, fuzzy
 msgid "'tzone' attributes are inconsistent"
 msgstr "los atributos 'tzone' son inconsistentes"
 
@@ -497,14 +497,12 @@ msgstr ""
 msgid "'digits' must be numeric, integer valued"
 msgstr "'digits' debe ser numérico, con valores enteros"
 
-#, fuzzy
 msgid "'tim' is not character or numeric"
 msgstr "'tim' no es carácter ni numérico"
 
 msgid "need explicit units for numeric conversion"
 msgstr "necesita unidades explícitas para conversión numérica"
 
-#, fuzzy
 msgid "invalid units specified"
 msgstr "unidades especificadas inválidas"
 
@@ -515,26 +513,21 @@ msgstr "el unario '%s' no está definido para objetos \"difftime\""
 msgid "'%s' not defined for \"difftime\" objects"
 msgstr "'%s' no está definido para objetos \"difftime\""
 
-#, fuzzy
 msgid "both arguments of * cannot be \"difftime\" objects"
 msgstr "ambos argumentos de * no pueden ser objetos \"difftime\""
 
-#, fuzzy
 msgid "second argument of / cannot be a \"difftime\" object"
 msgstr "el segundo argumento de / no puede ser un objeto \"difftime\""
 
-#, fuzzy
 msgid "'from' must be a \"POSIXt\" object"
 msgstr "'from' debe ser un objeto \"POSIXt\""
 
-#, fuzzy
 msgid "'to' must be a \"POSIXt\" object"
 msgstr "'to' debe ser un objeto \"POSIXt\""
 
 msgid "component subscript must be a character string"
 msgstr "el subíndice del componente debe ser una cadena de caracteres"
 
-#, fuzzy
 msgid "no Olson database found"
 msgstr "base de datos Olson no encontrada"
 
