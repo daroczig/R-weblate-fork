@@ -9,6 +9,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -22,6 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -533,7 +535,6 @@ msgstr "el subíndice del componente debe ser una cadena de caracteres"
 msgid "no Olson database found"
 msgstr "base de datos Olson no encontrada"
 
-#, fuzzy
 msgid "'file' must be a character string or connection"
 msgstr "'file' debe ser una conexión o cadena de caracteres"
 
@@ -548,6 +549,7 @@ msgstr ""
 "Las líneas ofensivas deben empezar con:\n"
 "%s"
 
+#, fuzzy
 msgid ""
 "Invalid DCF format.\n"
 "Continuation lines must not start a record.\n"
@@ -556,7 +558,7 @@ msgid ""
 msgstr ""
 "Formato DCF inválido.\n"
 "Las líneas de continuación no deben iniciar un registro.\n"
-"Las líneas erróneas empiezan con:\n"
+"Líneas erróneas empiezan con:\n"
 "%s"
 
 msgid "failed to load the methods package for debugging by signature"
@@ -568,49 +570,39 @@ msgstr ""
 msgid "failed to load methods package for handling signature"
 msgstr ""
 
-#, fuzzy
 msgid "'x' must be a square matrix"
 msgstr "'x' debe ser una matriz cuadrada"
 
-#, fuzzy
 msgid "'determinant' not currently defined for complex matrices"
-msgstr "'determinante' no corrientemente definido para matrices complejas"
+msgstr "'determinant' no definido actualmente para matrices complejas"
 
-#, fuzzy
 msgid "'nrow' or 'ncol' cannot be specified when 'x' is a matrix"
 msgstr "'nrow' o 'ncol' no pueden ser especificados cuando 'x' es una matriz"
 
-#, fuzzy
 msgid "'x' is an array, but not one-dimensional."
-msgstr "'x' es un array, pero no uno unidimensional"
+msgstr "'x' es un array, pero no uno unidimensional."
 
 msgid "only matrix diagonals can be replaced"
 msgstr "solo se pueden reemplazar las diagonales de las matrices"
 
-#, fuzzy
 msgid "replacement diagonal has wrong length"
 msgstr "la diagonal de reemplazo tiene una longitud errónea"
 
-#, fuzzy
 msgid "MARGIN = %s is invalid for dim = %s"
 msgstr "MARGIN = %s es inválido para dim = %s"
 
-#, fuzzy
 msgid "must pass a package name, %s or %s object"
-msgstr "se debe brindar un nombre de paquete, %s u objeto %s"
+msgstr "se debe brindar un nombre de paquete, %s o un objeto %s"
 
-#, fuzzy
 msgid "No DLL currently loaded with name or path %s"
-msgstr "No existe DLL actualmente cargado con nombre o ruta %s"
+msgstr "No existe una DLL actualmente cargada con nombre o ruta %s"
 
-#, fuzzy
 msgid "multiple DLLs match '%s'. Using '%s'"
-msgstr "múltiples DDL coinciden con '%s'. Usando '%s'"
+msgstr "múltiples DLLs coinciden con '%s'. Usando '%s'"
 
-#, fuzzy
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
 msgstr ""
-"se debe especificar un DLL a través de un objeto %s. Ver getLoadedDLLs()"
+"se debe especificar una DLL a través de un objeto %s. Ver getLoadedDLLs()"
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
 msgstr ""
@@ -629,14 +621,12 @@ msgstr "matriz 0 x 0"
 msgid "invalid nrow(x)"
 msgstr "nrow(x) inválido"
 
-#, fuzzy
 msgid "invalid 'labels'; length %d should be 1 or %d"
 msgstr "'labels' inválidas; la longitud %d debe ser 1 o %d"
 
 msgid "number of levels differs"
 msgstr "los números de niveles difieren"
 
-#, fuzzy
 msgid "%s not meaningful for factors"
 msgstr "%s no es significativo para factores"
 
@@ -2078,6 +2068,7 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
+
 
 
 
