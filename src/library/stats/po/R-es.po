@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-21 02:10+0000\n"
-"Last-Translator: Silvana Pereyra <pereyra.s@gmail.com>\n"
+"PO-Revision-Date: 2023-10-21 03:05+0000\n"
+"Last-Translator: Natalia Labadie <nlabadie.fbioyf@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -984,7 +984,6 @@ msgstr ""
 msgid "wrong method"
 msgstr ""
 
-#, fuzzy
 msgid "'file' must be a character string or connection"
 msgstr "'file' debe ser una conexión o cadena de caracteres"
 
