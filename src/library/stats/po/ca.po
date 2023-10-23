@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-18 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr "approx(x,y, .., na.rm=FALSE): no es permeten els valors NA a x"
 
 #: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:33
 msgid "invalid argument type"
-msgstr "tipus de paràmetre no vàlid"
+msgstr "tipus d'argument no vàlid"
 
 #: arima.c:444 arima.c:530 pacf.c:324 pacf.c:363
 #, fuzzy
@@ -484,7 +484,7 @@ msgstr "resultat no vàlid de na.action"
 #: model.c:373 model.c:381 optim.c:221
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "paràmetre «%s» no vàlid"
+msgstr "l'argument «%s» no vàlid"
 
 #: model.c:398
 #, fuzzy
@@ -832,32 +832,32 @@ msgstr ""
 #: optimize.c:596
 #, fuzzy
 msgid "numeric parameter expected"
-msgstr "s'esperava un paràmetre numèric"
+msgstr "s'esperava un argument numèric"
 
 #: optimize.c:600
 #, fuzzy
 msgid "conflicting parameter lengths"
-msgstr "longituds de paràmetres conflictius"
+msgstr "longituds d'arguments conflictius"
 
 #: optimize.c:604
 #, fuzzy
 msgid "invalid parameter length"
-msgstr "la longitud del paràmetre no és vàlida"
+msgstr "la longitud de l'argument no és vàlida"
 
 #: optimize.c:614 optimize.c:621
 #, fuzzy
 msgid "missing value in parameter"
-msgstr "falta el valor al paràmetre"
+msgstr "falta el valor a l'argument"
 
 #: optimize.c:626
 #, fuzzy
 msgid "invalid parameter type"
-msgstr "tipus de paràmetre no vàlid"
+msgstr "tipus d'argument no vàlid"
 
 #: optimize.c:637
 #, fuzzy
 msgid "non-positive number of parameters in nlm"
-msgstr "nombre no positiu de paràmetres a nlm"
+msgstr "nombre no positiu d'arguments a nlm"
 
 #: optimize.c:639
 #, fuzzy
@@ -963,7 +963,7 @@ msgstr ""
 #: optimize.c:766 optimize.c:771
 #, fuzzy
 msgid "invalid NA value in parameter"
-msgstr "el valor NA del paràmetre no és vàlid"
+msgstr "el valor NA de l'argument no és vàlid"
 
 #: optimize.c:800
 #, fuzzy
