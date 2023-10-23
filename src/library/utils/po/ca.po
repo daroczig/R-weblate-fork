@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -27,7 +27,7 @@ msgstr ""
 #: windows/widgets.c:83 windows/widgets.c:88
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "paràmetre «%s» no vàlid"
+msgstr "l'argument «%s» no vàlid"
 
 #: io.c:350 io.c:841
 msgid "invalid quote symbol set"
@@ -48,7 +48,7 @@ msgstr "cadena entre cometes a la línia %d acabada per EOF (final de fitxer)"
 
 #: io.c:569
 msgid "the first argument must be of mode character"
-msgstr "el primer paràmetre ha de ser de mode caràcter"
+msgstr "el primer argument ha de ser de mode caràcter"
 
 #: io.c:599
 #, c-format
@@ -146,15 +146,15 @@ msgstr "«%s» conté valors no disponibles"
 
 #: utils.c:68
 msgid "argument 'class' must be a character string"
-msgstr "el paràmetre «class» ha de ser una cadena de caràcters"
+msgstr "l'argument «class» ha de ser una cadena de caràcters"
 
 #: utils.c:78
 msgid "argument 'x' must be a length-1 character vector"
-msgstr "el paràmetre «x» ha de ser un vector de caràcters de longitud 1"
+msgstr "l'argument «x» ha de ser un vector de caràcters de longitud 1"
 
 #: utils.c:81
 msgid "argument 'x' must be UTF-8 encoded (including ASCII)"
-msgstr "el paràmetre «x» ha de ser codificat en UTF-8 (inclòs ASCII)"
+msgstr "l'argument «x» ha de ser codificat en UTF-8 (inclòs ASCII)"
 
 #: utils.c:147
 msgid "'hostname' must be a character vector of length 1"
@@ -223,7 +223,7 @@ msgstr "versió de Windows no suportada"
 
 #: windows/util.c:291
 msgid "argument must be a character vector or a raw vector"
-msgstr "el paràmetre ha de ser un vector de caràcters o un vector RAW"
+msgstr "l'argument ha de ser un vector de caràcters o un vector RAW"
 
 #: windows/util.c:332
 msgid "unable to open the clipboard"
