@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -140,7 +140,7 @@ msgstr "els valors de color numèric han de ser == 0, trobats %d"
 
 #: colors.c:1498
 msgid "invalid argument type"
-msgstr "tipus de paràmetre no vàlid"
+msgstr "tipus d'argument no vàlid"
 
 #: colors.c:1509
 #, fuzzy
@@ -690,12 +690,12 @@ msgstr "no s'ha pogut trobar o carregar el tipus de lletra CID del PDF"
 #: devPS.c:10578 devPS.c:10582 devPS.c:10743 devPS.c:10747
 #, c-format, fuzzy
 msgid "invalid 'family' parameter in %s"
-msgstr "paràmetre 'family' no vàlid a %s"
+msgstr "argument 'family' no vàlid a %s"
 
 #: devPS.c:10600 devPS.c:10759
 #, c-format, fuzzy
 msgid "invalid 'fonts' parameter in %s"
-msgstr "paràmetre 'fonts' no vàlid a %s"
+msgstr "argument 'fonts' no vàlid a %s"
 
 #: devPS.c:10606 devPS.c:10769 devPS.c:10772 devWindows.c:3761
 #: devWindows.c:3765 devWindows.c:3773 devWindows.c:3784 devWindows.c:3790
@@ -1048,7 +1048,7 @@ msgstr "l'argument ha de tenir longitud positiva"
 
 #: devices.c:60
 msgid "invalid argument"
-msgstr "paràmetre no vàlid"
+msgstr "argument no vàlid"
 
 #: devices.c:89 devices.c:97 devices.c:105
 #, fuzzy
@@ -1086,7 +1086,7 @@ msgstr "no és un esquema compatible, no s'ha escrit cap dada d'imatge"
 #: cairo/cairoBM.c:639
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "paràmetre «%s» no vàlid"
+msgstr "l'argument «%s» no vàlid"
 
 #: cairo/cairoBM.c:193 cairo/cairoBM.c:362
 #, fuzzy
