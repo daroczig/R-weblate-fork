@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-15 08:19+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -56,9 +56,10 @@ msgid "plot region too large"
 msgstr "la regió del gràfic és massa gran"
 
 #: graphics.c:1946
-#, c-format, fuzzy
+#, c-format
 msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
-msgstr "eix no finit=%d límits [GScale(%g,%g,..); log=%s] -- corregit ara"
+msgstr ""
+"límits no finits de l'eix=%d  [GScale(%g,%g,..); log=%s] -- corregit ara"
 
 #: graphics.c:2023
 #, c-format
@@ -97,7 +98,7 @@ msgstr "par(\"bty\") = «%c» no vàlid; no s'ha dibuixat cap «box()»"
 
 #: graphics.c:3225
 msgid "invalid argument to GBox"
-msgstr "paràmetre no vàlid per a GBox"
+msgstr "argument no vàlid per a GBox"
 
 #: graphics.c:3432
 msgid "metric information not available for this device"
@@ -105,34 +106,34 @@ msgstr "la informació mètrica no està disponible per a aquest dispositiu"
 
 #: par-common.c:151
 msgid "graphical parameter 'family' has a maximum length of 200 bytes"
-msgstr "el paràmetre gràfic «family» té una longitud màxima de 200 bytes"
+msgstr "l'argument gràfic «family» té una longitud màxima de 200 bytes"
 
 #: par.c:159
 #, c-format
 msgid "invalid value specified for graphical parameter \"%s\""
-msgstr "s'ha especificat un valor no vàlid per al paràmetre gràfic «%s»"
+msgstr "s'ha especificat un valor no vàlid per a l'argument gràfic «%s»"
 
 #: par.c:166
 #, c-format
 msgid "graphical parameter \"%s\" has the wrong length"
-msgstr "el paràmetre gràfic «%s» té una longitud incorrecta"
+msgstr "l'argument gràfic «%s» té una longitud incorrecta"
 
 #: par.c:258 par.c:665
 #, c-format
 msgid "graphical parameter \"%s\" cannot be set"
-msgstr "no es pot establir el paràmetre gràfic «%s»"
+msgstr "no es pot establir l'argument gràfic «%s»"
 
 #: par.c:430
 msgid "parameter \"mfg\" has the wrong length"
-msgstr "el paràmetre «mfg» té una longitud incorrecta"
+msgstr "l'argument «mfg» té una longitud incorrecta"
 
 #: par.c:438
 msgid "parameter \"i\" in \"mfg\" is out of range"
-msgstr "el paràmetre «i» a «mfg» està fora de rang"
+msgstr "l'argument «i» a «mfg» està fora de rang"
 
 #: par.c:440
 msgid "parameter \"j\" in \"mfg\" is out of range"
-msgstr "el paràmetre «j» a «mfg» està fora de rang"
+msgstr "l'argument «j» a «mfg» està fora de rang"
 
 #: par.c:445
 msgid "value of 'nr' in \"mfg\" is wrong and will be ignored"
@@ -149,34 +150,34 @@ msgstr "cridant par(new=TRUE) sense cap gràfic"
 #: par.c:657 par.c:1059
 #, c-format
 msgid "graphical parameter \"%s\" is obsolete"
-msgstr "el paràmetre gràfic «%s» és obsolet"
+msgstr "l'argument gràfic «%s» és obsolet"
 
 #: par.c:661 par.c:1063
 #, c-format
 msgid "\"%s\" is not a graphical parameter"
-msgstr "«%s» no és un paràmetre gràfic"
+msgstr "«%s» no és un argument gràfic"
 
 #: par.c:1109
 #, c-format
 msgid "argument %d does not name a graphical parameter"
-msgstr "el paràmetre %d no anomena un paràmetre gràfic"
+msgstr "l'argument %d no anomena un paràmetre gràfic"
 
 #: par.c:1117
 msgid "invalid argument passed to par()"
-msgstr "s'ha passat un paràmetre no vàlid a par()"
+msgstr "s'ha passat un argument no vàlid a par()"
 
 #: par.c:1161
-#, c-format, fuzzy
+#, c-format
 msgid "too many rows in layout, limit %d"
 msgstr "hi ha massa files a la disposició, límit %d"
 
 #: par.c:1167
-#, c-format, fuzzy
+#, c-format
 msgid "too many columns in layout, limit %d"
 msgstr "hi ha massa columnes a la disposició, límit %d"
 
 #: par.c:1169
-#, c-format, fuzzy
+#, c-format
 msgid "too many cells in layout, limit %d"
 msgstr "hi ha massa cel·les a la disposició, límit %d"
 
@@ -217,16 +218,15 @@ msgstr "el valor «vfont» no és vàlid [typeface = %d, fontindex = %d]"
 
 #: plot.c:391
 msgid "invalid graphics parameter"
-msgstr "paràmetre gràfic no vàlid"
+msgstr "argument gràfic no vàlid"
 
 #: plot.c:470
 msgid "at least 3 arguments required"
-msgstr "es requereixen almenys 3 paràmetres"
+msgstr "es requereixen almenys 3 arguments"
 
 #: plot.c:484
-#, fuzzy
 msgid "\"log=\" specification must be character"
-msgstr "l'especificació «log=» ha de ser un caràcter"
+msgstr "l'especificació «log=» ha de ser de tipus caràcter"
 
 #: plot.c:497
 #, c-format
@@ -261,7 +261,7 @@ msgstr "tipus no vàlid per a les etiquetes dels eixos"
 #: plot.c:1984 plot.c:2079 plot.c:2155 plot.c:2433 plot.c:2607 plot.c:2823
 #: plot.c:3370 plot.c:3505 plot.c:3581 plot.c:3747 plot.c:4027 plot3d.c:1872
 msgid "too few arguments"
-msgstr "hi ha massa pocs paràmetres"
+msgstr "hi ha massa pocs arguments"
 
 #: plot.c:790
 #, c-format
@@ -317,19 +317,19 @@ msgstr "el tipus de diagrama «%c» no és vàlid"
 
 #: plot.c:1659
 msgid "invalid first argument"
-msgstr "el primer paràmetre no és vàlid"
+msgstr "el primer argument no és vàlid"
 
 #: plot.c:1666
 msgid "invalid second argument"
-msgstr "segon paràmetre no vàlid"
+msgstr "segon argument no vàlid"
 
 #: plot.c:1674
 msgid "invalid third argument"
-msgstr "tercer paràmetre no vàlid"
+msgstr "tercer argument no vàlid"
 
 #: plot.c:1682
 msgid "invalid fourth argument"
-msgstr "quart paràmetre no vàlid"
+msgstr "quart argument no vàlid"
 
 #: plot.c:1690
 msgid "cannot mix zero-length and non-zero-length coordinates"
@@ -371,7 +371,7 @@ msgstr "«a» i «b» han de ser finits"
 #: stem.c:215 stem.c:216
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "paràmetre «%s» no vàlid"
+msgstr "l'argument «%s» no vàlid"
 
 #: plot.c:3081 plot.c:3221
 #, c-format
@@ -385,11 +385,11 @@ msgstr "tipus de diagrama no vàlid"
 
 #: plot.c:3223
 msgid "incorrect argument type"
-msgstr "tipus de paràmetre incorrecte"
+msgstr "tipus d'argument incorrecte"
 
 #: plot.c:3235
 msgid "different argument lengths"
-msgstr "longituds de paràmetres diferents"
+msgstr "longituds d'arguments diferents"
 
 #: plot.c:3237
 msgid "more 'labels' than points"
@@ -401,7 +401,6 @@ msgid "warning: no point within %.2f inches\n"
 msgstr "avís: no hi ha cap punt dins de %.2f polzades\n"
 
 #: plot.c:3295
-#, fuzzy
 msgid "warning: nearest point already identified\n"
 msgstr "avís: el punt més proper ja s'ha identificat\n"
 
@@ -415,7 +414,7 @@ msgstr "l'entrada del dendrogram no és vàlida"
 
 #: plot.c:3729
 msgid "invalid symbol parameter vector"
-msgstr "el vector de paràmetres de símbol no és vàlid"
+msgstr "el vector d'arguments de símbol no és vàlid"
 
 #: plot.c:3752
 msgid "invalid symbol coordinates"
@@ -423,7 +422,7 @@ msgstr "coordenades de símbol no vàlides"
 
 #: plot.c:3760
 msgid "x/y/parameter length mismatch"
-msgstr "la longitud d'x/y/paràmetre no coincideix"
+msgstr "la longitud d'x/y/argument no coincideix"
 
 #: plot.c:3779
 #, fuzzy
@@ -432,7 +431,7 @@ msgstr "les dades dels cercles no són vàlides"
 
 #: plot.c:3781 plot.c:3802 plot.c:3827 plot.c:3857
 msgid "invalid symbol parameter"
-msgstr "paràmetre de símbol no vàlid"
+msgstr "argument de símbol no vàlid"
 
 #: plot.c:3800
 #, fuzzy
@@ -487,7 +486,7 @@ msgstr "tipus de símbol no vàlid"
 #: plot.c:4040 plot.c:4042 plot.c:4047 plot.c:4049
 #, c-format
 msgid "incorrect length for '%s' argument"
-msgstr "longitud incorrecta per a el paràmetre «%s»"
+msgstr "longitud incorrecta per a l'argument «%s»"
 
 #: plot3d.c:181 plot3d.c:1929
 msgid "insufficient 'x' or 'y' values"
@@ -515,7 +514,7 @@ msgstr "Orientació dels eixos no calculada"
 
 #: plot3d.c:1082
 msgid "too few parameters"
-msgstr "massa pocs paràmetres"
+msgstr "massa pocs arguments"
 
 #: plot3d.c:1112
 msgid "invalid 'x' limits"
@@ -543,7 +542,7 @@ msgstr "«zlab» ha de ser un vector de caràcters de longitud 1"
 
 #: plot3d.c:1161
 msgid "invalid viewing parameters"
-msgstr "paràmetres de visualització no vàlids"
+msgstr "arguments de visualització no vàlids"
 
 #: plot3d.c:1179 plot3d.c:1183
 #, c-format
