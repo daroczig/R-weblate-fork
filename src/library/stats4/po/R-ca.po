@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-10-18 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -19,30 +19,24 @@ msgstr "s'espera una llista amb noms"
 #, fuzzy
 msgid "some named values are not arguments to the supplied log-likelihood"
 msgstr ""
-"Alguns valors amb nom no són arguments per al log-likelihood proporcionat"
+"alguns valors amb nom no són arguments per al log-likelihood proporcionat"
 
-#, fuzzy
 msgid "Mismatch in length of start values"
 msgstr "No coincideix en la longitud dels valors inicials"
 
-#, fuzzy
 msgid "fixed values violate constraints"
-msgstr "els valors fixos violen les restriccions"
+msgstr "els valors fixats violen les restriccions"
 
-#, fuzzy
 msgid "start values do not satisfy constraints"
 msgstr "els valors inicials no satisfan les restriccions"
 
-#, fuzzy
 msgid "profiling has found a better solution, so original fit had not converged"
 msgstr ""
-"L'elaboració de perfils ha trobat una solució millor, de manera que l'ajust "
-"original no s'ha convergeixat"
+"el perfilador ha trobat una solució millor, de manera que l'ajust original "
+"no ha convergit"
 
-#, fuzzy
 msgid "levels truncated to positive values only"
-msgstr "nivells truncats només a valors positius"
+msgstr "nivells truncats únicament a valors positius"
 
-#, fuzzy
 msgid "extra arguments discarded"
-msgstr "arguments addicionals descartats"
+msgstr "els arguments addicionals s'han descartat"
