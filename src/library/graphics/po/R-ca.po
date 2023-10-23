@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -115,7 +115,7 @@ msgid "formula with cbind() must specify 1 categorical variable"
 msgstr "la fórmula amb cbind() ha d'especificar 1 variable categòrica"
 
 msgid "invalid first argument"
-msgstr "el primer paràmetre no és vàlid"
+msgstr "el primer argument no és vàlid"
 
 #, fuzzy
 msgid "'at' must have same length as 'z$n', i.e. %d"
