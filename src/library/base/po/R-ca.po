@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -35,7 +35,7 @@ msgid "See help(\"Deprecated\")"
 msgstr "Vegeu help(\"Deprecated\")"
 
 msgid "argument to 'La.svd' must be numeric or complex"
-msgstr "el paràmetre de «La.svd» ha de ser numèric o complex"
+msgstr "l'argument de «La.svd» ha de ser numèric o complex"
 
 msgid "infinite or missing values in 'x'"
 msgstr "valors infinits o no disponibles a «x»"
@@ -50,7 +50,7 @@ msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
 msgstr "«hexNumeric» i «digits17» són mútuament excloents"
 
 msgid "second argument must be a list"
-msgstr "el segon paràmetre ha de ser una llista"
+msgstr "el segon argument ha de ser una llista"
 
 msgid "'iconvlist' is not available on this system"
 msgstr "«iconvlist» no està disponible en aquest sistema"
@@ -119,7 +119,7 @@ msgid "file '%s' not found"
 msgstr "no s'ha trobat el fitxer «%s»"
 
 msgid "invalid 'name' argument"
-msgstr "paràmetre «name» no vàlid"
+msgstr "argument «name» no vàlid"
 
 msgid "package %s is required by %s, which may no longer work correctly"
 msgstr ""
@@ -163,7 +163,7 @@ msgid "can only splice vectors"
 msgstr "només es poden empalmar els vectors"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
-msgstr "el paràmetre LINPACK ha desaparegut des de R 3.1.0"
+msgstr "l'argument LINPACK ha desaparegut des de R 3.1.0"
 
 msgid "complex matrices not permitted at present"
 msgstr "les matrius complexes no són permeses actualment"
@@ -193,7 +193,7 @@ msgid "pushing duplicate `%s` handler on top of the stack"
 msgstr "s'està pujant el gestor «%s» duplicat a sobre de la pila"
 
 msgid "argument 'where' of length 0"
-msgstr "paràmetre «where» de longitud 0"
+msgstr "argument «where» de longitud 0"
 
 msgid "can only write character objects"
 msgstr "només es poden escriure objectes de caràcters"
@@ -211,7 +211,7 @@ msgid "can only truncate an open connection"
 msgstr "només es pot truncar una connexió oberta"
 
 msgid "invalid 'endian' argument"
-msgstr "paràmetre «endian» no vàlid"
+msgstr "argument «endian» no vàlid"
 
 msgid "can only write vector objects"
 msgstr "només es poden escriure objectes de tipus vector"
@@ -257,8 +257,8 @@ msgstr "«row.names» no és un vector de caràcters o enters de longitud %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr ""
-"els noms de les files als paràmetres de «data.frame» no coincideixen, "
-"element %d"
+"els noms de les files als arguments de «data.frame» no coincideixen, element "
+"%d"
 
 msgid "some row.names duplicated: %s --> row.names NOT used"
 msgstr "alguns «row.names» duplicats: %s --> «row.names» NO utilitzats"
@@ -270,7 +270,7 @@ msgid "duplicate row.names: %s"
 msgstr "«row.names» duplicats: %s"
 
 msgid "arguments imply differing number of rows: %s"
-msgstr "els paràmetres impliquen un nombre diferent de files: %s"
+msgstr "els arguments impliquen un nombre diferent de files: %s"
 
 msgid "'row.names' should specify one of the variables"
 msgstr "«row.names» hauria d'especificar una de les variables"
@@ -282,19 +282,19 @@ msgid "row names were found from a short variable and have been discarded"
 msgstr "S'han trobat noms de files d'una variable curta i s'han descartat"
 
 msgid "named arguments other than 'drop' are discouraged"
-msgstr "es desaconsellen els paràmetres amb nom excepte per «drop»"
+msgstr "es desaconsellen els arguments amb nom excepte per «drop»"
 
 msgid "'drop' argument will be ignored"
-msgstr "s'ignorarà el paràmetre «drop»"
+msgstr "s'ignorarà l'argument «drop»"
 
 msgid "undefined columns selected"
 msgstr "s'han seleccionat columnes no definides"
 
 msgid "named arguments other than 'exact' are discouraged"
-msgstr "es desaconsellen els paràmetres amb nom excepte per «exact»"
+msgstr "es desaconsellen els arguments amb nom excepte per «exact»"
 
 msgid "named arguments are discouraged"
-msgstr "no es recomanen els paràmetres amb nom"
+msgstr "no es recomanen els arguments amb nom"
 
 msgid "number of items to replace is not a multiple of replacement length"
 msgstr ""
@@ -340,17 +340,17 @@ msgid "names do not match previous names"
 msgstr "els noms no coincideixen amb els noms anteriors"
 
 msgid "numbers of columns of arguments do not match"
-msgstr "el nombre de columnes dels paràmetres no coincideix"
+msgstr "el nombre de columnes dels arguments no coincideix"
 
 msgid "invalid list argument: all variables should have the same length"
 msgstr ""
-"paràmetre de llista no vàlid: totes les variables haurien de tenir la "
-"mateixa longitud"
+"argument de llista no vàlid: totes les variables haurien de tenir la mateixa "
+"longitud"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
 msgstr ""
 "nombre de columnes del resultat, %d, no és un múltiple de la longitud del "
-"vector %d del paràmetre %d"
+"vector %d de l'argument %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 files> (o «row.names» de longitud 0)"
@@ -482,7 +482,7 @@ msgstr "Els atributs «tzone» són inconsistents"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
-"as.character(td, ..) ja no respon al paràmetre «format», useu «format(td, "
+"as.character(td, ..) ja no respon a l'argument «format», useu «format(td, "
 "..)» ?"
 
 msgid "'digits' must be numeric, integer valued"
@@ -504,10 +504,10 @@ msgid "'%s' not defined for \"difftime\" objects"
 msgstr "«%s» no està definit per als objectes «difftime»"
 
 msgid "both arguments of * cannot be \"difftime\" objects"
-msgstr "els dos paràmetres de * no poden ser objectes «difftime»"
+msgstr "els dos arguments de * no poden ser objectes «difftime»"
 
 msgid "second argument of / cannot be a \"difftime\" object"
-msgstr "el segon paràmetre de / no pot ser un objecte «difftime»"
+msgstr "el segon argument de / no pot ser un objecte «difftime»"
 
 msgid "'from' must be a \"POSIXt\" object"
 msgstr "«from» ha de ser un objecte «POSIXt»"
@@ -628,7 +628,7 @@ msgstr "«%s» no està definit per factors ordenats"
 
 msgid "'%s' is only meaningful for ordered factors if all arguments have the same level sets"
 msgstr ""
-"«%s» només té sentit per factors ordenats si tots els paràmetres tenen els "
+"«%s» només té sentit per factors ordenats si tots els arguments tenen els "
 "mateixos conjunts de nivells"
 
 msgid "no files to copy to"
@@ -668,10 +668,10 @@ msgid "no file found"
 msgstr "no s'ha trobat cap fitxer"
 
 msgid "invalid 'path' argument"
-msgstr "paràmetre «path» no vàlid"
+msgstr "argument «path» no vàlid"
 
 msgid "invalid 'time' argument"
-msgstr "paràmetre «time» no vàlid"
+msgstr "argument «time» no vàlid"
 
 msgid "'vec' must be sorted non-decreasingly and not contain NAs"
 msgstr "«vec» ha d'estar d'ordenat de forma no decreixent i no pot contenir NAs"
@@ -698,7 +698,7 @@ msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
 msgstr "«mode» ha de ser «double» («real»), «integer» o «character»"
 
 msgid "coercing argument to \"character\" for format=\"s\""
-msgstr "s'està forçant el paràmetre a «character» per a «format=\"s\"»"
+msgstr "s'està forçant l'argument a «character» per a «format=\"s\"»"
 
 msgid "'format' must be one of {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
 msgstr "«format» ha de ser un de {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
@@ -735,10 +735,10 @@ msgid "value for %s not found"
 msgstr "no s'ha trobat el valor per a %s"
 
 msgid "all arguments must be named"
-msgstr "cal posar el nom de tots els paràmetres"
+msgstr "cal posar el nom de tots els arguments"
 
 msgid "argument '%s' will be ignored"
-msgstr "s'ignorarà el paràmetre «%s»"
+msgstr "s'ignorarà l'argument «%s»"
 
 msgid "match distance components must be non-negative"
 msgstr "els components de la distància coincident han de ser no negatius"
@@ -938,7 +938,7 @@ msgid "input has been corrupted, with LF replaced by CR"
 msgstr "l'entrada s'ha corromput, amb LF substituït per CR"
 
 msgid "bad 'file' argument"
-msgstr "paràmetre «file» erroni"
+msgstr "argument «file» erroni"
 
 msgid "'file' must be specified"
 msgstr "s'ha d'especificar «file»"
@@ -956,7 +956,7 @@ msgid "'compress = \"%s\"' is invalid"
 msgstr "«compress = \"%s\"» no és vàlid"
 
 msgid "bad file argument"
-msgstr "paràmetre «file» incorrecte"
+msgstr "argument «file» incorrecte"
 
 msgid "can only save to a binary connection"
 msgstr "només es pot desar en una connexió binària"
@@ -975,16 +975,16 @@ msgstr ""
 "No s'ha trobat l'entorn especificat: s'usarà «.GlobalEnv» com a alternativa"
 
 msgid "invalid 'category' argument"
-msgstr "paràmetre «category» no vàlid"
+msgstr "argument «category» no vàlid"
 
 msgid "must specify names of formal arguments for 'vectorize'"
-msgstr "s'han d'especificar els noms dels paràmetres formals per a «vectorize»"
+msgstr "s'han d'especificar els noms dels arguments formals per a «vectorize»"
 
 msgid "FUN"
 msgstr "FUN"
 
 msgid "may not have argument(s) named"
-msgstr "no pot haver-hi paràmetre/s anomenat/s"
+msgstr "no pot haver-hi argument/s anomenat/s"
 
 msgid "'arg' must be NULL or a character vector"
 msgstr "«arg» ha de ser NULL o un vector de caràcters"
@@ -1024,7 +1024,7 @@ msgstr ""
 "s'ha intentat establir «colnames» a un objecte amb menys de dues dimensions"
 
 msgid "argument is not numeric or logical: returning NA"
-msgstr "el paràmetre no és «numeric» ni «logical»: es retorna NA"
+msgstr "l'argument no és «numeric» ni «logical»: es retorna NA"
 
 msgid "'trim' must be numeric of length one"
 msgstr "«trim» ha de ser numèric de longitud u"
@@ -1052,7 +1052,7 @@ msgstr ""
 "«incomparables» només és compatible amb la fusió a partir d'una sola columna"
 
 msgid "additional arguments ignored in message()"
-msgstr "paràmetres addicionals ignorats a «message()»"
+msgstr "arguments addicionals ignorats a «message()»"
 
 msgid "tracing functions requires the 'methods' package, but unable to load the 'methods' namespace"
 msgstr ""
@@ -1316,7 +1316,7 @@ msgid "'%s' is not implemented yet"
 msgstr "«%s» encara no està implementat"
 
 msgid "argument '%s' is not used (yet)"
-msgstr "el paràmetre «%s» no s'utilitza (encara)"
+msgstr "l'argument «%s» no s'utilitza (encara)"
 
 msgid "'x' cannot be coerced to class \"octmode\""
 msgstr "«x» no es pot forçar a la classe «octmode»"
@@ -1328,10 +1328,10 @@ msgid "using ... with FUN = \"*\" is an error"
 msgstr "usar ... amb FUN = \"*\" és un error"
 
 msgid "no arguments"
-msgstr "sense paràmetres"
+msgstr "sense arguments"
 
 msgid "an argument will be fractionally recycled"
-msgstr "un paràmetre es reciclarà fraccionadament"
+msgstr "un argument es reciclarà fraccionadament"
 
 msgid "invalid ncol(x)"
 msgstr "ncol(x) no vàlid"
@@ -1340,7 +1340,7 @@ msgid "too large a matrix for LINPACK"
 msgstr "la matriu és massa gran per a LINPACK"
 
 msgid "first argument must be a QR decomposition"
-msgstr "el primer paràmetre ha de ser una descomposició QR"
+msgstr "el primer argument ha de ser una descomposició QR"
 
 msgid "invalid nrow(qr$qr)"
 msgstr "nrow(qr$qr) no vàlid"
@@ -1361,7 +1361,7 @@ msgid "exact singularity in 'qr.coef'"
 msgstr "singularitat exacta a «qr.coef»"
 
 msgid "argument is not a QR decomposition"
-msgstr "el paràmetre no és una descomposició QR"
+msgstr "l'argument no és una descomposició QR"
 
 msgid "invalid NCOL(y)"
 msgstr "NCOL(y) no vàlid"
@@ -1412,10 +1412,10 @@ msgid "'from' must be a finite number"
 msgstr "«from» ha de ser un nombre finit"
 
 msgid "argument 'length.out' must be of length 1"
-msgstr "el paràmetre «length.out» ha de ser de longitud 1"
+msgstr "l'argument «length.out» ha de ser de longitud 1"
 
 msgid "first element used of 'length.out' argument"
-msgstr "primer element utilitzat del paràmetre «length.out»"
+msgstr "primer element utilitzat de l'argument «length.out»"
 
 msgid "'to' must be a finite number"
 msgstr "'to' ha de ser un nombre finit"
@@ -1424,19 +1424,19 @@ msgid "invalid '(to - from)/by'"
 msgstr "«(to - from)/by» no és vàlid"
 
 msgid "wrong sign in 'by' argument"
-msgstr "signe incorrecte al paràmetre «by»"
+msgstr "signe incorrecte a l'argument «by»"
 
 msgid "'by' argument is much too small"
-msgstr "el paràmetre «by» és massa petit"
+msgstr "l'argument «by» és massa petit"
 
 msgid "'length.out' must be a non-negative number"
 msgstr "«length.out» ha de ser un nombre no negatiu"
 
 msgid "too many arguments"
-msgstr "massa paràmetres"
+msgstr "massa arguments"
 
 msgid "invalid 'compress' argument:"
-msgstr "el paràmetre «compress» no és vàlid:"
+msgstr "l'argument «compress» no és vàlid:"
 
 msgid "'compress' is ignored unless 'file' is a file name"
 msgstr "s'ignora «compress» a no ser que «file» sigui un nom de fitxer"
@@ -1495,7 +1495,7 @@ msgid "'decreasing' of length > 1 is only for method = \"radix\""
 msgstr "«decreasing» de longitud > 1 és només per al mètode = \"radix\""
 
 msgid "argument lengths differ"
-msgstr "les longituds dels paràmetres difereixen"
+msgstr "les longituds dels arguments difereixen"
 
 msgid "method = \"quick\" is only for numeric 'x'"
 msgstr "«method = \"quick\"» només és per «x» numèriques"
@@ -1561,7 +1561,7 @@ msgid "'x' and 'to' must refer to same file"
 msgstr "«x» i «to» han de referir-se al mateix fitxer"
 
 msgid "additional arguments ignored in stop()"
-msgstr "s'han ignorat els paràmetres addicionals a «stop()»"
+msgstr "s'han ignorat els arguments addicionals a «stop()»"
 
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
 msgstr "Només un dels «exprs», «exprObject» o expressions, no més"
@@ -1572,7 +1572,7 @@ msgstr ""
 "  %s"
 
 msgid "additional arguments ignored in warning()"
-msgstr "s'han ignorat els paràmetres addicionals a «warning()»"
+msgstr "s'han ignorat els arguments addicionals a «warning()»"
 
 msgid "no natural language support or missing translations"
 msgstr ""
@@ -1617,7 +1617,7 @@ msgid "nothing to tabulate"
 msgstr "no hi ha res a tabular"
 
 msgid "all arguments must have the same length"
-msgstr "tots els paràmetres han de tenir la mateixa longitud"
+msgstr "tots els arguments han de tenir la mateixa longitud"
 
 msgid "attempt to make a table with >= 2^31 elements"
 msgstr "s'ha intentat crear una taula amb >= 2^31 elements"
@@ -1647,7 +1647,7 @@ msgid "'INDEX' is of length zero"
 msgstr "«INDEX» té longitud zero"
 
 msgid "arguments must have same length"
-msgstr "els paràmetres han de tenir la mateixa longitud"
+msgstr "els arguments han de tenir la mateixa longitud"
 
 msgid "total number of levels >= 2^31"
 msgstr "nombre total de nivells >= 2^31"
@@ -1662,7 +1662,7 @@ msgid "no such element '%s'"
 msgstr "no existeix l'element «%s»"
 
 msgid "invalid 'which' argument"
-msgstr "paràmetre «which» no vàlid"
+msgstr "argument «which» no vàlid"
 
 msgid "'which' must be character or numeric"
 msgstr "«which» ha de ser caràcters o un nombre"
@@ -1731,7 +1731,7 @@ msgstr ""
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr ""
-"els paràmetres «show.output.on.console», «minimized» i «invisible» només són "
+"els arguments «show.output.on.console», «minimized» i «invisible» només són "
 "per Window$"
 
 msgid "'intern' must be TRUE or FALSE"
@@ -1753,7 +1753,7 @@ msgid "'input' must be a character vector or 'NULL'"
 msgstr "«input» ha de ser un vector de caràcters o «NULL»"
 
 msgid "arguments 'minimized' and 'invisible' are for Windows only"
-msgstr "els paràmetres «minimized» i «invisible» només són per a Windows"
+msgstr "els arguments «minimized» i «invisible» només són per a Windows"
 
 msgid "setting stdout = TRUE"
 msgstr "s'està establint stdout = TRUE"
@@ -1971,8 +1971,7 @@ msgid "In %s :\n extra argument %s will be disregarded"
 msgid_plural "In %s :\n extra arguments %s will be disregarded"
 msgstr[0] ""
 "A %s :\n"
-" s'ignorarà el paràmetre addicional %s"
+" s'ignorarà l'argument addicional %sA %s :\n"
+" s'ignoraran els arguments addicionals %s"
 msgstr[1] ""
-"A %s :\n"
-" s'ignoraran els paràmetres addicionals %s"
 
