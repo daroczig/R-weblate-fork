@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-18 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -16,39 +16,30 @@ msgstr ""
 msgid "Checking %s"
 msgstr "Comprovant %s"
 
-#, fuzzy
 msgid "Processing %s ..."
 msgstr "S'està processant %s ..."
 
-#, fuzzy
 msgid "argument 'package' must be of length 1"
 msgstr "l'argument «package» ha de ser de longitud 1"
 
-#, fuzzy
 msgid "you must specify 'package' or 'dir'"
 msgstr "heu d'especificar «package» o «dir»"
 
-#, fuzzy
 msgid "directory '%s' does not exist"
 msgstr "el directori «%s» no existeix"
 
-#, fuzzy
 msgid "neither code nor data objects found"
 msgstr "no s'han trobat objectes de codi ni de dades"
 
-#, fuzzy
 msgid "Undocumented code objects:"
 msgstr "Objectes de codi no documentats:"
 
-#, fuzzy
 msgid "Undocumented data sets:"
 msgstr "Conjunts de dades no documentats:"
 
-#, fuzzy
 msgid "Undocumented S4 classes:"
 msgstr "Classes S4 no documentades:"
 
-#, fuzzy
 msgid "Undocumented S4 methods:"
 msgstr "Mètodes S4 no documentats:"
 
@@ -56,54 +47,42 @@ msgstr "Mètodes S4 no documentats:"
 msgid "Prototyped non-primitives:"
 msgstr "Prototips no-primitius:"
 
-#, fuzzy
 msgid "Undocumented %s:"
 msgstr "%s no documentat:"
 
-#, fuzzy
 msgid "directory '%s' does not contain R code"
-msgstr "el directori «%s» no conté codi R"
+msgstr "el directori «%s» no conté codi d'R"
 
-#, fuzzy
 msgid "directory '%s' does not contain Rd objects"
 msgstr "el directori «%s» no conté objectes Rd"
 
-#, fuzzy
 msgid "Functions or methods with usage in documentation object '%s' but not in code:"
 msgstr ""
 "Funcions o mètodes amb ús a l'objecte de documentació «%s» però no al codi:"
 
-#, fuzzy
 msgid "Data with usage in documentation object '%s' but not in code:"
 msgstr "Dades amb ús a l'objecte de documentació «%s» però no al codi:"
 
-#, fuzzy
 msgid "Variables with usage in documentation object '%s' but not in code:"
 msgstr "Variables amb ús a l'objecte de documentació «%s» però no al codi:"
 
-#, fuzzy
 msgid "Argument names in code not in docs:"
-msgstr "Noms dels arguments en el codi no en la documentació:"
+msgstr "Noms dels arguments en el codi que no estan en la documentació:"
 
-#, fuzzy
 msgid "Argument names in docs not in code:"
-msgstr "Noms dels arguments en documents que no estan en el codi:"
+msgstr "Noms dels arguments en la documentació que no estan en el codi:"
 
-#, fuzzy
 msgid "Mismatches in argument names (first 3):"
-msgstr "No coincideix amb els noms dels arguments (primer 3):"
+msgstr "Els noms dels arguments no coincideixen (3 primers):"
 
-#, fuzzy
 msgid "Mismatches in argument names:"
-msgstr "No coincideix amb els noms dels arguments:"
+msgstr "Els noms dels arguments no coincideixen:"
 
-#, fuzzy
 msgid "Mismatches in argument default values (first 3):"
-msgstr "No coincideix amb els valors predeterminats dels arguments (primer 3):"
+msgstr "Els valors predeterminats dels arguments no coincideixen (3 primers):"
 
-#, fuzzy
 msgid "Mismatches in argument default values:"
-msgstr "No coincideix amb els valors predeterminats dels arguments:"
+msgstr "Els valors predeterminats dels arguments no coincideixen:"
 
 #, fuzzy
 msgid "Codoc mismatches from documentation object '%s':"
@@ -405,7 +384,7 @@ msgstr "Indicadors no portables al fitxer «%s»:"
 
 #, fuzzy
 msgid "Variables overriding user/site settings:"
-msgstr "Variables que substitueixen els paràmetres de l'usuari/lloc:"
+msgstr "Variables que substitueixen els arguments de l'usuari/lloc:"
 
 #, fuzzy
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
