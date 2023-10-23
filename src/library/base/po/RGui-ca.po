@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-10-15 03:05+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -912,7 +912,7 @@ msgstr "No s'ha pogut iniciar el treball d'impressió"
 #: src/library/utils/src/windows/dataentry.c:1856
 #: src/library/utils/src/windows/dataentry.c:1887
 msgid "invalid argument"
-msgstr "paràmetre no vàlid"
+msgstr "argument no vàlid"
 
 #: src/library/utils/src/windows/dataentry.c:272
 msgid "invalid type for value"
