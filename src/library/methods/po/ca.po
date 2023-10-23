@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-09-12 16:19+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -111,8 +111,8 @@ msgid ""
 "invalid symbol in checking for missing argument in method dispatch: expected "
 "a name, got an object of class \"%s\""
 msgstr ""
-"símbol no vàlid a la comprovació de paràmetres no disponibles en despatxar "
-"el mètode: s'esperava un nom, s'ha trobat un objecte de la classe «%s»"
+"símbol no vàlid a la comprovació d'arguments no disponibles en despatxar el "
+"mètode: s'esperava un nom, s'ha trobat un objecte de la classe «%s»"
 
 #: methods_list_dispatch.c:616
 msgid "use of NULL environment is defunct"
@@ -124,7 +124,7 @@ msgid ""
 "invalid environment in checking for missing argument, '%s', in methods "
 "dispatch: got an object of class \"%s\""
 msgstr ""
-"entorn no vàlid en comprovar paràmetres no disponibles, «%s», en "
+"entorn no vàlid en comprovar arguments no disponibles, «%s», en "
 "despatxarmètodes: s'ha trobat un objecte de classe «%s»"
 
 #: methods_list_dispatch.c:643
@@ -133,7 +133,7 @@ msgid ""
 "error in evaluating the argument '%s' in selecting a method for function "
 "'%s': %s"
 msgstr ""
-"error en avaluar el paràmetre «%s» en seleccionar un mètode per a la funció "
+"error en avaluar l'argument «%s» en seleccionar un mètode per a la funció "
 "«%s»: %s"
 
 #: methods_list_dispatch.c:660
@@ -160,15 +160,14 @@ msgid ""
 "(in selecting a method for function '%s') the 'environment' argument for "
 "dispatch must be an R environment; got an object of class \"%s\""
 msgstr ""
-"(en seleccionar un mètode per a la funció «%s») el paràmetre «environment» "
-"per a despatxar ha de ser un entorn d'R; s'ha trobat un objecte la classe "
-"«%s»"
+"(en seleccionar un mètode per a la funció «%s») l'argument «environment» per "
+"a despatxar ha de ser un entorn d'R; s'ha trobat un objecte la classe «%s»"
 
 #: methods_list_dispatch.c:705
 #, c-format
 msgid "no matching method for function '%s' (argument '%s', with class \"%s\")"
 msgstr ""
-"no hi ha cap mètode coincident per a la funció «%s» (paràmetre «%s», amb "
+"no hi ha cap mètode coincident per a la funció «%s» (argument «%s», amb "
 "classe «%s»)"
 
 #: methods_list_dispatch.c:712
