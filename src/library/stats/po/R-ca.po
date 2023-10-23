@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-14 06:41+0000\n"
+"PO-Revision-Date: 2023-10-24 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -72,7 +72,7 @@ msgstr "no s'ha de perdre el primer valor de la sèrie de temps"
 
 #, fuzzy
 msgid "all parameters were fixed"
-msgstr "s'han corregit tots els paràmetres"
+msgstr "s'han corregit tots els arguments"
 
 #, fuzzy
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
@@ -191,7 +191,7 @@ msgid "'by' must be a list"
 msgstr "«by» ha de ser una llista"
 
 msgid "arguments must have same length"
-msgstr "els paràmetres han de tenir la mateixa longitud"
+msgstr "els arguments han de tenir la mateixa longitud"
 
 #, fuzzy
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
@@ -355,13 +355,11 @@ msgstr "«approx» requereix n == 1"
 msgid "NAs in 'x' must be the same row-wise"
 msgstr "Les SD en «x» han de ser les mateixes files"
 
-#, fuzzy
 msgid "'order.max' must be >= 1"
-msgstr "'order.max' ha de ser  be= 1"
+msgstr "«order.max» ha de ser >= 1"
 
-#, fuzzy
 msgid "'order.max' must be < 'n.obs'"
-msgstr "'order.max' ha de ser  be 'n.obs'"
+msgstr "«order.max» ha de ser < «n.obs»"
 
 #, fuzzy
 msgid "zero-variance series"
@@ -383,13 +381,11 @@ msgstr "'se.fit' encara no està implementat per a models multivariants"
 msgid "MLE only implemented for univariate series"
 msgstr "MLE només està implementat per a sèries univariants"
 
-#, fuzzy
 msgid "'order.max' must be >= 0"
-msgstr "'order.max' ha de ser  be= 0"
+msgstr "«order.max» ha de ser >= 0"
 
-#, fuzzy
 msgid "'order.max' must be < 'n.used'"
-msgstr "'order.max' ha de ser  be 'n.used'"
+msgstr "«order.max» ha de ser < «n.used»"
 
 #, fuzzy
 msgid "'order' must be a non-negative numeric vector of length 3"
@@ -413,7 +409,7 @@ msgstr "longitud incorrecta per a «fixed»"
 
 #, fuzzy
 msgid "some AR parameters were fixed: setting transform.pars = FALSE"
-msgstr "s'han corregit alguns paràmetres AR: s'estableix transform.pars = FALS"
+msgstr "s'han corregit alguns arguments AR: s'estableix transform.pars = FALS"
 
 #, fuzzy
 msgid "too few non-missing observations"
@@ -470,7 +466,7 @@ msgstr "s'estan convertint els valors inicials MA no invertibles"
 #, fuzzy
 msgid "some ARMA parameters were fixed: setting transform.pars = FALSE"
 msgstr ""
-"s'han corregit alguns paràmetres de ARMA: s'estableix transform.pars = FALS"
+"s'han corregit alguns arguments de ARMA: s'estableix transform.pars = FALS"
 
 #, fuzzy
 msgid "'xreg' is collinear"
@@ -482,7 +478,7 @@ msgstr "NA presents: s'està establint «delta» a -1"
 
 #, fuzzy
 msgid "transformed ARMA parameters were fixed"
-msgstr "s'han corregit els paràmetres de l'ARMA transformats"
+msgstr "s'han corregit els arguments de l'ARMA transformats"
 
 #, fuzzy
 msgid "need at least 2 data points"
@@ -1110,9 +1106,8 @@ msgstr "no es permeten valors negatius per a la família «quasiPoisson»"
 msgid "cannot find valid starting values: please specify some"
 msgstr "no s'han pogut trobar valors d'inici vàlids: especifiqueu-ne alguns"
 
-#, fuzzy
 msgid "y values must be 0 <= y <= 1"
-msgstr "els valors de y han de ser 0 == y  = 1"
+msgstr "els valors de y han de ser 0 <= y <= 1"
 
 #, fuzzy
 msgid "non-integer #successes in a %s glm!"
@@ -1138,7 +1133,7 @@ msgstr "no es permeten valors no positius per a la família «Gamma»"
 
 #, fuzzy
 msgid "using weights as shape parameters"
-msgstr "utilitzar pesos com a paràmetres de forma"
+msgstr "utilitzar pesos com a arguments de forma"
 
 #, fuzzy
 msgid "positive values only are allowed for the 'inverse.gaussian' family"
@@ -1321,11 +1316,10 @@ msgstr "avall"
 msgid "up"
 msgstr "amunt"
 
-#, fuzzy
 msgid "profiling has found a better solution, so original fit had not converged"
 msgstr ""
-"L'elaboració de perfils ha trobat una solució millor, de manera que l'ajust "
-"original no s'ha convergeixat"
+"el perfilador ha trobat una solució millor, de manera que l'ajust original "
+"no ha convergit"
 
 #, fuzzy
 msgid "'family' not recognized"
@@ -1355,9 +1349,8 @@ msgstr ""
 "ajustant per calcular el desviament nul no convergeix -- augmenteu el "
 "«màxim»?"
 
-#, fuzzy
 msgid "value of 'epsilon' must be > 0"
-msgstr "el valor d'«èpsilon» ha de ser  be 0"
+msgstr "el valor d'«epsilon» ha de ser > 0"
 
 #, fuzzy
 msgid "maximum number of iterations must be > 0"
@@ -1533,7 +1526,7 @@ msgstr "tots els elements de 'quin' han d'estar entre 1 i %d"
 
 #, fuzzy
 msgid "invalid parameter values"
-msgstr "valors de paràmetre no vàlids"
+msgstr "valors d'argument no vàlids"
 
 #, fuzzy
 msgid "a limit is NA or NaN"
@@ -1909,9 +1902,8 @@ msgstr "el primer argument ha de ser un objecte «loess»"
 msgid "no models to compare"
 msgstr "no hi ha models per comparar"
 
-#, fuzzy
 msgid "extra arguments discarded"
-msgstr "arguments addicionals descartats"
+msgstr "els arguments addicionals s'han descartat"
 
 #, fuzzy
 msgid "'logLik.lm' does not support multiple responses"
@@ -2262,11 +2254,10 @@ msgstr "argument no vàlid per a «getProfile»"
 
 #, fuzzy
 msgid "cannot recognize parameter name"
-msgstr "no es pot reconèixer el nom del paràmetre"
+msgstr "no es pot reconèixer el nom de l'argument"
 
-#, fuzzy
 msgid "levels truncated to positive values only"
-msgstr "nivells truncats només a valors positius"
+msgstr "nivells truncats únicament a valors positius"
 
 #, fuzzy
 msgid "invalid  'attr(rhs, \"gradient\")'"
@@ -2276,11 +2267,11 @@ msgstr "'attr(rhs, \"gradient\") no vàlid"
 msgid "setVarying : 'vary' length must match length of parameters"
 msgstr ""
 "setVarying : la longitud «vary» ha de coincidir amb la longitud dels "
-"paràmetres"
+"arguments"
 
 #, fuzzy
 msgid "singular gradient matrix at initial parameter estimates"
-msgstr "matriu de degradat singular a les estimacions del paràmetre inicial"
+msgstr "matriu de degradat singular a les estimacions de l'argument inicial"
 
 #, fuzzy
 msgid "'data' must be a list or an environment"
@@ -2292,11 +2283,11 @@ msgstr "no s'ha especificat cap valor inicial"
 
 #, fuzzy
 msgid "parameters without starting value in 'data': %s"
-msgstr "paràmetres sense valor inicial a «data»: %s"
+msgstr "arguments sense valor inicial a «data»: %s"
 
 #, fuzzy
 msgid "no parameters to fit"
-msgstr "no hi ha paràmetres per a ajustar"
+msgstr "no hi ha arguments per a ajustar"
 
 #, fuzzy
 msgid "argument 'subset' will be ignored"
@@ -2824,7 +2815,7 @@ msgstr "no s'usarà un df no vàlid; ha de tenir 1  = df ;= n := #{unique x} ="
 
 #, fuzzy
 msgid "NA lev[]; probably smoothing parameter 'spar' way too large!"
-msgstr "NA lev[]; probablement el paràmetre de suavitzat «spar» és massa gran!"
+msgstr "NA lev[]; probablement l'argument de suavitzat «spar» és massa gran!"
 
 #, fuzzy
 msgid "setting df = 1  __use with care!__"
@@ -3429,13 +3420,14 @@ msgstr[1] "elements de control no reconeguts anomenats %s ignorats"
 #, fuzzy
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
-msgstr[0] "s'està ajustant el paràmetre %s sense cap variable"
-msgstr[1] "ajustant els paràmetres %s sense cap variable"
+msgstr[0] ""
+"s'està ajustant l'argument %s sense cap variableajustant els arguments %s "
+"sense cap variable"
+msgstr[1] ""
 
-#, fuzzy
 msgid "parameter %s does not occur in the model formula"
 msgid_plural "parameters %s do not occur in the model formula"
-msgstr[0] "el paràmetre %s no es troba a la fórmula del model"
+msgstr[0] "l'argument %s no apareix a la fórmula del model"
 msgstr[1] "els paràmetres %s no apareixen a la fórmula del model"
 
 #, fuzzy
