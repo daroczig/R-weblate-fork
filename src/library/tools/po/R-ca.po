@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-24 03:05+0000\n"
+"PO-Revision-Date: 2023-10-25 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -88,11 +88,9 @@ msgstr "Els valors predeterminats dels arguments no coincideixen:"
 msgid "Codoc mismatches from documentation object '%s':"
 msgstr "No coincideix el Codoc amb l'objecte de documentació «%s»:"
 
-#, fuzzy
 msgid "Code: %s"
 msgstr "Codi: %s"
 
-#, fuzzy
 msgid "Docs: %s"
 msgstr "Documentació: %s"
 
