@@ -11,6 +11,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -24,6 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -360,13 +362,11 @@ msgstr "'names'必需是字符向量"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
-#, fuzzy, c-format
+#, c-format
 msgid ""
-"expanded path length %llu would be too long for\n"
+"expanded path length %d would be too long for\n"
 "%s\n"
-msgstr ""
-"扩展路径长度 %d 太长了，对于\n"
-"%s\n"
+msgstr "扩展路径长度 %d 对于 %s 来说太长\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -8828,6 +8828,7 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
 
 
 
