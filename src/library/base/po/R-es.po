@@ -10,6 +10,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -23,6 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -610,7 +612,9 @@ msgstr ""
 "asociada"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
-msgstr "buscando una DLL para el llamado nativo de rutina, pero no hay DLLs en el espacio de nombres del llamado"
+msgstr ""
+"buscando una DLL para el llamado nativo de rutina, pero no hay DLLs en el "
+"espacio de nombres del llamado"
 
 msgid "non-square matrix in 'eigen'"
 msgstr "matriz no cuadrada en 'eigen'"
@@ -2068,6 +2072,7 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
+
 
 
 
