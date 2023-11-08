@@ -11,6 +11,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -24,6 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -787,7 +789,8 @@ msgid "match distance components must be non-negative"
 msgstr "los componentes de distancia de coincidencia no deben ser negativos"
 
 msgid "unknown match distance components ignored"
-msgstr "los componentes de distancia de coincidencia desconocidos fueron ignorados"
+msgstr ""
+"los componentes de distancia de coincidencia desconocidos fueron ignorados"
 
 msgid "unknown cost components ignored"
 msgstr "los componentes de coste desconocidos fueron ignorados"
@@ -2072,6 +2075,7 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
+
 
 
 
