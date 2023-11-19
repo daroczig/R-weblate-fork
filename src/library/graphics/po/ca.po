@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-24 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2023-11-20 03:05+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -186,14 +186,12 @@ msgid "invalid color specification"
 msgstr "especificació de color no vàlida"
 
 #: plot.c:126
-#, fuzzy
 msgid "only NA allowed in logical plotting symbol"
-msgstr "només es permeten els NA en el símbol de traçat lògic"
+msgstr "només el NA està permès en un símbol gràfic de tipus lògic"
 
 #: plot.c:128
-#, fuzzy
 msgid "invalid plotting symbol"
-msgstr "el símbol de traçat no és vàlid"
+msgstr "el símbol gràfic no és vàlid"
 
 #: plot.c:217
 msgid "invalid font specification"
@@ -207,12 +205,12 @@ msgid "invalid '%s' value"
 msgstr "valor «%s» no vàlid"
 
 #: plot.c:293
-#, c-format, fuzzy
+#, c-format
 msgid "invalid 'vfont' value [typeface %d]"
-msgstr "el valor «vfont» no és vàlid [tipus de lletra %d]"
+msgstr "el valor «vfont» no és vàlid [typeface %d]"
 
 #: plot.c:317
-#, c-format, fuzzy
+#, c-format
 msgid "invalid 'vfont' value [typeface = %d, fontindex = %d]"
 msgstr "el valor «vfont» no és vàlid [typeface = %d, fontindex = %d]"
 
@@ -301,9 +299,8 @@ msgid "no locations are finite"
 msgstr "cap ubicació és finita"
 
 #: plot.c:1406
-#, fuzzy
 msgid "invalid plotting structure"
-msgstr "estructura de traçat no vàlida"
+msgstr "estructura de gràfic no vàlida"
 
 #: plot.c:1408
 #, c-format
@@ -311,9 +308,9 @@ msgid "'x' and 'y' lengths differ in %s()"
 msgstr "les longituds d'«x» i d'«y» difereixen en %s()"
 
 #: plot.c:1616
-#, c-format, fuzzy
+#, c-format
 msgid "invalid plot type '%c'"
-msgstr "el tipus de diagrama «%c» no és vàlid"
+msgstr "el tipus de gràfic «%c» no és vàlid"
 
 #: plot.c:1659
 msgid "invalid first argument"
@@ -379,9 +376,8 @@ msgid "invalid number of points in %s"
 msgstr "el nombre de punts a %s no és vàlid"
 
 #: plot.c:3086
-#, fuzzy
 msgid "invalid plot type"
-msgstr "tipus de diagrama no vàlid"
+msgstr "tipus de gràfic no vàlid"
 
 #: plot.c:3223
 msgid "incorrect argument type"
@@ -396,7 +392,7 @@ msgid "more 'labels' than points"
 msgstr "més «labels» que punts"
 
 #: plot.c:3289
-#, c-format, fuzzy
+#, c-format
 msgid "warning: no point within %.2f inches\n"
 msgstr "avís: no hi ha cap punt dins de %.2f polzades\n"
 
@@ -425,33 +421,28 @@ msgid "x/y/parameter length mismatch"
 msgstr "la longitud d'x/y/argument no coincideix"
 
 #: plot.c:3779
-#, fuzzy
 msgid "invalid circles data"
-msgstr "les dades dels cercles no són vàlides"
+msgstr "dades no vàlides per als cercles"
 
 #: plot.c:3781 plot.c:3802 plot.c:3827 plot.c:3857
 msgid "invalid symbol parameter"
 msgstr "argument de símbol no vàlid"
 
 #: plot.c:3800
-#, fuzzy
 msgid "invalid squares data"
-msgstr "dades de quadrats no vàlides"
+msgstr "dades no vàlides per als quadrats"
 
 #: plot.c:3825
-#, fuzzy
 msgid "invalid rectangles data (need 2 columns)"
-msgstr "dades de rectangles no vàlides (calen 2 columnes)"
+msgstr "dades no vàlides per als rectangles (calen 2 columnes)"
 
 #: plot.c:3855
-#, fuzzy
 msgid "invalid stars data"
-msgstr "dades d'estrelles no vàlides"
+msgstr "dades no vàlides per les estrelles"
 
 #: plot.c:3897
-#, fuzzy
 msgid "invalid thermometers data (need 3 or 4 columns)"
-msgstr "dades de termòmetres no vàlides (cal 3 o 4 columnes)"
+msgstr "dades no vàlides per als termòmetres (calen 3 o 4 columnes)"
 
 #: plot.c:3900
 #, c-format
@@ -550,9 +541,9 @@ msgid "invalid '%s' specification"
 msgstr "especificació «%s» no vàlida"
 
 #: plot3d.c:1526
-#, c-format, fuzzy
+#, c-format
 msgid "contour(): circular/long seglist -- set %s > %d?"
-msgstr "contour(): circular/llarga seglist -- set %s > %d?"
+msgstr "contour(): llista de segments circular/llarga -- estableix %s > %d?"
 
 #: plot3d.c:1935
 msgid "no 'levels'"
