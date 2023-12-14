@@ -1183,7 +1183,6 @@ msgid "invalid first argument, must be %s"
 msgstr "primeiro argumento inválido, deve ser %s"
 
 #: src/main/array.c:1732
-#: src/main/array.c:1724
 msgid "'perm' is of wrong length %d (!= %d)"
 msgstr "'perm' tem o comprimento errado %d (!= %d)"
 

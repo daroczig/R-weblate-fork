@@ -4755,8 +4755,8 @@ msgstr[1] "R_Reprotect: only %d protected items, can't reprotect index %d"
 
 #: src/main/memory.c:3547
 #, c-format
-msgid "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
-msgstr "'R_Calloc' could not allocate memory (%.0f of %u bytes)"
+msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
+msgstr ""
 
 #: src/main/memory.c:3538
 #, c-format
@@ -6536,8 +6536,8 @@ msgstr "attempt to enlarge non-vector"
 
 #: src/main/subassign.c:156
 #, c-format
-msgid "assignment outside vector/list limits (extending from %d to %d)"
-msgstr "assignment outside vector/list limits (extending from %d to %d)"
+msgid "assignment outside vector/list limits (extending from %lld to %lld)"
+msgstr ""
 
 #: src/main/subassign.c:274
 msgid "bad names attribute"
