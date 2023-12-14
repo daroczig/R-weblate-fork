@@ -53,7 +53,7 @@ msgid "alpha level %s, not in [0,1]"
 msgstr "alpha level %s, not in [0,1]"
 
 #: colors.c:89
-#, c-format
+#, c-format, fuzzy
 msgid "alpha level %g, not in [0,1]"
 msgstr "alpha level %g, not in [0,1]"
 
