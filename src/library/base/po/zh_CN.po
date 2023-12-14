@@ -2008,10 +2008,6 @@ msgstr "区组太大"
 msgid "allocation of fifo name failed"
 msgstr "先进先出名称分配失败"
 
-#: src/main/connections.c:1336
-msgid "allocation of fifo name failed"
-msgstr "先进先出名称分配失败"
-
 #: src/main/connections.c:1283
 #, c-format
 msgid "cannot open fifo '%s', reason '%s'"
