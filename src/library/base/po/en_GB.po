@@ -16,6 +16,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -29,6 +30,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -7227,7 +7229,7 @@ msgstr "X11 protocol error: %s"
 
 #: src/modules/X11/devX11.c:467
 msgid "cannot set grayscale: reverting to monochrome"
-msgstr "cannot set grayscale: reverting to monochrome"
+msgstr "cannot set greyscale: reverting to monochrome"
 
 #: src/modules/X11/devX11.c:553
 msgid ""
