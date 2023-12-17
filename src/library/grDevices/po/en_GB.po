@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -337,7 +339,9 @@ msgstr "invalid page type '%s' (postscript)"
 
 #: devPS.c:3627 devPS.c:4945 devWindows.c:2349
 msgid "semi-transparency is not supported on this device: reported only once per page"
-msgstr "semi-transparency is not supported on this device: reported only once per page"
+msgstr ""
+"semi-transparency is not supported on this device: reported only once per "
+"page"
 
 #: devPS.c:3738 devPS.c:3749
 #, c-format
