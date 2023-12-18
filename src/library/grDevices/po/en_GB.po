@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -163,12 +165,12 @@ msgstr "unknown AFM entity encountered"
 msgid "invalid string in '%s'"
 msgstr "invalid string in '%s'"
 
-#: devPS.c:811
+#: devPS.c:812
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "font width unknown for character 0x%02x in encoding %s"
 
-#: devPS.c:872
+#: devPS.c:875
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "font metrics unknown for Unicode character U+%04X"
@@ -183,15 +185,17 @@ msgstr "unknown encoding '%s' in 'PostScriptMetricInfo'"
 msgid "Unicode character %lc (U+%04X) cannot be converted"
 msgstr "Unicode character %lc (U+%04X) cannot be converted"
 
-#: devPS.c:919 devPS.c:973
+#: devPS.c:922 devPS.c:958
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
 msgstr "font metrics unknown for character 0x%02x in encoding %s"
 
-#: devPS.c:988
+#: devPS.c:973
 #, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
+msgstr ""
+"invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte "
+"locale"
 
 #: devPS.c:996
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -377,7 +381,7 @@ msgstr "family '%s' not included in postscript() device"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "unknown encoding '%s' in 'mbcsToSbcs'"
 
-#: devPS.c:4635 devPS.c:4642
+#: devPS.c:4563 devPS.c:4570
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
 msgstr "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
@@ -584,7 +588,9 @@ msgstr ""
 #: devPS.c:9287
 #, c-format
 msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
-msgstr "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
+msgstr ""
+"Cannot open temporary file '%s' for compression (reason: %s); compression "
+"has been turned off for this device"
 
 #: devPS.c:9896 devPS.c:10400 devPS.c:10447
 msgid "failed to find or load PDF font"
@@ -598,7 +604,7 @@ msgstr "Text not added to path containing other drawing"
 msgid "failed to find or load PDF CID font"
 msgstr "failed to find or load PDF CID font"
 
-#: devPS.c:10853 devPS.c:10945 devPicTeX.c:763
+#: devPS.c:10768 devPS.c:10860 devPicTeX.c:763
 #, c-format
 msgid "invalid 'file' parameter in %s"
 msgstr "invalid 'file' parameter in %s"
@@ -755,7 +761,8 @@ msgstr "unable to create device description"
 
 #: devQuartz.c:3258
 msgid "unable to create quartz() device target, given type may not be supported"
-msgstr "unable to create quartz() device target, given type may not be supported"
+msgstr ""
+"unable to create quartz() device target, given type may not be supported"
 
 #: devQuartz.c:3388
 msgid "Quartz device is not available on this platform"
@@ -994,3 +1001,5 @@ msgstr "Font file not found; matching font family and face"
 
 #~ msgid "only gray colors are allowed in this color model"
 #~ msgstr "only grey colours are allowed in this colour model"
+
+
