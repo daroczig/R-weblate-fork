@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-10-25 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2023-12-19 03:05+0000\n"
+"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,6 @@ msgstr "Classes S4 no documentades:"
 msgid "Undocumented S4 methods:"
 msgstr "Mètodes S4 no documentats:"
 
-#, fuzzy
 msgid "Prototyped non-primitives:"
 msgstr "Prototips no-primitius:"
 
@@ -106,9 +105,8 @@ msgstr "Diagrames per a la classe «%s»"
 msgid "Data codoc mismatches from documentation object '%s':"
 msgstr "El codoc de dades no coincideix amb l'objecte de documentació «%s»:"
 
-#, fuzzy
 msgid "Variables in data frame '%s'"
-msgstr "Variables en el marc de dades «%s»"
+msgstr "Variables en el «data frame» «%s»"
 
 #, fuzzy
 msgid "Undocumented arguments in documentation object '%s'"
@@ -139,20 +137,17 @@ msgstr ""
 msgid "S3 methods shown with full name in documentation object '%s':"
 msgstr "Mètodes S3 mostrats amb nom complet a l'objecte de documentació «%s»:"
 
-#, fuzzy
 msgid "you must specify 'package', 'dir' or 'file'"
 msgstr "heu d'especificar «package», «dir» o «file»"
 
 msgid "file '%s' does not exist"
 msgstr "el fitxer «%s» no existeix"
 
-#, fuzzy
 msgid "parse error in file '%s':\n%s"
 msgstr ""
 "error d'anàlisi al fitxer '%s':\n"
 "%s"
 
-#, fuzzy
 msgid "cannot check R code installed as image"
 msgstr "no es pot comprovar el codi R instal·lat com a imatge"
 
@@ -164,19 +159,15 @@ msgstr "error d'anàlisi al fitxer '%s':"
 msgid "parse error in examples from file '%s':"
 msgstr "error d'anàlisi en exemples del fitxer '%s':"
 
-#, fuzzy
 msgid "File '%s':"
 msgstr "Fitxer '%s':"
 
-#, fuzzy
 msgid "found T/F in %s"
 msgstr "trobat T/F a %s"
 
-#, fuzzy
 msgid "The package 'dir' argument must be of length 1"
 msgstr "L'argument «dir» del paquet ha de ser de longitud 1"
 
-#, fuzzy
 msgid "package name '%s' seems invalid; using directory name '%s' instead"
 msgstr ""
 "el nom del paquet «%s» sembla no vàlid; s'usarà el nom del directori «%s»"
@@ -187,186 +178,146 @@ msgstr ""
 "Les dependències del vinyetatge (%s entrades) han d'estar contingudes a les "
 "entrades de descripció Depèn/Suggereix/Importa."
 
-#, fuzzy
 msgid "Malformed package name"
 msgstr "Nom de paquet mal format"
 
-#, fuzzy
 msgid "Unknown encoding"
 msgstr "Codificació desconeguda"
 
-#, fuzzy
 msgid "Fields with non-ASCII tags:"
 msgstr "Camps amb etiquetes no ASCII:"
 
-#, fuzzy
 msgid "All field tags must be ASCII."
 msgstr "Totes les etiquetes de camp han de ser ASCII."
 
-#, fuzzy
 msgid "Fields with non-ASCII values:"
 msgstr "Camps amb valors no ASCII:"
 
-#, fuzzy
 msgid "These fields must have ASCII values."
 msgstr "Aquests camps han de tenir valors ASCII."
 
-#, fuzzy
 msgid "Malformed package version."
 msgstr "Versió del paquet mal formada."
 
-#, fuzzy
 msgid "Malformed maintainer field."
-msgstr "Camp mantenidor mal format."
+msgstr "Camp «mantenidor» mal format."
 
-#, fuzzy
 msgid "Malformed Depends or Suggests or Imports or Enhances field."
 msgstr ""
-"Camp Dependències o Suggerències mal formatades o Importacions o Millores."
+"Camps «Dependències», «Suggerències», «Importacions» o «Millores» mal "
+"formatats."
 
 #, fuzzy
 msgid "Offending entries:"
 msgstr "Entrades ofensives:"
 
-#, fuzzy
 msgid "Entries must be names of packages optionally followed by '<=' or '>=', white space, and a valid version number in parentheses."
 msgstr ""
-"Les entrades han de ser noms de paquets opcionalment seguits per «<=' or '>=»"
+"Les entrades han de ser noms de paquets opcionalment seguits per «<=» or «>=»"
 ", espais en blanc i un número de versió vàlid entre parèntesis."
 
-#, fuzzy
 msgid "Entries with infeasible comparison operator:"
 msgstr "Entrades amb un operador de comparació inviable:"
 
-#, fuzzy
 msgid "Only operators '<=' and '>=' are possible."
-msgstr "Només són possibles els operadors «<=' and '>=»."
+msgstr "Només són possibles els operadors «<=» and «>=»."
 
-#, fuzzy
 msgid "Entries with infeasible version number:"
 msgstr "Entrades amb número de versió inviable:"
 
-#, fuzzy
 msgid "Version numbers must be sequences of at least two non-negative integers, separated by single '.' or '-'."
 msgstr ""
 "Els números de versió han de ser seqüències d'almenys dos enters no "
 "negatius, separats per un «.» o «-»."
 
-#, fuzzy
 msgid "Invalid VignetteBuilder field."
 msgstr "Camp VignetteBuilder no vàlid."
 
-#, fuzzy
 msgid "This field must contain one or more packages (and no version requirement)."
 msgstr "Aquest camp ha de contenir un o més paquets (i cap requisit de versió)."
 
-#, fuzzy
 msgid "Invalid Priority field."
-msgstr "Camp de prioritat no vàlid."
+msgstr "Camp «Prioritat» no vàlid."
 
-#, fuzzy
 msgid "Packages with priorities 'base' or 'recommended' or 'defunct-base' must already be known to R."
 msgstr ""
 "Els paquets amb prioritats «base» o «recomanada» o «defunct-base» ja han de "
 "ser coneguts per l'R."
 
-#, fuzzy
 msgid "Malformed Title field: should not end in a period."
-msgstr "Camp Títol mal format: no hauria d'acabar en un període."
+msgstr "Camp «Títol» mal format: no hauria d'acabar en un punt."
 
-#, fuzzy
 msgid "Malformed Description field: should contain one or more complete sentences."
 msgstr ""
-"Camp Descripció mal format: hauria de contenir una o més frases completes."
+"Camp «Descripció» mal format: hauria de contenir una o més frases completes."
 
-#, fuzzy
 msgid "See section 'The DESCRIPTION file' in the 'Writing R Extensions' manual."
 msgstr ""
 "Vegeu la secció «El fitxer de descripció» al manual «Escriptura d'extensions "
 "de l'R»."
 
-#, fuzzy
 msgid "Malformed Authors@R field:"
-msgstr "Camp Autors:R mal format:"
+msgstr "Camp «Authors@R» mal format:"
 
-#, fuzzy
 msgid "Cannot extract Author field from Authors@R field:"
-msgstr "No es pot extreure el camp Autor des de Autors:Camp R:"
+msgstr "No es pot extreure el camp «Author» des de «Authors@R»:"
 
-#, fuzzy
 msgid "Authors@R field gives no person with name and roles."
-msgstr "El camp Authors.R no dona cap persona amb nom i rols."
+msgstr "El camp «Authors@R» no dona cap persona amb nom i rols."
 
-#, fuzzy
 msgid "Authors@R field gives persons with no name:"
-msgstr "El camp Authors:R dóna a les persones sense nom:"
+msgstr "El camp «Authors@R» conté persones sense nom:"
 
-#, fuzzy
 msgid "Authors@R field gives persons with no role:"
-msgstr "El camp Authors:R dona a les persones sense rol:"
+msgstr "El camp «Authors@R» conté a persones sense rol:"
 
-#, fuzzy
 msgid "Authors@R field gives no person with name and author role"
-msgstr "El camp Authors andR no dona cap persona amb el nom i el rol de l'autor"
+msgstr "El camp «Authors@R» no conté cap persona amb nom i el rol de l'autor"
 
-#, fuzzy
 msgid "Cannot extract Maintainer field from Authors@R field:"
-msgstr "No es pot extreure el camp Mantenidor des del camp Autors:R:"
+msgstr "No es pot extreure el camp «Mantainer» des del camp «Autors@R»:"
 
-#, fuzzy
 msgid "Authors@R field gives more than one person with maintainer role:"
-msgstr "El camp Autors:R dona més d'una persona amb rol de mantenidor:"
+msgstr "El camp «Autors@R» conté més d'una persona amb rol de mantenidor:"
 
-#, fuzzy
 msgid "Authors@R field gives no person with maintainer role, valid email address and non-empty name."
 msgstr ""
-"El camp Authors.R no dona cap persona amb rol de mantenidor, adreça de "
+"El camp «Authors@R» no conté cap persona amb rol de mantenidor, adreça de "
 "correu electrònic vàlida i nom no buit."
 
-#, fuzzy
 msgid "Authors@R field gives persons with invalid ORCID identifiers:"
 msgstr ""
-"El camp Authors:R dona a les persones amb identificadors ORCID no vàlids:"
+"El camp «Authors@R» conté a les persones amb identificadors ORCID no vàlids:"
 
-#, fuzzy
 msgid "Encoding '%s' is not portable"
 msgstr "La codificació «%s» no és portable"
 
-#, fuzzy
 msgid "Unknown encoding with non-ASCII data"
 msgstr "Codificació desconeguda amb dades no ASCII"
 
-#, fuzzy
 msgid "Non-standard license specification:"
 msgstr "Especificació de llicència no estàndard:"
 
-#, fuzzy
 msgid "Standardizable: %s"
 msgstr "Estàndard: %s"
 
-#, fuzzy
 msgid "Standardized license specification:"
 msgstr "Especificació de llicència estàndard:"
 
-#, fuzzy
 msgid "Deprecated license: %s"
 msgstr "Llicència obsoleta: %s"
 
-#, fuzzy
 msgid "Invalid license file pointers: %s"
 msgstr "Punters de fitxer de llicència no vàlids: %s"
 
-#, fuzzy
 msgid "License components with restrictions not permitted:"
 msgstr "Components de llicència amb restriccions no permeses:"
 
-#, fuzzy
 msgid "License components which are templates and need '+ file LICENSE':"
 msgstr ""
 "Components de la llicència que són plantilles i necessiten '+ llicència de "
 "fitxer':"
 
-#, fuzzy
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
 "Usa la llicència ACM: només és apropiat per al codi TOMS d'ACM anterior a "
@@ -376,17 +327,14 @@ msgstr ""
 msgid "Non-portable flags in variable '%s':"
 msgstr "Indicadors no portables a la variable «%s»:"
 
-#, fuzzy
 msgid "Non-portable flags in file '%s':"
 msgstr "Indicadors no portables al fitxer «%s»:"
 
-#, fuzzy
 msgid "Variables overriding user/site settings:"
 msgstr "Variables que substitueixen els arguments de l'usuari/lloc:"
 
-#, fuzzy
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
-msgstr "'OS.type' no vàlid \"%s\".  No hauria de succeir"
+msgstr "'OS.type' no vàlid \"%s\". No hauria de succeir"
 
 #, fuzzy
 msgid "Missing link or links in documentation object '%s':"
@@ -396,100 +344,78 @@ msgstr "Manca un enllaç o enllaços a l'objecte de documentació «%s»:"
 msgid "Non-file package-anchored link(s) in documentation object '%s':"
 msgstr "Enllaç(s) no compartits de paquets en l'objecte de documentació «%s»:"
 
-#, fuzzy
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
-msgstr ""
-"Vegeu la secció «Referències de l'escriptura» al manual «Extensions de l'R "
-"en escriure»."
+msgstr "Vegeu la secció «Cross-references» al manual «Writing R Extensions»."
 
 #, fuzzy
 msgid "Call sequence:"
 msgstr "Seqüència de trucada:"
 
-#, fuzzy
 msgid "..."
 msgstr "..."
 
-#, fuzzy
 msgid "No dataset created in 'envir'"
 msgstr "No s'ha creat cap conjunt de dades a «envir»"
 
-#, fuzzy
 msgid "Search path was changed"
 msgstr "S'ha canviat el camí de cerca"
 
-#, fuzzy
 msgid "File %s:"
 msgstr "Fitxer %s:"
 
 #, fuzzy
 msgid "%s has wrong argument list %s"
-msgstr "%s té una llista d'arguments incorrecta %s"
+msgstr "%s té arguments incorrectes una llista %s"
 
-#, fuzzy
 msgid "%s calls:"
 msgstr "%s trucades:"
 
-#, fuzzy
 msgid "Package startup functions should have two arguments with names starting with %s and %s, respectively."
 msgstr ""
 "Les funcions d'inici de paquets haurien de tenir dos arguments amb noms que "
 "comencin per %s i %s, respectivament."
 
-#, fuzzy
 msgid "Package startup functions should not change the search path."
 msgstr "Les funcions d'inici de paquets no haurien de canviar el camí de cerca."
 
-#, fuzzy
 msgid "Package startup functions should use %s to generate messages."
 msgstr ""
 "Les funcions d'inici de paquets haurien d'utilitzar %s per generar missatges."
 
-#, fuzzy
 msgid "Package startup functions should not call %s."
 msgstr "Les funcions d'inici de paquets no haurien de cridar %s."
 
-#, fuzzy
 msgid "See section %s in '%s'."
 msgstr "Vegeu la secció %s a «%s»."
 
-#, fuzzy
 msgid "Package detach functions should have one argument with name starting with %s."
 msgstr ""
 "Les funcions de desacoblament de paquets haurien de tenir un argument amb el "
 "nom que comenci per %s."
 
-#, fuzzy
 msgid "Package detach functions should not call %s."
 msgstr "Les funcions de desacoblament de paquets no haurien de cridar %s."
 
-#, fuzzy
 msgid "unable to create"
 msgstr "no s'ha pogut crear"
 
-#, fuzzy
 msgid "unable to write code files"
 msgstr "no s'han pogut escriure els fitxers de codi"
 
-#, fuzzy
 msgid "package 'methods' is used but not declared"
 msgstr "el paquet «methods» s'utilitza però no s'ha declarat"
 
-#, fuzzy
 msgid "'::' or ':::' imports not declared from:"
 msgstr "Les importacions de «::» o «:::» no s'han declarat de:"
 
-#, fuzzy
 msgid "'::' or ':::' import not declared from: %s"
 msgstr "no s'ha declarat la importació «::» o «:::» des de: %s"
 
-#, fuzzy
 msgid "'library' or 'require' calls not declared from:"
-msgstr "Les trucades «biblioteques» o «requerides» no s'han declarat de:"
+msgstr "Les trucades «library» o «require» no s'han declarat de:"
 
-#, fuzzy
 msgid "'library' or 'require' call not declared from: %s"
-msgstr "no s'ha declarat la crida 'biblioteca' o 'requerida' de: %s"
+msgstr "no s'ha declarat la crida 'library' o 'require' de: %s"
 
 #, fuzzy
 msgid "'loadNamespace' or 'requireNamespace' calls not declared from:"
