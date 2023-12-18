@@ -17,6 +17,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -30,6 +31,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -5726,11 +5728,11 @@ msgstr "read error"
 
 #: src/main/saveload.c:337
 msgid "a I read error occurred"
-msgstr "a I read error occurred"
+msgstr "an I read error occurred"
 
 #: src/main/saveload.c:347
 msgid "a R read error occurred"
-msgstr "a R read error occurred"
+msgstr "an R read error occurred"
 
 #: src/main/saveload.c:357
 msgid "a C read error occurred"
@@ -5738,7 +5740,7 @@ msgstr "a C read error occurred"
 
 #: src/main/saveload.c:367
 msgid "a S read error occurred"
-msgstr "a S read error occurred"
+msgstr "an S read error occurred"
 
 #: src/main/saveload.c:392 src/main/saveload.c:400 src/main/saveload.c:408
 #: src/main/saveload.c:1607 src/main/saveload.c:1615
@@ -7408,7 +7410,7 @@ msgstr "invalid 'width' or 'height'"
 
 #: src/modules/X11/devX11.c:3251
 msgid "invalid colortype passed to X11 driver"
-msgstr "invalid colortype passed to X11 driver"
+msgstr "invalid 'colortype' passed to X11 driver"
 
 #: src/modules/X11/devX11.c:3265
 msgid "unknown X11 color/colour model -- using monochrome"
