@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -13,6 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 msgid "invalid 'filename'"
@@ -79,7 +81,7 @@ msgid "'gamma' must be a scalar or 'sRGB'"
 msgstr "'gamma' must be a scalar or 'sRGB'"
 
 msgid "Color space converter: %s"
-msgstr "Colour space converter: %s"
+msgstr "Color space converter: %s"
 
 msgid "Reference white: %s"
 msgstr "Reference white: %s"
@@ -406,7 +408,7 @@ msgid "at least 2 columns needed"
 msgstr "at least 2 columns needed"
 
 msgid "'x' is a list, but does not have components 'x', 'y'  and 'z'"
-msgstr "'x' is a list, but does not have components 'x', 'y' and 'z'"
+msgstr "'x' is a list, but does not have components 'x', 'y'  and 'z'"
 
 msgid "'x', 'y' and 'z' lengths differ"
 msgstr "'x', 'y' and 'z' lengths differ"
@@ -418,7 +420,7 @@ msgid "'file' must be a non-empty character string"
 msgstr "'file' must be a non-empty character string"
 
 msgid "unrecognized format of gs -help"
-msgstr "unrecognised format of gs -help"
+msgstr "unrecognized format of gs -help"
 
 msgid "device '%s' is not available"
 msgstr "device '%s' is not available"
@@ -443,13 +445,13 @@ msgid "'filename' must be a non-empty character string"
 msgstr "'filename' must be a non-empty character string"
 
 msgid "type = \"quartz\" is unavailable. trying \"Xlib\""
-msgstr "type = \"quartz\" is unavailable; trying \"Xlib\""
+msgstr "type = \"quartz\" is unavailable. trying \"Xlib\""
 
 msgid "type = \"cairo\" is unavailable. trying \"Xlib\""
-msgstr "type = \"cairo\" is unavailable; trying \"Xlib\""
+msgstr "type = \"cairo\" is unavailable. trying \"Xlib\""
 
 msgid "type = \"cairo-png\" is unavailable. trying \"Xlib\""
-msgstr "type = \"cairo-png\" is unavailable; trying \"Xlib\""
+msgstr "type = \"cairo-png\" is unavailable. trying \"Xlib\""
 
 msgid "compression is not supported for type = \"quartz\""
 msgstr "compression is not supported for type = \"quartz\""
@@ -461,7 +463,7 @@ msgid "invalid 'file'"
 msgstr "invalid 'file'"
 
 msgid "invalid Quartz font:  must be 4 strings"
-msgstr "invalid Quartz font: must be 4 strings"
+msgstr "invalid Quartz font:  must be 4 strings"
 
 msgid "invalid arguments in 'quartzFonts' (must be font names)"
 msgstr "invalid arguments in 'quartzFonts' (must be font names)"
@@ -512,7 +514,7 @@ msgid "subscript out of range"
 msgstr "subscript out of range"
 
 msgid "invalid Windows font:  must be a single font family name"
-msgstr "invalid Windows font: must be a single font family name"
+msgstr "invalid Windows font:  must be a single font family name"
 
 msgid "invalid arguments in 'windowsFonts' (must be font names)"
 msgstr "invalid arguments in 'windowsFonts' (must be font names)"
@@ -534,3 +536,4 @@ msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
 msgstr[0] "%d %s value <= 0 omitted from logarithmic plot"
 msgstr[1] "%d %s values <= 0 omitted from logarithmic plot"
+
