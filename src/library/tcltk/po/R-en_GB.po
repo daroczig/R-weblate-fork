@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-12-19 16:30+0000\n"
+"PO-Revision-Date: 2023-12-20 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -14,25 +14,25 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "cannot handle object of mode '%s'"
-msgstr ""
+msgstr "cannot handle object of mode '%s'"
 
 msgid "cannot change names on Tcl array"
-msgstr ""
+msgstr "cannot change names on Tcl array"
 
 msgid "cannot set length of Tcl array"
-msgstr ""
+msgstr "cannot set length of Tcl array"
 
 msgid "Tcl package '%s' not found"
-msgstr ""
+msgstr "Tcl package '%s' not found"
 
 msgid "The tkGUI is not available under Windows"
-msgstr ""
+msgstr "The tkGUI is not available under Windows"
 
 msgid "File"
 msgstr "File"
 
 msgid "Demos"
-msgstr ""
+msgstr "Demos"
 
 msgid "Packages"
 msgstr "Packages"
@@ -41,46 +41,46 @@ msgid "Help"
 msgstr "Help"
 
 msgid "Source R code"
-msgstr ""
+msgstr "Source R code"
 
 msgid "Quit"
-msgstr ""
+msgstr "Quit"
 
 msgid "Save workspace"
 msgstr "Save workspace"
 
 msgid "Don't save workspace"
-msgstr ""
+msgstr "Don't save workspace"
 
 msgid "t test"
-msgstr ""
+msgstr "t test"
 
 msgid "Density"
-msgstr ""
+msgstr "Density"
 
 msgid "Interactive linear fitting"
-msgstr ""
+msgstr "Interactive linear fitting"
 
 msgid "R FAQ"
-msgstr ""
+msgstr "R FAQ"
 
 msgid "Load"
-msgstr ""
+msgstr "Load"
 
 msgid "Go get them!"
-msgstr ""
+msgstr "Go get them!"
 
 msgid "Load packages"
-msgstr ""
+msgstr "Load packages"
 
 msgid "Install packages from CRAN"
-msgstr ""
+msgstr "Install packages from CRAN"
 
 msgid "Help topic:"
-msgstr ""
+msgstr "Help topic:"
 
 msgid "Manuals in PDF format"
-msgstr ""
+msgstr "Manuals in PDF format"
 
 msgid "OK"
 msgstr "OK"
@@ -92,13 +92,13 @@ msgid "'pb' is not from class %s"
 msgstr "'pb' is not from class %s"
 
 msgid "'filters' must be a 2-column character matrix"
-msgstr ""
+msgstr "'filters' must be a 2-column character matrix"
 
 msgid "tcltk DLL is linked to"
-msgstr ""
+msgstr "tcltk DLL is linked to"
 
 msgid "Tcl/Tk support is not available on this system"
-msgstr ""
+msgstr "Tcl/Tk support is not available on this system"
 
 msgid "Tcl/Tk support files were not installed"
-msgstr ""
+msgstr "Tcl/Tk support files were not installed"
