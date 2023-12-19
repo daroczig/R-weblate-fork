@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-12-19 16:18+0000\n"
+"PO-Revision-Date: 2023-12-19 16:30+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -21,16 +21,16 @@ msgstr ""
 #: fork.c:223
 #, c-format
 msgid "unable to terminate child process: %s"
-msgstr ""
+msgstr "unable to terminate child process: %s"
 
 #: fork.c:250
 #, c-format
 msgid "unable to terminate child: %s"
-msgstr ""
+msgstr "unable to terminate child: %s"
 
 #: fork.c:329 fork.c:620 ncpus.c:87 ncpus.c:123 ncpus.c:178
 msgid "memory allocation error"
-msgstr ""
+msgstr "memory allocation error"
 
 #: fork.c:385 fork.c:389 fork.c:393
 #, c-format
@@ -42,76 +42,78 @@ msgid ""
 "Error while shutting down parallel: unable to terminate some child "
 "processes\n"
 msgstr ""
+"Error while shutting down parallel: unable to terminate some child "
+"processes\n"
 
 #: fork.c:544 fork.c:547
 msgid "unable to create a pipe"
-msgstr ""
+msgstr "unable to create a pipe"
 
 #: fork.c:569
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr ""
+msgstr "unable to fork, possible reason: %s"
 
 #: fork.c:761
 msgid "only children can send data to the master process"
-msgstr ""
+msgstr "only children can send data to the master process"
 
 #: fork.c:763
 msgid "there is no pipe to the master process"
-msgstr ""
+msgstr "there is no pipe to the master process"
 
 #: fork.c:765
 msgid "content to send must be RAW, use serialize() if needed"
-msgstr ""
+msgstr "content to send must be RAW, use serialize() if needed"
 
 #: fork.c:774 fork.c:785 fork.c:1198
 msgid "write error, closing pipe to the master"
-msgstr ""
+msgstr "write error, closing pipe to the master"
 
 #: fork.c:795
 msgid "only the master process can send data to a child process"
-msgstr ""
+msgstr "only the master process can send data to a child process"
 
 #: fork.c:803
 #, c-format
 msgid "child %d does not exist"
-msgstr ""
+msgstr "child %d does not exist"
 
 #: fork.c:809
 msgid "write error"
-msgstr ""
+msgstr "write error"
 
 #: fork.c:895
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
-msgstr ""
+msgstr "cannot wait for child %d as it does not exist"
 
 #: fork.c:954 fork.c:1077
 #, c-format
 msgid "error '%s' in select"
-msgstr ""
+msgstr "error '%s' in select"
 
 #: fork.c:1167
 msgid "'mckill' failed"
-msgstr ""
+msgstr "'mckill' failed"
 
 #: fork.c:1180
 msgid "'mcexit' can only be used in a child process"
-msgstr ""
+msgstr "'mcexit' can only be used in a child process"
 
 #: fork.c:1212
 msgid "'mcexit' failed"
-msgstr ""
+msgstr "'mcexit' failed"
 
 #: fork.c:1241 fork.c:1250
 msgid "invalid CPU affinity specification"
-msgstr ""
+msgstr "invalid CPU affinity specification"
 
 #: fork.c:1261
 msgid "requested CPU set is too large for this system"
-msgstr ""
+msgstr "requested CPU set is too large for this system"
 
 #: fork.c:1284
 msgid "retrieving CPU affinity set failed"
-msgstr ""
+msgstr "retrieving CPU affinity set failed"
 
