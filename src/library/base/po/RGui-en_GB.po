@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-12-19 16:15+0000\n"
+"PO-Revision-Date: 2023-12-19 16:22+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -820,7 +820,7 @@ msgstr ""
 #: src/extra/graphapp/dialogs.c:853 src/extra/graphapp/dialogs.c:859
 #: src/library/utils/src/windows/widgets.c:127
 msgid "Cancel"
-msgstr ""
+msgstr "Cancel"
 
 #: src/extra/graphapp/dialogs.c:725 src/extra/graphapp/dialogs.c:855
 #: src/library/utils/src/windows/widgets.c:126
