@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-19 16:15+0000\n"
+"PO-Revision-Date: 2023-12-19 16:18+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -14,100 +14,102 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "'a' is overridden by 'reg'"
-msgstr ""
+msgstr "'a' is overridden by 'reg'"
 
 msgid "only using the first two of %d regression coefficients"
-msgstr ""
+msgstr "only using the first two of %d regression coefficients"
 
 msgid "'a' and 'b' are overridden by 'coef'"
-msgstr ""
+msgstr "'a' and 'b' are overridden by 'coef'"
 
 msgid "one of 'x1' and 'y1' must be given"
-msgstr ""
+msgstr "one of 'x1' and 'y1' must be given"
 
 msgid "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
 msgstr ""
+"'length', 'angle', or 'code' greater than length 1; values after the first "
+"are ignored"
 
 msgid "'x' must be a 2-d contingency table"
-msgstr ""
+msgstr "'x' must be a 2-d contingency table"
 
 msgid "all entries of 'x' must be nonnegative and finite"
-msgstr ""
+msgstr "all entries of 'x' must be nonnegative and finite"
 
 msgid "at least one entry of 'x' must be positive"
-msgstr ""
+msgstr "at least one entry of 'x' must be positive"
 
 msgid "incorrect 'col': must be length 2"
-msgstr ""
+msgstr "incorrect 'col': must be length 2"
 
 msgid "only for 1-D table"
-msgstr ""
+msgstr "only for 1-D table"
 
 msgid "'side' must be in {1:4}"
-msgstr ""
+msgstr "'side' must be in {1:4}"
 
 msgid "invalid 'axp'"
-msgstr ""
+msgstr "invalid 'axp'"
 
 msgid "invalid 'log'"
-msgstr ""
+msgstr "invalid 'log'"
 
 msgid "invalid positive 'axp[3]'"
-msgstr ""
+msgstr "invalid positive 'axp[3]'"
 
 msgid "invalid 'usr'"
-msgstr ""
+msgstr "invalid 'usr'"
 
 msgid "'height' must be a vector or a matrix"
-msgstr ""
+msgstr "'height' must be a vector or a matrix"
 
 msgid "Cannot use shading lines in bars when log scale is used"
-msgstr ""
+msgstr "Cannot use shading lines in bars when log scale is used"
 
 msgid "log scale error: at least one 'height + offset' value <= 0"
-msgstr ""
+msgstr "log scale error: at least one 'height + offset' value <= 0"
 
 msgid "log scale error: 'xlim' <= 0"
-msgstr ""
+msgstr "log scale error: 'xlim' <= 0"
 
 msgid "log scale error: 'ylim' <= 0"
-msgstr ""
+msgstr "log scale error: 'ylim' <= 0"
 
 msgid "incorrect number of names"
-msgstr ""
+msgstr "incorrect number of names"
 
 msgid "'formula' missing or incorrect"
-msgstr ""
+msgstr "'formula' missing or incorrect"
 
 msgid "formula must specify 1 or 2 categorical variables"
-msgstr ""
+msgstr "formula must specify 1 or 2 categorical variables"
 
 msgid "duplicated categorical values - try another formula or subset"
-msgstr ""
+msgstr "duplicated categorical values - try another formula or subset"
 
 msgid "formula with cbind() must specify 1 categorical variable"
-msgstr ""
+msgstr "formula with cbind() must specify 1 categorical variable"
 
 msgid "invalid first argument"
 msgstr "invalid first argument"
 
 msgid "'at' must have same length as 'z$n', i.e. %d"
-msgstr ""
+msgstr "'at' must have same length as 'z$n', i.e. %d"
 
 msgid "invalid boxplot widths"
-msgstr ""
+msgstr "invalid boxplot widths"
 
 msgid "some notches went outside hinges ('box'): maybe set notch=FALSE"
-msgstr ""
+msgstr "some notches went outside hinges ('box'): maybe set notch=FALSE"
 
 msgid "'formula' should specify exactly two variables"
-msgstr ""
+msgstr "'formula' should specify exactly two variables"
 
 msgid "dependent variable should be a factor"
-msgstr ""
+msgstr "dependent variable should be a factor"
 
 msgid "y axis is on a cumulative probability scale, 'ylim' must be in [0,1]"
-msgstr ""
+msgstr "y axis is on a cumulative probability scale, 'ylim' must be in [0,1]"
 
 msgid "no 'z' matrix specified"
 msgstr "no 'z' matrix specified"
@@ -119,368 +121,370 @@ msgid "no proper 'z' matrix specified"
 msgstr "no proper 'z' matrix specified"
 
 msgid "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
-msgstr ""
+msgstr "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
 
 msgid "invalid conditioning formula"
-msgstr ""
+msgstr "invalid conditioning formula"
 
 msgid "incompatible variable lengths"
-msgstr ""
+msgstr "incompatible variable lengths"
 
 msgid "'number' must be integer >= 1"
-msgstr ""
+msgstr "'number' must be integer >= 1"
 
 msgid "'overlap' must be < 1 (and typically >= 0)."
-msgstr ""
+msgstr "'overlap' must be < 1 (and typically >= 0)."
 
 msgid "invalid 'given.values'"
-msgstr ""
+msgstr "invalid 'given.values'"
 
 msgid "rows * columns too small"
-msgstr ""
+msgstr "rows * columns too small"
 
 msgid "Missing rows: %s"
-msgstr ""
+msgstr "Missing rows: %s"
 
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
-msgstr ""
+msgstr "'expr' must be a function, or a call or an expression containing '%s'"
 
 msgid "'add' will be ignored as there is no existing plot"
-msgstr ""
+msgstr "'add' will be ignored as there is no existing plot"
 
 msgid "'from' and 'to' must be > 0 with log=\"x\""
-msgstr ""
+msgstr "'from' and 'to' must be > 0 with log=\"x\""
 
 msgid "'expr' did not evaluate to an object of length 'n'"
-msgstr ""
+msgstr "'expr' did not evaluate to an object of length 'n'"
 
 msgid "wrong method"
-msgstr ""
+msgstr "wrong method"
 
 msgid "Must specify 'breaks' in hist(<POSIXt>)"
-msgstr ""
+msgstr "Must specify 'breaks' in hist(<POSIXt>)"
 
 msgid "invalid specification of 'breaks'"
-msgstr ""
+msgstr "invalid specification of 'breaks'"
 
 msgid "Must specify 'breaks' in hist(<Date>)"
-msgstr ""
+msgstr "Must specify 'breaks' in hist(<Date>)"
 
 msgid "'x' must be a numeric vector or matrix"
-msgstr ""
+msgstr "'x' must be a numeric vector or matrix"
 
 msgid "'x' is neither a vector nor a matrix: using as.numeric(x)"
-msgstr ""
+msgstr "'x' is neither a vector nor a matrix: using as.numeric(x)"
 
 msgid "'x' must be an array"
-msgstr ""
+msgstr "'x' must be an array"
 
 msgid "'x' must be 2- or 3-dimensional"
-msgstr ""
+msgstr "'x' must be 2- or 3-dimensional"
 
 msgid "table for each stratum must be 2 by 2"
-msgstr ""
+msgstr "table for each stratum must be 2 by 2"
 
 msgid "'conf.level' must be a single number between 0 and 1"
-msgstr ""
+msgstr "'conf.level' must be a single number between 0 and 1"
 
 msgid "incorrect 'margin' specification"
-msgstr ""
+msgstr "incorrect 'margin' specification"
 
 msgid "incorrect geometry specification"
-msgstr ""
+msgstr "incorrect geometry specification"
 
 msgid "'x' must be numeric"
-msgstr ""
+msgstr "'x' must be numeric"
 
 msgid "invalid length(x)"
-msgstr ""
+msgstr "invalid length(x)"
 
 msgid "'nclass' not used when 'breaks' is specified"
-msgstr ""
+msgstr "'nclass' not used when 'breaks' is specified"
 
 msgid "'include.lowest' ignored as 'breaks' is not a vector"
-msgstr ""
+msgstr "'include.lowest' ignored as 'breaks' is not a vector"
 
 msgid "unknown 'breaks' algorithm"
-msgstr ""
+msgstr "unknown 'breaks' algorithm"
 
 msgid "invalid number of 'breaks'"
-msgstr ""
+msgstr "invalid number of 'breaks'"
 
 msgid "'breaks = %g' is too large and set to 1e6"
-msgstr ""
+msgstr "'breaks = %g' is too large and set to 1e6"
 
 msgid "hist.default: pretty() error, breaks=%s"
-msgstr ""
+msgstr "hist.default: pretty() error, breaks=%s"
 
 msgid "Invalid breakpoints produced by 'breaks(x)': %s"
-msgstr ""
+msgstr "Invalid breakpoints produced by 'breaks(x)': %s"
 
 msgid "invalid length(breaks)"
-msgstr ""
+msgstr "invalid length(breaks)"
 
 msgid "'breaks' are not strictly increasing"
-msgstr ""
+msgstr "'breaks' are not strictly increasing"
 
 msgid "'probability' is an alias for '!freq', however they differ."
-msgstr ""
+msgstr "'probability' is an alias for '!freq', however they differ."
 
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
-msgstr ""
+msgstr "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 
 msgid "the AREAS in the plot are wrong -- rather use 'freq = FALSE'"
-msgstr ""
+msgstr "the AREAS in the plot are wrong -- rather use 'freq = FALSE'"
 
 msgid "'x' is wrongly structured"
-msgstr ""
+msgstr "'x' is wrongly structured"
 
 msgid "argument must be matrix-like"
-msgstr ""
+msgstr "argument must be matrix-like"
 
 msgid "'x' and 'y' values must be finite and non-missing"
-msgstr ""
+msgstr "'x' and 'y' values must be finite and non-missing"
 
 msgid "'z' must be a matrix"
-msgstr ""
+msgstr "'z' must be a matrix"
 
 msgid "'z' must be numeric or logical"
-msgstr ""
+msgstr "'z' must be numeric or logical"
 
 msgid "invalid z limits"
-msgstr ""
+msgstr "invalid z limits"
 
 msgid "must have one more break than colour"
-msgstr ""
+msgstr "must have one more break than colour"
 
 msgid "'breaks' must all be finite"
-msgstr ""
+msgstr "'breaks' must all be finite"
 
 msgid "unsorted 'breaks' will be sorted before use"
-msgstr ""
+msgstr "unsorted 'breaks' will be sorted before use"
 
 msgid "dimensions of z are not length(x)(-1) times length(y)(-1)"
-msgstr ""
+msgstr "dimensions of z are not length(x)(-1) times length(y)(-1)"
 
 msgid "%s can only be used with a regular grid"
-msgstr ""
+msgstr "%s can only be used with a regular grid"
 
 msgid "integer colors must be non-negative"
-msgstr ""
+msgstr "integer colors must be non-negative"
 
 msgid "'respect' must be logical or matrix with same dimension as 'mat'"
-msgstr ""
+msgstr "'respect' must be logical or matrix with same dimension as 'mat'"
 
 msgid "layout matrix must contain at least one reference\nto each of the values {1 ... %d}"
 msgstr ""
+"layout matrix must contain at least one reference\n"
+"to each of the values {1 ... %d}"
 
 msgid "invalid 'title'"
 msgstr "invalid 'title'"
 
 msgid "'legend' is of length 0"
-msgstr ""
+msgstr "'legend' is of length 0"
 
 msgid "invalid coordinate lengths"
-msgstr ""
+msgstr "invalid coordinate lengths"
 
 msgid "horizontal specification overrides: Number of columns := %d"
-msgstr ""
+msgstr "horizontal specification overrides: Number of columns := %d"
 
 msgid "'text.width' must be numeric, >= 0, or a scalar NA"
-msgstr ""
+msgstr "'text.width' must be numeric, >= 0, or a scalar NA"
 
 msgid "'merge = TRUE' has no effect when no line segments are drawn"
-msgstr ""
+msgstr "'merge = TRUE' has no effect when no line segments are drawn"
 
 msgid "not using pch[2..] since pch[1L] has multiple chars"
-msgstr ""
+msgstr "not using pch[2..] since pch[1L] has multiple chars"
 
 msgid "must specify at least one of 'x' and 'y'"
-msgstr ""
+msgstr "must specify at least one of 'x' and 'y'"
 
 msgid "'x' and 'y' must have same number of rows"
-msgstr ""
+msgstr "'x' and 'y' must have same number of rows"
 
 msgid "'x' and 'y' must have only 1 or the same number of columns"
-msgstr ""
+msgstr "'x' and 'y' must have only 1 or the same number of columns"
 
 msgid "default 'pch' is smaller than number of columns and hence recycled"
-msgstr ""
+msgstr "default 'pch' is smaller than number of columns and hence recycled"
 
 msgid "missing values in contingency table"
-msgstr ""
+msgstr "missing values in contingency table"
 
 msgid "'x' must not have 0 dimensionality"
-msgstr ""
+msgstr "'x' must not have 0 dimensionality"
 
 msgid "invalid 'shade' specification"
-msgstr ""
+msgstr "invalid 'shade' specification"
 
 msgid "length of 'sort' does not conform to 'dim(x)'"
-msgstr ""
+msgstr "length of 'sort' does not conform to 'dim(x)'"
 
 msgid "non-numeric argument to 'pairs'"
-msgstr ""
+msgstr "non-numeric argument to 'pairs'"
 
 msgid "only one column in the argument to 'pairs'"
-msgstr ""
+msgstr "only one column in the argument to 'pairs'"
 
 msgid "invalid argument 'horInd'"
-msgstr ""
+msgstr "invalid argument 'horInd'"
 
 msgid "invalid argument 'verInd'"
-msgstr ""
+msgstr "invalid argument 'verInd'"
 
 msgid "the 'panel' function made a new plot"
-msgstr ""
+msgstr "the 'panel' function made a new plot"
 
 msgid "surface extends beyond the box"
-msgstr ""
+msgstr "surface extends beyond the box"
 
 msgid "'x' values must be positive."
-msgstr ""
+msgstr "'x' values must be positive."
 
 msgid "invalid table 'x'"
-msgstr ""
+msgstr "invalid table 'x'"
 
 msgid "the formula '%s' is treated as '%s'"
-msgstr ""
+msgstr "the formula '%s' is treated as '%s'"
 
 msgid "cannot handle more than one 'x' coordinate"
-msgstr ""
+msgstr "cannot handle more than one 'x' coordinate"
 
 msgid "must have a response variable"
-msgstr ""
+msgstr "must have a response variable"
 
 msgid "invalid plot type"
-msgstr ""
+msgstr "invalid plot type"
 
 msgid "plot type '%s' will be truncated to first character"
-msgstr ""
+msgstr "plot type '%s' will be truncated to first character"
 
 msgid "invalid plot type '%s'"
-msgstr ""
+msgstr "invalid plot type '%s'"
 
 msgid "'plot.data.frame' applied to non data frame"
-msgstr ""
+msgstr "'plot.data.frame' applied to non data frame"
 
 msgid "'y' must be a numeric vector"
-msgstr ""
+msgstr "'y' must be a numeric vector"
 
 msgid "'x' must be a data frame"
-msgstr ""
+msgstr "'x' must be a data frame"
 
 msgid "all columns/components of 'x' must be factors"
-msgstr ""
+msgstr "all columns/components of 'x' must be factors"
 
 msgid "some levels of the factors are empty"
-msgstr ""
+msgstr "some levels of the factors are empty"
 
 msgid "'x' must be a dataframe or a formula"
-msgstr ""
+msgstr "'x' must be a dataframe or a formula"
 
 msgid "a variable in 'y' is not numeric"
-msgstr ""
+msgstr "a variable in 'y' is not numeric"
 
 msgid "there must be at least one numeric variable!"
-msgstr ""
+msgstr "there must be at least one numeric variable!"
 
 msgid "cannot hatch with logarithmic scale active"
-msgstr ""
+msgstr "cannot hatch with logarithmic scale active"
 
 msgid "Invalid fill rule for graphics path"
-msgstr ""
+msgstr "Invalid fill rule for graphics path"
 
 msgid "invalid rectangle specification"
-msgstr ""
+msgstr "invalid rectangle specification"
 
 msgid "some values will be clipped"
-msgstr ""
+msgstr "some values will be clipped"
 
 msgid "invalid screen number"
-msgstr ""
+msgstr "invalid screen number"
 
 msgid "'figs' must be a vector or a matrix with 4 columns"
-msgstr ""
+msgstr "'figs' must be a vector or a matrix with 4 columns"
 
 msgid "'figs' must specify at least one screen"
-msgstr ""
+msgstr "'figs' must specify at least one screen"
 
 msgid "'nrpoints' should be numeric scalar with value >= 0."
-msgstr ""
+msgstr "'nrpoints' should be numeric scalar with value >= 0."
 
 msgid "a 2-way table has to be specified"
-msgstr ""
+msgstr "a 2-way table has to be specified"
 
 msgid "weights are not supported for 2-way table specification"
-msgstr ""
+msgstr "weights are not supported for 2-way table specification"
 
 msgid "x axis is on a cumulative probability scale, 'xlim' must be in [0,1]"
-msgstr ""
+msgstr "x axis is on a cumulative probability scale, 'xlim' must be in [0,1]"
 
 msgid "'x' must be a matrix or a data frame"
-msgstr ""
+msgstr "'x' must be a matrix or a data frame"
 
 msgid "data in 'x' must be numeric"
-msgstr ""
+msgstr "data in 'x' must be numeric"
 
 msgid "'nrow * ncol' is less than the number of observations"
-msgstr ""
+msgstr "'nrow * ncol' is less than the number of observations"
 
 msgid "labels do not make sense for a single location"
-msgstr ""
+msgstr "labels do not make sense for a single location"
 
 msgid "'locations' must be a 2-column matrix."
-msgstr ""
+msgstr "'locations' must be a 2-column matrix."
 
 msgid "number of rows of 'locations' and 'x' must be equal."
-msgstr ""
+msgstr "number of rows of 'locations' and 'x' must be equal."
 
 msgid "length of 'angles' must equal 'ncol(x)'"
-msgstr ""
+msgstr "length of 'angles' must equal 'ncol(x)'"
 
 msgid "no finite and non-missing values"
-msgstr ""
+msgstr "no finite and non-missing values"
 
 msgid "'scale' must be positive"
-msgstr ""
+msgstr "'scale' must be positive"
 
 msgid "invalid plotting method"
-msgstr ""
+msgstr "invalid plotting method"
 
 msgid "'at' must have length equal to the number %d of groups"
-msgstr ""
+msgstr "'at' must have length equal to the number %d of groups"
 
 msgid "formula missing or incorrect"
-msgstr ""
+msgstr "formula missing or incorrect"
 
 msgid "'number' must have same length as 'x' and 'y'"
-msgstr ""
+msgstr "'number' must have same length as 'x' and 'y'"
 
 msgid "exactly one symbol type must be specified"
-msgstr ""
+msgstr "exactly one symbol type must be specified"
 
 msgid "x log scale:  xinch() is nonsense"
-msgstr ""
+msgstr "x log scale:  xinch() is nonsense"
 
 msgid "y log scale:  yinch() is nonsense"
-msgstr ""
+msgstr "y log scale:  yinch() is nonsense"
 
 msgid "log scale:  xyinch() is nonsense"
-msgstr ""
+msgstr "log scale:  xyinch() is nonsense"
 
 msgid "Duplicated argument %s is disregarded"
 msgid_plural "Duplicated arguments %s are disregarded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Duplicated argument %s is disregarded"
+msgstr[1] "Duplicated arguments %s are disregarded"
 
 msgid "Outlier (%s) in boxplot %d is not drawn"
 msgid_plural "Outliers (%s) in boxplot %d are not drawn"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Outlier (%s) in boxplot %d is not drawn"
+msgstr[1] "Outliers (%s) in boxplot %d are not drawn"
 
 msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "argument %s is not made use of"
+msgstr[1] "arguments %s are not made use of"
 
