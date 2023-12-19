@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2023-12-19 16:22+0000\n"
+"PO-Revision-Date: 2023-12-20 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -24,7 +24,7 @@ msgstr "updateGContext must only be called after initGContext"
 
 #: grid.c:199
 msgid "Turning clipping on or off within a (clipping) path is no honoured"
-msgstr "Turning clipping on or off within a (clipping) path is no honoured"
+msgstr "Turning clipping on or off within a (clipping) path is not honoured"
 
 #: grid.c:241
 msgid "cannot clip to rotated viewport"
