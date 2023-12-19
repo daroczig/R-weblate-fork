@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-12-19 16:19+0000\n"
+"PO-Revision-Date: 2023-12-19 16:30+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -197,7 +197,7 @@ msgstr ""
 
 #: windows/dialogs.c:318
 msgid "menu does not exist"
-msgstr ""
+msgstr "menu does not exist"
 
 #: windows/dialogs.c:325
 #, c-format
