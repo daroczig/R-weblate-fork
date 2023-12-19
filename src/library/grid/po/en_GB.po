@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2023-12-19 16:15+0000\n"
+"PO-Revision-Date: 2023-12-19 16:19+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -49,7 +49,7 @@ msgstr ""
 
 #: grid.c:1241
 msgid "attempt to plot on null device"
-msgstr ""
+msgstr "attempt to plot on null device"
 
 #: grid.c:1711
 msgid "there is no layout defined"
@@ -77,7 +77,7 @@ msgstr ""
 
 #: grid.c:3487
 msgid "Empty raster"
-msgstr ""
+msgstr "Empty raster"
 
 #: grid.c:4038 grid.c:4094
 msgid "Coordinates for text pch not yet supported"
@@ -95,7 +95,7 @@ msgstr "unimplemented pch value '%d'"
 
 #: grid.c:5079
 msgid "invalid plotting symbol"
-msgstr ""
+msgstr "invalid plotting symbol"
 
 #: grid.c:5197
 msgid "unable to clip to rotated rectangle"
