@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-12-19 16:15+0000\n"
+"PO-Revision-Date: 2023-12-19 16:18+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -20,17 +20,17 @@ msgstr ""
 
 #: Rmd5.c:57 Rsha256.c:70
 msgid "argument 'files' must be character"
-msgstr ""
+msgstr "argument 'files' must be character"
 
 #: Rmd5.c:73
 #, c-format
 msgid "md5 failed on file '%ls'"
-msgstr ""
+msgstr "md5 failed on file '%ls'"
 
 #: Rmd5.c:75
 #, c-format
 msgid "md5 failed on file '%s'"
-msgstr ""
+msgstr "md5 failed on file '%s'"
 
 #: Rsha256.c:86
 #, fuzzy, c-format
@@ -45,15 +45,15 @@ msgstr "md5 failed on file '%s'"
 #: getfmts.c:61
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr ""
+msgstr "only %d arguments are allowed"
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
-msgstr ""
+msgstr "'fmt' is not a character vector"
 
 #: getfmts.c:69
 msgid "'fmt' must be length 1"
-msgstr ""
+msgstr "'fmt' must be length 1"
 
 #: getfmts.c:75
 #, c-format
@@ -63,135 +63,135 @@ msgstr "'fmt' length exceeds maximal format length %d"
 #: getfmts.c:96
 #, c-format
 msgid "unrecognised format specification '%s'"
-msgstr ""
+msgstr "unrecognised format specification '%s'"
 
 #: getfmts.c:136
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr ""
+msgstr "at most one asterisk '*' is supported in each conversion specification"
 
 #: gramLatex.c:2392 gramRd.c:3996 y.tab.c:3996
 #, c-format
 msgid "unable to allocate buffer for long string at line %d"
-msgstr ""
+msgstr "unable to allocate buffer for long string at line %d"
 
 #: gramLatex.c:2635 gramRd.c:4549 gramRd.c:4555 y.tab.c:4549 y.tab.c:4555
 #, c-format
 msgid "invalid '%s' value"
-msgstr ""
+msgstr "invalid '%s' value"
 
 #: gramRd.c:2549 gramRd.c:2552 y.tab.c:2549 y.tab.c:2552
 #, c-format
 msgid "bad markup (extra space?) at %s:%d:%d"
-msgstr ""
+msgstr "bad markup (extra space?) at %s:%d:%d"
 
 #: gramRd.c:3144 y.tab.c:3144
 #, c-format
 msgid "Macro '%s' previously defined."
-msgstr ""
+msgstr "Macro '%s' previously defined."
 
 #: gramRd.c:3154 y.tab.c:3154
 #, c-format
 msgid "At most 4 arguments are allowed for user defined macros."
-msgstr ""
+msgstr "At most 4 arguments are allowed for user defined macros."
 
 #: gramRd.c:3196 y.tab.c:3196
 #, c-format
 msgid "No macro definition for '%s'."
-msgstr ""
+msgstr "No macro definition for '%s'."
 
 #: gramRd.c:3258 y.tab.c:3258
 #, c-format
 msgid "Not enough arguments passed to user macro '%s'"
-msgstr ""
+msgstr "Not enough arguments passed to user macro '%s'"
 
 #: gramRd.c:3398 gramRd.c:3402 y.tab.c:3398 y.tab.c:3402
 #, c-format
 msgid "newline within quoted string at %s:%d"
-msgstr ""
+msgstr "newline within quoted string at %s:%d"
 
 #: gramRd.c:3421 y.tab.c:3421
 #, c-format
 msgid "unable to allocate buffer for long macro at line %d"
-msgstr ""
+msgstr "unable to allocate buffer for long macro at line %d"
 
 #: gramRd.c:3451 y.tab.c:3451
 msgid "macros nested too deeply: infinite recursion?"
-msgstr ""
+msgstr "macros nested too deeply: infinite recursion?"
 
 #: gramRd.c:3858 y.tab.c:3858
 #, c-format
 msgid "Unable to find macro %s"
-msgstr ""
+msgstr "Unable to find macro %s"
 
 #: gramRd.c:4057 y.tab.c:4057
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
-msgstr ""
+msgstr "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 
 #: gramRd.c:4562 y.tab.c:4562
 msgid "cannot open the connection"
-msgstr ""
+msgstr "cannot open the connection"
 
 #: gramRd.c:4569 y.tab.c:4569
 msgid "cannot read from this connection"
-msgstr ""
+msgstr "cannot read from this connection"
 
 #: gramRd.c:4577 y.tab.c:4577
 msgid "invalid Rd file"
-msgstr ""
+msgstr "invalid Rd file"
 
 #: gramRd.c:4596 y.tab.c:4596
 msgid "'deparseRd' only supports deparsing character elements"
-msgstr ""
+msgstr "'deparseRd' only supports deparsing character elements"
 
 #: gramRd.c:4599 y.tab.c:4599
 msgid "bad state"
-msgstr ""
+msgstr "bad state"
 
 #: gramRd.c:4612 y.tab.c:4612
 #, c-format
 msgid "bad text mode %d in 'deparseRd'"
-msgstr ""
+msgstr "bad text mode %d in 'deparseRd'"
 
 #: http.c:32
 msgid "invalid bind address specification"
-msgstr ""
+msgstr "invalid bind address specification"
 
 #: install.c:95
 msgid "path too long"
-msgstr ""
+msgstr "path too long"
 
 #: install.c:120 install.c:139 install.c:141
 #, c-format
 msgid "invalid '%s' argument"
-msgstr ""
+msgstr "invalid '%s' argument"
 
 #: install.c:170
 msgid "write error during file append"
-msgstr ""
+msgstr "write error during file append"
 
 #: pdscan.c:67
 msgid "too many items"
-msgstr ""
+msgstr "too many items"
 
 #: pdscan.c:115
 msgid "non-character argument"
-msgstr ""
+msgstr "non-character argument"
 
 #: signals.c:42
 msgid "pskill() is not supported on this platform"
-msgstr ""
+msgstr "pskill() is not supported on this platform"
 
 #: signals.c:140
 msgid "psnice() is not supported on this platform"
-msgstr ""
+msgstr "psnice() is not supported on this platform"
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr ""
+msgstr "invalid argument type"
 
 #: text.c:225 text.c:247
 msgid "out of memory"
-msgstr ""
+msgstr "out of memory"
 
 
