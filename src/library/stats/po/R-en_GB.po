@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-19 16:22+0000\n"
+"PO-Revision-Date: 2023-12-19 16:30+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -149,7 +149,7 @@ msgid "'by' must be a list"
 msgstr ""
 
 msgid "arguments must have same length"
-msgstr ""
+msgstr "arguments must have same length"
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
 msgstr ""
@@ -371,7 +371,7 @@ msgid "need at least 2 data points"
 msgstr ""
 
 msgid "invalid 'x'"
-msgstr ""
+msgstr "invalid 'x'"
 
 msgid "invalid 'nb'"
 msgstr ""
@@ -437,7 +437,7 @@ msgid "'y' has rank 0"
 msgstr ""
 
 msgid "'x' and 'y' must have the same length"
-msgstr ""
+msgstr "'x' and 'y' must have the same length"
 
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr ""
@@ -479,7 +479,7 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr ""
 
 msgid "invalid value of %s"
-msgstr ""
+msgstr "invalid value of %s"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr ""
@@ -935,7 +935,7 @@ msgid "incorrect specification for 'formula'"
 msgstr ""
 
 msgid "nothing to tabulate"
-msgstr ""
+msgstr "nothing to tabulate"
 
 msgid "incorrect specification for 'row.vars'"
 msgstr ""
@@ -1190,10 +1190,10 @@ msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
 msgstr ""
 
 msgid "invalid nrow(x)"
-msgstr ""
+msgstr "invalid nrow(x)"
 
 msgid "invalid ncol(x)"
-msgstr ""
+msgstr "invalid ncol(x)"
 
 msgid "'centers' must be a number or a matrix"
 msgstr ""
