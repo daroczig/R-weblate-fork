@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-12-19 16:15+0000\n"
+"PO-Revision-Date: 2023-12-19 16:18+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -14,117 +14,117 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "namespace found within local environments"
-msgstr ""
+msgstr "namespace found within local environments"
 
 msgid "not a proper evaluation environment"
-msgstr ""
+msgstr "not a proper evaluation environment"
 
 msgid "non-namespace found within namespace environments"
-msgstr ""
+msgstr "non-namespace found within namespace environments"
 
 msgid "namespace found within global environments"
-msgstr ""
+msgstr "namespace found within global environments"
 
 msgid "bad assignment: %s"
-msgstr ""
+msgstr "bad assignment: %s"
 
 msgid "cannot constant fold literal promises"
-msgstr ""
+msgstr "cannot constant fold literal promises"
 
 msgid "cannot constant fold literal bytecode objects"
-msgstr ""
+msgstr "cannot constant fold literal bytecode objects"
 
 msgid "no offset recorded for label \"%s\""
-msgstr ""
+msgstr "no offset recorded for label \"%s\""
 
 msgid "cannot compile byte code literals in code"
-msgstr ""
+msgstr "cannot compile byte code literals in code"
 
 msgid "cannot compile promise literals in code"
-msgstr ""
+msgstr "cannot compile promise literals in code"
 
 msgid "possible error in '%s': %s"
-msgstr ""
+msgstr "possible error in '%s': %s"
 
 msgid "bad namespace import frame"
-msgstr ""
+msgstr "bad namespace import frame"
 
 msgid "bad assignment 1"
-msgstr ""
+msgstr "bad assignment 1"
 
 msgid "bad assignment 2"
-msgstr ""
+msgstr "bad assignment 2"
 
 msgid "invalid function in complex assignment"
-msgstr ""
+msgstr "invalid function in complex assignment"
 
 msgid "missing arguments are not allowed"
-msgstr ""
+msgstr "missing arguments are not allowed"
 
 msgid "empty alternative in numeric switch"
-msgstr ""
+msgstr "empty alternative in numeric switch"
 
 msgid "no visible global function definition for '%s'"
-msgstr ""
+msgstr "no visible global function definition for '%s'"
 
 msgid "no visible binding for global variable '%s'"
-msgstr ""
+msgstr "no visible binding for global variable '%s'"
 
 msgid "no visible binding for '<<-' assignment to '%s'"
-msgstr ""
+msgstr "no visible binding for '<<-' assignment to '%s'"
 
 msgid "wrong number of arguments to '%s'"
-msgstr ""
+msgstr "wrong number of arguments to '%s'"
 
 msgid "more than one default provided in switch() call"
-msgstr ""
+msgstr "more than one default provided in switch() call"
 
 msgid "'switch' with no alternatives"
 msgstr "'switch' with no alternatives"
 
 msgid "Error: compilation failed -"
-msgstr ""
+msgstr "Error: compilation failed -"
 
 msgid "cannot compile a non-function"
-msgstr ""
+msgstr "cannot compile a non-function"
 
 msgid "compiling '%s'"
-msgstr ""
+msgstr "compiling '%s'"
 
 msgid "saving to file \"%s\" ..."
-msgstr ""
+msgstr "saving to file \"%s\" ..."
 
 msgid "done"
-msgstr ""
+msgstr "done"
 
 msgid "'env' must be a top level environment"
-msgstr ""
+msgstr "'env' must be a top level environment"
 
 msgid "input and output file names are the same"
-msgstr ""
+msgstr "input and output file names are the same"
 
 msgid "empty input file; no output written"
-msgstr ""
+msgstr "empty input file; no output written"
 
 msgid "file '%s' does not exist"
-msgstr ""
+msgstr "file '%s' does not exist"
 
 msgid "'%s' is not a valid compiler option"
-msgstr ""
+msgstr "'%s' is not a valid compiler option"
 
 msgid "invalid environment variable value: %s==%s"
-msgstr ""
+msgstr "invalid environment variable value: %s==%s"
 
 msgid "invalid compiler options: optimize(==%d)<2 and jitEnabled(==%d)>2"
-msgstr ""
+msgstr "invalid compiler options: optimize(==%d)<2 and jitEnabled(==%d)>2"
 
 msgid "function is not compiled"
-msgstr ""
+msgstr "function is not compiled"
 
 msgid "cannot compile this expression"
-msgstr ""
+msgstr "cannot compile this expression"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "local assignment to syntactic function: "
+msgstr[1] "local assignments to syntactic functions: "
