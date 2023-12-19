@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-19 16:18+0000\n"
+"PO-Revision-Date: 2023-12-19 16:22+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -116,7 +116,7 @@ msgid "'pos=1' is not possible and has been warned about for years"
 msgstr ""
 
 msgid "file '%s' not found"
-msgstr ""
+msgstr "file '%s' not found"
 
 msgid "invalid 'name' argument"
 msgstr ""
@@ -194,7 +194,7 @@ msgid "can only write character objects"
 msgstr ""
 
 msgid "'headers' must have names and must not be NA"
-msgstr ""
+msgstr "'headers' must have names and must not be NA"
 
 msgid "'name' must be a single character string"
 msgstr ""
@@ -230,16 +230,16 @@ msgid "number of intervals and length of 'labels' differ"
 msgstr ""
 
 msgid "invalid 'row.names' length"
-msgstr ""
+msgstr "invalid 'row.names' length"
 
 msgid "invalid 'make.names'"
 msgstr ""
 
 msgid "duplicate 'row.names' are not allowed"
-msgstr ""
+msgstr "duplicate 'row.names' are not allowed"
 
 msgid "missing values in 'row.names' are not allowed"
-msgstr ""
+msgstr "missing values in 'row.names' are not allowed"
 
 msgid "invalid 'dimnames' given for data frame"
 msgstr ""
@@ -347,7 +347,7 @@ msgid "non-numeric-alike variable(s) in data frame:"
 msgstr ""
 
 msgid ","
-msgstr ""
+msgstr ","
 
 msgid "%s only defined for equally-sized data frames"
 msgstr ""
@@ -506,7 +506,7 @@ msgid "No element named \"%s\" found in x, did you mean x[, \"%1$s\"] instead?"
 msgstr ""
 
 msgid "'file' must be a character string or connection"
-msgstr ""
+msgstr "'file' must be a character string or connection"
 
 msgid "Invalid DCF format.\nRegular lines must have a tag.\nOffending lines start with:\n%s"
 msgstr ""
