@@ -12,6 +12,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -25,6 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -7463,12 +7465,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl失败:’%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8824,6 +8826,8 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
+
 
 
 
