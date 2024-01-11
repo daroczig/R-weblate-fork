@@ -1,8 +1,7 @@
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-01-12 03:05+0000\n"
 "Last-Translator: Mandal MSH <mshmandal@gmail.com>\n"
@@ -13,7 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 msgid "'%s' is defunct."
 msgstr "'%s' এখন অকার্যকর।"
