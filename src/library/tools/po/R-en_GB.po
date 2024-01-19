@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-20 13:03+0000\n"
+"PO-Revision-Date: 2024-01-20 16:20+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -281,34 +281,34 @@ msgid "Record: %d Field(s): %s"
 msgstr "Record: %d Field(s): %s"
 
 msgid "Non-standard license specification:"
-msgstr "Non-standard license specification:"
+msgstr "Non-standard licence specification:"
 
 msgid "Standardizable: %s"
-msgstr "Standardizable: %s"
+msgstr "Standardisable: %s"
 
 msgid "Standardized license specification:"
-msgstr "Standardized license specification:"
+msgstr "Standardised licence specification:"
 
 msgid "Deprecated license: %s"
-msgstr "Deprecated license: %s"
+msgstr "Deprecated licence: %s"
 
 msgid "Invalid license file pointers: %s"
-msgstr "Invalid license file pointers: %s"
+msgstr "Invalid licence file pointers: %s"
 
 msgid "License components with restrictions not permitted:"
-msgstr "License components with restrictions not permitted:"
+msgstr "Licence components with restrictions not permitted:"
 
 msgid "License components which are templates and need '+ file LICENSE':"
-msgstr "License components which are templates and need '+ file LICENSE':"
+msgstr "Licence components which are templates and need '+ file LICENCE':"
 
 msgid "License stub is invalid DCF."
-msgstr "License stub is invalid DCF."
+msgstr "Licence stub is invalid DCF."
 
 msgid "License stub records with missing/empty fields:"
-msgstr "License stub records with missing/empty fields:"
+msgstr "Licence stub records with missing/empty fields:"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
-msgstr "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
+msgstr "Uses ACM licence: only appropriate for pre-2013 ACM TOMS code"
 
 msgid "Non-portable flags in variable '%s':"
 msgstr "Non-portable flags in variable '%s':"
@@ -568,7 +568,7 @@ msgid "-t option without value"
 msgstr "-t option without value"
 
 msgid "-o option without value"
-msgstr "-o option without value"
+msgstr "“-o option without value"
 
 msgid "Warning: unknown option"
 msgstr "Warning: unknown option"
