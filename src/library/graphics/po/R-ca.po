@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-11-20 03:05+0000\n"
+"PO-Revision-Date: 2024-01-21 19:19+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -19,13 +19,11 @@ msgstr "'reg' sobreescriu 'a'"
 msgid "only using the first two of %d regression coefficients"
 msgstr "només utilitzant els dos primers de %d coeficients de regressió"
 
-#, fuzzy
 msgid "'a' and 'b' are overridden by 'coef'"
-msgstr "'a' i 'b' estan substituïts per 'coef'"
+msgstr "'a' i 'b' estan anul·lades per 'coef'"
 
-#, fuzzy
 msgid "one of 'x1' and 'y1' must be given"
-msgstr "s'ha de donar una de «x1» i «y1»"
+msgstr "cal proporcionar una de «x1» i «y1»"
 
 #, fuzzy
 msgid "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
