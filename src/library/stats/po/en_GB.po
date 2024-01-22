@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-01-20 16:20+0000\n"
+"PO-Revision-Date: 2024-01-22 20:20+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
 "Language-Team: none\n"
 "Language: en_GB\n"
@@ -684,7 +684,7 @@ msgstr "invalid function value in 'optimize'"
 
 #: optimize.c:255 optimize.c:347 optimize.c:721
 msgid "attempt to minimize non-function"
-msgstr "attempt to minimize non-function"
+msgstr "attempt to minimise non-function"
 
 #: optimize.c:262 optimize.c:269 optimize.c:278 optimize.c:352 optimize.c:357
 #: optimize.c:373
@@ -719,11 +719,11 @@ msgstr "non-finite value supplied by 'nlm'"
 
 #: optimize.c:555
 msgid "invalid function value in 'nlm' optimizer"
-msgstr "invalid function value in 'nlm' optimizer"
+msgstr "invalid function value in 'nlm' optimiser"
 
 #: optimize.c:566 optimize.c:581
 msgid "function value caching for optimization is seriously confused"
-msgstr "function value caching for optimization is seriously confused"
+msgstr "function value caching for optimisation is seriously confused"
 
 #: optimize.c:596
 msgid "numeric parameter expected"
@@ -763,7 +763,7 @@ msgstr "invalid iteration limit in nlm"
 
 #: optimize.c:645
 msgid "minimization function has no good digits in nlm"
-msgstr "minimization function has no good digits in nlm"
+msgstr "minimisation function has no good digits in nlm"
 
 #: optimize.c:647
 msgid "no analytic gradient to check in nlm!"
