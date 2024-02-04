@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-01-22 20:20+0000\n"
+"PO-Revision-Date: 2024-02-05 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -102,15 +102,13 @@ msgstr "«at» ha de tenir la mateixa longitud que «z$n», és a dir, %d"
 msgid "invalid boxplot widths"
 msgstr "l'amplada del diagrama de caixa no és vàlida"
 
-#, fuzzy
 msgid "some notches went outside hinges ('box'): maybe set notch=FALSE"
 msgstr ""
-"algunes osques han sortit fora de les frontisses ('caixa'): potser s'ha "
-"establert notch=FALSE"
+"algunes osques han sortit fora de les frontisses ('caixa'): potser cal "
+"establir notch=FALSE"
 
-#, fuzzy
 msgid "'formula' should specify exactly two variables"
-msgstr "«fórmula» hauria d'especificar exactament dues variables"
+msgstr "«formula» hauria d'especificar exactament dues variables"
 
 #, fuzzy
 msgid "dependent variable should be a factor"
@@ -126,49 +124,38 @@ msgstr ""
 msgid "no 'z' matrix specified"
 msgstr "no s'ha especificat cap matriu «z»"
 
-#, fuzzy
 msgid "increasing 'x' and 'y' values expected"
-msgstr "s'esperava un increment dels valors «x» i «y»"
+msgstr "s'esperen valors creixents de «x» i «y»"
 
-#, fuzzy
 msgid "no proper 'z' matrix specified"
 msgstr "no s'ha especificat cap matriu «z» adequada"
 
-#, fuzzy
 msgid "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
 msgstr ""
-"«etiquetes» té una longitud zero.  Utilitzeu «drawlabels = FALSE» per a "
-"suprimir les etiquetes."
+"«labels» té una longitud zero. Utilitzeu «drawlabels = FALSE» per a suprimir "
+"les etiquetes."
 
-#, fuzzy
 msgid "invalid conditioning formula"
 msgstr "fórmula de condicionament no vàlida"
 
-#, fuzzy
 msgid "incompatible variable lengths"
-msgstr "longituds variables incompatibles"
+msgstr "longituds incompatibles de les variables"
 
-#, fuzzy
 msgid "'number' must be integer >= 1"
-msgstr "'number' ha de ser enter == 1"
+msgstr "«number» ha de ser enter >= 1"
 
-#, fuzzy
 msgid "'overlap' must be < 1 (and typically >= 0)."
-msgstr "«overlap» ha de ser < 1 (and typically >= 0)."
+msgstr "«overlap» ha de ser < 1 (i típicament >= 0)."
 
-#, fuzzy
 msgid "invalid 'given.values'"
-msgstr "'given.values' no vàlid"
+msgstr "«given.values» no vàlid"
 
-#, fuzzy
 msgid "rows * columns too small"
-msgstr "files * columnes massa petites"
+msgstr "files * columnes massa petit"
 
-#, fuzzy
 msgid "Missing rows: %s"
-msgstr "Files perdudes: %s"
+msgstr "Files no disponibles: %s"
 
-#, fuzzy
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr ""
 "«expr» ha de ser una funció, una crida o una expressió que contingui «%s»"
@@ -200,27 +187,21 @@ msgstr "«x» ha de ser un vector o matriu numèrica"
 msgid "'x' is neither a vector nor a matrix: using as.numeric(x)"
 msgstr "«x» no és un vector ni una matriu: utilitzant as.numeric(x)"
 
-#, fuzzy
 msgid "'x' must be an array"
 msgstr "«x» ha de ser una matriu"
 
-#, fuzzy
 msgid "'x' must be 2- or 3-dimensional"
 msgstr "«x» ha de ser 2 o 3-dimensional"
 
-#, fuzzy
 msgid "table for each stratum must be 2 by 2"
-msgstr "la taula per a cada estrat ha de ser 2 per 2"
+msgstr "la taula per a cada estrat ha de ser de 2 per 2"
 
-#, fuzzy
 msgid "'conf.level' must be a single number between 0 and 1"
 msgstr "«conf.level» ha de ser un únic nombre entre 0 i 1"
 
-#, fuzzy
 msgid "incorrect 'margin' specification"
 msgstr "especificació «margin» incorrecta"
 
-#, fuzzy
 msgid "incorrect geometry specification"
 msgstr "especificació de geometria incorrecta"
 
@@ -230,15 +211,12 @@ msgstr "«x» ha de ser numèric"
 msgid "invalid length(x)"
 msgstr "length(x) invàlida"
 
-#, fuzzy
 msgid "'nclass' not used when 'breaks' is specified"
-msgstr "no s'usa «nclass» quan s'especifica «breaks»"
+msgstr "no s'utilitza «nclass» quan s'especifica «breaks»"
 
-#, fuzzy
 msgid "'include.lowest' ignored as 'breaks' is not a vector"
-msgstr "'include.lowest' ignorat perquè 'breaks' no és un vector"
+msgstr "«include.lowest» ignorat perquè «breaks» no és un vector"
 
-#, fuzzy
 msgid "unknown 'breaks' algorithm"
 msgstr "algorisme «breaks» desconegut"
 
