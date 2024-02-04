@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-01-22 20:20+0000\n"
+"PO-Revision-Date: 2024-02-05 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -233,7 +233,6 @@ msgstr "l'opció «show.signif.stars» no és vàlida: s'assumeix CERT"
 msgid "'anova' object must have colnames"
 msgstr "L'objecte «anova» ha de tenir noms de col"
 
-#, fuzzy
 msgid "'conf.level' must be a single number between 0 and 1"
 msgstr "«conf.level» ha de ser un únic nombre entre 0 i 1"
 
