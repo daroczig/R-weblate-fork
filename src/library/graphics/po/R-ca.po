@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-02-11 20:55+0000\n"
+"PO-Revision-Date: 2024-02-19 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -343,214 +343,165 @@ msgstr "argument no numèric per a «pairs»"
 msgid "only one column in the argument to 'pairs'"
 msgstr "només una columna en l'argument per a «pairs»"
 
-#, fuzzy
 msgid "invalid argument 'horInd'"
-msgstr "l'argument «horInd» no és vàlid"
+msgstr "argument «horInd» no vàlid"
 
-#, fuzzy
 msgid "invalid argument 'verInd'"
 msgstr "argument «verInd» no vàlid"
 
-#, fuzzy
 msgid "the 'panel' function made a new plot"
-msgstr "la funció «plafó» ha creat un diagrama nou"
+msgstr "la funció «panel» ha creat una gràfica nova"
 
-#, fuzzy
 msgid "surface extends beyond the box"
 msgstr "la superfície s'estén més enllà de la caixa"
 
-#, fuzzy
 msgid "'x' values must be positive."
-msgstr "Els valors \"x\" han de ser positius."
+msgstr "Els valors «x» han de ser positius."
 
-#, fuzzy
 msgid "invalid table 'x'"
-msgstr "la taula «x» no és vàlida"
+msgstr "taula «x» no vàlida"
 
-#, fuzzy
 msgid "the formula '%s' is treated as '%s'"
-msgstr "la fórmula «%s» es tracta com a «%s»"
+msgstr "la fórmula «%s» es tractada com a «%s»"
 
-#, fuzzy
 msgid "cannot handle more than one 'x' coordinate"
-msgstr "no es pot gestionar més d'una coordenada «x»"
+msgstr "no es pot emprar més d'una coordenada «x»"
 
-#, fuzzy
 msgid "must have a response variable"
-msgstr "ha de tenir una variable de resposta"
+msgstr "ha de tenir una variable resposta"
 
 msgid "invalid plot type"
 msgstr "tipus de gràfic no vàlid"
 
-#, fuzzy
 msgid "plot type '%s' will be truncated to first character"
-msgstr "el tipus de diagrama «%s» es truncarà al primer caràcter"
+msgstr "el tipus de gràfica «%s» es truncarà al primer caràcter"
 
-#, fuzzy
 msgid "invalid plot type '%s'"
-msgstr "el tipus de diagrama «%s» no és vàlid"
+msgstr "el tipus de gràfica «%s» no és vàlid"
 
-#, fuzzy
 msgid "'plot.data.frame' applied to non data frame"
-msgstr "'plot.data.frame' aplicat a un fotograma no de dades"
+msgstr "«plot.data.frame» aplicat a un objecte diferent d'un «data.frame»"
 
-#, fuzzy
 msgid "'y' must be a numeric vector"
 msgstr "«y» ha de ser un vector numèric"
 
-#, fuzzy
 msgid "'x' must be a data frame"
-msgstr "«x» ha de ser un marc de dades"
+msgstr "«x» ha de ser un «data.frame»"
 
-#, fuzzy
 msgid "all columns/components of 'x' must be factors"
 msgstr "totes les columnes/components de «x» han de ser factors"
 
-#, fuzzy
 msgid "some levels of the factors are empty"
 msgstr "alguns nivells dels factors estan buits"
 
-#, fuzzy
 msgid "'x' must be a dataframe or a formula"
-msgstr "«x» ha de ser un fotograma de dades o una fórmula"
+msgstr "«x» ha de ser un «data.frame» o una fórmula"
 
-#, fuzzy
 msgid "a variable in 'y' is not numeric"
-msgstr "una variable a «y» no és numèrica"
+msgstr "una variable en «y» no és numèrica"
 
-#, fuzzy
 msgid "there must be at least one numeric variable!"
 msgstr "hi ha d'haver almenys una variable numèrica!"
 
-#, fuzzy
 msgid "cannot hatch with logarithmic scale active"
-msgstr "no es pot tramar amb escala logarítmica activa"
+msgstr "no es pot projectar amb l'escala logarítmica activa"
 
-#, fuzzy
 msgid "Invalid fill rule for graphics path"
-msgstr "Regla d'emplenat no vàlida per al camí dels gràfics"
+msgstr "Regla d'omplir no vàlida per un camí en el gràfic"
 
-#, fuzzy
 msgid "invalid rectangle specification"
 msgstr "especificació de rectangle no vàlida"
 
-#, fuzzy
 msgid "some values will be clipped"
 msgstr "alguns valors es retallaran"
 
-#, fuzzy
 msgid "invalid screen number"
 msgstr "número de pantalla no vàlid"
 
-#, fuzzy
 msgid "'figs' must be a vector or a matrix with 4 columns"
 msgstr "«figs» ha de ser un vector o una matriu amb 4 columnes"
 
-#, fuzzy
 msgid "'figs' must specify at least one screen"
 msgstr "«figs» ha d'especificar almenys una pantalla"
 
-#, fuzzy
 msgid "'nrpoints' should be numeric scalar with value >= 0."
-msgstr "«nrpoints» ha de ser un escalar numèric amb valor == 0."
+msgstr "«nrpoints» ha de ser un escalar numèric amb valor >= 0."
 
-#, fuzzy
 msgid "a 2-way table has to be specified"
-msgstr "s'ha d'especificar una taula de 2 vies"
+msgstr "s'ha d'especificar una taula de dues dimensions"
 
-#, fuzzy
 msgid "weights are not supported for 2-way table specification"
-msgstr "no s'admeten pesos per a l'especificació de taula de 2 vies"
+msgstr ""
+"no hi ha suport per pesos en l'especificació d'una taula dues dimensions"
 
-#, fuzzy
 msgid "x axis is on a cumulative probability scale, 'xlim' must be in [0,1]"
 msgstr ""
 "l'eix x es troba en una escala de probabilitat acumulada, «xlim» ha d'estar "
 "a [0,1]"
 
-#, fuzzy
 msgid "'x' must be a matrix or a data frame"
-msgstr "«x» ha de ser una matriu o un marc de dades"
+msgstr "«x» ha de ser una matriu o un «data.frame»"
 
-#, fuzzy
 msgid "data in 'x' must be numeric"
 msgstr "les dades en «x» han de ser numèriques"
 
-#, fuzzy
 msgid "'nrow * ncol' is less than the number of observations"
 msgstr "«nrow * ncol» és menor que el nombre d'observacions"
 
-#, fuzzy
 msgid "labels do not make sense for a single location"
 msgstr "les etiquetes no tenen sentit per a una única ubicació"
 
-#, fuzzy
 msgid "'locations' must be a 2-column matrix."
-msgstr "Les «localitzacions» han de ser una matriu de dues columnes."
+msgstr "«locations» ha de ser una matriu de dues columnes."
 
-#, fuzzy
 msgid "number of rows of 'locations' and 'x' must be equal."
-msgstr "el nombre de files de «ubicacions» i «x» ha de ser igual."
+msgstr "el nombre de files de «locations» i de «x» ha de ser igual."
 
-#, fuzzy
 msgid "length of 'angles' must equal 'ncol(x)'"
-msgstr "la longitud d'«angles» ha de ser igual que «ncol(x)»"
+msgstr "la longitud de «angles» ha de ser igual que la de «ncol(x)»"
 
-#, fuzzy
 msgid "no finite and non-missing values"
-msgstr "no hi ha valors finits ni perduts"
+msgstr "no hi ha valors finits ni no disponibles"
 
-#, fuzzy
 msgid "'scale' must be positive"
 msgstr "«scale» ha de ser positiu"
 
-#, fuzzy
 msgid "invalid plotting method"
-msgstr "mètode de traçat no vàlid"
+msgstr "mètode gràfic no vàlid"
 
-#, fuzzy
 msgid "'at' must have length equal to the number %d of groups"
 msgstr "«at» ha de tenir una longitud igual al nombre %d de grups"
 
-#, fuzzy
 msgid "formula missing or incorrect"
-msgstr "manca una fórmula o és incorrecta"
+msgstr "fórmula absent o incorrecta"
 
-#, fuzzy
 msgid "'number' must have same length as 'x' and 'y'"
 msgstr "«number» ha de tenir la mateixa longitud que «x» i «y»"
 
-#, fuzzy
 msgid "exactly one symbol type must be specified"
 msgstr "s'ha d'especificar exactament un tipus de símbol"
 
-#, fuzzy
 msgid "x log scale:  xinch() is nonsense"
-msgstr "escala x log: «xinch()» és absurd"
+msgstr "escala logarítmica x: «xinch()» no té sentit"
 
-#, fuzzy
 msgid "y log scale:  yinch() is nonsense"
-msgstr "Escala logarítmica y: yinch() és absurd"
+msgstr "escala logarítmica y: yinch() no té sentit"
 
-#, fuzzy
 msgid "log scale:  xyinch() is nonsense"
-msgstr "escala logarítmica: «xyinch()» és absurd"
+msgstr "escala logarítmica: «xyinch()» no té sentit"
 
-#, fuzzy
 msgid "Duplicated argument %s is disregarded"
 msgid_plural "Duplicated arguments %s are disregarded"
 msgstr[0] "S'ignora l'argument duplicat %s"
 msgstr[1] "S'ignoren els arguments duplicats %s"
 
-#, fuzzy
 msgid "Outlier (%s) in boxplot %d is not drawn"
 msgid_plural "Outliers (%s) in boxplot %d are not drawn"
-msgstr[0] "Atípic (%s) al diagrama de caixa %d no es dibuixa"
-msgstr[1] "No es dibuixen els valors atípics (%s) al diagrama de caixa %d"
+msgstr[0] "El valor atípic (%s) al diagrama de caixa %d no es mostra"
+msgstr[1] "Els valors atípics (%s) al diagrama de caixa %d no es mostren"
 
-#, fuzzy
 msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
-msgstr[0] "l'argument %s no s'utilitza de"
-msgstr[1] "els arguments %s no s'utilitzen de"
+msgstr[0] "l'argument %s no s'ha utilitzat"
+msgstr[1] "els arguments %s no s'han utilitzat"
 
