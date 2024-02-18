@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-02-05 03:05+0000\n"
+"PO-Revision-Date: 2024-02-19 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -51,63 +51,50 @@ msgstr "fallada d'optimització"
 msgid "time series has no or less than 2 periods"
 msgstr "la sèrie temporal no en té cap o menys 2 períodes"
 
-#, fuzzy
 msgid "the series is entirely NA"
 msgstr "la sèrie és completament NA"
 
-#, fuzzy
 msgid "frequency must be a positive integer >= 2 for BSM"
-msgstr "la freqüència ha de ser un enter positiu == 2 per BSM"
+msgstr "la freqüència ha de ser un enter positiu >= 2 per BSM"
 
-#, fuzzy
 msgid "only implemented for univariate time series"
 msgstr "només implementat per a sèries temporals univariants"
 
 msgid "'x' must be numeric"
 msgstr "«x» ha de ser numèric"
 
-#, fuzzy
 msgid "the first value of the time series must not be missing"
-msgstr "no s'ha de perdre el primer valor de la sèrie de temps"
+msgstr "el primer valor de la sèrie temporal no ha de ser no disponible"
 
-#, fuzzy
 msgid "all parameters were fixed"
 msgstr "s'han corregit tots els arguments"
 
-#, fuzzy
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
 msgstr ""
-"possible problema de convergència: «optim» ha donat codi = %d i missatge %s"
+"possible problema de convergència: «optim» ha donat el codi = %d i el "
+"missatge %s"
 
-#, fuzzy
 msgid "no factors in the fitted model"
 msgstr "no hi ha factors en el model ajustat"
 
-#, fuzzy
 msgid "'which' specified no factors"
-msgstr "'quin' no ha especificat cap factor"
+msgstr "«which» no especifica cap factor"
 
-#, fuzzy
 msgid "'which' specified some non-factors which will be dropped"
-msgstr "«which» ha especificat alguns no-factors que es deixaran anar"
+msgstr "«which» especifica alguns no-factors que es descartaran"
 
-#, fuzzy
 msgid "'sampleT' and 'nser' must be integer"
 msgstr "«sampleT» i «nser» han de ser enters"
 
-#, fuzzy
 msgid "'lag.max' must be at least 0"
 msgstr "«lag.max» ha de ser com a mínim 0"
 
-#, fuzzy
 msgid "'lag.max' must be at least 1"
 msgstr "«lag.max» ha de ser com a mínim 1"
 
-#, fuzzy
 msgid "NAs in 'x'"
-msgstr "SD en «x»"
+msgstr "NAs en «x»"
 
-#, fuzzy
 msgid "x$lag must have at least 1 column"
 msgstr "x$lag ha de tenir almenys 1 columna"
 
@@ -773,7 +760,6 @@ msgstr "diag(.) té 0 o NA entrades; el resultat no definit és dubtos"
 msgid "'x' must be a numeric vector"
 msgstr "«x» ha de ser un vector numèric"
 
-#, fuzzy
 msgid "'y' must be a numeric vector"
 msgstr "«y» ha de ser un vector numèric"
 
@@ -793,9 +779,8 @@ msgstr "manca la «fórmula» o no és vàlida"
 msgid "invalid formula"
 msgstr "fórmula no vàlida"
 
-#, fuzzy
 msgid "'x' must be a matrix or a data frame"
-msgstr "«x» ha de ser una matriu o un marc de dades"
+msgstr "«x» ha de ser una matriu o un «data.frame»"
 
 #, fuzzy
 msgid "'x' must contain finite values only"
