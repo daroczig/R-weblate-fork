@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Reiko Okamoto <reiko.okamoto17@gmail.com>\n"
+"PO-Revision-Date: 2024-02-26 03:05+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgid "numeric 'names' must be >= 1"
 msgstr "数値 'names' は 1 以上でなければなりません"
 
 msgid "node of a socket cluster on host %s with pid %d"
-msgstr "PID %d を持つホスト %s 上のソケットクラスターのノード"
+msgstr "PID %2$d を持つホスト %1$s 上のソケットクラスターのノード"
 
 msgid "Connection setup failed or timed out."
 msgstr "接続の設定に失敗または、タイムアウトしました"
@@ -114,7 +114,7 @@ msgstr[0] "クラスターの設定に失敗しました。%d 個のワーカー
 
 msgid "socket cluster with %d nodes on host %s"
 msgid_plural "socket cluster with %d nodes on hosts %s"
-msgstr[0] "ホスト %s 上に %d 個のノードを持つソケットクラスター"
+msgstr[0] "ホスト %2$s 上に %1$d 個のノードを持つソケットクラスター"
 
 msgid "%d parallel function call did not deliver a result"
 msgid_plural "%d parallel function calls did not deliver results"
