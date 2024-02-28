@@ -200,7 +200,6 @@ msgid "%s has no methods defined"
 msgstr "%s没有设定任何方法"
 
 msgid "bad class specified for element %d (should be a single character string)"
-"bad class specified for element %d (should be a single character string)"
 msgstr "为單元%d所设定的类别不正确(应当是条单字符字串)"
 
 msgid "first argument should be the names of one of more generic functions (got object of class %s)"
