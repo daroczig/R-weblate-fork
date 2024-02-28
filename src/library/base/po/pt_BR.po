@@ -1850,7 +1850,7 @@ msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() aplicado a um objeto diferente de lista ou vetor de tipo '%s'"
 
 #: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
-#, c-format
+#, fuzzy, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "tipo não implementado '%s' em '%s'"
 

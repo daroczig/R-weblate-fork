@@ -1525,7 +1525,7 @@ msgid "'bin' must be numeric or a factor"
 msgstr ""
 
 msgid "invalid value of %s"
-msgstr "قيمة غير صالحة ل ٪س"
+msgstr "قيمة غير صالحة %sس"
 
 msgid "'INDEX' is of length zero"
 msgstr ""
