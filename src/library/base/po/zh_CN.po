@@ -14,6 +14,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -27,6 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -370,7 +372,9 @@ msgstr "'names'必需是字符向量"
 msgid ""
 "expanded path length %d would be too long for\n"
 "%s\n"
-msgstr "扩展路径长度 %d 对于 %s 来说太长\n"
+msgstr ""
+"扩展路径长度 %d 太长了，对于\n"
+"%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -997,8 +1001,8 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"不推荐使用向量数组算术中长度为 1 的回收数组。\n"
-"  请改用  c()  或 as.vector()"
+"不推荐在向量数组算术中使用长度为 1 的回收数组。\n"
+"   使用 c() 或 as.vector() 代替。"
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
 msgid "non-conformable arrays"
@@ -1375,7 +1379,7 @@ msgstr "一定要有'methods'程序包才能用正式类别"
 #: src/main/attrib.c:1909
 #, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "没有适用于类“%s”对象的 `@` 方法。"
+msgstr "没有适用于`@`的方法应用于类“%s”的对象"
 
 #: src/main/bind.c:165
 #, c-format
@@ -2592,9 +2596,9 @@ msgstr "没有可回归的函数, 跳到最高层"
 msgid "target context is not on the stack"
 msgstr "目标上下文不在堆叠上"
 
-#: src/main/context.c:385
+#: src/main/context.c:377
 msgid "NA argument is invalid"
-msgstr "列表参数的名称无效"
+msgstr "NA 参数无效"
 
 #: src/main/context.c:393 src/main/context.c:408 src/main/context.c:491
 #: src/main/context.c:503 src/main/context.c:514 src/main/context.c:526
@@ -8828,6 +8832,7 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
 
 
 
