@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-02-19 03:05+0000\n"
+"PO-Revision-Date: 2024-03-04 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -98,160 +98,126 @@ msgstr "NAs en «x»"
 msgid "x$lag must have at least 1 column"
 msgstr "x$lag ha de tenir almenys 1 columna"
 
-#, fuzzy
 msgid "can use ci.type=\"ma\" only if first lag is 0"
 msgstr "només es pot utilitzar ci.type=\"ma\" si el primer retard és 0"
 
-#, fuzzy
 msgid "Page [%d,%d]: i =%s; j =%s"
 msgstr "Pàgina [%d,%d]: i =%s; j =%s"
 
-#, fuzzy
 msgid "univariate time series only"
 msgstr "només sèries temporals univariants"
 
-#, fuzzy
 msgid "no terms in scope"
-msgstr "sense termes en l'àmbit"
+msgstr "àmbit sense termes"
 
-#, fuzzy
 msgid "no terms in scope for adding to object"
 msgstr "no hi ha termes en l'àmbit per afegir a l'objecte"
 
-#, fuzzy
 msgid "number of rows in use has changed: remove missing values?"
 msgstr ""
-"el nombre de files en ús ha canviat: voleu eliminar els valors que manquen?"
+"el nombre de files en ús ha canviat: voleu eliminar els valors no "
+"disponibles?"
 
-#, fuzzy
 msgid "attempting model selection on an essentially perfect fit is nonsense"
 msgstr ""
 "intentar la selecció del model en un ajust essencialment perfecte és absurd"
 
-#, fuzzy
 msgid "F test assumes quasi%s family"
-msgstr "La prova F assumeix la família quasi%s"
+msgstr "La prova F assumeix una família quasi%s"
 
-#, fuzzy
 msgid "no 'add1' method implemented for \"mlm\" models"
 msgstr "no s'ha implementat el mètode «add1» per als models «mlm»"
 
-#, fuzzy
 msgid "scope is not a subset of term labels"
-msgstr "l'àmbit no és un subconjunt d'etiquetes de termes"
+msgstr "l'àmbit no és un subconjunt d'etiquetes dels termes"
 
-#, fuzzy
 msgid "no 'drop1' method for \"mlm\" models"
 msgstr "no hi ha cap mètode «drop1» per als models «mlm»"
 
-#, fuzzy
 msgid "F test assumes 'quasi%s' family"
-msgstr "La prova F assumeix la família «quasi%s»"
+msgstr "La prova F assumeix una família «quasi%s»"
 
-#, fuzzy
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
 msgstr ""
-"L'AIC no està definit per a aquest model, de manera que «pas» no pot "
-"continuar"
+"L'AIC no està definit per a aquest model, de manera que «step» no pot "
+"procedir"
 
-#, fuzzy
 msgid "AIC is -infinity for this model, so 'step' cannot proceed"
 msgstr ""
-"L'AIC és -infinit per a aquest model, de manera que el «pas» no pot continuar"
+"L'AIC és -infinit per a aquest model, de manera que el «step» no pot procedir"
 
-#, fuzzy
 msgid "'A' must be an array or table"
-msgstr "«A» ha de ser una matriu o una taula"
+msgstr "«A» ha de ser un vector o una taula"
 
-#, fuzzy
 msgid "length of FUN, %d,\n does not match the length of the margins, %d"
 msgstr ""
-"longitud de la DIVERSIÓ, %d,\n"
-" no coincideix amb la longitud dels marges, %d"
+"la longitud de FUN, %d,\n"
+" no correspon amb la longitud dels marges, %d"
 
-#, fuzzy
 msgid "no rows to aggregate"
-msgstr "no hi ha cap fila per agregar"
+msgstr "no hi ha files per agregar"
 
-#, fuzzy
 msgid "'by' must be a list"
 msgstr "«by» ha de ser una llista"
 
 msgid "arguments must have same length"
 msgstr "els arguments han de tenir la mateixa longitud"
 
-#, fuzzy
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
-msgstr "manca l'argument «x»: s'ha canviat el nom de «fórmula»"
+msgstr "manca l'argument «x» -- ha estat renombrat a partir de «formula»"
 
-#, fuzzy
 msgid "argument 'x' must be a formula"
 msgstr "l'argument «x» ha de ser una fórmula"
 
-#, fuzzy
 msgid "formula 'x' must have both left and right hand sides"
 msgstr "la fórmula «x» ha de tenir els costats esquerre i dret"
 
-#, fuzzy
 msgid "cannot change frequency from %g to %g"
 msgstr "no es pot canviar la freqüència de %g a %g"
 
-#, fuzzy
 msgid "'x' must be coefficient matrix/data frame"
-msgstr "«x» ha de ser un fotograma de matriu de coeficients/dades"
+msgstr "«x» ha de ser una matriu/data frame de coeficients"
 
-#, fuzzy
 msgid "option \"show.coef.Pvalues\" is invalid: assuming TRUE"
-msgstr "opció \"show.coef.Pvalues\" no és vàlid: s'assumeix CERT"
+msgstr "opció «show.coef.Pvalues» no és vàlid: s'assumeix TRUE"
 
-#, fuzzy
 msgid "'P.values' is TRUE, but 'has.Pvalue' is not"
-msgstr "«P.values» és CERT, però «has».Pvalue' no és"
+msgstr "«P.values» és TRUE, però «has.Pvalue» no ho és"
 
-#, fuzzy
 msgid "wrong k / cs.ind"
-msgstr "k / cs.ind incorrecte"
+msgstr "incorrecte k / cs.ind"
 
-#, fuzzy
 msgid "option \"show.signif.stars\" is invalid: assuming TRUE"
-msgstr "l'opció «show.signif.stars» no és vàlida: s'assumeix CERT"
+msgstr "l'opció «show.signif.stars» no és vàlida: s'assumeix TRUE"
 
-#, fuzzy
 msgid "'anova' object must have colnames"
-msgstr "L'objecte «anova» ha de tenir noms de col"
+msgstr "l'objecte «anova» ha de tenir noms de columna"
 
 msgid "'conf.level' must be a single number between 0 and 1"
 msgstr "«conf.level» ha de ser un únic nombre entre 0 i 1"
 
-#, fuzzy
 msgid "not enough 'x' observations"
-msgstr "no hi ha suficients observacions «x»"
+msgstr "no hi ha proutes observacions «x»"
 
-#, fuzzy
 msgid "not enough 'y' observations"
-msgstr "no hi ha prou observacions «y»"
+msgstr "no hi ha proutes observacions «y»"
 
-#, fuzzy
 msgid "samples differ in location: cannot compute confidence set, returning NA"
 msgstr ""
 "les mostres difereixen en la ubicació: no es pot calcular el conjunt de "
-"confiança, s'ha retornat el NA"
+"confiança, retornant NA"
 
-#, fuzzy
 msgid "cannot compute confidence set, returning NA"
-msgstr "no s'ha pogut calcular el conjunt de confiança, s'ha retornat NA"
+msgstr "no es pot calcular el conjunt de confiança, retornant NA"
 
-#, fuzzy
 msgid "cannot compute asymptotic confidence set or estimator"
 msgstr "no es pot calcular el conjunt de confiança o estimador asimptòtic"
 
-#, fuzzy
 msgid "cannot compute estimate, returning NA"
-msgstr "no s'ha pogut calcular l'estimació, s'ha retornat el NA"
+msgstr "no es pot calcular l'estimació, retornant NA"
 
-#, fuzzy
 msgid "cannot compute exact p-value with ties"
-msgstr "no es pot calcular el valor p exacte amb les relacions"
+msgstr "no es pot calcular un p-valor exacte amb empats"
 
 #, fuzzy
 msgid "cannot compute exact confidence intervals with ties"
