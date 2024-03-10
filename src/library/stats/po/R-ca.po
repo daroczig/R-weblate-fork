@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-04 03:05+0000\n"
+"PO-Revision-Date: 2024-03-11 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -219,14 +219,12 @@ msgstr "no es pot calcular l'estimació, retornant NA"
 msgid "cannot compute exact p-value with ties"
 msgstr "no es pot calcular un p-valor exacte amb empats"
 
-#, fuzzy
 msgid "cannot compute exact confidence intervals with ties"
-msgstr "no es poden calcular intervals de confiança exactes amb vincles"
+msgstr "no es poden calcular intervals de confiança exactes amb empats"
 
 msgid "'formula' missing or incorrect"
 msgstr "«formula» absent o incorrecta"
 
-#, fuzzy
 msgid "grouping factor must have exactly 2 levels"
 msgstr "El factor d'agrupació ha de tenir exactament 2 nivells"
 
@@ -678,7 +676,6 @@ msgstr "matriu de contrast singular"
 msgid "numeric contrasts or contrast name expected"
 msgstr "s'esperava un contrast numèric o un nom de contrast"
 
-#, fuzzy
 msgid "%s needs package 'Matrix' correctly installed"
 msgstr "%s necessita el paquet «Matrix» instal·lat correctament"
 
