@@ -561,7 +561,7 @@ msgstr ""
 "無効な DCF 形式です。\n"
 "連続する行はレコードで開始できません。\n"
 "不正な行は次の場所で始まっています:\n"
-"%s"
+"%s "
 
 msgid "failed to load the methods package for debugging by signature"
 msgstr ""
@@ -1347,7 +1347,7 @@ msgid "an argument will be fractionally recycled"
 msgstr "引数は繰り返して使われます"
 
 msgid "invalid ncol(x)"
-msgstr "ncol(x) が不正です "
+msgstr "ncol(x) が不正です"
 
 msgid "too large a matrix for LINPACK"
 msgstr "LINPACK には大きすぎる行列です"

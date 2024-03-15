@@ -5542,7 +5542,8 @@ msgstr "正值机率太少"
 
 #: src/main/random.c:485 src/main/random.c:513
 msgid "cannot take a sample larger than the population when 'replace = FALSE'"
-msgstr "'replace = FALSE'，因此不能取比总体要大的样本"
+msgstr ""
+"'replace = FALSE'，因此不能取比总体要大的样本"
 
 #: src/main/random.c:492
 msgid "incorrect number of probabilities"
