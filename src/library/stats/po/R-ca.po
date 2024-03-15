@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-11 03:05+0000\n"
+"PO-Revision-Date: 2024-03-16 22:06+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -228,81 +228,64 @@ msgstr "«formula» absent o incorrecta"
 msgid "grouping factor must have exactly 2 levels"
 msgstr "El factor d'agrupació ha de tenir exactament 2 nivells"
 
-#, fuzzy
 msgid "weights are not supported in a multistratum aov() fit"
 msgstr "els pesos no estan suportats en un ajust aov() multistratum"
 
-#, fuzzy
 msgid "Error() model is singular"
 msgstr "El model Error() és singular"
 
-#, fuzzy
 msgid "the 'split' argument must be a list"
 msgstr "l'argument «split» ha de ser una llista"
 
-#, fuzzy
 msgid "'coef' must define a contrast, i.e., sum to 0"
-msgstr "«coef» ha de definir un contrast, és a dir, suma a 0"
+msgstr "«coef» ha de definir un contrast, és a dir, ha de sumar 0"
 
-#, fuzzy
 msgid "'coef' must have same length as 'contrast.obj'"
 msgstr "«coef» ha de tenir la mateixa longitud que «contrast.obj»"
 
-#, fuzzy
 msgid "each element of '%s' must be logical"
 msgstr "cada element de «%s» ha de ser lògic"
 
-#, fuzzy
 msgid "the contrast defined is empty (has no TRUE elements)"
-msgstr "el contrast definit és buit (no té elements CERT)"
+msgstr "el contrast definit és buit (no té elements TRUE)"
 
-#, fuzzy
 msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
-msgstr "les columnes de «contrast.obj» han de definir un contrast (suma a zero)"
+msgstr ""
+"les columnes de «contrast.obj» han de definir un contrast (han de sumar zero)"
 
-#, fuzzy
 msgid "no degrees of freedom for residuals"
-msgstr "sense graus de llibertat per als residus"
+msgstr "no hi ha graus de llibertat per als residus"
 
-#, fuzzy
 msgid "'object' does not include an error 'qr' component"
-msgstr "'objecte' no inclou un component 'qr' d'error"
+msgstr "«object» no inclou un component d'error «qr»"
 
-#, fuzzy
 msgid "Refitting model to allow projection"
-msgstr "Refitant el model per permetre la projecció"
+msgstr "Reajustant el model per permetre la projecció"
 
-#, fuzzy
 msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
-msgstr "les columnes de «contrast.obj» han de definir un contrast(suma a zero)"
+msgstr ""
+"les columnes de «contrast.obj» han de definir un contrast(han de sumar zero)"
 
-#, fuzzy
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
-msgstr "'ties' no és \"ordenada\", una funció, o llista(<string>, <function>)"
+msgstr "«ties» no és «ordered», una funció, o list(<string>, <function>)"
 
-#, fuzzy
 msgid "collapsing to unique 'x' values"
-msgstr "s'està col·lapsant a valors únics «x»"
+msgstr "col·lapsant a valors únics «x»"
 
-#, fuzzy
 msgid "invalid interpolation method"
 msgstr "mètode d'interpolació no vàlid"
 
-#, fuzzy
 msgid "need at least two non-NA values to interpolate"
-msgstr "es necessiten almenys dos valors que no siguin N per a interpolar"
+msgstr "es necessiten almenys dos valors que no siguin NA per a interpolar"
 
-#, fuzzy
 msgid "zero non-NA points"
 msgstr "zero punts no-NA"
 
-#, fuzzy
 msgid "'approx' requires n >= 1"
-msgstr "«approx» requereix n == 1"
+msgstr "«approx» requereix n >= 1"
 
-#, fuzzy
 msgid "NAs in 'x' must be the same row-wise"
-msgstr "Les SD en «x» han de ser les mateixes files"
+msgstr "NAs en «x» han de ser les mateixes fila a fila"
 
 msgid "'order.max' must be >= 1"
 msgstr "«order.max» ha de ser >= 1"
@@ -310,15 +293,12 @@ msgstr "«order.max» ha de ser >= 1"
 msgid "'order.max' must be < 'n.obs'"
 msgstr "«order.max» ha de ser < «n.obs»"
 
-#, fuzzy
 msgid "zero-variance series"
-msgstr "sèrie de zero variacions"
+msgstr "sèrie de variància zero"
 
-#, fuzzy
 msgid "'n.ahead' must be at least 1"
 msgstr "«n.ahead» ha de ser com a mínim 1"
 
-#, fuzzy
 msgid "number of series in 'object' and 'newdata' do not match"
 msgstr "el nombre de sèries a «object» i «newdata» no coincideixen"
 
