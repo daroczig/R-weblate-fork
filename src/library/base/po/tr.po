@@ -5987,7 +5987,7 @@ msgstr "giriş mevcut değil"
 
 #: src/main/saveload.c:2504
 msgid "the input does not start with a magic number compatible with loading from a connection"
-msgstr "girdi bir bağlant "
+msgstr "girdi bir bağlant"
 
 #: src/main/scan.c:374 src/main/scan.c:424
 msgid "EOF within quoted string"
