@@ -2867,7 +2867,7 @@ msgstr "aygıtı yerleştirmek için yeterli bellek yok (GEcreateDevDes içinde)
 
 #: src/main/devices.c:545
 msgid "Hit <Return> to see next plot: "
-msgstr "Sonraki çizimi görmek için <Enter>'a basın: "
+msgstr "Sonraki çizimi görmek için <Enter>'a basın:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3016,7 +3016,7 @@ msgstr "call_R içinde '%s' modu desteklenmiyor"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " '%s dosyasının üzerine yazılmıyor"
+msgstr "'%s dosyasının üzerine yazılmıyor"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3247,12 +3247,12 @@ msgstr "sonsuz eksen uzatımı [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 #, fuzzy
@@ -3660,7 +3660,7 @@ msgstr "%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() 
 
 #: src/main/errors.c:762
 msgid "Error during wrapup: "
-msgstr "wrapup sırasında hata: "
+msgstr "wrapup sırasında hata:"
 
 #: src/main/errors.c:773
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3668,7 +3668,7 @@ msgstr ""
 
 #: src/main/errors.c:792
 msgid "Error in "
-msgstr "Hata oluştu: "
+msgstr "Hata oluştu:"
 
 #: src/main/errors.c:814 src/main/errors.c:821
 #, c-format
@@ -3678,15 +3678,15 @@ msgstr ""
 #: src/main/errors.c:823
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Hata oluştu: "
+msgstr "Hata oluştu:"
 
 #: src/main/errors.c:846 src/main/errors.c:852
 msgid "Error: "
-msgstr "Hata: "
+msgstr "Hata:"
 
 #: src/main/errors.c:888 src/main/errors.c:1500
 msgid "In addition: "
-msgstr "Ek olarak: "
+msgstr "Ek olarak:"
 
 #: src/main/errors.c:1014
 msgid "invalid option \"error\"\n"
@@ -3706,11 +3706,11 @@ msgstr "'sep' bir karakter dizesi olmalı"
 
 #: src/main/errors.c:1362
 msgid " [invalid string in stop(.)]"
-msgstr " [stop(.)'da geçersiz dize]"
+msgstr "[stop(.)'da geçersiz dize]"
 
 #: src/main/errors.c:1394
 msgid " [invalid string in warning(.)]"
-msgstr " [warning(.)'de geçersiz dize]"
+msgstr "[warning(.)'de geçersiz dize]"
 
 #: src/main/errors.c:1410
 #, c-format
@@ -3851,7 +3851,7 @@ msgstr "fonksiyon olmayana uygulama denemesi"
 #: src/main/eval.c:1313
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s (%s#%d'de): "
+msgstr "%s (%s#%d'de):"
 
 #: src/main/eval.c:2461 src/main/eval.c:3670
 #, c-format
@@ -4541,7 +4541,7 @@ msgstr ""
 
 #: src/main/main.c:335
 msgid "error during cleanup\n"
-msgstr "cleanup sırasında hata\n"
+msgstr "wrapup sırasında hata:"
 
 #: src/main/main.c:344
 msgid "Execution halted\n"
@@ -4562,7 +4562,7 @@ msgstr ".RData'da kayıtlı veri geri alınamadı\n"
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "Başlangıç sırasında - "
+msgstr "Başlangıç sırasında -"
 
 #: src/main/main.c:1193
 msgid "unable to initialize the JIT\n"
@@ -5943,7 +5943,7 @@ msgstr "giriş mevcut değil"
 
 #: src/main/saveload.c:2504
 msgid "the input does not start with a magic number compatible with loading from a connection"
-msgstr "girdi bir bağlant"
+msgstr "girdi bir bağlant "
 
 #: src/main/scan.c:374 src/main/scan.c:424
 msgid "EOF within quoted string"
