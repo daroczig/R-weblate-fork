@@ -129,5 +129,5 @@ msgstr "no s'ha pogut compilar aquesta expressió"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "assignació local a una funció sintàctica: "
-msgstr[1] "assignacions locals a funcions sintàctiques: "
+msgstr[0] "assignació local a una funció sintàctica:"
+msgstr[1] "assignacions locals a funcions sintàctiques:"
