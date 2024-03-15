@@ -2817,7 +2817,7 @@ msgstr "zbyt mało pamięci aby przydzielić urządzenie (w GEcreateDevDesc)"
 
 #: src/main/devices.c:545
 msgid "Hit <Return> to see next plot: "
-msgstr "Naciśnij <Enter> aby zobaczyć kolejny wykres: "
+msgstr "Naciśnij <Enter> aby zobaczyć kolejny wykres:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3185,12 +3185,12 @@ msgstr "nieskończone długości osi '[GEPretty(%g,%g,%d)]'"
 #: src/main/engine.c:2499
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. 'GEPretty(.)': nowy *lo = %g < %g = x1"
+msgstr ".. 'GEPretty(.)': nowy *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. 'GEPretty(.)': nowy *up = %g > %g = x2"
+msgstr ".. 'GEPretty(.)': nowy *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3610,7 +3610,7 @@ msgstr "Błąd w "
 #: src/main/errors.c:814 src/main/errors.c:821
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Błąd w poleceniu '%s' (z %s): "
+msgstr "Błąd w poleceniu '%s' (z %s):"
 
 #: src/main/errors.c:823
 #, c-format
@@ -3619,11 +3619,11 @@ msgstr "Błąd w poleceniu '%s': "
 
 #: src/main/errors.c:846 src/main/errors.c:852
 msgid "Error: "
-msgstr "BŁĄD: "
+msgstr "BŁĄD:"
 
 #: src/main/errors.c:888 src/main/errors.c:1500
 msgid "In addition: "
-msgstr "Dodatkowo: "
+msgstr "Dodatkowo:"
 
 #: src/main/errors.c:1014
 msgid "invalid option \"error\"\n"
@@ -3643,11 +3643,11 @@ msgstr "'%s' musi być łańcuchem tekstowym"
 
 #: src/main/errors.c:1362
 msgid " [invalid string in stop(.)]"
-msgstr " [niepoprawny łańcuch tekstowy w 'stop()']"
+msgstr "[niepoprawny łańcuch tekstowy w 'stop()']"
 
 #: src/main/errors.c:1394
 msgid " [invalid string in warning(.)]"
-msgstr " [niepoprawny łańcuch w 'warning()']"
+msgstr "[niepoprawny łańcuch w 'warning()']"
 
 #: src/main/errors.c:1410
 #, c-format
@@ -3788,7 +3788,7 @@ msgstr "próba zastosowania nie-funkcji"
 #: src/main/eval.c:1313
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "'%s' w %s#%d: "
+msgstr "'%s' w %s#%d:"
 
 #: src/main/eval.c:2461 src/main/eval.c:3670
 #, c-format
@@ -4391,12 +4391,12 @@ msgstr "ścieżka o długości zero"
 #: src/main/grep.c:3071
 #, fuzzy, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre_fullinfo' zwrócił '%d' "
+msgstr "'pcre_fullinfo' zwrócił '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' zwrócił '%d' "
+msgstr "'pcre_fullinfo' zwrócił '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4491,7 +4491,7 @@ msgstr "nie można odtworzyć zapisanych danych w '%s'\n"
 
 #: src/main/main.c:1177
 msgid "During startup - "
-msgstr "Podczas startu - "
+msgstr "Podczas startu -"
 
 #: src/main/main.c:1193
 msgid "unable to initialize the JIT\n"
