@@ -59,7 +59,7 @@ msgstr "Scrolling.\n"
 
 #: src/gnuwin32/console.c:2302
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
+msgstr " Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
 
 #: src/gnuwin32/console.c:2303
 msgid ""
@@ -75,39 +75,39 @@ msgstr "Editing.\n"
 
 #: src/gnuwin32/console.c:2305
 msgid "  Moving the cursor: \n"
-msgstr "  Moving the cursor: \n"
+msgstr " Moving the cursor: \n"
 
 #: src/gnuwin32/console.c:2306
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     Left arrow or Ctrl+B: move backward one character;\n"
+msgstr "    Left arrow or Ctrl+B: move backward one character;\n"
 
 #: src/gnuwin32/console.c:2307
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     Right arrow or Ctrl+F: move forward one character;\n"
+msgstr "    Right arrow or Ctrl+F: move forward one character;\n"
 
 #: src/gnuwin32/console.c:2308
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Home or Ctrl+A: go to beginning of line;\n"
+msgstr "    Home or Ctrl+A: go to beginning of line;\n"
 
 #: src/gnuwin32/console.c:2309
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     End or Ctrl+E: go to end of line;\n"
+msgstr "    End or Ctrl+E: go to end of line;\n"
 
 #: src/gnuwin32/console.c:2310
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
+msgstr " History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2311
 msgid "  Deleting:\n"
-msgstr "  Deleting:\n"
+msgstr " Deleting:\n"
 
 #: src/gnuwin32/console.c:2312
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Del or Ctrl+D: delete current character or selection;\n"
+msgstr "    Del or Ctrl+D: delete current character or selection;\n"
 
 #: src/gnuwin32/console.c:2313
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Backspace: delete preceding character;\n"
+msgstr "    Backspace: delete preceding character;\n"
 
 #: src/gnuwin32/console.c:2314
 msgid ""
@@ -117,11 +117,11 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2315
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: delete all text from current line.\n"
+msgstr "    Ctrl+U: delete all text from current line.\n"
 
 #: src/gnuwin32/console.c:2316
 msgid "  Copy and paste.\n"
-msgstr "  Copy and paste.\n"
+msgstr " Copy and paste.\n"
 
 #: src/gnuwin32/console.c:2317
 msgid ""
@@ -145,23 +145,23 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2320
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     to the console, Ctrl+X first copy then paste\n"
+msgstr "    to the console, Ctrl+X first copy then paste\n"
 
 #: src/gnuwin32/console.c:2321
 msgid "  Misc:\n"
-msgstr "  Misc:\n"
+msgstr " Misc:\n"
 
 #: src/gnuwin32/console.c:2322
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: Clear the console.\n"
+msgstr "    Ctrl+L: Clear the console.\n"
 
 #: src/gnuwin32/console.c:2323
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
+msgstr "    Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
 
 #: src/gnuwin32/console.c:2324
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: Interchange current char with one to the left.\n"
+msgstr "    Ctrl+T: Interchange current char with one to the left.\n"
 
 #: src/gnuwin32/console.c:2325
 msgid ""
@@ -253,15 +253,15 @@ msgstr "To run a line or section of R code, select the code and either\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Press Ctrl-R\n"
+msgstr "    Press Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     Select \"Run line or selection\" from the \"Edit\" menu\n"
+msgstr "    Select \"Run line or selection\" from the \"Edit\" menu\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     Press the \"Run line or selection\" icon on the toolbar\n"
+msgstr "    Press the \"Run line or selection\" icon on the toolbar\n"
 
 #: src/gnuwin32/editor.c:682
 msgid ""
@@ -836,7 +836,7 @@ msgstr "Question"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " Change working directory to:"
+msgstr "Change working directory to:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
