@@ -58,7 +58,7 @@ msgstr "chaîne de caractères 'numerals' incorrecte : \"%s\""
 #: io.c:779
 #, c-format
 msgid "Selection: "
-msgstr "Sélection : "
+msgstr "Sélection :"
 
 #: io.c:874 io.c:889
 msgid "cannot allocate buffer in 'readTableHead'"

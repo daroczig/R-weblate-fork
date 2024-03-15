@@ -58,7 +58,7 @@ msgstr "cadena «numerals» no vàlida: «%s»"
 #: io.c:779
 #, c-format
 msgid "Selection: "
-msgstr "Selecció: "
+msgstr "Selecció:"
 
 #: io.c:874 io.c:889
 msgid "cannot allocate buffer in 'readTableHead'"
