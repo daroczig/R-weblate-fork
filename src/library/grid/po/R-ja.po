@@ -605,11 +605,11 @@ msgstr "'grid' 名前空間をアンロードする際にすべてのデバイ�
 
 msgid "invalid grob name"
 msgid_plural "invalid grob names"
-msgstr[0] "不正な grob 名です"
+msgstr[0] " 不正な grob 名です"
 
 msgid "invalid viewport name"
 msgid_plural "invalid viewport names"
-msgstr[0] "不正な viewport 名です"
+msgstr[0] " 不正な viewport 名です"
 
 #~ msgid "'x' argument must be a unit object"
 #~ msgstr " 引数 'x' は単位 (units) オブジェクトでなければなりません "
