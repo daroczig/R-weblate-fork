@@ -561,7 +561,7 @@ msgstr ""
 "無効な DCF 形式です。\n"
 "連続する行はレコードで開始できません。\n"
 "不正な行は次の場所で始まっています:\n"
-"%s "
+"%s"
 
 msgid "failed to load the methods package for debugging by signature"
 msgstr ""
