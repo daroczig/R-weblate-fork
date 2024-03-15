@@ -1247,6 +1247,10 @@ msgstr "一時ディレクトリ %s を生成することが出来ません"
 msgid "expected one package directory, found %d."
 msgstr ""
 
+#, fuzzy
+msgid "one of 'package' and 'dir' must be specified."
+msgstr "正確に 1 つの Rd ファイルは指定されなければなりません"
+
 msgid "argument '%s' must be a character string or connection"
 msgstr "引数 '%s' は文字列かコネクションでなければなりません"
 
@@ -1481,83 +1485,83 @@ msgstr "'%s' を構文解析中"
 
 msgid "Undeclared package %s in Rd xrefs"
 msgid_plural "Undeclared packages %s in Rd xrefs"
-msgstr[0] "Rd xrefs 中に未知のパッケージ %s があります"
+msgstr[0] " Rd xrefs 中に未知のパッケージ %s があります"
 
 msgid "Package unavailable to check Rd xrefs: %s"
 msgid_plural "Packages unavailable to check Rd xrefs: %s"
-msgstr[0] "Rd xrefs をチェックするためのパッケージがありません: %s"
+msgstr[0] " Rd xrefs をチェックするためのパッケージがありません: %s"
 
 msgid "Unknown package %s in Rd xrefs"
 msgid_plural "Unknown packages %s in Rd xrefs"
-msgstr[0] "Rd xrefs 中に未知のパッケージ %s があります"
+msgstr[0] " Rd xrefs 中に未知のパッケージ %s があります"
 
 msgid "Note: found %d marked Latin-1 string"
 msgid_plural "Note: found %d marked Latin-1 strings"
-msgstr[0] "注意: %d 個の Latin-1 コードの文字が見つかりました"
+msgstr[0] " 注意: %d 個の Latin-1 コードの文字が見つかりました"
 
 msgid "Note: found %d marked UTF-8 string"
 msgid_plural "Note: found %d marked UTF-8 strings"
-msgstr[0] "注意: %d 個の UTF-8 コードの文字が見つかりました"
+msgstr[0] " 注意: %d 個の UTF-8 コードの文字が見つかりました"
 
 msgid "Note: found %d string marked as \"bytes\""
 msgid_plural "Note: found %d strings marked as \"bytes\""
-msgstr[0] "注意: %d 個の \"bytes\" コードの文字が見つかりました"
+msgstr[0] " 注意: %d 個の \"bytes\" コードの文字が見つかりました"
 
 msgid "Warning in file %s:"
 msgid_plural "Warnings in file %s:"
-msgstr[0] "ファイル %s 中に警告:"
+msgstr[0] " ファイル %s 中に警告:"
 
 msgid "Found possibly global 'T' or 'F' in the following function:"
 msgid_plural "Found possibly global 'T' or 'F' in the following functions:"
-msgstr[0] "以下の関数中に大局的かもしれない 'T' もしくは 'F' がありました:"
+msgstr[0] " 以下の関数中に大局的かもしれない 'T' もしくは 'F' がありました:"
 
 msgid "Found possibly global 'T' or 'F' in the examples of the following Rd file:"
 msgid_plural "Found possibly global 'T' or 'F' in the examples of the following Rd files:"
-msgstr[0] "以下の Rd ファイルの例示中に大局的かもしれない 'T' もしくは 'F' がありました:"
+msgstr[0] " 以下の Rd ファイルの例示中に大局的かもしれない 'T' もしくは 'F' がありました:"
 
 msgid "Possibly missing '()' after 'return' in the following function:"
 msgid_plural "Possibly missing '()' after 'return' in the following functions:"
-msgstr[0] "以下の関数中に大局的かもしれない 'T' もしくは 'F' がありました:"
+msgstr[0] " 以下の関数中に大局的かもしれない 'T' もしくは 'F' がありました:"
 
 msgid "Found a .Internal call in the following function:"
 msgid_plural "Found .Internal calls in the following functions:"
-msgstr[0] "以下の関数中に .internal 呼び出しが見つかりました:"
+msgstr[0] " 以下の関数中に .internal 呼び出しが見つかりました:"
 
 msgid "Found a.Internal call in methods for the following S4 generic:"
 msgid_plural "Found .Internal calls in methods for the following S4 generics:"
-msgstr[0] "以下の S4 関数に対するメソッド中に .Internal 呼び出しが見つかりました:"
+msgstr[0] " 以下の S4 関数に対するメソッド中に .Internal 呼び出しが見つかりました"
 
 msgid "Found a .Internal call in methods for the following reference class:"
 msgid_plural "Found .Internal calls in methods for the following reference classes:"
-msgstr[0] "以下の参照クラスに対するメソッド中に .Internal 呼び出しが見つかりました:"
+msgstr[0] " 以下の参照クラスに対するメソッド中に .Internal 呼び出しが見つかりました:"
 
 msgid "Found an obsolete/platform-specific call in the following function:"
 msgid_plural "Found an obsolete/platform-specific call in the following functions:"
-msgstr[0] "以下の関数中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] " 以下の関数中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found an obsolete/platform-specific call in methods for the following S4 generic:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following S4 generics:"
-msgstr[0] "以下の S4 総称に対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] " 以下の S4 総称に対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found an obsolete/platform-specific call in methods for the following reference class:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following reference classes:"
-msgstr[0] "以下の参照クラスに対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] " 以下の参照クラスに対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found the deprecated function:"
 msgid_plural "Found the deprecated functions:"
-msgstr[0] "使用が推奨されていない関数が見つかりました:"
+msgstr[0] " 使用が推奨されていない関数が見つかりました:"
 
 msgid "Found the defunct/removed function:"
 msgid_plural "Found the defunct/removed functions:"
-msgstr[0] "廃止された関数が見つかりました:"
+msgstr[0] " 廃止された関数が見つかりました:"
 
 msgid "Found the platform-specific device:"
 msgid_plural "Found the platform-specific devices:"
-msgstr[0] "プラットフォーム依存のデバイスが見つかりました:"
+msgstr[0] " プラットフォーム依存のデバイスが見つかりました:"
 
 msgid "Generic without any methods in %s: %s"
 msgid_plural "Generics without any methods in %s: %s"
-msgstr[0] "%s 中にメソッドを伴わない総称があります: %s"
+msgstr[0] " %s 中にメソッドを伴わない総称があります: %s"
 
 msgid ""
 "missing/empty \\name field in Rd file\n"
@@ -1571,7 +1575,7 @@ msgstr[0] ""
 
 msgid "SUMMARY: processing the following file failed:"
 msgid_plural "SUMMARY: processing the following files failed:"
-msgstr[0] "以下の Rd 例示ファイル中に大局的かもしれない 'T' もしくは 'F' がありました:"
+msgstr[0] " 以下の Rd 例示ファイル中に大局的かもしれない 'T' もしくは 'F' がありました:"
 
 #, fuzzy
 msgid "Package %s does not have a registered vignette engine"
@@ -1580,27 +1584,27 @@ msgstr[0] "パッケージ %s のうち、どれもビニエットエンジン�
 
 msgid "unable to re-encode %s line %s"
 msgid_plural "unable to re-encode %s lines %s"
-msgstr[0] "%s (%s行) を再エンコード出来ません"
+msgstr[0] " %s (%s行) を再エンコード出来ません"
 
 msgid "%s file\n"
 msgid_plural "%s files\n"
-msgstr[0] "%s ファイル\n"
+msgstr[0] " ファイル"
 
 msgid "Required field missing or empty:"
 msgid_plural "Required fields missing or empty:"
-msgstr[0] "必要なフィールドがないか、空です:"
+msgstr[0] " 必要なフィールドがないか、空です:"
 
 msgid "Help on topic '%s' was found in the following package:"
 msgid_plural "Help on topic '%s' was found in the following packages:"
-msgstr[0] "トピック '%s' に関するヘルプが以下のパッケージに見つかりました:"
+msgstr[0] " トピック '%s' に関するヘルプが以下のパッケージに見つかりました:"
 
 msgid "object %s is created by more than one data call"
 msgid_plural "objects %s are created by more than one data call"
-msgstr[0] "オブジェクト %s は 1 つ以上のデータ呼び出しにより生成されました"
+msgstr[0] " オブジェクト %s は 1 つ以上のデータ呼び出しにより生成されました"
 
 msgid "%d of the package tests failed"
 msgid_plural "%d of the package tests failed"
-msgstr[0] "パッケージテストのうち %d 個が失敗しました"
+msgstr[0] " パッケージテストのうち %d 個が失敗しました"
 
 msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"

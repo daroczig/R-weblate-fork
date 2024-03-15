@@ -60,7 +60,7 @@ msgstr "Rulling.\n"
 
 #: src/gnuwin32/console.c:2462
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  Tastatur: Page Up, Page Down, Ctrl + piltastar, Ctrl + Home, Ctrl + End,\n"
+msgstr " Tastatur: Page Up, Page Down, Ctrl + piltastar, Ctrl + Home, Ctrl + End,\n"
 
 #: src/gnuwin32/console.c:2463
 msgid ""
@@ -76,83 +76,83 @@ msgstr "Redigering.\n"
 
 #: src/gnuwin32/console.c:2465
 msgid "  Moving the cursor: \n"
-msgstr "  Flytting av skrivemerket: \n"
+msgstr " Flytting av skrivemerket: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     «Pil venstre» eller «Ctrl + B»: flytt eitt teikn bakover;\n"
+msgstr "    «Pil venstre» eller «Ctrl + B»: flytt eitt teikn bakover;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     «Pil høgre» eller «Ctrl + F»: flytt eitt teikn framover;\n"
+msgstr "    «Pil høgre» eller «Ctrl + F»: flytt eitt teikn framover;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     «Home» eller «Ctrl + A»: gå til starten av linja;\n"
+msgstr "    «Home» eller «Ctrl + A»: gå til starten av linja;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     «End» eller «Ctrl + E»: gå til slutten av linja;\n"
+msgstr "    «End» eller «Ctrl + E»: gå til slutten av linja;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  Loggen: «Pil opp» og «Pil ned», eller «Ctrl + P» og «Ctrl + N»\n"
+msgstr " Loggen: «Pil opp» og «Pil ned», eller «Ctrl + P» og «Ctrl + N»\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr "  Sletting:\n"
+msgstr " Sletting:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     «Delete» eller «Ctrl + D»: slett gjeldande teikn eller utval;\n"
+msgstr "    «Delete» eller «Ctrl + D»: slett gjeldande teikn eller utval;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     «Rettetast»: slett førre teikn;\n"
+msgstr "    «Rettetast»: slett førre teikn;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     «Ctrl + Delete» eller «Ctrl + K»: slett tekst frå gjeldande teikn til slutten av linja.\n"
+msgstr "    «Ctrl + Delete» eller «Ctrl + K»: slett tekst frå gjeldande teikn til slutten av linja.\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     «Ctrl + U»: Slett all teksten frå den gjeldande linja.\n"
+msgstr "    «Ctrl + U»: Slett all teksten frå den gjeldande linja.\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr "  Kopiering og innliming.\n"
+msgstr " Kopiering og innliming.\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     Bruk musa (med venstre museknapp inne) for å merkje teksten.\n"
+msgstr "    Bruk musa (med venstre museknapp inne) for å merkje teksten.\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     Bruk «Shift + Delete» eller «Ctrl + C» for kopiera utvalet til utklippstavla, og\n"
+msgstr "    Bruk «Shift + Delete» eller «Ctrl + C» for kopiera utvalet til utklippstavla, og\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     «Shift + Insert», «Ctrl + V» eller «Ctrl +Y» for å lima inn innhaldet frå utklippstavla  \n"
+msgstr "    «Shift + Insert», «Ctrl + V» eller «Ctrl +Y» for å lima inn innhaldet frå utklippstavla\n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     til konsollen, «Ctrl + X» først kopiera og så lima inn\n"
+msgstr "    til konsollen, «Ctrl + X» først kopiera og så lima inn\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr "  Ymse:\n"
+msgstr " Ymse:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     «Ctrl + L»: tøm konsollen.\n"
+msgstr "    «Ctrl + L»: tøm konsollen.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     « Ctrl + O» eller «Insert»: slå på/av overskrivingsmodus (av som standard).\n"
+msgstr "    « Ctrl + O» eller «Insert»: slå på/av overskrivingsmodus (av som standard).\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     «Ctrl +T»: Byt det gjeldande teiknet med det til venstre.\n"
+msgstr "    «Ctrl +T»: Byt det gjeldande teiknet med det til venstre.\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -244,15 +244,15 @@ msgstr "For å køyra ei linje eller eit utval R-kode, merk koden, og anten\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     trykk «Ctrl + R»,\n"
+msgstr "    trykk «Ctrl + R»,\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     vel «Køyr linje eller utval» frå «Rediger»-menyen,\n"
+msgstr "    vel «Køyr linje eller utval» frå «Rediger»-menyen,\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     eller trykk «Køyr linje eller utval»-ikonet på verktøylinja.\n"
+msgstr "    eller trykk «Køyr linje eller utval»-ikonet på verktøylinja.\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -825,7 +825,7 @@ msgstr "Spørsmål"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " Byt arbeidsmappa til:"
+msgstr "Byt arbeidsmappa til:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
@@ -1219,3 +1219,4 @@ msgstr "Klikk eller trykk «Enter» for neste side"
 
 #~ msgid "invalid device"
 #~ msgstr "ugyldig eining"
+

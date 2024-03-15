@@ -1268,8 +1268,8 @@ msgstr[1] "%d Sweave files for basename %s found"
 
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
-msgstr[0] "Output/used file:  "
-msgstr[1] "Output/used files:  "
+msgstr[0] "Output/used file: "
+msgstr[1] "Output/used files: "
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"

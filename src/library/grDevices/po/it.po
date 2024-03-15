@@ -897,7 +897,7 @@ msgstr "mancanza di memoria nel processare il grafico"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "Impossibile aprire "
+msgstr "Impossibile aprire"
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"

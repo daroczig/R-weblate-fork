@@ -2823,7 +2823,7 @@ msgstr "分配设备内存不足(GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "按<Return>键来看下一个图: "
+msgstr "按<Return>键来看下一个图:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3177,12 +3177,12 @@ msgstr "座标范围不能是无限值[GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo =%g <%g = x1"
+msgstr ".. GEPretty(.): new *lo =%g <%g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up =%g >%g = x2"
+msgstr ".. GEPretty(.): new *up =%g >%g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3594,7 +3594,7 @@ msgstr "警告多于%d个(用warnings()来显示第一个到第%d个)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "收捲时出错: "
+msgstr "收捲时出错:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3607,7 +3607,7 @@ msgstr "错误于 "
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "%s中错误(从%s) : "
+msgstr "(从%s) :"
 
 #: src/main/errors.c:826
 #, c-format
@@ -3616,11 +3616,11 @@ msgstr "错误于%s: "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "错误: "
+msgstr "错误:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "此外: "
+msgstr "此外:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3640,11 +3640,11 @@ msgstr "'sep'必需是字符串"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [stop(.)里的字符串无效]"
+msgstr "[stop(.)里的字符串无效]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [warning(.)里的字符串无效]"
+msgstr "[warning(.)里的字符串无效]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3795,7 +3795,7 @@ msgstr "不适用于非函数"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s在%s#%d: "
+msgstr "%s在%s#%d:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4480,7 +4480,7 @@ msgstr "dummy - do not translate"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "收捲时出错:\n"
+msgstr "收捲时出错:"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -4501,7 +4501,7 @@ msgstr "无法復原保存在%s里的数据\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "在启动过程中 - "
+msgstr "在启动过程中 -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

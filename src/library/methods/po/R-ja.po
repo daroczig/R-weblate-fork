@@ -1242,11 +1242,11 @@ msgstr "ファイルを移動するか、クラスまたはメソッドを削除
 
 msgid "no definition for class %s"
 msgid_plural "no definition for classes %s"
-msgstr[0] "クラス %s に対する定義はありません"
+msgstr[0] " クラス %s に対する定義はありません"
 
 msgid "in the method signature for function %s invalid argument name in the signature: %s"
 msgid_plural "in the method signature for function %s invalid argument names in the signature: %s"
-msgstr[0] "関数 %s に対するメソッドシグネチャ中に、シグネチャ中の不正な引数名: %s"
+msgstr[0] " 関数 %s に対するメソッドシグネチャ中に、シグネチャ中の不正な引数名: %s"
 
 msgid "Reported %d ambiguous selection out of %d for function %s\n"
 msgid_plural "Reported %d ambiguous selections out of %d for function %s\n"
@@ -1254,23 +1254,23 @@ msgstr[0] "%d 個の曖昧な選択が %d 個中報告されました (関数 %s
 
 msgid "named elements of prototype do not correspond to slot name: %s"
 msgid_plural "named elements of prototype do not correspond to slot names: %s"
-msgstr[0] "プロトタイプの名前つきの要素はスロット名に対応しません: %s"
+msgstr[0] " プロトタイプの名前つきの要素はスロット名に対応しません: %s"
 
 msgid "non-argument found in the signature: %s"
 msgid_plural "non-arguments found in the signature: %s"
-msgstr[0] "シグナチャ中に引数でないものがあります: %s"
+msgstr[0] " シグナチャ中に引数でないものがあります: %s"
 
 msgid "the formal argument of the generic function for %s (%s) differs from that of the non-generic to be used as the default (%s)"
 msgid_plural "the formal arguments of the generic function for %s (%s) differ from those of the non-generic to be used as the default (%s)"
-msgstr[0] "%s (%s) に対する総称的関数の形式的引数は、既定 (%s) として使われる非総称的なそれと異なります"
+msgstr[0] " %s (%s) に対する総称的関数の形式的引数は、既定 (%s) として使われる非総称的なそれと異なります"
 
 msgid "duplicated slot name: %s"
 msgid_plural "duplicated slot names: %s"
-msgstr[0] "重複したスロット名: %s"
+msgstr[0] " 重複したスロット名: %s"
 
 msgid "invalid name for slot of class %s: %s"
 msgid_plural "invalid names for slots of class %s: %s"
-msgstr[0] "クラス %s のスロットに対しては不正な名前です: %s"
+msgstr[0] " クラス %s のスロットに対しては不正な名前です: %s"
 
 msgid ""
 "multiple definition of class %s visible (%s); using the definition\n"
@@ -1284,35 +1284,35 @@ msgstr[0] ""
 
 msgid "class %s is missing slot from class %s (%s), and no coerce method was supplied"
 msgid_plural "class %s is missing slots from class %s (%s), and no coerce method was supplied"
-msgstr[0] "クラス %s はクラス %s (%s) からのスロットを欠いています、そして強制変換メソッドは与えられていません"
+msgstr[0] " クラス %s はクラス %s (%s) からのスロットを欠いています、そして強制変換メソッドは与えられていません"
 
 msgid "slot in class %s must extend corresponding slot in class %s: fails for %s"
 msgid_plural "slots in class %s must extend corresponding slots in class %s: fails for %s"
-msgstr[0] "クラス %s のスロットは対応する %s 中のスロットを拡張していなければなりません: %s に対して失敗しました"
+msgstr[0] " クラス %s のスロットは対応する %s 中のスロットを拡張していなければなりません: %s に対して失敗しました"
 
 msgid "found %d equally good next method"
 msgid_plural "found %d equally good next methods"
-msgstr[0] "%d 個の同じぐらい良いネクストメソッド"
+msgstr[0] " %d 個の同じぐらい良いネクストメソッド"
 
 msgid "Selecting %d method of minimum distance"
 msgid_plural "Selecting %d methods of minimum distance"
-msgstr[0] "最小距離の %d 個のメソッドを選択"
+msgstr[0] " 最小距離の %d 個のメソッドを選択"
 
 msgid "Selecting %d non-group method"
 msgid_plural "Selecting %d non-group methods"
-msgstr[0] "%d 個の非グループメソッドを選択"
+msgstr[0] " %d 個の非グループメソッドを選択"
 
 msgid "Selecting %d partially exact-matching method"
 msgid_plural "Selecting %d partially exact-matching methods"
-msgstr[0] "%d 個の部分的に正確なマッチングメソッドを選択"
+msgstr[0] " %d 個の部分的に正確なマッチングメソッドを選択"
 
 msgid "Choosing method %s from %d ambiguous possibility"
 msgid_plural "Choosing method %s from %d ambiguous possibilities"
-msgstr[0] "メソッド %s を選択 (%d 個の曖昧な可能性から)"
+msgstr[0] " メソッド %s を選択 (%d 個の曖昧な可能性から)"
 
 msgid "no definition of class %s in the specified position, %s, definition on : %s"
 msgid_plural "no definition of class %s in the specified position, %s, definitions on : %s"
-msgstr[0] "クラス %s の定義は指定された位置 %s にありません、以下に関する定義です: %s"
+msgstr[0] " クラス %s の定義は指定された位置 %s にありません、以下に関する定義です: %s"
 
 #~ msgid "invalid method sublist"
 #~ msgstr "不正なメソッドサブリスト"

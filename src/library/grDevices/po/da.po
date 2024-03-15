@@ -941,7 +941,7 @@ msgstr "behandlingem af plottet løb tør for hukommelse"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "Umulig at åbne "
+msgstr "Umulig at åbne"
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"

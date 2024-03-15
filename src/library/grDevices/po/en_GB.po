@@ -908,7 +908,7 @@ msgstr "processing of the plot ran out of memory"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "Impossible to open "
+msgstr "Impossible to open"
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"

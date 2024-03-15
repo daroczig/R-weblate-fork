@@ -2859,7 +2859,7 @@ msgstr "não há memória suficiente para alocar dispositivo (em GEcreateDevDesc
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Aperte <Enter> para ver o próximo gráfico: "
+msgstr "Aperte <Enter> para ver o próximo gráfico:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2998,7 +2998,7 @@ msgstr ""
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " não foi possível sobrescrever o arquivo '%s"
+msgstr "não foi possível sobrescrever o arquivo '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3227,12 +3227,12 @@ msgstr "extensão infinita para eixos [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 #, fuzzy
@@ -3652,7 +3652,7 @@ msgstr "Houve %d ou mais avisos (use warnings() para ver os primeiros %d)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Erros durante o embrulho: "
+msgstr "Erros durante o embrulho:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3660,7 +3660,7 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Erro em "
+msgstr "Erro em"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
@@ -3670,15 +3670,15 @@ msgstr ""
 #: src/main/errors.c:826
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Erro em "
+msgstr "Erro em"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Erro: "
+msgstr "Erro:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Além disso: "
+msgstr "Além disso:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3698,11 +3698,11 @@ msgstr "'%s' deve ser uma string"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [string inválida em stop(.)]"
+msgstr "[string inválida em stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [string inválida em warning(.)]"
+msgstr "[string inválida em warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3853,7 +3853,7 @@ msgstr "tentativa de aplicar uma não-função"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s em %s#%d: "
+msgstr "%s em %s#%d:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4544,7 +4544,7 @@ msgstr "dummy"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "Erros durante o embrulho\n"
+msgstr "Erros durante o embrulho:"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -4565,7 +4565,7 @@ msgstr "não foi possível restaurar os dados presentes em .RData\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Durante a inicialização - "
+msgstr "Durante a inicialização -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

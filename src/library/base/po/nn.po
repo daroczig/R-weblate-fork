@@ -2855,7 +2855,7 @@ msgstr "ikkje nok minne å tildela eininga (i GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Trykk «Enter» for å sjå det neste plottet: "
+msgstr "Trykk «Enter» for å sjå det neste plottet:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2994,7 +2994,7 @@ msgstr ""
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " skriv ikkje over fila «%s»"
+msgstr "skriv ikkje over fila «%s»"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3223,12 +3223,12 @@ msgstr "uendeleg aksestorleik [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 #, fuzzy
@@ -3648,7 +3648,7 @@ msgstr "Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Feil ved wrapup: "
+msgstr "Feil ved wrapup:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3656,7 +3656,7 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Feil i "
+msgstr "Feil i"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
@@ -3666,15 +3666,15 @@ msgstr ""
 #: src/main/errors.c:826
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Feil i "
+msgstr "Feil i"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Feil: "
+msgstr "Feil:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "I tillegg: "
+msgstr "I tillegg:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3694,11 +3694,11 @@ msgstr "«sep» må vera ein teiknvektor"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [ugyldig streng i stop(.)]"
+msgstr "[ugyldig streng i stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [ugyldig streng i warning(.)]"
+msgstr "[ugyldig streng i warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3849,7 +3849,7 @@ msgstr "prøvde å køyra ikkje-funksjon"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s på %s#%d: "
+msgstr "%s på %s#%d:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4539,7 +4539,7 @@ msgstr ""
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "Feil ved cleanup\n"
+msgstr "Feil ved wrapup:"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -4560,7 +4560,7 @@ msgstr "klarte ikkje gjenoppretta lagra data i «.RData»\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Ved oppstart – "
+msgstr "Ved oppstart –"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

@@ -1283,7 +1283,7 @@ msgid "replacing previous import %s by %s when loading %s"
 msgstr "%2$s のロード中に、以前のインポート %1$s を置き換えています"
 
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
-msgstr "%3$s ロード中 \"%1$s\" に対して要求されたインポートされたメソッド (パッケージ \"%2$s\" からの) に対応する総称的関数がありません (不正確なエクスポート？)"
+msgstr "\"%s\" に対して要求されたインポートされたメソッド (パッケージ \"%s\" からの) に対応する総称的関数がありません (不正確なエクスポート？)"
 
 msgid "cannot add to exports of a sealed namespace"
 msgstr "封印された名前空間のエクスポートへ加えることができません"
@@ -1347,7 +1347,7 @@ msgid "an argument will be fractionally recycled"
 msgstr "引数は繰り返して使われます"
 
 msgid "invalid ncol(x)"
-msgstr "ncol(x) が不正です"
+msgstr "ncol(x) が不正です "
 
 msgid "too large a matrix for LINPACK"
 msgstr "LINPACK には大きすぎる行列です"
@@ -1417,10 +1417,10 @@ msgid "not a data frame"
 msgstr "データフレームではありません"
 
 msgid "length of 'center' must equal the number of columns of 'x'"
-msgstr "'center' の長さは 'x' の列数に等しくなければなりません"
+msgstr "'center' の長さは 'x' の列数に等しくなければなりません;"
 
 msgid "length of 'scale' must equal the number of columns of 'x'"
-msgstr "'scale' の長さは 'x' の列数に等しくなければなりません"
+msgstr "'scale' の長さは 'x' の列数に等しくなければなりません;"
 
 msgid "either specify 'nmax' or 'n', but not both."
 msgstr "'nmax' か 'n' を指定して下さい。しかし両方はだめです"
@@ -1836,7 +1836,7 @@ msgstr "エラー: このディレクトリーから抹消する許可があり�
 
 msgid "deparse option %s is not recognized"
 msgid_plural "deparse options %s are not recognized"
-msgstr[0] "逆構文解析オプション %s は認識できません"
+msgstr[0] " 逆構文解析オプション %s は認識できません"
 
 msgid "The following object is masked _by_ %s:"
 msgid_plural "The following objects are masked _by_ %s:"
@@ -1848,103 +1848,103 @@ msgstr[0] "以下のオブジェクトは %s からマスクされています:"
 
 msgid "invalid 'row.names', length %d for a data frame with %d row"
 msgid_plural "invalid 'row.names', length %d for a data frame with %d rows"
-msgstr[0] "無効な 'row.names' です。長さが %d ですが、データフレームの行数は %d です"
+msgstr[0] " 無効な 'row.names' です。長さが %d ですが、データフレームの行数は %d です"
 
 msgid "supplied %d row name for %d rows"
 msgid_plural "supplied %d row names for %d rows"
-msgstr[0] "%d 個の行名が %d 個の行に提供されました"
+msgstr[0] " %d 個の行名が %d 個の行に提供されました"
 
 msgid "replacement has %d row, data has %d"
 msgid_plural "replacement has %d rows, data has %d"
-msgstr[0] "置換は %d 列ですが、データは %d 列です"
+msgstr[0] " 置換は %d 列ですが、データは %d 列です"
 
 msgid "replacement has %d item, need %d"
 msgid_plural "replacement has %d items, need %d"
-msgstr[0] "置換は %d 個の項目を持ちますが、%d 個必要です"
+msgstr[0] " 置換は %d 個の項目を持ちますが、%d 個必要です"
 
 msgid "replacement element %d is a matrix/data frame of %d row, need %d"
 msgid_plural "replacement element %d is a matrix/data frame of %d rows, need %d"
-msgstr[0] "置換の要素 %d は %d 行の行列またはデータフレームですが、%d 行必要です"
+msgstr[0] " 置換の要素 %d は %d 行の行列またはデータフレームですが、%d 行必要です"
 
 msgid "replacement element %d has %d row, need %d"
 msgid_plural "replacement element %d has %d rows, need %d"
-msgstr[0] "置換の要素 %d は %d 行ですが、%d 行必要です"
+msgstr[0] " 置換の要素 %d は %d 行ですが、%d 行必要です"
 
 msgid "replacement element %d has %d row to replace %d rows"
 msgid_plural "replacement element %d has %d rows to replace %d rows"
-msgstr[0] "置換の要素 %d は %d 行ですが、%d 個の行を置換しようとしています"
+msgstr[0] " 置換の要素 %d は %d 行ですが、%d 個の行を置換しようとしています"
 
 msgid "%d row in value to replace %d rows"
 msgid_plural "%d rows in value to replace %d rows"
-msgstr[0] "value 中の %d 行で %d 行を置換しようとしています"
+msgstr[0] " value 中の %d 行で %d 行を置換しようとしています"
 
 msgid "replacement data has %d row to replace %d rows"
 msgid_plural "replacement data has %d rows to replace %d rows"
-msgstr[0] "置換データは %d 行ですが、%d 個の行を置換しようとしています"
+msgstr[0] " 置換データは %d 行ですが、%d 個の行を置換しようとしています"
 
 msgid "provided %d variable to replace %d variables"
 msgid_plural "provided %d variables to replace %d variables"
-msgstr[0] "%d 個の変数を与えて、%d 個の変数を置換しようとしています"
+msgstr[0] " %d 個の変数を与えて、%d 個の変数を置換しようとしています"
 
 msgid "data frame with 0 columns and %d row"
 msgid_plural "data frame with 0 columns and %d rows"
-msgstr[0] "0 列 %d 行のデータフレーム"
+msgstr[0] " 0 列 %d 行のデータフレーム"
 
 msgid "library %s contains no packages"
 msgid_plural "libraries %s contain no packages"
-msgstr[0] "ライブラリ %s はパッケージを含んでいません"
+msgstr[0] " ライブラリ %s はパッケージを含んでいません"
 
 msgid "package %s is not loaded"
 msgid_plural "packages %s are not loaded"
-msgstr[0] "パッケージ %s はロードされません"
+msgstr[0] " パッケージ %s はロードされません"
 
 msgid "there is no package called"
 msgid_plural "there are no packages called"
-msgstr[0] "呼び出されたパッケージがありません"
+msgstr[0] " 呼び出されたパッケージがありません"
 
 msgid "object %s not found"
 msgid_plural "objects %s not found"
-msgstr[0] "%s を見付けることができません"
+msgstr[0] " %s を見付けることができません"
 
 msgid "'arg' should be %s"
 msgid_plural "'arg' should be one of %s"
-msgstr[0] "'arg' は %s の一つでなければなりません："
+msgstr[0] " 'arg' は %s の一つでなければなりません："
 
 msgid "'by' must specify a uniquely valid column"
 msgid_plural "'by' must specify uniquely valid columns"
-msgstr[0] "'by' は有効な列を指定しなければなりません"
+msgstr[0] " 'by' は有効な列を指定しなければなりません"
 
 msgid "Function found when exporting methods from the namespace %s which is not S4 generic: %s"
 msgid_plural "Functions found when exporting methods from the namespace %s which are not S4 generic: %s"
-msgstr[0] "名前空間 %s からメソッドをエクスポートする際に S4 総称的でない関数がみつかりました: %s"
+msgstr[0] " 名前空間 %s からメソッドをエクスポートする際に S4 総称的でない関数がみつかりました: %s"
 
 msgid "No methods found in package %s for request: %s when loading %s"
 msgid_plural "No methods found in package %s for requests: %s when loading %s"
-msgstr[0] "%3$sロード中 \"%1$s\" 中には要求に対するメソッドが見つかりません: %2$s"
+msgstr[0] " \"%s\" 中には要求に対するメソッドが見つかりません: %s"
 
 msgid "requested method not found in environment/package %s: %s when loading %s"
 msgid_plural "requested methods not found in environment/package %s: %s when loading %s"
-msgstr[0] "%3$sロード中要求されたメソッドは環境もしくはパッケージ %1$s 中に見付かりません: %2$s"
+msgstr[0] " 要求された methods オブジェクトは環境もしくはパッケージ %s 中に見付かりません: %s"
 
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
-msgstr[0] "クラス %s は 'namespace:%s' によってエクスポートされていません"
+msgstr[0] " クラス %s は 'namespace:%s' によってエクスポートされていません"
 
 msgid "object %s is not exported by 'namespace:%s'"
 msgid_plural "objects %s are not exported by 'namespace:%s'"
-msgstr[0] "オブジェクト %s は 'namespace:%s' によってエクスポートされていません"
+msgstr[0] " オブジェクト %s は 'namespace:%s' によってエクスポートされていません"
 
 msgid "previous export '%s' is being replaced"
 msgid_plural "previous exports '%s' are being replaced"
-msgstr[0] "以前のエクスポート '%s' は置き換えられています"
+msgstr[0] " 以前のエクスポート '%s' は置き換えられています"
 
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
-msgstr[0] "S3 メソッド %s は NAMESPACE で宣言されましたが、見つかりませんでした"
+msgstr[0] " S3 メソッド %s は NAMESPACE で宣言されましたが、見つかりませんでした"
 
 msgid "%s is not TRUE"
 msgid_plural "%s are not all TRUE"
-msgstr[0] "%s は TRUE ではありません"
+msgstr[0] " %s は TRUE ではありません"
 
 msgid "Warning message:\n"
 msgid_plural "Warning messages:\n"
@@ -1956,24 +1956,7 @@ msgid ""
 msgid_plural ""
 "In %s :\n"
 " extra arguments %s will be disregarded"
-msgstr[0] ""
-"%s中:\n"
-" 余分な引数 %s は無視されます"
-
-#~ msgid "'normal.kind' must be a character string of length 1"
-#~ msgstr "'normal.kind' は長さ 1 の文字列でなければなりません"
-
-#, fuzzy
-#~ msgid "'sample.kind' must be a character string of length 1"
-#~ msgstr "'normal.kind' は長さ 1 の文字列でなければなりません"
-
-#, fuzzy
-#~ msgid "'flag' must be a string, i.e., of length 1"
-#~ msgstr "'arg' は長さ 1 でなければなりません"
-
-#, fuzzy
-#~ msgid ", will be ignored"
-#~ msgstr "'drop' 引数は無視されます"
+msgstr[0] " 余分な引数 %s は無視されます"
 
 #~ msgid "norm '%s' currently always uses exact = FALSE"
 #~ msgstr " norm '%s' は現在は常に exact = FALSE を使用します "
@@ -2291,3 +2274,4 @@ msgstr[0] ""
 
 #~ msgid "version"
 #~ msgstr " バージョン "
+

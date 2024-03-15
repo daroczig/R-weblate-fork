@@ -140,9 +140,6 @@ msgstr ""
 msgid "No suitable spell check program found."
 msgstr "適当なスペルチェックプログラムが見つかりません。"
 
-msgid "Performing query %s"
-msgstr ""
-
 msgid ""
 "Use <code> %s </code> \n"
 " to list the vignettes in all <strong>available</strong> packages."
@@ -1304,19 +1301,19 @@ msgstr "winDialogString() は対話的にしか使用できません"
 
 msgid "%d Sweave file for basename %s found"
 msgid_plural "%d Sweave files for basename %s found"
-msgstr[0] "%d 個の Sweve ファイルが基本名 %s に対して見つかりました"
+msgstr[0] " %d 個の Sweve ファイルが基本名 %s に対して見つかりました"
 
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
-msgstr[0] "出力ファイル：  "
+msgstr[0] " 出力ファイル："
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"
-msgstr[0] "%d 回の生起（%s 中）"
+msgstr[0] " %d 回の生起（%s 中）"
 
 msgid "Invalid role specification: %s."
 msgid_plural "Invalid role specifications: %s."
-msgstr[0] "role の指定が不正です: %s。"
+msgstr[0] " role の指定が不正です: %s"
 
 msgid "Invalid ORCID iD: %s."
 msgid_plural "Invalid ORCID iDs: %s."
@@ -1324,15 +1321,15 @@ msgstr[0] ""
 
 msgid "A bibentry of bibtype %s has to specify the field: %s"
 msgid_plural "A bibentry of bibtype %s has to specify the fields: %s"
-msgstr[0] "bibitype %s の bibentry はフィールドを指定しなければなりません: %s"
+msgstr[0] " bibitype %s の bibentry はフィールドを指定しなければなりません: %s"
 
 msgid "class discarded from column %s"
 msgid_plural "classes discarded from columns %s"
-msgstr[0] "列 %s からクラスが切り捨てられたクラス"
+msgstr[0] " 列 %s からクラスが切り捨てられたクラス"
 
 msgid "matched %d object."
 msgid_plural "matched %d objects."
-msgstr[0] "%d 個のオブジェクトがマッチしました"
+msgstr[0] " %d 個のオブジェクトがマッチしました"
 
 msgid "%d error caught in %s: %s"
 msgid_plural "%d times caught the same error in %s: %s"
@@ -1340,11 +1337,11 @@ msgstr[0] ""
 
 msgid "object '%s' not found"
 msgid_plural "objects '%s' not found"
-msgstr[0] "オブジェクト '%s' が見付かりません"
+msgstr[0] " オブジェクト '%s' が見付かりません"
 
 msgid "package %s is a base package, and cannot be removed"
 msgid_plural "packages %s are base packages, and cannot be removed"
-msgstr[0] "パッケージ %s は使用中のため、インストールされません"
+msgstr[0] " パッケージ %s は使用中のため、インストールされません"
 
 msgid ""
 "Removing package from %s\n"
@@ -1358,7 +1355,7 @@ msgstr[0] ""
 
 msgid "package %s is a base package, and should not be updated"
 msgid_plural "packages %s are base packages, and should not be updated"
-msgstr[0] "パッケージ %s は使用中のため、インストールされません"
+msgstr[0] " パッケージ %s は使用中のため、インストールされません"
 
 msgid ""
 "A version of this package for your version of R might be available elsewhere,\n"
@@ -1370,19 +1367,19 @@ msgstr[0] ""
 
 msgid "package %s is not available %s"
 msgid_plural "packages %s are not available %s"
-msgstr[0] "パッケージ %s が利用できません (%s)"
+msgstr[0] " パッケージ %s が利用できません (%s)"
 
 msgid "dependency %s is not available"
 msgid_plural "dependencies %s are not available"
-msgstr[0] "依存対象 (dependency) %s が利用できません"
+msgstr[0] " 依存対象 (dependency) %s が利用できません"
 
 msgid "also installing the dependency %s"
 msgid_plural "also installing the dependencies %s"
-msgstr[0] "依存対象 (dependency) %s もインストールします"
+msgstr[0] " 依存対象 (dependency) %s もインストールします"
 
 msgid "package %s is in use and will not be installed"
 msgid_plural "packages %s are in use and will not be installed"
-msgstr[0] "パッケージ %s は使用中のため、インストールされません"
+msgstr[0] " パッケージ %s は使用中のため、インストールされません"
 
 msgid ""
 "Installing package into %s\n"
@@ -1396,39 +1393,39 @@ msgstr[0] ""
 
 msgid "'lib' element %s is not a writable directory"
 msgid_plural "'lib' elements %s are not writable directories"
-msgstr[0] "'lib' の要素 %s は書き込み可能なディレクトリではありません"
+msgstr[0] " 'lib' の要素 %s は書き込み可能なディレクトリではありません"
 
 msgid "There is a binary version available but the source version is later"
 msgid_plural "There are binary versions available but the source versions are later"
-msgstr[0] "利用できるバイナリー版がありますがソース版は後者です"
+msgstr[0] " 利用できるバイナリー版がありますがソース版は後者です"
 
 msgid "Do you want to install from sources the package which needs compilation?"
 msgid_plural "Do you want to install from sources the packages which need compilation?"
-msgstr[0] "パッケージのソースからインストールを行いますか? (コンパイルが必要です)"
+msgstr[0] " パッケージのソースからインストールを行いますか? (コンパイルが必要です)"
 
 msgid "Package which is only available in source form, and may need compilation of C/C++/Fortran"
 msgid_plural "Packages which are only available in source form, and may need compilation of C/C++/Fortran"
-msgstr[0] "ソースコードの形でのみ利用可能なパッケージです，C/C++/Fortran でコンパイルの必要があるかもしれません"
+msgstr[0] " ソースコードの形でのみ利用可能なパッケージです，C/C++/Fortran でコンパイルの必要があるかもしれません"
 
 msgid "installing the source package %s"
 msgid_plural "installing the source packages %s"
-msgstr[0] "ソースパッケージ %s をインストール中です"
+msgstr[0] " ソースパッケージ %s をインストール中です"
 
 msgid "package %s is available as a source package but not as a binary"
 msgid_plural "packages %s are available as source packages but not as binaries"
-msgstr[0] "パッケージ %s はソースでのみ利用可能でバイナリーはありません"
+msgstr[0] " パッケージ %s はソースでのみ利用可能でバイナリーはありません"
 
 msgid "There is a binary version available (and will be installed) but the source version is later"
 msgid_plural "There are binary versions available (and will be installed) but the source versions are later"
-msgstr[0] "バイナリー版があります (そしてインストールされます) がソース版は後者です"
+msgstr[0] " バイナリー版があります (そしてインストールされます) がソース版は後者です"
 
 msgid "last record incomplete, %d line discarded"
 msgid_plural "last record incomplete, %d lines discarded"
-msgstr[0] "最後の記録が不完全で、%d 行が捨て去られました"
+msgstr[0] " 最後の記録が不完全で、%d 行が捨て去られました"
 
 msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
-msgstr[0] "不正なローマ数字です: %s"
+msgstr[0] " 不正なローマ数字です: %s"
 
 #~ msgid "It is recommended to use %s/%s instead of %s/%s/%s."
 #~ msgstr "%s/%s の代わりに %s/%s/%s を使うことをおすすめします。"

@@ -2806,7 +2806,7 @@ msgstr "nepakanka atminties paskirti įrenginius (GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Spustelėkite <Return> norėdami pamatyti kitą grafiką: "
+msgstr "Spustelėkite <Return> norėdami pamatyti kitą grafiką:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2943,7 +2943,7 @@ msgstr "porų sąrašas yra perduodamas kaip SEXP nuo R 2.15.0"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " neperrašo failo '%s'"
+msgstr "neperrašo failo '%s'"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3164,12 +3164,12 @@ msgstr "begaliniai koordinačių ašių dydžiai [GEPretty(%g,%g,n=%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3585,7 +3585,7 @@ msgstr "Buvo %d ar daugiau įspėjimų (naudokite warnings() norėdami pamatyti 
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Klaida užbaigiant: "
+msgstr "Klaida užbaigiant:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3593,25 +3593,25 @@ msgstr "Klaida: nėra prieinama daugiau klaidų apdorojimo programų (rekursinė
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Klaida, esanti "
+msgstr "Klaida, esanti"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Klaida, esanti %s (iš %s) : "
+msgstr "Klaida, esanti %s (iš %s) :"
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Klaida, esanti %s : "
+msgstr "Klaida, esanti %s :"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Klaida: "
+msgstr "Klaida:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Be to: "
+msgstr "Be to:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3631,11 +3631,11 @@ msgstr "'%s' turi būti ženklų eilutė"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [klaida eilutėje stop(.)]"
+msgstr "[klaida eilutėje stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [klaida eilutėje warning(.)]"
+msgstr "[klaida eilutėje warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3786,7 +3786,7 @@ msgstr "bandymas taikyti ne funkciją"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s %s#%d: "
+msgstr "%s %s#%d:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4391,12 +4391,12 @@ msgstr "nulinio ilgio šablonas"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' grąžino '%d' "
+msgstr "'pcre2_patterninfo' grąžino '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' pateikė '%d' "
+msgstr "'pcre_fullinfo' pateikė '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4490,7 +4490,7 @@ msgstr "nepavyko atkurti įrašytų duomenų %s\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Paleisties metu - "
+msgstr "Paleisties metu -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

@@ -336,7 +336,7 @@ msgstr "environnement de travail requis (%.0f) trop large %s."
 
 #: loessc.c:258
 msgid " probably because of setting 'se = TRUE'"
-msgstr " probablement à cause de l’argument 'se = TRUE'"
+msgstr "probablement à cause de l’argument 'se = TRUE'"
 
 #: loglin.c:367
 msgid "this should not happen"

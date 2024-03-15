@@ -1034,7 +1034,7 @@ msgstr "el processament del diagrama s'ha quedat sense memòria"
 #: devWindows.c:3625
 #, fuzzy
 msgid "Impossible to open "
-msgstr "Impossible obrir "
+msgstr "Impossible obrir"
 
 #: devWindows.c:3756
 #, fuzzy

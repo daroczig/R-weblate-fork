@@ -157,11 +157,6 @@ msgstr "'deparseRd' 中に不都合なテキストモード %d"
 msgid "invalid bind address specification"
 msgstr "不正な空白アドレス指定"
 
-#: http.c:37
-#, c-format
-msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
-msgstr ""
-
 #: install.c:95
 msgid "path too long"
 msgstr ""

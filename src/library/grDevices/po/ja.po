@@ -891,7 +891,7 @@ msgstr "プロット中にメモリ不足になりました"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "オープンできません "
+msgstr "オープンできません"
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"

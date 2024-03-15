@@ -60,7 +60,7 @@ msgstr "Desplaçament.\n"
 
 #: src/gnuwin32/console.c:2462
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  Teclat: RePàg, AvPàg, Ctrl+Fletxes, Ctrl+Inici, Ctrl+Fi,\n"
+msgstr " Teclat: RePàg, AvPàg, Ctrl+Fletxes, Ctrl+Inici, Ctrl+Fi,\n"
 
 #: src/gnuwin32/console.c:2463
 msgid ""
@@ -76,39 +76,39 @@ msgstr "Edició.\n"
 
 #: src/gnuwin32/console.c:2465
 msgid "  Moving the cursor: \n"
-msgstr "  Moure el cursor: \n"
+msgstr " Moure el cursor: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     Fletxa esquerra o Ctrl+B: per a moure enrere un caràcter;\n"
+msgstr "    Fletxa esquerra o Ctrl+B: per a moure enrere un caràcter;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     Fletxa dreta o Ctrl+F: per a avançar un caràcter;\n"
+msgstr "    Fletxa dreta o Ctrl+F: per a avançar un caràcter;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Inici o Ctrl+A: aneu al començament de la línia;\n"
+msgstr "    Inici o Ctrl+A: aneu al començament de la línia;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     Fi o Ctrl+E: ves al final de la línia;\n"
+msgstr "    Fi o Ctrl+E: ves al final de la línia;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  Historial: Fletxes amunt i avall, Ctrl+P, Ctrl+N\n"
+msgstr " Historial: Fletxes amunt i avall, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr "  Supressió:\n"
+msgstr " Supressió:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Supr o Ctrl+D: suprimeix el caràcter o la selecció actual;\n"
+msgstr "    Supr o Ctrl+D: suprimeix el caràcter o la selecció actual;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Retrocés: suprimeix el caràcter anterior;\n"
+msgstr "    Retrocés: suprimeix el caràcter anterior;\n"
 
 #: src/gnuwin32/console.c:2314
 msgid ""
@@ -119,11 +119,11 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: suprimeix tot el text de la línia actual.\n"
+msgstr "    Ctrl+U: suprimeix tot el text de la línia actual.\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr "  Copia i enganxa.\n"
+msgstr " Copia i enganxa.\n"
 
 #: src/gnuwin32/console.c:2317
 msgid ""
@@ -149,15 +149,15 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     a la consola, Ctrl+X primer copia i després enganxa\n"
+msgstr "    a la consola, Ctrl+X primer copia i després enganxa\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr "  Miscel·lània:\n"
+msgstr " Miscel·lània:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: neteja la consola.\n"
+msgstr "    Ctrl+L: neteja la consola.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: intercanvia el caràcter actual amb un de l'esquerra.\n"
+msgstr "    Ctrl+T: intercanvia el caràcter actual amb un de l'esquerra.\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -263,7 +263,7 @@ msgstr ""
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Premeu Ctrl-R\n"
+msgstr "    Premeu Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
@@ -847,7 +847,7 @@ msgstr "Pregunta"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " Canvia el directori de treball a:"
+msgstr "Canvia el directori de treball a:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format

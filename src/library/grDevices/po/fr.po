@@ -900,7 +900,7 @@ msgstr "la réalisation du graphe manque de mémoire"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "Impossible d'ouvrir "
+msgstr "Impossible d'ouvrir"
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"

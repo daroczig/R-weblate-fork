@@ -766,7 +766,7 @@ msgstr "共有ライブラリ '%s' はロードされていません"
 #, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
-msgstr[0] "登録されたネイティブのシンボルのためのメモリを割り当てることができません。(%d バイト)"
+msgstr[0] " 登録されたネイティブのシンボルのためのメモリを割り当てることができません。(%d バイト)"
 
 #: src/main/Rdynload.c:1461 src/main/Rdynload.c:1660
 msgid "NULL value passed for DllInfo"
@@ -1110,7 +1110,7 @@ msgstr "'%s' の引数は行列のようなオブジェクトでなければな�
 #, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "%d 個の引数が '%s' に渡されましたが、%d が必要とされています"
+msgstr[0] " %d 個の引数が '%s' に渡されましたが、%d が必要とされています"
 
 #: src/main/array.c:1285
 #, c-format
@@ -1493,12 +1493,12 @@ msgstr "パッケージのインポートの親の環境は設定できません
 msgid "'parent' is not an environment"
 msgstr "'parent' は環境ではありません"
 
-#: src/main/builtin.c:570 src/main/connections.c:4221
-#: src/main/connections.c:4604 src/main/connections.c:4641
-#: src/main/connections.c:5023 src/main/connections.c:5093
-#: src/main/connections.c:5314 src/main/connections.c:5318
-#: src/main/connections.c:5801 src/main/deparse.c:416 src/main/deparse.c:502
-#: src/main/serialize.c:2466
+#: src/main/builtin.c:570 src/main/connections.c:4160
+#: src/main/connections.c:4543 src/main/connections.c:4580
+#: src/main/connections.c:4960 src/main/connections.c:5030
+#: src/main/connections.c:5248 src/main/connections.c:5252
+#: src/main/connections.c:5733 src/main/deparse.c:414 src/main/deparse.c:500
+#: src/main/serialize.c:2461
 msgid "cannot write to this connection"
 msgstr "このコネクションには書き出せません"
 
@@ -1575,7 +1575,7 @@ msgstr "名前付きの代替値が無い 'switch' 関数には数値の EXPR �
 #, c-format
 msgid "%d argument passed to '%s' which requires %d to %d"
 msgid_plural "%d arguments passed to '%s' which requires %d to %d"
-msgstr[0] "%d 個の引数が '%s' に渡されましたが、%d から%dが必要とされています"
+msgstr[0] " %d 個の引数が '%s' に渡されましたが、%d が必要とされています"
 
 #: src/main/character.c:124 src/main/character.c:127 src/main/character.c:314
 #: src/main/character.c:317
@@ -1995,13 +1995,13 @@ msgstr "fifo '%s' は準備ができていません"
 msgid "cannot open fifo '%s'"
 msgstr "fifo '%s' を開くことができません"
 
-#: src/main/connections.c:1259 src/main/connections.c:1270
-#: src/main/connections.c:1431 src/main/connections.c:1450
-#: src/main/connections.c:1904 src/main/connections.c:1914
-#: src/main/connections.c:2044 src/main/connections.c:2104
-#: src/main/connections.c:2659 src/main/connections.c:2675
-#: src/main/connections.c:3000 src/main/connections.c:5987
-#: src/main/connections.c:6051
+#: src/main/connections.c:1201 src/main/connections.c:1212
+#: src/main/connections.c:1373 src/main/connections.c:1392
+#: src/main/connections.c:1846 src/main/connections.c:1856
+#: src/main/connections.c:1986 src/main/connections.c:2046
+#: src/main/connections.c:2601 src/main/connections.c:2617
+#: src/main/connections.c:2939 src/main/connections.c:5919
+#: src/main/connections.c:5983
 msgid "too large a block specified"
 msgstr "指定されたブロックが大きすぎます"
 
@@ -2553,14 +2553,7 @@ msgstr "ソケットルーチンがロードできません"
 msgid "not a socket connection"
 msgstr "ソケットコネクションではありません"
 
-#: src/main/connections.c:6442 src/modules/internet/libcurl.c:650
-#: src/modules/internet/sockconn.c:62 src/modules/internet/sockconn.c:96
-#: src/modules/internet/sockconn.c:297
-#, fuzzy
-msgid "file descriptor is too large for select()"
-msgstr "長さ %d は大きすぎてハッシュできません"
-
-#: src/main/connections.c:6448 src/modules/internet/libcurl.c:793
+#: src/main/connections.c:6433 src/modules/internet/libcurl.c:606
 msgid "too many file descriptors for select()"
 msgstr ""
 
@@ -2813,7 +2806,7 @@ msgstr "(GEcreateDevDesc 内で) デバイス割り当てに十分なメモリ�
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "次の図を見るためには <Return> キーを押して下さい: "
+msgstr "次の図を見るためには <Return> キーを押して下さい:"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2950,7 +2943,7 @@ msgstr "ペアリストは R 2.15.0 以降では SEXP として引き渡され�
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " ファイル '%s' を上書きしません"
+msgstr "ファイル '%s' を上書きしません"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3171,12 +3164,12 @@ msgstr "無限に軸が伸ばされています [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
+msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.): new *up = %g > %g = x2"
+msgstr ".. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3275,7 +3268,7 @@ msgstr ""
 #, c-format
 msgid "the ... list contains fewer than %d element"
 msgid_plural "the ... list contains fewer than %d elements"
-msgstr[0] "... リストは %d 個の要素を含んでいません"
+msgstr[0] " ... リストは %d 個の要素を含んでいません"
 
 #: src/main/envir.c:1443
 #, c-format
@@ -3567,7 +3560,7 @@ msgstr "警告メッセージが失われました \n"
 #: src/main/errors.c:613
 msgid "Warning message:"
 msgid_plural "Warning messages:"
-msgstr[0] "警告メッセージ:"
+msgstr[0] " 警告メッセージ:"
 
 #: src/main/errors.c:623 src/main/errors.c:651
 #, c-format
@@ -3578,7 +3571,7 @@ msgstr "%s で:"
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
-msgstr[0] "%d 件の警告がありました (警告を見るには warnings() を使って下さい)"
+msgstr[0] " %d 件の警告がありました (警告を見るには warnings() を使って下さい)"
 
 #: src/main/errors.c:681
 #, c-format
@@ -3587,7 +3580,7 @@ msgstr "%d 件以上の警告がありました (最初の %d 個の警告を見
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "wrapup 中にエラーが起こりました: "
+msgstr "wrapup 中にエラーが起こりました:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3595,25 +3588,25 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "以下にエラー "
+msgstr "以下にエラー"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "%s でエラー (%s から) : "
+msgstr "%s でエラー (%s から) :"
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "%s でエラー: "
+msgstr "%s でエラー:"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "エラー: "
+msgstr "エラー:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "追加情報: "
+msgstr "追加情報:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3633,11 +3626,11 @@ msgstr "'%s' は文字列でなければなりません"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " stop() 関数の引数が不正な文字列です"
+msgstr "stop() 関数の引数が不正な文字列です"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " warning() 関数の引数が不正な文字列です"
+msgstr "warning() 関数の引数が不正な文字列です"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3677,7 +3670,15 @@ msgstr "強制変換中に不正確な整数変換が行われました"
 msgid "unknown warning (report this!)"
 msgstr "未知の警告です (報告してください！)"
 
-#: src/main/errors.c:1745
+#: src/main/errors.c:1525
+msgid "No function to return from, jumping to top level"
+msgstr "戻るべき関数がないので、トップレベルへジャンプします"
+
+#: src/main/errors.c:1541
+msgid "top level inconsistency?"
+msgstr "トップレベルの不整合？"
+
+#: src/main/errors.c:1797
 msgid "bad handler data"
 msgstr "ハンドラーデータ (handler data) が不正です"
 
@@ -3788,7 +3789,7 @@ msgstr "関数でないものを適用しようとしました"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%2$s#%3$d の %1$s: "
+msgstr "%2$s#%3$d の %1$s:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -3872,9 +3873,8 @@ msgstr "代入の左辺が不正 (do_set) です"
 msgid "'%s' is missing"
 msgstr "'%s' が見つかりません"
 
-#: src/main/eval.c:3840
-#, fuzzy, c-format
-msgid "invalid formal argument list for \"%s\""
+#: src/main/eval.c:3825
+msgid "invalid formal argument list for \"function\""
 msgstr "\"function\" の仮引数リストが不正です"
 
 #: src/main/eval.c:3897 src/main/eval.c:3928 src/main/eval.c:3933
@@ -3886,7 +3886,11 @@ msgstr "'%s' 引数 (型 '%s') が不正です"
 msgid "numeric 'envir' arg not of length one"
 msgstr "数値の 'envir' 引数の長さが 1 ではありません"
 
-#: src/main/eval.c:4024 src/main/eval.c:4037
+#: src/main/eval.c:3935 src/main/eval.c:3959
+msgid "restarts not supported in 'eval'"
+msgstr "再実行機能は 'eval' 関数に対してはサポートされていません"
+
+#: src/main/eval.c:4043 src/main/eval.c:4056
 msgid "'Recall' called from outside a closure"
 msgstr "クロージャの外部から 'Recall' が呼び出されました。"
 
@@ -3917,7 +3921,19 @@ msgstr "opcode が不適当です"
 msgid "invalid %s type in 'x %s y'"
 msgstr "'x %s y' の %s の型が不正です"
 
-#: src/main/eval.c:7529
+#: src/main/eval.c:7132
+msgid "bytecode version mismatch; using eval"
+msgstr "バイトコードのバージョンが不一致です; eval を使います"
+
+#: src/main/eval.c:7138
+msgid "bytecode version is too old"
+msgstr "バイトコードのバージョンが古すぎます"
+
+#: src/main/eval.c:7139
+msgid "bytecode version is too new"
+msgstr "バイトコードのバージョンが新しすぎます"
+
+#: src/main/eval.c:7184
 msgid "byte code version mismatch"
 msgstr "バイトコードのバージョンが不一致です"
 
@@ -4393,12 +4409,12 @@ msgstr "長さゼロのパターン"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre_fullinfo' が '%d' を返しました "
+msgstr "'pcre_fullinfo' が '%d' を返しました"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' が '%d' を返しました "
+msgstr "'pcre_fullinfo' が '%d' を返しました"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4473,7 +4489,7 @@ msgstr "ダミー、訳してはいけない (けど、訳してしまった)"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "cleanup 中にエラーが起こりました\n"
+msgstr "wrapup 中にエラーが起こりました:"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -4494,11 +4510,11 @@ msgstr "%s に保存されたデータを復帰できません \n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "起動準備中です - "
+msgstr "起動準備中です -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
-msgstr "読み込みのためにファイルを開くことができません\n"
+msgstr "読み込みのためにファイルを開くことができません"
 
 #: src/main/main.c:1450
 msgid "non-interactive browser() -- left over from debugging?"
@@ -4573,7 +4589,7 @@ msgstr "引数 %d が複数の仮引数に一致します"
 #, c-format
 msgid "unused argument %s"
 msgid_plural "unused arguments %s"
-msgstr[0] "使われていない引数 %s"
+msgstr[0] " 使われていない引数 %s"
 
 #: src/main/memory.c:475 src/main/memory.c:496
 msgid "a limit lower than current usage, so ignored"
@@ -4671,7 +4687,7 @@ msgstr "サイズ %0.f Kb のベクトルを割り当てることができませ
 #, c-format
 msgid "unprotect(): only %d protected item"
 msgid_plural "unprotect(): only %d protected items"
-msgstr[0] "unprotect(): %d 個だけの保護された項目"
+msgstr[0] " unprotect(): %d 個だけの保護された項目"
 
 #: src/main/memory.c:3454
 msgid "unprotect_ptr: pointer not found"
@@ -4681,7 +4697,7 @@ msgstr "unprotect_ptr: ポインターがありません"
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
-msgstr[0] "R_Reprotect: %d 個だけの保護された項目です、インデックス %d を再プロテクトできません"
+msgstr[0] " R_Reprotect: %d 個だけの保護された項目です、インデックス %d を再プロテクトできません"
 
 #: src/main/memory.c:3547
 #, fuzzy, c-format
@@ -5077,7 +5093,7 @@ msgstr "引数が不正です"
 #, c-format
 msgid "%d argument passed to .Internal(%s) which requires %d"
 msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
-msgstr[0] ".Internal(%2$s) 関数に %1$d 個の引数が渡されましたが、%3$d 個でなくてはなりません"
+msgstr[0] " .Internal(%2$s) 関数に %1$d 個の引数が渡されましたが、%3$d 個でなくてはなりません"
 
 #: src/main/paste.c:113 src/main/paste.c:351
 msgid "invalid separator"
@@ -5597,16 +5613,6 @@ msgstr "不正な UTF-8 文字列です"
 #, fuzzy
 msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
 msgstr "引数 'multiple' は TRUE または FALSE でなければなりません"
-
-#: src/main/relop.c:140 src/main/relop.c:154 src/main/relop.c:169
-#, fuzzy, c-format
-msgid "comparison (%s) is not possible for language types"
-msgstr "比較 (%d) はアトミックおよびリスト型に対してだけ可能です"
-
-#: src/main/relop.c:177
-#, fuzzy
-msgid "comparing this symbol and string pair is not supported"
-msgstr "名前に対する永続的な文字列は、まだサポートされていません"
 
 #: src/main/relop.c:185
 #, fuzzy, c-format
@@ -6221,12 +6227,8 @@ msgstr "不適切なバージョン値です"
 msgid "binary-mode connection required for ascii=FALSE"
 msgstr "ascii=FALSE に大してはバイナリコネクションが必要です"
 
-#: src/main/serialize.c:2662
-msgid "cannot return a promise (PROMSXP) object"
-msgstr ""
-
-#: src/main/serialize.c:2815 src/main/serialize.c:2852
-#: src/main/serialize.c:2917
+#: src/main/serialize.c:2808 src/main/serialize.c:2845
+#: src/main/serialize.c:2908
 msgid "serialization is too large to store in a raw vector"
 msgstr "線形化 (serialization) は raw ベクトルに保管するには大きすぎます"
 
@@ -6455,12 +6457,12 @@ msgstr "サポートされていないタイプです"
 #: src/main/sprintf.c:483
 #, c-format
 msgid "one argument not used by format '%s'"
-msgstr "'%s' の中で引数が範囲外です"
+msgstr "'%s' の中で引数が範囲外です \n"
 
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "'%2$s' の中で %1$d 引数が範囲外です"
+msgstr "'%s' の中で引数が範囲外です \n"
 
 #: src/main/sprintf.c:488
 #, fuzzy
@@ -6988,7 +6990,7 @@ msgstr "名前の抽出においてタグが不正です"
 #, c-format
 msgid "%d argument passed to '%s' which requires %d"
 msgid_plural "%d arguments passed to '%s' which requires %d"
-msgstr[0] "%d 個の引数が '%s' に渡されましたが、%d が必要とされています"
+msgstr[0] " %d 個の引数が '%s' に渡されましたが、%d が必要とされています"
 
 #: src/main/util.c:537
 #, c-format
@@ -8050,47 +8052,6 @@ msgstr "'-e' に対して一時ファイルの作成は失敗しました"
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "警告: ファイルリストの最初のみを編集します"
 
-#~ msgid "'.Random.seed' is a missing argument with no default"
-#~ msgstr "引数 '.Random.seed' の指定がなく、デフォルトの設定もありません"
-
-#, c-format
-#~ msgid "type \"%s\" not supported in interlanguage calls"
-#~ msgstr "言語間呼び出しにおいて \"%s\" 型はサポートされていません"
-
-#, c-format
-#~ msgid "mode '%s' is not supported in call_R"
-#~ msgstr "call_R では '%s' というモードはサポートされていません"
-
-#, c-format
-#~ msgid "cannot allocate vector of size %0.1f Mb"
-#~ msgstr "サイズ %0.1f Mb のベクトルを割り当てることができません"
-
-#~ msgid "'from' and 'to' are of different lengths"
-#~ msgstr "'from' と 'to' は異なった長さです"
-
-#, c-format
-#~ msgid " [ reached getOption(\"max.print\") -- omitted %d row ]\n"
-#~ msgid_plural " [ reached getOption(\"max.print\") -- omitted %d rows ]\n"
-#~ msgstr[0] " [ reached getOption(\"max.print\") -- %d 行を無視しました ] \n"
-
-#~ msgid "No function to return from, jumping to top level"
-#~ msgstr "戻るべき関数がないので、トップレベルへジャンプします"
-
-#~ msgid "top level inconsistency?"
-#~ msgstr "トップレベルの不整合？"
-
-#~ msgid "restarts not supported in 'eval'"
-#~ msgstr "再実行機能は 'eval' 関数に対してはサポートされていません"
-
-#~ msgid "bytecode version mismatch; using eval"
-#~ msgstr "バイトコードのバージョンが不一致です; eval を使います"
-
-#~ msgid "bytecode version is too old"
-#~ msgstr "バイトコードのバージョンが古すぎます"
-
-#~ msgid "bytecode version is too new"
-#~ msgstr "バイトコードのバージョンが新しすぎます"
-
 #, fuzzy, c-format
 #~ msgid "%d argument passed to '%s' which requires 1 or 2 arguments"
 #~ msgid_plural "%d arguments passed to '%s' which requires 1 or 2 arguments"
@@ -8836,3 +8797,4 @@ msgstr "警告: ファイルリストの最初のみを編集します"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr " 'R_get_primname' がプリミティブでないものに対して呼び出されました "
+

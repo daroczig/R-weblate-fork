@@ -3159,12 +3159,12 @@ msgstr "бесконечная протяженность оси [GEPretty(%g,%g
 #: src/main/engine.c:2502
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " новая *lo = %g < %g = x1"
+msgstr "новая *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " новая *up = %g > %g = x2"
+msgstr "новая *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3577,7 +3577,7 @@ msgstr "Было %d или более предупреждений (введит
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Ошибка во время создания сводки: "
+msgstr "Ошибка во время создания сводки:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3585,12 +3585,12 @@ msgstr "Ошибка: больше нет доступных обработчи�
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Ошибка в "
+msgstr "Ошибка в"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Ошибка в %s (из %s) : "
+msgstr "Ошибка в %s (из %s) :"
 
 #: src/main/errors.c:826
 #, c-format
@@ -3599,11 +3599,11 @@ msgstr "Ошибка в %s : "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Ошибка: "
+msgstr "Ошибка:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Вдобавок: "
+msgstr "Вдобавок:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3623,11 +3623,11 @@ msgstr "'%s' должен быть текстовой строкой"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [неправильная строка в stop(.)]"
+msgstr "[неправильная строка в stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [неправильная строка в warning(.)]"
+msgstr "[неправильная строка в warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3776,7 +3776,7 @@ msgstr "попытка применить не-функцию"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s на %s#%d: "
+msgstr "%s на %s#%d:"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4376,12 +4376,12 @@ msgstr "нулевой образец"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' вернул '%d' "
+msgstr "'pcre2_patterninfo' вернул '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' вернул '%d' "
+msgstr "'pcre_fullinfo' вернул '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4477,7 +4477,7 @@ msgstr "не могу восстановить сохраненные в %s да
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Во время загрузки - "
+msgstr "Во время загрузки -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

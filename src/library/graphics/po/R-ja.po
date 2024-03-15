@@ -482,15 +482,15 @@ msgstr "x または y が対数スケールです: xyinch() は意味をなし�
 
 msgid "Duplicated argument %s is disregarded"
 msgid_plural "Duplicated arguments %s are disregarded"
-msgstr[0] "余分な引数 %s は無視されます"
+msgstr[0] " 余分な引数 %s は無視されます"
 
 msgid "Outlier (%s) in boxplot %d is not drawn"
 msgid_plural "Outliers (%s) in boxplot %d are not drawn"
-msgstr[0] "外れ値 (%s) は描かれません 箱型図 %d 中では"
+msgstr[0] " 外れ値 (%s) は描かれません 箱型図 %d 中では"
 
 msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
-msgstr[0] "引数 %s は使用されていません"
+msgstr[0] " 引数 %s は使用されていません"
 
 #, fuzzy
 #~ msgid "fuzz must be non-negative"

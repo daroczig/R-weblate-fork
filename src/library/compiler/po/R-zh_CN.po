@@ -135,7 +135,7 @@ msgstr "不能编译代码中的承诺文字"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "为句法函数作了本地赋值: "
+msgstr[0] "为句法函数作了本地赋值：为句法函数作了本地赋值："
 msgstr[1] ""
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"

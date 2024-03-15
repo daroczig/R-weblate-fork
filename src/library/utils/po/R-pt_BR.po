@@ -1337,8 +1337,8 @@ msgstr[1] "%d arquivos Sweave encontrados para o nome base %s"
 
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
-msgstr[0] "Arquivo de saída/usado:  "
-msgstr[1] "Arquivos de saída/usados:  "
+msgstr[0] "Arquivo de saída/usado: "
+msgstr[1] "Arquivos de saída/usados: "
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"

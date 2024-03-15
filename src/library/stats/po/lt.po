@@ -330,7 +330,7 @@ msgstr "būtina darbo sritis (%.0f) yra per didelė %s."
 
 #: loessc.c:258
 msgid " probably because of setting 'se = TRUE'"
-msgstr " tikriausiai dėl nustatymo 'se = TRUE'"
+msgstr "tikriausiai dėl nustatymo 'se = TRUE'"
 
 #: loglin.c:367
 msgid "this should not happen"

@@ -3582,7 +3582,7 @@ msgstr "Es gab %d oder mehr Warnungen (Anzeige der ersten %d mit warnings())"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Fehler während wrapup: "
+msgstr "Fehler während wrapup:"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3590,25 +3590,25 @@ msgstr "Fehler: Keine weiteren Fehler-Behandler verfügbar (rekursive Fehler?); 
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Fehler in "
+msgstr "Fehler in"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Fehler in %s (von %s) : "
+msgstr "Fehler in %s (von %s) :"
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Fehler in %s : "
+msgstr "Fehler in %s :"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Fehler: "
+msgstr "Fehler:"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Zusätzlich: "
+msgstr "Zusätzlich:"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -4487,7 +4487,7 @@ msgstr "kann die gespeicherten Daten aus %s nicht wiederherstellen\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Beim Start - "
+msgstr "Beim Start -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

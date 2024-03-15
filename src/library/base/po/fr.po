@@ -2803,7 +2803,7 @@ msgstr "insuffisamment de mémoire à allouer au périphérique (dans GEcreateDe
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Tapez <Entrée> pour voir le graphique suivant : "
+msgstr "Tapez <Entrée> pour voir le graphique suivant :"
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2940,7 +2940,7 @@ msgstr "les pairlists sont passées comme SEXP depuis R 2.15.0"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr " pas d'écrasement du fichier '%s"
+msgstr "pas d'écrasement du fichier '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3161,12 +3161,12 @@ msgstr "étendue de l'axe infinie [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.) : nouveau *lo = %g < %g = x1"
+msgstr ".. GEPretty(.) : nouveau *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.) : nouveau *up = %g > %g = x2"
+msgstr ".. GEPretty(.) : nouveau *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3576,7 +3576,7 @@ msgstr "Il y a eu %d avis ou plus (utilisez warnings() pour voir les %d premiers
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Erreur pendant l'emballage (wrapup) : "
+msgstr "Erreur pendant l'emballage (wrapup) :"
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -3584,25 +3584,25 @@ msgstr "Erreur : plus de gestionnaire d’erreur disponible (erreurs récursives
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Erreur dans "
+msgstr "Erreur dans"
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Erreur dans %s (depuis %s) : "
+msgstr "Erreur dans %s (depuis %s) :"
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Erreur dans %s : "
+msgstr "Erreur dans %s :"
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Erreur : "
+msgstr "Erreur :"
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "De plus : "
+msgstr "De plus :"
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3622,11 +3622,11 @@ msgstr "'%s' doit être une chaîne de caractères"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr " [chaîne incorrecte dans stop(.)]"
+msgstr "[chaîne incorrecte dans stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr " [chaîne incorrecte dans warning(.)]"
+msgstr "[chaîne incorrecte dans warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3777,7 +3777,7 @@ msgstr "tentative d'appliquer un objet qui n'est pas une fonction"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s à %s#%d : "
+msgstr "%s à %s#%d :"
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4382,12 +4382,12 @@ msgstr "motif de longueur nulle"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' a renvoyé '%d' "
+msgstr "'pcre2_patterninfo' a renvoyé '%d'"
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' a renvoyé '%d' "
+msgstr "'pcre_fullinfo' a renvoyé '%d'"
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4481,7 +4481,7 @@ msgstr "impossible de récupérer les données sauvées dans %s\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Pendant le démarrage - "
+msgstr "Pendant le démarrage -"
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"

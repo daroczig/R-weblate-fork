@@ -337,7 +337,7 @@ msgstr "il workspace richiesto (%.0f) è troppo grande %s."
 
 #: loessc.c:258
 msgid " probably because of setting 'se = TRUE'"
-msgstr " probabilmente per l'impostazione 'se = TRUE'"
+msgstr "probabilmente per l'impostazione 'se = TRUE'"
 
 #: loglin.c:367
 msgid "this should not happen"
