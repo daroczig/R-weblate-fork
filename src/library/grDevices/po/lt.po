@@ -882,7 +882,7 @@ msgstr "grafiko apdorojimui trūksta atminties"
 
 #: devWindows.c:3625
 msgid "Impossible to open "
-msgstr "Neįmanoma atverti "
+msgstr "Neįmanoma atverti"
 
 #: devWindows.c:3756
 msgid "invalid 'width' or 'height'"
