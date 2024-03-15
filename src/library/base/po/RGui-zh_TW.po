@@ -59,7 +59,7 @@ msgstr "捲動。\n"
 
 #: src/gnuwin32/console.c:2302
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  鍵盤: PgUp、PgDown、Ctrl+方向鍵、Ctrl+Home、Ctrl+End、\n"
+msgstr " 鍵盤: PgUp、PgDown、Ctrl+方向鍵、Ctrl+Home、Ctrl+End、\n"
 
 #: src/gnuwin32/console.c:2303
 msgid ""
@@ -75,83 +75,83 @@ msgstr "編輯中。\n"
 
 #: src/gnuwin32/console.c:2305
 msgid "  Moving the cursor: \n"
-msgstr "  移動游標: \n"
+msgstr " 移動游標: \n"
 
 #: src/gnuwin32/console.c:2306
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "     左箭頭或 Ctrl+B: 左移一字元；\n"
+msgstr "    左箭頭或 Ctrl+B: 左移一字元；\n"
 
 #: src/gnuwin32/console.c:2307
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "     右箭頭或Ctrl+F: 右移一字元；\n"
+msgstr "    右箭頭或Ctrl+F: 右移一字元；\n"
 
 #: src/gnuwin32/console.c:2308
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "     Home 或 Ctrl+A: 移到列首；\n"
+msgstr "    Home 或 Ctrl+A: 移到列首；\n"
 
 #: src/gnuwin32/console.c:2309
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "     End 或 Ctrl+E: 移到列尾；\n"
+msgstr "    End 或 Ctrl+E: 移到列尾；\n"
 
 #: src/gnuwin32/console.c:2310
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "  命令歷程: 上、下箭頭、Ctrl+P、Ctrl+N\n"
+msgstr " 命令歷程: 上、下箭頭、Ctrl+P、Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2311
 msgid "  Deleting:\n"
-msgstr "  刪除中:\n"
+msgstr " 刪除中:\n"
 
 #: src/gnuwin32/console.c:2312
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "     Del 或 Ctrl+D:刪除目前所在字元或選取；\n"
+msgstr "    Del 或 Ctrl+D:刪除目前所在字元或選取；\n"
 
 #: src/gnuwin32/console.c:2313
 msgid "     Backspace: delete preceding character;\n"
-msgstr "     Backspace: 刪除目前位置之前的字元；\n"
+msgstr "    Backspace: 刪除目前位置之前的字元；\n"
 
 #: src/gnuwin32/console.c:2314
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     Ctrl+Del 或 Ctrl+K: 刪除目前位置到列尾的所有文字。\n"
+msgstr "    Ctrl+Del 或 Ctrl+K: 刪除目前位置到列尾的所有文字。\n"
 
 #: src/gnuwin32/console.c:2315
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "     Ctrl+U: 從目前所在列開始刪除所有的文字。\n"
+msgstr "    Ctrl+U: 從目前所在列開始刪除所有的文字。\n"
 
 #: src/gnuwin32/console.c:2316
 msgid "  Copy and paste.\n"
-msgstr "  複製和貼上。\n"
+msgstr " 複製和貼上。\n"
 
 #: src/gnuwin32/console.c:2317
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     用滑鼠 (持續按著左鍵) 來選擇文字。\n"
+msgstr "    用滑鼠 (持續按著左鍵) 來選擇文字。\n"
 
 #: src/gnuwin32/console.c:2318
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     用 Shift+Del (或 Ctrl+C) 把選擇好的文字複製到剪貼簿以及\n"
+msgstr "    用 Shift+Del (或 Ctrl+C) 把選擇好的文字複製到剪貼簿以及\n"
 
 #: src/gnuwin32/console.c:2319
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     用 Shift+Ins (或 Ctrl+V 或 Ctrl+Y) 來貼上剪貼簿的內容 (如果有的話)  \n"
+msgstr "    用 Shift+Ins (或 Ctrl+V 或 Ctrl+Y) 來貼上剪貼簿的內容 (如果有的話)  \n"
 
 #: src/gnuwin32/console.c:2320
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "     到主控臺，Ctrl+X 先複製再貼上\n"
+msgstr "    到主控臺，Ctrl+X 先複製再貼上\n"
 
 #: src/gnuwin32/console.c:2321
 msgid "  Misc:\n"
-msgstr "  其它:\n"
+msgstr " 其它:\n"
 
 #: src/gnuwin32/console.c:2322
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "     Ctrl+L: 清除主控臺。\n"
+msgstr "    Ctrl+L: 清除主控臺。\n"
 
 #: src/gnuwin32/console.c:2323
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O 或 INS：切換覆寫模式：初始時關閉。\n"
+msgstr "    Ctrl+O 或 INS：切換覆寫模式：初始時關閉。\n"
 
 #: src/gnuwin32/console.c:2324
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "     Ctrl+T: 將目前所在位置的字元與其左方的字元交換。\n"
+msgstr "    Ctrl+T: 將目前所在位置的字元與其左方的字元交換。\n"
 
 #: src/gnuwin32/console.c:2325
 msgid ""
@@ -243,15 +243,15 @@ msgstr "要執行一列或一段 R 的程式碼，先選擇所需要的程式碼，然後再\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     按 Ctrl-R\n"
+msgstr "    按 Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     從「編輯」選單中選擇「執行程式列或選擇項」\n"
+msgstr "    從「編輯」選單中選擇「執行程式列或選擇項」\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     按工具列上的「執行程式列或選擇項」按鈕\n"
+msgstr "    按工具列上的「執行程式列或選擇項」按鈕\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -822,7 +822,7 @@ msgstr "問題"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " 現行目錄改成："
+msgstr "現行目錄改成："
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
