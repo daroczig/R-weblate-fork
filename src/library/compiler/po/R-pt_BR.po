@@ -132,8 +132,8 @@ msgstr "não é possível compilar promessas literais em código"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "atribuição local para função sintática: "
-msgstr[1] "atribuições locais para funções sintáticas: "
+msgstr[0] "atribuição local para função sintática:"
+msgstr[1] "atribuições locais para funções sintáticas:"
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"
 #~ msgstr ""
