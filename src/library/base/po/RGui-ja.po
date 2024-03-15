@@ -59,7 +59,7 @@ msgstr "スクロール. \n"
 
 #: src/gnuwin32/console.c:2302
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "  キーボード: PgUp, PgDown, Ctrl+矢印, Ctrl+Home, Ctrl+End,\n"
+msgstr "  キーボード: PgUp, PgDown, Ctrl+矢印, Ctrl+Home, Ctrl+End, \n"
 
 #: src/gnuwin32/console.c:2303
 msgid ""
@@ -243,7 +243,7 @@ msgstr "カーソル行または選択中の R コードを実行するために
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "     Ctrl+R を押してください\n"
+msgstr "    Ctrl+R を押してください \n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
@@ -823,7 +823,7 @@ msgstr "質問"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr " 作業ディレクトリの変更"
+msgstr "作業ディレクトリの変更"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format

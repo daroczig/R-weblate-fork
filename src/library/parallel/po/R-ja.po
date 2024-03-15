@@ -83,7 +83,7 @@ msgid "%d function calls resulted in an error"
 msgstr "%d個の関数呼び出し中にエラーが発生しました"
 
 msgid "'mc.preschedule' must be false if 'affinity.list' is used"
-msgstr "'mc.preschedule' が使用されている場合、'affinity.list' は false "
+msgstr "'mc.preschedule' が使用されている場合、'affinity.list' は false"
 "でなければなりません"
 
 msgid "all scheduled cores encountered errors in user code"
@@ -122,12 +122,12 @@ msgstr[0] "%d 個の並列関数呼び出しで結果が得られませんでし
 
 msgid "scheduled core %s did not deliver a result, all values of the job will be affected"
 msgid_plural "scheduled cores %s did not deliver results, all values of the jobs will be affected"
-msgstr[0] "スケジュールされたコア %s "
+msgstr[0] "スケジュールされたコア %s"
 "は結果を提供しませんでした。ジョブのすべての値が影響を受けます。"
 
 msgid "scheduled core %s encountered error in user code, all values of the job will be affected"
 msgid_plural "scheduled cores %s encountered errors in user code, all values of the jobs will be affected"
-msgstr[0] "スケジュールされたコア %s でユーザー "
+msgstr[0] "スケジュールされたコア %s でユーザー"
 "コードでエラーが発生しました。ジョブのすべての値が影響を受けます。"
 
 msgid "%d parallel job did not deliver a result"
