@@ -129,8 +129,8 @@ msgstr "kan ikke kompilere ordrette lovninger i kode"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "lokal tildeling til syntaksfunktion: "
-msgstr[1] "lokale tildelinger til syntaksfunktioner: "
+msgstr[0] "lokal tildeling til syntaksfunktion:"
+msgstr[1] "lokale tildelinger til syntaksfunktioner:"
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"
 #~ msgstr "'ns' skal være et navnerum eller et importmiljø for navnerum"
