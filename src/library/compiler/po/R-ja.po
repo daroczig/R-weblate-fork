@@ -130,7 +130,7 @@ msgstr "この式はコンパイルできません"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "シンタックス関数へのローカル付値です: "
+msgstr[0] " シンタックス関数へのローカル付値です:"
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"
 #~ msgstr ""

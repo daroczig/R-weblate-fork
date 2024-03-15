@@ -126,5 +126,5 @@ msgstr "cannot compile this expression"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "local assignment to syntactic function: "
-msgstr[1] "local assignments to syntactic functions: "
+msgstr[0] "local assignment to syntactic function:"
+msgstr[1] "local assignments to syntactic functions:"
