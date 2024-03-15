@@ -881,7 +881,7 @@ msgstr "zabrakło pamięci podczas przetwarzania wykresu"
 
 #: devWindows.c:3625
 msgid "Impossible to open "
-msgstr "Nie można otworzyć "
+msgstr "Nie można otworzyć"
 
 #: devWindows.c:3756
 msgid "invalid 'width' or 'height'"

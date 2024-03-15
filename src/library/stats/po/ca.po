@@ -384,7 +384,7 @@ msgstr "l'espai de treball necessari (%.0f) és massa gran%s."
 #: loessc.c:258
 #, fuzzy
 msgid " probably because of setting 'se = TRUE'"
-msgstr " probablement a causa de la configuració «se = TRUE»"
+msgstr "probablement a causa de la configuració «se = TRUE»"
 
 #: loglin.c:372
 #, fuzzy
