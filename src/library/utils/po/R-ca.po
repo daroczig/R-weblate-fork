@@ -1695,8 +1695,8 @@ msgstr[1] "S'han trobat %d fitxers de suavitat per al nom base %s"
 #, fuzzy
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
-msgstr[0] "Fitxer de sortida/utilitzat:  "
-msgstr[1] "Fitxers de sortida/utilitzats:  "
+msgstr[0] "Fitxer de sortida/utilitzat: "
+msgstr[1] "Fitxers de sortida/utilitzats: "
 
 #, fuzzy
 msgid "%d occurrence in %s"

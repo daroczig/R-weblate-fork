@@ -129,9 +129,9 @@ msgstr "negalima kompiliuoti šio reiškinio"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "vietos priskyrimas į sintaksinę funkciją: "
-msgstr[1] "vietų priskyrimas į sintaksines funkcijas: "
-msgstr[2] "vietos priskyrimas į sintaksinę funkciją: "
+msgstr[0] "vietos priskyrimas į sintaksinę funkciją:"
+msgstr[1] "vietų priskyrimas į sintaksines funkcijas:"
+msgstr[2] "vietos priskyrimas į sintaksinę funkciją:"
 
 #~ msgid "%s is not a registered math1 function"
 #~ msgstr "%s nėra registruota math1 funkcija"

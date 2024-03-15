@@ -58,7 +58,7 @@ msgstr "invalid 'numerals' string: \"%s\""
 #: io.c:779
 #, c-format
 msgid "Selection: "
-msgstr "Selection: "
+msgstr "Selection:"
 
 #: io.c:874 io.c:889
 msgid "cannot allocate buffer in 'readTableHead'"

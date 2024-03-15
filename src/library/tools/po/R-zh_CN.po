@@ -229,7 +229,7 @@ msgid "Offending entries:"
 msgstr "有问题的条目为:"
 
 msgid "Entries must be names of packages optionally followed by '<=' or '>=', white space, and a valid version number in parentheses."
-msgstr "每条目都必需是程序包的名称，名称后面可以跟'<='或'>=', 空格, "
+msgstr "每条目都必需是程序包的名称，名称后面可以跟'<='或'>=', 空格,"
 "或在括号内的适当版本数目."
 
 msgid "Entries with infeasible comparison operator:"
