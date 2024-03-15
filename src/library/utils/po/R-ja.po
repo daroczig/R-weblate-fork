@@ -145,7 +145,7 @@ msgid ""
 " to list the vignettes in all <strong>available</strong> packages."
 msgstr ""
 "全ての <strong>利用可能</strong> なパッケージの vignette のリストを表示するには\n"
-"<code> %s </code> を使用してください。"
+"<code> %s </code> を使用してください"
 
 msgid "No vignettes found by %s"
 msgstr "%s には vignette がありません"
