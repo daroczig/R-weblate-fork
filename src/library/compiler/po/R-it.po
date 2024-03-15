@@ -131,5 +131,5 @@ msgstr "non è possibile compilare questa espressione"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "assegnamento locale a funzione sintattica: "
-msgstr[1] "assegnamenti locali a funzione sintattiche: "
+msgstr[0] "assegnamento locale a funzione sintattica:"
+msgstr[1] "assegnamenti locali a funzione sintattiche:"
