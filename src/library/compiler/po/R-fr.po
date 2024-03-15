@@ -131,8 +131,8 @@ msgstr "impossible de compiler cette expression"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "affectation locale vers une fonction syntaxique : "
-msgstr[1] "affectations locales vers des fonctions syntaxiques : "
+msgstr[0] "affectation locale vers une fonction syntaxique :"
+msgstr[1] "affectations locales vers des fonctions syntaxiques :"
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"
 #~ msgstr "'ns' doit être être un espace de noms (namespace) ou un environnement d'importation d'espace de noms"
