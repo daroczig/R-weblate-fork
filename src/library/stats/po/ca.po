@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-24 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,8 @@ msgstr "approx(): s'ha intentat interpolar els valors NA"
 msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
 msgstr "approx(x,y, .., na.rm=FALSE): no es permeten els valors NA a x"
 
-#: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:33
+#: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:39
+#, fuzzy
 msgid "invalid argument type"
 msgstr "tipus d'argument no vàlid"
 
@@ -84,7 +85,7 @@ msgstr "x[%d] no definit en el càlcul de l'amplada de banda"
 #: complete_cases.c:26
 #, c-format, fuzzy
 msgid "invalid 'type' (%s) of argument"
-msgstr "«type» no vàlid (%s) de l'argument"
+msgstr "'type' (%s) de l'argument no és vàlid"
 
 #: complete_cases.c:120
 #, fuzzy
@@ -154,7 +155,7 @@ msgstr "la variable ha de ser una cadena de caràcters"
 #: deriv.c:794
 #, fuzzy
 msgid "only the first element is used as variable name"
-msgstr "només el primer element s'utilitza com a nom de variable"
+msgstr "només s'utilitza el primer element com a nom de variable"
 
 #: deriv.c:807
 #, c-format, fuzzy
@@ -194,7 +195,7 @@ msgstr "distance(): la distància no és vàlida"
 #: distn.c:47
 #, fuzzy
 msgid "NaNs produced"
-msgstr "NaNs produït"
+msgstr "NaN produït"
 
 #: distn.c:48
 #, fuzzy
@@ -484,7 +485,7 @@ msgstr "resultat no vàlid de na.action"
 #: model.c:373 model.c:381 optim.c:221
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "l'argument «%s» no vàlid"
+msgstr "argument «%s» no vàlid"
 
 #: model.c:398
 #, fuzzy
@@ -672,9 +673,10 @@ msgstr "convergeix"
 msgid "'theta' should be of type character"
 msgstr "'theta' hauria de ser del tipus de caràcter"
 
-#: nls.c:287 port.c:383
+#: nls.c:286 port.c:382
+#, fuzzy
 msgid "use of NULL environment is defunct"
-msgstr "l'ús d'un entorn NULL ha desaparegut"
+msgstr "l'ús de l'entorn NULL és obsolet"
 
 #: nls.c:290
 #, fuzzy
@@ -785,7 +787,7 @@ msgstr "s'ha intentat minimitzar la no-funció"
 #: optimize.c:373
 #, c-format
 msgid "invalid '%s' value"
-msgstr "valor «%s» no vàlid"
+msgstr "el valor «%s» no és vàlid"
 
 #: optimize.c:271 optimize.c:358
 #, fuzzy
@@ -1102,7 +1104,7 @@ msgstr "la matriu «scal» no està definida positivament"
 #: random.c:53 random.c:137 random.c:217 random.c:307
 #, fuzzy
 msgid "NAs produced"
-msgstr "S'ha produït un NA"
+msgstr "S'han produït els SNA"
 
 #: random.c:60 random.c:66 random.c:72 random.c:87 random.c:167 random.c:256
 #: random.c:394
@@ -1113,7 +1115,7 @@ msgstr "arguments no vàlids"
 #: random.c:333
 #, fuzzy
 msgid "NA in probability vector"
-msgstr "NA en el vector de probabilitat"
+msgstr "NA en vector de probabilitat"
 
 #: random.c:335
 #, fuzzy
@@ -1149,6 +1151,7 @@ msgstr "regla final no vàlida per a la mediana en execució de 3: %d"
 #, c-format, fuzzy
 msgid "missing value in last %d observations"
 msgstr "manca un valor en les últimes %d observacions"
+
 
 
 
