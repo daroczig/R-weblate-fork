@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-10-24 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -27,19 +27,22 @@ msgstr ""
 #: windows/widgets.c:83 windows/widgets.c:88
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "l'argument «%s» no vàlid"
+msgstr "argument «%s» no vàlid"
 
 #: io.c:350 io.c:841
+#, fuzzy
 msgid "invalid quote symbol set"
-msgstr "el conjunt de símbols de cometes no és vàlid"
+msgstr "joc de símbols de cita no vàlid"
 
 #: io.c:362 io.c:864 io.c:1084
+#, fuzzy
 msgid "cannot open the connection"
 msgstr "no s'ha pogut obrir la connexió"
 
 #: io.c:365 io.c:369
+#, fuzzy
 msgid "cannot read from this connection"
-msgstr "no es pot llegir d'aquesta connexió"
+msgstr "no es pot llegir des d'aquesta connexió"
 
 #: io.c:416 io.c:434
 #, c-format
@@ -78,21 +81,23 @@ msgid "index out of range"
 msgstr "l'índex és fora del rang"
 
 #: io.c:1052
-#, c-format
+#, c-format, fuzzy
 msgid "Problem closing connection:  %s"
-msgstr "Problema en tancar la connexió: %s"
+msgstr "Problema tancant la connexió: %s"
 
 #: io.c:1054
+#, fuzzy
 msgid "Problem closing connection"
-msgstr "Problema en tancar la connexió"
+msgstr "S'ha produït un problema en tancar la connexió"
 
 #: io.c:1077
 msgid "'file' is not a connection"
 msgstr "«file» no és una connexió"
 
 #: io.c:1080
+#, fuzzy
 msgid "cannot write to this connection"
-msgstr "no es pot escriure a aquesta connexió"
+msgstr "no s'ha pogut escriure a aquesta connexió"
 
 #: io.c:1110
 msgid "'dec' must be a single character"
@@ -123,6 +128,7 @@ msgid "'loadhistory' can only be used in Rgui and Rterm"
 msgstr "«loadhistory» només es pot utilitzar a Rgui i Rterm"
 
 #: stubs.c:85
+#, fuzzy
 msgid "invalid timestamp"
 msgstr "marca horària no vàlida"
 
@@ -131,6 +137,7 @@ msgid "X11 dataentry cannot be loaded"
 msgstr "L'entrada de dades X11 no es pot carregar"
 
 #: stubs.c:155 stubs.c:184 stubs.c:190
+#, fuzzy
 msgid "X11 is not available"
 msgstr "X11 no està disponible"
 
@@ -210,7 +217,7 @@ msgstr "no s'ha pogut suprimir l'element del menú (%s)"
 #: windows/registry.c:248
 #, c-format
 msgid "invalid '%s' value"
-msgstr "valor «%s» no vàlid"
+msgstr "el valor «%s» no és vàlid"
 
 #: windows/registry.c:260
 #, c-format
@@ -218,18 +225,21 @@ msgid "Registry key '%ls' not found"
 msgstr "No s'ha trobat la clau de registre '%ls'"
 
 #: windows/util.c:46
+#, fuzzy
 msgid "unsupported version of Windows"
-msgstr "versió de Windows no suportada"
+msgstr "versió no admesa de Windows"
 
 #: windows/util.c:291
 msgid "argument must be a character vector or a raw vector"
 msgstr "l'argument ha de ser un vector de caràcters o un vector RAW"
 
-#: windows/util.c:332
+#: windows/util.c:330
+#, fuzzy
 msgid "unable to open the clipboard"
 msgstr "no s'ha pogut obrir el porta-retalls"
 
-#: windows/util.c:337
+#: windows/util.c:335
+#, fuzzy
 msgid "unable to write to the clipboard"
 msgstr "no s'ha pogut escriure al porta-retalls"
 
@@ -247,7 +257,7 @@ msgid "'%s' must be length 1"
 msgstr "«%s» ha de ser de longitud 1"
 
 #: windows/util.c:575
-#, c-format
+#, c-format, fuzzy
 msgid "'%s' must be a list"
 msgstr "«%s» ha de ser una llista"
 
@@ -283,5 +293,6 @@ msgstr "«multi» ha de ser un valor lògic"
 #: windows/widgets.c:206
 msgid "'filterindex' must be an integer value"
 msgstr "«filterindex» ha de ser un valor enter"
+
 
 
