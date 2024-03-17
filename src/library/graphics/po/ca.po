@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-12-19 03:05+0000\n"
-"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "Estat dels gràfics incompatible"
 
 #: base.c:385 base.c:392 base.c:400
 msgid "the base graphics system is not registered"
-msgstr "el sistema gràfic base no està registrat"
+msgstr "el sistema de gràfics base no està registrat"
 
 #: graphics.c:297
 #, c-format
@@ -201,7 +201,7 @@ msgstr "especificació de tipus de lletra no vàlida"
 #: plot3d.c:1169 plot3d.c:1903
 #, c-format
 msgid "invalid '%s' value"
-msgstr "valor «%s» no vàlid"
+msgstr "el valor «%s» no és vàlid"
 
 #: plot.c:293
 #, c-format
@@ -258,7 +258,7 @@ msgstr "tipus no vàlid per a les etiquetes dels eixos"
 #: plot.c:1984 plot.c:2079 plot.c:2155 plot.c:2433 plot.c:2607 plot.c:2823
 #: plot.c:3370 plot.c:3505 plot.c:3581 plot.c:3747 plot.c:4027 plot3d.c:1872
 msgid "too few arguments"
-msgstr "hi ha massa pocs arguments"
+msgstr "massa pocs arguments"
 
 #: plot.c:790
 #, c-format
@@ -367,7 +367,7 @@ msgstr "«a» i «b» han de ser finits"
 #: stem.c:215 stem.c:216
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "l'argument «%s» no vàlid"
+msgstr "argument «%s» no vàlid"
 
 #: plot.c:3081 plot.c:3221
 #, c-format
@@ -542,7 +542,7 @@ msgstr "especificació «%s» no vàlida"
 #: plot3d.c:1526
 #, c-format
 msgid "contour(): circular/long seglist -- set %s > %d?"
-msgstr "contour(): llista de segments circular/llarga -- estableix %s > %d?"
+msgstr "contour(): circular/long seglist -- establiu %s > %d?"
 
 #: plot3d.c:1935
 msgid "no 'levels'"
@@ -571,14 +571,14 @@ msgstr "valors de nivell no finits: levels[%d] = %g"
 
 #: plot3d.c:1966
 msgid "all z values are equal"
-msgstr "tots els valors de z són iguals"
+msgstr "tots els valors z són iguals"
 
 #: plot3d.c:1968
 msgid "all z values are NA"
-msgstr "tots els valors de z són NA"
+msgstr "tots els valors z són NA"
 
 #: stem.c:161
 #, c-format
 msgid "long vector '%s' is not supported"
-msgstr "el vector llarg «%s» no és compatible"
+msgstr "el vector llarg «%s» no està suportat"
 
