@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-03-16 22:06+0000\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -21,7 +21,7 @@ msgstr ""
 #: src/gnuwin32/console.c:1204 src/gnuwin32/console.c:1246
 #: src/gnuwin32/console.c:1774
 msgid "Not enough memory"
-msgstr "No hi ha prou memòria"
+msgstr "Memòria insuficient"
 
 #: src/gnuwin32/console.c:1293 src/gnuwin32/console.c:1297
 msgid "Insufficient memory: text not copied to the clipboard"
