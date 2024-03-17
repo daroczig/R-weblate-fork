@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-24 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2024-03-18 06:08+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -43,11 +43,12 @@ msgid "sha256 failed on file '%s'"
 msgstr "md5 ha fallat al fitxer «%s»"
 
 #: getfmts.c:61
-#, c-format
+#, c-format, fuzzy
 msgid "only %d arguments are allowed"
 msgstr "només es permeten %d arguments"
 
 #: getfmts.c:66
+#, fuzzy
 msgid "'fmt' is not a character vector"
 msgstr "«fmt» no és un vector de caràcters"
 
@@ -56,19 +57,19 @@ msgid "'fmt' must be length 1"
 msgstr "«fmt» ha de ser de longitud 1"
 
 #: getfmts.c:75
-#, c-format
+#, c-format, fuzzy
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "la longitud de «fmt» excedeix la longitud màxima de format %d"
+msgstr "la longitud «fmt» excedeix la longitud màxima de format %d"
 
 #: getfmts.c:96
-#, c-format
+#, c-format, fuzzy
 msgid "unrecognised format specification '%s'"
-msgstr "especificació de format «%s» no reconeguda"
+msgstr "especificació de format no reconeguda «%s»"
 
 #: getfmts.c:136
+#, fuzzy
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr ""
-"com a màxim un asterisc «*» és compatible amb cada especificació de conversió"
+msgstr "com a màxim s'admet un asterisc '*' a cada especificació de conversió"
 
 #: gramLatex.c:2392 gramRd.c:3995
 #, c-format
@@ -80,7 +81,7 @@ msgstr ""
 #: gramLatex.c:2629 gramRd.c:4541 gramRd.c:4547
 #, c-format
 msgid "invalid '%s' value"
-msgstr "valor «%s» no vàlid"
+msgstr "el valor «%s» no és vàlid"
 
 #: gramRd.c:2549 gramRd.c:2552
 #, c-format
@@ -134,13 +135,15 @@ msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 msgstr ""
 "Final d'entrada inesperat (a la cadena entre cometes %c oberta a %s:%d:%d)"
 
-#: gramRd.c:4537
+#: gramRd.c:4554
+#, fuzzy
 msgid "cannot open the connection"
 msgstr "no s'ha pogut obrir la connexió"
 
-#: gramRd.c:4544
+#: gramRd.c:4561
+#, fuzzy
 msgid "cannot read from this connection"
-msgstr "no es pot llegir d'aquesta connexió"
+msgstr "no es pot llegir des d'aquesta connexió"
 
 #: gramRd.c:4569
 msgid "invalid Rd file"
@@ -164,25 +167,29 @@ msgid "invalid bind address specification"
 msgstr "especificació d'adreça de vinculació no vàlida"
 
 #: install.c:95
+#, fuzzy
 msgid "path too long"
 msgstr "camí massa llarg"
 
 #: install.c:120 install.c:139 install.c:141
 #, c-format
 msgid "invalid '%s' argument"
-msgstr "l'argument «%s» no vàlid"
+msgstr "argument «%s» no vàlid"
 
 #: install.c:170
+#, fuzzy
 msgid "write error during file append"
-msgstr "s'ha produït un error d'escriptura en afegir el fitxer"
+msgstr "error d'escriptura durant l'annex de fitxer"
 
 #: pdscan.c:67
+#, fuzzy
 msgid "too many items"
-msgstr "hi ha massa elements"
+msgstr "massa elements"
 
 #: pdscan.c:115
+#, fuzzy
 msgid "non-character argument"
-msgstr "argument que no és de tipus caràcter"
+msgstr "argument de no caràcter"
 
 #: signals.c:42
 msgid "pskill() is not supported on this platform"
@@ -193,11 +200,14 @@ msgid "psnice() is not supported on this platform"
 msgstr "psnice() no és compatible amb aquesta plataforma"
 
 #: text.c:69
+#, fuzzy
 msgid "invalid argument type"
 msgstr "tipus d'argument no vàlid"
 
 #: text.c:225 text.c:247
+#, fuzzy
 msgid "out of memory"
-msgstr "sense memòria"
+msgstr "fora de memòria"
+
 
 
