@@ -5,6 +5,7 @@
 # Wei-Lun Chao <bluebat@member.fsf.org>, 2005, 06, 11, 18.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 3.5.1\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -3581,7 +3583,7 @@ msgstr "警告多於 %d 個 (用 warnings() 來顯示最先的 %d 個)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "收捲時發生錯誤:"
+msgstr "收捲時發生錯誤: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
