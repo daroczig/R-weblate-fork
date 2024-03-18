@@ -4,10 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 #: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
@@ -77,83 +75,89 @@ msgstr "सम्पादन गर्दै।\n"
 
 #: src/gnuwin32/console.c:2465
 msgid "  Moving the cursor: \n"
-msgstr " कर्सर सार्दै: \n"
+msgstr "  कर्सर सार्दै: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "    बायाँ तीर वा Ctrl+B: एक वर्ण पछाडि सार्नुहोस्;\n"
+msgstr "     बायाँ तीर वा Ctrl+B: एक वर्ण पछाडि सार्नुहोस्;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "    दायाँ तीर वा Ctrl+F: अगाडि सार्नुहोस् एक वर्ण;\n"
+msgstr "     दायाँ तीर वा Ctrl+F: अगाडि सार्नुहोस् एक वर्ण;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "    Home वा Ctrl+A: रेखाको सुरुमा जानुहोस्;\n"
+msgstr "     Home वा Ctrl+A: रेखाको सुरुमा जानुहोस्;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "    End वा Ctrl+E: रेखाको अन्त्यमा जानुहोस्;\n"
+msgstr "     End वा Ctrl+E: रेखाको अन्त्यमा जानुहोस्;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr " इतिहास: Up र Down तीरहरू, Ctrl+P, Ctrl+N\n"
+msgstr "  इतिहास: Up र Down तीरहरू, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr " मेटाउँदै:\n"
+msgstr "  मेटाउँदै:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "    Del वा Ctrl+D: हालको क्यारेक्टर वा चयन मेटाउनुहोस्;\n"
+msgstr "     Del वा Ctrl+D: हालको क्यारेक्टर वा चयन मेटाउनुहोस्;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "    ब्याकस्पेस: अघिल्लो वर्ण मेटाउनुहोस्;\n"
+msgstr "     ब्याकस्पेस: अघिल्लो वर्ण मेटाउनुहोस्;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "    Ctrl+Del वा Ctrl+K: हालको अक्षरबाट रेखाको अन्त्यसम्म पाठ मेटाउनुहोस्।\n"
+msgstr ""
+"     Ctrl+Del वा Ctrl+K: हालको अक्षरबाट रेखाको अन्त्यसम्म पाठ मेटाउनुहोस्।\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "    Ctrl+U: हालको रेखाबाट सबै पाठ मेटाउनुहोस्।\n"
+msgstr "     Ctrl+U: हालको रेखाबाट सबै पाठ मेटाउनुहोस्।\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr " कपी र टाँस्नुहोस्।\n"
+msgstr "  कपी र टाँस्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "    पाठ चिन्ह (चयन) गर्न माउस (बायाँ बटन तल समातेर) प्रयोग गर्नुहोस्।\n"
+msgstr ""
+"     पाठ चिन्ह (चयन) गर्न माउस (बायाँ बटन तल समातेर) प्रयोग गर्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "    क्लिपबोर्डमा चिन्ह लगाइएको पाठ प्रतिलिपि गर्न Shift+Del (वा Ctrl+C) प्रयोग गर्नुहोस् र\n"
+msgstr ""
+"     क्लिपबोर्डमा चिन्ह लगाइएको पाठ प्रतिलिपि गर्न Shift+Del (वा Ctrl+C) "
+"प्रयोग गर्नुहोस् र\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "    Shift+Ins (वा Ctrl+V वा Ctrl+Y) क्लिपबोर्डको सामग्री टाँस्न (यदि छ भने)  \n"
+msgstr ""
+"     Shift+Ins (वा Ctrl+V वा Ctrl+Y) क्लिपबोर्डको सामग्री टाँस्न (यदि छ भने)"
+"  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "    कन्सोलमा, Ctrl+X पहिले प्रतिलिपि गर्नुहोस् त्यसपछि टाँस्नुहोस्\n"
+msgstr "     कन्सोलमा, Ctrl+X पहिले प्रतिलिपि गर्नुहोस् त्यसपछि टाँस्नुहोस्\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr " विविध:\n"
+msgstr "  विविध:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "    Ctrl+L: कन्सोल खाली गर्नुहोस्।\n"
+msgstr "     Ctrl+L: कन्सोल खाली गर्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "    Ctrl+O वा INS: अधिलेखन मोड टगल गर्नुहोस्: सुरुमा बन्द।\n"
+msgstr "     Ctrl+O वा INS: अधिलेखन मोड टगल गर्नुहोस्: सुरुमा बन्द।\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "    Ctrl+T: हालको अक्षरलाई बायाँबाट एकसँग बदल्नुहोस्।\n"
+msgstr "     Ctrl+T: हालको अक्षरलाई बायाँबाट एकसँग बदल्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -245,15 +249,15 @@ msgstr "R कोडको लाइन वा खण्ड चलाउनको
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "    Ctrl-R थिच्नुहोस्\n"
+msgstr "     Ctrl-R थिच्नुहोस्\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "    \"Edit\" मेनुबाट \"Run line or selection\" चयन गर्नुहोस्\n"
+msgstr "     \"Edit\" मेनुबाट \"Run line or selection\" चयन गर्नुहोस्\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "    उपकरणपट्टीमा \"रन लाइन वा चयन\" प्रतिमा थिच्नुहोस्\n"
+msgstr "     उपकरणपट्टीमा \"रन लाइन वा चयन\" प्रतिमा थिच्नुहोस्\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -824,7 +828,7 @@ msgstr "प्रश्न"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr "काम गर्ने डाइरेक्टरीलाई निम्नमा परिवर्तन गर्नुहोस्:"
+msgstr " काम गर्ने डाइरेक्टरीलाई निम्नमा परिवर्तन गर्नुहोस्:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
