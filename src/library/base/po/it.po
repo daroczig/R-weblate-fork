@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 16:26+0000\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -2803,7 +2803,7 @@ msgstr "memoria insufficiente per allocare il dispositivo (in GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Premi <Invio> per vedere il prossimo grafico:"
+msgstr "Premi <Invio> per vedere il prossimo grafico: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2940,7 +2940,7 @@ msgstr "i pairlist sono passati come SEXP a partire da R 2.15.0"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr "nessuna sovrascrittura del file '%s"
+msgstr " nessuna sovrascrittura del file '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3161,12 +3161,12 @@ msgstr "estensioni dell'asse non finito [GEPretty(%g,%g, n=%d)]"
 #: src/main/engine.c:2502
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr "nuovo *lo = %g < %g = x1"
+msgstr " nuovo *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr "nuovo *up = %g > %g = x2"
+msgstr " nuovo *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3584,25 +3584,25 @@ msgstr "Errore: nessun altro gestore di errore disponibile (errori ricorsivi?); 
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Errore in"
+msgstr "Errore in "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Errore in %s (da %s) :"
+msgstr "Errore in %s (da %s) : "
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Errore in %s :"
+msgstr "Errore in %s : "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Errore:"
+msgstr "Errore: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "In aggiunta:"
+msgstr "In aggiunta: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3622,11 +3622,11 @@ msgstr "'%s' dev'essere una stringa di caratteri"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[stringa non valida in stop(.)]"
+msgstr " [stringa non valida in stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[stringa non valida in warning(.)]"
+msgstr " [stringa non valida in warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3775,7 +3775,7 @@ msgstr "tentativo di applicare una non-funzione"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s in %s#%d:"
+msgstr "%s in %s#%d: "
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4376,12 +4376,12 @@ msgstr "'pattern' di lunghezza zero"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' ha restituito '%d'"
+msgstr "'pcre2_patterninfo' ha restituito '%d' "
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' ha restituito '%d'"
+msgstr "'pcre_fullinfo' ha restituito '%d' "
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4475,7 +4475,7 @@ msgstr "non è possibile ripristinare i dati salvati in %s\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Durante l'avvio -"
+msgstr "Durante l'avvio - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
