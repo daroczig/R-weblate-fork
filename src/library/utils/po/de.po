@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2023-02-22 13:05+0000\n"
-"Last-Translator: Martin Mächler <maechler@stat.math.ethz.ch>\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: R Core <r-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #, fuzzy, c-format
 msgid "invalid '%s' argument"
@@ -53,7 +53,7 @@ msgstr "unzulässige 'numerals' Zeichenkette \"%s\""
 #: io.c:779
 #, c-format
 msgid "Selection: "
-msgstr "Auswahl:"
+msgstr "Auswahl: "
 
 #: io.c:874 io.c:889
 msgid "cannot allocate buffer in 'readTableHead'"
