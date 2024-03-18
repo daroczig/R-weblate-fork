@@ -5,10 +5,9 @@
 # Maintained by Chel Hee Lee <gnustats@gmail.com>, 2008-2018.
 #
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R-3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -19,7 +18,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 #: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
@@ -78,83 +76,87 @@ msgstr "편집.\n"
 
 #: src/gnuwin32/console.c:2465
 msgid "  Moving the cursor: \n"
-msgstr " 커서를 이동중: \n"
+msgstr "  커서를 이동중: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "    좌로 이동화살표 또는 Ctrl+B: 한 문자 뒤로 이동합니다;\n"
+msgstr "     좌로 이동화살표 또는 Ctrl+B: 한 문자 뒤로 이동합니다;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "    우로 이동화살표 또는 Ctrl+F: 한 문자 앞으로 이동합니다;\n"
+msgstr "     우로 이동화살표 또는 Ctrl+F: 한 문자 앞으로 이동합니다;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "    Home 또는 Ctrl+A: 라인의 맨 처음으로 이동합니다;\n"
+msgstr "     Home 또는 Ctrl+A: 라인의 맨 처음으로 이동합니다;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "    End 또는 Ctrl+E: 라인의 맨 끝으로 이동합니다;\n"
+msgstr "     End 또는 Ctrl+E: 라인의 맨 끝으로 이동합니다;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr " 작업기록: 위로 이동과 아래로 이동 화살표들, Ctrl+P, Ctrl+N\n"
+msgstr "  작업기록: 위로 이동과 아래로 이동 화살표들, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr " 삭제:\n"
+msgstr "  삭제:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "    Del 또는 Ctrl+D: 현재 문자 또는 선택 영역을 삭제합니다;\n"
+msgstr "     Del 또는 Ctrl+D: 현재 문자 또는 선택 영역을 삭제합니다;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "    Backspace: 바로 이전문자를 삭제합니다;\n"
+msgstr "     Backspace: 바로 이전문자를 삭제합니다;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "    Ctrl+Del 또는 Ctrl+K: 현재 문자부터 라인의 끝까지 삭제합니다.\n"
+msgstr "     Ctrl+Del 또는 Ctrl+K: 현재 문자부터 라인의 끝까지 삭제합니다.\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "    Ctrl+U: 현재 라인의 모든 텍스트를 삭제합니다.\n"
+msgstr "     Ctrl+U: 현재 라인의 모든 텍스트를 삭제합니다.\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr " 복사하여 붙여넣기.\n"
+msgstr "  복사하여 붙여넣기.\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "    복사할 텍스트를 선택하기 위해서는 (좌측 버튼을 누른채로) 마우스를 이용하세요. \n"
+msgstr "     복사할 텍스트를 선택하기 위해서는 (좌측 버튼을 누른채로) 마우스를 "
+"이용하세요.\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "    선택된 텍스트를 클립보드에 복사하기 위해서는 Shift+Del (또는 Ctrl+C)를 사용합니다. \n"
+msgstr "     선택된 텍스트를 클립보드에 복사하기 위해서는 Shift+Del (또는 Ctrl+C)를 "
+"사용합니다.\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "    클립보드에 있는 내용을 콘솔에 붙여넣고자 한다면 Shift+Ins (또는 Ctrl+V 혹은 Ctrl+Y)를 사용할 수 있습니다.\n"
+msgstr ""
+"     클립보드에 있는 내용을 콘솔에 붙여넣고자 한다면 Shift+Ins (또는 Ctrl+V "
+"혹은 Ctrl+Y)를 사용할 수 있습니다.  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "    Ctrl+X를 이용하여 복사한 뒤 붙여넣을수도 있습니다.\n"
+msgstr "     Ctrl+X를 이용하여 복사한 뒤 붙여넣을수도 있습니다.\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr " 기타:\n"
+msgstr "  기타:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "    Ctrl+L: 콘솔화면을 깨끗하게 정리해 줍니다.\n"
+msgstr "     Ctrl+L: 콘솔화면을 깨끗하게 정리해 줍니다.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "    Ctrl+O 또는 INS: 덮어쓰기 모드로 전환합니다: 처음에는 꺼져있습니다.\n"
+msgstr "     Ctrl+O 또는 INS: 덮어쓰기 모드로 전환합니다: 처음에는 꺼져있습니다.\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "    Ctrl+T: 현재의 문자와 좌측에 있는 문자를 서로 교환합니다.\n"
+msgstr "     Ctrl+T: 현재의 문자와 좌측에 있는 문자를 서로 교환합니다.\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -246,15 +248,15 @@ msgstr "R 코드 한 줄 또는 선택한 영역을 실행하고자 한다면, �
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "    Ctrl-R 을 눌러주세요\n"
+msgstr "     Ctrl-R 을 눌러주세요\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "    \"편집\" 메뉴에서 \"줄 또는 선택영역 실행\"을 선택해 주세요\n"
+msgstr "     \"편집\" 메뉴에서 \"줄 또는 선택영역 실행\"을 선택해 주세요\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "    툴바에 있는 \"줄 또는 선택영역 실행\" 아이콘을 눌러 주세요\n"
+msgstr "     툴바에 있는 \"줄 또는 선택영역 실행\" 아이콘을 눌러 주세요\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
