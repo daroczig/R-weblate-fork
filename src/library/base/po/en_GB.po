@@ -31,6 +31,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -44,6 +45,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -3660,7 +3662,7 @@ msgstr "There were %d or more warnings (use warnings() to see the first %d)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Error during wrapup:"
+msgstr "Error during wrapup: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
