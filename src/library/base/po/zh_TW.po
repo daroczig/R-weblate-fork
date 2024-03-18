@@ -6,6 +6,7 @@
 #
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.1\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -2809,7 +2811,7 @@ msgstr "所需記憶體不足以配置裝置 (在 GEcreateDevDesc 中)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "按 <return> 鍵來看下一張圖:"
+msgstr "按 <return> 鍵來看下一張圖: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2946,7 +2948,7 @@ msgstr "從 R 2.15.0 開始，成對串列做為 SEXP 傳遞"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr "無法覆寫檔案 '%s"
+msgstr " 無法覆寫檔案 '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3167,12 +3169,12 @@ msgstr "無限的座標範圍值 [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr ".. GEPretty(.): new *lo =%g <%g = x1"
+msgstr " .. GEPretty(.): new *lo =%g <%g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr ".. GEPretty(.): new *up =%g >%g = x2"
+msgstr " .. GEPretty(.): new *up =%g >%g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3605,11 +3607,11 @@ msgstr "錯誤發生在 %s： "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "錯誤:"
+msgstr "錯誤: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "此外:"
+msgstr "此外: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3629,11 +3631,11 @@ msgstr "'%s' 必須是字串"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[stop(.) 中的字串無效]"
+msgstr " [stop(.) 中的字串無效]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[warning(.) 中的字串無效]"
+msgstr " [warning(.) 中的字串無效]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -4387,12 +4389,12 @@ msgstr "胚騰長度為零"
 #: src/main/grep.c:3071
 #, fuzzy, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "pcre_fullinfo 已回傳 '%d'"
+msgstr "pcre_fullinfo 已回傳 '%d' "
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "pcre_fullinfo 已回傳 '%d'"
+msgstr "pcre_fullinfo 已回傳 '%d' "
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4487,7 +4489,7 @@ msgstr "無法還原儲存在 %s 中的資料\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "於啟動期間 -"
+msgstr "於啟動期間 - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
