@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-16 22:06+0000\n"
+"PO-Revision-Date: 2024-03-19 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1276,9 +1276,8 @@ msgstr ""
 msgid "value of 'epsilon' must be > 0"
 msgstr "el valor d'«epsilon» ha de ser > 0"
 
-#, fuzzy
 msgid "maximum number of iterations must be > 0"
-msgstr "el nombre màxim d'iteracions ha de ser  of 0"
+msgstr "el nombre màxim d'iteracions ha de ser > 0"
 
 #, fuzzy
 msgid "'family' argument seems not to be a valid family object"
@@ -1909,9 +1908,8 @@ msgstr "si «x» no és una matriu, s'ha de donar «z»"
 msgid "'x', 'y', and 'z' must have the same length"
 msgstr "«x», «y» i «z» han de tenir la mateixa longitud"
 
-#, fuzzy
 msgid "sample size in each stratum must be > 1"
-msgstr "la mida de la mostra a cada estrat ha de ser  be 1"
+msgstr "la mida de la mostra a cada estrat ha de ser > 1"
 
 #, fuzzy
 msgid "'x' must be square with at least two rows and columns"
@@ -2134,11 +2132,10 @@ msgstr "«extendInt» no és vàlid; informeu"
 msgid "no sign change found in %d iterations"
 msgstr "no s'ha trobat cap canvi de signe a %d iteracions"
 
-#, fuzzy
 msgid "did not succeed extending the interval endpoints for f(lower) * f(upper) <= 0"
 msgstr ""
 "no s'ha aconseguit estendre els extrems de l'interval per f(lower) * f(upper)"
-"  the= 0"
+" <= 0"
 
 #, fuzzy
 msgid "f() values at end points not of opposite sign"
@@ -2351,9 +2348,8 @@ msgstr "'T' ha de ser no negatiu"
 msgid "not enough data"
 msgstr "no hi ha prou dades"
 
-#, fuzzy
 msgid "the case k > 2 is unimplemented"
-msgstr "el cas k  the 2 no està implementat"
+msgstr "el cas k > 2 no està implementat"
 
 #, fuzzy
 msgid "'r' must be a single positive number"
@@ -2733,9 +2729,8 @@ msgstr "no s'ha d'especificar «spar» i «lambda» alhora"
 msgid "'spar' must be of length 1"
 msgstr "«spar» ha de ser de longitud 1"
 
-#, fuzzy
 msgid "not using invalid df; must have 1 < df <= n := #{unique x} ="
-msgstr "no s'usarà un df no vàlid; ha de tenir 1  = df ;= n := #{unique x} ="
+msgstr "no s'usarà un df no vàlid; ha de tenir 1 < df <= n := #{unique x} ="
 
 #, fuzzy
 msgid "NA lev[]; probably smoothing parameter 'spar' way too large!"
@@ -2868,9 +2863,8 @@ msgstr "la sèrie no és periòdica o té menys de dos períodes"
 msgid "unknown string value for s.window"
 msgstr "valor de cadena desconegut per a s.window"
 
-#, fuzzy
 msgid "'cutpoints' must be unique in 0 < cuts < 1, but are ="
-msgstr "'punts de tall' han de ser únics en 0 s talls  1, 1, però són ="
+msgstr "«cutpoints» han de ser únics en 0 < cuts < 1, però són ="
 
 #, fuzzy
 msgid "'cutpoints' must be unique, but are ="
@@ -3005,9 +2999,8 @@ msgstr "valor incorrecte per a «end»"
 msgid "'end' value not changed"
 msgstr "El valor «end» no s'ha canviat"
 
-#, fuzzy
 msgid "'start' > 'end'"
-msgstr "'start'   'end'"
+msgstr "'start' > 'end'"
 
 #, fuzzy
 msgid "extending time series when replacing values"
