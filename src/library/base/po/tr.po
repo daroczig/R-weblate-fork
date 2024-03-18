@@ -7,6 +7,7 @@
 # Özlem Alpu <ozlem.alpu@gmail.com>, 2010, 2011.
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -2857,7 +2859,7 @@ msgstr "aygıtı yerleştirmek için yeterli bellek yok (GEcreateDevDes içinde)
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Sonraki çizimi görmek için <Enter>'a basın:"
+msgstr "Sonraki çizimi görmek için <Enter>'a basın: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2996,7 +2998,7 @@ msgstr ""
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr "'%s dosyasının üzerine yazılmıyor"
+msgstr " '%s dosyasının üzerine yazılmıyor"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3227,12 +3229,12 @@ msgstr "sonsuz eksen uzatımı [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
+msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr ".. GEPretty(.): new *up = %g > %g = x2"
+msgstr " .. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 #, fuzzy
@@ -3658,7 +3660,7 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Hata oluştu:"
+msgstr "Hata oluştu: "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
@@ -3668,15 +3670,15 @@ msgstr ""
 #: src/main/errors.c:826
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Hata oluştu:"
+msgstr "Hata oluştu: "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Hata:"
+msgstr "Hata: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Ek olarak:"
+msgstr "Ek olarak: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3696,11 +3698,11 @@ msgstr "'sep' bir karakter dizesi olmalı"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[stop(.)'da geçersiz dize]"
+msgstr " [stop(.)'da geçersiz dize]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[warning(.)'de geçersiz dize]"
+msgstr " [warning(.)'de geçersiz dize]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3851,7 +3853,7 @@ msgstr "fonksiyon olmayana uygulama denemesi"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s (%s#%d'de):"
+msgstr "%s (%s#%d'de): "
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4562,7 +4564,7 @@ msgstr ".RData'da kayıtlı veri geri alınamadı\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Başlangıç sırasında -"
+msgstr "Başlangıç sırasında - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
