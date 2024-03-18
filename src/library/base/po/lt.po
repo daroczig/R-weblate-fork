@@ -4,6 +4,7 @@
 # <r.zakauskas@gmail.com;gabriele.dauksaite@gmail.com>, 2020.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: base 4.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -3585,7 +3587,7 @@ msgstr "Buvo %d ar daugiau įspėjimų (naudokite warnings() norėdami pamatyti 
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Klaida užbaigiant:"
+msgstr "Klaida užbaigiant: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
