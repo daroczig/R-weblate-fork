@@ -4,10 +4,9 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 2.15.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2018-03-29 07:06\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 msgid "namespace found within local environments"
 msgstr ""
@@ -135,7 +133,7 @@ msgstr "不能编译代码中的承诺文字"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] "为句法函数作了本地赋值：为句法函数作了本地赋值："
+msgstr[0] "为句法函数作了本地赋值: "
 msgstr[1] ""
 
 #~ msgid "'ns' must be a namespace or a namespace imports environment"
