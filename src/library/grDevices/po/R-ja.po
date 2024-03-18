@@ -1,9 +1,7 @@
 msgid ""
-
-
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-18 21:25+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -15,8 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427433420.000000\n"
-
-
 
 msgid "invalid 'filename'"
 msgstr "不正な 'filename' 引数です"
@@ -549,7 +545,7 @@ msgstr[0] "が新しいものと前のもので異なります"
 
 msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
-msgstr[0] "%d 個の正でない x の値が対数プロットから除かれました"
+msgstr[0] "%d 個の正でない %s の値が対数プロットから除かれました"
 
 #~ msgid "%d y value <= 0 omitted from logarithmic plot"
 #~ msgid_plural "%d y values <= 0 omitted from logarithmic plot"
