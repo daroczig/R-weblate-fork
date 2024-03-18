@@ -4,6 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: src/gnuwin32/console.c:1204 src/gnuwin32/console.c:1246
-#: src/gnuwin32/console.c:1774
+
+#: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
 msgstr "पर्याप्त मेमोरी नहीं हैं"
 
@@ -60,7 +61,8 @@ msgstr "स्क्रोलिंग |\n"
 
 #: src/gnuwin32/console.c:2462
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr " कीबोर्ड: पेज अप, पेज डाउन, कंट्रोल+एरोज , कंट्रोल+होम , कंट्रोल+एन्ड ,\n"
+msgstr ""
+"  कीबोर्ड: पेज अप, पेज डाउन, कंट्रोल+एरोज , कंट्रोल+होम , कंट्रोल+एन्ड ,\n"
 
 #: src/gnuwin32/console.c:2463
 msgid ""
