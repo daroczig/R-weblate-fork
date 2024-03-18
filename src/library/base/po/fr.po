@@ -4,6 +4,7 @@
 # Philippe Grosjean <phgrosjean@sciviews.org>, 2005.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -3576,7 +3578,7 @@ msgstr "Il y a eu %d avis ou plus (utilisez warnings() pour voir les %d premiers
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Erreur pendant l'emballage (wrapup) :"
+msgstr "Erreur pendant l'emballage (wrapup) : "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
