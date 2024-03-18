@@ -4,13 +4,9 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -21,10 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
