@@ -4,11 +4,9 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -19,8 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -340,7 +336,7 @@ msgstr "el espacio de trabajo requerido (%.0f) es demasiado grande %s."
 
 #: loessc.c:258
 msgid " probably because of setting 'se = TRUE'"
-msgstr "probablemente debido a la configuración 'se = TRUE'"
+msgstr " probablemente debido a la configuración 'se = TRUE'"
 
 #: loglin.c:367
 msgid "this should not happen"
