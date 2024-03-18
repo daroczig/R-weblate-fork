@@ -3,6 +3,7 @@
 # This file is distributed under the same license as the R package.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427434877.000000\n"
+
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -3580,7 +3582,7 @@ msgstr "%d 件以上の警告がありました (最初の %d 個の警告を見
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "wrapup 中にエラーが起こりました:"
+msgstr "wrapup 中にエラーが起こりました: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -4489,7 +4491,7 @@ msgstr "ダミー、訳してはいけない (けど、訳してしまった)"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "wrapup 中にエラーが起こりました:"
+msgstr "cleanup 中にエラーが起こりました\n"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -7468,12 +7470,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl の失敗: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8797,4 +8799,5 @@ msgstr "警告: ファイルリストの最初のみを編集します"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr " 'R_get_primname' がプリミティブでないものに対して呼び出されました "
+
 
