@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427433504.000000\n"
+
 
 
 msgid "models are not all fitted to the same number of observations"
@@ -2469,116 +2471,116 @@ msgstr "Weibull 成長モデルの当てはめでは、全ての 'x' 値は非�
 
 msgid "using the %d/%d row from a combined fit"
 msgid_plural "using the %d/%d rows from a combined fit"
-msgstr[0] " 結合された当てはめから %d/%d 行を使用します。"
+msgstr[0] "結合された当てはめから %d/%d 行を使用します"
 
 msgid "lower scope has term %s not included in model"
 msgid_plural "lower scope has terms %s not included in model"
-msgstr[0] " 下位のスコープはモデル中に含まれない項 %s を持ちます"
+msgstr[0] "下位のスコープはモデル中に含まれない項 %s を持ちます"
 
 msgid "upper scope has term %s not included in model"
 msgid_plural "upper scope has terms %s not included in model"
-msgstr[0] " 上位のスコープはモデル中に含まれない項 %s を持ちます"
+msgstr[0] "上位のスコープはモデル中に含まれない項 %s を持ちます"
 
 msgid "there are %d Error terms: only 1 is allowed"
 msgid_plural "there are %d Error terms: only 1 is allowed"
-msgstr[0] " %d 個のエラー項があります。1 つだけが許されます"
+msgstr[0] "%d 個のエラー項があります。1 つだけが許されます"
 
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] " 'split' リスト中に未知の名前 %s があります"
+msgstr[0] "'split' リスト中に未知の名前 %s があります"
 
 #, fuzzy
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
-msgstr[0] " 追加入力された引数 %s は \"%s\" クラスではありません"
+msgstr[0] "追加入力された引数 %s は \"%s\" クラスではありません"
 
 msgid "%d factor is too many for %d variables"
 msgid_plural "%d factors are too many for %d variables"
-msgstr[0] " %d 個の因子は %d 個の変数に対しては多すぎます"
+msgstr[0] "%d 個の因子は %d 個の変数に対しては多すぎます"
 
 msgid "'start' must have %d row"
 msgid_plural "'start' must have %d rows"
-msgstr[0] " 'start' は %d 行でなければなりません"
+msgstr[0] "'start' は %d 行でなければなりません"
 
 msgid "unable to optimize from this starting value"
 msgid_plural "unable to optimize from these starting values"
-msgstr[0] " 指定された初期値からは最適化を行うことができませんでした"
+msgstr[0] "指定された初期値からは最適化を行うことができませんでした"
 
 msgid "'init' must have %d column"
 msgid_plural "'init' must have 1 or %d columns"
-msgstr[0] " 'init' は %d 列でなければなりません"
+msgstr[0] "'init' は %d 列でなければなりません"
 
 msgid "X matrix has rank %d, but only %d observation"
 msgid_plural "X matrix has rank %d, but only %d observations"
-msgstr[0] " 行列 X のランクは %d ですが、観測値が %d 個しかありません"
+msgstr[0] "行列 X のランクは %d ですが、観測値が %d 個しかありません"
 
 msgid "did not converge in %d iteration"
 msgid_plural "did not converge in %d iterations"
-msgstr[0] " %d 回の反復を行いましたが収束しませんでした"
+msgstr[0] "%d 回の反復を行いましたが収束しませんでした"
 
 msgid "%d missing value deleted"
 msgid_plural "%d missing values deleted"
-msgstr[0] " %d 個の欠測値が削除されました"
+msgstr[0] "%d 個の欠測値が削除されました"
 
 msgid "'X' matrix has %d case (row)"
 msgid_plural "'X' matrix has %d cases (rows)"
-msgstr[0] " 行列 'X' には %d 個の観測値があります"
+msgstr[0] "行列 'X' には %d 個の観測値があります"
 
 msgid "'Y' has %d case (row)"
 msgid_plural "'Y' has %d cases (rows)"
-msgstr[0] " 'Y' には %d 個の観測値があります"
+msgstr[0] "'Y' には %d 個の観測値があります"
 
 msgid "only %d case"
 msgid_plural "only %d cases"
-msgstr[0] " 観測値が %d 個しかありません"
+msgstr[0] "観測値が %d 個しかありません"
 
 msgid "but %d variable"
 msgid_plural "but %d variables"
-msgstr[0] " 変数が %d 個しかありません"
+msgstr[0] "変数が %d 個しかありません"
 
 msgid "medpolish() did not converge in %d iteration"
 msgid_plural "medpolish() did not converge in %d iterations"
-msgstr[0] " %d の反復を行いましたが medpolish() が収束しませんでした"
+msgstr[0] "%d の反復を行いましたが medpolish() が収束しませんでした"
 
 msgid "'newdata' had %d row"
 msgid_plural "'newdata' had %d rows"
-msgstr[0] " 'newdata' は %d 行です"
+msgstr[0] "'newdata' は %d 行です"
 
 msgid "but variable found had %d row"
 msgid_plural "but variables found have %d rows"
-msgstr[0] " %d 行の変数が見つかりました"
+msgstr[0] "%d 行の変数が見つかりました"
 
 msgid "factor %s has new level %s"
 msgid_plural "factor %s has new levels %s"
-msgstr[0] " 因子 %s には新しい水準 %s があります"
+msgstr[0] "因子 %s には新しい水準 %s があります"
 
 msgid "%d observation deleted due to missingness"
 msgid_plural "%d observations deleted due to missingness"
-msgstr[0] " %d 個の観測値が欠損のため削除されました"
+msgstr[0] "%d 個の観測値が欠損のため削除されました"
 
 msgid "_NOT_ converged in %d iteration"
 msgid_plural "_NOT_ converged in %d iterations"
-msgstr[0] " %d 回の反復を行いましたが収束しませんでした"
+msgstr[0] "%d 回の反復を行いましたが収束しませんでした"
 
 msgid "unrecognized control element named %s ignored"
 msgid_plural "unrecognized control elements named %s ignored"
-msgstr[0] " 認識不能な control 要素 %s は無視されました"
+msgstr[0] "認識不能な control 要素 %s は無視されました"
 
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
-msgstr[0] " パラメーター %s のあてはめは変数なしで行われました"
+msgstr[0] "パラメーター %s のあてはめは変数なしで行われました"
 
 msgid "parameter %s does not occur in the model formula"
 msgid_plural "parameters %s do not occur in the model formula"
-msgstr[0] " モデル式中にパラメータ %s がありません"
+msgstr[0] "モデル式中にパラメータ %s がありません"
 
 msgid "%d observation with NA, NaN or Inf deleted"
 msgid_plural "%d observations with NAs, NaNs and/or Infs deleted"
-msgstr[0] " NA, NaN および Inf を含む %d 個のの観測値は削除されました"
+msgstr[0] "NA, NaN および Inf を含む %d 個のの観測値は削除されました"
 
 msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
-msgstr[0] " 'start.innov' が短すぎます: %d 個の点が必要です"
+msgstr[0] "'start.innov' が短すぎます: %d 個の点が必要です"
 
 #~ msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
 #~ msgstr " .nknots.smspl() がエクスポートされるようになりましたから，n.knots() の代わりにこちらを用いてください "
