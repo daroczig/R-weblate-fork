@@ -3,6 +3,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427434951.000000\n"
+
 
 
 
@@ -1285,7 +1287,10 @@ msgid "replacing previous import %s by %s when loading %s"
 msgstr "%2$s のロード中に、以前のインポート %1$s を置き換えています"
 
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
-msgstr "\"%s\" に対して要求されたインポートされたメソッド (パッケージ \"%s\" からの) に対応する総称的関数がありません (不正確なエクスポート？)"
+msgstr ""
+"%3$s ロード中 \"%1$s\" に対して要求されたインポートされたメソッド ("
+"パッケージ \"%2$s\" からの) に対応する総称的関数がありません "
+"(不正確なエクスポート？)"
 
 msgid "cannot add to exports of a sealed namespace"
 msgstr "封印された名前空間のエクスポートへ加えることができません"
@@ -1927,8 +1932,8 @@ msgstr[0] "\"%s\" 中には要求に対するメソッドが見つかりませ�
 
 msgid "requested method not found in environment/package %s: %s when loading %s"
 msgid_plural "requested methods not found in environment/package %s: %s when loading %s"
-msgstr[0] "要求された methods オブジェクトは環境もしくはパッケージ %s "
-"中に見付かりません: %s"
+msgstr[0] "%3$sロード中要求されたメソッドは環境もしくはパッケージ %1$s "
+"中に見付かりません: %2$s"
 
 msgid "class %s is not exported by 'namespace:%s'"
 msgid_plural "classes %s are not exported by 'namespace:%s'"
