@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
@@ -886,7 +888,7 @@ msgstr "zabrakło pamięci podczas przetwarzania wykresu"
 
 #: devWindows.c:3629
 msgid "Impossible to open "
-msgstr "Nie można otworzyć"
+msgstr "Nie można otworzyć "
 
 #: devWindows.c:3760
 msgid "invalid 'width' or 'height'"
