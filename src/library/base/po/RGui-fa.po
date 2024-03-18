@@ -4,10 +4,9 @@
 # Seyed Mahmood Taghavi Shahri <taghavi_m@razi.tums.ac.ir>, 2012.
 # سید محمود تقوی شهری - دانشجوی دکتری آمار زیستی - پاییز ۱۳۹۱
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 2.15.2\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -18,7 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 #: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
@@ -82,23 +80,25 @@ msgstr "  برای جابجایی مکان‌نمای چشمک‌زن: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "مکان‌نمای چشمک‌زن را یک حرف به عقب می‌برد Ctrl+B کلید جهتی چپ یا \n"
+msgstr "     مکان‌نمای چشمک‌زن را یک حرف به عقب می‌برد Ctrl+B کلید جهتی چپ یا\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "مکان‌نمای چشمک‌زن را یک حرف به جلو می‌برد Ctrl+F کلید جهتی راست یا \n"
+msgstr ""
+"     مکان‌نمای چشمک‌زن را یک حرف به جلو می‌برد Ctrl+F کلید جهتی راست یا\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "مکان‌نمای چشمک‌زن را به ابتدای خط انتقال می‌دهد Ctrl+A یا Home \n"
+msgstr "     مکان‌نمای چشمک‌زن را به ابتدای خط انتقال می‌دهد Ctrl+A یا Home\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "مکان‌نمای چشمک‌زن را به انتهای خط انتقال می‌دهد Ctrl+E یا End \n"
+msgstr "     مکان‌نمای چشمک‌زن را به انتهای خط انتقال می‌دهد Ctrl+E یا End\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr "تاریخچه را نشان می‌دهند Ctrl+N و Ctrl+P کلیدهای جهتی بالا و پایین یا \n"
+msgstr ""
+"  تاریخچه را نشان می‌دهند Ctrl+N و Ctrl+P کلیدهای جهتی بالا و پایین یا\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
@@ -106,19 +106,20 @@ msgstr "  برای پاک کردن متن:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "حرف (جاری) سمت راست یا محدوده منتخب را پاک می‌کند Ctrl+D یا Del \n"
+msgstr "     حرف (جاری) سمت راست یا محدوده منتخب را پاک می‌کند Ctrl+D یا Del\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "حرف (قبلی) سمت چپ را پاک می‌کند Backspace \n"
+msgstr "     حرف (قبلی) سمت چپ را پاک می‌کند Backspace\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "از حرف (جاری) سمت راست تا انتهای خط را پاک می‌کند Ctrl+K یا Ctrl+Del \n"
+msgstr ""
+"     از حرف (جاری) سمت راست تا انتهای خط را پاک می‌کند Ctrl+K یا Ctrl+Del\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "نمام متن خط جاری را پاک می‌کند Ctrl+U \n"
+msgstr "     نمام متن خط جاری را پاک می‌کند Ctrl+U\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
@@ -126,11 +127,14 @@ msgstr "  برای کپی و جای گذاری:\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "برای علامت‌گذاری متن (انتخاب) از موشی (با نگه داشتن دکمه چپ) استفاده کنید \n"
+msgstr ""
+"     برای علامت‌گذاری متن (انتخاب) از موشی (با نگه داشتن دکمه چپ) استفاده "
+"کنید\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "برای کپی متن علامت‌گذاری به کلیپ‌بورد بکار می‌رود Shift+Del یا Ctrl+C \n"
+msgstr ""
+"     برای کپی متن علامت‌گذاری به کلیپ‌بورد بکار می‌رود Shift+Del یا Ctrl+C\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
@@ -140,7 +144,7 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "از متن کپی گرفته و همزمان جای گذاری می کند Ctrl+X \n"
+msgstr "     از متن کپی گرفته و همزمان جای گذاری می کند Ctrl+X\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
@@ -148,15 +152,15 @@ msgstr "  راهنمای موارد دیگر\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "متن کنسول را پاک می‌کند Ctrl+L \n"
+msgstr "     متن کنسول را پاک می‌کند Ctrl+L\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "حالت جای‌نوشت را که ابتدائا خاموش است روشن می‌کند Ctrl+O یا INS \n"
+msgstr "     حالت جای‌نوشت را که ابتدائا خاموش است روشن می‌کند Ctrl+O یا INS\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "حروف راست و چپ مکان‌نمای چشمک‌زن را با هم عوض می‌کند Ctrl+T \n"
+msgstr "     حروف راست و چپ مکان‌نمای چشمک‌زن را با هم عوض می‌کند Ctrl+T\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -248,15 +252,18 @@ msgstr "مکان‌نمای چشمک‌زن را در خطی که قصد اجر�
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "و یا محدوده مورد نظر را با فشرده نگه داشتن دکمه چپ موشی انتخاب نمایید \n"
+msgstr ""
+"     و یا محدوده مورد نظر را با فشرده نگه داشتن دکمه چپ موشی انتخاب نمایید\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "سپس از منوی ویرایش گزینه اجرای خط جاری یا محدوده منتخب را برگزینید \n"
+msgstr ""
+"     سپس از منوی ویرایش گزینه اجرای خط جاری یا محدوده منتخب را برگزینید\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "را فشار دهید Ctrl-R یا شمایل مذکور در نوارابزار را تلیک کنید و یا \n"
+msgstr ""
+"     را فشار دهید Ctrl-R یا شمایل مذکور در نوارابزار را تلیک کنید و یا\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
