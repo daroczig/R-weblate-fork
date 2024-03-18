@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-03-19 03:05+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -403,19 +403,16 @@ msgid "incorrect specification of 'table' or 'start'"
 msgstr "especificació incorrecta de «table» o «start»"
 
 #: lowess.c:292
-#, fuzzy
 msgid "'f' must be finite and > 0"
-msgstr "'f' ha de ser finit i  and 0"
+msgstr "«f» ha de ser finit i > 0"
 
 #: lowess.c:295
-#, fuzzy
 msgid "'iter' must be finite and >= 0"
-msgstr "'iter' ha de ser finit i  and= 0"
+msgstr "«iter» ha de ser finit i >= 0"
 
 #: lowess.c:298
-#, fuzzy
 msgid "'delta' must be finite and > 0"
-msgstr "'delta' ha de ser finit i  and 0"
+msgstr "«delta» ha de ser finit i > 0"
 
 #: mAR.c:83
 #, fuzzy
