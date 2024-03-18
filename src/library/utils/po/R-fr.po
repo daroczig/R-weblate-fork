@@ -4,6 +4,7 @@
 # Philippe Grosjean <phgrosjean@sciviews.org>, 2005.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid ""
 "RShowDoc() should be used with a character string argument specifying\n"
@@ -1298,7 +1300,7 @@ msgstr[1] "%d fichiers Sweave trouvés pour le nom de base %s"
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
 msgstr[0] "Fichier en sortie :  "
-msgstr[1] "Fichiers en sortie :  "
+msgstr[1] "Fichier en sortie :  "
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"
@@ -1708,3 +1710,4 @@ msgstr[1] "nombres romans incorrects : %s"
 
 #~ msgid "argument 'lib' is missing: using '%s'"
 #~ msgstr "l'argument 'lib' manque : '%s' est utilisé"
+
