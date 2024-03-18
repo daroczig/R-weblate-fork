@@ -4,6 +4,7 @@
 # Detlef Steuer <steuer@hsu-hh.de>, 2005-2022.
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -3592,25 +3594,25 @@ msgstr "Fehler: Keine weiteren Fehler-Behandler verfügbar (rekursive Fehler?); 
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Fehler in"
+msgstr "Fehler in "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Fehler in %s (von %s) :"
+msgstr "Fehler in %s (von %s) : "
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Fehler in %s :"
+msgstr "Fehler in %s : "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Fehler:"
+msgstr "Fehler: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "Zusätzlich:"
+msgstr "Zusätzlich: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -4489,7 +4491,7 @@ msgstr "kann die gespeicherten Daten aus %s nicht wiederherstellen\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Beim Start -"
+msgstr "Beim Start - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
