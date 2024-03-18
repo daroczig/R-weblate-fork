@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -3585,21 +3585,21 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Fejl i"
+msgstr "Fejl i "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Fejl i %s (fra %s) :"
+msgstr "Fejl i %s (fra %s) : "
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Fejl i %s :"
+msgstr "Fejl i %s : "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Fejl:"
+msgstr "Fejl: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
@@ -3623,11 +3623,11 @@ msgstr "'%s' skal være en tegnstreng"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[ugyldig streng i stop(.)]"
+msgstr " [ugyldig streng i stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[ugyldig streng i warning(.)]"
+msgstr " [ugyldig streng i warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -7413,12 +7413,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl mislykkedes: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8128,3 +8128,5 @@ msgstr "ADVARSEL: Redigeringer kun den første i listen over filer"
 
 #~ msgid "symbol"
 #~ msgstr "symbol"
+
+
