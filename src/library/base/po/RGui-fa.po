@@ -4,6 +4,7 @@
 # Seyed Mahmood Taghavi Shahri <taghavi_m@razi.tums.ac.ir>, 2012.
 # سید محمود تقوی شهری - دانشجوی دکتری آمار زیستی - پاییز ۱۳۹۱
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.15.2\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,8 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: src/gnuwin32/console.c:1204 src/gnuwin32/console.c:1246
-#: src/gnuwin32/console.c:1774
+
+#: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
 msgstr "حافظه کافی نیست"
 
@@ -60,7 +61,8 @@ msgstr "راهنمای پیمایش کنسول \n"
 
 #: src/gnuwin32/console.c:2462
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr "و کنترل کلیدهای جهتی Ctrl+End و Ctrl+Home و PgDown و PgUp :صفحه‌کلید \n"
+msgstr ""
+"  و کنترل کلیدهای جهتی Ctrl+End و Ctrl+Home و PgDown و PgUp :صفحه‌کلید\n"
 
 #: src/gnuwin32/console.c:2463
 msgid ""
