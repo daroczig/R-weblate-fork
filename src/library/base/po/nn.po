@@ -5,6 +5,7 @@
 # Karl Ove Hufthammer <karl@huftis.org>, 2006, 2008, 2009, 2010, 2011.
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 #: src/appl/optim.c:60
@@ -2857,7 +2859,7 @@ msgstr "ikkje nok minne å tildela eininga (i GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Trykk «Enter» for å sjå det neste plottet:"
+msgstr "Trykk «Enter» for å sjå det neste plottet: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -2996,7 +2998,7 @@ msgstr ""
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr "skriv ikkje over fila «%s»"
+msgstr " skriv ikkje over fila «%s»"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3225,12 +3227,12 @@ msgstr "uendeleg aksestorleik [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
+msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr ".. GEPretty(.): new *up = %g > %g = x2"
+msgstr " .. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 #, fuzzy
@@ -3658,7 +3660,7 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Feil i"
+msgstr "Feil i "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
@@ -3668,15 +3670,15 @@ msgstr ""
 #: src/main/errors.c:826
 #, fuzzy, c-format
 msgid "Error in %s : "
-msgstr "Feil i"
+msgstr "Feil i "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Feil:"
+msgstr "Feil: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "I tillegg:"
+msgstr "I tillegg: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3696,11 +3698,11 @@ msgstr "«sep» må vera ein teiknvektor"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[ugyldig streng i stop(.)]"
+msgstr " [ugyldig streng i stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[ugyldig streng i warning(.)]"
+msgstr " [ugyldig streng i warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3851,7 +3853,7 @@ msgstr "prøvde å køyra ikkje-funksjon"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s på %s#%d:"
+msgstr "%s på %s#%d: "
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4562,7 +4564,7 @@ msgstr "klarte ikkje gjenoppretta lagra data i «.RData»\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "Ved oppstart –"
+msgstr "Ved oppstart – "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
