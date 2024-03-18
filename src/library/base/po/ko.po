@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -3159,12 +3159,12 @@ msgstr "축의 범위가 무한합니다 [GEPretty(%g,%g,%d)]"
 #: src/main/engine.c:2502
 #, fuzzy, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr ".. GEPretty(.): new *lo = %g < %g = x1"
+msgstr " .. GEPretty(.): new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, fuzzy, c-format
 msgid " new *up = %g > %g = x2"
-msgstr ".. GEPretty(.): new *up = %g > %g = x2"
+msgstr " .. GEPretty(.): new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3596,11 +3596,11 @@ msgstr "%s에서 다음과 같은 에러가 발생했습니다: "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "에러:"
+msgstr "에러: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "추가정보:"
+msgstr "추가정보: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3620,11 +3620,11 @@ msgstr "'%s'는 반드시 문자열(character string)이어야 합니다."
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[유효하지 않은 문자열이 stop(.)내에 있습니다]"
+msgstr " [유효하지 않은 문자열이 stop(.)내에 있습니다]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[유효하지 않은 문자열이 warning(.)내에 있습니다]"
+msgstr " [유효하지 않은 문자열이 warning(.)내에 있습니다]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -4471,7 +4471,7 @@ msgstr "%s에 저장되어 있는 데이터를 복구 할 수 없습니다\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "스타트업을 하는 동안 -"
+msgstr "스타트업을 하는 동안 - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
@@ -7419,12 +7419,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr ""
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8249,3 +8249,5 @@ msgstr "경고: 파일들의 목록에서 오로지 첫번째 것만을 편집�
 
 #~ msgid "invalid 'tryS4' internal argument"
 #~ msgstr "유효한 'tryS4' 내부 인자가 아닙니다"
+
+
