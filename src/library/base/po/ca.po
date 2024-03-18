@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 06:08+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -69,19 +69,19 @@ msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
 msgstr "traça, L'INFORME ha de ser  0 0 (mètode \") \"SANN\")"
 
 #: src/appl/pretty.c:127
-#, c-format, fuzzy
+#, c-format
 msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
-msgstr "Rpretty(): interval infinit; *ndiv%%d, hauria de tenir ndiv  2 2"
+msgstr "Rpretty(): interval infinit; *ndiv=%d, hauria de tenir ndiv >= 2"
 
 #: src/appl/pretty.c:142
-#, c-format, fuzzy
+#, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "Rpretty(): interval molt petit 'cel·la'%%g, corregit a %g"
+msgstr "Rpretty(): interval molt petit 'cel·la'=%g, corregit a %g"
 
 #: src/appl/pretty.c:146
-#, c-format, fuzzy
+#, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Rpretty(): interval molt gran 'cel·la'%%g, corregit a %g"
+msgstr "Rpretty(): interval molt gran 'cel·la'=%g, corregit a %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format, fuzzy
@@ -1262,9 +1262,9 @@ msgid "invalid first argument, must be %s"
 msgstr "el primer argument no és vàlid, ha de ser %s"
 
 #: src/main/array.c:1732
-#, c-format, fuzzy
+#, c-format
 msgid "'perm' is of wrong length %d (!= %d)"
-msgstr "'perm' té una longitud incorrecta %d (! % %d)"
+msgstr "'perm' té una longitud incorrecta %d (!= %d)"
 
 #: src/main/array.c:1737 src/main/array.c:1740
 #, fuzzy
@@ -3622,9 +3622,9 @@ msgid "unimplemented pch value '%d'"
 msgstr "valor de pch no implementat «%d»"
 
 #: src/main/engine.c:2454
-#, c-format, fuzzy
+#, c-format
 msgid "invalid axis extents [GEPretty(.,.,n=%d)"
-msgstr "extensió de l'eix no vàlida [GEPretty(.,.,n%%d)"
+msgstr "extensió de l'eix no vàlida [GEPretty(.,.,n=%d)"
 
 #: src/main/engine.c:2456
 #, c-format, fuzzy
@@ -3632,14 +3632,14 @@ msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
 msgstr "extensió de l'eix no finit [GEPretty(%g,%g, n]%d)]"
 
 #: src/main/engine.c:2499
-#, c-format, fuzzy
+#, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " *lo nou  % %g  % %g   x1"
+msgstr " *lo nou = %g < %g = x1"
 
 #: src/main/engine.c:2501
-#, c-format, fuzzy
+#, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " *up nou  % %g  % %g   x2"
+msgstr " *up nou =%g > %g = x2"
 
 #: src/main/engine.c:3021
 #, fuzzy
@@ -4356,9 +4356,9 @@ msgid "attempt to apply non-function"
 msgstr "s'intenta aplicar la no-funció"
 
 #: src/main/eval.c:1301
-#, c-format, fuzzy
+#, c-format
 msgid "%s at %s#%d: "
-msgstr "%s a %s%%d: "
+msgstr "%s a %s#%d: "
 
 #: src/main/eval.c:2428 src/main/eval.c:3636
 #, c-format, fuzzy
@@ -4909,12 +4909,12 @@ msgid "internal parser error (%s:%d:%d)"
 msgstr "error intern de l'analitzador (%s:%d:%d)"
 
 #: src/main/graphics.c:95
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not "
 "pretty()"
 msgstr ""
-"axis(%d, *): l'interval de valors (%5.2g) és petit MM)  % %7.2g -- of no és "
+"axis(%d, *): l'interval de valors (%5.2g) és petit MM) = %7.2g -- of no és "
 "bonic()"
 
 #: src/main/grep.c:155
@@ -6270,9 +6270,9 @@ msgstr[0] " [ s'ha arribat a getOption(\"max.print\") -- s'ha omès %d fila ]\n"
 msgstr[1] " [ s'ha arribat a getOption(\"max.print\") -- s'han omès %d files ]\n"
 
 #: src/main/printutils.c:640
-#, c-format, fuzzy
+#, c-format
 msgid "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
-msgstr "cadena massa gran (nchar%%d)  5 5*nchar + 8 ) SIZEMAX"
+msgstr "cadena massa gran (nchar=%d) >= 5*nchar + 8 > SIZE_MAX"
 
 #: src/main/printutils.c:755
 #, fuzzy
@@ -7265,9 +7265,9 @@ msgstr ""
 "l'argument encoding in\"UTF-8\" s'ignora a les configuracions locals del MBCS"
 
 #: src/main/source.c:254
-#, c-format, fuzzy
+#, c-format
 msgid "argument '%s = \"%s\"' will be ignored"
-msgstr "s'ignorarà l'argument «%s»  \"% «%s»"
+msgstr "s'ignorarà l'argument '%s = \"%s\"'"
 
 #: src/main/split-incl.c:15
 #, fuzzy
@@ -8355,9 +8355,9 @@ msgid "unable to create X11 window"
 msgstr "no s'ha pogut crear la finestra X11"
 
 #: src/modules/X11/devX11.c:1744
-#, c-format, fuzzy
+#, c-format
 msgid "'width=%d, height=%d' are unlikely values in pixels"
-msgstr "'amplada%%d, alçada%%d' són valors poc probables en píxels"
+msgstr "'amplada=%d, alçada=%d' són valors poc probables en píxels"
 
 #: src/modules/X11/devX11.c:1749
 #, fuzzy
@@ -8416,9 +8416,8 @@ msgid "invalid colortype passed to X11 driver"
 msgstr "el tipus de color passat al controlador X11 no és vàlid"
 
 #: src/modules/X11/devX11.c:3265
-#, fuzzy
 msgid "unknown X11 color/colour model -- using monochrome"
-msgstr "el model de color/color X11 és desconegut: s'usarà monocrom"
+msgstr "el model de color X11 és desconegut: s'usarà monocrom"
 
 #: src/modules/X11/devX11.c:3363
 #, fuzzy
@@ -8652,26 +8651,26 @@ msgstr "ha fallat la creació del sòcol del servidor: no es pot obrir el port %
 
 #: src/modules/lapack/Lapack.c:66 src/modules/lapack/Lapack.c:85
 #: src/modules/lapack/Lapack.c:100
-#, c-format, fuzzy
+#, c-format
 msgid "argument type[1]='%s' must be a character string of string length 1"
 msgstr ""
-"el tipus d'argument[1]%'%s' ha de ser una cadena de caràcters de longitud de "
+"el tipus d'argument[1]='%s' ha de ser una cadena de caràcters de longitud de "
 "cadena 1"
 
 #: src/modules/lapack/Lapack.c:74
-#, c-format, fuzzy
+#, c-format
 msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
-msgstr "el tipus d'argument[1]%'%s' ha de ser un de 'M','1','O','I','F' o 'E'"
+msgstr "el tipus d'argument[1]='%s' ha de ser un de 'M','1','O','I','F' o 'E'"
 
 #: src/modules/lapack/Lapack.c:91
-#, c-format, fuzzy
+#, c-format
 msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
-msgstr "el tipus d'argument[1]%'%s' ha de ser un de '1','O', o 'I'"
+msgstr "el tipus d'argument[1]='%s' ha de ser un de '1','O', o 'I'"
 
 #: src/modules/lapack/Lapack.c:104
-#, c-format, fuzzy
+#, c-format
 msgid "argument type[1]='%s' must be 'U' or 'L'"
-msgstr "el tipus d'argument[1]%'%s' ha de ser 'U' o 'L'"
+msgstr "el tipus d'argument[1]='%s' ha de ser 'U' o 'L'"
 
 #: src/modules/lapack/Lapack.c:143 src/modules/lapack/Lapack.c:150
 #: src/modules/lapack/Lapack.c:209 src/modules/lapack/Lapack.c:220
@@ -8858,19 +8857,19 @@ msgid "bessel_i allocation error"
 msgstr "error d'assignació de besseli"
 
 #: src/nmath/bessel_i.c:77 src/nmath/bessel_i.c:122
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besseli(%g): ncalc (%%d) !. nb (.%d); alfa%%g. Arg. fora de l'abast?\n"
+msgstr "besseli(%g): ncalc (=%d) !. nb (=%d); alpha=%g. Arg. fora de l'abast?\n"
 
 #: src/nmath/bessel_i.c:80 src/nmath/bessel_i.c:125
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_i(%g,nu=%g): precision lost in result\n"
-msgstr "besseli(%g,nu%%g): precisió perduda en el resultat\n"
+msgstr "besseli(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_j.c:64 src/nmath/bessel_j.c:118
-#, c-format, fuzzy
+#, c-format
 msgid "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
-msgstr "besselJ(x, nu): nu%%g massa gran per a l'algorisme besselj()"
+msgstr "besselJ(x, nu): nu=%g massa gran per a l'algorisme besselj()"
 
 #: src/nmath/bessel_j.c:72
 #, fuzzy
@@ -8878,14 +8877,14 @@ msgid "bessel_j allocation error"
 msgstr "error d'assignació de besselj"
 
 #: src/nmath/bessel_j.c:80 src/nmath/bessel_j.c:127
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besselj(%g): ncalc (%%d) !. nb (.%d); alfa%%g. Arg. fora de l'abast?\n"
+msgstr "besselj(%g): ncalc (=%d) != nb (.%d); alpha=%g. Arg. fora de l'abast?\n"
 
 #: src/nmath/bessel_j.c:83 src/nmath/bessel_j.c:130
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_j(%g,nu=%g): precision lost in result\n"
-msgstr "besselj(%g,nu%%g): precisió perduda en el resultat\n"
+msgstr "besselj(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_k.c:63
 #, fuzzy
@@ -8893,19 +8892,19 @@ msgid "bessel_k allocation error"
 msgstr "error d'assignació de besselk"
 
 #: src/nmath/bessel_k.c:71 src/nmath/bessel_k.c:108
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besselk(%g): ncalc (%%d) !. nb (.%d); alfa%%g. Arg. fora de l'abast?\n"
+msgstr "besselk(%g): ncalc (=%d) !. nb (=%d); alpha=%g. Arg. fora de l'abast?\n"
 
 #: src/nmath/bessel_k.c:74 src/nmath/bessel_k.c:111
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_k(%g,nu=%g): precision lost in result\n"
-msgstr "besselk(%g,nu%%g): precisió perduda en el resultat\n"
+msgstr "besselk(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_y.c:63 src/nmath/bessel_y.c:125
-#, c-format, fuzzy
+#, c-format
 msgid "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
-msgstr "besselY(x, nu): nu%%g massa gran per a l'algorisme bessely()"
+msgstr "besselY(x, nu): nu=%g massa gran per a l'algorisme bessely()"
 
 #: src/nmath/bessel_y.c:71
 #, fuzzy
@@ -8913,14 +8912,14 @@ msgid "bessel_y allocation error"
 msgstr "error d'assignació de bessely"
 
 #: src/nmath/bessel_y.c:87 src/nmath/bessel_y.c:136
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "bessely(%g): ncalc (%%d) !. nb (.%d); alfa%%g. Arg. fora de l'abast?\n"
+msgstr "bessely(%g): ncalc (=%d) !. nb (.%d); alpha=%g. Arg. fora de l'abast?\n"
 
 #: src/nmath/bessel_y.c:90 src/nmath/bessel_y.c:139
-#, c-format, fuzzy
+#, c-format
 msgid "bessel_y(%g,nu=%g): precision lost in result\n"
-msgstr "bessely(%g,nu%%g): precisió perduda en el resultat\n"
+msgstr "bessely(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/choose.c:79 src/nmath/choose.c:122
 #, c-format, fuzzy
@@ -8958,11 +8957,11 @@ msgid "underflow occurred in '%s'\n"
 msgstr "s'ha produït un flux inferior a «%s»\n"
 
 #: src/nmath/pbeta.c:67
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
 msgstr ""
-"pbetaraw(%g, a%%g, b,%g, lower%%d, log%%d) -> bratio() ha donat el codi "
+"pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() ha donat el codi "
 "d'error %d"
 
 #: src/nmath/pbinom.c:37
@@ -8976,9 +8975,9 @@ msgid "pnbinom_mu() -> bratio() gave error code %d"
 msgstr "pnbinommu() -() bratio() ha donat el codi d'error %d"
 
 #: src/nmath/pnchisq.c:304
-#, c-format, fuzzy
+#, c-format
 msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
-msgstr "pnchisq(x.%g, f.%g, theta%%g, ..): no convergeix en %d iter."
+msgstr "pnchisq(x=%g, f=%g, theta=%g, ..): no convergeix en %d iter."
 
 #: src/nmath/polygamma.c:510
 #, c-format, fuzzy
