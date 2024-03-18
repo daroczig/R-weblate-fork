@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1248,7 +1250,7 @@ msgstr[1] ""
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
 msgstr[0] "Archivo de salida:  "
-msgstr[1] "Archivos de salida:  "
+msgstr[1] "Archivo de salida:  "
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"
@@ -1391,3 +1393,4 @@ msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
 msgstr[0] ""
 msgstr[1] ""
+
