@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427433420.000000\n"
+
 
 
 msgid "invalid 'filename'"
@@ -539,15 +541,15 @@ msgstr "'windowsFonts' 中の不正な引数です (名前がついた引数が�
 
 msgid "invalid argument name %s in '%s'"
 msgid_plural "invalid argument names %s in '%s'"
-msgstr[0] " '%2$s' 中の %1$s は不正な引数名です"
+msgstr[0] "'%2$s' 中の %1$s は不正な引数名です"
 
 msgid "differs between new and previous"
 msgid_plural "differ between new and previous"
-msgstr[0] " が新しいものと前のもので異なります"
+msgstr[0] "が新しいものと前のもので異なります"
 
 msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
-msgstr[0] " %d 個の正でない x の値が対数プロットから除かれました"
+msgstr[0] "%d 個の正でない x の値が対数プロットから除かれました"
 
 #~ msgid "%d y value <= 0 omitted from logarithmic plot"
 #~ msgid_plural "%d y values <= 0 omitted from logarithmic plot"
