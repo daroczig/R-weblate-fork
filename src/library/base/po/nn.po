@@ -4,6 +4,7 @@
 #
 # Karl Ove Hufthammer <karl@huftis.org>, 2006, 2008, 2009, 2010, 2011.
 msgid ""
+
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 #, fuzzy
@@ -3648,7 +3650,7 @@ msgstr "Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "Feil ved wrapup:"
+msgstr "Feil ved wrapup: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -4539,7 +4541,7 @@ msgstr ""
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "Feil ved wrapup:"
+msgstr "Feil ved cleanup\n"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -7592,12 +7594,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "feil ved InternetOpenUrl: «%s»"
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8954,3 +8956,5 @@ msgstr "ÅTVARING: Redigerer berre den første i lista over filer"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "«R_get_primname» kalla på ikkje-primtiv"
+
+
