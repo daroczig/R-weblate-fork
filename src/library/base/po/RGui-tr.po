@@ -6,10 +6,9 @@
 # Murat Alkan <muratalk@gmail.com>, 2010, 2011.
 # Özlem Alpu <ozlem.alpu@gmail.com>, 2010, 2011.
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -20,7 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
 
 #: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
@@ -79,59 +77,63 @@ msgstr "Düzenleme.\n"
 
 #: src/gnuwin32/console.c:2465
 msgid "  Moving the cursor: \n"
-msgstr " İmleç hareket ettirme: \n"
+msgstr "  İmleç hareket ettirme: \n"
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "    Sol ok yada Ctrl+B: bir karakter geri git;\n"
+msgstr "     Sol ok yada Ctrl+B: bir karakter geri git;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "    Sağ ok yada Ctrl+F: bir karakter ileri git;\n"
+msgstr "     Sağ ok yada Ctrl+F: bir karakter ileri git;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "    Home tuşu yada Ctrl+A: satır başına git;\n"
+msgstr "     Home tuşu yada Ctrl+A: satır başına git;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "    End tuşu yada Ctrl+E: satır sonuna git;\n"
+msgstr "     End tuşu yada Ctrl+E: satır sonuna git;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr " Geçmiş: Aşağı ve Yukarı Oklar, Ctrl+P, Ctrl+N\n"
+msgstr "  Geçmiş: Aşağı ve Yukarı Oklar, Ctrl+P, Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr " Silme:\n"
+msgstr "  Silme:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "    Del tuşu yada Ctrl+D: geçerli seçimi yada karakteri sil;\n"
+msgstr "     Del tuşu yada Ctrl+D: geçerli seçimi yada karakteri sil;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "    Backspace: önceki karakteri sil;\n"
+msgstr "     Backspace: önceki karakteri sil;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "    Ctrl+Del yada Ctrl+K: metni geçerli karakterden satır sonuna kadar sil.\n"
+msgstr ""
+"     Ctrl+Del yada Ctrl+K: metni geçerli karakterden satır sonuna kadar sil."
+"\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "    Ctrl+U: geçerli satırdaki tüm metni sil.\n"
+msgstr "     Ctrl+U: geçerli satırdaki tüm metni sil.\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr " Kopyalama ve yapıştırma.\n"
+msgstr "  Kopyalama ve yapıştırma.\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "    Metni işaretlemek (seçmek) için fareyi (sol tuşuna basılı tutarak) kullan.\n"
+msgstr ""
+"     Metni işaretlemek (seçmek) için fareyi (sol tuşuna basılı tutarak) "
+"kullan.\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "    Seçili metni panoya kopyalamak Shift+Del (veya Ctrl+C), \n"
+msgstr "     Seçili metni panoya kopyalamak Shift+Del (veya Ctrl+C),\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
@@ -145,19 +147,20 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr " Diğer:\n"
+msgstr "  Diğer:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "    Ctrl+L: Konsolu temizle.\n"
+msgstr "     Ctrl+L: Konsolu temizle.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "    Ctrl+O veya INS: Üstüne yazma modunu değiştir: başlangıçta kapalıdır.\n"
+msgstr ""
+"     Ctrl+O veya INS: Üstüne yazma modunu değiştir: başlangıçta kapalıdır.\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
-msgstr "    Ctrl+T: Geçerli karakteri soldakiyle karşılıklı olarak değiştir.\n"
+msgstr "     Ctrl+T: Geçerli karakteri soldakiyle karşılıklı olarak değiştir.\n"
 
 #: src/gnuwin32/console.c:2485
 msgid ""
@@ -249,11 +252,11 @@ msgstr "R kodunun bir satırını veya bölgesini çalıştırmak için, kodu se
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "    Ctrl-R'ye basın\n"
+msgstr "     Ctrl-R'ye basın\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "    Düzenle menüsünden \"Satırı veya seçimi çalıştır\"ı seçin\n"
+msgstr "     Düzenle menüsünden \"Satırı veya seçimi çalıştır\"ı seçin\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
@@ -832,7 +835,7 @@ msgstr "Soru"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr "Çalışma dizinini değiştir:"
+msgstr " Çalışma dizinini değiştir:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
