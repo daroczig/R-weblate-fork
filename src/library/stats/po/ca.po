@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 06:08+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -385,7 +385,7 @@ msgstr "l'espai de treball necessari (%.0f) és massa gran%s."
 #: loessc.c:258
 #, fuzzy
 msgid " probably because of setting 'se = TRUE'"
-msgstr "probablement a causa de la configuració «se = TRUE»"
+msgstr " probablement a causa de la configuració «se = TRUE»"
 
 #: loglin.c:372
 #, fuzzy
