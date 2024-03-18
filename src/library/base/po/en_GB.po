@@ -4,37 +4,9 @@
 # Prof Brian Ripley <ripley@stats.ox.ac.uk>, 2005.
 #
 msgid ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -45,34 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -2878,7 +2822,7 @@ msgstr "not enough memory to allocate device (in GEcreateDevDesc)"
 
 #: src/main/devices.c:546
 msgid "Hit <Return> to see next plot: "
-msgstr "Hit <Return> to see next plot:"
+msgstr "Hit <Return> to see next plot: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
@@ -3016,7 +2960,7 @@ msgstr "pairlists are passed as SEXP as from R 2.15.0"
 #: src/main/dounzip.c:179
 #, c-format
 msgid " not overwriting file '%s"
-msgstr "not overwriting file '%s"
+msgstr " not overwriting file '%s"
 
 #: src/main/dounzip.c:269
 #, c-format
@@ -3237,12 +3181,12 @@ msgstr "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
 #: src/main/engine.c:2502
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr "new *lo = %g < %g = x1"
+msgstr " new *lo = %g < %g = x1"
 
 #: src/main/engine.c:2504
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr "new *up = %g > %g = x2"
+msgstr " new *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -3672,25 +3616,25 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "Error in"
+msgstr "Error in "
 
 #: src/main/errors.c:817 src/main/errors.c:824
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr "Error in %s (from %s) :"
+msgstr "Error in %s (from %s) : "
 
 #: src/main/errors.c:826
 #, c-format
 msgid "Error in %s : "
-msgstr "Error in %s :"
+msgstr "Error in %s : "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
-msgstr "Error:"
+msgstr "Error: "
 
 #: src/main/errors.c:891 src/main/errors.c:1503
 msgid "In addition: "
-msgstr "In addition:"
+msgstr "In addition: "
 
 #: src/main/errors.c:1017
 msgid "invalid option \"error\"\n"
@@ -3710,11 +3654,11 @@ msgstr "'%s' must be a character string"
 
 #: src/main/errors.c:1365
 msgid " [invalid string in stop(.)]"
-msgstr "[invalid string in stop(.)]"
+msgstr " [invalid string in stop(.)]"
 
 #: src/main/errors.c:1397
 msgid " [invalid string in warning(.)]"
-msgstr "[invalid string in warning(.)]"
+msgstr " [invalid string in warning(.)]"
 
 #: src/main/errors.c:1413
 #, c-format
@@ -3874,7 +3818,7 @@ msgstr "attempt to apply non-function"
 #: src/main/eval.c:1308
 #, c-format
 msgid "%s at %s#%d: "
-msgstr "%s at %s#%d:"
+msgstr "%s at %s#%d: "
 
 #: src/main/eval.c:2456 src/main/eval.c:3651
 #, c-format
@@ -4506,12 +4450,12 @@ msgstr "zero-length pattern"
 #: src/main/grep.c:3071
 #, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre2_patterninfo' returned '%d'"
+msgstr "'pcre2_patterninfo' returned '%d' "
 
 #: src/main/grep.c:3088
 #, c-format
 msgid "'pcre_fullinfo' returned '%d' "
-msgstr "'pcre_fullinfo' returned '%d'"
+msgstr "'pcre_fullinfo' returned '%d' "
 
 #: src/main/identical.c:144
 msgid "ignoring non-pairlist attributes"
@@ -4605,7 +4549,7 @@ msgstr "unable to restore saved data in %s\n"
 
 #: src/main/main.c:1180
 msgid "During startup - "
-msgstr "During startup -"
+msgstr "During startup - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
