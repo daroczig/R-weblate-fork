@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-19 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -14,119 +14,107 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 #: src/appl/optim.c:60
-#, fuzzy
 msgid "non-finite value supplied by 'optim'"
-msgstr "valor no finit proporcionat per «optim»"
+msgstr "valor no finit subministrat per «optim»"
 
 #: src/appl/optim.c:67
-#, c-format, fuzzy
+#, c-format
 msgid "candidate point in 'optim' evaluated to length %d not %d"
-msgstr "punt candidat a 'optim' avaluat a longitud %d no %d"
+msgstr "punt candidat a «optim» avaluat a longitud %d no %d"
 
 #: src/appl/optim.c:136
-#, fuzzy
 msgid "REPORT must be > 0 (method = \"BFGS\")"
-msgstr "L'INFORME ha de ser \") 0 (mètode \") \"BFGS\")"
+msgstr "REPORT ha de ser > 0 (method = \"BFGS\")"
 
 #: src/appl/optim.c:147
-#, fuzzy
 msgid "initial value in 'vmmin' is not finite"
 msgstr "el valor inicial a «vmmin» no és finit"
 
 #: src/appl/optim.c:297
-#, fuzzy
 msgid "function cannot be evaluated at initial parameters"
-msgstr "la funció no es pot avaluar als paràmetres inicials"
+msgstr "la funció no es pot avaluar en els paràmetres inicials"
 
 #: src/appl/optim.c:497
-#, fuzzy
 msgid "unknown 'type' in \"CG\" method of 'optim'"
-msgstr "«type» desconegut al mètode «CG» de «optim»"
+msgstr "«type» desconegut en el mètode «CG» de «optim»"
 
 #: src/appl/optim.c:510
-#, fuzzy
 msgid "Function cannot be evaluated at initial parameters"
-msgstr "La funció no es pot avaluar als paràmetres inicials"
+msgstr "La funció no es pot avaluar en els paràmetres inicials"
 
 #: src/appl/optim.c:565
-#, fuzzy
 msgid "unknown type in \"CG\" method of 'optim'"
-msgstr "tipus desconegut al mètode «CG» de «optim»"
+msgstr "tipus desconegut en el mètode «CG» de «optim»"
 
 #: src/appl/optim.c:662
-#, fuzzy
 msgid "REPORT must be > 0 (method = \"L-BFGS-B\")"
-msgstr "L'INFORME ha de ser \") 0 (mètode \") \"L-BFGS-B\")"
+msgstr "REPORT ha de ser > 0 (method = \"L-BFGS-B\")"
 
 #: src/appl/optim.c:685
-#, fuzzy
 msgid "L-BFGS-B needs finite values of 'fn'"
 msgstr "L-BFGS-B necessita valors finits de «fn»"
 
 #: src/appl/optim.c:741
-#, fuzzy
 msgid "trace, REPORT must be >= 0 (method = \"SANN\")"
-msgstr "traça, L'INFORME ha de ser  0 0 (mètode \") \"SANN\")"
+msgstr "trace, REPORT ha de ser >= 0 (method = \"SANN\")"
 
 #: src/appl/pretty.c:127
 #, c-format
 msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
-msgstr "Rpretty(): interval infinit; *ndiv=%d, hauria de tenir ndiv >= 2"
+msgstr "R_pretty(): interval infinit; *ndiv=%d, hauria de tenir ndiv >= 2"
 
 #: src/appl/pretty.c:142
 #, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "Rpretty(): interval molt petit 'cel·la'=%g, corregit a %g"
+msgstr "R_pretty(): interval molt petit «cel·la»=%g, corregit a %g"
 
 #: src/appl/pretty.c:146
 #, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Rpretty(): interval molt gran 'cel·la'=%g, corregit a %g"
+msgstr "Rpretty(): interval molt gran «cel·la»=%g, corregit a %g"
 
 #: src/gnuwin32/dynload.c:118
-#, c-format, fuzzy
+#, c-format
 msgid "DLL attempted to change FPU control word from %x to %x"
-msgstr "DLL ha intentat canviar la paraula de control FPU de %x a %x"
+msgstr "La DLL ha intentat canviar la paraula de control FPU de %x a %x"
 
 #: src/gnuwin32/dynload.c:166
-#, fuzzy
 msgid "cannot get working directory"
 msgstr "no s'ha pogut obtenir el directori de treball"
 
 #: src/gnuwin32/extra.c:59 src/gnuwin32/extra.c:88 src/gnuwin32/extra.c:127
-#, fuzzy
 msgid "R_HOME not set"
-msgstr "RHOME no definit"
+msgstr "R_HOME no ha estat definida"
 
 #: src/gnuwin32/extra.c:67
-#, c-format, fuzzy
+#, c-format
 msgid "'%s' not found"
 msgstr "no s'ha trobat «%s»"
 
 #: src/gnuwin32/extra.c:69
-#, c-format, fuzzy
+#, c-format
 msgid "file association for '%s' not available or invalid"
-msgstr "l'associació de fitxers per a «%s» no està disponible o no és vàlida"
+msgstr "l'associació a un fitxer per a «%s» no està disponible o no és vàlida"
 
 #: src/gnuwin32/extra.c:72
-#, c-format, fuzzy
+#, c-format
 msgid "access to '%s' denied"
 msgstr "s'ha denegat l'accés a «%s»"
 
 #: src/gnuwin32/extra.c:73
-#, c-format, fuzzy
+#, c-format
 msgid "problem in displaying '%s'"
 msgstr "problema en mostrar «%s»"
 
 #: src/gnuwin32/extra.c:98
-#, c-format, fuzzy
+#, c-format
 msgid "'%ls' not found"
 msgstr "no s'ha trobat «%ls»"
 
 #: src/gnuwin32/extra.c:100
-#, c-format, fuzzy
+#, c-format
 msgid "file association for '%ls' not available or invalid"
-msgstr "l'associació de fitxers per a «%ls» no està disponible o no és vàlida"
+msgstr "l'associació a un fitxer per a «%ls» no està disponible o no és vàlida"
 
 #: src/gnuwin32/extra.c:103
 #, c-format, fuzzy
@@ -781,9 +769,8 @@ msgid "Symbol '%s' is missing parameter specification."
 msgstr "Falta l'especificació del paràmetre al símbol «%s»."
 
 #: src/main/Rdynload.c:851
-#, fuzzy
 msgid "`maximal number of DLLs reached..."
-msgstr "S'ha arribat a  ofnúmero màxim de DLL..."
+msgstr "`s'ha arribat al número màxim de DLL..."
 
 #: src/main/Rdynload.c:901
 #, fuzzy
@@ -910,9 +897,9 @@ msgstr "cadena de format multibyte no vàlida"
 #: src/main/agrep.c:134 src/main/agrep.c:780 src/main/character.c:1455
 #: src/main/character.c:1459 src/main/grep.c:1304 src/main/grep.c:2158
 #: src/main/grep.c:2162 src/main/grep.c:3016 src/main/grep.c:3361
-#, c-format, fuzzy
+#, c-format
 msgid "argument '%s' has length > 1 and only the first element will be used"
-msgstr "l'argument «%s» té longitud  1 1 i només s'utilitzarà el primer element"
+msgstr "l'argument «%s» té longitud > 1 i només s'utilitzarà el primer element"
 
 #: src/main/agrep.c:191 src/main/agrep.c:822
 #, fuzzy
@@ -1264,7 +1251,7 @@ msgstr "el primer argument no és vàlid, ha de ser %s"
 #: src/main/array.c:1732
 #, c-format
 msgid "'perm' is of wrong length %d (!= %d)"
-msgstr "'perm' té una longitud incorrecta %d (!= %d)"
+msgstr "«perm» té una longitud incorrecta %d (!= %d)"
 
 #: src/main/array.c:1737 src/main/array.c:1740
 #, fuzzy
@@ -2002,9 +1989,9 @@ msgid "invalid argument list"
 msgstr "llista d'arguments no vàlida"
 
 #: src/main/coerce.c:1800
-#, c-format, fuzzy
+#, c-format
 msgid "'length = %lld' in coercion to '%s'"
-msgstr "'longitud  in %lld' en coerció a '%s'"
+msgstr "«length = %lld» en coerció a «%s»"
 
 #: src/main/coerce.c:2142
 #, fuzzy
@@ -2098,12 +2085,11 @@ msgstr ""
 "trobat «%s»"
 
 #: src/main/coerce.c:3052
-#, fuzzy
 msgid ""
 "cannot set class to \"array\" unless the dimension attribute has length > 0"
 msgstr ""
 "no es pot establir la classe a «array» a menys que l'atribut de dimensió "
-"tingui longitud  the 0"
+"tingui longitud > 0"
 
 #: src/main/coerce.c:3091
 #, fuzzy
@@ -2306,12 +2292,10 @@ msgid "only first element of 'description' argument used"
 msgstr "només s'ha utilitzat el primer element de l'argument «descripció»"
 
 #: src/main/connections.c:1534
-#, fuzzy
 msgid ""
 "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
 msgstr ""
-"fifo(\"\") només suporta open  the \"w+\" i open \": \"w+b\": utilitzant el "
-"primer"
+"fifo(\"\") només suporta open = \"w+\" i open = \"w+b\": utilitzant el primer"
 
 #: src/main/connections.c:1559
 #, fuzzy
@@ -2334,9 +2318,8 @@ msgid "cannot open compressed file '%s', probable reason '%s'"
 msgstr "no es pot obrir el fitxer comprimit «%s», raó probable «%s»"
 
 #: src/main/connections.c:1826
-#, fuzzy
 msgid "whence = \"end\" is not implemented for gzfile connections"
-msgstr "whence   \"end\" no està implementat per a les connexions gzfile"
+msgstr "whence = end\" no està implementat per a les connexions gzfile"
 
 #: src/main/connections.c:1831
 #, fuzzy
@@ -2806,18 +2789,15 @@ msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
 msgstr "el mètode 'intern' de url() és obsolet per als URL http:// i ftp://"
 
 #: src/main/connections.c:5623
-#, fuzzy
 msgid ""
 "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
 msgstr ""
-"file(\"\") només admet open  the \"w+\" i open \": \"w+b\": utilitzant el "
-"primer"
+"file(\"\") només admet open = \"w+\" i open \": \"w+b\": utilitzant el primer"
 
 #: src/main/connections.c:5644
-#, c-format, fuzzy
+#, c-format
 msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
-msgstr ""
-"s'està utilitzant «raw  because TRUE» perquè «%s» és una fifo o canonada"
+msgstr "s'està utilitzant «raw = TRUE» perquè «%s» és una fifo o un pipe"
 
 #: src/main/connections.c:5651
 #, c-format, fuzzy
@@ -3151,9 +3131,8 @@ msgid "deparse may be incomplete"
 msgstr "la deparse pot ser incompleta"
 
 #: src/main/deparse.c:308
-#, fuzzy
 msgid "deparse may be not be source()able in R < 2.7.0"
-msgstr "la deparse no pot ser «source()able» en R  in 2.7.0"
+msgstr "deparse pot no ser source()able en R < 2.7.0"
 
 #: src/main/deparse.c:420 src/main/deparse.c:516 src/main/deparse.c:522
 #, fuzzy
@@ -3520,7 +3499,7 @@ msgid "unable to open file to read"
 msgstr "no s'ha pogut obrir el fitxer per a llegir"
 
 #: src/main/edit.c:198
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "%s occurred on line %d\n"
 " use a command like\n"
@@ -3529,8 +3508,8 @@ msgid ""
 msgstr ""
 "%s ha ocorregut a la línia %d\n"
 " utilitza una ordre com\n"
-" x  - edit()\n"
-" recuperar-se"
+" x <- edit()\n"
+" per corregir"
 
 #: src/main/engine.c:41
 #, fuzzy
@@ -3634,12 +3613,12 @@ msgstr "extensió de l'eix no finit [GEPretty(%g,%g, n]%d)]"
 #: src/main/engine.c:2499
 #, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " *lo nou = %g < %g = x1"
+msgstr " nou *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
 #, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " *up nou =%g > %g = x2"
+msgstr " nou *up =%g > %g = x2"
 
 #: src/main/engine.c:3021
 #, fuzzy
@@ -3855,9 +3834,8 @@ msgid "invalid '%s' argument '%s'"
 msgstr "argument «%s» no vàlid «%s»"
 
 #: src/main/envir.c:2089
-#, fuzzy
 msgid "first argument has length > 1"
-msgstr "el primer argument té longitud  1 1"
+msgstr "el primer argument té longitud > 1"
 
 #: src/main/envir.c:2147
 #, c-format, fuzzy
@@ -4376,9 +4354,8 @@ msgid "symbol \"%s\" not in environment of method"
 msgstr "el símbol «%s» no és a l'entorn del mètode"
 
 #: src/main/eval.c:2639
-#, fuzzy
 msgid "the condition has length > 1"
-msgstr "la condició té longitud  1 1"
+msgstr "la condició té longitud > 1"
 
 #: src/main/eval.c:2656
 #, fuzzy
@@ -4914,8 +4891,8 @@ msgid ""
 "axis(%d, *): range of values (%5.2g) is small wrt |M| = %7.2g --> not "
 "pretty()"
 msgstr ""
-"axis(%d, *): l'interval de valors (%5.2g) és petit MM) = %7.2g -- of no és "
-"bonic()"
+"axis(%d, *): l'interval de valors (%5.2g) és petit respecte a |M| = %7.2g -- "
+"no pretty()"
 
 #: src/main/grep.c:155
 #, c-format, fuzzy
@@ -6272,7 +6249,7 @@ msgstr[1] " [ s'ha arribat a getOption(\"max.print\") -- s'han omès %d files ]\
 #: src/main/printutils.c:640
 #, c-format
 msgid "too large string (nchar=%d) => 5*nchar + 8 > SIZE_MAX"
-msgstr "cadena massa gran (nchar=%d) >= 5*nchar + 8 > SIZE_MAX"
+msgstr "cadena de caràcters massa gran (nchar=%d) >= 5*nchar + 8 > SIZE_MAX"
 
 #: src/main/printutils.c:755
 #, fuzzy
@@ -6336,11 +6313,10 @@ msgid "too few positive probabilities"
 msgstr "massa poques probabilitats positives"
 
 #: src/main/random.c:485 src/main/random.c:513
-#, fuzzy
 msgid "cannot take a sample larger than the population when 'replace = FALSE'"
 msgstr ""
-"no es pot prendre una mostra més gran que la població quan «substitueix  the "
-"FALS»"
+"no es pot prendre una mostra més gran que la de la població quan «replace = "
+"FALSE»"
 
 #: src/main/random.c:492
 #, fuzzy
@@ -6348,10 +6324,8 @@ msgid "incorrect number of probabilities"
 msgstr "nombre incorrecte de probabilitats"
 
 #: src/main/random.c:531
-#, fuzzy
 msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
-msgstr ""
-"n  2 23131, replace  on FALSE només és compatible amb plataformes de 64 bits"
+msgstr "n >= 2^31, replace = FALSE només té suport amb plataformes de 64 bits"
 
 #: src/main/raw.c:37 src/main/raw.c:330
 #, fuzzy
@@ -6841,9 +6815,8 @@ msgid "argument of length 0"
 msgstr "argument de longitud 0"
 
 #: src/main/seq.c:157
-#, fuzzy
 msgid "numerical expression has length > 1"
-msgstr "l'expressió numèrica té longitud  1 1"
+msgstr "l'expressió numèrica té longitud > 1"
 
 #: src/main/seq.c:159
 #, c-format, fuzzy
@@ -7267,7 +7240,7 @@ msgstr ""
 #: src/main/source.c:254
 #, c-format
 msgid "argument '%s = \"%s\"' will be ignored"
-msgstr "s'ignorarà l'argument '%s = \"%s\"'"
+msgstr "s'ignorarà l'argument «%s = \"%s\"»"
 
 #: src/main/split-incl.c:15
 #, fuzzy
@@ -7285,9 +7258,8 @@ msgid "second argument must be a factor"
 msgstr "el segon argument ha de ser un factor"
 
 #: src/main/split.c:46
-#, fuzzy
 msgid "group length is 0 but data length > 0"
-msgstr "la longitud del grup és 0 però la longitud de les dades és   0"
+msgstr "la longitud del grup és 0 però la longitud de les dades és > 0"
 
 #: src/main/split.c:48
 #, fuzzy
@@ -8357,7 +8329,7 @@ msgstr "no s'ha pogut crear la finestra X11"
 #: src/modules/X11/devX11.c:1744
 #, c-format
 msgid "'width=%d, height=%d' are unlikely values in pixels"
-msgstr "'amplada=%d, alçada=%d' són valors poc probables en píxels"
+msgstr "«width=%d, height=%d» són valors poc probables en píxels"
 
 #: src/modules/X11/devX11.c:1749
 #, fuzzy
@@ -8376,9 +8348,9 @@ msgstr ""
 "lletra X11"
 
 #: src/modules/X11/devX11.c:1859
-#, c-format, fuzzy
+#, c-format
 msgid "invalid use of %d < 0 in '%s'"
-msgstr "ús no vàlid de %d  in 0 a «%s»"
+msgstr "ús no vàlid de %d < 0 a «%s»"
 
 #: src/modules/X11/devX11.c:1984
 #, c-format, fuzzy
@@ -8653,24 +8625,22 @@ msgstr "ha fallat la creació del sòcol del servidor: no es pot obrir el port %
 #: src/modules/lapack/Lapack.c:100
 #, c-format
 msgid "argument type[1]='%s' must be a character string of string length 1"
-msgstr ""
-"el tipus d'argument[1]='%s' ha de ser una cadena de caràcters de longitud de "
-"cadena 1"
+msgstr "l'argument type[1]=«%s» ha de ser una cadena de caràcters de longitud 1"
 
 #: src/modules/lapack/Lapack.c:74
 #, c-format
 msgid "argument type[1]='%s' must be one of 'M','1','O','I','F' or 'E'"
-msgstr "el tipus d'argument[1]='%s' ha de ser un de 'M','1','O','I','F' o 'E'"
+msgstr "l'argument type[1]=«%s» ha de ser un de 'M','1','O','I','F' o 'E'"
 
 #: src/modules/lapack/Lapack.c:91
 #, c-format
 msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
-msgstr "el tipus d'argument[1]='%s' ha de ser un de '1','O', o 'I'"
+msgstr "l'argument type[1]=«%s» ha de ser un de '1','O', o 'I'"
 
 #: src/modules/lapack/Lapack.c:104
 #, c-format
 msgid "argument type[1]='%s' must be 'U' or 'L'"
-msgstr "el tipus d'argument[1]='%s' ha de ser 'U' o 'L'"
+msgstr "l'argument tyype[1]=«%s» ha de ser 'U' o 'L'"
 
 #: src/modules/lapack/Lapack.c:143 src/modules/lapack/Lapack.c:150
 #: src/modules/lapack/Lapack.c:209 src/modules/lapack/Lapack.c:220
@@ -8710,10 +8680,10 @@ msgid "'%s' must be a numeric matrix"
 msgstr "«%s» ha de ser una matriu numèrica"
 
 #: src/modules/lapack/Lapack.c:406
-#, c-format, fuzzy
+#, c-format
 msgid "exact singularity: U[%d,%d] = 0 in LU-decomposition {Lapack 'dgetrf()'}"
 msgstr ""
-"singularitat exacta: U[%d,%d]  in 0 en descomposició LU {Lapack 'dgetrf()'}"
+"singularitat exacta: U[%d,%d] = 0 en descomposició LU {Lapack «dgetrf()»}"
 
 #: src/modules/lapack/Lapack.c:442 src/modules/lapack/Lapack.c:478
 #: src/modules/lapack/Lapack.c:543 src/modules/lapack/Lapack.c:599
@@ -8859,17 +8829,17 @@ msgstr "error d'assignació de besseli"
 #: src/nmath/bessel_i.c:77 src/nmath/bessel_i.c:122
 #, c-format
 msgid "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besseli(%g): ncalc (=%d) !. nb (=%d); alpha=%g. Arg. fora de l'abast?\n"
+msgstr "bessel_i(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. fora del rang?\n"
 
 #: src/nmath/bessel_i.c:80 src/nmath/bessel_i.c:125
 #, c-format
 msgid "bessel_i(%g,nu=%g): precision lost in result\n"
-msgstr "besseli(%g,nu=%g): precisió perduda en el resultat\n"
+msgstr "bessel_i(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_j.c:64 src/nmath/bessel_j.c:118
 #, c-format
 msgid "besselJ(x, nu): nu=%g too large for bessel_j() algorithm"
-msgstr "besselJ(x, nu): nu=%g massa gran per a l'algorisme besselj()"
+msgstr "besselJ(x, nu): nu=%g massa gran per a l'algorisme bessel_j()"
 
 #: src/nmath/bessel_j.c:72
 #, fuzzy
@@ -8879,12 +8849,12 @@ msgstr "error d'assignació de besselj"
 #: src/nmath/bessel_j.c:80 src/nmath/bessel_j.c:127
 #, c-format
 msgid "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besselj(%g): ncalc (=%d) != nb (.%d); alpha=%g. Arg. fora de l'abast?\n"
+msgstr "bessel_j(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. fora del rang?\n"
 
 #: src/nmath/bessel_j.c:83 src/nmath/bessel_j.c:130
 #, c-format
 msgid "bessel_j(%g,nu=%g): precision lost in result\n"
-msgstr "besselj(%g,nu=%g): precisió perduda en el resultat\n"
+msgstr "bessel_j(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_k.c:63
 #, fuzzy
@@ -8894,17 +8864,17 @@ msgstr "error d'assignació de besselk"
 #: src/nmath/bessel_k.c:71 src/nmath/bessel_k.c:108
 #, c-format
 msgid "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "besselk(%g): ncalc (=%d) !. nb (=%d); alpha=%g. Arg. fora de l'abast?\n"
+msgstr "bessel_k(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. fora del rang?\n"
 
 #: src/nmath/bessel_k.c:74 src/nmath/bessel_k.c:111
 #, c-format
 msgid "bessel_k(%g,nu=%g): precision lost in result\n"
-msgstr "besselk(%g,nu=%g): precisió perduda en el resultat\n"
+msgstr "bessel_k(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/bessel_y.c:63 src/nmath/bessel_y.c:125
 #, c-format
 msgid "besselY(x, nu): nu=%g too large for bessel_y() algorithm"
-msgstr "besselY(x, nu): nu=%g massa gran per a l'algorisme bessely()"
+msgstr "besselY(x, nu): nu=%g massa gran per a l'algorisme bessel_y()"
 
 #: src/nmath/bessel_y.c:71
 #, fuzzy
@@ -8914,12 +8884,12 @@ msgstr "error d'assignació de bessely"
 #: src/nmath/bessel_y.c:87 src/nmath/bessel_y.c:136
 #, c-format
 msgid "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. out of range?\n"
-msgstr "bessely(%g): ncalc (=%d) !. nb (.%d); alpha=%g. Arg. fora de l'abast?\n"
+msgstr "bessel_y(%g): ncalc (=%d) != nb (=%d); alpha=%g. Arg. fora del rang?\n"
 
 #: src/nmath/bessel_y.c:90 src/nmath/bessel_y.c:139
 #, c-format
 msgid "bessel_y(%g,nu=%g): precision lost in result\n"
-msgstr "bessely(%g,nu=%g): precisió perduda en el resultat\n"
+msgstr "bessel_y(%g,nu=%g): precisió perduda en el resultat\n"
 
 #: src/nmath/choose.c:79 src/nmath/choose.c:122
 #, c-format, fuzzy
