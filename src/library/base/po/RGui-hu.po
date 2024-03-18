@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-03-18 16:26+0000\n"
+"PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -81,35 +81,35 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2466
 msgid "     Left arrow or Ctrl+B: move backward one character;\n"
-msgstr "    Bal nyíl vagy Ctrl+B: visszalép egy karaktert;\n"
+msgstr "     Bal nyíl vagy Ctrl+B: visszalép egy karaktert;\n"
 
 #: src/gnuwin32/console.c:2467
 msgid "     Right arrow or Ctrl+F: move forward one character;\n"
-msgstr "    Jobb nyíl vagy Ctrl+F: előrelép egy karaktert;\n"
+msgstr "     Jobb nyíl vagy Ctrl+F: előrelép egy karaktert;\n"
 
 #: src/gnuwin32/console.c:2468
 msgid "     Home or Ctrl+A: go to beginning of line;\n"
-msgstr "    Home vagy Ctrl+A: a sor elejére lép;\n"
+msgstr "     Home vagy Ctrl+A: a sor elejére lép;\n"
 
 #: src/gnuwin32/console.c:2469
 msgid "     End or Ctrl+E: go to end of line;\n"
-msgstr "    End vagy Ctrl+E: a sor végére lép;\n"
+msgstr "     End vagy Ctrl+E: a sor végére lép;\n"
 
 #: src/gnuwin32/console.c:2470
 msgid "  History: Up and Down Arrows, Ctrl+P, Ctrl+N\n"
-msgstr " Előzmények: felfelé és lefelé nyíl, illetve Ctrl+P és Ctrl+N\n"
+msgstr "  Előzmények: felfelé és lefelé nyíl, illetve Ctrl+P és Ctrl+N\n"
 
 #: src/gnuwin32/console.c:2471
 msgid "  Deleting:\n"
-msgstr " Törlés:\n"
+msgstr "  Törlés:\n"
 
 #: src/gnuwin32/console.c:2472
 msgid "     Del or Ctrl+D: delete current character or selection;\n"
-msgstr "    Del vagy Ctrl+D: törli az aktuális karaktert vagy a kijelölést;\n"
+msgstr "     Del vagy Ctrl+D: törli az aktuális karaktert vagy a kijelölést;\n"
 
 #: src/gnuwin32/console.c:2473
 msgid "     Backspace: delete preceding character;\n"
-msgstr "    Backspace: törli az előző karaktert;\n"
+msgstr "     Backspace: törli az előző karaktert;\n"
 
 #: src/gnuwin32/console.c:2314
 msgid ""
@@ -120,11 +120,11 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
-msgstr "    Ctrl+U: az aktuális sorban töröl minden szöveget.\n"
+msgstr "     Ctrl+U: az aktuális sorban töröl minden szöveget.\n"
 
 #: src/gnuwin32/console.c:2476
 msgid "  Copy and paste.\n"
-msgstr " Másolás és beillesztés.\n"
+msgstr "  Másolás és beillesztés.\n"
 
 #: src/gnuwin32/console.c:2317
 msgid ""
@@ -150,15 +150,15 @@ msgstr ""
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
-msgstr "    a konzolra, először másolás Ctrl+X-el majd beillesztés\n"
+msgstr "     a konzolra, először másolás Ctrl+X-el majd beillesztés\n"
 
 #: src/gnuwin32/console.c:2481
 msgid "  Misc:\n"
-msgstr " Egyéb:\n"
+msgstr "  Egyéb:\n"
 
 #: src/gnuwin32/console.c:2482
 msgid "     Ctrl+L: Clear the console.\n"
-msgstr "    Ctrl+L: Törli a konzolt.\n"
+msgstr "     Ctrl+L: Törli a konzolt.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
@@ -267,7 +267,7 @@ msgstr ""
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
-msgstr "    Nyomja meg a Ctrl-R-t\n"
+msgstr "     Nyomja meg a Ctrl-R-t\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
@@ -859,7 +859,7 @@ msgstr "Kérdés"
 
 #: src/extra/graphapp/dialogs.c:249
 msgid " Change working directory to:"
-msgstr "A munkakönyvtár megváltoztatása erre:"
+msgstr " A munkakönyvtár megváltoztatása erre:"
 
 #: src/extra/graphapp/dialogs.c:251
 #, c-format
