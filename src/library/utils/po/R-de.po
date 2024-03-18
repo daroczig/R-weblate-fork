@@ -4,6 +4,7 @@
 # Detlef Steuer <steuer@hsu-hh.de>, 2008-2022.
 #
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 msgid ""
 "RShowDoc() should be used with a character string argument specifying\n"
@@ -1301,7 +1303,7 @@ msgstr[1] "%d Sweave-Dateien für Basisnamen %s gefunden"
 
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
-msgstr[0] "Ausgabedateie:  "
+msgstr[0] "Ausgabedateien:  "
 msgstr[1] "Ausgabedateien:  "
 
 msgid "%d occurrence in %s"
@@ -1446,8 +1448,12 @@ msgstr[1] "Die Pakete %s sind im Quelltext, jedoch nicht als Binärpakete verfü
 
 msgid "There is a binary version available (and will be installed) but the source version is later"
 msgid_plural "There are binary versions available (and will be installed) but the source versions are later"
-msgstr[0] "Es gibt eine Binärversion (und diese wird installiert), jedoch sind die Quelltexte neuer"
-msgstr[1] "Es gibt Binärversionen (und diese werden installiert), jedoch sind die Quelltexte neuer"
+msgstr[0] ""
+"Es gibt eine Binärversion (und diese wird installiert), jedoch sind die "
+"Quelltexte neuer"
+msgstr[1] ""
+"Es gibt Binärversionen (und diese werden installiert), jedoch sind die "
+"Quelltexte neuer"
 
 msgid "last record incomplete, %d line discarded"
 msgid_plural "last record incomplete, %d lines discarded"
@@ -1862,3 +1868,4 @@ msgstr[1] "ungültige römische Zahlen: %s"
 #~ msgid_plural "are"
 #~ msgstr[0] "ist"
 #~ msgstr[1] "sind"
+
