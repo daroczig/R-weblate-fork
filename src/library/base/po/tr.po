@@ -6,6 +6,7 @@
 # Murat Alkan <muratalk@gmail.com>, 2010, 2011.
 # Özlem Alpu <ozlem.alpu@gmail.com>, 2010, 2011.
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 #: src/appl/optim.c:60
 #, fuzzy
@@ -3648,7 +3650,7 @@ msgstr "%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() 
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
-msgstr "wrapup sırasında hata:"
+msgstr "wrapup sırasında hata: "
 
 #: src/main/errors.c:774
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
@@ -4539,7 +4541,7 @@ msgstr ""
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "wrapup sırasında hata:"
+msgstr "cleanup sırasında hata\n"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -7581,12 +7583,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl başarısız: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:213
-#, c-format
+#: src/modules/internet/libcurl.c:217
+#, c-format, fuzzy
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8927,3 +8929,5 @@ msgstr "UYARI: Dosya listesinde sadece ilk öğe düzenleniyor"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "basit olmayanda 'R_get_primname' çağırıldı"
+
+
