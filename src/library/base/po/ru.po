@@ -10,6 +10,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -24,6 +25,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "First-Translator: Dmitri I GOULIAEV <dmitri.gouliaev@telkel.net>\n"
 "X-Generator: Poedit 3.2.2\n"
+
 
 
 
@@ -984,7 +986,8 @@ msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Рециркуляция массива единичной длины в матрично-векторной арифметике не рекомендуется.\n"
+"Рециркуляция матрицы единичной длины в матрично-векторной арифметике не "
+"рекомендуется.\n"
 "  Используйте c() или as.vector()."
 
 #: src/main/arithmetic.c:580
@@ -992,7 +995,8 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Рециркуляция массива единичной длины в векторно-матричной арифметике не рекомендуется.\n"
+"Рециркуляция матрицы единичной длины в векторно-матричной арифметике не "
+"рекомендуется.\n"
 "  Используйте c() или as.vector()."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
