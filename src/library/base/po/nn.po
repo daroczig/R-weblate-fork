@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1829,10 +1831,10 @@ msgstr "ikkje-implementert predikat"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() brukt på ikkje-(liste eller vektor) av typen «%s»"
 
-#: src/main/coerce.c:2530 src/main/coerce.c:2591 src/main/coerce.c:2667
+#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
 #, c-format
 msgid "default method not implemented for type '%s'"
-msgstr "ikkje-implementert type «%s»"
+msgstr "ikkje-implementert type «%s» i «%s»"
 
 #: src/main/coerce.c:2687
 msgid "'name' is missing"
@@ -3631,7 +3633,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Tapt åtvaringsmelding\n"
 
-#: src/main/errors.c:613
+#: src/main/errors.c:602
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Åtvaring:"
@@ -3642,17 +3644,19 @@ msgstr[1] "Åtvaringar:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:676
+#: src/main/errors.c:665
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "Det oppstod %d åtvaring (bruk «warnings()» for å sjå dei)"
 msgstr[1] "Det oppstod %d åtvaringar (bruk «warnings()» for å sjå dei)"
 
-#: src/main/errors.c:681
+#: src/main/errors.c:670
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr "Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå dei %d første)"
+msgstr ""
+"Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå dei %d "
+"første)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
@@ -6574,7 +6578,7 @@ msgstr "argumentet er utanfor gyldig definisjonområde i «%s»"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "%d argumentet er utanfor gyldig definisjonområde i «%s»"
+msgstr "argumentet er utanfor gyldig definisjonområde i «%s»"
 
 #: src/main/sprintf.c:488
 #, fuzzy
@@ -8962,5 +8966,7 @@ msgstr "ÅTVARING: Redigerer berre den første i lista over filer"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "«R_get_primname» kalla på ikkje-primtiv"
+
+
 
 
