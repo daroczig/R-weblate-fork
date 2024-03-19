@@ -3,11 +3,9 @@
 # This file is distributed under the same license as the R package.
 # Detlef Steuer <steuer@hsu-hh.de>, 2005-2022.
 msgid ""
-
-
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-19 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -18,8 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -6113,7 +6109,9 @@ msgstr "Namen in persistenten Zeichenketten werden noch nicht unterstützt"
 #: src/main/serialize.c:1677
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr "Eingabezeichenkette '%s' kann nicht von '%s' in UTF-8 übersetzt werden, ist aber gültiges UTF-8"
+msgstr ""
+"Eingabezeichenkette '%s' kann nicht von '%s' in UTF-8 übersetzt werden, ist "
+"aber gültiges UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -9579,3 +9577,4 @@ msgstr "Warnung: editiere nur das erste in der Dateiliste"
 
 #~ msgid "cairo-based devices are not supported on this build"
 #~ msgstr "cairo-basierte Devices sind auf dieser Plattform nicht unterstützt"
+
