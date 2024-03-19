@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-20 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -2659,9 +2659,8 @@ msgstr "no s'usarà un df no vàlid; ha de tenir 1 < df <= n := #{unique x} ="
 msgid "NA lev[]; probably smoothing parameter 'spar' way too large!"
 msgstr "NA lev[]; probablement l'argument de suavitzat «spar» és massa gran!"
 
-#, fuzzy
 msgid "setting df = 1  __use with care!__"
-msgstr "establint df = 1 ús amb cura!"
+msgstr "establint df = 1  __useu-ho amb cura!__"
 
 #, fuzzy
 msgid "need result of smooth.spline(keep.data = TRUE)"
