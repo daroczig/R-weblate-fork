@@ -1,13 +1,7 @@
 msgid ""
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-19 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -19,12 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427434951.000000\n"
-
-
-
-
-
-
 
 msgid "'%s' is defunct."
 msgstr "'%s' は廃止されました。"
@@ -1426,10 +1414,10 @@ msgid "not a data frame"
 msgstr "データフレームではありません"
 
 msgid "length of 'center' must equal the number of columns of 'x'"
-msgstr "'center' の長さは 'x' の列数に等しくなければなりません;"
+msgstr "'center' の長さは 'x' の列数に等しくなければなりません"
 
 msgid "length of 'scale' must equal the number of columns of 'x'"
-msgstr "'scale' の長さは 'x' の列数に等しくなければなりません;"
+msgstr "'scale' の長さは 'x' の列数に等しくなければなりません"
 
 msgid "either specify 'nmax' or 'n', but not both."
 msgstr "'nmax' か 'n' を指定して下さい。しかし両方はだめです"
