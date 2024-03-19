@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-19 03:05+0000\n"
-"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
+"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -1932,10 +1932,9 @@ msgid_plural "objects %s are created by more than one data call"
 msgstr[0] "l'objecte %s està creat per més d'una crida de dades"
 msgstr[1] "els objectes %s es creen amb més d'una crida de dades"
 
-#, fuzzy
 msgid "%d of the package tests failed"
 msgid_plural "%d of the package tests failed"
-msgstr[0] "%d de les proves del paquet han fallat"
+msgstr[0] "%d de le prove del paquet ha fallat"
 msgstr[1] "%d de les proves del paquet han fallat"
 
 #, fuzzy
