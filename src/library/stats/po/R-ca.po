@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-19 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -2551,11 +2551,8 @@ msgstr "'ref' ha de ser un nivell existent"
 msgid "ref = %d must be in 1L:%d"
 msgstr "ref = %d ha de ser a 1L:%d"
 
-#, fuzzy
 msgid "failed to guess time-varying variables from their names"
-msgstr ""
-"no s'han pogut calcular les variables variables de temps a partir dels seus "
-"noms"
+msgstr "no s'han pogut calcular les variables de temps a partir dels seus noms"
 
 #, fuzzy
 msgid "'varying' arguments must be the same length"
@@ -3208,10 +3205,9 @@ msgid_plural "upper scope has terms %s not included in model"
 msgstr[0] "l'àmbit superior té el terme %s no inclòs al model"
 msgstr[1] "l'àmbit superior té els termes %s no inclosos al model"
 
-#, fuzzy
 msgid "there are %d Error terms: only 1 is allowed"
 msgid_plural "there are %d Error terms: only 1 is allowed"
-msgstr[0] "hi ha %d termes d'error: només es permet 1"
+msgstr[0] "hi ha %d terme d'error: només es permet 1"
 msgstr[1] "hi ha %d termes d'error: només es permet 1"
 
 #, fuzzy
@@ -3280,10 +3276,9 @@ msgid_plural "'Y' has %d cases (rows)"
 msgstr[0] "«Y» té %d cas (fila)"
 msgstr[1] "«Y» té %d casos (files)"
 
-#, fuzzy
 msgid "only %d case"
 msgid_plural "only %d cases"
-msgstr[0] "només %d casos"
+msgstr[0] "només %d caso"
 msgstr[1] "només %d casos"
 
 #, fuzzy
@@ -3334,13 +3329,10 @@ msgid_plural "unrecognized control elements named %s ignored"
 msgstr[0] "element de control no reconegut anomenat %s ignorat"
 msgstr[1] "elements de control no reconeguts anomenats %s ignorats"
 
-#, fuzzy
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
-msgstr[0] ""
-"s'està ajustant l'argument %s sense cap variableajustant els arguments %s "
-"sense cap variable"
-msgstr[1] ""
+msgstr[0] "Ajust del paràmetre %s sense variables"
+msgstr[1] "Ajust de paràmetres %s sense variables"
 
 msgid "parameter %s does not occur in the model formula"
 msgid_plural "parameters %s do not occur in the model formula"
