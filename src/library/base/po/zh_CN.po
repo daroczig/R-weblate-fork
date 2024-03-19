@@ -4,22 +4,9 @@
 # 陈斐 <feic@normipaiva.com>, 2006.
 #
 msgid ""
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -30,19 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -3575,7 +3549,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "警告信息丢失\n"
 
-#: src/main/errors.c:613
+#: src/main/errors.c:602
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "警告信息:"
@@ -3585,13 +3559,13 @@ msgstr[0] "警告信息:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:676
+#: src/main/errors.c:665
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "共有%d个警告 (用warnings()来显示)"
 
-#: src/main/errors.c:681
+#: src/main/errors.c:670
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
 msgstr "警告多于%d个(用warnings()来显示第一个到第%d个)"
@@ -4484,7 +4458,7 @@ msgstr "dummy - do not translate"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "收捲时出错:"
+msgstr "收捲时出错:\n"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -8837,6 +8811,7 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
+
 
 
 
