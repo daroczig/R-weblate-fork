@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Italian https://github.com/dmedri/R-italian-lang\n"
 "Language: it\n"
@@ -973,22 +973,20 @@ msgid "non-numeric argument to binary operator"
 msgstr "argomento non numerico passato ad un operatore binario"
 
 #: src/main/arithmetic.c:572
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
 "Il riciclo di array di lunghezza 1 in array-vettori aritmetici è deprecato.\n"
-"  Utilizza piuttosto c() o as.vector().\n"
+"  Utilizza piuttosto c() o as.vector()."
 
 #: src/main/arithmetic.c:580
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
 "Il riciclo di array di lunghezza 1 in array-vettori aritmetici è deprecato.\n"
-"  Utilizza piuttosto c() o as.vector().\n"
+"  Utilizza piuttosto c() o as.vector()."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
 msgid "non-conformable arrays"
