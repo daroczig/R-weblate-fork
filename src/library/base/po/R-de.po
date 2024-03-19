@@ -4,10 +4,9 @@
 # Detlef Steuer <detlef.steuer@hsu-hh.de>, 2007-2023.
 #
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -19,7 +18,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 "Regular-Translator: Detlef Steuer <steuer@hsu-hh.de>\n"
-
 
 msgid "'%s' is defunct."
 msgstr "'%s' ist nicht mehr gültig."
