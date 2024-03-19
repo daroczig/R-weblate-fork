@@ -4,12 +4,9 @@
 # Philippe Grosjean <phgrosjean@sciviews.org>, 2005.
 #
 msgid ""
-
-
-
 msgstr ""
 "Project-Id-Version: R-4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -20,9 +17,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -986,7 +980,8 @@ msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Le recyclage d’un tableau (array) de longueur 1 dans un calcul arithmétique tableau-vecteur est obsolète.\n"
+"Le recyclage d’un tableau (array) de longueur 1 dans un calcul arithmétique "
+"tableau-vecteur est obsolète.\n"
 "  Utilisez c() ou as.vector() à la place."
 
 #: src/main/arithmetic.c:580
@@ -994,7 +989,8 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Le recyclage d’un tableau (array) de longueur 1 dans un calcul arithmétique vecteur-tableau est obsolète.\n"
+"Le recyclage d’un tableau (array) de longueur 1 dans un calcul arithmétique "
+"vecteur-tableau est obsolète.\n"
 "  Utilisez c() ou as.vector() à la place."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
@@ -8828,4 +8824,5 @@ msgstr "AVIS : édition uniquement du premier fichier de la liste"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' appelé sur une fonction qui n'est pas primitive"
+
 
