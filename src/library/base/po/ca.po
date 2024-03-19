@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -117,14 +117,14 @@ msgid "file association for '%ls' not available or invalid"
 msgstr "l'associació a un fitxer per a «%ls» no està disponible o no és vàlida"
 
 #: src/gnuwin32/extra.c:103
-#, c-format, fuzzy
+#, c-format
 msgid "access to '%ls' denied"
-msgstr "s'ha denegat l'accés a '%ls'"
+msgstr "s'ha denegat l'accés a «%ls»"
 
 #: src/gnuwin32/extra.c:104
-#, c-format, fuzzy
+#, c-format
 msgid "problem in displaying '%ls'"
-msgstr "problema en mostrar '%ls'"
+msgstr "problema en mostrar «%ls»"
 
 #: src/gnuwin32/extra.c:115 src/gnuwin32/extra.c:163 src/gnuwin32/extra.c:303
 #: src/gnuwin32/extra.c:860 src/gnuwin32/extra.c:885
@@ -261,14 +261,12 @@ msgid "invalid '%s' argument"
 msgstr "argument «%s» no vàlid"
 
 #: src/gnuwin32/extra.c:188
-#, fuzzy
 msgid "unsupported version of Windows"
-msgstr "versió no admesa de Windows"
+msgstr "versió de Windows no admesa"
 
 #: src/gnuwin32/extra.c:679 src/gnuwin32/extra.c:796 src/main/util.c:1054
-#, fuzzy
 msgid "'path' must be a character vector"
-msgstr "'camí' ha de ser un vector de caràcters"
+msgstr "«path» ha de ser un vector de caràcters"
 
 #: src/gnuwin32/extra.c:862 src/gnuwin32/extra.c:864 src/gnuwin32/extra.c:887
 #: src/gnuwin32/extra.c:889 src/gnuwin32/extra.c:924 src/main/gevents.c:63
@@ -304,9 +302,8 @@ msgid "'CreateProcess' failed to run '%s'"
 msgstr "«CreateProcess» no ha pogut executar «%s»"
 
 #: src/gnuwin32/run.c:603
-#, fuzzy
 msgid "Child process not responding.  R will terminate it."
-msgstr "El procés fill no respon.  L'R la posarà fi."
+msgstr "El procés fill no respon.  L'R el finalitzarà."
 
 #: src/gnuwin32/run.c:699
 #, c-format, fuzzy
@@ -324,9 +321,8 @@ msgid "seek not enabled for this connection"
 msgstr "la cerca no està habilitada per a aquesta connexió"
 
 #: src/gnuwin32/run.c:995
-#, fuzzy
 msgid "truncate not enabled for this connection"
-msgstr "truncate no està habilitat per a aquesta connexió"
+msgstr "no està habilitat el truncament per a aquesta connexió"
 
 #: src/gnuwin32/run.c:1055 src/main/connections.c:476
 #: src/main/connections.c:495 src/main/connections.c:3305
@@ -344,18 +340,17 @@ msgid "allocation of pipe connection failed"
 msgstr "ha fallat l'assignació de la connexió de canonada"
 
 #: src/gnuwin32/run.c:1130
-#, fuzzy
 msgid "'names' is not a character vector"
-msgstr "'names' no és un vector de caràcters"
+msgstr "«names» no és un vector de caràcters"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
-"la longitud del camí expandit %llu seria massa llarga\n"
+"la longitud del camí expandit %llu seria massa llarg per\n"
 "%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
