@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -225,9 +225,8 @@ msgid "Registry key '%ls' not found"
 msgstr "No s'ha trobat la clau de registre '%ls'"
 
 #: windows/util.c:46
-#, fuzzy
 msgid "unsupported version of Windows"
-msgstr "versió no admesa de Windows"
+msgstr "versió de Windows no admesa"
 
 #: windows/util.c:291
 msgid "argument must be a character vector or a raw vector"
