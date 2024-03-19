@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"PO-Revision-Date: 2024-03-20 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -271,33 +271,28 @@ msgstr "«path» ha de ser un vector de caràcters"
 #: src/gnuwin32/extra.c:862 src/gnuwin32/extra.c:864 src/gnuwin32/extra.c:887
 #: src/gnuwin32/extra.c:889 src/gnuwin32/extra.c:924 src/main/gevents.c:63
 #: src/main/gevents.c:105
-#, fuzzy
 msgid "invalid device"
 msgstr "dispositiu no vàlid"
 
 #: src/gnuwin32/extra.c:865
-#, fuzzy
 msgid "requires SDI mode"
 msgstr "requereix el mode SDI"
 
 #: src/gnuwin32/extra.c:918 src/main/gevents.c:60 src/main/gevents.c:99
 #: src/main/gevents.c:102
-#, fuzzy
 msgid "invalid graphical device number"
 msgstr "el número de dispositiu gràfic no és vàlid"
 
 #: src/gnuwin32/extra.c:928
-#, fuzzy
 msgid "bad device"
 msgstr "dispositiu incorrecte"
 
 #: src/gnuwin32/extra.c:1054 src/main/platform.c:1719
-#, fuzzy
 msgid "file choice cancelled"
 msgstr "s'ha cancel·lat l'elecció del fitxer"
 
 #: src/gnuwin32/run.c:446
-#, c-format, fuzzy
+#, c-format
 msgid "'CreateProcess' failed to run '%s'"
 msgstr "«CreateProcess» no ha pogut executar «%s»"
 
@@ -306,17 +301,15 @@ msgid "Child process not responding.  R will terminate it."
 msgstr "El procés fill no respon.  L'R el finalitzarà."
 
 #: src/gnuwin32/run.c:699
-#, c-format, fuzzy
+#, c-format
 msgid "Exit code was %d"
 msgstr "El codi de sortida era %d"
 
 #: src/gnuwin32/run.c:735
-#, fuzzy
 msgid "Insufficient memory (rpipeOpen)"
 msgstr "Memòria insuficient (rpipeOpen)"
 
 #: src/gnuwin32/run.c:989 src/main/dounzip.c:498
-#, fuzzy
 msgid "seek not enabled for this connection"
 msgstr "la cerca no està habilitada per a aquesta connexió"
 
@@ -327,7 +320,6 @@ msgstr "no està habilitat el truncament per a aquesta connexió"
 #: src/gnuwin32/run.c:1055 src/main/connections.c:476
 #: src/main/connections.c:495 src/main/connections.c:3305
 #: src/main/printutils.c:929 src/main/printutils.c:946
-#, fuzzy
 msgid "printing of extremely long output is truncated"
 msgstr "la impressió d'una sortida extremadament llarga està truncada"
 
@@ -354,74 +346,68 @@ msgstr ""
 "%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
-#, fuzzy
 msgid "character string expected as first argument"
 msgstr "s'esperava una cadena de caràcters com a primer argument"
 
 #: src/gnuwin32/sys-win32.c:272
-#, fuzzy
 msgid "character string expected as third argument"
 msgstr "s'esperava una cadena de caràcters com a tercer argument"
 
 #: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
 #: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
 #: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
-#, c-format, fuzzy
+#, c-format
 msgid "invalid %s argument"
 msgstr "argument %s no vàlid"
 
 #: src/gnuwin32/sys-win32.c:361 src/unix/sys-unix.c:1006
 #: src/unix/sys-unix.c:1064
-#, c-format, fuzzy
+#, c-format
 msgid "command '%s' timed out after %ds"
 msgstr "l'ordre «%s» ha excedit el temps després de %ds"
 
 #: src/gnuwin32/system.c:138 src/main/sysutils.c:2328
-#, fuzzy
 msgid "reached session elapsed time limit"
 msgstr "s'ha arribat al límit de temps transcorregut de la sessió"
 
 #: src/gnuwin32/system.c:140 src/main/sysutils.c:2330
-#, fuzzy
 msgid "reached elapsed time limit"
 msgstr "s'ha arribat al límit de temps transcorregut"
 
 #: src/gnuwin32/system.c:146 src/main/sysutils.c:2336
-#, fuzzy
 msgid "reached session CPU time limit"
 msgstr "s'ha arribat al límit de temps de la CPU de la sessió"
 
 #: src/gnuwin32/system.c:148 src/main/sysutils.c:2338
-#, fuzzy
 msgid "reached CPU time limit"
 msgstr "s'ha arribat al límit de temps de la CPU"
 
 #: src/gnuwin32/system.c:180
-#, c-format, fuzzy
+#, c-format
 msgid "Fatal error: %s\n"
 msgstr "Error fatal: %s\n"
 
 #: src/gnuwin32/system.c:430 src/unix/sys-std.c:996
-#, c-format, fuzzy
+#, c-format
 msgid "encoding '%s' is not recognised"
 msgstr "no es reconeix la codificació «%s»"
 
 #: src/gnuwin32/system.c:439 src/unix/sys-std.c:1005
-#, c-format, fuzzy
+#, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
-msgstr "<ERROR: re-encoding failure from encoding '%s'>\n"
+msgstr "<ERROR: ha fallat la recodificació des de la codificació «%s»>\n"
 
 #: src/gnuwin32/system.c:682 src/gnuwin32/system.c:1238
 #: src/gnuwin32/system.c:1250 src/main/connections.c:829
 #: src/main/connections.c:834 src/main/dounzip.c:187 src/main/saveload.c:2065
 #: src/main/serialize.c:3021 src/main/serialize.c:3026
 #: src/main/serialize.c:3124 src/main/serialize.c:3177 src/unix/system.c:426
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open file '%s': %s"
 msgstr "no es pot obrir el fitxer «%s»: %s"
 
 #: src/gnuwin32/system.c:697
-#, c-format, fuzzy
+#, c-format
 msgid "file.show(): file '%s' does not exist\n"
 msgstr "file.show(): el fitxer «%s» no existeix\n"
 
@@ -431,56 +417,51 @@ msgid "Not enough memory"
 msgstr "Memòria insuficient"
 
 #: src/gnuwin32/system.c:1062 src/unix/system.c:462
-#, c-format, fuzzy
+#, c-format
 msgid "ARGUMENT '%s' __ignored__\n"
-msgstr "S'ha ignorat l'ARGUMENT «%s»\n"
+msgstr "S'ha __ignorat__ l'ARGUMENT «%s»\n"
 
 #: src/gnuwin32/system.c:1228
-#, c-format, fuzzy
+#, c-format
 msgid "option '%s' requires an argument"
 msgstr "l'opció «%s» requereix un argument"
 
 #: src/gnuwin32/system.c:1261
-#, c-format, fuzzy
+#, c-format
 msgid "option '%s' requires a non-empty argument"
 msgstr "l'opció «%s» requereix un argument no buit"
 
 #: src/gnuwin32/system.c:1269 src/unix/system.c:445
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
 msgstr "AVÍS: «-e %s» s'ha omès perquè l'entrada és massa llarga\n"
 
 #: src/gnuwin32/system.c:1273 src/unix/system.c:458
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: unknown option '%s'\n"
 msgstr "AVÍS: l'opció «%s» és desconeguda\n"
 
 #: src/gnuwin32/system.c:1286 src/unix/system.c:473
-#, fuzzy
 msgid "cannot use -e with -f or --file"
 msgstr "no es pot utilitzar -e amb -f o --file"
 
 #: src/gnuwin32/system.c:1310
-#, fuzzy
 msgid "creation of tmpfile failed -- set TMPDIR suitably?"
-msgstr "ha fallat la creació de tmpfile -- estableix el TMPDIR adequadament?"
+msgstr "ha fallat la creació de tmpfile -- estableixo un TMPDIR adequat?"
 
 #: src/gnuwin32/system.c:1335 src/unix/system.c:543
-#, fuzzy
 msgid "you must specify '--save', '--no-save' or '--vanilla'"
 msgstr "heu d'especificar «--save», «--no-save» o «--vanilla»"
 
 #: src/gnuwin32/system.c:1367
-#, fuzzy
 msgid ""
 "impossible to create 'reader thread'; you must free some system resources"
 msgstr ""
-"no es pot crear «fil de lectura»; heu d'alliberar alguns recursos del sistema"
+"no es pot crear «reader thread»; heu d'alliberar alguns recursos del sistema"
 
 #: src/include/Errormsg.h:27
-#, fuzzy
 msgid "subscript out of bounds"
-msgstr "subíndex fora de límits"
+msgstr "subíndex fora dels límits"
 
 #: src/include/Errormsg.h:28
 #, c-format, fuzzy
@@ -488,156 +469,135 @@ msgid "object of type '%s' is not subsettable"
 msgstr "l'objecte del tipus «%s» no és subconjuntable"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
 msgstr "falta el subíndex"
 
 #: src/main/CommandLineArgs.c:176
-#, fuzzy
 msgid "WARNING: no value given for --encoding"
 msgstr "AVÍS: no s'ha donat cap valor per a --encoding"
 
 #: src/main/CommandLineArgs.c:201
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: option '%s' no longer supported"
 msgstr "AVÍS: l'opció «%s» ja no és compatible"
 
 #: src/main/CommandLineArgs.c:212
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: no value given for '%s'"
 msgstr "AVÍS: no s'ha donat cap valor per a «%s»"
 
 #: src/main/CommandLineArgs.c:222
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: '%s' value is invalid: ignored"
 msgstr "AVÍS: el valor «%s» no és vàlid: s'ignora"
 
 #: src/main/CommandLineArgs.c:226
-#, c-format, fuzzy
+#, c-format
 msgid "WARNING: %s: too large and ignored"
 msgstr "AVÍS: %s: massa gran i ignorat"
 
 #: src/main/CommandLineArgs.c:240
-#, fuzzy
 msgid "WARNING: no value given for '--max-ppsize'"
 msgstr "AVÍS: no s'ha donat cap valor per a «--max-ppsize»"
 
 #: src/main/CommandLineArgs.c:245
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is negative: ignored"
 msgstr "AVÍS: el valor «--max-ppsize» és negatiu: s'ignora"
 
 #: src/main/CommandLineArgs.c:247
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too small: ignored"
 msgstr "AVÍS: el valor «--max-ppsize» és massa petit: s'ignora"
 
 #: src/main/CommandLineArgs.c:249
-#, fuzzy
 msgid "WARNING: '--max-ppsize' value is too large: ignored"
 msgstr "AVÍS: el valor «--max-ppsize» és massa gran: s'ignora"
 
 #: src/main/CommandLineArgs.c:257
-#, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
 msgstr "AVÍS: no s'ha donat cap valor per a «--max-connections»"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
 msgstr "AVÍS: el valor «--max-connections» és negatiu: s'ignora"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
 msgstr "AVÍS: el valor «--max-connections» és massa petit: s'ignora"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
 msgstr "AVÍS: el valor «--max-connections» és massa gran: s'ignora"
 
 #: src/main/RNG.c:180
-#, c-format, fuzzy
+#, c-format
 msgid "unif_rand: unimplemented RNG kind %d"
-msgstr "unifrand: tipus RNG no implementat %d"
+msgstr "unif_rand: tipus RNG %d no implementat"
 
 #: src/main/RNG.c:265
-#, c-format, fuzzy
+#, c-format
 msgid "FixupSeeds: unimplemented RNG kind %d"
-msgstr "FixupSeeds: tipus RNG no implementat %d"
+msgstr "FixupSeeds: tipus RNG %d no implementat"
 
 #: src/main/RNG.c:305
-#, fuzzy
 msgid "'user_unif_rand' not in load table"
-msgstr "«userunifrand» no és a la taula de càrrega"
+msgstr "«user_unif_rand» no és a la taula de càrrega"
 
 #: src/main/RNG.c:313
-#, fuzzy
 msgid "cannot read seeds unless 'user_unif_nseed' is supplied"
-msgstr "no es poden llegir les llavors tret que es subministri «userunifnseed»"
+msgstr ""
+"no es poden llegir les llavors tret que se subministri «user_unif_nseed»"
 
 #: src/main/RNG.c:318
-#, fuzzy
 msgid "seed length must be in 0...625; ignored"
-msgstr "la longitud de la llavor ha de ser a 0...625; s'ignorarà"
+msgstr "la longitud de la llavor ha de ser entre 0...625; s'ignorarà"
 
 #: src/main/RNG.c:326
-#, c-format, fuzzy
+#, c-format
 msgid "RNG_Init: unimplemented RNG kind %d"
-msgstr "RNGInit: tipus RNG no implementat %d"
+msgstr "RNG_Init: tipus RNG %d no implementat"
 
 #: src/main/RNG.c:355
-#, fuzzy
 msgid "'.Random.seed' is a missing argument with no default"
-msgstr "'.Random.seed' és un argument que manca sense valor per defecte"
+msgstr "«.Random.seed» és un argument sense valor per defecte que manca"
 
 #: src/main/RNG.c:356
-#, c-format, fuzzy
+#, c-format
 msgid "'.Random.seed' is not an integer vector but of type '%s', so ignored"
 msgstr ""
-"'.Aleatori.seed' no és un vector enter, sinó del tipus «%s», per tant "
-"s'ignora"
+"«.Random.seed» no és un vector enter, sinó del tipus «%s», per tant, s'ignora"
 
 #: src/main/RNG.c:364
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid integer, so ignored"
-msgstr "'.Random.seed[1]' no és un enter vàlid, per tant s'ignora"
+msgstr "«.Random.seed[1]» no és un enter vàlid, per tant, s'ignora"
 
 #: src/main/RNG.c:371
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid Normal type, so ignored"
-msgstr "'.Random.seed[1]' no és un tipus normal vàlid, per tant s'ignora"
+msgstr "«.Random.seed[1]» no és un tipus Normal vàlid, per tant, s'ignora"
 
 #: src/main/RNG.c:385
-#, fuzzy
 msgid "'.Random.seed[1] = 5' but no user-supplied generator, so ignored"
 msgstr ""
-"'.Random.seed[1] [1] 5' però cap generador subministrat per l'usuari, per "
-"tant ignorat"
+"«.Random.seed[1] = 5» però no hi ha cap generador subministrat per l'usuari, "
+"per tant, s'ignora"
 
 #: src/main/RNG.c:390
-#, fuzzy
 msgid "'.Random.seed[1]' is not a valid RNG kind so ignored"
-msgstr "'.Random.seed[1]' no és un tipus de RNG vàlid i s'ignora"
+msgstr "«.Random.seed[1]» no és un tipus de RNG vàlid i s'ignora"
 
 #: src/main/RNG.c:424
-#, fuzzy
 msgid "'.Random.seed' has wrong length"
-msgstr "'.Random.seed' té una longitud incorrecta"
+msgstr "«.Random.seed» té una longitud incorrecta"
 
 #: src/main/RNG.c:480
-#, fuzzy
 msgid "RNGkind: Marsaglia-Multicarry has poor statistical properties"
 msgstr "RNGkind: Marsaglia-Multicarry té propietats estadístiques pobres"
 
 #: src/main/RNG.c:490
-#, c-format, fuzzy
+#, c-format
 msgid "RNGkind: unimplemented RNG kind %d"
-msgstr "RNGkind: tipus de RNG no implementat %d"
+msgstr "RNGkind: tipus de RNG %d no implementat"
 
 #: src/main/RNG.c:509
-#, fuzzy
 msgid ""
 "RNGkind: severe deviations from normality for Kinderman-Ramage + Marsaglia-"
 "Multicarry"
@@ -646,7 +606,6 @@ msgstr ""
 "Marsaglia-Multicarry"
 
 #: src/main/RNG.c:512
-#, fuzzy
 msgid ""
 "RNGkind: deviations from normality for Ahrens-Dieter + Marsaglia-Multicarry"
 msgstr ""
@@ -654,62 +613,54 @@ msgstr ""
 "Multicarry"
 
 #: src/main/RNG.c:516
-#, fuzzy
 msgid "invalid Normal type in 'RNGkind'"
-msgstr "tipus normal no vàlid a «RNGkind»"
+msgstr "tipus Normal no vàlid a «RNGkind»"
 
 #: src/main/RNG.c:519
-#, fuzzy
 msgid "'user_norm_rand' not in load table"
-msgstr "«usernormrand» no és a la taula de càrrega"
+msgstr "«user_norm_rand» no és a la taula de càrrega"
 
 #: src/main/RNG.c:534
-#, fuzzy
 msgid "invalid sample type in 'RNGkind'"
 msgstr "tipus de mostra no vàlid a «RNGkind»"
 
 #: src/main/RNG.c:580
-#, fuzzy
 msgid "supplied seed is not a valid integer"
 msgstr "la llavor subministrada no és un enter vàlid"
 
 #: src/main/Rdynload.c:188
-#, c-format, fuzzy
+#, c-format
 msgid "R_MAX_NUM_DLLS must be at least %d"
-msgstr "RMAXNUMDLLS ha de ser com a mínim %d"
+msgstr "R_MAX_NUM_DLLS ha de ser com a mínim %d"
 
 #: src/main/Rdynload.c:194
-#, c-format, fuzzy
+#, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d"
-msgstr "RMAXNUMDLLS no pot ser més gran que %d"
+msgstr "R_MAX_NUM_DLLS no pot ser més gran de %d"
 
 #: src/main/Rdynload.c:203
-#, c-format, fuzzy
+#, c-format
 msgid "R_MAX_NUM_DLLS cannot be bigger than %d when fd limit is not known"
-msgstr "RMAXNUMDLLS no pot ser més gran que %d quan no es coneix el límit fd"
+msgstr "R_MAX_NUM_DLLS no pot ser més gran de %d quan no es coneix el límit fd"
 
 #: src/main/Rdynload.c:209 src/main/Rdynload.c:228
-#, fuzzy
 msgid "the limit on the number of open files is too low"
 msgstr "el límit del nombre de fitxers oberts és massa baix"
 
 #: src/main/Rdynload.c:212
-#, c-format, fuzzy
+#, c-format
 msgid "R_MAX_NUM_DLLS bigger than %d may exhaust open files limit"
-msgstr "RMAXNUMDLLs més gran que %d pot esgotar el límit de fitxers oberts"
+msgstr "R_MAX_NUM_DLLS més gran de %d pot exhaurir el límit de fitxers oberts"
 
 #: src/main/Rdynload.c:235
-#, fuzzy
 msgid "could not allocate space for DLL table"
-msgstr "no s'ha pogut assignar espai per a la taula DLL"
+msgstr "no s'ha pogut assignar espai per a la taula de DLL"
 
 #: src/main/Rdynload.c:360
-#, fuzzy
 msgid "R_RegisterRoutines called with invalid DllInfo object."
-msgstr "RRegisterRoutines cridades amb un objecte DllInfo no vàlid."
+msgstr "R_RegisterRoutines cridades amb un objecte DllInfo no vàlid."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
 msgstr "L'objecte no és vàlid."
 
