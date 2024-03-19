@@ -18,6 +18,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -31,6 +32,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -4550,7 +4552,7 @@ msgstr "dummy"
 
 #: src/main/main.c:338
 msgid "error during cleanup\n"
-msgstr "Erros durante o embrulho:"
+msgstr "Erros durante o embrulho\n"
 
 #: src/main/main.c:347
 msgid "Execution halted\n"
@@ -4746,7 +4748,7 @@ msgstr "não é possível alocar vetor de tamanho %0.1f Gb"
 msgid "cannot allocate vector of size %0.f %s"
 msgstr "não é possível alocar vetor de tamanho %0.f Kb"
 
-#: src/main/memory.c:3416
+#: src/main/memory.c:3396
 #, c-format
 msgid "unprotect(): only %d protected item"
 msgid_plural "unprotect(): only %d protected items"
@@ -4757,12 +4759,12 @@ msgstr[1] "unprotect(): somente %d itens protegidos"
 msgid "unprotect_ptr: pointer not found"
 msgstr "unprotect_ptr: ponteiro não encontrado"
 
-#: src/main/memory.c:3493
+#: src/main/memory.c:3473
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
-msgstr[0] "unprotect(): somente %d iten protegido, não é possível reproteger o índice %d"
-msgstr[1] "unprotect(): somente %d itens protegidos, não é possível reproteger o índice %d"
+msgstr[0] "unprotect(): somente %d iten protegido"
+msgstr[1] "unprotect(): somente %d itens protegidos"
 
 #: src/main/memory.c:3547
 #, fuzzy, c-format
@@ -8948,6 +8950,7 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
 
 
