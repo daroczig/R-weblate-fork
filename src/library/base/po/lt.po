@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: base 4.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -987,7 +989,8 @@ msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Masyvo, kurio ilgis 1, perdirbimas masyvo-vektoriaus aritmetikoje yra pasenęs.\n"
+"Masyvo, kurio ilgis 1, perdirbimas masyvo-vektoriaus aritmetikoje yra "
+"pasenęs.\n"
 "  Vietoj to naudokite c() arba as.vector()."
 
 #: src/main/arithmetic.c:580
@@ -995,7 +998,8 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Masyvo, kurio ilgis 1, perdirbimas vektoriaus-masyvo aritmetikoje yra pasenęs.\n"
+"Masyvo, kurio ilgis 1, perdirbimas vektoriaus-masyvo aritmetikoje yra "
+"pasenęs.\n"
 "  Vietoj to naudokite c() arba as.vector()."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
@@ -6455,7 +6459,7 @@ msgstr "argumentas nepatenka į sritį '%s'"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "%d argumentas nepatenka į sritį '%s'"
+msgstr "argumentas nepatenka į sritį '%s'"
 
 #: src/main/sprintf.c:488
 #, fuzzy
@@ -8443,4 +8447,5 @@ msgstr "DĖMESIO!: galima redaguoti tik pirmąjį failų sąraše"
 
 #~ msgid "use 'is()' instead of 'inherits()' on S4 objects"
 #~ msgstr "objektuose S4 vietoj 'inherits()' naudoti 'is()'"
+
 
