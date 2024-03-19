@@ -6,6 +6,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: base 4.1.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -6119,7 +6121,9 @@ msgstr "kol kas vardai pastoviose eilutėse nepalaikomi"
 #: src/main/serialize.c:1677
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr "įvesties eilutė '%s' negali būti išversta iš \"%s\" į UTF-8, bet galioja UTF-8"
+msgstr ""
+"įvesties eilutė '%s' negali būti išversta iš \"%s\" į UTF-8, bet galioja "
+"UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -8439,3 +8443,4 @@ msgstr "DĖMESIO!: galima redaguoti tik pirmąjį failų sąraše"
 
 #~ msgid "use 'is()' instead of 'inherits()' on S4 objects"
 #~ msgstr "objektuose S4 vietoj 'inherits()' naudoti 'is()'"
+
