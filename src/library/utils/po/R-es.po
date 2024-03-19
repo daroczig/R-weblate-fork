@@ -1,10 +1,7 @@
 msgid ""
-
-
-
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -15,9 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
 
 msgid ""
 "RShowDoc() should be used with a character string argument specifying\n"
@@ -1250,7 +1244,7 @@ msgstr[1] ""
 msgid "Output/used file:  "
 msgid_plural "Output/used files:  "
 msgstr[0] "Archivo de salida:  "
-msgstr[1] "Archivo de salida:  "
+msgstr[1] "Archivos de salida:  "
 
 msgid "%d occurrence in %s"
 msgid_plural "%d occurrences in %s"
