@@ -8,6 +8,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1826,7 +1828,7 @@ msgstr "tanımlanmamış karşılaştırma"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() (liste veya vektör) olmayan '%s' tipinin"
 
-#: src/main/coerce.c:2530 src/main/coerce.c:2591 src/main/coerce.c:2667
+#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
 #, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "varsayılan yöntem '%s' türü için uygulanmadı"
@@ -3629,7 +3631,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Kayıp uyarı mesajları\n"
 
-#: src/main/errors.c:613
+#: src/main/errors.c:602
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Uyarı mesajları:"
@@ -3639,16 +3641,17 @@ msgstr[0] "Uyarı mesajları:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:676
+#: src/main/errors.c:665
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "%d hata oluştu (görmek için warnings() kullanın)"
 
-#: src/main/errors.c:681
+#: src/main/errors.c:670
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr "%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() kullanın)"
+msgstr ""
+"%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() kullanın)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
@@ -6562,7 +6565,7 @@ msgstr "'%s' içinde argüman bölge dışında"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "'%2$s' içinde %1$d argüman bölge dışında"
+msgstr "'%s' içinde argüman bölge dışında"
 
 #: src/main/sprintf.c:488
 #, fuzzy
@@ -8931,5 +8934,6 @@ msgstr "UYARI: Dosya listesinde sadece ilk öğe düzenleniyor"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "basit olmayanda 'R_get_primname' çağırıldı"
+
 
 
