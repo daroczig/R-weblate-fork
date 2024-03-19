@@ -6,6 +6,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -6104,7 +6106,9 @@ msgstr "les noms dans les chaînes de caractères ne sont pas encore supportées
 #: src/main/serialize.c:1677
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr "la chaîne de caractères en entrée '%s' ne peut pas être traduite de '%s' en UTF-8, mais est valide en UTF-8"
+msgstr ""
+"la chaîne de caractères en entrée '%s' ne peut pas être traduite de '%s' en "
+"UTF-8, mais est valide en UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -8824,3 +8828,4 @@ msgstr "AVIS : édition uniquement du premier fichier de la liste"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' appelé sur une fonction qui n'est pas primitive"
+
