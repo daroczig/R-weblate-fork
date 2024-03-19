@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -13,6 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 msgid "invalid 'filename'"
@@ -569,8 +571,8 @@ msgstr[1] "diferem entre novo e prévio"
 
 msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
-msgstr[0] "%d %s valore x <= 0 omitido do gráfico logarítmico"
-msgstr[1] "%d %s valores x <= 0 omitidos do gráfico logarítmico"
+msgstr[0] "valore %d x <= 0 omitido do gráfico logarítmico"
+msgstr[1] "valores %d x <= 0 omitidos do gráfico logarítmico"
 
 #~ msgid "%d y value <= 0 omitted from logarithmic plot"
 #~ msgid_plural "%d y values <= 0 omitted from logarithmic plot"
@@ -601,3 +603,4 @@ msgstr[1] "%d %s valores x <= 0 omitidos do gráfico logarítmico"
 
 #~ msgid "No valid indices"
 #~ msgstr "Sem nenhum índice válido"
+
