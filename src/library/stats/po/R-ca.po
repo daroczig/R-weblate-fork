@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-03-20 03:05+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -302,11 +302,9 @@ msgstr "«n.ahead» ha de ser com a mínim 1"
 msgid "number of series in 'object' and 'newdata' do not match"
 msgstr "el nombre de sèries a «object» i «newdata» no coincideixen"
 
-#, fuzzy
 msgid "'se.fit' not yet implemented for multivariate models"
-msgstr "'se.fit' encara no està implementat per a models multivariants"
+msgstr "«se.fit» encara no està implementat per a models multivariants"
 
-#, fuzzy
 msgid "MLE only implemented for univariate series"
 msgstr "MLE només està implementat per a sèries univariants"
 
@@ -316,195 +314,148 @@ msgstr "«order.max» ha de ser >= 0"
 msgid "'order.max' must be < 'n.used'"
 msgstr "«order.max» ha de ser < «n.used»"
 
-#, fuzzy
 msgid "'order' must be a non-negative numeric vector of length 3"
-msgstr "'ordre' ha de ser un vector numèric no negatiu de longitud 3"
+msgstr "«ordre» ha de ser un vector numèric no negatiu de longitud 3"
 
-#, fuzzy
 msgid "'seasonal' must be a list with component 'order'"
-msgstr "«estacional» ha de ser una llista amb el component «comanda»"
+msgstr "«seasonal» ha de ser una llista amb un component «order»"
 
-#, fuzzy
 msgid "'seasonal$order' must be a non-negative numeric vector of length 3"
-msgstr "'SEASONal$order' ha de ser un vector numèric no negatiu de longitud 3"
+msgstr "«seasonal$order» ha de ser un vector numèric no negatiu de longitud 3"
 
-#, fuzzy
 msgid "lengths of 'x' and 'xreg' do not match"
 msgstr "les longituds de «x» i «xreg» no coincideixen"
 
-#, fuzzy
 msgid "wrong length for 'fixed'"
 msgstr "longitud incorrecta per a «fixed»"
 
-#, fuzzy
 msgid "some AR parameters were fixed: setting transform.pars = FALSE"
-msgstr "s'han corregit alguns arguments AR: s'estableix transform.pars = FALS"
+msgstr "s'han corregit alguns paràmetres AR: s'estableix transform.pars = FALSE"
 
-#, fuzzy
 msgid "too few non-missing observations"
-msgstr "hi ha massa poques observacions no perdudes"
+msgstr "hi ha massa poques observacions no no-disponibles"
 
-#, fuzzy
 msgid "'init' is of the wrong length"
 msgstr "«init» té una longitud incorrecta"
 
-#, fuzzy
 msgid "non-stationary AR part"
 msgstr "part AR no estacionària"
 
-#, fuzzy
 msgid "non-stationary seasonal AR part"
 msgstr "part AR estacional no estacionària"
 
-#, fuzzy
 msgid "possible convergence problem: optim gave code = %d"
-msgstr "possible problema de convergència: l'òptim ha donat codi = %d"
+msgstr "possible problema de convergència: optim ha donat codi = %d"
 
-#, fuzzy
 msgid "non-stationary AR part from CSS"
 msgstr "part AR no estacionària del CSS"
 
-#, fuzzy
 msgid "non-stationary seasonal AR part from CSS"
 msgstr "part AR estacional no estacionària del CSS"
 
-#, fuzzy
 msgid "'xreg' and 'newxreg' have different numbers of columns"
 msgstr "«xreg» i «newxreg» tenen diferents números de columnes"
 
-#, fuzzy
 msgid "MA part of model is not invertible"
 msgstr "La part MA del model no és invertible"
 
-#, fuzzy
 msgid "seasonal MA part of model is not invertible"
 msgstr "la part MA estacional del model no és invertible"
 
-#, fuzzy
 msgid "NAs in '%s'"
-msgstr "SD en «%s»"
+msgstr "NAs en «%s»"
 
-#, fuzzy
 msgid "invalid 'SSinit'"
-msgstr "'SSinit' no vàlid"
+msgstr "«SSinit» no vàlid"
 
-#, fuzzy
 msgid "converting non-invertible initial MA values"
-msgstr "s'estan convertint els valors inicials MA no invertibles"
+msgstr "convertint els valors MA inicials no invertibles"
 
-#, fuzzy
 msgid "some ARMA parameters were fixed: setting transform.pars = FALSE"
 msgstr ""
-"s'han corregit alguns arguments de ARMA: s'estableix transform.pars = FALS"
+"s'han corregit alguns paràmetres ARMA: s'estableix transform.pars = FALSE"
 
-#, fuzzy
 msgid "'xreg' is collinear"
 msgstr "«xreg» és col·lineal"
 
-#, fuzzy
 msgid "NAs present: setting 'delta' to -1"
-msgstr "NA presents: s'està establint «delta» a -1"
+msgstr "presència de NAs: s'estableix «delta» a -1"
 
-#, fuzzy
 msgid "transformed ARMA parameters were fixed"
-msgstr "s'han corregit els arguments de l'ARMA transformats"
+msgstr "s'han corregit els paràmetres ARMA transformats"
 
-#, fuzzy
 msgid "need at least 2 data points"
 msgstr "necessita almenys 2 punts de dades"
 
-#, fuzzy
 msgid "invalid 'x'"
 msgstr "«x» no vàlid"
 
-#, fuzzy
 msgid "invalid 'nb'"
 msgstr "«nb» no vàlid"
 
-#, fuzzy
 msgid "no solution in the specified range of bandwidths"
-msgstr "no hi ha cap solució en l'interval especificat d'amplada de banda"
+msgstr "no hi ha cap solució en el rang especificat d'amplades de banda"
 
-#, fuzzy
 msgid "increasing bw.SJ() search interval (%d) to [%.4g,%.4g]"
-msgstr "s'està incrementant l'interval de cerca «bw.SJ()» (%d) a [%.4g,%.4g]"
+msgstr "s'està incrementant l'interval de cerca bw.SJ() (%d) a [%.4g,%.4g]"
 
-#, fuzzy
 msgid "minimum occurred at one end of the range"
-msgstr "s'ha produït un mínim en un extrem de l'interval"
+msgstr "s'ha produït un mínim en un extrem del rang"
 
-#, fuzzy
 msgid "'x' must be a list with at least 2 elements"
 msgstr "«x» ha de ser una llista amb almenys 2 elements"
 
-#, fuzzy
 msgid "'x' and 'g' must have the same length"
 msgstr "«x» i «g» han de tenir la mateixa longitud"
 
-#, fuzzy
 msgid "all observations are in the same group"
 msgstr "totes les observacions estan en el mateix grup"
 
-#, fuzzy
 msgid "there must be at least 2 observations in each group"
 msgstr "hi ha d'haver almenys 2 observacions en cada grup"
 
-#, fuzzy
 msgid "'formula' should be of the form response ~ group"
-msgstr "\"fórmula\" hauria de ser del grup de resposta de la forma"
+msgstr "«formula» hauria de ser del tipus resposta ~ grup"
 
-#, fuzzy
 msgid "'x' must be nonnegative and integer"
 msgstr "«x» ha de ser no negatiu i enter"
 
-#, fuzzy
 msgid "'n' must be a positive integer >= 'x'"
-msgstr "'n' ha de ser un enter positiu == 'x'"
+msgstr "«n» ha de ser un enter positiu >= «x»"
 
-#, fuzzy
 msgid "incorrect length of 'x'"
 msgstr "longitud incorrecta de «x»"
 
-#, fuzzy
 msgid "'p' must be a single number between 0 and 1"
 msgstr "«p» ha de ser un únic nombre entre 0 i 1"
 
-#, fuzzy
 msgid "length of choices must be 2"
 msgstr "la longitud de les opcions ha de ser 2"
 
-#, fuzzy
 msgid "object '%s' has no scores"
 msgstr "l'objecte «%s» no té puntuacions"
 
-#, fuzzy
 msgid "'scale' is outside [0, 1]"
 msgstr "«scale» és fora de [0, 1]"
 
-#, fuzzy
 msgid "biplots are not defined for complex PCA"
-msgstr "no s'han definit biplots per al complex PCA"
+msgstr "no s'han definit biplots per una PCA complexa"
 
-#, fuzzy
 msgid "unequal number of rows in 'cancor'"
-msgstr "el nombre de files és desigual a «cancor»"
+msgstr "el nombre de files és desigual en «cancor»"
 
-#, fuzzy
 msgid "dimension 0 in 'x' or 'y'"
-msgstr "cota 0 a «x» o «y»"
+msgstr "dimensió 0 en «x» o «y»"
 
-#, fuzzy
 msgid "'x' has rank 0"
 msgstr "«x» té rang 0"
 
-#, fuzzy
 msgid "'y' has rank 0"
 msgstr "«y» té rang 0"
 
 msgid "'x' and 'y' must have the same length"
 msgstr "«x» i «y» han de tenir la mateixa longitud"
 
-#, fuzzy
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr "«x» i «y» han de tenir almenys 2 nivells"
 
@@ -514,107 +465,82 @@ msgstr "totes les entrades de «x» han de ser no negatives i finites"
 msgid "at least one entry of 'x' must be positive"
 msgstr "almenys una entrada de «x» ha de ser positiva"
 
-#, fuzzy
 msgid "cannot compute simulated p-value with zero marginals"
-msgstr "no es pot calcular el valor p simulat amb marges zero"
+msgstr "no es pot calcular un p-valor simulat amb marginals nuls"
 
-#, fuzzy
 msgid "'x' must at least have 2 elements"
 msgstr "«x» ha de tenir almenys 2 elements"
 
-#, fuzzy
 msgid "'x' and 'p' must have the same number of elements"
 msgstr "«x» i «p» han de tenir el mateix nombre d'elements"
 
-#, fuzzy
 msgid "probabilities must be non-negative."
 msgstr "Les probabilitats han de ser no negatives."
 
-#, fuzzy
 msgid "probabilities must sum to 1."
-msgstr "Les probabilitats han de sumar-se a 1."
+msgstr "Les probabilitats han de sumar 1."
 
-#, fuzzy
 msgid "Chi-squared approximation may be incorrect"
-msgstr "L'aproximació khi quadrat pot ser incorrecta"
+msgstr "L'aproximació Chi-quadrat pot ser incorrecta"
 
-#, fuzzy
 msgid "NA values not allowed in 'd'"
-msgstr "No es permeten els valors NA a «d»"
+msgstr "No es permeten els valors NA en «d»"
 
-#, fuzzy
 msgid "eig=TRUE is disregarded when list.=FALSE"
 msgstr "eig=TRUE és ignorat quan list.=FALSE"
 
-#, fuzzy
 msgid "x.ret=TRUE is disregarded when list.=FALSE"
 msgstr "x.ret=TRUE s'ignora quan list.=FALSE"
 
-#, fuzzy
 msgid "distances must be result of 'dist' or a square matrix"
-msgstr ""
-"les distàncies han de ser el resultat de la «dist» o d'una matriu quadrada"
+msgstr "les distàncies han de ser el resultat de «dist» o d'una matriu quadrada"
 
 msgid "invalid value of %s"
 msgstr "valor no vàlid de %s"
 
-#, fuzzy
 msgid "'k' must be in {1, 2, ..  n - 1}"
-msgstr "«k» ha de ser en {1, 2, ..  n - 1}"
+msgstr "«k» ha de ser en {1, 2, ..   n - 1}"
 
-#, fuzzy
 msgid "only %d of the first %d eigenvalues are > 0"
-msgstr "només %d dels primers %d valors propis són s 0"
+msgstr "només %d dels primers %d valors propis són > 0"
 
-#, fuzzy
 msgid "Waiting for profiling to be done..."
 msgstr "S'està esperant que es faci l'anàlisi de rendiment..."
 
-#, fuzzy
 msgid "Reprofiling for"
 msgstr "S'està tornant a perfilar per"
 
-#, fuzzy
 msgid "statistic. Waiting..."
-msgstr "estadística. Esperant..."
+msgstr "estadístic. Esperant..."
 
-#, fuzzy
 msgid "initial value is not in the interior of the feasible region"
 msgstr "el valor inicial no es troba a l'interior de la regió factible"
 
-#, fuzzy
 msgid "Barrier algorithm ran out of iterations and did not converge"
-msgstr "L'algorisme de barrera s'ha quedat sense iteracions i no convergeix"
+msgstr "L'algorisme Barrier s'ha quedat sense iteracions i no convergeix"
 
-#, fuzzy
 msgid "Objective function increased at outer iteration %d"
 msgstr "Funció objectiu augmentada a la iteració externa %d"
 
-#, fuzzy
 msgid "Objective function decreased at outer iteration %d"
 msgstr "La funció objectiu ha disminuït en la iteració externa %d"
 
-#, fuzzy
 msgid "contrasts not defined for %d degrees of freedom"
 msgstr "contrastos no definits per %d graus de llibertat"
 
-#, fuzzy
 msgid "orthogonal polynomials cannot be represented accurately enough for %d degrees of freedom"
 msgstr ""
-"els polinomis ortogonals no es poden representar amb precisió per a %d graus "
-"de llibertat"
+"els polinomis ortogonals no es poden representar de forma suficientment "
+"precisa per a %d graus de llibertat"
 
-#, fuzzy
 msgid "'scores' argument is of the wrong length"
 msgstr "l'argument «scores» té una longitud incorrecta"
 
-#, fuzzy
 msgid "'scores' must all be different numbers"
-msgstr "«scores» ha de ser un nombre diferent"
+msgstr "«scores» han de ser tots nombres diferents"
 
-#, fuzzy
 msgid "'degree' must be at least 1"
-msgstr "«grau» ha de ser com a mínim 1"
+msgstr "«degree» ha de ser com a mínim 1"
 
 #, fuzzy
 msgid "missing values are not allowed in 'poly'"
