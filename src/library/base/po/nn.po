@@ -6,6 +6,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: nn\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -1860,7 +1862,9 @@ msgstr "Set class(x) til NULL. Resultatet vil ikkje lenger vera eit S4-objekt."
 #: src/main/coerce.c:2968
 #, c-format
 msgid "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
-msgstr "Set class(x) til fleire teiknstrengar (\"%s\", \"%s\", ...). Resultatet vil ikkje lenger vera eit S4-objekt"
+msgstr ""
+"Set class(x) til fleire teiknstrengar (\"%s\", \"%s\", ...). Resultatet vil "
+"ikkje lenger vera eit S4-objekt"
 
 #: src/main/coerce.c:2972
 #, c-format
