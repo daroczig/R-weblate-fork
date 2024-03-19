@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-03-20 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -232,9 +232,8 @@ msgstr "cal anomenar tots els camps"
 msgid "%s has to be one of %s"
 msgstr "%s ha de ser un de %s"
 
-#, fuzzy
 msgid "subscript out of bounds"
-msgstr "subíndex fora de límits"
+msgstr "subíndex fora dels límits"
 
 #, fuzzy
 msgid "%s should be one of %s"
@@ -567,7 +566,6 @@ msgstr "L'ajuda HTML no està disponible"
 msgid "R Help on %s"
 msgstr "Ajuda de l'R sobre %s"
 
-#, fuzzy
 msgid "invalid %s argument"
 msgstr "argument %s no vàlid"
 
