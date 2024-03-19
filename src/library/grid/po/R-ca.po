@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2023-10-18 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-19 03:05+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -616,9 +616,8 @@ msgstr "«x», «y», «width» i «height» han de tenir una longitud 1"
 msgid "Invalid glyph info"
 msgstr "Informació del glif no vàlida"
 
-#, fuzzy
 msgid "'x' and 'y' must have length > 0"
-msgstr "«x» i «y» han de tenir longitud  have 0"
+msgstr "«x» i «y» han de tenir longitud have 0"
 
 #, fuzzy
 msgid "'hjust' and 'vjust' must be glyphJust() values"
@@ -644,9 +643,8 @@ msgstr "Alçada desconeguda; s'usarà la primera alçada"
 msgid "Unknown anchor; using bottom justification"
 msgstr "Àncora desconeguda; s'usarà la justificació inferior"
 
-#, fuzzy
 msgid "'x' and 'units' must have length > 0"
-msgstr "«x» i «units» han de tenir longitud  have 0"
+msgstr "«x» i «units» han de tenir longitud have 0"
 
 #, fuzzy
 msgid "invalid 'axis' or 'type'"
