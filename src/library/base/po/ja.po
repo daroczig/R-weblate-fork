@@ -5,6 +5,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427434877.000000\n"
+
 
 
 
@@ -4519,7 +4521,7 @@ msgstr "起動準備中です - "
 
 #: src/main/main.c:1196
 msgid "unable to initialize the JIT\n"
-msgstr "読み込みのためにファイルを開くことができません"
+msgstr "読み込みのためにファイルを開くことができません\n"
 
 #: src/main/main.c:1450
 msgid "non-interactive browser() -- left over from debugging?"
@@ -6464,12 +6466,12 @@ msgstr "サポートされていないタイプです"
 #: src/main/sprintf.c:483
 #, c-format
 msgid "one argument not used by format '%s'"
-msgstr "'%s' の中で引数が範囲外です \n"
+msgstr "'%s' の中で引数が範囲外です"
 
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "'%s' の中で引数が範囲外です \n"
+msgstr "'%s' の中で引数が範囲外です"
 
 #: src/main/sprintf.c:488
 #, fuzzy
