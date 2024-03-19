@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-03-18 06:08+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-03-20 03:05+0000\n"
+"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -42,8 +42,8 @@ msgid ""
 "could not find the skeleton calls for 'methods' (package detached?): expect "
 "very bad things to happen"
 msgstr ""
-"no s'han pogut trobar l'esquelet de les crides per a «methods» (paquet no "
-"vinculat?): s'espera que passin coses molt dolentes"
+"no s'han pogut trobar l'esquelet de les crides per a «methods» (paquet "
+"desvinculat?): s'espera que passin coses molt dolentes"
 
 #: methods_list_dispatch.c:279
 #, c-format
@@ -115,7 +115,6 @@ msgstr ""
 "mètode: s'esperava un nom, s'ha trobat un objecte de la classe «%s»"
 
 #: methods_list_dispatch.c:616
-#, fuzzy
 msgid "use of NULL environment is defunct"
 msgstr "l'ús de l'entorn NULL és obsolet"
 
@@ -153,7 +152,7 @@ msgid ""
 "be used for methods dispatch"
 msgstr ""
 "(en seleccionar un mètode per a la funció «%s») «...» i les variables "
-"relacionades no es poden utilitzar despatxar mètodes"
+"relacionades no es poden utilitzar per despatxar mètodes"
 
 #: methods_list_dispatch.c:674
 #, c-format
@@ -182,7 +181,7 @@ msgstr ""
 #: methods_list_dispatch.c:737
 #, c-format
 msgid "error in evaluating a 'primitive' next method: %s"
-msgstr "s'ha produït un error en avaluar un mètode «next» «primitiu»: %s"
+msgstr "s'ha produït un error en avaluar el següent mètode «primitiu»: %s"
 
 #: methods_list_dispatch.c:893
 #, c-format
@@ -204,8 +203,8 @@ msgstr "«%s» ha de ser una sola cadena (s'ha trobat un objecte de classe «%s�
 #: methods_list_dispatch.c:986
 msgid "class should be either a character-string name or a class definition"
 msgstr ""
-"la classe hauria de ser una cadena de caràcters amb el nom o una definició "
-"de classe"
+"la classe hauria de ser una cadena de caràcters de noms o una definició de "
+"la classe"
 
 #: methods_list_dispatch.c:1072
 #, c-format
