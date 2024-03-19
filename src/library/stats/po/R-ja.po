@@ -1,9 +1,7 @@
 msgid ""
-
-
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-19 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -15,8 +13,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427433504.000000\n"
-
-
 
 msgid "models are not all fitted to the same number of observations"
 msgstr "モデルあてはめに使用した観察数が全て同じではありません"
@@ -902,7 +898,7 @@ msgid "'circular' must be logical and not NA"
 msgstr "'circular' は NA ではない論理値である必要があります"
 
 msgid "length of 'init' must equal length of 'filter'"
-msgstr "'init' の長さは 'filter' の長さに等しくなければなりません;"
+msgstr "'init' の長さは 'filter' の長さに等しくなければなりません"
 
 msgid "'x' must have at least 2 rows and columns"
 msgstr "'x' は少なくとも 2 つの行及び列を持たなければなりません"
