@@ -9,6 +9,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -23,6 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "First-Translator: Dmitri I GOULIAEV <dmitri.gouliaev@telkel.net>\n"
 "X-Generator: Poedit 3.2.2\n"
+
 
 
 
@@ -1890,7 +1892,7 @@ msgstr "не реализованная комплексная операция"
 
 #: src/main/complex.c:347
 msgid "non-numeric argument to function"
-msgstr "нечисловой аргумент аргумент для функции"
+msgstr "нечисловой аргумент для функции"
 
 #: src/main/complex.c:838
 msgid "invalid polynomial coefficient"
@@ -3288,9 +3290,9 @@ msgstr "индексирование '...' с неположительным и�
 #, c-format
 msgid "the ... list contains fewer than %d element"
 msgid_plural "the ... list contains fewer than %d elements"
-msgstr[0] "список  ... не содержит меньше чем %d элемент"
+msgstr[0] "список ... не содержит меньше чем %d элемент"
 msgstr[1] "список ... содержит меньше чем %d элемента"
-msgstr[2] "список ... содержит содержит меньше %d элементов"
+msgstr[2] "список ... содержит меньше %d элементов"
 
 #: src/main/envir.c:1434
 #, c-format
