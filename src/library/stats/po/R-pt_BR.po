@@ -1,19 +1,7 @@
 msgid ""
-
-
-
-
-
-
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-22 18:10+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -24,18 +12,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
-
-
-
-
-
-
-
-
 
 msgid "models are not all fitted to the same number of observations"
 msgstr "os modelos não foram todos ajustados com o mesmo número de observações"
@@ -2530,8 +2506,8 @@ msgstr[1] "nomes %s desconhecidos na lista 'split'"
 
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
-msgstr[0] "argumento extra descartado"
-msgstr[1] "argumentos extras descartados"
+msgstr[0] "argumento extra %s não é da classe \"%s\""
+msgstr[1] "argumentos extras %s não são da classe \"%s\""
 
 msgid "%d factor is too many for %d variables"
 msgid_plural "%d factors are too many for %d variables"
