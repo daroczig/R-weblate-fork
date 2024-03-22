@@ -10,6 +10,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -23,6 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -2523,8 +2525,8 @@ msgstr[1] ""
 
 msgid "unknown name %s in the 'split' list"
 msgid_plural "unknown names %s in the 'split' list"
-msgstr[0] "nome desconhecido na lista 'split'"
-msgstr[1] "nomes desconhecidos na lista 'split'"
+msgstr[0] "nome %s desconhecido na lista 'split'"
+msgstr[1] "nomes %s desconhecidos na lista 'split'"
 
 msgid "extra argument %s is not of class \"%s\""
 msgid_plural "extra arguments %s are not of class \"%s\"s"
@@ -2568,8 +2570,8 @@ msgstr[1] "%d valores em falta excluídos"
 
 msgid "'X' matrix has %d case (row)"
 msgid_plural "'X' matrix has %d cases (rows)"
-msgstr[0] "matriz 'X' tem %d resposta, 'Y' tem %d resposta"
-msgstr[1] "matriz 'X' tem %d respostas, 'Y' tem %d respostas"
+msgstr[0] "matriz 'X' tem %d caso (linha)"
+msgstr[1] "matriz 'X' tem %d casos (linhas)"
 
 msgid "'Y' has %d case (row)"
 msgid_plural "'Y' has %d cases (rows)"
@@ -2578,13 +2580,13 @@ msgstr[1] ""
 
 msgid "only %d case"
 msgid_plural "only %d cases"
-msgstr[0] "%d resposta, mas apenas %d variáveis"
-msgstr[1] "%d respostas, mas apenas %d variáveis"
+msgstr[0] "apenas %d caso"
+msgstr[1] "apenas %d casos"
 
 msgid "but %d variable"
 msgid_plural "but %d variables"
-msgstr[0] "%d respostas, mas apenas %d variávei"
-msgstr[1] "%d respostas, mas apenas %d variáveis"
+msgstr[0] "mas %d variável"
+msgstr[1] "mas %d variáveis"
 
 msgid "medpolish() did not converge in %d iteration"
 msgid_plural "medpolish() did not converge in %d iterations"
@@ -2598,8 +2600,8 @@ msgstr[1] "'start' deve ter %d linhas"
 
 msgid "but variable found had %d row"
 msgid_plural "but variables found have %d rows"
-msgstr[0] "'newdata' teve %d linha mas variável encontrada tem %d linha"
-msgstr[1] "'newdata' teve %d linhas mas variáveis encontradas têm %d linhas"
+msgstr[0] "mas a variável encontrada tem %d linha"
+msgstr[1] "mas as variáveis encontradas têm %d linhas"
 
 msgid "factor %s has new level %s"
 msgid_plural "factor %s has new levels %s"
@@ -2618,13 +2620,13 @@ msgstr[1] "não convergiu em %d iterações"
 
 msgid "unrecognized control element named %s ignored"
 msgid_plural "unrecognized control elements named %s ignored"
-msgstr[0] "elemento controle não reconhecido chamado"
-msgstr[1] "elementos controle não reconhecidos chamados"
+msgstr[0] "elemento controle não reconhecido chamado %s ignorado"
+msgstr[1] "elementos controle não reconhecidos chamados %s ignorados"
 
 msgid "fitting parameter %s without any variables"
 msgid_plural "fitting parameters %s without any variables"
-msgstr[0] "sem nenhum variável"
-msgstr[1] "sem nenhum variáveis"
+msgstr[0] "Ajuste de parâmetro %s sem variáveis"
+msgstr[1] "Ajuste de parâmetros %s sem variáveis"
 
 msgid "parameter %s does not occur in the model formula"
 msgid_plural "parameters %s do not occur in the model formula"
