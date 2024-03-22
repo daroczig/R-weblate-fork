@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.1\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
+
 
 
 
@@ -6447,7 +6449,7 @@ msgstr "在 '%s' 中引數超出領域"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "在 '%s' 中引數超出領域"
+msgstr "在 '%s' 中 %d 引數超出領域"
 
 #: src/main/sprintf.c:488
 #, fuzzy
