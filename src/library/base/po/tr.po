@@ -6,12 +6,9 @@
 # Murat Alkan <muratalk@gmail.com>, 2010, 2011.
 # Özlem Alpu <ozlem.alpu@gmail.com>, 2010, 2011.
 msgid ""
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-22 18:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -22,9 +19,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
 
 #: src/appl/optim.c:60
 #, fuzzy
@@ -6565,7 +6559,7 @@ msgstr "'%s' içinde argüman bölge dışında"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "'%s' içinde argüman bölge dışında"
+msgstr "'%2$s' içinde %1$d argüman bölge dışında"
 
 #: src/main/sprintf.c:488
 #, fuzzy
