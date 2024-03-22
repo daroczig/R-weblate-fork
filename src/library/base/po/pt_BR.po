@@ -3,25 +3,9 @@
 # This file is distributed under the same license as the R package.
 # Fernando Henrique Ferraz P. da Rosa <feferraz@ime.usp.br>, 2005.
 msgid ""
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-22 18:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -32,22 +16,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -4763,8 +4731,11 @@ msgstr "unprotect_ptr: ponteiro não encontrado"
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
-msgstr[0] "unprotect(): somente %d iten protegido"
-msgstr[1] "unprotect(): somente %d itens protegidos"
+msgstr[0] ""
+"unprotect(): somente %d iten protegido, não é possível reproteger o índice %d"
+msgstr[1] ""
+"unprotect(): somente %d itens protegidos, não é possível reproteger o índice "
+"%d"
 
 #: src/main/memory.c:3547
 #, fuzzy, c-format
