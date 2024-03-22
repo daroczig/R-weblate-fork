@@ -3,12 +3,9 @@
 # This file is distributed under the same license as the R package.
 #
 msgid ""
-
-
-
 msgstr ""
 "Project-Id-Version: R 2.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-22 18:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -20,9 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 "X-POOTLE-MTIME: 1427434877.000000\n"
-
-
-
 
 #: src/appl/optim.c:60
 msgid "non-finite value supplied by 'optim'"
@@ -6471,7 +6465,7 @@ msgstr "'%s' の中で引数が範囲外です"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "'%s' の中で引数が範囲外です"
+msgstr "'%2$s' の中で %1$d 引数が範囲外です"
 
 #: src/main/sprintf.c:488
 #, fuzzy
