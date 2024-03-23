@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-03-23 02:26+0000\n"
+"PO-Revision-Date: 2024-03-23 12:08+0000\n"
 "Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ar\n"
@@ -31,47 +31,49 @@ msgstr "غير قادر على إنهاء العملية الفرعية: %s"
 
 #: fork.c:321 fork.c:608 ncpus.c:90 ncpus.c:126 ncpus.c:191
 msgid "memory allocation error"
-msgstr ""
+msgstr "خطأ في تخصيص الذاكرة"
 
 #: fork.c:377 fork.c:381 fork.c:385
 #, c-format
 msgid "invalid '%s' argument"
-msgstr ""
+msgstr "الوسيطة '%s' غير صالحة"
 
 #: fork.c:443
 msgid ""
 "Error while shutting down parallel: unable to terminate some child "
 "processes\n"
 msgstr ""
+"خطأ أثناء إيقاف التشغيل بالتوازي: غير قادر على إنهاء بعض العمليات الفرعية\n"
 
 #: fork.c:532 fork.c:535
 msgid "unable to create a pipe"
-msgstr ""
+msgstr "غير قادر على إنشاء أنبوب"
 
 #: fork.c:557
 #, c-format
 msgid "unable to fork, possible reason: %s"
-msgstr ""
+msgstr "غير قادر على الشوكة ، السبب المحتمل: %s"
 
 #: fork.c:749
 msgid "only children can send data to the master process"
-msgstr ""
+msgstr "يمكن للأطفال فقط إرسال البيانات إلى العملية الرئيسية"
 
 #: fork.c:751
 msgid "there is no pipe to the master process"
-msgstr ""
+msgstr "لا يوجد أنبوب للعملية الرئيسية"
 
 #: fork.c:753
 msgid "content to send must be RAW, use serialize() if needed"
 msgstr ""
+"يجب أن يكون المحتوى المراد إرساله RAW ، استخدم serialize () إذا لزم الأمر"
 
 #: fork.c:762 fork.c:770 fork.c:1180
 msgid "write error, closing pipe to the master"
-msgstr ""
+msgstr "خطأ في الكتابة ، إغلاق الأنبوب للسيد"
 
 #: fork.c:780
 msgid "only the master process can send data to a child process"
-msgstr ""
+msgstr "يمكن للعملية الرئيسية فقط إرسال البيانات إلى عملية فرعية"
 
 #: fork.c:788
 #, c-format
@@ -80,7 +82,7 @@ msgstr ""
 
 #: fork.c:794
 msgid "write error"
-msgstr ""
+msgstr "خطأ في الكتابة"
 
 #: fork.c:880
 #, c-format
@@ -90,7 +92,7 @@ msgstr ""
 #: fork.c:939 fork.c:1059
 #, c-format
 msgid "error '%s' in select"
-msgstr ""
+msgstr "خطأ \"%s\" في التحديد"
 
 #: fork.c:1149
 msgid "'mckill' failed"
@@ -98,7 +100,7 @@ msgstr ""
 
 #: fork.c:1162
 msgid "'mcexit' can only be used in a child process"
-msgstr ""
+msgstr "لا يمكن استخدام \"mcexit\" إلا في عملية فرعية"
 
 #: fork.c:1194
 msgid "'mcexit' failed"
@@ -106,13 +108,13 @@ msgstr ""
 
 #: fork.c:1223 fork.c:1232
 msgid "invalid CPU affinity specification"
-msgstr ""
+msgstr "مواصفات تقارب وحدة المعالجة المركزية غير صالحة"
 
 #: fork.c:1243
 msgid "requested CPU set is too large for this system"
-msgstr ""
+msgstr "مجموعة وحدة المعالجة المركزية المطلوبة كبيرة جدا لهذا النظام"
 
 #: fork.c:1266
 msgid "retrieving CPU affinity set failed"
-msgstr ""
+msgstr "فشل استرداد مجموعة تقارب وحدة المعالجة المركزية"
 
