@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-27 16:14\n"
-"PO-Revision-Date: 2024-03-25 03:05+0000\n"
-"Last-Translator: Worood Alswaji <woroodalswaji@gmail.com>\n"
+"PO-Revision-Date: 2024-03-26 04:46+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
@@ -30,16 +30,16 @@ msgid "need at least %s (=%d) knots"
 msgstr "تحتاج على الأقل عقدة %s (=%d)"
 
 msgid "the 'x' data must be in the range %g to %g unless you set '%s'"
-msgstr "يجب أن تكون بيانات \"x\" في النطاق٪ g إلى ٪ g ما لم تقم بتعيين \"٪s\""
+msgstr "يجب أن تكون بيانات \"x\" في النطاق% g إلى % g ما لم تقم بتعيين \"%s\""
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr "٪s يحتاج إلى تثبيت الحزمة \"Matrix\" بشكل صحيح"
+msgstr "%s يحتاج إلى تثبيت الحزمة \"Matrix\" بشكل صحيح"
 
 msgid "values of 'x' must be distinct"
 msgstr "يجب أن تكون قيم \"x\" مميزة"
 
 msgid "must have at least 'ord'=%d points"
-msgstr "يجب أن يكون لديك على الأقل ord\" =٪ d\" نقاط"
+msgstr "يجب أن يكون لديك على الأقل ord\" =%d\" نقاط"
 
 msgid "'formula' must be of the form \"y ~ x\""
 msgstr "يجب أن تكون \"formula\" بالشكل \"y ~ x\""
@@ -63,7 +63,7 @@ msgid "lengths of 'x' and 'y' must be the same"
 msgstr "يجب أن يكون طول \"x\" و \"y\" متماثلين"
 
 msgid "'deriv' must be between 0 and %d"
-msgstr "يجب أن يكون \"deriv\" بين 0 و ٪ d"
+msgstr "يجب أن يكون \"deriv\" بين 0 و %d"
 
 msgid "knot positions must be strictly increasing"
 msgstr "يجب أن تكون موضع العقدة في ازدياد صارم"
@@ -78,7 +78,7 @@ msgid "'degree' must be integer >= 1"
 msgstr "يجب أن تكون \"degree\" عددا صحيحا > = 1"
 
 msgid "'df' was too small; have used %d"
-msgstr "كان \"df\" صغيرا جدا. لقد استخدمت ٪d"
+msgstr "كان \"df\" صغيرا جدا. لقد استخدمت %d"
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
 msgstr "قد تتسبب بعض قيم \"x\" التي تتجاوز عقدة الحدود في قواعد غير مكيفة"
