@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 msgid "'%s' is defunct."
 msgstr "Funkcja '%s' została zlikwidowana."
@@ -1214,7 +1216,7 @@ msgid "multiple methods tables found for %s"
 msgstr "wiele tablic metod znaleziono dla %s"
 
 msgid "failed to find metadata object for %s"
-msgstr "nie udało się znaleźć obiektu metadanych dla  %s"
+msgstr "nie udało się znaleźć obiektu metadanych dla %s"
 
 msgid "in package %s methods %s were specified for export but not defined"
 msgstr "w pakiecie %s metody %s zostały określone do eksportu, ale nie zostały zdefiniowane"
