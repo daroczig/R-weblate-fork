@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: R-3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-28 18:45+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -422,7 +422,8 @@ msgid "'topic' should be a name, length-one character vector or reserved word"
 msgstr "'topic'은 반드시 이름, 길이가 하나인 문자벡터, 또는 예약어이어야 합니다"
 
 msgid "No documentation for %s in specified packages and libraries:"
-msgstr "다음과 같이  지정된 패키지들과 라이브러리들에서 %s에 대한 문서를 찾을 수 없습니다:"
+msgstr "다음과 같이 지정된 패키지들과 라이브러리들에서 %s에 대한 문서를 찾을 수 "
+"없습니다:"
 
 msgid "you could try %s"
 msgstr "%s를 시도해보세요"
@@ -511,7 +512,9 @@ msgstr ""
 "%s를 열어보아야 합니다"
 
 msgid "If the browser launched by '%s' is already running, it is *not* restarted, and you must switch to its window."
-msgstr "만약 '%s'에 의하여 시작된 브라우저가 이미 실행중이라면, 다시 재시작되지 않을 것을 것입니다.  따라서, 당신은 반드시 해당 윈도우로 전환해야 합니다"
+msgstr ""
+"만약 '%s'에 의하여 시작된 브라우저가 이미 실행중이라면, 다시 재시작되지 않을 "
+"것을 것입니다. 따라서, 당신은 반드시 해당 윈도우로 전환해야 합니다"
 
 msgid "Otherwise, be patient ..."
 msgstr "만약 그렇지 않다면, 조금만 더 기다려보세요 ..."
@@ -642,7 +645,8 @@ msgid "package '%s' in library '%s' will not be updated"
 msgstr "라이브러리 '%2$s'내에 있는 패키지 '%1$s'은 업데이트 되지 않을 것입니다"
 
 msgid "invalid 'oldPkgs'; must be a character vector or a result from old.packages()"
-msgstr "유효하지 않은 'oldPkgs'입니다.  반드시 문자형 벡터이거나 old.packages()으로부터 나온 결과이어야 합니다"
+msgstr "유효하지 않은 'oldPkgs'입니다. 반드시 문자형 벡터이거나 old.packages()"
+"으로부터 나온 결과이어야 합니다"
 
 msgid "ill-formed 'instPkgs' matrix"
 msgstr "올바르게 구성되지 않은 'instPkgs' 행렬입니다"
@@ -769,7 +773,7 @@ msgid "cannot install macOS binary packages on Windows"
 msgstr "macOS 바이너리 패키지들은 윈도우즈에 설치할 수 없습니다."
 
 msgid "cannot install macOS binary packages on this platform"
-msgstr "이 플랫폼에서는 macOS 바이너리 패키지들을  설치할 수 없습니다."
+msgstr "이 플랫폼에서는 macOS 바이너리 패키지들을 설치할 수 없습니다."
 
 msgid "cannot install Windows binary packages on this platform"
 msgstr "이 플랫폼에서는 윈도우즈 바이너리 패키지들을 설치할 수 없습니다"
@@ -840,7 +844,7 @@ msgid "'char' must have a non-zero width"
 msgstr ""
 
 msgid "must have 'max' > 'min'"
-msgstr "반드시 'max'는  'min'보다 큰 값을 가져야 합니다"
+msgstr "반드시 'max'는 'min'보다 큰 값을 가져야 합니다"
 
 msgid "'pb' is not from class %s"
 msgstr "'pb'는 클래스 %s로부터 나온것이 아닙니다"
@@ -882,7 +886,8 @@ msgid "row and column counts not found"
 msgstr "행과 열의 개수를 찾을 수 없습니다"
 
 msgid "More rows than specified in header; maybe use 'transpose=TRUE'"
-msgstr "헤더내에 지정된 것보다 더 많은 수의 행들이 있습니다.  'transpose=TRUE'를 사용해보세요"
+msgstr "헤더내에 지정된 것보다 더 많은 수의 행들이 있습니다. 'transpose=TRUE'를 "
+"사용해보세요"
 
 msgid "Unrecognized special data value"
 msgstr "인식할 수 없는 특수한 데이터 값입니다"
@@ -1149,7 +1154,7 @@ msgid "Enter one or more numbers separated by spaces and then ENTER, or 0 to can
 msgstr "하나 또는 그 이상의 숫자를 공백을 이용하여 입력하거나, 취소를 하고자 한다면 빈 라인을 입력해주세요"
 
 msgid "Invalid input, please try again"
-msgstr "잘못된 입력입니다.  다시 시도해 주세요"
+msgstr "잘못된 입력입니다. 다시 시도해 주세요"
 
 msgid "'quote' must be 'TRUE', 'FALSE' or numeric"
 msgstr "'quote'는 반드시 'TRUE', 'FALSE' 또는 숫자이어야 합니다"
