@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-28 03:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -303,7 +303,7 @@ msgstr "Nomes genéricos diferem: %s, %s"
 
 msgid "argument %s must be a generic function or a single character string; got an object of class %s"
 msgstr ""
-"argumento \"f\" deve ser uma função genérica ou um único caractere, mas foi "
+"argumento \"%s\" deve ser uma função genérica ou um único caractere, mas foi "
 "obtido um objeto de classe \"%s\""
 
 msgid "non-generic function '%s' given to findMethods()"
@@ -616,8 +616,8 @@ msgstr "a definição genérica de função fornecida para"
 
 msgid "the %s argument must be NULL or a generic function object; got an object of class %s"
 msgstr ""
-"argumento \"f\" deve ser uma função genérica ou um único caractere, mas foi "
-"obtido um objeto de classe \"%s\""
+"argumento %s deve ser NULL ou uma função genérica, mas foi obtido um objeto "
+"de classe \"%s\""
 
 msgid "no suitable arguments to dispatch methods in this function"
 msgstr ""
@@ -647,7 +647,9 @@ msgstr ""
 
 #, fuzzy
 msgid "argument 'f' must be a string, generic function, or primitive: got an ordinary function"
-msgstr "argumento \"f\" deve ser uma função genérica ou %s"
+msgstr ""
+"argumento 'f' deve ser uma cadeia de caracteres, função genérica ou "
+"primitiva: tem uma função comum"
 
 #, fuzzy
 msgid "no generic function found for %s"
@@ -872,8 +874,8 @@ msgstr ""
 
 msgid "argument %s must be a list or a character vector; got an object of class %s"
 msgstr ""
-"argumento \"f\" deve ser uma função genérica ou um único caractere, mas foi "
-"obtido um objeto de classe \"%s\""
+"argumento %s deve ser uma lista ou um vetor de caracteres, mas foi obtido um "
+"objeto de classe \"%s\""
 
 #, fuzzy
 msgid "expected a non-empty character string for argument 'name'"
@@ -1138,8 +1140,8 @@ msgstr "classe \"%s\" extende uma classe não definida, \"%s\""
 
 msgid "unnamed arguments to $new() must be objects from a reference class; got an object of class %s"
 msgstr ""
-"argumento \"f\" deve ser uma função genérica ou um único caractere, mas foi "
-"obtido um objeto de classe \"%s\""
+"argumentos sem nome para $new() devem ser objetos de uma classe de "
+"referência, mas foi obtido um objeto de classe \"%s\""
 
 #, fuzzy
 msgid "%s is not a valid field or method name for this class"
@@ -1226,8 +1228,8 @@ msgstr "'%s' não é uma das funções básicas"
 
 msgid "class must be a reference class representation or a character string; got an object of class %s"
 msgstr ""
-"argumento \"f\" deve ser uma função genérica ou um único caractere, mas foi "
-"obtido um objeto de classe \"%s\""
+"classe deve ser uma representação de classe de referência ou uma cadeia de "
+"caracteres; obteve um objeto da classe %s"
 
 #, fuzzy
 msgid "not a reference class: %s"
