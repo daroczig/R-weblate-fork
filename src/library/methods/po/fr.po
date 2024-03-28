@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2021-02-10 17:45+0100\n"
-"Last-Translator: Philippe Grosjean <phgrosjean@sciviews.org>\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
@@ -109,7 +109,10 @@ msgstr "l'objet de classe \"%s\" utilis� comme m�thode pour la fonction '%s'
 #: methods_list_dispatch.c:671
 #, c-format
 msgid "(in selecting a method for function '%s') '...' and related variables cannot be used for methods dispatch"
-msgstr "(lors de la s�lection d'une m�thode pour la fonction '%s') '...' et les variables correspondantes ne peuvent  �tre utilis�s pour le dispatching des m�thodes"
+msgstr ""
+"(lors de la s�lection d'une m�thode pour la fonction '%s') '...' et les "
+"variables correspondantes ne peuvent �tre utilis�s pour le dispatching "
+"des m�thodes"
 
 #: methods_list_dispatch.c:674
 #, c-format
