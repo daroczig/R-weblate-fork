@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-22 18:05+0000\n"
+"PO-Revision-Date: 2024-03-28 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -32,7 +32,7 @@ msgstr ""
 
 #: src/appl/optim.c:136
 msgid "REPORT must be > 0 (method = \"BFGS\")"
-msgstr "REPORT > 0  olmalı (method = \"BFGS\")"
+msgstr "REPORT > 0 olmalı (method = \"BFGS\")"
 
 #: src/appl/optim.c:147
 msgid "initial value in 'vmmin' is not finite"
@@ -1202,7 +1202,7 @@ msgstr "BOŞ'a nitelik belirleme denemesi"
 #: src/main/attrib.c:81
 #, c-format
 msgid "row names must be 'character' or 'integer', not '%s'"
-msgstr "dize isimleri '%s' değil,  'character' veya 'integer' olmalıdır"
+msgstr "dize isimleri '%s' değil, 'character' veya 'integer' olmalıdır"
 
 #: src/main/attrib.c:141
 #, c-format
@@ -1603,9 +1603,9 @@ msgstr "'%s' bir karakter vektörü gerektirir"
 #: src/main/character.c:176 src/main/character.c:202 src/main/character.c:216
 #: src/main/character.c:281 src/main/character.c:388 src/main/character.c:593
 #: src/main/character.c:598
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, %s"
-msgstr "geçersiz çokbaytlı dize  %d"
+msgstr "geçersiz çokbaytlı dize %d"
 
 #: src/main/character.c:192
 #, c-format
@@ -1618,9 +1618,9 @@ msgid "width is not computable for %s in \"bytes\" encoding"
 msgstr ""
 
 #: src/main/character.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, element %ld"
-msgstr "geçersiz çokbaytlı dize  %d"
+msgstr "geçersiz çokbaytlı dize %d"
 
 #: src/main/character.c:348
 #, c-format
@@ -1663,9 +1663,9 @@ msgid "non-character names"
 msgstr "karakter olmayan isimler"
 
 #: src/main/character.c:1036 src/main/character.c:1165
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string %lld"
-msgstr "geçersiz çokbaytlı dize  %lld"
+msgstr "geçersiz çokbaytlı dize %lld"
 
 #: src/main/character.c:1078 src/main/grep.c:576
 msgid "non-character argument"
@@ -1950,7 +1950,7 @@ msgstr "çıkış dönüşümünde geçersiz karakter dizesi"
 #: src/main/connections.c:656
 #, c-format
 msgid "invalid input found on input connection '%s'"
-msgstr "giriş bağlantısı '%s'de  geçersiz giriş bulundu"
+msgstr "giriş bağlantısı '%s'de geçersiz giriş bulundu"
 
 #: src/main/connections.c:860 src/main/platform.c:941
 #, fuzzy, c-format
@@ -3052,7 +3052,7 @@ msgstr "unz bağlantısının geçersiz açıklaması"
 #: src/main/dounzip.c:438
 #, c-format
 msgid "cannot open zip file '%s'"
-msgstr "zip dosyası '%s'  açılamadı"
+msgstr "zip dosyası '%s' açılamadı"
 
 #: src/main/dounzip.c:442
 #, c-format
@@ -3336,16 +3336,15 @@ msgstr[0] "... listesi %d eleman içermiyor"
 #: src/main/envir.c:1443
 #, c-format
 msgid "..%d used in an incorrect context, no ... to look in"
-msgstr "..%d hatalı bir içerikte kullanıldı,  bakılcak ... yok"
+msgstr "..%d hatalı bir içerikte kullanıldı, bakılcak ... yok"
 
 #: src/main/envir.c:1462
 msgid "indexing '...' with an invalid index"
 msgstr ""
 
 #: src/main/envir.c:1472 src/main/envir.c:1483
-#, fuzzy
 msgid "incorrect context: the current call has no '...' to look in"
-msgstr "..%d hatalı bir içerikte kullanıldı,  bakılcak ... yok"
+msgstr "..%d hatalı bir içerikte kullanıldı, bakılcak ... yok"
 
 #: src/main/envir.c:1600
 #, c-format
@@ -4274,20 +4273,20 @@ msgstr ""
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
 msgstr "'\\U', \"%s\" ile başlayan bir karakter dizesinde onaltılı haneler olmadan kullanıldı"
 
-#: src/main/gram.y:3039
-#, fuzzy, c-format
+#: src/main/gram.y:3036
+#, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
-msgstr "geçersiz  \\U{xxxxxxxx} dizilimi (satır %d)"
+msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
+
+#: src/main/gram.y:3045
+#, c-format
+msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
+msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
 
 #: src/main/gram.y:3048
-#, fuzzy, c-format
-msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
-msgstr "geçersiz  \\U{xxxxxxxx} dizilimi (satır %d)"
-
-#: src/main/gram.y:3051
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
-msgstr "geçersiz  \\U{xxxxxxxx} dizilimi (satır %d)"
+msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
 
 #: src/main/gram.y:3099
 #, fuzzy, c-format
@@ -4751,10 +4750,10 @@ msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
 msgstr[0] "unprotect(): sadece %d korunmuş öğe var"
 
-#: src/main/memory.c:3547
-#, fuzzy, c-format
+#: src/main/memory.c:3527
+#, c-format
 msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
-msgstr "R_Calloc bellekte (%llu / %llu)  yer ayıramıyor"
+msgstr "R_Calloc bellekte (%llu / %llu) yer ayıramıyor"
 
 #: src/main/memory.c:3558
 #, fuzzy, c-format
@@ -5294,7 +5293,7 @@ msgstr "genişletilen 'from' ismi çok uzun"
 
 #: src/main/platform.c:765
 msgid "expanded 'to' name too long"
-msgstr "genişletilen 'to'  ismi çok uzun"
+msgstr "genişletilen 'to' ismi çok uzun"
 
 #: src/main/platform.c:769
 #, c-format
@@ -5958,7 +5957,7 @@ msgstr "veri kaydedilemedi -- '%s': %s açılamadı"
 #: src/main/saveload.c:2358 src/main/serialize.c:2625
 #, c-format
 msgid "cannot save to connections in version %d format"
-msgstr "sürüm %d biçiminde  bağlantılara kaydedilemez"
+msgstr "sürüm %d biçiminde bağlantılara kaydedilemez"
 
 #: src/main/saveload.c:2381 src/main/serialize.c:2650
 msgid "connection not open for writing"
@@ -6530,7 +6529,7 @@ msgstr "mantıksal nesneler için %d veya %i biçimini kullanın"
 #: src/main/sprintf.c:378
 #, c-format
 msgid "use format %d, %i, %o, %x or %X for integer objects"
-msgstr "tamsayı nesneler için %d, %i, %o, %x veya %X  biçimini kullanın"
+msgstr "tamsayı nesneler için %d, %i, %o, %x veya %X biçimini kullanın"
 
 #: src/main/sprintf.c:392
 #, c-format
@@ -7989,9 +7988,9 @@ msgid "pnbinom_mu() -> bratio() gave error code %d"
 msgstr ""
 
 #: src/nmath/pnchisq.c:304
-#, fuzzy, c-format
+#, c-format
 msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
-msgstr "pnchisq(x=%g, ..): %d iterasyon içinde  yakınsamadı"
+msgstr "pnchisq(x=%g, ..): %d iterasyon içinde yakınsamadı"
 
 #: src/nmath/polygamma.c:510
 #, c-format
@@ -8144,7 +8143,7 @@ msgstr "Sys.info() bu sistemde tanımlanmamış"
 #: src/unix/system.c:360
 #, c-format
 msgid "WARNING: --gui or -g without value ignored"
-msgstr "UYARI: değersiz --gui veya -g  görmezden gelindi"
+msgstr "UYARI: değersiz --gui veya -g görmezden gelindi"
 
 #: src/unix/system.c:378
 #, c-format
@@ -8928,6 +8927,7 @@ msgstr "UYARI: Dosya listesinde sadece ilk öğe düzenleniyor"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "basit olmayanda 'R_get_primname' çağırıldı"
+
 
 
 
