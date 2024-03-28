@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-22 18:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: R-core <R-core@R-project.org>\n"
 "Language: ja\n"
@@ -69,14 +69,14 @@ msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
 msgstr ""
 
 #: src/appl/pretty.c:142
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()) の範囲が小さすぎます.. 修正しました"
+msgstr "R_pretty(): 'cell' の範囲 =%g が小さすぎて %g に修正しました"
 
 #: src/appl/pretty.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()) の範囲が大きすぎます.. 修正しました"
+msgstr "R_pretty(): 'cell' の範囲 =%g が大すぎて %g に修正しました"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
@@ -119,7 +119,7 @@ msgstr "'%ls' が見つかりません"
 #: src/gnuwin32/extra.c:100
 #, c-format
 msgid "file association for '%ls' not available or invalid"
-msgstr "'%ls' に対する関連付けは利用できないか不正です。"
+msgstr "'%ls' に対する関連付けは利用できないか不正です"
 
 #: src/gnuwin32/extra.c:103
 #, c-format
@@ -660,12 +660,11 @@ msgstr "'name' のための領域を割り当てられませんでした"
 
 #: src/main/Rdynload.c:360
 msgid "R_RegisterRoutines called with invalid DllInfo object."
-msgstr "R_RegisterRoutines が不正な DllInfo オブジェクトで呼ばれました"
+msgstr "R_RegisterRoutines が不正な DllInfo オブジェクトで呼ばれました。"
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "コネクションが不正です"
+msgstr "コネクションが不正です。"
 
 #: src/main/Rdynload.c:427
 #, c-format
@@ -678,9 +677,8 @@ msgid "Component '%s' missing in symbol object."
 msgstr ""
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "シンボル記号が不正です"
+msgstr "シンボル記号が不正です。"
 
 #: src/main/Rdynload.c:459
 #, c-format
@@ -688,19 +686,18 @@ msgid "Symbol at %d does not have registration information."
 msgstr ""
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "シンボル記号が不正です"
+msgstr "シンボル記号が不正です。"
 
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "登録されたネイティブのシンボルのためのメモリを割り当てることができません。(%d バイト)"
+msgstr "もう登録されたネイティブなシンボル '%s' を再び登録できません。"
 
 #: src/main/Rdynload.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid native address."
-msgstr "ファイルストリームは適正な gzip ヘッダを持っていません"
+msgstr "シンボル '%s' は有効なネイティブアドレスがありません。"
 
 #: src/main/Rdynload.c:502
 #, c-format
@@ -948,10 +945,10 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr "dimnames(<value>) は NULL でも長さ %d のリストでもありません"
 
-#: src/main/apply.c:343 src/main/coerce.c:2730
-#, fuzzy, c-format
+#: src/main/apply.c:343 src/main/coerce.c:2729
+#, c-format
 msgid "'%s' must be a list or expression"
-msgstr "'args' はリストまたはexpressionでなければなりません"
+msgstr "'%s' はリストまたはexpressionでなければなりません"
 
 #: src/main/arithmetic.c:50 src/main/eval.c:5085
 msgid "NaNs produced"
@@ -1064,9 +1061,9 @@ msgid "data length [%lld] is not a sub-multiple or multiple of the number of col
 msgstr "データ長 [%lld] が列数 [%d] を整数で割った、もしくは掛けた値ではありません"
 
 #: src/main/array.c:166 src/main/array.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr "データの長さが行列の大きさを超えています"
+msgstr "データの長さが行列のサイズと違いがあります: [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1098,9 +1095,9 @@ msgid "'allocArray': too many elements specified by 'dims'"
 msgstr "'allocArray': 'dims' によって指定された要素数が多すぎます"
 
 #: src/main/array.c:565
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or atomic vector"
-msgstr "'x' は NULL または raw vector からなるリストでなくてはなりません"
+msgstr "'%s' はリストまたはアトミックベクトルでなくてはなりません"
 
 #: src/main/array.c:609
 #, c-format
@@ -1130,10 +1127,10 @@ msgstr "適切な引数ではありません"
 msgid "argument is not a matrix"
 msgstr "引数が行列ではありません"
 
-#: src/main/array.c:1713 src/main/attrib.c:1221
-#, fuzzy, c-format
+#: src/main/array.c:1717 src/main/attrib.c:1226
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "一番目の引数が不正です。配列でなくてはなりません"
+msgstr "一番目の引数が不正です。 %sでなくてはなりません"
 
 #: src/main/array.c:1728
 #, c-format
@@ -8793,6 +8790,7 @@ msgstr "警告: ファイルリストの最初のみを編集します"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr " 'R_get_primname' がプリミティブでないものに対して呼び出されました "
+
 
 
 
