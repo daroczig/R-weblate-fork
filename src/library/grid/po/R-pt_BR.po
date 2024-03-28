@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -299,13 +299,11 @@ msgstr "Somente é válido adicionar um filho a um 'gTree'"
 msgid "'gPath' (%s) not found"
 msgstr "'gPath' (%s) não encontrado"
 
-#, fuzzy
 msgid "it is only valid to remove a child from a \"gTree\""
-msgstr "Somente é válido remover um filho de um  'gTree'"
+msgstr "Somente é válido remover um filho de um 'gTree'"
 
-#, fuzzy
 msgid "it is only valid to edit a child of a \"gTree\""
-msgstr "Somente é válido editar um filho de um  'gTree'"
+msgstr "Somente é válido editar um filho de um 'gTree'"
 
 #, fuzzy
 msgid "it is invalid to directly edit the 'children' or 'childrenOrder' slot"
