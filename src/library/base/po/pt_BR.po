@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-22 18:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -4269,10 +4269,12 @@ msgstr "seqüência \\U{xxxxxxxx} inválida (linha %d)"
 msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
 msgstr "seqüência \\U{xxxxxxxx} inválida (linha %d)"
 
-#: src/main/gram.y:3099
-#, fuzzy, c-format
+#: src/main/gram.y:3096
+#, c-format
 msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
-msgstr "'\\%c'  é uma seqüência de escape não reconhecida na cadeia de caracteres começando com \"%s\""
+msgstr ""
+"'\\%c' é uma seqüência de escape não reconhecida na cadeia de caracteres "
+"começando com \"%s\""
 
 #: src/main/gram.y:3180 src/main/gram.y:3320
 #, fuzzy, c-format
@@ -6273,7 +6275,9 @@ msgstr "não é possível ler espaço de trabalho não lançado versão %d escri
 #: src/main/serialize.c:2269
 #, c-format
 msgid "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d or newer"
-msgstr "não é possível ler espaço de trabalho versão %d escrito pelo R %d.%d.%d;  R %d.%d.%d ou mais novo necessário"
+msgstr ""
+"não é possível ler espaço de trabalho versão %d escrito pelo R %d.%d.%d; R "
+"%d.%d.%d ou mais novo necessário"
 
 #: src/main/serialize.c:2425
 msgid "read failed"
@@ -8921,6 +8925,7 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
 
 
