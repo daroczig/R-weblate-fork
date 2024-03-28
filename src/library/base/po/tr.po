@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-28 03:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -1605,7 +1605,7 @@ msgstr "'%s' bir karakter vektörü gerektirir"
 #: src/main/character.c:598
 #, c-format
 msgid "invalid multibyte string, %s"
-msgstr "geçersiz çokbaytlı dize %d"
+msgstr "geçersiz çokbaytlı dize %s"
 
 #: src/main/character.c:192
 #, c-format
@@ -1620,7 +1620,7 @@ msgstr ""
 #: src/main/character.c:345
 #, c-format
 msgid "invalid multibyte string, element %ld"
-msgstr "geçersiz çokbaytlı dize %d"
+msgstr "geçersiz çokbaytlı dize, öğe %ld"
 
 #: src/main/character.c:348
 #, c-format
@@ -3344,7 +3344,7 @@ msgstr ""
 
 #: src/main/envir.c:1472 src/main/envir.c:1483
 msgid "incorrect context: the current call has no '...' to look in"
-msgstr "..%d hatalı bir içerikte kullanıldı, bakılcak ... yok"
+msgstr "yanlış bağlam: geçerli çağrıda '...' bakmak için"
 
 #: src/main/envir.c:1600
 #, c-format
@@ -4276,17 +4276,17 @@ msgstr "'\\U', \"%s\" ile başlayan bir karakter dizesinde onaltılı haneler ol
 #: src/main/gram.y:3036
 #, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
-msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
+msgstr "geçersiz \\U{xxxxxxxx} dizilimi (%s:%d:%d)"
 
 #: src/main/gram.y:3045
-#, c-format
+#, c-format, fuzzy
 msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
-msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
+msgstr "geçersiz \\U{xxxxxxxx} değeri %6x (%s:%d:%d)"
 
 #: src/main/gram.y:3048
-#, c-format
+#, c-format, fuzzy
 msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
-msgstr "geçersiz \\U{xxxxxxxx} dizilimi (satır %d)"
+msgstr "geçersiz \\Uxxxxxxxx değeri %6x (%s:%d:%d)"
 
 #: src/main/gram.y:3099
 #, fuzzy, c-format
@@ -7990,7 +7990,7 @@ msgstr ""
 #: src/nmath/pnchisq.c:304
 #, c-format
 msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
-msgstr "pnchisq(x=%g, ..): %d iterasyon içinde yakınsamadı"
+msgstr "pnchisq(x=%g, f=%g, theta=%g, ..): %d iterasyon içinde yakınsamadı"
 
 #: src/nmath/polygamma.c:510
 #, c-format
