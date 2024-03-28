@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"PO-Revision-Date: 2024-03-28 19:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -821,8 +821,8 @@ msgstr ""
 
 msgid "argument 'classDef' must be a string or a class representation; got an object of class %s"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"argumento 'classDef' deve ser uma cadeia de caracteres ou uma representação "
+"de classe, mas foi obtido um objeto de classe %s"
 
 msgid "class %s is sealed; 'resetClass' will have no effect"
 msgstr ""
@@ -856,8 +856,7 @@ msgstr "nenhuma função genérica '%s' encontrada"
 
 msgid "argument 'classDef' must be a class definition or the name of a class"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"argumento 'classDef' deve ser uma definição de classe ou o nome de uma classe"
 
 msgid "No %s names supplied"
 msgstr ""
@@ -997,8 +996,8 @@ msgstr "definição de método inválida: uma função era esperada, mas foi esp
 
 msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"elemento mlist inválido para assinatura %s no nível %d (deve ser "
+"MethodDefinition ou .Primitive, tinha classe %s)"
 
 #, fuzzy
 msgid "bad method object stored in method table, class %s"
@@ -1070,8 +1069,8 @@ msgstr ""
 
 msgid "argument 'S4Class' must be a class definition: got an object of class %s"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"argumento 'S4Class' deve ser uma definição de classe: tem um objeto da "
+"classe %s"
 
 msgid "inconsistent old-style class information for %s; the class is defined but does not extend %s and is not valid as the data part"
 msgstr ""
@@ -1195,8 +1194,8 @@ msgstr ""
 
 msgid "invalid assignment for reference class field %s, should be from class %s or a subclass (was class %s)"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"atribuição inválida para o campo de classe de referência %s, deve ser da "
+"classe %s ou de uma subclasse (era classe %s)"
 
 msgid "invalid replacement: reference class field %s is read-only"
 msgstr ""
@@ -1275,8 +1274,8 @@ msgstr "\"%s\" náo é uma classe definida nesse ambiente"
 
 msgid "invalid 'ignore' argument; should be a class definition or a character vector, got an object of class %s"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"argumento 'ignore' inválido; deve ser uma definição de classe ou um vetor de "
+"caracteres, mas foi obtido um objeto de classe %s"
 
 #, fuzzy
 msgid "An object of class %s"
@@ -1284,8 +1283,8 @@ msgstr "Um objeto de classe \""
 
 msgid "invalid call to 'classLabel': expected a name or a class definition, got an object of class %s"
 msgstr ""
-"argumento 'f' inválido, esperada uma função ou seu nome, mas foi obtido um "
-"objeto de classe \"%s\""
+"chamada inválida para 'classLabel': esperava um nome ou uma definição de "
+"classe, mas foi obtido um objeto da classe %s"
 
 msgid "argument 'signature' is not meaningful for tracing reference methods"
 msgstr ""
