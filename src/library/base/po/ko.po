@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: R-3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-28 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -1128,10 +1128,10 @@ msgstr "적합한 인자들이 아닙니다"
 msgid "argument is not a matrix"
 msgstr "인자가 행렬을 가지지 않습니다"
 
-#: src/main/array.c:1713 src/main/attrib.c:1221
-#, fuzzy, c-format
+#: src/main/array.c:1717 src/main/attrib.c:1226
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "첫번째 인자가 유효하지 않습니다.  반드시 배열이어야만 합니다"
+msgstr "첫번째 인자가 유효하지 않습니다. 반드시 배열이어야만 합니다"
 
 #: src/main/array.c:1728
 #, c-format
@@ -1174,7 +1174,7 @@ msgstr "'x'의 길이는 반드시 양수이어야 합니다"
 #: src/main/array.c:2306
 #, c-format
 msgid "singular matrix in 'backsolve'. First zero in diagonal [%d]"
-msgstr "'backsolve'에 비가역행렬이 있습니다.  대각행렬 [%d]의 첫번째가 제로입니다"
+msgstr "'backsolve'에 비가역행렬이 있습니다. 대각행렬 [%d]의 첫번째가 제로입니다"
 
 #: src/main/attrib.c:44 src/main/attrib.c:253 src/main/attrib.c:285
 #: src/main/attrib.c:309 src/main/attrib.c:434 src/main/attrib.c:481
@@ -2040,7 +2040,8 @@ msgstr "'description' 인자의 첫번째 요소만이 사용되었습니다"
 
 #: src/main/connections.c:1592
 msgid "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
-msgstr "fifo(\"\")는 오로지 open = \"w+\"와 open = \"w+b\"만을 지원합니다.  전자를 사용합니다"
+msgstr "fifo(\"\")는 오로지 open = \"w+\"와 open = \"w+b\"만을 지원합니다. 전자를 "
+"사용합니다"
 
 #: src/main/connections.c:1617
 msgid "fifo connections are not available on this system"
@@ -2059,7 +2060,7 @@ msgstr "pipe() 명령 '%s'를 열 수 없습니다: %s"
 #: src/main/connections.c:1843 src/main/connections.c:2180
 #, c-format
 msgid "cannot open compressed file '%s', probable reason '%s'"
-msgstr "압축된 파일 '%s'를 열 수 없습니다.  그 이유는 아마도 '%s'입니다"
+msgstr "압축된 파일 '%s'를 열 수 없습니다. 그 이유는 아마도 '%s'입니다"
 
 #: src/main/connections.c:1884
 msgid "whence = \"end\" is not implemented for gzfile connections"
@@ -2519,7 +2520,9 @@ msgstr "텍스트 모드 'file' 커넥션을 이용하는 것은 제대로 작�
 
 #: src/main/connections.c:6116
 msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
-msgstr "쓰기가 가능한 textConnection으로부터 'gzcon' 커넥션을 생성할 수 없습니다.  아마도 rawConnection을 사용해야 할 것 같습니다"
+msgstr ""
+"쓰기가 가능한 textConnection으로부터 'gzcon' 커넥션을 생성할 수 없습니다. "
+"아마도 rawConnection을 사용해야 할 것 같습니다"
 
 #: src/main/connections.c:6119 src/main/connections.c:6123
 #: src/main/connections.c:6131 src/main/connections.c:6146
@@ -3268,7 +3271,7 @@ msgstr[0] ""
 #: src/main/envir.c:1443
 #, c-format
 msgid "..%d used in an incorrect context, no ... to look in"
-msgstr "부정확한 콘텍스트에서 사용된 %d,  안을 볼 수 없는"
+msgstr "부정확한 콘텍스트에서 사용된 %d, 안을 볼 수 없는"
 
 #: src/main/envir.c:1462
 msgid "indexing '...' with an invalid index"
@@ -4818,7 +4821,7 @@ msgstr "익명의 함수외부로부터 호출된 'NextMethod'입니다"
 
 #: src/main/objects.c:753
 msgid "no calling generic was found: was a method called directly?"
-msgstr "호출된 제네릭을 찾을 수 없습니다:  메소드가 직접적으로 호출되었나요?"
+msgstr "호출된 제네릭을 찾을 수 없습니다: 메소드가 직접적으로 호출되었나요?"
 
 #: src/main/objects.c:756
 #, c-format
@@ -5163,12 +5166,12 @@ msgstr "이 플랫폼에서 심볼릭링크가 지원되지 않습니다"
 #: src/main/platform.c:674
 #, c-format
 msgid "cannot link '%ls' to '%ls', reason '%s'"
-msgstr "'%1$ls'를 '%2$ls'에 연결할 수 없습니다.  그 이유는 '%3$s' 때문입니다"
+msgstr "'%1$ls'를 '%2$ls'에 연결할 수 없습니다. 그 이유는 '%3$s' 때문입니다"
 
 #: src/main/platform.c:696
 #, c-format
 msgid "cannot link '%s' to '%s', reason '%s'"
-msgstr "'%1$s'를 '%2$s'에 연결할 수 없습니다.  그 이유는 '%3$s' 때문입니다"
+msgstr "'%1$s'를 '%2$s'에 연결할 수 없습니다. 그 이유는 '%3$s' 때문입니다"
 
 #: src/main/platform.c:705
 msgid "(hard) links are not supported on this platform"
@@ -5179,10 +5182,10 @@ msgstr "이 플랫폼에서는 (하드) 링크가 지원되지 않습니다"
 msgid "'%s' and '%s' are of different lengths"
 msgstr "'from'과 'to'의 길이가 다릅니다"
 
-#: src/main/platform.c:754
-#, fuzzy, c-format
+#: src/main/platform.c:753
+#, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
-msgstr "파일명을 '%1$s'에서 '%2$s'로 바꿀 수 없습니다.  그 이유는 '%3$s' 때문입니다"
+msgstr "파일명을 '%1$s'에서 '%2$s'로 바꿀 수 없습니다. 그 이유는 '%3$s' 때문입니다"
 
 #: src/main/platform.c:761
 msgid "expanded 'from' name too long"
@@ -5195,7 +5198,7 @@ msgstr "전개된 'to'의 이름이 너무 깁니다"
 #: src/main/platform.c:769
 #, c-format
 msgid "cannot rename file '%s' to '%s', reason '%s'"
-msgstr "파일명을 '%1$s'에서 '%2$s'로 바꿀 수 없습니다.  그 이유는 '%3$s' 때문입니다"
+msgstr "파일명을 '%1$s'에서 '%2$s'로 바꿀 수 없습니다. 그 이유는 '%3$s' 때문입니다"
 
 #: src/main/platform.c:1060
 #, fuzzy, c-format
@@ -6138,7 +6141,8 @@ msgstr "이 버전의 R은 제네릭 함수 레퍼런스를 읽을 수 없습니
 #: src/main/serialize.c:2090
 #, c-format
 msgid "ReadItem: unknown type %i, perhaps written by later version of R"
-msgstr "ReadItem: 알 수 없는 타입 %i입니다.  아마도 R의 이후버전에 의해서 작성된 것 같습니다"
+msgstr "ReadItem: 알 수 없는 타입 %i입니다. 아마도 R의 이후버전에 의해서 작성된 것 "
+"같습니다"
 
 #: src/main/serialize.c:2255 src/main/serialize.c:2346
 #, fuzzy
@@ -7374,7 +7378,7 @@ msgstr "다운로드 진행"
 #: src/modules/internet/internet.c:378
 #, c-format
 msgid "cannot open URL '%s', reason '%s'"
-msgstr "URL '%s'를 열 수 없습니다.  그 이유는 '%s'입니다"
+msgstr "URL '%s'를 열 수 없습니다. 그 이유는 '%s'입니다"
 
 #: src/modules/internet/internet.c:385 src/modules/internet/internet.c:415
 #, c-format
@@ -8249,5 +8253,6 @@ msgstr "경고: 파일들의 목록에서 오로지 첫번째 것만을 편집�
 
 #~ msgid "invalid 'tryS4' internal argument"
 #~ msgstr "유효한 'tryS4' 내부 인자가 아닙니다"
+
 
 
