@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"PO-Revision-Date: 2024-03-28 19:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -4267,8 +4267,8 @@ msgstr "seqüência \\U{xxxxxxxx} inválida (linha %d)"
 #, c-format
 msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
 msgstr ""
-"'\\%c' é uma seqüência de escape não reconhecida na cadeia de caracteres "
-"começando com \"%s\""
+"'\\%s' é uma seqüência de escape não reconhecida na cadeia de caracteres "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:3178 src/main/gram.y:3318
 #, fuzzy, c-format
