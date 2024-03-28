@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-22 18:10+0000\n"
+"PO-Revision-Date: 2024-03-28 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -125,13 +125,13 @@ msgid "F test assumes quasi%s family"
 msgstr "O teste F assume a família quasi%s"
 
 msgid "no 'add1' method implemented for \"mlm\" models"
-msgstr "Nenhum método  'add1' implementado para modelos  \"mlm\""
+msgstr "Nenhum método 'add1' implementado para modelos \"mlm\""
 
 msgid "scope is not a subset of term labels"
 msgstr "A fórmula de destino não é um subconjunto dos termos rotulados"
 
 msgid "no 'drop1' method for \"mlm\" models"
-msgstr "nenhum método  'drop1' para modelos \"mlm\""
+msgstr "nenhum método 'drop1' para modelos \"mlm\""
 
 msgid "F test assumes 'quasi%s' family"
 msgstr "O teste F assume a família quasi%s"
@@ -231,10 +231,10 @@ msgid "Error() model is singular"
 msgstr "modelo Error() é singular"
 
 msgid "the 'split' argument must be a list"
-msgstr "o argumento  'split' deve ser uma lista"
+msgstr "o argumento 'split' deve ser uma lista"
 
 msgid "'coef' must define a contrast, i.e., sum to 0"
-msgstr "'coef' deve definir um contraste, i.e., somatório deve ser  0"
+msgstr "'coef' deve definir um contraste, i.e., somatório deve ser 0"
 
 msgid "'coef' must have same length as 'contrast.obj'"
 msgstr "'coef' deve ter o mesmo comprimento de 'contrast.obj'"
@@ -303,7 +303,7 @@ msgid "MLE only implemented for univariate series"
 msgstr "MLE implementado somente para séries univariadas"
 
 msgid "'order.max' must be >= 0"
-msgstr "'order.max' deve ser  >= 0"
+msgstr "'order.max' deve ser >= 0"
 
 msgid "'order.max' must be < 'n.used'"
 msgstr "'order.max' deve ser < 'n.used'"
@@ -522,7 +522,9 @@ msgid "contrasts not defined for %d degrees of freedom"
 msgstr "contrastes não definidos para %d graus de liberdade"
 
 msgid "orthogonal polynomials cannot be represented accurately enough for %d degrees of freedom"
-msgstr "polinômios ortogonais não podem ser representados com precisão suficiente para  %d graus de liberdade"
+msgstr ""
+"polinômios ortogonais não podem ser representados com precisão suficiente "
+"para %d graus de liberdade"
 
 msgid "'scores' argument is of the wrong length"
 msgstr "argumento 'score' é de comprimento errado"
@@ -682,7 +684,7 @@ msgid "'x' must have at least 2 rows and 2 columns"
 msgstr "'x' deve ter ao menos 2 linhas e 2 colunas"
 
 msgid "'margins' must be a numeric vector of length 2"
-msgstr "'margins'  deve ser um vetor numérico de comprimento 2"
+msgstr "'margins' deve ser um vetor numérico de comprimento 2"
 
 msgid "row dendrogram ordering gave index of wrong length"
 msgstr "linha de ordenação do dendrograma forneceu índice de comprimento erradolinha de ordenação do dendrograma forneceu índice de comprimento errado"
@@ -694,16 +696,18 @@ msgid "column dendrogram ordering gave index of wrong length"
 msgstr "coluna de ordenação do dendrograma forneceu índice de comprimento errado"
 
 msgid "'ColSideColors' must be a character vector of length ncol(x)"
-msgstr "'ColSideColors'  deve ser um vector de caracteres de comprimento ncol(x)"
+msgstr "'ColSideColors' deve ser um vector de caracteres de comprimento ncol(x)"
 
 msgid "'RowSideColors' must be a character vector of length nrow(x)"
-msgstr "'RowSideColors'  deve ser um vetor de caracteres de comprimento nrow(x)'RowSideColors'  deve ser um vetor de caracteres de comprimento nrow(x)"
+msgstr ""
+"'RowSideColors' deve ser um vetor de caracteres de comprimento nrow(x)"
+"'RowSideColors' deve ser um vetor de caracteres de comprimento nrow(x)"
 
 msgid "argument 'x' must be numeric"
 msgstr "argumento 'x ' deve ser numérico"
 
 msgid "'x' and 'weights' have unequal length"
-msgstr "'x' e 'weights'  têm comprimento desigual"
+msgstr "'x' e 'weights' têm comprimento desigual"
 
 msgid "'x' contains missing values"
 msgstr "'x' contém valores ausentes"
@@ -745,7 +749,7 @@ msgid "'x' is not a vector"
 msgstr "'x' não é um vetor"
 
 msgid "bad value for 'lag' or 'differences'"
-msgstr "valor ruim para o 'lag'  ou 'differences'"
+msgstr "valor ruim para o 'lag' ou 'differences'"
 
 msgid "'xi' does not have the right length"
 msgstr "'xi' não tem o comprimento certo"
@@ -794,7 +798,7 @@ msgid "multivariate case with missing coefficients is not yet implemented"
 msgstr "caso multivariado com coeficientes ausentes ainda não foi implementado"
 
 msgid "'x' must have 1 or more non-missing values"
-msgstr "'x' deve ter um ou mais valores  ausentes"
+msgstr "'x' deve ter um ou mais valores ausentes"
 
 msgid "wrong embedding dimension"
 msgstr "dimensão de incorporação errada"
@@ -1719,7 +1723,9 @@ msgid "invalid  'attr(rhs, \"gradient\")'"
 msgstr "'attr(rhs, \"gradient\")' inválido"
 
 msgid "setVarying : 'vary' length must match length of parameters"
-msgstr "setVarying : comprimento de 'vary'  deve corresponder ao comprimento de parâmetros"
+msgstr ""
+"setVarying : comprimento de 'vary' deve corresponder ao comprimento de "
+"parâmetros"
 
 msgid "singular gradient matrix at initial parameter estimates"
 msgstr "matriz gradiente singular com estimativas de parâmetros iniciais"
@@ -2152,7 +2158,7 @@ msgid "not a valid \"smooth.spline\" object"
 msgstr "objeto \"smooth.spline\" inválido"
 
 msgid "'span' must be between 0 and 1."
-msgstr "'span' deve estar entre 0  e 1"
+msgstr "'span' deve estar entre 0 e 1"
 
 msgid "'y' must be numeric vector"
 msgstr "'y' deve ser um vetor numérico"
