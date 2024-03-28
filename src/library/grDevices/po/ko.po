@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: R-3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -36,7 +36,7 @@ msgstr "색의 강도는 [0,1] 내에 있어야 하는데 %s를 가집니다."
 #: colors.c:71
 #, c-format
 msgid "color intensity %g, not in [0,1]"
-msgstr "색의 강도는 [0,1] 내에 있어야 하는데  %g를 가집니다."
+msgstr "색의 강도는 [0,1] 내에 있어야 하는데 %g를 가집니다."
 
 #: colors.c:78
 #, c-format
@@ -752,7 +752,8 @@ msgstr "device description을 생성할 수 없습니다"
 
 #: devQuartz.c:3258
 msgid "unable to create quartz() device target, given type may not be supported"
-msgstr "quartz() 장치대상을 생성할 수 없었습니다.  아마도 타입이 지원되지 않는 것 같습니다"
+msgstr "quartz() 장치대상을 생성할 수 없었습니다. 아마도 타입이 지원되지 않는 것 "
+"같습니다"
 
 #: devQuartz.c:3388
 msgid "Quartz device is not available on this platform"
