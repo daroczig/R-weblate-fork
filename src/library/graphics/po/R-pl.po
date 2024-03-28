@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 msgid "'a' is overridden by 'reg'"
 msgstr "'a' jest nadpisane przez 'reg'"
@@ -67,7 +69,9 @@ msgid "Cannot use shading lines in bars when log scale is used"
 msgstr "Nie można użyć linii cieniujących w słupkach kiedy używana jest skala logarytmiczna"
 
 msgid "log scale error: at least one 'height + offset' value <= 0"
-msgstr "błąd skali logarytmicznej: przynajmniej jedna wartość 'height + offset'  musi być <= 0"
+msgstr ""
+"błąd skali logarytmicznej: przynajmniej jedna wartość 'height + offset' musi "
+"być <= 0"
 
 msgid "log scale error: 'xlim' <= 0"
 msgstr "błąd skali logarytmicznej: 'xlim' <= 0"
@@ -326,7 +330,7 @@ msgid "invalid 'shade' specification"
 msgstr "niepoprawne określenie 'shade'"
 
 msgid "length of 'sort' does not conform to 'dim(x)'"
-msgstr "długość  'sort' nie jest zgodna z 'dim(x)'"
+msgstr "długość 'sort' nie jest zgodna z 'dim(x)'"
 
 msgid "non-numeric argument to 'pairs'"
 msgstr "argument nieliczbowy przekazywany do 'pairs'"
