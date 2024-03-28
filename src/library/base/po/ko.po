@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: R-3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-28 03:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: \n"
 "Language: ko\n"
@@ -1131,7 +1131,7 @@ msgstr "인자가 행렬을 가지지 않습니다"
 #: src/main/array.c:1717 src/main/attrib.c:1226
 #, c-format
 msgid "invalid first argument, must be %s"
-msgstr "첫번째 인자가 유효하지 않습니다. 반드시 배열이어야만 합니다"
+msgstr "잘못된 첫 번째 인수, %s여야 합니다."
 
 #: src/main/array.c:1728
 #, c-format
@@ -5185,7 +5185,7 @@ msgstr "'from'과 'to'의 길이가 다릅니다"
 #: src/main/platform.c:753
 #, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
-msgstr "파일명을 '%1$s'에서 '%2$s'로 바꿀 수 없습니다. 그 이유는 '%3$s' 때문입니다"
+msgstr "파일명을 '%ls'에서 '%ls'로 바꿀 수 없습니다. 그 이유는 '%s' 때문입니다"
 
 #: src/main/platform.c:761
 msgid "expanded 'from' name too long"
