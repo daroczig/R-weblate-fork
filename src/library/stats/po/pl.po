@@ -1,4 +1,5 @@
 msgid ""
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -14,6 +15,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -561,7 +563,7 @@ msgstr "osobliwy gradient"
 #: nls.c:256
 #, c-format
 msgid "step factor %g reduced below 'minFactor' of %g"
-msgstr "czynnik kroku %g zmiejszony poniżej  'minFactor' %g"
+msgstr "czynnik kroku %g zmiejszony poniżej 'minFactor' %g"
 
 #: nls.c:264
 #, c-format
