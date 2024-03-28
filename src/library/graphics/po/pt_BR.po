@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 03:05+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -131,11 +131,11 @@ msgstr "parâmetro \"mfg\" tem o comprimento errado"
 
 #: par.c:438
 msgid "parameter \"i\" in \"mfg\" is out of range"
-msgstr "parâmetro  \"i\" em \"mfg\" fora dos limites"
+msgstr "parâmetro \"i\" em \"mfg\" fora dos limites"
 
 #: par.c:440
 msgid "parameter \"j\" in \"mfg\" is out of range"
-msgstr "parâmetro  \"j\" em \"mfg\" fora dos limites"
+msgstr "parâmetro \"j\" em \"mfg\" fora dos limites"
 
 #: par.c:445
 #, fuzzy
