@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -200,7 +200,9 @@ msgstr "Grafik aygıtına geçmek için Standart Windows kısayolları\n"
 
 #: src/gnuwin32/console.c:2490
 msgid "graphics device (Ctrl+Tab or Ctrl+F6 in MDI, Alt+Tab in SDI)"
-msgstr "kullanılabilir  (Çoklu pencerede Ctrl+Tab ve Ctrl+F6i, Tekli pencerede Alt+Tab)"
+msgstr ""
+"kullanılabilir (Çoklu pencerede Ctrl+Tab ve Ctrl+F6i, Tekli pencerede "
+"Alt+Tab)"
 
 #: src/gnuwin32/editor.c:89 src/gnuwin32/editor.c:91
 msgid "R Editor"
