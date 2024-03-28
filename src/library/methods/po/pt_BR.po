@@ -5,17 +5,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2011-03-26 08:54-0300\n"
-"Last-Translator: Fernando Henrique <pessoal@fernandohrosa.com.br>\n"
+"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Pootle 2.0.5\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
@@ -93,7 +93,9 @@ msgstr "uso do ambiente NULL foi extinto"
 #: methods_list_dispatch.c:620
 #, c-format
 msgid "invalid environment in checking for missing argument, '%s', in methods dispatch: got an object of class \"%s\""
-msgstr "ambiente inválido na verificação de argumento faltante, '%s',  no despachamento dos métodos: foi especificado um objeto de classe \"%s\""
+msgstr ""
+"ambiente inválido na verificação de argumento faltante, '%s', no "
+"despachamento dos métodos: foi especificado um objeto de classe \"%s\""
 
 #: methods_list_dispatch.c:643
 #, c-format
