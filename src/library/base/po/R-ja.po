@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 2.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -142,7 +142,7 @@ msgstr ""
 " error: %s"
 
 msgid "%s namespace cannot be unloaded:"
-msgstr "%s 名前空間はアンロード出来ません"
+msgstr "%s 名前空間はアンロード出来ません:"
 
 msgid "%s converted to character string"
 msgstr "%s は文字列に変換されました"
@@ -453,7 +453,7 @@ msgid "'x' must be a date-time object"
 msgstr "'x' は date-time オブジェクトでなければなりません"
 
 msgid "invalid specification of 'breaks'"
-msgstr "'breaks' の無効な指定です"
+msgstr "'breaks' の指定が無効です"
 
 msgid "'origin' must be of length one"
 msgstr "'origin' は長さ 1 でなければなりません"
@@ -827,11 +827,12 @@ msgstr "パッケージ %s は %s に対して造られました"
 msgid "package %s is not installed for 'arch = %s'"
 msgstr "パッケージ %s は 'arch = %s' に対してインストールされていません"
 
-#, fuzzy
 msgid ""
 "Conflicts attaching package %s:\n"
 "%s"
-msgstr "次のパッケージを付け加えます: %s"
+msgstr ""
+"パッケージ %s のアタッチ中に競合が発生しています:\n"
+"%s"
 
 msgid "Attaching package: %s"
 msgstr "次のパッケージを付け加えます: %s"
@@ -854,17 +855,19 @@ msgstr "%s は有効なインストール済みパッケージではありませ
 msgid "%s not found on search path, using pos = 2"
 msgstr "%s は検索パス上には見つかりませんでした。pos = 2 を使用します"
 
-#, fuzzy
 msgid ""
 "Package %s version %s cannot be unloaded:\n"
 " %s"
-msgstr "パッケージ %s のバージョン %s はアンロードできません"
+msgstr ""
+"パッケージ %s のバージョン %s はアンロードできません:\n"
+" %s"
 
-#, fuzzy
 msgid ""
 "package or namespace load failed for %s%s:\n"
 " %s"
-msgstr "%s に対するパッケージもしくは名前空間のロードが失敗しました"
+msgstr ""
+"%s%s に対するパッケージもしくは名前空間のロードが失敗しました:\n"
+" %s"
 
 msgid "package %s already present in search()"
 msgstr "パッケージ %s は既に search() 中に存在します"
@@ -1086,17 +1089,21 @@ msgstr "factor の格納モードを変えるのは不正です"
 msgid ""
 "namespace %s is not available and has been replaced\n"
 "by .GlobalEnv when processing object %s"
-msgstr "オブジェクト %2$s を処理する際、名前空間 %1$s は使用できないため .GlobalEnv によって置き換えられました"
+msgstr ""
+"オブジェクト %2$s を処理する際、名前空間 %1$s は使用できないため\n"
+".GlobalEnv によって置き換えられました"
 
 msgid "namespace is already attached"
 msgstr "名前空間は既に付加されています"
 
-#, fuzzy
 msgid ""
 "not found in namespace %s: \n"
 "\n"
 "%s"
-msgstr "名前空間をロードしません"
+msgstr ""
+"名前空間 %s に見つかりません: \n"
+"\n"
+"%s"
 
 msgid "%s not found"
 msgstr "%s を見付けることができません"
@@ -1139,9 +1146,8 @@ msgstr "パッケージ %s を使うには対話的セッションでライセ�
 msgid "package %s has a license that you need to accept after viewing"
 msgstr "パッケージ %s を使うにはライセンスを確認して受諾する必要があります"
 
-#, fuzzy
 msgid "package %s has a license that you need to accept:"
-msgstr "パッケージ %s を使うにはライセンスを確認して受諾する必要があります"
+msgstr "パッケージ %s を使うにはライセンスを確認して受諾する必要があります:"
 
 #, fuzzy
 msgid "according to the DESCRIPTION file it is"
@@ -1453,9 +1459,8 @@ msgstr "長さは非負の数値でなければなりません"
 msgid "too many arguments"
 msgstr "引数の数が多すぎます"
 
-#, fuzzy
 msgid "invalid 'compress' argument:"
-msgstr "無効な 'name' 引数です"
+msgstr "無効な 'compress' 引数:"
 
 msgid "'compress' is ignored unless 'file' is a file name"
 msgstr "'file' がファイル名でない限り、'compress' は無視されます"
