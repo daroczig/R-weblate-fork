@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -155,11 +155,12 @@ msgstr ""
 msgid "cannot check R code installed as image"
 msgstr "イメージとしてインストールされた R コードはチェックできません"
 
-#, fuzzy
 msgid ""
 "parse error in examples from file '%s':\n"
 "%s"
-msgstr "ファイル '%s' の例中に構文解析エラー :"
+msgstr ""
+"ファイル '%s' の例中に構文解析エラー\n"
+"%s"
 
 msgid "File '%s':"
 msgstr "ファイル '%s':"
@@ -253,13 +254,11 @@ msgstr "Authors@R フィールドから Author フィールドを抽出できま
 msgid "Authors@R field gives no person with name and roles."
 msgstr "Authors@R フィールドに役割が明示された人がいません"
 
-#, fuzzy
 msgid "Authors@R field gives persons with no name:"
-msgstr "Authors@Rフィールドに役割が明示されていない人がいます"
+msgstr "Authors@Rフィールドに役割が明示されていない人がいます:"
 
-#, fuzzy
 msgid "Authors@R field gives persons with no role:"
-msgstr "Authors@Rフィールドに役割が明示されていない人がいます"
+msgstr "Authors@Rフィールドに役割が明示されていない人がいます:"
 
 #, fuzzy
 msgid "Authors@R field gives no person with name and author role"
@@ -274,9 +273,8 @@ msgstr "Authors@R フィールドでMaintainerロールを持つ人が１人を�
 msgid "Authors@R field gives no person with maintainer role, valid email address and non-empty name."
 msgstr "Authors@R にMaintainerロールをもち，かつ正しいe-mail アドレスをもち，かつ空白でない名前を持っている人がひとりもいません."
 
-#, fuzzy
 msgid "Authors@R field gives persons with invalid ORCID identifiers:"
-msgstr "Authors@Rフィールドに役割が明示されていない人がいます"
+msgstr "Authors@Rフィールドに役割が明示されていない人がいます:"
 
 #, fuzzy
 msgid "Authors@R field gives persons with duplicated ORCID identifiers:"
@@ -315,9 +313,8 @@ msgstr "テンプレートであり、'+ file LICENSE' が必要であるライ�
 msgid "License stub is invalid DCF."
 msgstr ""
 
-#, fuzzy
 msgid "License stub records with missing/empty fields:"
-msgstr "欠損もしくは空の名前を持つ Rd オブジェクトは扱えません"
+msgstr "フィールドが欠落している/空のライセンススタブレコード:"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
@@ -330,7 +327,7 @@ msgid "Non-portable flags in file '%s':"
 msgstr "変数 '%s' 中に non-portable フラグ:"
 
 msgid "Variables overriding user/site settings:"
-msgstr "ユーザまたはサイトの設定を上書きしている変数です"
+msgstr "ユーザまたはサイトの設定を上書きしている変数:"
 
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
 msgstr ""
@@ -416,7 +413,8 @@ msgid "'loadNamespace' or 'requireNamespace' call not declared from: %s"
 msgstr "'loadNamespace' もしくは 'requireNamespace' 呼出しが以下から宣言されていません: %s"
 
 msgid "'library' or 'require' calls to packages already attached by Depends:"
-msgstr "'library' もしくは 'requires' により呼び出されたパッケージは、すでに Depends: によりアタッチされています"
+msgstr "'library' もしくは 'require' により呼び出されたパッケージは、すでに Depends: "
+"によりアタッチされています:"
 
 msgid "'library' or 'require' call to %s which was already attached by Depends."
 msgstr "'library' もしくは 'requires' により、すでにDepends によりアタッチされた %s が呼び出されました"
@@ -1185,11 +1183,12 @@ msgstr ""
 "集まり %s:\n"
 "%s"
 
-#, fuzzy
 msgid ""
 "Cannot extract version info from the following section titles:\n"
 "%s"
-msgstr "以下のセクションタイトルからバージョン情報を取り出せません"
+msgstr ""
+"以下のセクションタイトルからバージョン情報を取り出せません:\n"
+"%s"
 
 msgid ""
 "Malformed NEWS.Rd file:\n"
@@ -1234,11 +1233,13 @@ msgstr "パッケージを処理中:"
 msgid "Invalid DESCRIPTION file for package %s"
 msgstr "不正な DESCRIPTION ファイルです"
 
-#, fuzzy
 msgid ""
 "reading DESCRIPTION for package %s failed with message:\n"
 "  %s"
-msgstr "%s の読み込みに失敗しました．メッセージは以下の通りです: %s"
+msgstr ""
+"パッケージ %s "
+"のDESCRIPTIONの読み取りに失敗し、次のメッセージが表示されました:\n"
+"  %s"
 
 #, fuzzy
 msgid "unable to create temporary directory %s"
@@ -1466,9 +1467,8 @@ msgstr "空白行があります"
 msgid "Unknown encoding with non-ASCII data: converting to ASCII"
 msgstr "非 ASCII データをもつ未知のエンコーディングです: ASCII に変換します"
 
-#, fuzzy
 msgid "cannot source package code:"
-msgstr "パッケージコードを読み込めません"
+msgstr "パッケージコードを読み込めません:"
 
 #, fuzzy
 msgid "inferiorCallError"
