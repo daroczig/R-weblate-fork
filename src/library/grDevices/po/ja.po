@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -783,7 +783,7 @@ msgstr "描画履歴が破損しているようです"
 
 #: devWindows.c:1092
 msgid "no plot history!"
-msgstr "描画履歴がありません"
+msgstr "描画履歴がありません!"
 
 #: devWindows.c:1810
 #, c-format
@@ -811,7 +811,7 @@ msgstr "呼出し jpeg() 中に長すぎるファイル名"
 
 #: devWindows.c:1877
 msgid "filename too long in tiff() call"
-msgstr "呼出し tiff() 中に長すぎるファイル名"
+msgstr "tiff() の呼び出しでファイル名が長すぎます"
 
 #: devWindows.c:1909
 msgid "filename too long in win.metafile() call"
