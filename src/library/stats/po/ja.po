@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.1\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -744,7 +744,7 @@ msgstr "nlm 中でチェックされる勾配の解析的な式がありませ�
 
 #: optimize.c:644
 msgid "no analytic Hessian to check in nlm!"
-msgstr "nlm 中でチェックすべき解析的なヘッセ行列がありません"
+msgstr "nlm 中でチェックすべき解析的なヘッセ行列がありません!"
 
 #: optimize.c:646
 msgid "probable coding error in analytic gradient"
@@ -803,7 +803,8 @@ msgid ""
 msgstr ""
 "最大ステップ幅を 5 回連続して超過しました。\n"
 "関数は下に非有界であるか、\n"
-"ある方向で上から漸近的に有限値に近づいているか、\n"
+"ある方向で上から漸近的に\n"
+"有限値に近づいているか、\n"
 "または stepmx が小さすぎるか、です\n"
 
 #: optimize.c:740 optimize.c:745 optimize.c:749 optimize.c:753 optimize.c:757
