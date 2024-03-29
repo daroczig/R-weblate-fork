@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-01 09:15+0000\n"
-"Last-Translator: Binod Jung Bogati <m1s1ng@outlook.com>\n"
+"PO-Revision-Date: 2024-03-29 03:05+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ne\n"
 "MIME-Version: 1.0\n"
@@ -5000,7 +5000,7 @@ msgid "Use '%s' instead."
 msgstr ""
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
-msgstr ""
+msgstr "help(\"Defunct\") र help(\"%s-defunct\") हेर्नुहोस्।"
 
 #: src/main/options.c:833
 msgid "'PCRE_study' has no effect with PCRE2"
