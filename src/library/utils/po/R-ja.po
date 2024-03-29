@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-03-28 18:45+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -414,7 +414,7 @@ msgid "'topic' should be a name, length-one character vector or reserved word"
 msgstr "'topic' は名前、長さ 1 の文字列、または予約語でなければなりません"
 
 msgid "No documentation for %s in specified packages and libraries:"
-msgstr "指定されたパッケージやライブラリ中には %s に対するドキュメントはありません"
+msgstr "指定されたパッケージやライブラリ中には %s に対するドキュメントはありません:"
 
 msgid "you could try %s"
 msgstr "%s を使えたかもしれません"
@@ -508,9 +508,8 @@ msgstr "もし '%s' で起動したブラウザが既に実行中なら、それ
 msgid "Otherwise, be patient ..."
 msgstr "さもなければ、じっと待って ..."
 
-#, fuzzy
 msgid "'%s' must be a non-empty character string"
-msgstr "'url' は空でない文字列でなければなりません"
+msgstr "'%s' は空でない文字列でなければなりません"
 
 msgid "no package '%s' was found"
 msgstr "パッケージ '%s' は見付かりません"
@@ -731,12 +730,8 @@ msgstr "如何なるパッケージも指定されませんでした"
 msgid "'lib = \"%s\"' is not writable"
 msgstr "'lib = \"%s\"' は書き込み可能ではありません"
 
-#, fuzzy
 msgid "Would you like to use a personal library instead?"
-msgstr ""
-"パッケージをインストールするために個人的なライブラリ\n"
-"'%s'\n"
-"を作りたいのですか？"
+msgstr "代わりに個人ライブラリを使用しますか?"
 
 msgid "unable to install packages"
 msgstr "パッケージをインストール出来ませんでした"
@@ -809,11 +804,8 @@ msgstr ""
 msgid "installation of package %s failed"
 msgstr "パッケージ %s のダウンロードに失敗しました"
 
-#, fuzzy
 msgid "installation of %d packages failed:  %s"
-msgstr ""
-"一つもしくは複数のパッケージのインストールが失敗しました\n"
-"      恐らく %s"
+msgstr "%d 個のパッケージのインストールに失敗しました:  %s"
 
 #, fuzzy
 msgid ""
@@ -1214,9 +1206,8 @@ msgstr "ダウンロードはゼロ以外の終了状態を持ちました"
 msgid "'curl' call had nonzero exit status"
 msgstr "ダウンロードはゼロ以外の終了状態を持ちました"
 
-#, fuzzy
 msgid "invalid method:"
-msgstr "不正な書式"
+msgstr "不正な書式:"
 
 msgid "download had nonzero exit status"
 msgstr "ダウンロードはゼロ以外の終了状態を持ちました"
@@ -1402,7 +1393,7 @@ msgstr[0] "利用できるバイナリー版がありますがソース版は後
 
 msgid "Do you want to install from sources the package which needs compilation?"
 msgid_plural "Do you want to install from sources the packages which need compilation?"
-msgstr[0] "パッケージのソースからインストールを行いますか? (コンパイルが必要です)"
+msgstr[0] "コンパイルが必要なパッケージをソースからインストールを行いますか?"
 
 msgid "Package which is only available in source form, and may need compilation of C/C++/Fortran"
 msgid_plural "Packages which are only available in source form, and may need compilation of C/C++/Fortran"
