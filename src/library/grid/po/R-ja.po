@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: RjpWiki Message Translation Team <mokada@md.tsukuba.ac.jp>\n"
 "Language: ja\n"
@@ -322,7 +322,7 @@ msgid "'ncol' must be >= 1"
 msgstr "'ncol' は1以上でなければなりません"
 
 msgid "nrow * ncol < #{legend labels}"
-msgstr "nrow * ncol < #{legend labels}"
+msgstr "nrow * ncol < #{凡例ラベル}"
 
 msgid "invalid justification"
 msgstr "不正な位置決め指定 (justification) です"
@@ -466,9 +466,8 @@ msgstr "'r' は 'units' オブジェクトでなければなりません"
 msgid "'x', 'y', 'width', and 'height' must have length 1"
 msgstr "'x', 'y', 'width', 'height' は全て長さ 1 でなければなりません"
 
-#, fuzzy
 msgid "Invalid glyph info"
-msgstr "不正な 'order' です"
+msgstr "無効なグリフ情報"
 
 #, fuzzy
 msgid "'x' and 'y' must have length > 0"
