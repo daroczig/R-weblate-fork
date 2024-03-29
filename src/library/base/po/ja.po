@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
+"PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: R-core <R-core@R-project.org>\n"
 "Language: ja\n"
@@ -1562,12 +1562,13 @@ msgstr "EXPR は長さ 1 のベクトルでなければなりません"
 msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
 " Consider using '%s' instead."
-msgstr "EXPRはfactorで、整数として扱われます。代わりに'%s'の使用を検討してください"
+msgstr ""
+"EXPRはfactorで、整数として扱われます。\n"
+" 代わりに'%s'の使用を検討してください"
 
 #: src/main/builtin.c:1100 src/main/eval.c:8616 src/main/eval.c:8645
-#, fuzzy
 msgid "'switch' with no alternatives"
-msgstr "名前付きの代替値が無い 'switch' 関数には数値の EXPR が必要です"
+msgstr "代替がない 'switch'"
 
 #: src/main/character.c:117 src/main/character.c:305
 #, c-format
@@ -2707,7 +2708,7 @@ msgstr "レコードの先頭で '%s ...' で始まっている継続行が見�
 #: src/main/dcf.c:298
 #, c-format
 msgid "Line starting '%s ...' is malformed!"
-msgstr "'%s ...' で始まる行は不正です"
+msgstr "'%s ...' で始まる行は不正です!"
 
 #: src/main/debug.c:46 src/main/debug.c:76
 msgid "argument must be a function"
@@ -3073,7 +3074,8 @@ msgid ""
 msgstr ""
 "%s が発生しました (%d 行)\n"
 " x <- edit()\n"
-" のようなコマンドで修復して下さい"
+" のようなコマンドで\n"
+" 修復して下さい"
 
 #: src/main/engine.c:41
 msgid "Graphics API version mismatch"
@@ -5376,7 +5378,7 @@ msgstr "'mode' の長さは 1 以上でなくてはなりません"
 #: src/main/plot3d.c:120
 #, c-format
 msgid "contour(): circular/long seglist -- set %s > %d?"
-msgstr "contour(): circular/long seglist -- set %s > %d?"
+msgstr "contour(): circular/long seglist -- %s > %d を設定してみてください"
 
 #: src/main/plot3d.c:198
 msgid "all z values are equal"
@@ -6390,7 +6392,7 @@ msgstr "引数は同じ長さにリサイクルできません"
 #: src/main/sprintf.c:155 src/main/sprintf.c:266
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "'fmt' の長さが書式の最大長 %d を超えました"
+msgstr "'fmt' の長さがフォーマットの最大長 %d を越えています"
 
 #: src/main/sprintf.c:174
 #, c-format
@@ -6834,7 +6836,7 @@ msgstr "エンコーディングが \"bytes\" の文字列の翻訳は許され�
 
 #: src/main/sysutils.c:1688 src/main/sysutils.c:1918
 msgid "internal error: no translation needed"
-msgstr "internal error: no translation needed"
+msgstr "内部エラー: 翻訳が要りません"
 
 #: src/main/sysutils.c:1798 src/main/sysutils.c:1803
 #, fuzzy, c-format
@@ -6915,7 +6917,7 @@ msgstr "'duplicated' はベクトルに対してだけ適用できます"
 
 #: src/main/unique.c:1058
 msgid "any_duplicated3(., <0-length incomp>)"
-msgstr "any_duplicated3(., <0-length incomp>)"
+msgstr "any_duplicated3(., <長さ 0 incomp>)"
 
 #: src/main/unique.c:1107
 msgid "'fromLast' must be length 1"
@@ -7367,7 +7369,7 @@ msgstr "X11cairo デバイスを開けません"
 #: src/modules/X11/devX11.c:3374
 #, c-format
 msgid "cannot open file '%s'"
-msgstr "ファイル '%s' を開くことができません"
+msgstr "ファイル '%s' を開けません"
 
 #: src/modules/X11/devX11.c:3391
 msgid "savePlot() is not supported on this build"
