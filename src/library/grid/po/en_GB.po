@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
 "PO-Revision-Date: 2023-12-20 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
@@ -146,12 +146,8 @@ msgid "'units' must be of length > 0"
 msgstr "'units' must be of length > 0"
 
 #: unit.c:1584
-msgid ""
-"data must be either NULL, have length 1, or match the length of the final "
-"unit vector"
-msgstr ""
-"data must be either NULL, have length 1, or match the length of the final "
-"unit vector"
+msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
+msgstr "data must be either NULL, have length 1, or match the length of the final unit vector"
 
 #: unit.c:1596
 msgid "no string supplied for 'strwidth/height' unit"
@@ -196,4 +192,3 @@ msgstr "Mask is not logical value ('none' or 'inherit')"
 #: viewport.c:330
 msgid "non-finite location and/or size for viewport"
 msgstr "non-finite location and/or size for viewport"
-
