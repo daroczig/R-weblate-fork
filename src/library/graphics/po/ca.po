@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 06:08+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
@@ -79,8 +79,7 @@ msgstr "l'estat dels gràfics no és vàlid"
 
 #: graphics.c:2619
 msgid "graphics device closed during call to locator or identify"
-msgstr ""
-"dispositiu gràfic tancat durant la crida al localitzador o a identificador"
+msgstr "dispositiu gràfic tancat durant la crida al localitzador o a identificador"
 
 #: graphics.c:2669
 msgid "No graphics device is active"
@@ -198,7 +197,7 @@ msgstr "especificació de tipus de lletra no vàlida"
 
 #: plot.c:276 plot.c:290 plot.c:474 plot.c:479 plot.c:2195 plot.c:2202
 #: plot.c:3225 plot.c:3227 plot.c:3229 plot.c:3388 plot3d.c:1163 plot3d.c:1167
-#: plot3d.c:1169 plot3d.c:1903
+#: plot3d.c:1169 plot3d.c:1906
 #, c-format
 msgid "invalid '%s' value"
 msgstr "el valor «%s» no és vàlid"
@@ -256,7 +255,7 @@ msgstr "tipus no vàlid per a les etiquetes dels eixos"
 
 #: plot.c:779 plot.c:1390 plot.c:1704 plot.c:1769 plot.c:1844 plot.c:1910
 #: plot.c:1984 plot.c:2079 plot.c:2155 plot.c:2433 plot.c:2607 plot.c:2823
-#: plot.c:3370 plot.c:3505 plot.c:3581 plot.c:3747 plot.c:4027 plot3d.c:1872
+#: plot.c:3370 plot.c:3505 plot.c:3581 plot.c:3747 plot.c:4027 plot3d.c:1875
 msgid "too few arguments"
 msgstr "massa pocs arguments"
 
@@ -329,9 +328,7 @@ msgstr "quart argument no vàlid"
 
 #: plot.c:1690
 msgid "cannot mix zero-length and non-zero-length coordinates"
-msgstr ""
-"no es poden barrejar coordenades de longitud zero i de longitud diferent de "
-"zero"
+msgstr "no es poden barrejar coordenades de longitud zero i de longitud diferent de zero"
 
 #: plot.c:1915
 msgid "Empty raster"
@@ -478,11 +475,11 @@ msgstr "tipus de símbol no vàlid"
 msgid "incorrect length for '%s' argument"
 msgstr "longitud incorrecta per a l'argument «%s»"
 
-#: plot3d.c:181 plot3d.c:1929
+#: plot3d.c:181 plot3d.c:1932
 msgid "insufficient 'x' or 'y' values"
 msgstr "valors «x» o «y» insuficients"
 
-#: plot3d.c:185 plot3d.c:1932
+#: plot3d.c:185 plot3d.c:1935
 msgid "dimension mismatch"
 msgstr "les dimension no coincideixen"
 
@@ -544,36 +541,36 @@ msgstr "especificació «%s» no vàlida"
 msgid "contour(): circular/long seglist -- set %s > %d?"
 msgstr "contour(): circular/long seglist -- establiu %s > %d?"
 
-#: plot3d.c:1935
+#: plot3d.c:1938
 msgid "no 'levels'"
 msgstr "sense «levels»"
 
-#: plot3d.c:1939
+#: plot3d.c:1942
 msgid "missing 'x' values"
 msgstr "manquen valors d'«x»"
 
-#: plot3d.c:1941
+#: plot3d.c:1944
 msgid "increasing 'x' values expected"
 msgstr "s'esperen valors «x» creixents"
 
-#: plot3d.c:1946
+#: plot3d.c:1949
 msgid "missing 'y' values"
 msgstr "manquen els valors d'«y»"
 
-#: plot3d.c:1948
+#: plot3d.c:1951
 msgid "increasing 'y' values expected"
 msgstr "s'esperaven valors d'«y» creixents"
 
-#: plot3d.c:1953
+#: plot3d.c:1956
 #, c-format
 msgid "non-finite level values: levels[%d] = %g"
 msgstr "valors de nivell no finits: levels[%d] = %g"
 
-#: plot3d.c:1966
+#: plot3d.c:1969
 msgid "all z values are equal"
 msgstr "tots els valors z són iguals"
 
-#: plot3d.c:1968
+#: plot3d.c:1971
 msgid "all z values are NA"
 msgstr "tots els valors z són NA"
 
@@ -581,4 +578,3 @@ msgstr "tots els valors z són NA"
 #, c-format
 msgid "long vector '%s' is not supported"
 msgstr "el vector llarg «%s» no està suportat"
-

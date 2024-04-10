@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -229,6 +229,10 @@ msgstr "'breaks' が狭義増加ではありません"
 
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' は '!freq' の別名ですが、それらは異なっています"
+
+#, fuzzy
+msgid "fuzz must be non-negative"
+msgstr "整数によりパレットから色を指定する場合、正の整数を指定してください"
 
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "'x' の一部分が数えられていません。多分 'breaks' が 'x' の範囲全体をカバーしていません"

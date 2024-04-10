@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2023-12-20 03:05+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
@@ -26,9 +26,7 @@ msgid "one of 'x1' and 'y1' must be given"
 msgstr "one of 'x1' and 'y1' must be given"
 
 msgid "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
-msgstr ""
-"'length', 'angle', or 'code' greater than length 1; values after the first "
-"are ignored"
+msgstr "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
 
 msgid "'x' must be a 2-d contingency table"
 msgstr "'x' must be a 2-d contingency table"
@@ -228,6 +226,10 @@ msgstr "'breaks' are not strictly increasing"
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' is an alias for '!freq', however they differ."
 
+#, fuzzy
+msgid "fuzz must be non-negative"
+msgstr "integer colours must be non-negative"
+
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 
@@ -273,7 +275,9 @@ msgstr "integer colours must be non-negative"
 msgid "'respect' must be logical or matrix with same dimension as 'mat'"
 msgstr "'respect' must be logical or matrix with same dimension as 'mat'"
 
-msgid "layout matrix must contain at least one reference\nto each of the values {1 ... %d}"
+msgid ""
+"layout matrix must contain at least one reference\n"
+"to each of the values {1 ... %d}"
 msgstr ""
 "layout matrix must contain at least one reference\n"
 "to each of the values {1 ... %d}"
