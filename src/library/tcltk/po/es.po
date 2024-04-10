@@ -41,9 +41,7 @@ msgstr "tclObj inválid -- quizá ha sido salvado en otra sesión?"
 
 #: tcltk.c:646
 msgid "argument list is too long in tcltk internal function 'callback_closure'"
-msgstr ""
-"lista de argumentos es demasiado larga para la función interna "
-"'callback_closure' de tcltk"
+msgstr "lista de argumentos es demasiado larga para la función interna 'callback_closure' de tcltk"
 
 #: tcltk.c:679
 msgid "argument is not of correct type"
@@ -53,11 +51,10 @@ msgstr "El argumento no es del tipo correcto"
 msgid "no DISPLAY variable so Tk is not available"
 msgstr "no hay variable DISPLAY por lo que Tk no está disponible"
 
-#: tcltk_unix.c:94
+#: tcltk_unix.c:113
 msgid "Tcl is not loaded"
 msgstr "Tcl no está cargado"
 
-#: tcltk_unix.c:98
+#: tcltk_unix.c:117
 msgid "Tcl is not last loaded handler"
 msgstr "Tcl no es el último controlador cargado"
-
