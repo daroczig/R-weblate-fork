@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -59,8 +59,7 @@ msgstr "Rulling.\n"
 
 #: src/gnuwin32/console.c:2462
 msgid "  Keyboard: PgUp, PgDown, Ctrl+Arrows, Ctrl+Home, Ctrl+End,\n"
-msgstr ""
-"  Tastatur: Page Up, Page Down, Ctrl + piltastar, Ctrl + Home, Ctrl + End,\n"
+msgstr "  Tastatur: Page Up, Page Down, Ctrl + piltastar, Ctrl + Home, Ctrl + End,\n"
 
 #: src/gnuwin32/console.c:2463
 msgid ""
@@ -112,9 +111,7 @@ msgstr "     «Rettetast»: slett førre teikn;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr ""
-"     «Ctrl + Delete» eller «Ctrl + K»: slett tekst frå gjeldande teikn til "
-"slutten av linja.\n"
+msgstr "     «Ctrl + Delete» eller «Ctrl + K»: slett tekst frå gjeldande teikn til slutten av linja.\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
@@ -130,15 +127,11 @@ msgstr "     Bruk musa (med venstre museknapp inne) for å merkje teksten.\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr ""
-"     Bruk «Shift + Delete» eller «Ctrl + C» for kopiera utvalet til "
-"utklippstavla, og\n"
+msgstr "     Bruk «Shift + Delete» eller «Ctrl + C» for kopiera utvalet til utklippstavla, og\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr ""
-"     «Shift + Insert», «Ctrl + V» eller «Ctrl +Y» for å lima inn innhaldet "
-"frå utklippstavla  \n"
+msgstr "     «Shift + Insert», «Ctrl + V» eller «Ctrl +Y» for å lima inn innhaldet frå utklippstavla  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
@@ -154,9 +147,7 @@ msgstr "     «Ctrl + L»: tøm konsollen.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr ""
-"     « Ctrl + O» eller «Insert»: slå på/av overskrivingsmodus (av som "
-"standard).\n"
+msgstr "     « Ctrl + O» eller «Insert»: slå på/av overskrivingsmodus (av som standard).\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"

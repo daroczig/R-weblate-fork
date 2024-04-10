@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -111,8 +111,7 @@ msgstr "     ब्याकस्पेस: अघिल्लो वर्ण 
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr ""
-"     Ctrl+Del वा Ctrl+K: हालको अक्षरबाट रेखाको अन्त्यसम्म पाठ मेटाउनुहोस्।\n"
+msgstr "     Ctrl+Del वा Ctrl+K: हालको अक्षरबाट रेखाको अन्त्यसम्म पाठ मेटाउनुहोस्।\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
@@ -124,20 +123,15 @@ msgstr "  कपी र टाँस्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr ""
-"     पाठ चिन्ह (चयन) गर्न माउस (बायाँ बटन तल समातेर) प्रयोग गर्नुहोस्।\n"
+msgstr "     पाठ चिन्ह (चयन) गर्न माउस (बायाँ बटन तल समातेर) प्रयोग गर्नुहोस्।\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr ""
-"     क्लिपबोर्डमा चिन्ह लगाइएको पाठ प्रतिलिपि गर्न Shift+Del (वा Ctrl+C) "
-"प्रयोग गर्नुहोस् र\n"
+msgstr "     क्लिपबोर्डमा चिन्ह लगाइएको पाठ प्रतिलिपि गर्न Shift+Del (वा Ctrl+C) प्रयोग गर्नुहोस् र\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr ""
-"     Shift+Ins (वा Ctrl+V वा Ctrl+Y) क्लिपबोर्डको सामग्री टाँस्न (यदि छ भने)"
-"  \n"
+msgstr "     Shift+Ins (वा Ctrl+V वा Ctrl+Y) क्लिपबोर्डको सामग्री टाँस्न (यदि छ भने)  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"

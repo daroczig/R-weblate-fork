@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -111,10 +111,8 @@ msgid "     Backspace: delete preceding character;\n"
 msgstr "     Backspace: delete preceding character;\n"
 
 #: src/gnuwin32/console.c:2314
-msgid ""
-"     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr ""
-"     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
+msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
+msgstr "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
@@ -125,24 +123,16 @@ msgid "  Copy and paste.\n"
 msgstr "  Copy and paste.\n"
 
 #: src/gnuwin32/console.c:2317
-msgid ""
-"     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr ""
-"     Use the mouse (with the left button held down) to mark (select) text.\n"
+msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
+msgstr "     Use the mouse (with the left button held down) to mark (select) text.\n"
 
 #: src/gnuwin32/console.c:2318
-msgid ""
-"     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr ""
-"     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
+msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
+msgstr "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
 
 #: src/gnuwin32/console.c:2319
-msgid ""
-"     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard "
-"(if any)  \n"
-msgstr ""
-"     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard ("
-"if any)  \n"
+msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
+msgstr "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
@@ -265,16 +255,12 @@ msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
 msgstr "     Press the \"Run line or selection\" icon on the toolbar\n"
 
 #: src/gnuwin32/editor.c:682
-msgid ""
-"This will copy the selected commands to the console and evaluate them.\n"
-msgstr ""
-"This will copy the selected commands to the console and evaluate them.\n"
+msgid "This will copy the selected commands to the console and evaluate them.\n"
+msgstr "This will copy the selected commands to the console and evaluate them.\n"
 
 #: src/gnuwin32/editor.c:683
-msgid ""
-"If there is no selection, this will just run the current line and advance\n"
-msgstr ""
-"If there is no selection, this will just run the current line and advance\n"
+msgid "If there is no selection, this will just run the current line and advance\n"
+msgstr "If there is no selection, this will just run the current line and advance\n"
 
 #: src/gnuwin32/editor.c:684
 msgid "the cursor by one line.\n"
@@ -1218,5 +1204,4 @@ msgstr "Waiting to confirm page change..."
 #: src/library/grDevices/src/devWindows.c:3900
 msgid "Click or hit ENTER for next page"
 msgstr "Click or hit ENTER for next page"
-
 
