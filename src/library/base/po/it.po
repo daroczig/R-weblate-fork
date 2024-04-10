@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4-3-BRANCH\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
 "PO-Revision-Date: 2024-03-28 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -1864,9 +1864,7 @@ msgstr "\"%s\" può essere impostato come classe se l'oggetto è di questo tipo;
 
 #: src/main/coerce.c:3049
 msgid "cannot set class to \"array\" unless the dimension attribute has length > 0"
-msgstr ""
-"non è possibile impostare la classe ad \"array\" se l'attributo dimensione "
-"non ha lunghezza > 0"
+msgstr "non è possibile impostare la classe ad \"array\" se l'attributo dimensione non ha lunghezza > 0"
 
 #: src/main/coerce.c:3088
 msgid "'value' must be non-null character string"
@@ -4023,12 +4021,10 @@ msgstr "buffer overflow in ingresso (%s:%d:%d)"
 msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
 msgstr "funzione '%s' non supportata dalla chiamata RHS di un pipe (%s:%d:%d)"
 
-#: src/main/gram.y:1222 src/main/gram.y:1254
+#: src/main/gram.y:1223 src/main/gram.y:1255
 #, c-format
 msgid "pipe placeholder may only appear once (%s:%d:%d)"
-msgstr ""
-"il placeholder di pipe può essere usato solo come argomento definito "
-"(%s:%d:%d)"
+msgstr "il placeholder di pipe può essere usato solo come argomento definito (%s:%d:%d)"
 
 #: src/main/gram.y:1267
 #, c-format
@@ -4043,15 +4039,12 @@ msgstr "La variabile RHS dev'essere un simbolo (%s:%d:%d)"
 #: src/main/gram.y:1286
 #, c-format
 msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
-msgstr ""
-"il placeholder di pipe non può essere usato in una funzione RHS (%s:%d:%d)"
+msgstr "il placeholder di pipe non può essere usato in una funzione RHS (%s:%d:%d)"
 
 #: src/main/gram.y:1302
 #, c-format
 msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
-msgstr ""
-"il placeholder di pipe può essere usato solo come argomento definito "
-"(%s:%d:%d)"
+msgstr "il placeholder di pipe può essere usato solo come argomento definito (%s:%d:%d)"
 
 #: src/main/gram.y:1335
 #, c-format
@@ -4171,9 +4164,7 @@ msgstr "\\%o eccede il valore massimo consentito per un ottale \\377 (%s:%d:%d)"
 #: src/main/gram.y:2939
 #, c-format
 msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\x' utilizzato senza cifre esadecimali in una stringa di caratteri "
-"(%s:%d:%d)"
+msgstr "'\\x' utilizzato senza cifre esadecimali in una stringa di caratteri (%s:%d:%d)"
 
 #: src/main/gram.y:2958
 #, c-format
@@ -4183,9 +4174,7 @@ msgstr "\\uxxxx sequenze non supportate nei backticks (%s:%d:%d)"
 #: src/main/gram.y:2978
 #, c-format
 msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\u' utilizzato senza cifre esadecimali in una stringa di caratteri "
-"(%s:%d:%d)"
+msgstr "'\\u' utilizzato senza cifre esadecimali in una stringa di caratteri (%s:%d:%d)"
 
 #: src/main/gram.y:2990
 #, c-format
@@ -4200,9 +4189,7 @@ msgstr "sequenze \\Uxxxxxxxx non supportate nei backticks (%s:%d:%d)"
 #: src/main/gram.y:3025
 #, c-format
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\U' utilizzato senza cifre esadecimali in una stringa di caratteri "
-"(%s:%d:%d)"
+msgstr "'\\U' utilizzato senza cifre esadecimali in una stringa di caratteri (%s:%d:%d)"
 
 #: src/main/gram.y:3037
 #, c-format
@@ -4227,9 +4214,7 @@ msgstr "'\\%s' è un escape non riconosciuto in una stringa caratteri (%s:%d:%d)
 #: src/main/gram.y:3178 src/main/gram.y:3318
 #, c-format
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
-msgstr ""
-"non è ammesso mischiare escape Unicode e ottali/esadecimali in una stringa "
-"(%s:%d:%d)"
+msgstr "non è ammesso mischiare escape Unicode e ottali/esadecimali in una stringa (%s:%d:%d)"
 
 #: src/main/gram.y:3183 src/main/gram.y:3323
 #, c-format
@@ -8092,4 +8077,3 @@ msgstr "AVVERTIMENTO: Sarà modificato il primo file della lista"
 
 #~ msgid "invalid component [[11]] in \"POSIXlt\" should be 'gmtoff'"
 #~ msgstr "componente [[11]] non valido in \"POSIXlt\" dovrebbe essere 'gmtoff'"
-
