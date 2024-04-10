@@ -28,7 +28,7 @@ msgstr ""
 msgid "unable to terminate child: %s"
 msgstr ""
 
-#: fork.c:329 fork.c:620 ncpus.c:87 ncpus.c:123 ncpus.c:179
+#: fork.c:329 fork.c:620 ncpus.c:87 ncpus.c:123 ncpus.c:178
 msgid "memory allocation error"
 msgstr "memória kiosztási hiba"
 
@@ -38,9 +38,7 @@ msgid "invalid '%s' argument"
 msgstr ""
 
 #: fork.c:451
-msgid ""
-"Error while shutting down parallel: unable to terminate some child "
-"processes\n"
+msgid "Error while shutting down parallel: unable to terminate some child processes\n"
 msgstr ""
 
 #: fork.c:544 fork.c:547
@@ -63,11 +61,9 @@ msgstr "nincsen pipe a főfolyamathoz"
 
 #: fork.c:765
 msgid "content to send must be RAW, use serialize() if needed"
-msgstr ""
-"a küldendő tartalom RAW kell hogy legyen, ha kell használja a serialize() "
-"függvényt"
+msgstr "a küldendő tartalom RAW kell hogy legyen, ha kell használja a serialize() függvényt"
 
-#: fork.c:774 fork.c:785 fork.c:1198
+#: fork.c:774 fork.c:785 fork.c:1204
 msgid "write error, closing pipe to the master"
 msgstr "írási hiba, a főfolyamat pipe lezár"
 
@@ -84,37 +80,36 @@ msgstr "a(z) %d gyermek folyamat nem létezik"
 msgid "write error"
 msgstr "írási hiba"
 
-#: fork.c:895
+#: fork.c:897
 #, c-format
 msgid "cannot wait for child %d as it does not exist"
 msgstr ""
 
-#: fork.c:954 fork.c:1077
-#, c-format, fuzzy
+#: fork.c:956 fork.c:1083
+#, fuzzy, c-format
 msgid "error '%s' in select"
 msgstr "'%s' hiba a kijelölésben"
 
-#: fork.c:1167
+#: fork.c:1173
 msgid "'mckill' failed"
 msgstr ""
 
-#: fork.c:1180
+#: fork.c:1186
 msgid "'mcexit' can only be used in a child process"
 msgstr ""
 
-#: fork.c:1212
+#: fork.c:1218
 msgid "'mcexit' failed"
 msgstr ""
 
-#: fork.c:1241 fork.c:1250
+#: fork.c:1247 fork.c:1256
 msgid "invalid CPU affinity specification"
 msgstr ""
 
-#: fork.c:1261
+#: fork.c:1267
 msgid "requested CPU set is too large for this system"
 msgstr ""
 
-#: fork.c:1284
+#: fork.c:1290
 msgid "retrieving CPU affinity set failed"
 msgstr ""
-
