@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
-"POT-Creation-Date: 2024-04-01 09:28\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"POT-Creation-Date: 2024-04-01 10:33\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
@@ -367,9 +367,7 @@ msgid "list of length %d not meaningful"
 msgstr "lista de comprimento %d sem sentido"
 
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr ""
-"somente definido para um data frame com todas as variáveis numéricas ou "
-"similares"
+msgstr "somente definido para um data frame com todas as variáveis numéricas ou similares"
 
 msgid "cannot xtfrm data frames"
 msgstr "não é possível aplicar xtfrm a um data frame"
@@ -2256,7 +2254,3 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valor inválido"
-
-
-
-
