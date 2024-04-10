@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
 "PO-Revision-Date: 2023-12-19 16:33+0000\n"
 "Last-Translator: Heather Turner <ht@heatherturner.net>\n"
@@ -31,4 +31,3 @@ msgstr "derivs = %d >= ord = %d, but should be in {0,..,ord-1}"
 #, c-format
 msgid "derivs[%d] = %d >= ord = %d, but should be in {0,..,ord-1}"
 msgstr "derivs[%d] = %d >= ord = %d, but should be in {0,..,ord-1}"
-
