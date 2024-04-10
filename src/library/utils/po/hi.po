@@ -105,7 +105,7 @@ msgstr ""
 
 #: io.c:1171
 #, c-format
-msgid "column %s claims to be a factor but does not have numeric codes"
+msgid "column %d claims to be a factor but does not have numeric codes"
 msgstr ""
 
 #: io.c:1189
@@ -281,4 +281,3 @@ msgstr ""
 #: windows/widgets.c:206
 msgid "'filterindex' must be an integer value"
 msgstr ""
-
