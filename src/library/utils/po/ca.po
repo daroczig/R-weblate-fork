@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
@@ -81,7 +81,7 @@ msgid "index out of range"
 msgstr "l'índex és fora del rang"
 
 #: io.c:1052
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "Problem closing connection:  %s"
 msgstr "Problema tancant la connexió: %s"
 
@@ -106,13 +106,11 @@ msgstr "«dec» ha de ser un únic caràcter"
 #: io.c:1137
 #, c-format
 msgid "corrupt data frame -- length of column %d does not match nrows"
-msgstr ""
-"«data frame» corromput -- la longitud de la columna %d no coincideix amb "
-"nombre de files"
+msgstr "«data frame» corromput -- la longitud de la columna %d no coincideix amb nombre de files"
 
 #: io.c:1171
-#, c-format
-msgid "column %s claims to be a factor but does not have numeric codes"
+#, fuzzy, c-format
+msgid "column %d claims to be a factor but does not have numeric codes"
 msgstr "la columna %s afirma ser un factor però no té codis numèrics"
 
 #: io.c:1189
@@ -256,7 +254,7 @@ msgid "'%s' must be length 1"
 msgstr "«%s» ha de ser de longitud 1"
 
 #: windows/util.c:575
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "'%s' must be a list"
 msgstr "«%s» ha de ser una llista"
 
@@ -292,6 +290,4 @@ msgstr "«multi» ha de ser un valor lògic"
 #: windows/widgets.c:206
 msgid "'filterindex' must be an integer value"
 msgstr "«filterindex» ha de ser un valor enter"
-
-
 

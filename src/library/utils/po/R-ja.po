@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
 "PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -140,12 +140,14 @@ msgstr ""
 msgid "No suitable spell check program found."
 msgstr "適当なスペルチェックプログラムが見つかりません。"
 
+msgid "Performing query %s"
+msgstr ""
+
 msgid ""
 "Use <code> %s </code> \n"
 " to list the vignettes in all <strong>available</strong> packages."
 msgstr ""
-"全ての <strong>利用可能</strong> なパッケージの vignette "
-"のリストを表示するには\n"
+"全ての <strong>利用可能</strong> なパッケージの vignette のリストを表示するには\n"
 "<code> %s </code> を使用してください。"
 
 msgid "No vignettes found by %s"
@@ -1397,8 +1399,7 @@ msgstr[0] "コンパイルが必要なパッケージをソースからインス
 
 msgid "Package which is only available in source form, and may need compilation of C/C++/Fortran"
 msgid_plural "Packages which are only available in source form, and may need compilation of C/C++/Fortran"
-msgstr[0] "ソースコードの形でのみ利用可能なパッケージです，C/C++/Fortran "
-"でコンパイルの必要があるかもしれません"
+msgstr[0] "ソースコードの形でのみ利用可能なパッケージです，C/C++/Fortran でコンパイルの必要があるかもしれません"
 
 msgid "installing the source package %s"
 msgid_plural "installing the source packages %s"
