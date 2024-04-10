@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-3.5.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -38,9 +38,7 @@ msgstr ""
 
 #: methods_list_dispatch.c:213
 msgid "could not find the skeleton calls for 'methods' (package detached?): expect very bad things to happen"
-msgstr ""
-"'methods'에 대한 skeleton calls를 찾지 못했습니다 (패키지가 분리되어 "
-"있나요?): 매우 안 좋은 경우가 발생할 것 같습니다"
+msgstr "'methods'에 대한 skeleton calls를 찾지 못했습니다 (패키지가 분리되어 있나요?): 매우 안 좋은 경우가 발생할 것 같습니다"
 
 #: methods_list_dispatch.c:279
 #, c-format
@@ -69,9 +67,7 @@ msgstr "주어진 environment에서 '%s'를 위한 제네릭 함수정의를 찾
 #: methods_list_dispatch.c:539
 #, c-format
 msgid "invalid generic function object for method selection for function '%s': expected a function or a primitive, got an object of class \"%s\""
-msgstr ""
-"함수 '%1$s'를 위한 메소드선택에 유효하지 않은 제네릭 함수객체입니다: 함수 "
-"또는 프리미티브가 와야하는데 클래스 \"%2$s\"의 객체를 얻었습니다"
+msgstr "함수 '%1$s'를 위한 메소드선택에 유효하지 않은 제네릭 함수객체입니다: 함수 또는 프리미티브가 와야하는데 클래스 \"%2$s\"의 객체를 얻었습니다"
 
 #: methods_list_dispatch.c:554
 #, c-format
@@ -90,8 +86,7 @@ msgstr "호출 프레임에서 심볼 '%s'를 찾을 수 없었습니다"
 #: methods_list_dispatch.c:613
 #, c-format
 msgid "invalid symbol in checking for missing argument in method dispatch: expected a name, got an object of class \"%s\""
-msgstr "메소드 디스패치에서 누락된 인자를 확인하는데 유효하지 않은 심볼입니다: "
-"이름이 와야하는데 클래스 \"%s\"의 객체를 얻었습니다"
+msgstr "메소드 디스패치에서 누락된 인자를 확인하는데 유효하지 않은 심볼입니다: 이름이 와야하는데 클래스 \"%s\"의 객체를 얻었습니다"
 
 #: methods_list_dispatch.c:616
 msgid "use of NULL environment is defunct"
