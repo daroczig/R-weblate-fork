@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 18:45+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -25,9 +25,6 @@ msgstr "Lásd help(\"Defunct\"), illetve help(\"%s-defunct\")."
 msgid "See help(\"Defunct\")"
 msgstr "Lásd help(\"Defunct\")"
 
-msgid "defunctError"
-msgstr ""
-
 msgid "'%s' is deprecated."
 msgstr "'%s' elavult."
 
@@ -36,9 +33,6 @@ msgstr "Lásd help(\"Deprecated\"), illetve help(\"%s-deprecated\")."
 
 msgid "See help(\"Deprecated\")"
 msgstr "Lásed help(\"Deprecated\")"
-
-msgid "deprecatedWarning"
-msgstr ""
 
 msgid "argument to 'La.svd' must be numeric or complex"
 msgstr "az 'La.svd' argumentuma numerikus vagy komplex típusú kell hogy legyen"
@@ -131,7 +125,10 @@ msgstr "a(z) %s csomagot igényli %s, ami már nem működik megfelelően"
 msgid "package %s is required by %s so will not be detached"
 msgstr "a(z) %s csomagot igényli %s, így az nem lesz leválasztva"
 
-msgid "%s failed in %s() for '%s', details:\n  call: %s\n  error: %s"
+msgid ""
+"%s failed in %s() for '%s', details:\n"
+"  call: %s\n"
+"  error: %s"
 msgstr ""
 
 msgid "%s namespace cannot be unloaded:"
@@ -204,9 +201,7 @@ msgid "'name' must be a single character string"
 msgstr ""
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
-msgstr ""
-"az 'origin' argumentum ezek egyike kell, hogy legyen 'start', 'current' vagy "
-"'end'"
+msgstr "az 'origin' argumentum ezek egyike kell, hogy legyen 'start', 'current' vagy 'end'"
 
 msgid "can only truncate an open connection"
 msgstr "csak egy megyitott kapcsolat csonkolható"
@@ -232,8 +227,9 @@ msgstr "az intervallumok száma érvénytelen"
 msgid "'breaks' are not unique"
 msgstr "'breaks' értékei nem egyediek"
 
-msgid "lengths of 'breaks' and 'labels' differ"
-msgstr ""
+#, fuzzy
+msgid "number of intervals and length of 'labels' differ"
+msgstr "a szintek számában eltérés van"
 
 msgid "invalid 'row.names' length"
 msgstr "érvénytelen 'row.names' hossz"
@@ -253,11 +249,9 @@ msgstr "az adott data frame-hez érvénytelen 'dimnames'"
 msgid "cannot coerce class %s to a data.frame"
 msgstr ""
 
-msgid "'row.names' is not a character vector of length %d -- omitting it. Will be an error!"
-msgstr ""
-
-msgid "options(\"stringsAsFactors\") not set to TRUE or FALSE"
-msgstr ""
+#, fuzzy
+msgid "'row.names' is not a character or integer vector of length %d"
+msgstr "'normal.kind' 1 hosszúságú karakterlánc kell legyen"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "az 'data.frame' argumentumában eltérés van a sornevekben, %d. elem"
@@ -281,8 +275,7 @@ msgid "row names supplied are of the wrong length"
 msgstr "a megadott sornevek elemszáma rossz"
 
 msgid "row names were found from a short variable and have been discarded"
-msgstr ""
-"a sornevek egy rövid változóban lettek megadva, így nem lettek felhasználva"
+msgstr "a sornevek egy rövid változóban lettek megadva, így nem lettek felhasználva"
 
 msgid "named arguments other than 'drop' are discouraged"
 msgstr "a 'drop' nevesített argumentumon kívül mások nem lesznek felhasználva"
@@ -312,8 +305,7 @@ msgid "need 0, 1, or 2 subscripts"
 msgstr "0, 1, vagy 2 indexek kellenek"
 
 msgid "missing values are not allowed in subscripted assignments of data frames"
-msgstr ""
-"data frame-ek indexelt értékadása során hiányzó értékek nem megengedettek"
+msgstr "data frame-ek indexelt értékadása során hiányzó értékek nem megengedettek"
 
 msgid "non-existent rows not allowed"
 msgstr "nem létező sorok nem megengedettek"
@@ -343,9 +335,10 @@ msgid "numbers of columns of arguments do not match"
 msgstr "az argumentumok oszlopszáma nem egyezik"
 
 msgid "invalid list argument: all variables should have the same length"
+msgstr "érvénytelen lista argumentum: minden változónak ugyanolyan hosszúnak kell lennie"
+
+msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
 msgstr ""
-"érvénytelen lista argumentum: minden változónak ugyanolyan hosszúnak kell "
-"lennie"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 sor> (vagy 0 hosszúságú row.names)"
@@ -376,9 +369,6 @@ msgstr ""
 
 msgid "character string is not in a standard unambiguous format"
 msgstr "a karakterlánc nem szabványos, egyértelmű formátumú"
-
-msgid "'origin' must be supplied"
-msgstr ""
 
 msgid "do not know how to convert '%s' to class %s"
 msgstr ""
@@ -420,9 +410,7 @@ msgid "'length.out' must be of length 1"
 msgstr "'length.out' hosszúsága 1 kell hogy legyen"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
-msgstr ""
-"a 'to', 'by', és 'length.out' / 'along.with' argumentumok közül pontosan "
-"kettőt meg kell adni"
+msgstr "a 'to', 'by', és 'length.out' / 'along.with' argumentumok közül pontosan kettőt meg kell adni"
 
 msgid "'by' must be of length 1"
 msgstr "a 'by' hosszúsága 1 kell hogy legyen"
@@ -464,8 +452,7 @@ msgid "can only subtract from \"POSIXt\" objects"
 msgstr ""
 
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr ""
-"a \"POSIXt\" objektumokra vonatkozóan egyváltozós - nincsen definiálálva"
+msgstr "a \"POSIXt\" objektumokra vonatkozóan egyváltozós - nincsen definiálálva"
 
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr ""
@@ -478,6 +465,13 @@ msgstr "'%s' nem definiált a \"POSIXt\" objektumokra"
 
 msgid "'tzone' attributes are inconsistent"
 msgstr "a 'tzone' attribútumok inkonzisztensek"
+
+msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
+msgstr ""
+
+#, fuzzy
+msgid "'digits' must be numeric, integer valued"
+msgstr "a 'trim' numerikus és egy hosszú kell hogy legyen"
 
 msgid "'tim' is not character or numeric"
 msgstr "'tim' nem karakter vagy numerikus"
@@ -518,14 +512,22 @@ msgstr ""
 msgid "'file' must be a character string or connection"
 msgstr "'file' karakterlánc vagy összeköttetés kell hogy legyen"
 
-msgid "Invalid DCF format.\nRegular lines must have a tag.\nOffending lines start with:\n%s"
+msgid ""
+"Invalid DCF format.\n"
+"Regular lines must have a tag.\n"
+"Offending lines start with:\n"
+"%s"
 msgstr ""
 "Érvénytelen DCF formátum.\n"
 "A szabványos soroknak azonosítóval kell rendelkezniük.\n"
 "A problémás sorok ezzel kezdődnek:\n"
 "%s"
 
-msgid "Invalid DCF format.\nContinuation lines must not start a record.\nOffending lines start with:\n%s"
+msgid ""
+"Invalid DCF format.\n"
+"Continuation lines must not start a record.\n"
+"Offending lines start with:\n"
+"%s"
 msgstr ""
 "Érvénytelen DCF formátum.\n"
 "A folytatólagos soroknak nem kell rekorddal kezdődnie.\n"
@@ -578,14 +580,13 @@ msgid "function is not in a namespace, so cannot locate associated DLL"
 msgstr "a függvény nincsen a névtérben, így nem találja kapcsolódó DLL-t"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
-msgstr ""
-"DLL-t keres natív rutin hívás céljából, de nincsen DLL a hívás névterében"
-
-msgid "0 x 0 matrix"
-msgstr "0 x 0 mátrix"
+msgstr "DLL-t keres natív rutin hívás céljából, de nincsen DLL a hívás névterében"
 
 msgid "non-square matrix in 'eigen'"
 msgstr "nem kvadratikus mátrix az 'eigen'-ben"
+
+msgid "0 x 0 matrix"
+msgstr "0 x 0 mátrix"
 
 msgid "invalid nrow(x)"
 msgstr ""
@@ -612,9 +613,7 @@ msgid "'%s' not defined for ordered factors"
 msgstr "'%s' nem definiált rendezett faktorokra"
 
 msgid "'%s' is only meaningful for ordered factors if all arguments have the same level sets"
-msgstr ""
-"'%s' csak akkor értelmezhető rendezett faktorokra, ha minden argumentum "
-"szint beállításai megegyeznek"
+msgstr "'%s' csak akkor értelmezhető rendezett faktorokra, ha minden argumentum szint beállításai megegyeznek"
 
 msgid "no files to copy to"
 msgstr "nincsen fájl, amit másolni lehetne ide"
@@ -626,11 +625,12 @@ msgid "more 'from' files than 'to' files"
 msgstr "több 'from' fájl, mint 'to' fájl"
 
 msgid "'recursive' will be ignored as 'to' is not a single existing directory"
-msgstr ""
-"a 'recursive' beállítás figyelmen kívül lesz hagyva, mivel a 'to' nem "
-"egyetlen, létező könyvtár"
+msgstr "a 'recursive' beállítás figyelmen kívül lesz hagyva, mivel a 'to' nem egyetlen, létező könyvtár"
 
 msgid "cannot overwrite a non-directory with a directory"
+msgstr ""
+
+msgid "directories are omitted unless 'recursive = TRUE'"
 msgstr ""
 
 msgid "file can not be copied both 'from' and 'to'"
@@ -676,25 +676,20 @@ msgid "'flag' should contain only characters from [0+- #'I]"
 msgstr ""
 
 msgid "'mode' must be \"double\" (\"real\"), \"integer\" or \"character\""
-msgstr ""
-"a 'mode' típusa \"double\" (\"real\"), \"integer\" vagy \"character\" kell "
-"hogy legyen"
+msgstr "a 'mode' típusa \"double\" (\"real\"), \"integer\" vagy \"character\" kell hogy legyen"
 
 #, fuzzy
 msgid "coercing argument to \"character\" for format=\"s\""
 msgstr "a format=\"s\" szerint az argumentum \"character\" típusba kényszerítve"
 
 msgid "'format' must be one of {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"}"
-msgstr ""
-"'format' ezek {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"} egyike kell "
-"hogy legyen"
+msgstr "'format' ezek {\"f\",\"e\",\"E\",\"g\",\"G\", \"fg\", \"s\"} egyike kell hogy legyen"
 
 msgid "'digits' reduced to %d"
 msgstr ""
 
 msgid "corrupt data frame: columns will be truncated or padded with NAs"
-msgstr ""
-"sérült data frame: az oszlopok le lesznek vágva vagy NA-kal ki lesznek töltve"
+msgstr "sérült data frame: az oszlopok le lesznek vágva vagy NA-kal ki lesznek töltve"
 
 msgid "'zero.print' has length > 1"
 msgstr "'zero.print' hossza >1"
@@ -760,11 +755,24 @@ msgstr "helyettesítési étrékek szükségesek a egyezésekhez"
 msgid "No factors specified"
 msgstr ""
 
-msgid "norm '%s' currently always uses exact = FALSE"
-msgstr "norm '%s' jelenleg mindig exact = FALSE beállítást használ"
+msgid "invalid '%s': type \"%s\""
+msgstr ""
+
+#, fuzzy
+msgid "'uplo' must be \"U\" or \"L\""
+msgstr "'wait' vagy TRUE vagy FALSE kell legyen"
+
+msgid "invalid nrow(z)"
+msgstr ""
 
 msgid "triangular matrix should be square"
 msgstr "a háromszögmátrix kvadratikus kell hogy legyen"
+
+msgid "using 1-norm approximation for approximate 2-norm"
+msgstr ""
+
+msgid "norm=\"%s\" not available here; using norm=\"1\""
+msgstr ""
 
 msgid "unknown conflict policy: %s"
 msgstr ""
@@ -790,10 +798,9 @@ msgstr "a(z) %s csomagot ehhez lett lefordítva: %s"
 msgid "package %s is not installed for 'arch = %s'"
 msgstr ""
 
-msgid "Conflicts attaching package %s:\n%s"
-msgstr ""
-
-msgid "packageConflictError"
+msgid ""
+"Conflicts attaching package %s:\n"
+"%s"
 msgstr ""
 
 msgid "Attaching package: %s"
@@ -817,13 +824,14 @@ msgstr "%s nem egy érvényes, telepített csomag"
 msgid "%s not found on search path, using pos = 2"
 msgstr "%s nem található a keresési úton, a pos = 2 használatával"
 
-msgid "Package %s version %s cannot be unloaded:\n %s"
+msgid ""
+"Package %s version %s cannot be unloaded:\n"
+" %s"
 msgstr ""
 
-msgid "package or namespace load failed for %s%s:\n %s"
-msgstr ""
-
-msgid "package %s does not have a namespace and should be re-installed"
+msgid ""
+"package or namespace load failed for %s%s:\n"
+" %s"
 msgstr ""
 
 msgid "package %s already present in search()"
@@ -842,8 +850,7 @@ msgid "R packages available"
 msgstr "R-csomagok elérhetők"
 
 msgid "DLL %s not found: maybe not installed for this architecture?"
-msgstr ""
-"a(z) %s DLL nem található: talán nincsen telepítve ehhez az architektúra?"
+msgstr "a(z) %s DLL nem található: talán nincsen telepítve ehhez az architektúra?"
 
 msgid "shared object %s not found"
 msgstr "a(z) %s osztott objektum nem található"
@@ -884,7 +891,9 @@ msgstr "A szükséges csomag betöltődik: %s"
 msgid "none of the packages are loaded"
 msgstr "a csomagok egyike sincs betöltve"
 
-msgid "package %s found more than once, using the first from\n  %s"
+msgid ""
+"package %s found more than once, using the first from\n"
+"  %s"
 msgstr ""
 
 msgid "Further information is available in the following vignettes in directory %s:"
@@ -926,8 +935,9 @@ msgstr "a 'file' argumentumot meg kell adni"
 msgid "nothing specified to be save()d"
 msgstr ""
 
-msgid "'file' must be non-empty string"
-msgstr ""
+#, fuzzy
+msgid "'%s' must be a non-empty string"
+msgstr "'x' kvadratikus mátrix kell hogy legyen"
 
 msgid "'compress' must be logical or character"
 msgstr "'compress' logikai vagy karakter kell legyen"
@@ -973,9 +983,6 @@ msgstr "'arg' hossza 1 kell hogy legyen"
 
 msgid "'arg' must be of length >= 1"
 msgstr "'arg' hossza >= 1 kell legyen"
-
-msgid "'arg' should be one of %s"
-msgstr ""
 
 msgid "there is more than one match in 'match.arg'"
 msgstr "több mint egy egyezés a 'match.arg' függvényben"
@@ -1040,13 +1047,18 @@ msgstr ""
 msgid "invalid to change the storage mode of a factor"
 msgstr "nem lehet változtatni a faktor tárolási módon"
 
-msgid "namespace %s is not available and has been replaced\nby .GlobalEnv when processing object %s"
+msgid ""
+"namespace %s is not available and has been replaced\n"
+"by .GlobalEnv when processing object %s"
 msgstr ""
 
 msgid "namespace is already attached"
 msgstr "a névtér már csatolva van"
 
-msgid "not found in namespace %s: \n\n%s"
+msgid ""
+"not found in namespace %s: \n"
+"\n"
+"%s"
 msgstr ""
 
 msgid "%s not found"
@@ -1083,9 +1095,7 @@ msgid "package %s has no 'package.rds' in Meta/"
 msgstr ""
 
 msgid "package %s has a license that you need to accept in an interactive session"
-msgstr ""
-"a(z) %s csomag olyan liszenszű, amit el kell fogadnia egy interaktív "
-"folyamat során"
+msgstr "a(z) %s csomag olyan liszenszű, amit el kell fogadnia egy interaktív folyamat során"
 
 msgid "package %s has a license that you need to accept after viewing"
 msgstr ""
@@ -1154,9 +1164,7 @@ msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in 
 msgstr ""
 
 msgid "in package %s classes %s were specified for export but not defined"
-msgstr ""
-"a(z) %s csomagban %s exportálandó osztályok vannak meghatározva, de "
-"nincsenek definiálva"
+msgstr "a(z) %s csomagban %s exportálandó osztályok vannak meghatározva, de nincsenek definiálva"
 
 msgid "no function found corresponding to methods exports from %s for: %s"
 msgstr ""
@@ -1174,9 +1182,7 @@ msgid "failed to find metadata object for %s"
 msgstr "nem sikerült metaadat objektumot találni ehhez: %s"
 
 msgid "in package %s methods %s were specified for export but not defined"
-msgstr ""
-"a(z) %s csomag %s eljárásai lettek megadva exportálandóként, de nem lettek "
-"definiálva"
+msgstr "a(z) %s csomag %s eljárásai lettek megadva exportálandóként, de nem lettek definiálva"
 
 msgid "-- done processing S4 stuff for"
 msgstr ""
@@ -1197,8 +1203,7 @@ msgid "not loading a namespace"
 msgstr "nem töltődik be névtér"
 
 msgid "namespace %s is imported by %s so cannot be unloaded"
-msgstr ""
-"a(z) %s névteret a(z) %s importálta, így a betöltöttsége nem megszüntethető"
+msgstr "a(z) %s névteret a(z) %s importálta, így a betöltöttsége nem megszüntethető"
 
 msgid "not a namespace"
 msgstr "nem névtér"
@@ -1222,8 +1227,7 @@ msgid "invalid import target"
 msgstr "érvénytelen importálási cél"
 
 msgid "found methods to import for function %s but not the generic itself"
-msgstr ""
-"a(z) %s függvényhez vannak importálható eljárások, de nem maga a generikus"
+msgstr "a(z) %s függvényhez vannak importálható eljárások, de nem maga a generikus"
 
 msgid "replacing previous import %s by %s when loading %s"
 msgstr ""
@@ -1350,6 +1354,10 @@ msgstr "érvénytelen 'rle' szerkezet"
 msgid "... must contain names or character strings"
 msgstr "... neveket vagy karakterláncokat kell tartalmazni"
 
+#, fuzzy
+msgid "invalid 'x'"
+msgstr "érvénytelen 'dims'"
+
 msgid "incorrect length for 'group'"
 msgstr "hibás 'group' hosszúság"
 
@@ -1424,14 +1432,14 @@ msgid "only square matrices can be inverted"
 msgstr "csak kvadratikus mátrixok invertálhatók"
 
 msgid "solve.default called with a \"qr\" object: use 'qr.solve'"
-msgstr ""
-"a solve.default egy \"qr\" objektummal lett meghívva: használja ezt 'qr."
-"solve'"
+msgstr "a solve.default egy \"qr\" objektummal lett meghívva: használja ezt 'qr.solve'"
 
 msgid "singular matrix 'a' in solve"
 msgstr "'a' szinguláris mátrix a 'solve'-ban"
 
-msgid "'decreasing' must be a length-1 logical vector.\nDid you intend to set 'partial'?"
+msgid ""
+"'decreasing' must be a length-1 logical vector.\n"
+"Did you intend to set 'partial'?"
 msgstr ""
 "'decreasing' egy logikai vektor kell legyen, aminek a hossza 1.\n"
 "Tervezi a 'partial' meghatározását?"
@@ -1454,13 +1462,18 @@ msgstr "nem támogatott beállítások a részleges rendezéshez"
 msgid "non-finite 'partial'"
 msgstr "nem végtelen 'partial'"
 
+msgid "'decreasing' of length > 1 is only for method = \"radix\""
+msgstr ""
+
 msgid "argument lengths differ"
 msgstr "eltérő argumentum hosszak"
 
 msgid "method = \"quick\" is only for numeric 'x'"
 msgstr ""
 
-msgid "'x' must be atomic for 'sort.list', method \"shell\" and \"quick\"\nHave you called 'sort' on a list?"
+msgid ""
+"'x' must be atomic for 'sort.list', method \"shell\" and \"quick\"\n"
+"Have you called 'sort' on a list?"
 msgstr ""
 
 msgid "cannot xtfrm 'x'"
@@ -1474,6 +1487,9 @@ msgstr "'echo' logikai kell legyen"
 
 msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
 msgstr "'verbose' TRUE, nem 'echo'; ... érvényre juttatva 'echo <- TRUE'"
+
+msgid "empty file/url name"
+msgstr ""
 
 msgid "unable to find a plausible encoding"
 msgstr "nem található elfogadható kódolás"
@@ -1496,6 +1512,16 @@ msgstr ""
 msgid "'%s' is not an existing file"
 msgstr "'%s' nem létező fájl"
 
+#, fuzzy
+msgid "'formula' must be a formula"
+msgstr "a 'from' karakter vagy raw típusú kell hogy legyen"
+
+msgid "Unexpected LHS in 'formula' has been ignored."
+msgstr ""
+
+msgid "Unexpected LHS in 'formula' has been combined with RHS."
+msgstr ""
+
 msgid "Timestamp of %s has changed"
 msgstr ""
 
@@ -1508,7 +1534,9 @@ msgstr "a stop()-ban további argumentumok figyelmen kívül hagyva"
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
 msgstr ""
 
-msgid "%s and %s are not equal:\n  %s"
+msgid ""
+"%s and %s are not equal:\n"
+"  %s"
 msgstr ""
 
 msgid "additional arguments ignored in warning()"
@@ -1526,7 +1554,9 @@ msgstr ""
 msgid "Sys.setenv(LANGUAGE=\"%s\") may have failed"
 msgstr ""
 
-msgid "Calling 'structure(NULL, *)' is deprecated, as NULL cannot have attributes.\n  Consider 'structure(list(), *)' instead."
+msgid ""
+"Calling 'structure(NULL, *)' is deprecated, as NULL cannot have attributes.\n"
+"  Consider 'structure(list(), *)' instead."
 msgstr ""
 
 msgid "incorrect value for 'x'"
@@ -1578,6 +1608,9 @@ msgstr "'bin' numerikus vagy faktor kell legyen"
 msgid "invalid value of %s"
 msgstr ""
 
+msgid "'X' must be a data frame when 'INDEX' is a formula"
+msgstr ""
+
 msgid "'INDEX' is of length zero"
 msgstr ""
 
@@ -1626,6 +1659,12 @@ msgstr "'width' pozitív kell legyen"
 msgid "No traceback available"
 msgstr "Traceback nem elérhető"
 
+msgid "invalid non-character version specification 'x' (type: %s)"
+msgstr ""
+
+msgid "Calls"
+msgstr ""
+
 msgid "invalid version specification %s"
 msgstr ""
 
@@ -1653,10 +1692,11 @@ msgstr ""
 msgid "invalid 'digits'"
 msgstr "érvénytelen 'digits'"
 
-msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
+msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
 msgstr ""
-"a 'show.output.on.console', 'minimized' és 'invisible' argumentumok csak "
-"Windows-hoz"
+
+msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
+msgstr "a 'show.output.on.console', 'minimized' és 'invisible' argumentumok csak Windows-hoz"
 
 msgid "'intern' must be TRUE or FALSE"
 msgstr "'intern' vagy TRUE vagy FALSE kell legyen"
@@ -1669,6 +1709,10 @@ msgstr "'ignore.stderr' vagy TRUE vagy FALSE kell legyen"
 
 msgid "'wait' must be TRUE or FALSE"
 msgstr "'wait' vagy TRUE vagy FALSE kell legyen"
+
+#, fuzzy
+msgid "'receive.console.signals' must be TRUE or FALSE"
+msgstr "'intern' vagy TRUE vagy FALSE kell legyen"
 
 msgid "'input' must be a character vector or 'NULL'"
 msgstr "'input' vagy karakter vektor vagy 'NULL' kell legyen"
@@ -1821,6 +1865,11 @@ msgid_plural "objects %s not found"
 msgstr[0] "a(z) %s objektum nem található"
 msgstr[1] "a(z) %s objektumok nem találhatók"
 
+msgid "'arg' should be %s"
+msgid_plural "'arg' should be one of %s"
+msgstr[0] ""
+msgstr[1] ""
+
 msgid "'by' must specify a uniquely valid column"
 msgid_plural "'by' must specify uniquely valid columns"
 msgstr[0] ""
@@ -1859,8 +1908,7 @@ msgstr[1] "a korábbi '%s' exportok leverélődnek"
 msgid "S3 method %s was declared in NAMESPACE but not found"
 msgid_plural "S3 methods %s were declared in NAMESPACE but not found"
 msgstr[0] "a(z) %s S3 eljárás deklarálva van a NAMESPACE-ben, de nem található"
-msgstr[1] ""
-"a(z) %s S3 eljárások deklarálva vannak a NAMESPACE-ben, de nem találhatók"
+msgstr[1] "a(z) %s S3 eljárások deklarálva vannak a NAMESPACE-ben, de nem találhatók"
 
 msgid "%s is not TRUE"
 msgid_plural "%s are not all TRUE"
@@ -1872,9 +1920,15 @@ msgid_plural "Warning messages:\n"
 msgstr[0] "Figyelmeztetés:\n"
 msgstr[1] "Figyelmeztetések:\n"
 
-msgid "In %s :\n extra argument %s will be disregarded"
-msgid_plural "In %s :\n extra arguments %s will be disregarded"
+msgid ""
+"In %s :\n"
+" extra argument %s will be disregarded"
+msgid_plural ""
+"In %s :\n"
+" extra arguments %s will be disregarded"
 msgstr[0] ""
 msgstr[1] ""
 
+#~ msgid "norm '%s' currently always uses exact = FALSE"
+#~ msgstr "norm '%s' jelenleg mindig exact = FALSE beállítást használ"
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 18:45+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -340,9 +340,7 @@ msgid "invalid list argument: all variables should have the same length"
 msgstr "argumento de lista inválido: todas las variables deben tener la misma longitud"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr ""
-"El número de columnas del resultado, %d, no es un múltiplo de la longitud "
-"del vector %d del argumento %d"
+msgstr "El número de columnas del resultado, %d, no es un múltiplo de la longitud del vector %d del argumento %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 rows> (o 0- extensión row.names)"
@@ -414,9 +412,7 @@ msgid "'length.out' must be of length 1"
 msgstr "'length.out' debe ser de longitud 1"
 
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
-msgstr ""
-"exactamente dos 'to', 'by' y 'length.out' / 'along.width' deben ser "
-"especificados"
+msgstr "exactamente dos 'to', 'by' y 'length.out' / 'along.width' deben ser especificados"
 
 msgid "'by' must be of length 1"
 msgstr "«by» debe ser de longitud 1"
@@ -474,9 +470,7 @@ msgid "'tzone' attributes are inconsistent"
 msgstr "los atributos 'tzone' son inconsistentes"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
-msgstr ""
-"as.character(td, ..) ya no obedece a un argumento de 'formato'; use format("
-"td, ..) ?"
+msgstr "as.character(td, ..) ya no obedece a un argumento de 'formato'; use format(td, ..) ?"
 
 msgid "'digits' must be numeric, integer valued"
 msgstr "'digits' debe ser numérico, con valores enteros"
@@ -580,18 +574,13 @@ msgid "multiple DLLs match '%s'. Using '%s'"
 msgstr "múltiples DLLs coinciden con '%s'. Usando '%s'"
 
 msgid "must specify DLL via a %s object. See getLoadedDLLs()"
-msgstr ""
-"se debe especificar una DLL a través de un objeto %s. Ver getLoadedDLLs()"
+msgstr "se debe especificar una DLL a través de un objeto %s. Ver getLoadedDLLs()"
 
 msgid "function is not in a namespace, so cannot locate associated DLL"
-msgstr ""
-"función no es un espacio de nombres, por lo que no se puede ubicar DLL "
-"asociada"
+msgstr "función no es un espacio de nombres, por lo que no se puede ubicar DLL asociada"
 
 msgid "looking for DLL for native routine call, but no DLLs in namespace of call"
-msgstr ""
-"buscando una DLL para el llamado nativo de rutina, pero no hay DLLs en el "
-"espacio de nombres del llamado"
+msgstr "buscando una DLL para el llamado nativo de rutina, pero no hay DLLs en el espacio de nombres del llamado"
 
 msgid "non-square matrix in 'eigen'"
 msgstr "matriz no cuadrada en 'eigen'"
@@ -628,9 +617,7 @@ msgstr "'%s' no está definido para factores ordenados"
 
 #, fuzzy
 msgid "'%s' is only meaningful for ordered factors if all arguments have the same level sets"
-msgstr ""
-"'%s' solo es significativo para factores ordenados si todos los argumentos "
-"tienen el mismo set de niveles"
+msgstr "'%s' solo es significativo para factores ordenados si todos los argumentos tienen el mismo set de niveles"
 
 #, fuzzy
 msgid "no files to copy to"
@@ -646,8 +633,7 @@ msgstr "más archivos 'from' que archivos 'to'"
 
 #, fuzzy
 msgid "'recursive' will be ignored as 'to' is not a single existing directory"
-msgstr ""
-"'recursive' será ignorado porque 'to' no es un solo directorio existente"
+msgstr "'recursive' será ignorado porque 'to' no es un solo directorio existente"
 
 msgid "cannot overwrite a non-directory with a directory"
 msgstr "no se puede sobreescribir un no-directorio con un directorio"
@@ -737,9 +723,7 @@ msgstr "'zero.print' debe ser carácter, lógico o NULL"
 
 #, fuzzy
 msgid "'zero.print' is truncated to fit into formatted zeros; consider 'replace=TRUE'"
-msgstr ""
-"'zero.print' está truncado para coincidir con zeros formateados; considere "
-"'replace=TRUE'"
+msgstr "'zero.print' está truncado para coincidir con zeros formateados; considere 'replace=TRUE'"
 
 msgid "'big.mark' and 'decimal.mark' are both '%s', which could be confusing"
 msgstr "'big.mark' y 'decimal.mark' son ambos '%s', lo cual puede ser confuso"
@@ -763,8 +747,7 @@ msgid "match distance components must be non-negative"
 msgstr "los componentes de distancia de coincidencia no deben ser negativos"
 
 msgid "unknown match distance components ignored"
-msgstr ""
-"los componentes de distancia de coincidencia desconocidos fueron ignorados"
+msgstr "los componentes de distancia de coincidencia desconocidos fueron ignorados"
 
 msgid "unknown cost components ignored"
 msgstr "los componentes de coste desconocidos fueron ignorados"
@@ -831,8 +814,7 @@ msgid "package %s has not been installed properly"
 msgstr "el paquete %s no ha sido instalado adecuadamente"
 
 msgid "package %s was built before R 3.0.0: please re-install it"
-msgstr ""
-"el paquete %s ha sido construido antes de R 3.0.0: por favor reinstálelo"
+msgstr "el paquete %s ha sido construido antes de R 3.0.0: por favor reinstálelo"
 
 #, fuzzy
 msgid "This is R %s, package %s needs %s %s"
@@ -850,11 +832,12 @@ msgstr "el paquete %s ha sido construido para %s"
 msgid "package %s is not installed for 'arch = %s'"
 msgstr "el paquete %s no está instalado para 'arch=%s'"
 
-msgid "Conflicts attaching package %s:\n%s"
-msgstr "Conflictos adjuntando el paquete %s:\n%s"
-
-msgid "packageConflictError"
+msgid ""
+"Conflicts attaching package %s:\n"
+"%s"
 msgstr ""
+"Conflictos adjuntando el paquete %s:\n"
+"%s"
 
 msgid "Attaching package: %s"
 msgstr "Adjuntando el paquete: %s"
@@ -886,16 +869,16 @@ msgid ""
 " %s"
 msgstr ""
 
-#, fuzzy
-msgid "package %s does not have a namespace and should be re-installed"
-msgstr "el paquete %s no tiene un namespace y debe ser reinstalado"
+msgid ""
+"package or namespace load failed for %s%s:\n"
+" %s"
+msgstr ""
 
 msgid "package %s already present in search()"
 msgstr "el paquete %s ya está presente en search()"
 
 msgid "'DESCRIPTION' has an 'Encoding' field and re-encoding is not possible"
-msgstr ""
-"'DESCRIPTION' tiene un campo 'Encoding' y la re-codificación no es posible"
+msgstr "'DESCRIPTION' tiene un campo 'Encoding' y la re-codificación no es posible"
 
 #, fuzzy
 msgid "%sPackages in library %s:"
@@ -955,15 +938,16 @@ msgid "none of the packages are loaded"
 msgstr "ninguno de los paquetes está cargado"
 
 #, fuzzy
-msgid "package %s found more than once, using the first from\n  %s"
+msgid ""
+"package %s found more than once, using the first from\n"
+"  %s"
 msgstr ""
 "el paquete %s fue encontrado más de una vez, usando el primero desde\n"
 "   %s"
 
 #, fuzzy
 msgid "Further information is available in the following vignettes in directory %s:"
-msgstr ""
-"Más información disponible en las siguientes viñetas en el directorio %s:"
+msgstr "Más información disponible en las siguientes viñetas en el directorio %s:"
 
 msgid "Description:"
 msgstr "Descripción:"
@@ -1008,9 +992,6 @@ msgstr "nada especificado para ser guardado por save()"
 msgid "'%s' must be a non-empty character string"
 msgstr "'name' debe ser un string de un solo caracter"
 
-msgid "'file' must be non-empty string"
-msgstr "'file' debe ser una cadena no vacía"
-
 #, fuzzy
 msgid "'compress' must be logical or character"
 msgstr "'compress' debe ser lógico o carácter"
@@ -1043,8 +1024,7 @@ msgid "invalid 'category' argument"
 msgstr "argumento 'category' inválido"
 
 msgid "must specify names of formal arguments for 'vectorize'"
-msgstr ""
-"se deben especificar los nombres de los argumentos formales para 'vectorize'"
+msgstr "se deben especificar los nombres de los argumentos formales para 'vectorize'"
 
 #, fuzzy
 msgid "FUN"
@@ -1063,9 +1043,6 @@ msgstr "'arg' debe ser de longitud 1"
 
 msgid "'arg' must be of length >= 1"
 msgstr "'arg' debe ser de longitud >= 1"
-
-msgid "'arg' should be one of %s"
-msgstr "'arg' debe ser uno de %s"
 
 #, fuzzy
 msgid "there is more than one match in 'match.arg'"
@@ -1121,8 +1098,7 @@ msgstr "'by' debe coincidir con el número de columnas"
 
 #, fuzzy
 msgid "'by' must specify one or more columns as numbers, names or logical"
-msgstr ""
-"'by' debe especificar una o más columnas como números, nombres o lógicos"
+msgstr "'by' debe especificar una o más columnas como números, nombres o lógicos"
 
 #, fuzzy
 msgid "long vectors are not supported"
@@ -2025,10 +2001,6 @@ msgstr[1] ""
 #~ msgstr "'flag' debe ser una cadena, es decir, de longitud 1"
 
 #, fuzzy
-#~ msgid ", will be ignored"
-#~ msgstr "el argumento '%s' será ignorado"
-
-#, fuzzy
 #~ msgid "package %s does not have a namespace and should be re-installed"
 #~ msgstr "el paquete %s no tiene un namespace y debe ser reinstalado"
 
@@ -2037,6 +2009,10 @@ msgstr[1] ""
 
 #~ msgid "'arg' should be one of %s"
 #~ msgstr "'arg' debe ser uno de %s"
+
+#, fuzzy
+#~ msgid ", will be ignored"
+#~ msgstr "el argumento '%s' será ignorado"
 
 #~ msgid "defunctError"
 #~ msgstr "defunctError"
@@ -2049,11 +2025,3 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
-
-
-
-
-
-
-
-
