@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -109,10 +109,7 @@ msgstr "l'objet de classe \"%s\" utilis� comme m�thode pour la fonction '%s'
 #: methods_list_dispatch.c:671
 #, c-format
 msgid "(in selecting a method for function '%s') '...' and related variables cannot be used for methods dispatch"
-msgstr ""
-"(lors de la s�lection d'une m�thode pour la fonction '%s') '...' et les "
-"variables correspondantes ne peuvent �tre utilis�s pour le dispatching "
-"des m�thodes"
+msgstr "(lors de la s�lection d'une m�thode pour la fonction '%s') '...' et les variables correspondantes ne peuvent �tre utilis�s pour le dispatching des m�thodes"
 
 #: methods_list_dispatch.c:674
 #, c-format
