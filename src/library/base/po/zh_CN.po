@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -346,9 +346,9 @@ msgstr "'names'必需是字符向量"
 
 #: src/gnuwin32/sys-win32.c:116 src/gnuwin32/sys-win32.c:138
 #: src/gnuwin32/sys-win32.c:149
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"expanded path length %d would be too long for\n"
+"expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
 "扩展路径长度 %d 太长了，对于\n"
@@ -735,6 +735,7 @@ msgstr "无法为“DllInfo”分配空间"
 msgid "path too long"
 msgstr "路径太长"
 
+#: src/main/Rdynload.c:1223 src/main/Rdynload.c:1240 src/main/util.c:826
 msgid "character argument expected"
 msgstr "需要字符参数"
 
@@ -1772,8 +1773,8 @@ msgstr "as.call(<character>) 不可行;考虑 str2lang(<char.>)"
 msgid "invalid argument list"
 msgstr "参数列表无效"
 
-#: src/main/coerce.c:1800
-#, c-format, fuzzy
+#: src/main/coerce.c:1797
+#, c-format
 msgid "'length = %lld' in coercion to '%s'"
 msgstr ""
 
@@ -1875,7 +1876,7 @@ msgstr "多项式系数无效"
 msgid "root finding code failed"
 msgstr "寻根码运行失败"
 
-#: src/main/connections.c:180
+#: src/main/connections.c:193
 #, c-format
 msgid "all %d connections are in use"
 msgstr "所有 %d 连接都在使用"
@@ -1994,7 +1995,7 @@ msgstr "区组太大"
 msgid "allocation of fifo name failed"
 msgstr "先进先出名称分配失败"
 
-#: src/main/connections.c:1283
+#: src/main/connections.c:1393
 #, c-format
 msgid "cannot open fifo '%s', reason '%s'"
 msgstr "无法打开 fifo '%s'，原因为“%s”"
@@ -2180,12 +2181,12 @@ msgstr "无法读取原始链结范围外的内容"
 msgid "allocation of raw connection failed"
 msgstr "原始链结分配失败"
 
-#: src/main/connections.c:3069
+#: src/main/connections.c:3126
 #, c-format
 msgid "'%s' is not a %s"
 msgstr "“%s”不是一个 %s"
 
-#: src/main/connections.c:3073
+#: src/main/connections.c:3130
 #, c-format
 msgid "internal connection is not a %s"
 msgstr "内部连接不是 %s"
@@ -2246,7 +2247,7 @@ msgstr "链结已打开"
 msgid "unknown 'rw' value"
 msgstr "没有这样的'rw'值"
 
-#: src/main/connections.c:3744
+#: src/main/connections.c:3801
 #, c-format
 msgid "Problem closing connection:  %s"
 msgstr "关闭连接时出现问题：%s"
@@ -2274,12 +2275,12 @@ msgstr "无法关闭'message'汇集链结"
 msgid "connection is not open"
 msgstr "链结没有打开"
 
-#: src/main/connections.c:3943 src/main/connections.c:3956
+#: src/main/connections.c:4000 src/main/connections.c:4013
 #, c-format
 msgid "line longer than buffer size %lu"
 msgstr "行长于缓冲区大小 %lu"
 
-#: src/main/connections.c:3974
+#: src/main/connections.c:4031
 #, c-format
 msgid "Error writing to connection:  %s"
 msgstr "写入连接时出错：%s"
@@ -2574,7 +2575,7 @@ msgstr "没有可回归的函数, 跳到最高层"
 msgid "target context is not on the stack"
 msgstr "目标上下文不在堆叠上"
 
-#: src/main/context.c:377
+#: src/main/context.c:382
 msgid "NA argument is invalid"
 msgstr "NA 参数无效"
 
@@ -2686,7 +2687,7 @@ msgstr ""
 msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
 msgstr "非空“POSIXlt”结构中的零长度组件 [%d]]"
 
-#: src/main/datetime.c:1765
+#: src/main/datetime.c:1771
 #, c-format
 msgid "'%s' is not a \"%s\""
 msgstr "“%s”不是一个 “%s”"
@@ -3549,7 +3550,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "警告信息丢失\n"
 
-#: src/main/errors.c:602
+#: src/main/errors.c:609
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "警告信息:"
@@ -3559,13 +3560,13 @@ msgstr[0] "警告信息:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:665
+#: src/main/errors.c:672
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "共有%d个警告 (用warnings()来显示)"
 
-#: src/main/errors.c:670
+#: src/main/errors.c:677
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
 msgstr "警告多于%d个(用warnings()来显示第一个到第%d个)"
@@ -3582,12 +3583,12 @@ msgstr ""
 msgid "Error in "
 msgstr "错误于 "
 
-#: src/main/errors.c:810 src/main/errors.c:817
+#: src/main/errors.c:814 src/main/errors.c:821
 #, c-format
 msgid "Error in %s (from %s) : "
 msgstr "%s中错误(从%s) : "
 
-#: src/main/errors.c:819
+#: src/main/errors.c:823
 #, c-format
 msgid "Error in %s : "
 msgstr "错误于%s: "
@@ -4084,6 +4085,7 @@ msgstr "剪裁多重线的时候内存不足"
 msgid "contextstack overflow (%s:%d:%d)"
 msgstr "节点堆叠上溢"
 
+#: src/main/gram.y:2381 src/main/gram.y:2387 src/main/gram.y:2409
 #, c-format
 msgid "unexpected input"
 msgstr "意外的输入"
@@ -4211,7 +4213,7 @@ msgstr "\\U{xxxxxxxx}顺序无效(%d行)"
 
 #: src/main/gram.y:3099
 #, fuzzy, c-format
-msgid "'\\%c' is an unrecognized escape in character string starting \"%s\""
+msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
 msgstr "“\\%c”转义符号在以“%s”开头的字符串中无法识别"
 
 #: src/main/gram.y:3180 src/main/gram.y:3320
@@ -4637,9 +4639,9 @@ msgstr "不能有负长度向量"
 msgid "cannot allocate vector of length %lld"
 msgstr "无法分配长度为%lld的向量"
 
-#: src/main/memory.c:2773
-#, c-format
-msgid "invalid type/length (%s/%d) in vector allocation"
+#: src/main/memory.c:2823
+#, fuzzy, c-format
+msgid "invalid type/length (%s/%lld) in vector allocation"
 msgstr "向量分配的类型/长度(%s/%d)无效"
 
 #: src/main/memory.c:2916 src/main/memory.c:2920
@@ -5520,8 +5522,7 @@ msgstr "正值机率太少"
 
 #: src/main/random.c:485 src/main/random.c:513
 msgid "cannot take a sample larger than the population when 'replace = FALSE'"
-msgstr ""
-"'replace = FALSE'，因此不能取比总体要大的样本"
+msgstr "'replace = FALSE'，因此不能取比总体要大的样本"
 
 #: src/main/random.c:492
 msgid "incorrect number of probabilities"
@@ -6468,8 +6469,8 @@ msgid "attempt to enlarge non-vector"
 msgstr "不能把非向量变大"
 
 #: src/main/subassign.c:147
-#, c-format
-msgid "assignment outside vector/list limits (extending from %d to %d)"
+#, fuzzy, c-format
+msgid "assignment outside vector/list limits (extending from %lld to %lld)"
 msgstr "不能在向量/列表极限外赋值(%d加大到%d)"
 
 #: src/main/subassign.c:274
@@ -7450,12 +7451,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl失败:’%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8811,15 +8812,4 @@ msgstr "警告: 只修改文件列表中的第一个元素"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname'不能调用于非原始函数"
-
-
-
-
-
-
-
-
-
-
-
 
