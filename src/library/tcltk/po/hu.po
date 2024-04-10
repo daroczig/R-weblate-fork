@@ -41,8 +41,7 @@ msgstr "érvénytelen tclObj -- talán másik munkafolyamatban lett mentve?"
 
 #: tcltk.c:646
 msgid "argument list is too long in tcltk internal function 'callback_closure'"
-msgstr ""
-"az argumentum lista túl hosszú a tcltk 'callback_closure' belső függvényéhez"
+msgstr "az argumentum lista túl hosszú a tcltk 'callback_closure' belső függvényéhez"
 
 #: tcltk.c:679
 msgid "argument is not of correct type"
@@ -52,11 +51,10 @@ msgstr "az argumentum típusa nem megfelelő"
 msgid "no DISPLAY variable so Tk is not available"
 msgstr "nincsen DISPLAY változó megadva, így a Tk nem elérhető"
 
-#: tcltk_unix.c:111
+#: tcltk_unix.c:113
 msgid "Tcl is not loaded"
 msgstr "A Tcl nincs betöltve"
 
-#: tcltk_unix.c:115
+#: tcltk_unix.c:117
 msgid "Tcl is not last loaded handler"
 msgstr "A Tcl nem a legutolsára betöltött kezelő"
-
