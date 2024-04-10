@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-3.5.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 19:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -1103,8 +1103,7 @@ msgid "using F test with a fixed dispersion is inappropriate"
 msgstr "고정된 dispersion을 이용해서 F 테스트를 사용하는 것은 부적절합니다"
 
 msgid "models with response %s removed because response differs from model 1"
-msgstr "응답 %s를 가지는 모델들은 제거되었습니다. 그 이유는 응답이 모델 1과 다르기 "
-"때문입니다"
+msgstr "응답 %s를 가지는 모델들은 제거되었습니다. 그 이유는 응답이 모델 1과 다르기 때문입니다"
 
 msgid "models were not all fitted to the same size of dataset"
 msgstr ""

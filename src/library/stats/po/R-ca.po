@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-22 18:10+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -32,9 +32,7 @@ msgid "'alpha', 'beta' and 'gamma' must be within the unit interval"
 msgstr "«alpha», «beta» i «gamma» han de ser dins l'interval unitat"
 
 msgid "data must be non-zero for multiplicative Holt-Winters"
-msgstr ""
-"les dades han de ser diferents de zero per al mètode de Holt-Winters "
-"multiplicatiu"
+msgstr "les dades han de ser diferents de zero per al mètode de Holt-Winters multiplicatiu"
 
 msgid "need at least 2 periods to compute seasonal start values"
 msgstr "calen almenys 2 períodes per calcular valors d'inici estacionals"
@@ -70,9 +68,7 @@ msgid "all parameters were fixed"
 msgstr "s'han corregit tots els arguments"
 
 msgid "possible convergence problem: 'optim' gave code = %d and message %s"
-msgstr ""
-"possible problema de convergència: «optim» ha donat el codi = %d i el "
-"missatge %s"
+msgstr "possible problema de convergència: «optim» ha donat el codi = %d i el missatge %s"
 
 msgid "no factors in the fitted model"
 msgstr "no hi ha factors en el model ajustat"
@@ -114,13 +110,10 @@ msgid "no terms in scope for adding to object"
 msgstr "no hi ha termes en l'àmbit per afegir a l'objecte"
 
 msgid "number of rows in use has changed: remove missing values?"
-msgstr ""
-"el nombre de files en ús ha canviat: voleu eliminar els valors no "
-"disponibles?"
+msgstr "el nombre de files en ús ha canviat: voleu eliminar els valors no disponibles?"
 
 msgid "attempting model selection on an essentially perfect fit is nonsense"
-msgstr ""
-"intentar la selecció del model en un ajust essencialment perfecte és absurd"
+msgstr "intentar la selecció del model en un ajust essencialment perfecte és absurd"
 
 msgid "F test assumes quasi%s family"
 msgstr "La prova F assumeix una família quasi%s"
@@ -138,18 +131,17 @@ msgid "F test assumes 'quasi%s' family"
 msgstr "La prova F assumeix una família «quasi%s»"
 
 msgid "AIC is not defined for this model, so 'step' cannot proceed"
-msgstr ""
-"L'AIC no està definit per a aquest model, de manera que «step» no pot "
-"procedir"
+msgstr "L'AIC no està definit per a aquest model, de manera que «step» no pot procedir"
 
 msgid "AIC is -infinity for this model, so 'step' cannot proceed"
-msgstr ""
-"L'AIC és -infinit per a aquest model, de manera que el «step» no pot procedir"
+msgstr "L'AIC és -infinit per a aquest model, de manera que el «step» no pot procedir"
 
 msgid "'A' must be an array or table"
 msgstr "«A» ha de ser un vector o una taula"
 
-msgid "length of FUN, %d,\n does not match the length of the margins, %d"
+msgid ""
+"length of FUN, %d,\n"
+" does not match the length of the margins, %d"
 msgstr ""
 "la longitud de FUN, %d,\n"
 " no correspon amb la longitud dels marges, %d"
@@ -203,9 +195,7 @@ msgid "not enough 'y' observations"
 msgstr "no hi ha proutes observacions «y»"
 
 msgid "samples differ in location: cannot compute confidence set, returning NA"
-msgstr ""
-"les mostres difereixen en la ubicació: no es pot calcular el conjunt de "
-"confiança, retornant NA"
+msgstr "les mostres difereixen en la ubicació: no es pot calcular el conjunt de confiança, retornant NA"
 
 msgid "cannot compute confidence set, returning NA"
 msgstr "no es pot calcular el conjunt de confiança, retornant NA"
@@ -250,8 +240,7 @@ msgid "the contrast defined is empty (has no TRUE elements)"
 msgstr "el contrast definit és buit (no té elements TRUE)"
 
 msgid "columns of 'contrast.obj' must define a contrast (sum to zero)"
-msgstr ""
-"les columnes de «contrast.obj» han de definir un contrast (han de sumar zero)"
+msgstr "les columnes de «contrast.obj» han de definir un contrast (han de sumar zero)"
 
 msgid "no degrees of freedom for residuals"
 msgstr "no hi ha graus de llibertat per als residus"
@@ -263,8 +252,7 @@ msgid "Refitting model to allow projection"
 msgstr "Reajustant el model per permetre la projecció"
 
 msgid "columns of 'contrast.obj' must define a contrast(sum to zero)"
-msgstr ""
-"les columnes de «contrast.obj» han de definir un contrast(han de sumar zero)"
+msgstr "les columnes de «contrast.obj» han de definir un contrast(han de sumar zero)"
 
 msgid "'ties' is not \"ordered\", a function, or list(<string>, <function>)"
 msgstr "«ties» no és «ordered», una funció, o list(<string>, <function>)"
@@ -372,8 +360,7 @@ msgid "converting non-invertible initial MA values"
 msgstr "convertint els valors MA inicials no invertibles"
 
 msgid "some ARMA parameters were fixed: setting transform.pars = FALSE"
-msgstr ""
-"s'han corregit alguns paràmetres ARMA: s'estableix transform.pars = FALSE"
+msgstr "s'han corregit alguns paràmetres ARMA: s'estableix transform.pars = FALSE"
 
 msgid "'xreg' is collinear"
 msgstr "«xreg» és col·lineal"
@@ -529,9 +516,7 @@ msgid "contrasts not defined for %d degrees of freedom"
 msgstr "contrastos no definits per %d graus de llibertat"
 
 msgid "orthogonal polynomials cannot be represented accurately enough for %d degrees of freedom"
-msgstr ""
-"els polinomis ortogonals no es poden representar de forma suficientment "
-"precisa per a %d graus de llibertat"
+msgstr "els polinomis ortogonals no es poden representar de forma suficientment precisa per a %d graus de llibertat"
 
 msgid "'scores' argument is of the wrong length"
 msgstr "l'argument «scores» té una longitud incorrecta"
@@ -622,7 +607,7 @@ msgid "'V' is not a square numeric matrix"
 msgstr "«V» no és una matriu numèrica quadrada"
 
 #, fuzzy
-msgid "diag(.) had 0 or NA entries; non-finite result is doubtful"
+msgid "diag(V) had non-positive or NA entries; the non-finite result may be dubious"
 msgstr "diag(.) té 0 o NA entrades; el resultat no definit és dubtos"
 
 #, fuzzy
@@ -685,9 +670,7 @@ msgstr "els elements de «k» han d'estar entre 1 i %d"
 
 #, fuzzy
 msgid "dendrogram entries must be 1,2,..,%d (in any order), to be coercible to \"hclust\""
-msgstr ""
-"les entrades de dendrogram han de ser 1,2,..,%d (en qualsevol ordre), per "
-"ser coercibles amb \"hclust\""
+msgstr "les entrades de dendrogram han de ser 1,2,..,%d (en qualsevol ordre), per ser coercibles amb \"hclust\""
 
 #, fuzzy
 msgid "dendrogram node with non-positive #{branches}"
@@ -739,8 +722,7 @@ msgstr "«margins» ha de ser un vector numèric de longitud 2"
 
 #, fuzzy
 msgid "row dendrogram ordering gave index of wrong length"
-msgstr ""
-"l'ordenació de dendrograms de files ha donat un índex de longitud incorrecta"
+msgstr "l'ordenació de dendrograms de files ha donat un índex de longitud incorrecta"
 
 #, fuzzy
 msgid "Colv = \"Rowv\" but nrow(x) != ncol(x)"
@@ -748,8 +730,7 @@ msgstr "Colv = \"Rowv\" però nrow(x) != ncol(x)"
 
 #, fuzzy
 msgid "column dendrogram ordering gave index of wrong length"
-msgstr ""
-"l'ordre de dendrograms de columnes ha donat un índex de longitud incorrecta"
+msgstr "l'ordre de dendrograms de columnes ha donat un índex de longitud incorrecta"
 
 #, fuzzy
 msgid "'ColSideColors' must be a character vector of length ncol(x)"
@@ -785,9 +766,7 @@ msgstr "sum(pes) != 1 -- no obtindrà una densitat real"
 
 #, fuzzy
 msgid "need at least 2 points to select a bandwidth automatically"
-msgstr ""
-"es necessiten almenys 2 punts per a seleccionar automàticament l'amplada de "
-"banda"
+msgstr "es necessiten almenys 2 punts per a seleccionar automàticament l'amplada de banda"
 
 #, fuzzy
 msgid "Selecting bandwidth *not* using 'weights'"
@@ -883,8 +862,7 @@ msgstr "alguns termes tindran NAs a causa dels límits del mètode"
 
 #, fuzzy
 msgid "multivariate case with missing coefficients is not yet implemented"
-msgstr ""
-"el cas multivariant amb coeficients que manquen encara no està implementat"
+msgstr "el cas multivariant amb coeficients que manquen encara no està implementat"
 
 #, fuzzy
 msgid "'x' must have 1 or more non-missing values"
@@ -936,9 +914,7 @@ msgstr "%s enllaç no reconegut"
 
 #, fuzzy
 msgid "link \"%s\" not available for %s family; available links are %s"
-msgstr ""
-"l'enllaç «%s» no està disponible per a la família %s; els enllaços "
-"disponibles són %s"
+msgstr "l'enllaç «%s» no està disponible per a la família %s; els enllaços disponibles són %s"
 
 #, fuzzy
 msgid "negative values not allowed for the 'Poisson' family"
@@ -968,7 +944,9 @@ msgid "non-integer counts in a %s glm!"
 msgstr "recomptes no enters en un glm de %s!"
 
 #, fuzzy
-msgid "for the '%s' family, y must be a vector of 0 and 1's\nor a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
+msgid ""
+"for the '%s' family, y must be a vector of 0 and 1's\n"
+"or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
 "per a la família «%s», y ha de ser un vector de 0 i 1's\n"
 "o una matriu de 2 columnes on col 1 és no. èxits i col 2 és no. fracassos"
@@ -991,9 +969,7 @@ msgstr "només es permeten valors positius per a la família «inversa.gaussiana
 
 #, fuzzy
 msgid "need CRAN package 'SuppDists' for simulation from the 'inverse.gaussian' family"
-msgstr ""
-"necessita el paquet CRAN «SuppDists» per a la simulació des de la família "
-"«inverse.gaussian»"
+msgstr "necessita el paquet CRAN «SuppDists» per a la simulació des de la família «inverse.gaussian»"
 
 #, fuzzy
 msgid "using weights as inverse variances"
@@ -1001,9 +977,7 @@ msgstr "utilitzar pesos com a variàncies inverses"
 
 #, fuzzy
 msgid "'variance' \"%s\" is invalid: possible values are \"mu(1-mu)\", \"mu\", \"mu^2\", \"mu^3\" and \"constant\""
-msgstr ""
-"'variance' \"%s\" no és vàlid: els valors possibles són \"mu(1-mu)\", \"mu\""
-", \"mu\",2\", \"mu\"3\" i \"constant\""
+msgstr "'variance' \"%s\" no és vàlid: els valors possibles són \"mu(1-mu)\", \"mu\", \"mu\",2\", \"mu\"3\" i \"constant\""
 
 #, fuzzy
 msgid "length mismatch in convolution"
@@ -1167,9 +1141,7 @@ msgid "up"
 msgstr "amunt"
 
 msgid "profiling has found a better solution, so original fit had not converged"
-msgstr ""
-"el perfilador ha trobat una solució millor, de manera que l'ajust original "
-"no ha convergit"
+msgstr "el perfilador ha trobat una solució millor, de manera que l'ajust original no ha convergit"
 
 #, fuzzy
 msgid "'family' not recognized"
@@ -1189,15 +1161,11 @@ msgstr "no es permeten pesos negatius"
 
 #, fuzzy
 msgid "number of offsets is %d should equal %d (number of observations)"
-msgstr ""
-"el nombre de desplaçaments és %d hauria de ser igual a %d (nombre "
-"d'observacions)"
+msgstr "el nombre de desplaçaments és %d hauria de ser igual a %d (nombre d'observacions)"
 
 #, fuzzy
 msgid "fitting to calculate the null deviance did not converge -- increase 'maxit'?"
-msgstr ""
-"ajustant per calcular el desviament nul no convergeix -- augmenteu el "
-"«màxim»?"
+msgstr "ajustant per calcular el desviament nul no convergeix -- augmenteu el «màxim»?"
 
 msgid "value of 'epsilon' must be > 0"
 msgstr "el valor d'«epsilon» ha de ser > 0"
@@ -1219,9 +1187,7 @@ msgstr "mitjana ajustada no vàlida en el model buit"
 
 #, fuzzy
 msgid "length of 'start' should equal %d and correspond to initial coefs for %s"
-msgstr ""
-"la longitud de «start» hauria de ser igual a %d i correspondria als coefs "
-"inicials de %s"
+msgstr "la longitud de «start» hauria de ser igual a %d i correspondria als coefs inicials de %s"
 
 #, fuzzy
 msgid "NAs in V(mu)"
@@ -1249,9 +1215,7 @@ msgstr "s'ha trobat un ajust singular"
 
 #, fuzzy
 msgid "no valid set of coefficients has been found: please supply starting values"
-msgstr ""
-"no s'ha trobat cap conjunt vàlid de coeficients: proporcioneu els valors "
-"inicials"
+msgstr "no s'ha trobat cap conjunt vàlid de coeficients: proporcioneu els valors inicials"
 
 #, fuzzy
 msgid "step size truncated due to divergence"
@@ -1302,8 +1266,7 @@ msgstr "utilitzar la prova F amb una dispersió fixa no és apropiat"
 
 #, fuzzy
 msgid "models with response %s removed because response differs from model 1"
-msgstr ""
-"models amb resposta %s eliminats perquè la resposta difereix del model 1"
+msgstr "models amb resposta %s eliminats perquè la resposta difereix del model 1"
 
 #, fuzzy
 msgid "models were not all fitted to the same size of dataset"
@@ -1443,8 +1406,7 @@ msgstr "el nombre de centres de clúster ha de ser entre 1 i nrow(x)"
 
 #, fuzzy
 msgid "Quick-TRANSfer stage steps exceeded maximum (= %d)"
-msgstr ""
-"Els passos de la fase de transferència ràpida han superat el màxim (= %d)"
+msgstr "Els passos de la fase de transferència ràpida han superat el màxim (= %d)"
 
 msgid "invalid nrow(x)"
 msgstr "nrow(x) no vàlid"
@@ -1506,14 +1468,11 @@ msgstr "el valor p serà aproximat en presència de vincles"
 
 #, fuzzy
 msgid "'y' must be numeric or a function or a string naming a valid function"
-msgstr ""
-"«y» ha de ser numèric o una funció o una cadena que nomeni una funció vàlida"
+msgstr "«y» ha de ser numèric o una funció o una cadena que nomeni una funció vàlida"
 
 #, fuzzy
 msgid "ties should not be present for the one-sample Kolmogorov-Smirnov test"
-msgstr ""
-"els enllaços no haurien d'estar presents per a la prova Kolmogorov-Smirnov "
-"d'una mostra"
+msgstr "els enllaços no haurien d'estar presents per a la prova Kolmogorov-Smirnov d'una mostra"
 
 #, fuzzy
 msgid "invalid arguments"
@@ -1529,16 +1488,16 @@ msgstr "l'argument «q» ha de ser numèric"
 
 #, fuzzy
 msgid "computation of exact probability failed, returning Monte Carlo approximation"
-msgstr ""
-"Ha fallat el càlcul de la probabilitat exacta, retornant l'aproximació de "
-"Monte Carlo"
+msgstr "Ha fallat el càlcul de la probabilitat exacta, retornant l'aproximació de Monte Carlo"
 
 #, fuzzy
 msgid "argument 'p' must be numeric"
 msgstr "l'argument «p» ha de ser numèric"
 
 #, fuzzy
-msgid "numeric y must be supplied.\nFor density estimation use density()"
+msgid ""
+"numeric y must be supplied.\n"
+"For density estimation use density()"
 msgstr ""
 "s'ha de proporcionar una y numèrica.\n"
 "Per a l'estimació de densitat useu «density()»"
@@ -1553,9 +1512,7 @@ msgstr "el mètode = '%s' no és compatible. Utilitzant «qr»"
 
 #, fuzzy
 msgid "number of offsets is %d, should equal %d (number of observations)"
-msgstr ""
-"el nombre de desplaçaments és %d, hauria de ser igual a %d (nombre "
-"d'observacions)"
+msgstr "el nombre de desplaçaments és %d, hauria de ser igual a %d (nombre d'observacions)"
 
 #, fuzzy
 msgid "'x' must be a matrix"
@@ -1583,16 +1540,16 @@ msgstr "s'està cridant el resum.lm(<fake-lm-object>) ..."
 
 #, fuzzy
 msgid "residual degrees of freedom in object suggest this is not an \"lm\" fit"
-msgstr ""
-"graus residuals de llibertat a l'objecte suggereixen que això no és un ajust "
-"«lm»"
+msgstr "graus residuals de llibertat a l'objecte suggereixen que això no és un ajust «lm»"
 
 #, fuzzy
 msgid "essentially perfect fit: summary may be unreliable"
 msgstr "Ajust essencialment perfecte: el resum pot ser poc fiable"
 
 #, fuzzy
-msgid "lm object does not have a proper 'qr' component.\n Rank zero or should not have used lm(.., qr=FALSE)."
+msgid ""
+"lm object does not have a proper 'qr' component.\n"
+" Rank zero or should not have used lm(.., qr=FALSE)."
 msgstr ""
 "L'objecte lm no té un component «qr» adequat.\n"
 " Rank zero o no hauria d'haver utilitzat lm(.., qr=FALSE)."
@@ -1639,20 +1596,15 @@ msgstr "%s: S'han produït SD per a casos no estimables"
 
 #, fuzzy
 msgid "predictions on current data refer to _future_ responses"
-msgstr ""
-"les prediccions sobre les dades actuals es refereixen a respostes futures"
+msgstr "les prediccions sobre les dades actuals es refereixen a respostes futures"
 
 #, fuzzy
 msgid "assuming prediction variance inversely proportional to weights used for fitting"
-msgstr ""
-"s'assumeix la variància de la predicció inversament proporcional als pesos "
-"utilitzats per ajustar"
+msgstr "s'assumeix la variància de la predicció inversament proporcional als pesos utilitzats per ajustar"
 
 #, fuzzy
 msgid "Assuming constant prediction variance even though model fit is weighted"
-msgstr ""
-"Suposant la variància de la predicció constant tot i que l'ajust del model "
-"està ponderat"
+msgstr "Suposant la variància de la predicció constant tot i que l'ajust del model està ponderat"
 
 #, fuzzy
 msgid "'weights' as formula should be one-sided"
@@ -1672,8 +1624,7 @@ msgstr "la matriu QR del model no és vàlida"
 
 #, fuzzy
 msgid "non-NA residual length does not match cases used in fitting"
-msgstr ""
-"la longitud residual no-NA no coincideix amb els casos utilitzats en l'ajust"
+msgstr "la longitud residual no-NA no coincideix amb els casos utilitzats en l'ajust"
 
 #, fuzzy
 msgid "too few cases i with h_ii > 0), n < k"
@@ -1713,15 +1664,11 @@ msgstr "«y» no vàlid"
 
 #, fuzzy
 msgid "specified the square of a factor predictor to be dropped when degree = 1"
-msgstr ""
-"s'ha especificat el quadrat d'un factor predictor que es deixarà caure quan "
-"el grau = 1"
+msgstr "s'ha especificat el quadrat d'un factor predictor que es deixarà caure quan el grau = 1"
 
 #, fuzzy
 msgid "specified the square of a predictor to be dropped with only one numeric predictor"
-msgstr ""
-"especifica el quadrat d'un predictor que s'ha de deixar caure amb només un "
-"predictor numèric"
+msgstr "especifica el quadrat d'un predictor que s'ha de deixar caure amb només un predictor numèric"
 
 #, fuzzy
 msgid "specified parametric for all predictors"
@@ -1886,10 +1833,11 @@ msgid "design is unbalanced so cannot proceed"
 msgstr "el disseny està desequilibrat, per tant no es pot continuar"
 
 #, fuzzy
-msgid "Standard error information not returned as design is unbalanced. \nStandard errors can be obtained through 'se.contrast'."
+msgid ""
+"Standard error information not returned as design is unbalanced. \n"
+"Standard errors can be obtained through 'se.contrast'."
 msgstr ""
-"La informació estàndard d'error no es retorna perquè el disseny està "
-"desequilibrat. \n"
+"La informació estàndard d'error no es retorna perquè el disseny està desequilibrat. \n"
 "Els errors estàndard es poden obtenir a través de «se.contrast»."
 
 #, fuzzy
@@ -1906,8 +1854,7 @@ msgstr "s'han ignorat els no-factors: %s"
 
 #, fuzzy
 msgid "eff.aovlist: non-orthogonal contrasts would give an incorrect answer"
-msgstr ""
-"eff.aovlist: els contrastos no ortogonals donarien una resposta incorrecta"
+msgstr "eff.aovlist: els contrastos no ortogonals donarien una resposta incorrecta"
 
 #, fuzzy
 msgid "cannot create a formula from a zero-column data frame"
@@ -1939,8 +1886,7 @@ msgstr "no hi ha cap component ni atribut de termes"
 
 #, fuzzy
 msgid "'termlabels' must be a character vector of length at least one"
-msgstr ""
-"«termlabels» ha de ser un vector de caràcters de longitud com a mínim un"
+msgstr "«termlabels» ha de ser un vector de caràcters de longitud com a mínim un"
 
 #, fuzzy
 msgid "'%s' must be a character string"
@@ -1948,19 +1894,18 @@ msgstr "«%s» ha de ser una cadena de caràcters"
 
 #, fuzzy
 msgid "Unparseable 'response' \"%s\"; use is deprecated.  Use as.name(.) or `..`!"
-msgstr ""
-"No es pot analitzar «%s» de resposta; l'ús és obsolet.  Utilitzeu as.name(.) "
-"o `..`!"
+msgstr "No es pot analitzar «%s» de resposta; l'ús és obsolet.  Utilitzeu as.name(.) o `..`!"
 
 #, fuzzy
 msgid "'termobj' must be a object of class %s"
 msgstr "'termobj' ha de ser un objecte de la classe %s"
 
+msgid "setting '%s' in terms.formula() is deprecated"
+msgstr ""
+
 #, fuzzy
 msgid "variable '%s' was fitted with type \"%s\" but type \"%s\" was supplied"
-msgstr ""
-"la variable «%s» s'ha instal·lat amb el tipus «%s», però s'ha subministrat "
-"el tipus «%s»"
+msgstr "la variable «%s» s'ha instal·lat amb el tipus «%s», però s'ha subministrat el tipus «%s»"
 
 #, fuzzy
 msgid "variables %s were specified with different types from the fit"
@@ -2059,9 +2004,7 @@ msgid "no sign change found in %d iterations"
 msgstr "no s'ha trobat cap canvi de signe a %d iteracions"
 
 msgid "did not succeed extending the interval endpoints for f(lower) * f(upper) <= 0"
-msgstr ""
-"no s'ha aconseguit estendre els extrems de l'interval per f(lower) * f(upper)"
-" <= 0"
+msgstr "no s'ha aconseguit estendre els extrems de l'interval per f(lower) * f(upper) <= 0"
 
 #, fuzzy
 msgid "f() values at end points not of opposite sign"
@@ -2112,9 +2055,7 @@ msgstr "'attr(rhs, \"gradient\") no vàlid"
 
 #, fuzzy
 msgid "setVarying : 'vary' length must match length of parameters"
-msgstr ""
-"setVarying : la longitud «vary» ha de coincidir amb la longitud dels "
-"arguments"
+msgstr "setVarying : la longitud «vary» ha de coincidir amb la longitud dels arguments"
 
 #, fuzzy
 msgid "singular gradient matrix at initial parameter estimates"
@@ -2146,8 +2087,7 @@ msgstr "s'ignorarà l'argument «na.action»"
 
 #, fuzzy
 msgid "upper and lower bounds ignored unless algorithm = \"port\""
-msgstr ""
-"s'ignoraran els límits superior i inferior a menys que l'algorisme = «port»"
+msgstr "s'ignoraran els límits superior i inferior a menys que l'algorisme = «port»"
 
 #, fuzzy
 msgid "cannot calculate REML log-likelihood for \"nls\" objects"
@@ -2195,20 +2135,19 @@ msgstr "'trace != 0' necessita 'INFORME == 1'"
 
 #, fuzzy
 msgid "method L-BFGS-B uses 'factr' (and 'pgtol') instead of 'reltol' and 'abstol'"
-msgstr ""
-"el mètode L-BFGS-B utilitza 'factr' (i 'pgtol') en lloc de 'reltol' i "
-"'abstol'"
+msgstr "el mètode L-BFGS-B utilitza 'factr' (i 'pgtol') en lloc de 'reltol' i 'abstol'"
 
 #, fuzzy
-msgid "one-dimensional optimization by Nelder-Mead is unreliable:\nuse \"Brent\" or optimize() directly"
+msgid ""
+"one-dimensional optimization by Nelder-Mead is unreliable:\n"
+"use \"Brent\" or optimize() directly"
 msgstr ""
 "L'optimització unidimensional per Nelder-Mead no és fiable:\n"
 "Usa «Brent» o «optimize()» directament"
 
 #, fuzzy
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
-msgstr ""
-"method = \"Brent\" només està disponible per a l'optimització unidimensional"
+msgstr "method = \"Brent\" només està disponible per a l'optimització unidimensional"
 
 #, fuzzy
 msgid "'lower' and 'upper' must be finite values"
@@ -2231,7 +2170,9 @@ msgid "too few groups"
 msgstr "hi ha massa grups"
 
 #, fuzzy
-msgid "not plotting observations with leverage one:\n  %s"
+msgid ""
+"not plotting observations with leverage one:\n"
+"  %s"
 msgstr ""
 "no traçar observacions amb el palanquejament u:\n"
 "  %s"
@@ -2253,7 +2194,9 @@ msgid "y is empty or has only NAs"
 msgstr "y és buida o només té SD"
 
 #, fuzzy
-msgid "hat values (leverages) are all = %s\n and there are no factor predictors; no plot no. 5"
+msgid ""
+"hat values (leverages) are all = %s\n"
+" and there are no factor predictors; no plot no. 5"
 msgstr ""
 "els valors del barret (les palanques) són tots = %s\n"
 " i no hi ha cap factor predictor; no hi ha cap diagrama núm. 5"
@@ -2283,8 +2226,7 @@ msgstr "'r' ha de ser un únic nombre positiu"
 
 #, fuzzy
 msgid "exactly one of 'n', 'delta', 'sd', 'power', and 'sig.level' must be NULL"
-msgstr ""
-"exactament un de «n», «delta», «sd», «power» i «sig.level» ha de ser NULL"
+msgstr "exactament un de «n», «delta», «sd», «power» i «sig.level» ha de ser NULL"
 
 #, fuzzy
 msgid "exactly one of 'n', 'p1', 'p2', 'power', and 'sig.level' must be NULL"
@@ -2300,9 +2242,7 @@ msgstr "No es pot trobar cap p2 a [p1, 1] per aconseguir la potència desitjada"
 
 #, fuzzy
 msgid "No significance level [0, 1] can be found to achieve the desired power"
-msgstr ""
-"No es pot trobar cap nivell de significació [0, 1] per aconseguir la "
-"potència desitjada"
+msgstr "No es pot trobar cap nivell de significació [0, 1] per aconseguir la potència desitjada"
 
 #, fuzzy
 msgid "'%s' must be numeric in [0, 1]"
@@ -2310,9 +2250,7 @@ msgstr "«%s» ha de ser numèric a [0, 1]"
 
 #, fuzzy
 msgid "exactly one of 'groups', 'n', 'between.var', 'within.var', 'power', and 'sig.level' must be NULL"
-msgstr ""
-"exactament un dels «grups», «n», «entre.var», «dins.var», «power» i «sig."
-"level» ha de ser NULL"
+msgstr "exactament un dels «grups», «n», «entre.var», «dins.var», «power» i «sig.level» ha de ser NULL"
 
 #, fuzzy
 msgid "number of groups must be at least 2"
@@ -2340,8 +2278,7 @@ msgstr "nombre de columnes incorrecte a «x»"
 
 #, fuzzy
 msgid "cannot rescale a constant/zero column to unit variance"
-msgstr ""
-"no s'ha pogut reescalar una columna constant/zero a la variància de la unitat"
+msgstr "no s'ha pogut reescalar una columna constant/zero a la variància de la unitat"
 
 #, fuzzy
 msgid "PCA applies only to numerical variables"
@@ -2357,9 +2294,7 @@ msgstr "«newdata» ha de ser una matriu o un marc de dades"
 
 #, fuzzy
 msgid "'newdata' does not have named columns matching one or more of the original columns"
-msgstr ""
-"«newdata» no té columnes amb nom que coincideixin amb una o més de les "
-"columnes originals"
+msgstr "«newdata» no té columnes amb nom que coincideixin amb una o més de les columnes originals"
 
 #, fuzzy
 msgid "'newdata' does not have the correct number of columns"
@@ -2510,14 +2445,11 @@ msgstr "«varying» ha de ser una llista o vector no buit"
 
 #, fuzzy
 msgid "length of 'v.names' does not evenly divide length of 'varying'"
-msgstr ""
-"la longitud de «v.names» no divideix uniformement la longitud de «varying»"
+msgstr "la longitud de «v.names» no divideix uniformement la longitud de «varying»"
 
 #, fuzzy
 msgid "length of 'varying' must be the product of length of 'v.names' and length of 'times'"
-msgstr ""
-"la longitud de «varying» ha de ser el producte de la longitud de «v.names» i "
-"la longitud de «times»"
+msgstr "la longitud de «varying» ha de ser el producte de la longitud de «v.names» i la longitud de «times»"
 
 #, fuzzy
 msgid "'k' must be positive"
@@ -2566,10 +2498,6 @@ msgstr "s'ha intentat suavitzar els valors de les NA"
 #, fuzzy
 msgid "invalid 'endrule' argument"
 msgstr "argument «endrule» no vàlid"
-
-#, fuzzy
-msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
-msgstr "Ara s'exporta .nknots.smspl(); useu-lo en lloc de n.knots()"
 
 #, fuzzy
 msgid "invalid 'control.spar'"
@@ -2625,8 +2553,7 @@ msgstr "«all.knots» és un vector de nusos; s'ignora l'especificació «nknots
 
 #, fuzzy
 msgid "numeric 'all.knots' must cover [0,1] (= the transformed data-range)"
-msgstr ""
-"numeric 'all.knots' ha de cobrir [0,1] (= l'interval de dades transformat)"
+msgstr "numeric 'all.knots' ha de cobrir [0,1] (= l'interval de dades transformat)"
 
 #, fuzzy
 msgid "'all.knots' is TRUE; 'nknots' specification is disregarded"
@@ -2720,8 +2647,7 @@ msgstr "probabilitat de cobertura fora del rang [0,1)"
 
 #, fuzzy
 msgid "spline: first and last y values differ - using y[1] for both"
-msgstr ""
-"spline: el primer i últim valor de y difereixen: s'utilitza y[1] per a ambdós"
+msgstr "spline: el primer i últim valor de y difereixen: s'utilitza y[1] per a ambdós"
 
 #, fuzzy
 msgid "'y' must be increasing or decreasing"
@@ -2733,9 +2659,7 @@ msgstr "«spline» requereix n == 1"
 
 #, fuzzy
 msgid "spline: first and last y values differ - using y[1L] for both"
-msgstr ""
-"«spline»: els valors primer i últim de «y» difereixen: s'usarà «y[1L]» per a "
-"ambdós"
+msgstr "«spline»: els valors primer i últim de «y» difereixen: s'usarà «y[1L]» per a ambdós"
 
 #, fuzzy
 msgid "'deriv' must be between 0 and 3"
@@ -2802,8 +2726,7 @@ msgstr "«x» ha d'estar entre %s i %s"
 
 #, fuzzy
 msgid "number of 'cutpoints' must be one less than number of symbols"
-msgstr ""
-"el nombre de «punts de tall» ha de ser un menys que el nombre de símbols"
+msgstr "el nombre de «punts de tall» ha de ser un menys que el nombre de símbols"
 
 #, fuzzy
 msgid "number of 'cutpoints' must be one more than number of symbols"
@@ -2828,6 +2751,10 @@ msgstr "Falta «y» per a la prova aparellada"
 #, fuzzy
 msgid "data are essentially constant"
 msgstr "les dades són essencialment constants"
+
+#, fuzzy
+msgid "cannot use 'paired' in formula method"
+msgstr "no es poden usar punts a la fórmula amb les dades donades"
 
 #, fuzzy
 msgid "'main' must be TRUE, FALSE, NULL or character (vector)."
@@ -2942,9 +2869,7 @@ msgstr "s'han proporcionat massa valors de substitució"
 
 #, fuzzy
 msgid "number of values supplied is not a sub-multiple of the number of values to be replaced"
-msgstr ""
-"el nombre de valors proporcionat no és un submultiple del nombre de valors a "
-"substituir"
+msgstr "el nombre de valors proporcionat no és un submultiple del nombre de valors a substituir"
 
 #, fuzzy
 msgid "only replacement of elements is allowed"
@@ -3004,9 +2929,7 @@ msgstr "conf.level sol·licitat no assolible"
 
 #, fuzzy
 msgid "cannot compute confidence interval when all observations are zero or tied"
-msgstr ""
-"no es pot calcular l'interval de confiança quan totes les observacions són "
-"zero o lligades"
+msgstr "no es pot calcular l'interval de confiança quan totes les observacions són zero o lligades"
 
 #, fuzzy
 msgid "cannot compute exact confidence interval with ties"
@@ -3026,9 +2949,7 @@ msgstr "El conf.level sol·licitat no és assolible"
 
 #, fuzzy
 msgid "cannot compute confidence interval when all observations are tied"
-msgstr ""
-"no es pot calcular l'interval de confiança quan totes les observacions estan "
-"lligades"
+msgstr "no es pot calcular l'interval de confiança quan totes les observacions estan lligades"
 
 #, fuzzy
 msgid "must supply either 'formula' or 'data'"
@@ -3040,9 +2961,7 @@ msgstr "%s només s'aplica a taules de dues vies"
 
 #, fuzzy
 msgid "too few distinct input values to fit an asymptotic regression model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se a un model de "
-"regressió asimptòtica"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se a un model de regressió asimptòtica"
 
 #, fuzzy
 msgid "cannot fit an asymptotic regression model to these data"
@@ -3050,29 +2969,23 @@ msgstr "no es pot ajustar un model de regressió asimptòtica a aquestes dades"
 
 #, fuzzy
 msgid "too few observations to fit an asymptotic regression model"
-msgstr ""
-"hi ha massa poques observacions per a ajustar-se a un model de regressió "
-"asimptòtica"
+msgstr "hi ha massa poques observacions per a ajustar-se a un model de regressió asimptòtica"
 
 #, fuzzy
 msgid "too few distinct input values to fit the 'asympOff' model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se al model «asympOff»"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se al model «asympOff»"
 
 #, fuzzy
 msgid "too few distinct input values to fit the 'asympOrig' model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se al model «asympOrig»"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se al model «asympOrig»"
 
 #, fuzzy
 msgid "too few distinct input values to fit a biexponential"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se a un biexponential"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se a un biexponential"
 
 #, fuzzy
 msgid "must have length of response = length of second argument to 'SSfol'"
-msgstr ""
-"ha de tenir longitud de resposta = longitud del segon argument a «SSfol»"
+msgstr "ha de tenir longitud de resposta = longitud del segon argument a «SSfol»"
 
 #, fuzzy
 msgid "must have at least 4 observations to fit an 'SSfol' model"
@@ -3080,37 +2993,27 @@ msgstr "ha de tenir almenys 4 observacions per adaptar-se a un model «SSfol»"
 
 #, fuzzy
 msgid "too few distinct input values to fit a four-parameter logistic"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se a una logística de "
-"quatre paràmetres"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se a una logística de quatre paràmetres"
 
 #, fuzzy
 msgid "too few distinct input values to fit a logistic model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se a un model logístic"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se a un model logístic"
 
 #, fuzzy
 msgid "too few distinct input values to fit a Michaelis-Menten model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per adaptar-se al model Michaelis-"
-"Menten"
+msgstr "hi ha pocs valors d'entrada diferents per adaptar-se al model Michaelis-Menten"
 
 #, fuzzy
 msgid "too few distinct input values to fit the Gompertz model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per a ajustar-se al model Gompertz"
+msgstr "hi ha pocs valors d'entrada diferents per a ajustar-se al model Gompertz"
 
 #, fuzzy
 msgid "too few distinct input values to fit the Weibull growth model"
-msgstr ""
-"hi ha pocs valors d'entrada diferents per adaptar-se al model de creixement "
-"de Weibull"
+msgstr "hi ha pocs valors d'entrada diferents per adaptar-se al model de creixement de Weibull"
 
 #, fuzzy
 msgid "all 'x' values must be non-negative to fit the Weibull growth model"
-msgstr ""
-"tots els valors 'x' han de ser no negatius per adaptar-se al model de "
-"creixement de Weibull"
+msgstr "tots els valors 'x' han de ser no negatius per adaptar-se al model de creixement de Weibull"
 
 #, fuzzy
 msgid "using the %d/%d row from a combined fit"
@@ -3143,7 +3046,7 @@ msgstr[1] "noms desconeguts %s a la llista de «desglossats»"
 
 #, fuzzy
 msgid "extra argument %s is not of class \"%s\""
-msgid_plural "extra arguments %s are not of class \"%s\"s"
+msgid_plural "extra arguments %s are not of class \"%s\""
 msgstr[0] "l'argument extra %s no és de la classe «%s»"
 msgstr[1] "els arguments addicionals %s no són de la classe \"%s\"s"
 
@@ -3275,4 +3178,8 @@ msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
 msgstr[0] "«start.innov» és massa curt: cal %d punt"
 msgstr[1] "«start.innov» és massa curt: calen %d punts"
+
+#, fuzzy
+#~ msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
+#~ msgstr "Ara s'exporta .nknots.smspl(); useu-lo en lloc de n.knots()"
 
