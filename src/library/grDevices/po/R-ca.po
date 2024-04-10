@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-20 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
@@ -17,21 +17,15 @@ msgid "invalid 'filename'"
 msgstr "'filename' és not vàlid"
 
 msgid "svg: Cairo-based devices are not available for this platform"
-msgstr ""
-"svg: els dispositius basats en Cairo no estan disponibles per a aquesta "
-"plataforma"
+msgstr "svg: els dispositius basats en Cairo no estan disponibles per a aquesta plataforma"
 
 #, fuzzy
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
-msgstr ""
-"cairopdf: Els dispositius basats en el Caire no estan disponibles per a "
-"aquesta plataforma"
+msgstr "cairopdf: Els dispositius basats en el Caire no estan disponibles per a aquesta plataforma"
 
 #, fuzzy
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
-msgstr ""
-"Cairps: els dispositius basats en el Caire no estan disponibles per a "
-"aquesta plataforma"
+msgstr "Cairps: els dispositius basats en el Caire no estan disponibles per a aquesta plataforma"
 
 #, fuzzy
 msgid "'coef' must not be negative"
@@ -309,6 +303,9 @@ msgstr "Tipus de patró no vàlid"
 msgid "Invalid 'extend' value"
 msgstr "Valor 'extendent' no vàlid"
 
+msgid "'%s' is deprecated."
+msgstr ""
+
 #, fuzzy
 msgid "invalid arguments in '%s' (need named args)"
 msgstr "arguments no vàlids a «%s» (es necessiten arguments amb nom)"
@@ -553,7 +550,9 @@ msgid "device '%s' is not available"
 msgstr "el dispositiu «%s» no està disponible"
 
 #, fuzzy
-msgid "Available devices are:\n%s"
+msgid ""
+"Available devices are:\n"
+"%s"
 msgstr ""
 "Els dispositius disponibles són:\n"
 "%s"
@@ -586,6 +585,9 @@ msgstr "type = \"cairo\" no està disponible. s'està provant «Xlib»"
 msgid "type = \"cairo-png\" is unavailable. trying \"Xlib\""
 msgstr "type = \"cairo-png\" no està disponible. s'està provant «Xlib»"
 
+msgid "compression is not supported for type = \"quartz\""
+msgstr ""
+
 msgid "invalid 'title'"
 msgstr "«title» no vàlid"
 
@@ -599,8 +601,7 @@ msgstr "el tipus de lletra Quartz no és vàlid: ha de tenir 4 cadenes"
 
 #, fuzzy
 msgid "invalid arguments in 'quartzFonts' (must be font names)"
-msgstr ""
-"arguments no vàlids a «quartzFonts» (han de ser noms de tipus de lletra)"
+msgstr "arguments no vàlids a «quartzFonts» (han de ser noms de tipus de lletra)"
 
 #, fuzzy
 msgid "invalid arguments in 'quartzFonts' (need named args)"
@@ -608,9 +609,7 @@ msgstr "arguments no vàlids a «quartzFonts» (es necessiten arguments amb nom)
 
 #, fuzzy
 msgid "cairo-based types are not supported on this build - using \"Xlib\""
-msgstr ""
-"No s'admeten els tipus basats en cairo en aquesta construcció - s'utilitzarà "
-"«Xlib»"
+msgstr "No s'admeten els tipus basats en cairo en aquesta construcció - s'utilitzarà «Xlib»"
 
 #, fuzzy
 msgid "unknown family for X11(type = \"XLib\")"
@@ -666,14 +665,11 @@ msgstr "el subíndex és fora de rang"
 
 #, fuzzy
 msgid "invalid Windows font:  must be a single font family name"
-msgstr ""
-"el tipus de lletra del Windows no és vàlid: ha de ser un nom de família de "
-"tipus de lletra únic"
+msgstr "el tipus de lletra del Windows no és vàlid: ha de ser un nom de família de tipus de lletra únic"
 
 #, fuzzy
 msgid "invalid arguments in 'windowsFonts' (must be font names)"
-msgstr ""
-"arguments no vàlids a «windowsFonts» (han de ser noms de tipus de lletra)"
+msgstr "arguments no vàlids a «windowsFonts» (han de ser noms de tipus de lletra)"
 
 #, fuzzy
 msgid "invalid arguments in 'windowsFonts' (need named args)"

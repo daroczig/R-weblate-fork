@@ -17,14 +17,10 @@ msgid "invalid 'filename'"
 msgstr "nombre de archivo invalido"
 
 msgid "svg: Cairo-based devices are not available for this platform"
-msgstr ""
-"svg: los dispositivos basados en Cairo no están disponibles para esta "
-"plataforma"
+msgstr "svg: los dispositivos basados en Cairo no están disponibles para esta plataforma"
 
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
-msgstr ""
-"cairo_pdf: dispositivos basados en Cairo no están disponibles para esta "
-"plataforma"
+msgstr "cairo_pdf: dispositivos basados en Cairo no están disponibles para esta plataforma"
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
 msgstr ""
@@ -239,6 +235,9 @@ msgstr ""
 msgid "Invalid 'extend' value"
 msgstr ""
 
+msgid "'%s' is deprecated."
+msgstr ""
+
 msgid "invalid arguments in '%s' (need named args)"
 msgstr ""
 
@@ -422,7 +421,9 @@ msgstr ""
 msgid "device '%s' is not available"
 msgstr ""
 
-msgid "Available devices are:\n%s"
+msgid ""
+"Available devices are:\n"
+"%s"
 msgstr ""
 
 msgid "invalid width"
@@ -444,6 +445,9 @@ msgid "type = \"cairo\" is unavailable. trying \"Xlib\""
 msgstr ""
 
 msgid "type = \"cairo-png\" is unavailable. trying \"Xlib\""
+msgstr ""
+
+msgid "compression is not supported for type = \"quartz\""
 msgstr ""
 
 msgid "invalid 'title'"
@@ -526,4 +530,3 @@ msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
 msgstr[0] ""
 msgstr[1] ""
-
