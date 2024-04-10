@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-19 12:53+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -55,14 +55,16 @@ msgstr "el directori «%s» no conté codi d'R"
 msgid "directory '%s' does not contain Rd objects"
 msgstr "el directori «%s» no conté objectes Rd"
 
-msgid "Functions or methods with usage in documentation object '%s' but not in code:"
-msgstr ""
-"Funcions o mètodes amb ús a l'objecte de documentació «%s» però no al codi:"
+#, fuzzy
+msgid "Functions or methods with usage in Rd file '%s' but not in code:"
+msgstr "Funcions o mètodes amb ús a l'objecte de documentació «%s» però no al codi:"
 
-msgid "Data with usage in documentation object '%s' but not in code:"
+#, fuzzy
+msgid "Data with usage in Rd file '%s' but not in code:"
 msgstr "Dades amb ús a l'objecte de documentació «%s» però no al codi:"
 
-msgid "Variables with usage in documentation object '%s' but not in code:"
+#, fuzzy
+msgid "Variables with usage in Rd file '%s' but not in code:"
 msgstr "Variables amb ús a l'objecte de documentació «%s» però no al codi:"
 
 msgid "Argument names in code not in docs:"
@@ -84,7 +86,7 @@ msgid "Mismatches in argument default values:"
 msgstr "Els valors predeterminats dels arguments no coincideixen:"
 
 #, fuzzy
-msgid "Codoc mismatches from documentation object '%s':"
+msgid "Codoc mismatches from Rd file '%s':"
 msgstr "No coincideix el Codoc amb l'objecte de documentació «%s»:"
 
 msgid "Code: %s"
@@ -94,7 +96,7 @@ msgid "Docs: %s"
 msgstr "Documentació: %s"
 
 #, fuzzy
-msgid "S4 class codoc mismatches from documentation object '%s':"
+msgid "S4 class codoc mismatches from Rd file '%s':"
 msgstr "La classe de codoc S4 no coincideix amb l'objecte de documentació «%s»:"
 
 #, fuzzy
@@ -102,39 +104,38 @@ msgid "Slots for class '%s'"
 msgstr "Diagrames per a la classe «%s»"
 
 #, fuzzy
-msgid "Data codoc mismatches from documentation object '%s':"
+msgid "Data codoc mismatches from Rd file '%s':"
 msgstr "El codoc de dades no coincideix amb l'objecte de documentació «%s»:"
 
 msgid "Variables in data frame '%s'"
 msgstr "Variables en el «data frame» «%s»"
 
 #, fuzzy
-msgid "Undocumented arguments in documentation object '%s'"
+msgid "Undocumented arguments in Rd file '%s'"
 msgstr "Arguments no documentats a l'objecte de documentació «%s»"
 
 #, fuzzy
-msgid "Duplicated \\argument entries in documentation object '%s':"
+msgid "Duplicated \\argument entries in Rd file '%s':"
 msgstr "Entrades \\argument duplicades a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "Documented arguments not in \\usage in documentation object '%s':"
+msgid "Documented arguments not in \\usage in Rd file '%s':"
 msgstr "Arguments documentats no en \\usage a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "Objects in \\usage without \\alias in documentation object '%s':"
+msgid "Objects in \\usage without \\alias in Rd file '%s':"
 msgstr "Objectes a \\usage sense \\alias a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "Assignments in \\usage in documentation object '%s':"
+msgid "Assignments in \\usage in Rd file '%s':"
 msgstr "Tasques a \\usage a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "Bad \\usage lines found in documentation object '%s':"
-msgstr ""
-"S'han trobat línies \\usage incorrectes a l'objecte de documentació «%s»:"
+msgid "Bad \\usage lines found in Rd file '%s':"
+msgstr "S'han trobat línies \\usage incorrectes a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "S3 methods shown with full name in documentation object '%s':"
+msgid "S3 methods shown with full name in Rd file '%s':"
 msgstr "Mètodes S3 mostrats amb nom complet a l'objecte de documentació «%s»:"
 
 msgid "you must specify 'package', 'dir' or 'file'"
@@ -143,7 +144,9 @@ msgstr "heu d'especificar «package», «dir» o «file»"
 msgid "file '%s' does not exist"
 msgstr "el fitxer «%s» no existeix"
 
-msgid "parse error in file '%s':\n%s"
+msgid ""
+"parse error in file '%s':\n"
+"%s"
 msgstr ""
 "error d'anàlisi al fitxer '%s':\n"
 "%s"
@@ -152,11 +155,9 @@ msgid "cannot check R code installed as image"
 msgstr "no es pot comprovar el codi R instal·lat com a imatge"
 
 #, fuzzy
-msgid "parse error in file '%s':"
-msgstr "error d'anàlisi al fitxer '%s':"
-
-#, fuzzy
-msgid "parse error in examples from file '%s':"
+msgid ""
+"parse error in examples from file '%s':\n"
+"%s"
 msgstr "error d'anàlisi en exemples del fitxer '%s':"
 
 msgid "File '%s':"
@@ -169,14 +170,11 @@ msgid "The package 'dir' argument must be of length 1"
 msgstr "L'argument «dir» del paquet ha de ser de longitud 1"
 
 msgid "package name '%s' seems invalid; using directory name '%s' instead"
-msgstr ""
-"el nom del paquet «%s» sembla no vàlid; s'usarà el nom del directori «%s»"
+msgstr "el nom del paquet «%s» sembla no vàlid; s'usarà el nom del directori «%s»"
 
 #, fuzzy
 msgid "Vignette dependencies (%s entries) must be contained in the DESCRIPTION Depends/Suggests/Imports entries."
-msgstr ""
-"Les dependències del vinyetatge (%s entrades) han d'estar contingudes a les "
-"entrades de descripció Depèn/Suggereix/Importa."
+msgstr "Les dependències del vinyetatge (%s entrades) han d'estar contingudes a les entrades de descripció Depèn/Suggereix/Importa."
 
 msgid "Malformed package name"
 msgstr "Nom de paquet mal format"
@@ -203,18 +201,14 @@ msgid "Malformed maintainer field."
 msgstr "Camp «mantenidor» mal format."
 
 msgid "Malformed Depends or Suggests or Imports or Enhances field."
-msgstr ""
-"Camps «Dependències», «Suggerències», «Importacions» o «Millores» mal "
-"formatats."
+msgstr "Camps «Dependències», «Suggerències», «Importacions» o «Millores» mal formatats."
 
 #, fuzzy
 msgid "Offending entries:"
 msgstr "Entrades ofensives:"
 
 msgid "Entries must be names of packages optionally followed by '<=' or '>=', white space, and a valid version number in parentheses."
-msgstr ""
-"Les entrades han de ser noms de paquets opcionalment seguits per «<=» or «>=»"
-", espais en blanc i un número de versió vàlid entre parèntesis."
+msgstr "Les entrades han de ser noms de paquets opcionalment seguits per «<=» or «>=», espais en blanc i un número de versió vàlid entre parèntesis."
 
 msgid "Entries with infeasible comparison operator:"
 msgstr "Entrades amb un operador de comparació inviable:"
@@ -226,9 +220,7 @@ msgid "Entries with infeasible version number:"
 msgstr "Entrades amb número de versió inviable:"
 
 msgid "Version numbers must be sequences of at least two non-negative integers, separated by single '.' or '-'."
-msgstr ""
-"Els números de versió han de ser seqüències d'almenys dos enters no "
-"negatius, separats per un «.» o «-»."
+msgstr "Els números de versió han de ser seqüències d'almenys dos enters no negatius, separats per un «.» o «-»."
 
 msgid "Invalid VignetteBuilder field."
 msgstr "Camp VignetteBuilder no vàlid."
@@ -240,21 +232,16 @@ msgid "Invalid Priority field."
 msgstr "Camp «Prioritat» no vàlid."
 
 msgid "Packages with priorities 'base' or 'recommended' or 'defunct-base' must already be known to R."
-msgstr ""
-"Els paquets amb prioritats «base» o «recomanada» o «defunct-base» ja han de "
-"ser coneguts per l'R."
+msgstr "Els paquets amb prioritats «base» o «recomanada» o «defunct-base» ja han de ser coneguts per l'R."
 
 msgid "Malformed Title field: should not end in a period."
 msgstr "Camp «Títol» mal format: no hauria d'acabar en un punt."
 
 msgid "Malformed Description field: should contain one or more complete sentences."
-msgstr ""
-"Camp «Descripció» mal format: hauria de contenir una o més frases completes."
+msgstr "Camp «Descripció» mal format: hauria de contenir una o més frases completes."
 
 msgid "See section 'The DESCRIPTION file' in the 'Writing R Extensions' manual."
-msgstr ""
-"Vegeu la secció «El fitxer de descripció» al manual «Escriptura d'extensions "
-"de l'R»."
+msgstr "Vegeu la secció «El fitxer de descripció» al manual «Escriptura d'extensions de l'R»."
 
 msgid "Malformed Authors@R field:"
 msgstr "Camp «Authors@R» mal format:"
@@ -281,19 +268,19 @@ msgid "Authors@R field gives more than one person with maintainer role:"
 msgstr "El camp «Autors@R» conté més d'una persona amb rol de mantenidor:"
 
 msgid "Authors@R field gives no person with maintainer role, valid email address and non-empty name."
-msgstr ""
-"El camp «Authors@R» no conté cap persona amb rol de mantenidor, adreça de "
-"correu electrònic vàlida i nom no buit."
+msgstr "El camp «Authors@R» no conté cap persona amb rol de mantenidor, adreça de correu electrònic vàlida i nom no buit."
 
 msgid "Authors@R field gives persons with invalid ORCID identifiers:"
-msgstr ""
-"El camp «Authors@R» conté a les persones amb identificadors ORCID no vàlids:"
+msgstr "El camp «Authors@R» conté a les persones amb identificadors ORCID no vàlids:"
 
 msgid "Encoding '%s' is not portable"
 msgstr "La codificació «%s» no és portable"
 
 msgid "Unknown encoding with non-ASCII data"
 msgstr "Codificació desconeguda amb dades no ASCII"
+
+msgid "Record: %d Field(s): %s"
+msgstr ""
 
 msgid "Non-standard license specification:"
 msgstr "Especificació de llicència no estàndard:"
@@ -314,14 +301,17 @@ msgid "License components with restrictions not permitted:"
 msgstr "Components de llicència amb restriccions no permeses:"
 
 msgid "License components which are templates and need '+ file LICENSE':"
+msgstr "Components de la llicència que són plantilles i necessiten '+ llicència de fitxer':"
+
+msgid "License stub is invalid DCF."
 msgstr ""
-"Components de la llicència que són plantilles i necessiten '+ llicència de "
-"fitxer':"
+
+#, fuzzy
+msgid "License stub records with missing/empty fields:"
+msgstr "no es poden tractar els objectes RD amb noms buits o que manquen"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
-msgstr ""
-"Usa la llicència ACM: només és apropiat per al codi TOMS d'ACM anterior a "
-"2013"
+msgstr "Usa la llicència ACM: només és apropiat per al codi TOMS d'ACM anterior a 2013"
 
 #, fuzzy
 msgid "Non-portable flags in variable '%s':"
@@ -337,11 +327,11 @@ msgid "invalid 'OS.type' \"%s\".  Should not happen"
 msgstr "'OS.type' no vàlid \"%s\". No hauria de succeir"
 
 #, fuzzy
-msgid "Missing link or links in documentation object '%s':"
+msgid "Missing link or links in Rd file '%s':"
 msgstr "Manca un enllaç o enllaços a l'objecte de documentació «%s»:"
 
 #, fuzzy
-msgid "Non-file package-anchored link(s) in documentation object '%s':"
+msgid "Non-file package-anchored link(s) in Rd file '%s':"
 msgstr "Enllaç(s) no compartits de paquets en l'objecte de documentació «%s»:"
 
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
@@ -371,16 +361,13 @@ msgid "%s calls:"
 msgstr "%s trucades:"
 
 msgid "Package startup functions should have two arguments with names starting with %s and %s, respectively."
-msgstr ""
-"Les funcions d'inici de paquets haurien de tenir dos arguments amb noms que "
-"comencin per %s i %s, respectivament."
+msgstr "Les funcions d'inici de paquets haurien de tenir dos arguments amb noms que comencin per %s i %s, respectivament."
 
 msgid "Package startup functions should not change the search path."
 msgstr "Les funcions d'inici de paquets no haurien de canviar el camí de cerca."
 
 msgid "Package startup functions should use %s to generate messages."
-msgstr ""
-"Les funcions d'inici de paquets haurien d'utilitzar %s per generar missatges."
+msgstr "Les funcions d'inici de paquets haurien d'utilitzar %s per generar missatges."
 
 msgid "Package startup functions should not call %s."
 msgstr "Les funcions d'inici de paquets no haurien de cridar %s."
@@ -389,9 +376,7 @@ msgid "See section %s in '%s'."
 msgstr "Vegeu la secció %s a «%s»."
 
 msgid "Package detach functions should have one argument with name starting with %s."
-msgstr ""
-"Les funcions de desacoblament de paquets haurien de tenir un argument amb el "
-"nom que comenci per %s."
+msgstr "Les funcions de desacoblament de paquets haurien de tenir un argument amb el nom que comenci per %s."
 
 msgid "Package detach functions should not call %s."
 msgstr "Les funcions de desacoblament de paquets no haurien de cridar %s."
@@ -419,13 +404,11 @@ msgstr "no s'ha declarat la crida 'library' o 'require' de: %s"
 
 #, fuzzy
 msgid "'loadNamespace' or 'requireNamespace' calls not declared from:"
-msgstr ""
-"Les crides «loadNamespace» o «requireNamespace» no s'han declarat des de:"
+msgstr "Les crides «loadNamespace» o «requireNamespace» no s'han declarat des de:"
 
 #, fuzzy
 msgid "'loadNamespace' or 'requireNamespace' call not declared from: %s"
-msgstr ""
-"no s'ha declarat la crida «loadNamespace» o «requireNamespace» des de: %s"
+msgstr "no s'ha declarat la crida «loadNamespace» o «requireNamespace» des de: %s"
 
 #, fuzzy
 msgid "'library' or 'require' calls to packages already attached by Depends:"
@@ -433,8 +416,7 @@ msgstr "Crides «biblioteca» o «requereix» als paquets ja adjuntats per Depen
 
 #, fuzzy
 msgid "'library' or 'require' call to %s which was already attached by Depends."
-msgstr ""
-"Crida 'biblioteca' o 'requereix' a %s que ja estava adjuntada per Depends."
+msgstr "Crida 'biblioteca' o 'requereix' a %s que ja estava adjuntada per Depends."
 
 #, fuzzy
 msgid "'library' or 'require' calls in package code:"
@@ -514,8 +496,7 @@ msgstr "El paquet no té el camp «Versió»"
 
 #, fuzzy
 msgid "NB: need Internet access to use CRAN incoming checks"
-msgstr ""
-"NB: cal accés a Internet per a utilitzar les comprovacions entrants del CRAN"
+msgstr "NB: cal accés a Internet per a utilitzar les comprovacions entrants del CRAN"
 
 #, fuzzy
 msgid "Rd files with duplicated name '%s':"
@@ -534,16 +515,15 @@ msgid "Invalid package aliases in Rd file '%s':"
 msgstr "Àlies de paquets no vàlids al fitxer Rd «%s»:"
 
 #, fuzzy
-msgid "Argument items with no description in Rd object '%s':"
+msgid "Argument items with no description in Rd file '%s':"
 msgstr "Elements d'argument sense descripció a l'objecte Rd «%s»:"
 
 #, fuzzy
-msgid "Auto-generated content requiring editing in Rd object '%s':"
-msgstr ""
-"El contingut generat automàticament que requereix edició a l'objecte Rd «%s»:"
+msgid "Auto-generated content requiring editing in Rd file '%s':"
+msgstr "El contingut generat automàticament que requereix edició a l'objecte Rd «%s»:"
 
 #, fuzzy
-msgid "Rd objects without \\description:"
+msgid "Rd files without \\description:"
 msgstr "Objectes Rd sense \\description:"
 
 #, fuzzy
@@ -551,7 +531,12 @@ msgid "no Rd sections specified"
 msgstr "no s'ha especificat cap secció RD"
 
 #, fuzzy
-msgid "Generics 'g' in 'env' %s where '%s' errors: %s\nMay need something like\n\n%s\nin NAMESPACE."
+msgid ""
+"Generics 'g' in 'env' %s where '%s' errors: %s\n"
+"May need something like\n"
+"\n"
+"%s\n"
+"in NAMESPACE."
 msgstr ""
 "Generics 'g' a 'env' %s on '%s' errors: %s\n"
 "Pot necessitar alguna cosa com\n"
@@ -577,9 +562,7 @@ msgstr "Els fitxers Rd han de tenir un %s no buit."
 
 #, fuzzy
 msgid "See chapter 'Writing R documentation' in manual 'Writing R Extensions'."
-msgstr ""
-"Vegeu el capítol «Escriure documentació de l'R» al manual «Escriure "
-"extensions de l'R»."
+msgstr "Vegeu el capítol «Escriure documentació de l'R» al manual «Escriure extensions de l'R»."
 
 #, fuzzy
 msgid "missing/empty \\title field in '%s'"
@@ -611,9 +594,7 @@ msgstr "«macros» ha de ser CERT o ha d'especificar macros existents"
 
 #, fuzzy
 msgid "Macro file %s should only contain Rd macro definitions and comments"
-msgstr ""
-"El fitxer de macro %s només hauria de contenir definicions de macros Rd i "
-"comentaris"
+msgstr "El fitxer de macro %s només hauria de contenir definicions de macros Rd i comentaris"
 
 #, fuzzy
 msgid "Rd macro package '%s' is not installed."
@@ -625,9 +606,7 @@ msgstr "No hi ha cap macro Rd al paquet '%s'."
 
 #, fuzzy
 msgid "links not supported for 'standalone = FALSE' when _R_HELP_LINKS_TO_TOPICS_=false"
-msgstr ""
-"els enllaços no són compatibles amb «standalone = FALSE» quan "
-"RHELPLINKSTOTOPICS=false"
+msgstr "els enllaços no són compatibles amb «standalone = FALSE» quan RHELPLINKSTOTOPICS=false"
 
 #, fuzzy
 msgid "more than one \\examples section, using the first"
@@ -695,27 +674,19 @@ msgstr "el fitxer de descripció és per al paquet «%s», no «%s»"
 
 #, fuzzy
 msgid "Vignette product %s does not have a known filename extension (%s)"
-msgstr ""
-"El producte de vinyeta %s no té una extensió de nom de fitxer coneguda (%s)"
+msgstr "El producte de vinyeta %s no té una extensió de nom de fitxer coneguda (%s)"
 
 #, fuzzy
 msgid "Failed to locate %s output file %s or %s for vignette with name %s and engine %s. The following files exist in working directory %s: %s"
-msgstr ""
-"No s'ha pogut trobar %s fitxer de sortida %s o %s per a la vinyeta amb el "
-"nom %s i el motor %s. Hi ha els següents fitxers al directori de treball %s: "
-"%s"
+msgstr "No s'ha pogut trobar %s fitxer de sortida %s o %s per a la vinyeta amb el nom %s i el motor %s. Hi ha els següents fitxers al directori de treball %s: %s"
 
 #, fuzzy
 msgid "Located more than one %s output file (by engine %s) for vignette with name %s: %s"
-msgstr ""
-"S'ha trobat més d'un fitxer de sortida %s (pel motor %s) per a la vinyeta "
-"amb el nom %s: %s"
+msgstr "S'ha trobat més d'un fitxer de sortida %s (pel motor %s) per a la vinyeta amb el nom %s: %s"
 
 #, fuzzy
 msgid "Failed to locate %s output file %s for vignette with name %s and engine %s. The following files exist in working directory %s: %s"
-msgstr ""
-"No s'ha pogut trobar %s fitxer de sortida %s per a la vinyeta amb el nom %s "
-"i el motor %s. Hi ha els següents fitxers al directori de treball %s: %s"
+msgstr "No s'ha pogut trobar %s fitxer de sortida %s per a la vinyeta amb el nom %s i el motor %s. Hi ha els següents fitxers al directori de treball %s: %s"
 
 #, fuzzy
 msgid "unable to create temp directory %s"
@@ -735,9 +706,7 @@ msgstr "La vinyeta %s sobreescriu la sortida %s següent per vinyeta %s: %s"
 
 #, fuzzy
 msgid "Detected vignette source files (%s) with shared names (%s) and therefore risking overwriting each other's output files"
-msgstr ""
-"S'han detectat fitxers d'origen del vinyetatge (%s) amb noms compartits (%s) "
-"i, per tant, s'arrisca a sobreescriure els fitxers de sortida dels altres"
+msgstr "S'han detectat fitxers d'origen del vinyetatge (%s) amb noms compartits (%s) i, per tant, s'arrisca a sobreescriure els fitxers de sortida dels altres"
 
 #, fuzzy
 msgid "Note: skipping %s"
@@ -752,13 +721,17 @@ msgid "--- re-building %s using %s"
 msgstr "--- reconstruint %s usant %s"
 
 #, fuzzy
-msgid "Error: processing vignette '%s' failed with diagnostics:\n%s"
+msgid ""
+"Error: processing vignette '%s' failed with diagnostics:\n"
+"%s"
 msgstr ""
 "Error: el processament de la vinyeta «%s» ha fallat amb els diagnòstics:\n"
 "%s"
 
 #, fuzzy
-msgid "Error: tangling vignette '%s' failed with diagnostics:\n%s"
+msgid ""
+"Error: tangling vignette '%s' failed with diagnostics:\n"
+"%s"
 msgstr ""
 "Error: no s'ha pogut vincular la vinyeta «%s» amb els diagnòstics:\n"
 "%s"
@@ -780,9 +753,7 @@ msgstr "no s'ha trobat el fitxer «%s»"
 
 #, fuzzy
 msgid "vignette filename '%s' does not match any of the '%s' filename patterns"
-msgstr ""
-"El nom de fitxer de vinyeta «%s» no coincideix amb cap dels patrons de nom "
-"de fitxer «%s»"
+msgstr "El nom de fitxer de vinyeta «%s» no coincideix amb cap dels patrons de nom de fitxer «%s»"
 
 #, fuzzy
 msgid "+-+"
@@ -846,15 +817,11 @@ msgstr "no es pot obrir el directori «%s»"
 
 #, fuzzy
 msgid "WARNING: omitting pointless dependence on 'R' without a version requirement"
-msgstr ""
-"AVÍS: s'omet una dependència sense sentit de «R» sense el requisit de la "
-"versió"
+msgstr "AVÍS: s'omet una dependència sense sentit de «R» sense el requisit de la versió"
 
 #, fuzzy
 msgid "cannot turn off locale-specific sorting via LC_COLLATE"
-msgstr ""
-"no es pot desactivar l'ordenació específica de la configuració regional "
-"mitjançant LCCOLLATE"
+msgstr "no es pot desactivar l'ordenació específica de la configuració regional mitjançant LCCOLLATE"
 
 #, fuzzy
 msgid "duplicated files in '%s' field:"
@@ -885,13 +852,17 @@ msgid "processing %s"
 msgstr "s'està processant %s"
 
 #, fuzzy
-msgid "running %s on vignette '%s' failed with message:\n%s"
+msgid ""
+"running %s on vignette '%s' failed with message:\n"
+"%s"
 msgstr ""
 "ha fallat l'execució de %s a la vinyeta «%s» amb el missatge:\n"
 "%s"
 
 #, fuzzy
-msgid "compiling TeX file %s failed with message:\n%s"
+msgid ""
+"compiling TeX file %s failed with message:\n"
+"%s"
 msgstr ""
 "la compilació del fitxer TeX %s ha fallat amb el missatge:\n"
 "%s"
@@ -953,9 +924,7 @@ msgstr "s'ha ignorat ja que s'han reconstruït vinyetes."
 
 #, fuzzy
 msgid "Run R CMD build with --no-build-vignettes to prevent rebuilding."
-msgstr ""
-"Executa la construcció de l'R CMD amb --no-build-vignettes per evitar la "
-"reconstrucció."
+msgstr "Executa la construcció de l'R CMD amb --no-build-vignettes per evitar la reconstrucció."
 
 #, fuzzy
 msgid "invalid value for '--compact-vignettes', assuming %s"
@@ -1033,16 +1002,11 @@ msgstr "<p><code class='language-R'>%s</code> s'ha executat a la consola.</p>"
 
 #, fuzzy
 msgid "<p>To view output in the browser, the <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> package must be installed.</p>"
-msgstr ""
-"<p>Per veure la sortida al navegador, cal instal·lar el paquet <a "
-"href='https://CRAN.R-project.org/package=knitr'>knitr</a>.</p>"
+msgstr "<p>Per veure la sortida al navegador, cal instal·lar el paquet <a href='https://CRAN.R-project.org/package=knitr'>knitr</a>.</p>"
 
 #, fuzzy
 msgid "<p>To view output in the browser, the <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> package must be installed and the environment variable <code>_R_HELP_ENABLE_ENHANCED_HTML_</code> must be set to TRUE.</p>"
-msgstr ""
-"<p>Per veure la sortida al navegador, cal instal·lar el paquet <a "
-"href='https://CRAN.R-project.org/package=knitr'>knitr</a> i la variable "
-"d'entorn <code>RHELPENABLEENHANCEDHTML</code> a TRUE.</p>"
+msgstr "<p>Per veure la sortida al navegador, cal instal·lar el paquet <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> i la variable d'entorn <code>RHELPENABLEENHANCEDHTML</code> a TRUE.</p>"
 
 #, fuzzy
 msgid "HTTPD-REQUEST %s%s"
@@ -1118,9 +1082,7 @@ msgstr "No s'han trobat notícies per al paquet %s"
 
 #, fuzzy
 msgid "Only help files, %s, %s and files under %s and %s in a package can be viewed"
-msgstr ""
-"Només es poden veure els fitxers d'ajuda, %s, %s i fitxers sota %s i %s en "
-"un paquet"
+msgstr "Només es poden veure els fitxers d'ajuda, %s, %s i fitxers sota %s i %s en un paquet"
 
 #, fuzzy
 msgid "unsupported URL %s"
@@ -1187,9 +1149,7 @@ msgstr "això sembla un paquet -- i estan desapareguts"
 
 #, fuzzy
 msgid "'cleanup' exists but is not executable -- see the 'R Installation and Administration Manual'"
-msgstr ""
-"«cleanup» existeix però no és executable -- vegeu el «Manual d'instal·lació "
-"i administració de l'R»"
+msgstr "«cleanup» existeix però no és executable -- vegeu el «Manual d'instal·lació i administració de l'R»"
 
 #, fuzzy
 msgid "generating debug symbols (%s)"
@@ -1217,14 +1177,11 @@ msgstr "NOTA: rpath fix"
 
 #, fuzzy
 msgid "WARNING: shared objects/dynamic libraries with hard-coded temporary installation paths"
-msgstr ""
-"ADVERTÈNCIA: objectes compartits/biblioteques dinàmiques amb camins d'instal·"
-"lació temporals codificats"
+msgstr "ADVERTÈNCIA: objectes compartits/biblioteques dinàmiques amb camins d'instal·lació temporals codificats"
 
 #, fuzzy
 msgid "package %s successfully unpacked and MD5 sums checked"
-msgstr ""
-"el paquet %s s'ha desempaquetat correctament i s'han marcat les sumes MD5"
+msgstr "el paquet %s s'ha desempaquetat correctament i s'han marcat les sumes MD5"
 
 #, fuzzy
 msgid "not using staged install with --libs-only"
@@ -1236,14 +1193,11 @@ msgstr "la instal·lació per etapes només és possible amb el bloqueig"
 
 #, fuzzy
 msgid "WARNING: installation-time patches will not be applied, could not get the patches index"
-msgstr ""
-"AVÍS: els pedaços en temps d'instal·lació no s'aplicaran, no s'ha pogut "
-"obtenir l'índex de pedaços"
+msgstr "AVÍS: els pedaços en temps d'instal·lació no s'aplicaran, no s'ha pogut obtenir l'índex de pedaços"
 
 #, fuzzy
 msgid "patch utility is needed for installation-time patching"
-msgstr ""
-"La utilitat de pedaç és necessària per a l'ajustament en temps d'instal·lació"
+msgstr "La utilitat de pedaç és necessària per a l'ajustament en temps d'instal·lació"
 
 #, fuzzy
 msgid "NOTE: Skipping installation-time patch"
@@ -1271,9 +1225,7 @@ msgstr "en la instal·lació del paquet"
 
 #, fuzzy
 msgid "R include directory is empty -- perhaps need to install R-devel.rpm or similar"
-msgstr ""
-"El directori d'inclusió de l'R està buit -- potser cal instal·lar l'R-"
-"devel.rpm o similar"
+msgstr "El directori d'inclusió de l'R està buit -- potser cal instal·lar l'R-devel.rpm o similar"
 
 #, fuzzy
 msgid "package %s %s was found, but %s %s is required by %s"
@@ -1351,7 +1303,10 @@ msgid "Reverted installation-time patch"
 msgstr "S'ha revertit el pedaç del temps d'instal·lació"
 
 #, fuzzy
-msgid "See\n  %s\nfor details."
+msgid ""
+"See\n"
+"  %s\n"
+"for details."
 msgstr ""
 "Veure\n"
 "  %s\n"
@@ -1390,7 +1345,9 @@ msgid "package seems to be using lazy loading already"
 msgstr "sembla que el paquet ja està utilitzant una càrrega lazy"
 
 #, fuzzy
-msgid "Cannot process chunk/lines:\n%s"
+msgid ""
+"Cannot process chunk/lines:\n"
+"%s"
 msgstr ""
 "No es pot processar el fragment/línies:\n"
 "%s"
@@ -1405,29 +1362,34 @@ msgstr "No s'ha trobat el fitxer NEWS"
 
 #, fuzzy
 msgid "No news found in given file using package default format."
-msgstr ""
-"No s'ha trobat cap notícia al fitxer indicat usant el format predeterminat "
-"del paquet."
+msgstr "No s'ha trobat cap notícia al fitxer indicat usant el format predeterminat del paquet."
 
 #, fuzzy
 msgid "Could not extract news from the following text chunks:"
 msgstr "No s'han pogut extreure les notícies dels fragments de text següents:"
 
 #, fuzzy
-msgid "Chunk %s:\n%s"
+msgid ""
+"Chunk %s:\n"
+"%s"
 msgstr ""
 "Tronc %s:\n"
 "%s"
 
 #, fuzzy
-msgid "Cannot extract version info from the following section titles:\n%s"
+msgid ""
+"Cannot extract version info from the following section titles:\n"
+"%s"
 msgstr ""
-"No es pot extreure la informació de la versió dels següents títols de secció:"
-"\n"
+"No es pot extreure la informació de la versió dels següents títols de secció:\n"
 "%s"
 
 #, fuzzy
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\itemize."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains no \\itemize."
 msgstr ""
 "Notícies mal formades.Fitxer Rd:\n"
 "Començament de trossos\n"
@@ -1435,7 +1397,12 @@ msgstr ""
 "no conté cap \\itemize."
 
 #, fuzzy
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains more than one \\itemize.\nUsing the first one."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains more than one \\itemize.\n"
+"Using the first one."
 msgstr ""
 "Notícies mal formades.Fitxer Rd:\n"
 "Començament de trossos\n"
@@ -1444,7 +1411,11 @@ msgstr ""
 "Utilitzant el primer."
 
 #, fuzzy
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\item."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains no \\item."
 msgstr ""
 "Notícies mal formades.Fitxer Rd:\n"
 "Començament de trossos\n"
@@ -1460,10 +1431,19 @@ msgid "Invalid DESCRIPTION file for package %s"
 msgstr "Fitxer de descripció no vàlid per al paquet %s"
 
 #, fuzzy
-msgid "reading DESCRIPTION for package %s failed with message:\n  %s"
+msgid ""
+"reading DESCRIPTION for package %s failed with message:\n"
+"  %s"
 msgstr ""
 "la lectura de la descripció del paquet %s ha fallat amb el missatge:\n"
 "  %s"
+
+#, fuzzy
+msgid "unable to create temporary directory %s"
+msgstr "no s'ha pogut crear el directori temporal %s"
+
+msgid "expected one package directory, found %d."
+msgstr ""
 
 #, fuzzy
 msgid "argument '%s' must be a character string or connection"
@@ -1562,9 +1542,7 @@ msgstr "DIFERENT"
 
 #, fuzzy
 msgid "running tests of random deviate generation (should no longer ever fail)"
-msgstr ""
-"s'estan executant proves de generació desviada aleatòria (ja no hauria de "
-"fallar)"
+msgstr "s'estan executant proves de generació desviada aleatòria (ja no hauria de fallar)"
 
 #, fuzzy
 msgid "unknown header specification"
@@ -1580,9 +1558,7 @@ msgstr "Els fitxers de PAQUETS no inclouen sumes MD5 en el cas win.binary"
 
 #, fuzzy
 msgid ", so strict checking is impossible. Calling down to write_PACKAGES"
-msgstr ""
-", per tant, no és possible una comprovació estricta. S'està cridant a "
-"writePACKAGES"
+msgstr ", per tant, no és possible una comprovació estricta. S'està cridant a writePACKAGES"
 
 #, fuzzy
 msgid "directly."
@@ -1602,9 +1578,7 @@ msgstr "Camps especificats no presents al fitxer de paquets existent:"
 
 #, fuzzy
 msgid "Unable to update existing PACKAGES file. Calling write_PACKAGES directly."
-msgstr ""
-"No s'ha pogut actualitzar el fitxer de paquets existent. Crida directament "
-"els paquets d'escriptura."
+msgstr "No s'ha pogut actualitzar el fitxer de paquets existent. Crida directament els paquets d'escriptura."
 
 #, fuzzy
 msgid "Updating existing repository [strict mode:"
@@ -1619,7 +1593,9 @@ msgid "OFF"
 msgstr "DESACTIVAT"
 
 #, fuzzy
-msgid "]\nDetected PACKAGES file with"
+msgid ""
+"]\n"
+"Detected PACKAGES file with"
 msgstr ""
 "]\n"
 "S'ha detectat un fitxer de paquets amb"
@@ -1795,12 +1771,8 @@ msgstr[1] "S'ha trobat possiblement un «T» o «F» global en les funcions seg�
 #, fuzzy
 msgid "Found possibly global 'T' or 'F' in the examples of the following Rd file:"
 msgid_plural "Found possibly global 'T' or 'F' in the examples of the following Rd files:"
-msgstr[0] ""
-"S'ha trobat possiblement un «T» o «F» global en els exemples del fitxer Rd "
-"següent:"
-msgstr[1] ""
-"S'ha trobat possiblement un «T» o «F» global en els exemples dels següents "
-"fitxers Rd:"
+msgstr[0] "S'ha trobat possiblement un «T» o «F» global en els exemples del fitxer Rd següent:"
+msgstr[1] "S'ha trobat possiblement un «T» o «F» global en els exemples dels següents fitxers Rd:"
 
 #, fuzzy
 msgid "Possibly missing '()' after 'return' in the following function:"
@@ -1823,42 +1795,26 @@ msgstr[1] "S'ha trobat .Crides internes als mètodes per als següents genèrics
 #, fuzzy
 msgid "Found a .Internal call in methods for the following reference class:"
 msgid_plural "Found .Internal calls in methods for the following reference classes:"
-msgstr[0] ""
-"S'ha trobat un .Crida interna als mètodes per a la classe de referència "
-"següent:"
-msgstr[1] ""
-"S'ha trobat .Crides internes als mètodes per a les classes de referència "
-"següents:"
+msgstr[0] "S'ha trobat un .Crida interna als mètodes per a la classe de referència següent:"
+msgstr[1] "S'ha trobat .Crides internes als mètodes per a les classes de referència següents:"
 
 #, fuzzy
 msgid "Found an obsolete/platform-specific call in the following function:"
 msgid_plural "Found an obsolete/platform-specific call in the following functions:"
-msgstr[0] ""
-"S'ha trobat una crida obsoleta/específica de la plataforma a la funció "
-"següent:"
-msgstr[1] ""
-"S'ha trobat una crida obsoleta/específica de la plataforma en les funcions "
-"següents:"
+msgstr[0] "S'ha trobat una crida obsoleta/específica de la plataforma a la funció següent:"
+msgstr[1] "S'ha trobat una crida obsoleta/específica de la plataforma en les funcions següents:"
 
 #, fuzzy
 msgid "Found an obsolete/platform-specific call in methods for the following S4 generic:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following S4 generics:"
-msgstr[0] ""
-"S'ha trobat una crida obsoleta/específica de la plataforma en els mètodes "
-"per al següent genèric S4:"
-msgstr[1] ""
-"S'ha trobat una crida obsoleta/específica de la plataforma en els mètodes "
-"per als següents genèrics S4:"
+msgstr[0] "S'ha trobat una crida obsoleta/específica de la plataforma en els mètodes per al següent genèric S4:"
+msgstr[1] "S'ha trobat una crida obsoleta/específica de la plataforma en els mètodes per als següents genèrics S4:"
 
 #, fuzzy
 msgid "Found an obsolete/platform-specific call in methods for the following reference class:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following reference classes:"
-msgstr[0] ""
-"S'ha trobat una crida obsoleta/específica de plataforma en els mètodes per a "
-"la classe de referència següent:"
-msgstr[1] ""
-"S'ha trobat una crida obsoleta/específica de plataforma en els mètodes per a "
-"les classes de referència següents:"
+msgstr[0] "S'ha trobat una crida obsoleta/específica de plataforma en els mètodes per a la classe de referència següent:"
+msgstr[1] "S'ha trobat una crida obsoleta/específica de plataforma en els mètodes per a les classes de referència següents:"
 
 #, fuzzy
 msgid "Found the deprecated function:"
@@ -1885,15 +1841,17 @@ msgstr[0] "Genèric sense cap mètode a %s: %s"
 msgstr[1] "Genèrics sense cap mètode a %s: %s"
 
 #, fuzzy
-msgid "missing/empty \\name field in Rd file\n%s"
-msgid_plural "missing/empty \\name field in Rd files\n%s"
+msgid ""
+"missing/empty \\name field in Rd file\n"
+"%s"
+msgid_plural ""
+"missing/empty \\name field in Rd files\n"
+"%s"
 msgstr[0] ""
-"manca/buit el camp \\n"
-"ame al fitxer Rd\n"
+"manca/buit el camp \\name al fitxer Rd\n"
 "%s"
 msgstr[1] ""
-"camp \\n"
-"ame buit/manca als fitxers Rd\n"
+"camp \\name buit/manca als fitxers Rd\n"
 "%s"
 
 #, fuzzy
@@ -1942,4 +1900,8 @@ msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Entrada BibTeX corresponent:"
 msgstr[1] "Entrades corresponents de BibTeX:"
+
+#, fuzzy
+#~ msgid "parse error in file '%s':"
+#~ msgstr "error d'anàlisi al fitxer '%s':"
 

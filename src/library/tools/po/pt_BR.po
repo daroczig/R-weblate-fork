@@ -131,8 +131,7 @@ msgstr ""
 msgid "cannot open the connection"
 msgstr "não é possível abrir a conexão"
 
-#: gramRd.c:4569 y.tab.c:4569
-#: gramRd.c:4561
+#: gramRd.c:4543
 msgid "cannot read from this connection"
 msgstr "não é possível ler a partir desta conexão"
 
@@ -198,5 +197,4 @@ msgstr "tipo de argumento inválido"
 #: text.c:225 text.c:247
 msgid "out of memory"
 msgstr "falta de memória"
-
 

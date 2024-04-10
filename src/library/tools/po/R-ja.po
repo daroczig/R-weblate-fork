@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -413,8 +413,7 @@ msgid "'loadNamespace' or 'requireNamespace' call not declared from: %s"
 msgstr "'loadNamespace' もしくは 'requireNamespace' 呼出しが以下から宣言されていません: %s"
 
 msgid "'library' or 'require' calls to packages already attached by Depends:"
-msgstr "'library' もしくは 'require' により呼び出されたパッケージは、すでに Depends: "
-"によりアタッチされています:"
+msgstr "'library' もしくは 'require' により呼び出されたパッケージは、すでに Depends: によりアタッチされています:"
 
 msgid "'library' or 'require' call to %s which was already attached by Depends."
 msgstr "'library' もしくは 'requires' により、すでにDepends によりアタッチされた %s が呼び出されました"
@@ -1237,8 +1236,7 @@ msgid ""
 "reading DESCRIPTION for package %s failed with message:\n"
 "  %s"
 msgstr ""
-"パッケージ %s "
-"のDESCRIPTIONの読み取りに失敗し、次のメッセージが表示されました:\n"
+"パッケージ %s のDESCRIPTIONの読み取りに失敗し、次のメッセージが表示されました:\n"
 "  %s"
 
 #, fuzzy
@@ -1247,10 +1245,6 @@ msgstr "一時ディレクトリ %s を生成することが出来ません"
 
 msgid "expected one package directory, found %d."
 msgstr ""
-
-#, fuzzy
-msgid "one of 'package' and 'dir' must be specified."
-msgstr "正確に 1 つの Rd ファイルは指定されなければなりません"
 
 msgid "argument '%s' must be a character string or connection"
 msgstr "引数 '%s' は文字列かコネクションでなければなりません"
@@ -1537,18 +1531,15 @@ msgstr[0] "以下の参照クラスに対するメソッド中に .Internal 呼�
 
 msgid "Found an obsolete/platform-specific call in the following function:"
 msgid_plural "Found an obsolete/platform-specific call in the following functions:"
-msgstr[0] "以下の関数中にもはや使われていない, "
-"もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] "以下の関数中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found an obsolete/platform-specific call in methods for the following S4 generic:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following S4 generics:"
-msgstr[0] "以下の S4 総称に対するメソッド中にもはや使われていない, "
-"もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] "以下の S4 総称に対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found an obsolete/platform-specific call in methods for the following reference class:"
 msgid_plural "Found an obsolete/platform-specific call in methods for the following reference classes:"
-msgstr[0] "以下の参照クラスに対するメソッド中にもはや使われていない, "
-"もしくはプラットフォーム依存の呼び出しが見つかりました:"
+msgstr[0] "以下の参照クラスに対するメソッド中にもはや使われていない, もしくはプラットフォーム依存の呼び出しが見つかりました:"
 
 msgid "Found the deprecated function:"
 msgid_plural "Found the deprecated functions:"
