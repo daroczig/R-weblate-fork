@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 18:45+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -20,9 +20,7 @@ msgid "unnamed argument to initialize() for S3 class must have a class definitio
 msgstr "Argumento no nombrado en initialize() para clase S3 debe tener una definición de clase; %s no tiene"
 
 msgid "unnamed argument must extend either the S3 class or the class of the data part; not true of class %s"
-msgstr ""
-"argumento sin nombre debe extender la clase S3 o la clase de parte de los "
-"datos; no es el caso de clase %s"
+msgstr "argumento sin nombre debe extender la clase S3 o la clase de parte de los datos; no es el caso de clase %s"
 
 msgid "class %s does not have an S3 data part, and so is of type \"S4\"; no S3 equivalent"
 msgstr ""

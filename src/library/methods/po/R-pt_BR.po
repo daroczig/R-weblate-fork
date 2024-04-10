@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 19:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -302,9 +302,7 @@ msgid "generic names differ: %s, %s"
 msgstr "Nomes genéricos diferem: %s, %s"
 
 msgid "argument %s must be a generic function or a single character string; got an object of class %s"
-msgstr ""
-"argumento \"%s\" deve ser uma função genérica ou um único caractere, mas foi "
-"obtido um objeto de classe \"%s\""
+msgstr "argumento \"%s\" deve ser uma função genérica ou um único caractere, mas foi obtido um objeto de classe \"%s\""
 
 msgid "non-generic function '%s' given to findMethods()"
 msgstr "função não-genérica '%s' fornecida para findMethods()"
@@ -376,27 +374,19 @@ msgid "no generic function found corresponding to %s"
 msgstr "Nenhuma função genérica correspondendo a \"%s\""
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is deprecated."
-msgstr ""
-"%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está "
-"obsoleto"
+msgstr "%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está obsoleto"
 
 msgid "In %s: use of \"MethodsList\" metadata objects is deprecated."
-msgstr ""
-"%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está "
-"obsoleto"
+msgstr "%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está obsoleto"
 
 msgid "Use %s instead."
 msgstr ""
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is defunct."
-msgstr ""
-"%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está "
-"obsoleto"
+msgstr "%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está obsoleto"
 
 msgid "In %s: use of \"MethodsList\" metadata objects is defunct."
-msgstr ""
-"%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está "
-"obsoleto"
+msgstr "%s, junto com outro uso de \"MethodsList\" em objetos meta dados, está obsoleto"
 
 #, fuzzy
 msgid "invalid object for formal method definition: type %s"
@@ -615,9 +605,7 @@ msgid "must supply either a generic function or a function as default for %s"
 msgstr "a definição genérica de função fornecida para"
 
 msgid "the %s argument must be NULL or a generic function object; got an object of class %s"
-msgstr ""
-"argumento %s deve ser NULL ou uma função genérica, mas foi obtido um objeto "
-"de classe \"%s\""
+msgstr "argumento %s deve ser NULL ou uma função genérica, mas foi obtido um objeto de classe \"%s\""
 
 msgid "no suitable arguments to dispatch methods in this function"
 msgstr ""
@@ -647,9 +635,7 @@ msgstr ""
 
 #, fuzzy
 msgid "argument 'f' must be a string, generic function, or primitive: got an ordinary function"
-msgstr ""
-"argumento 'f' deve ser uma cadeia de caracteres, função genérica ou "
-"primitiva: tem uma função comum"
+msgstr "argumento 'f' deve ser uma cadeia de caracteres, função genérica ou primitiva: tem uma função comum"
 
 #, fuzzy
 msgid "no generic function found for %s"
@@ -820,9 +806,7 @@ msgid "class %s not found on %s; 'resetClass' will have no effect"
 msgstr ""
 
 msgid "argument 'classDef' must be a string or a class representation; got an object of class %s"
-msgstr ""
-"argumento 'classDef' deve ser uma cadeia de caracteres ou uma representação "
-"de classe, mas foi obtido um objeto de classe %s"
+msgstr "argumento 'classDef' deve ser uma cadeia de caracteres ou uma representação de classe, mas foi obtido um objeto de classe %s"
 
 msgid "class %s is sealed; 'resetClass' will have no effect"
 msgstr ""
@@ -855,8 +839,7 @@ msgid "no package name supplied and no class definition found for %s"
 msgstr "nenhuma função genérica '%s' encontrada"
 
 msgid "argument 'classDef' must be a class definition or the name of a class"
-msgstr ""
-"argumento 'classDef' deve ser uma definição de classe ou o nome de uma classe"
+msgstr "argumento 'classDef' deve ser uma definição de classe ou o nome de uma classe"
 
 msgid "No %s names supplied"
 msgstr ""
@@ -872,9 +855,7 @@ msgid ""
 msgstr ""
 
 msgid "argument %s must be a list or a character vector; got an object of class %s"
-msgstr ""
-"argumento %s deve ser uma lista ou um vetor de caracteres, mas foi obtido um "
-"objeto de classe \"%s\""
+msgstr "argumento %s deve ser uma lista ou um vetor de caracteres, mas foi obtido um objeto de classe \"%s\""
 
 #, fuzzy
 msgid "expected a non-empty character string for argument 'name'"
@@ -995,9 +976,7 @@ msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "definição de método inválida: uma função era esperada, mas foi especificado um objeto de classe \"%s\""
 
 msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
-msgstr ""
-"elemento mlist inválido para assinatura %s no nível %d (deve ser "
-"MethodDefinition ou .Primitive, tinha classe %s)"
+msgstr "elemento mlist inválido para assinatura %s no nível %d (deve ser MethodDefinition ou .Primitive, tinha classe %s)"
 
 #, fuzzy
 msgid "bad method object stored in method table, class %s"
@@ -1068,9 +1047,7 @@ msgid "not allowed to have test==TRUE and an S4Class definition"
 msgstr ""
 
 msgid "argument 'S4Class' must be a class definition: got an object of class %s"
-msgstr ""
-"argumento 'S4Class' deve ser uma definição de classe: tem um objeto da "
-"classe %s"
+msgstr "argumento 'S4Class' deve ser uma definição de classe: tem um objeto da classe %s"
 
 msgid "inconsistent old-style class information for %s; the class is defined but does not extend %s and is not valid as the data part"
 msgstr ""
@@ -1138,9 +1115,7 @@ msgid "%s is not a field in class %s"
 msgstr "classe \"%s\" extende uma classe não definida, \"%s\""
 
 msgid "unnamed arguments to $new() must be objects from a reference class; got an object of class %s"
-msgstr ""
-"argumentos sem nome para $new() devem ser objetos de uma classe de "
-"referência, mas foi obtido um objeto de classe \"%s\""
+msgstr "argumentos sem nome para $new() devem ser objetos de uma classe de referência, mas foi obtido um objeto de classe \"%s\""
 
 #, fuzzy
 msgid "%s is not a valid field or method name for this class"
@@ -1193,9 +1168,7 @@ msgid "the overriding class (\"%s\") of field %s is not a subclass of the existi
 msgstr ""
 
 msgid "invalid assignment for reference class field %s, should be from class %s or a subclass (was class %s)"
-msgstr ""
-"atribuição inválida para o campo de classe de referência %s, deve ser da "
-"classe %s ou de uma subclasse (era classe %s)"
+msgstr "atribuição inválida para o campo de classe de referência %s, deve ser da classe %s ou de uma subclasse (era classe %s)"
 
 msgid "invalid replacement: reference class field %s is read-only"
 msgstr ""
@@ -1226,9 +1199,7 @@ msgid "class %s is defined but is not a reference class"
 msgstr "'%s' não é uma das funções básicas"
 
 msgid "class must be a reference class representation or a character string; got an object of class %s"
-msgstr ""
-"classe deve ser uma representação de classe de referência ou uma cadeia de "
-"caracteres; obteve um objeto da classe %s"
+msgstr "classe deve ser uma representação de classe de referência ou uma cadeia de caracteres; obteve um objeto da classe %s"
 
 #, fuzzy
 msgid "not a reference class: %s"
@@ -1273,18 +1244,14 @@ msgid "Could not find local object in supplied environment"
 msgstr "\"%s\" náo é uma classe definida nesse ambiente"
 
 msgid "invalid 'ignore' argument; should be a class definition or a character vector, got an object of class %s"
-msgstr ""
-"argumento 'ignore' inválido; deve ser uma definição de classe ou um vetor de "
-"caracteres, mas foi obtido um objeto de classe %s"
+msgstr "argumento 'ignore' inválido; deve ser uma definição de classe ou um vetor de caracteres, mas foi obtido um objeto de classe %s"
 
 #, fuzzy
 msgid "An object of class %s"
 msgstr "Um objeto de classe \""
 
 msgid "invalid call to 'classLabel': expected a name or a class definition, got an object of class %s"
-msgstr ""
-"chamada inválida para 'classLabel': esperava um nome ou uma definição de "
-"classe, mas foi obtido um objeto da classe %s"
+msgstr "chamada inválida para 'classLabel': esperava um nome ou uma definição de classe, mas foi obtido um objeto da classe %s"
 
 msgid "argument 'signature' is not meaningful for tracing reference methods"
 msgstr ""
@@ -1497,21 +1464,6 @@ msgid "no definition of class %s in the specified position, %s, definition on : 
 msgid_plural "no definition of class %s in the specified position, %s, definitions on : %s"
 msgstr[0] "nenhuma definição de classe %s na posição especificada, %s, definiçõe em : %s"
 msgstr[1] "nenhuma definição de classe %s na posição especificada, %s, definições em : %s"
-
-#~ msgid "invalid method sublist"
-#~ msgstr "sublista de método inválida"
-
-#, fuzzy
-#~ msgid "%f is not a valid generic function: methods list was an object of class %s"
-#~ msgstr "'%f' não é uma função genérica válida: lista de métodos era um objeto de classe \"%s\""
-
-#, fuzzy
-#~ msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
-#~ msgstr "'useInherited' deve ser TRUE, FALSE, ou um vetor lógico com nomes desses valores; foi obtido um objeto de classe \"%s\""
-
-#, fuzzy
-#~ msgid "skipping methods list element %s of unexpected class %s"
-#~ msgstr "pulando o elemento %s da lista de métodos por ser de classe inesperada \"%s\""
 
 #, fuzzy
 #~ msgid "methods cannot be defined for the primitive function %s"
@@ -1730,4 +1682,5 @@ msgstr[1] "nenhuma definição de classe %s na posição especificada, %s, defin
 #, fuzzy
 #~ msgid "Package \"%s\" is not loaded"
 #~ msgstr "Pacote '%s' não está carregado"
+
 

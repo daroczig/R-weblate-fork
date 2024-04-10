@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -501,10 +501,7 @@ msgid "Note: some superclasses of class %s in package %s have duplicate definiti
 msgstr "Einige Superklassen der Klasse %s in Paket %s haben duplizierte Definitionen. Diese Definition wird nicht als äquivalent zu der aus Paket %s behandelt."
 
 msgid "Note: the specification for class %s in package %s seems equivalent to one from package %s: not turning on duplicate class definitions for this class."
-msgstr ""
-"Die Spezifikation für die Klasse %s in Paket %s scheint äquivalent zu einer "
-"aus Paket %s; für diese Klasse werden die Klassendefinitionen nicht "
-"dupliziert"
+msgstr "Die Spezifikation für die Klasse %s in Paket %s scheint äquivalent zu einer aus Paket %s; für diese Klasse werden die Klassendefinitionen nicht dupliziert"
 
 msgid "Found more than one class \"%s\" in cache; using the first, from namespace '%s'"
 msgstr "Mehr als eine Klasse \"%s\" im Cache gefunden; nutze die erste, kommt aus Namensraum '%s'"
@@ -744,9 +741,7 @@ msgid "class definition cannot extend more than one of these data types: %s"
 msgstr "Klassendefinitionen können nicht mehr als einen dieser Datentypen erweitern: %s"
 
 msgid "abnormal type %s is not supported as a superclass of a class definition"
-msgstr ""
-"Sorry, der unnormaler Typ %s wird als Superklasse der Klassendefinition "
-"nicht unterstützt"
+msgstr "Sorry, der unnormaler Typ %s wird als Superklasse der Klassendefinition nicht unterstützt"
 
 msgid "multiple class definitions for %s from packages: %s; picking the first"
 msgstr "mehrere Klassendefinitionen für %s aus den Paketen: %s; nehme die erste"
