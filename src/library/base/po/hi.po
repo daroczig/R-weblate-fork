@@ -255,8 +255,7 @@ msgstr ""
 #: src/modules/lapack/Lapack.c:182 src/modules/lapack/Lapack.c:287
 #: src/modules/lapack/Lapack.c:862 src/modules/lapack/Lapack.c:970
 #: src/modules/lapack/Lapack.c:1032 src/modules/lapack/Lapack.c:1377
-#: src/unix/sys-std.c:1363 src/unix/sys-std.c:1386 src/unix/sys-unix.c:893
-#: src/unix/sys-std.c:1360 src/unix/sys-std.c:1383 src/unix/sys-unix.c:893
+#: src/unix/sys-std.c:1368 src/unix/sys-std.c:1391 src/unix/sys-unix.c:909
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -356,9 +355,9 @@ msgstr ""
 msgid "character string expected as third argument"
 msgstr ""
 
-#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:340
-#: src/modules/internet/libcurl.c:343 src/modules/internet/libcurl.c:346
-#: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:377
+#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:348
+#: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:354
+#: src/modules/internet/libcurl.c:359 src/modules/internet/libcurl.c:395
 #, c-format
 msgid "invalid %s argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -786,9 +785,7 @@ msgstr ""
 #: src/main/Renviron.c:515 src/main/objects.c:1370 src/main/raw.c:207
 #, c-format
 msgid "argument '%s' must be a character string"
-msgstr ""
-"अर्गुमेंत (argument) %1$s एक केरेक्टेर (character) स्ट्रिंग (string) होनी "
-"चाहिये"
+msgstr "अर्गुमेंत (argument) %1$s एक केरेक्टेर (character) स्ट्रिंग (string) होनी चाहिये"
 
 #: src/main/Renviron.c:519
 #, c-format
@@ -892,7 +889,6 @@ msgstr ""
 #: src/modules/X11/devX11.c:3295 src/modules/X11/devX11.c:3300
 #: src/modules/X11/devX11.c:3304 src/modules/X11/devX11.c:3308
 #: src/modules/X11/devX11.c:3313
-#: src/modules/X11/devX11.c:3309
 #, c-format
 msgid "invalid '%s' value"
 msgstr "अमान्य %s संख्या"
@@ -930,7 +926,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr ""
 
-#: src/main/apply.c:343 src/main/coerce.c:2729
+#: src/main/apply.c:343 src/main/coerce.c:2726
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' एक लिस्ट (list) या एक्ष्प्रेशन (expression) होना चाहिए"
@@ -1240,7 +1236,7 @@ msgstr ""
 msgid "'dimnames' applied to non-array"
 msgstr ""
 
-#: src/main/attrib.c:1098 src/main/coerce.c:2732
+#: src/main/attrib.c:1098 src/main/coerce.c:2729
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s ' एक लिस्ट (list) होनी चाहिए"
@@ -1418,7 +1414,7 @@ msgstr "'dim' बहुत बड़ा ऐरे निर्दिष्ट �
 #: src/main/builtin.c:75 src/main/builtin.c:112 src/main/envir.c:1876
 #: src/main/envir.c:1995 src/main/envir.c:2100 src/main/envir.c:2234
 #: src/main/paste.c:103 src/main/paste.c:345 src/main/random.c:481
-#: src/main/random.c:510 src/main/unique.c:2257
+#: src/main/random.c:510 src/main/unique.c:2261
 msgid "invalid first argument"
 msgstr "पेहली आर्गुमेंट (argument) अमान्य है"
 
@@ -1506,7 +1502,7 @@ msgstr ""
 msgid "cannot set length of non-(vector or list)"
 msgstr ""
 
-#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
+#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3096
 msgid "invalid value"
 msgstr "अमान्य संख्या"
 
@@ -5578,9 +5574,6 @@ msgstr ""
 msgid "incorrect number of probabilities"
 msgstr ""
 
-msgid "dim(x) must have a positive length"
-msgstr "dim(X) की लंबाई की संख्या घनात्मक होनी चाहिए"
-
 #: src/main/random.c:531
 msgid "n >= 2^31, replace = FALSE is only supported on 64-bit platforms"
 msgstr ""
@@ -5886,9 +5879,6 @@ msgstr ""
 #: src/main/saveload.c:2131
 msgid "loaded data is not in pair list form"
 msgstr ""
-
-msgid "arguments imply differing number of rows: %s"
-msgstr "तर्क अलग-अलग पंक्तियों की संख्या दर्शाते हैं: %s"
 
 #: src/main/saveload.c:2167
 #, fuzzy
@@ -7766,9 +7756,7 @@ msgstr ""
 
 #: src/modules/lapack/Lapack.c:1143
 msgid "'size' argument must be a positive integer"
-msgstr ""
-"'size' अर्गुमेंत (argument) एक पोझीतीव (positive) इंतीजर (integer) होना "
-"चाहिये"
+msgstr "'size' अर्गुमेंत (argument) एक पोझीतीव (positive) इंतीजर (integer) होना चाहिये"
 
 #: src/modules/lapack/Lapack.c:1158
 #, c-format
@@ -8017,7 +8005,7 @@ msgstr ""
 msgid "no history available to save"
 msgstr ""
 
-#: src/unix/sys-std.c:1417
+#: src/unix/sys-std.c:1422
 msgid "invalid timestamp"
 msgstr "अमान्य timestamp"
 
@@ -8030,7 +8018,7 @@ msgstr ""
 msgid "non-empty character argument expected"
 msgstr ""
 
-#: src/unix/sys-unix.c:890
+#: src/unix/sys-unix.c:906
 msgid "'intern' must be logical and not NA"
 msgstr "'intern' का लोजिकल (logical) या NA होना अनिवार्य है"
 
@@ -8053,7 +8041,7 @@ msgstr ""
 msgid "error in running command: '%s'"
 msgstr ""
 
-#: src/unix/sys-unix.c:1140
+#: src/unix/sys-unix.c:1156
 msgid "Sys.info() is not implemented on this system"
 msgstr "Sys.info() का इस प्रणाली मे अमल नही है"
 
@@ -8248,6 +8236,4 @@ msgstr ""
 
 #~ msgid "duplicate row.names: %s"
 #~ msgstr "पंक्तियों के नाम समान है"
-
-
 

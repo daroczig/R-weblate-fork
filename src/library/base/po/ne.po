@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-29 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -4990,19 +4990,7 @@ msgstr ""
 msgid "OpenMP SIMD is not supported in this build of R"
 msgstr ""
 
-msgid "See help(\"Defunct\")"
-msgstr "help(\"Defunct\") हेर्नुहोस्"
-
-msgid "'%s' is defunct."
-msgstr ""
-
-msgid "Use '%s' instead."
-msgstr ""
-
-msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
-msgstr "help(\"Defunct\") र help(\"%s-defunct\") हेर्नुहोस्।"
-
-#: src/main/options.c:833
+#: src/main/options.c:844
 msgid "'PCRE_study' has no effect with PCRE2"
 msgstr ""
 
@@ -7933,3 +7921,6 @@ msgstr ""
 
 #~ msgid "See help(\"Defunct\")"
 #~ msgstr "help(\"Defunct\") हेर्नुहोस्"
+
+#~ msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
+#~ msgstr "help(\"Defunct\") र help(\"%s-defunct\") हेर्नुहोस्।"

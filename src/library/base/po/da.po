@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-18 21:18+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -7413,12 +7413,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl mislykkedes: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8128,5 +8128,4 @@ msgstr "ADVARSEL: Redigeringer kun den første i listen over filer"
 
 #~ msgid "symbol"
 #~ msgstr "symbol"
-
 

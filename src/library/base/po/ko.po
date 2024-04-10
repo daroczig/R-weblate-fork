@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-3.5.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -2040,8 +2040,7 @@ msgstr "'description' 인자의 첫번째 요소만이 사용되었습니다"
 
 #: src/main/connections.c:1592
 msgid "fifo(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
-msgstr "fifo(\"\")는 오로지 open = \"w+\"와 open = \"w+b\"만을 지원합니다. 전자를 "
-"사용합니다"
+msgstr "fifo(\"\")는 오로지 open = \"w+\"와 open = \"w+b\"만을 지원합니다. 전자를 사용합니다"
 
 #: src/main/connections.c:1617
 msgid "fifo connections are not available on this system"
@@ -2520,9 +2519,7 @@ msgstr "텍스트 모드 'file' 커넥션을 이용하는 것은 제대로 작�
 
 #: src/main/connections.c:6116
 msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
-msgstr ""
-"쓰기가 가능한 textConnection으로부터 'gzcon' 커넥션을 생성할 수 없습니다. "
-"아마도 rawConnection을 사용해야 할 것 같습니다"
+msgstr "쓰기가 가능한 textConnection으로부터 'gzcon' 커넥션을 생성할 수 없습니다. 아마도 rawConnection을 사용해야 할 것 같습니다"
 
 #: src/main/connections.c:6119 src/main/connections.c:6123
 #: src/main/connections.c:6131 src/main/connections.c:6146
@@ -6141,8 +6138,7 @@ msgstr "이 버전의 R은 제네릭 함수 레퍼런스를 읽을 수 없습니
 #: src/main/serialize.c:2090
 #, c-format
 msgid "ReadItem: unknown type %i, perhaps written by later version of R"
-msgstr "ReadItem: 알 수 없는 타입 %i입니다. 아마도 R의 이후버전에 의해서 작성된 것 "
-"같습니다"
+msgstr "ReadItem: 알 수 없는 타입 %i입니다. 아마도 R의 이후버전에 의해서 작성된 것 같습니다"
 
 #: src/main/serialize.c:2255 src/main/serialize.c:2346
 #, fuzzy
@@ -7423,12 +7419,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr ""
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8253,6 +8249,4 @@ msgstr "경고: 파일들의 목록에서 오로지 첫번째 것만을 편집�
 
 #~ msgid "invalid 'tryS4' internal argument"
 #~ msgstr "유효한 'tryS4' 내부 인자가 아닙니다"
-
-
 

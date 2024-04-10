@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-29 01:32+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -1822,7 +1822,7 @@ msgstr "tanımlanmamış karşılaştırma"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() (liste veya vektör) olmayan '%s' tipinin"
 
-#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
+#: src/main/coerce.c:2526 src/main/coerce.c:2587 src/main/coerce.c:2663
 #, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "varsayılan yöntem '%s' türü için uygulanmadı"
@@ -3624,7 +3624,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Kayıp uyarı mesajları\n"
 
-#: src/main/errors.c:602
+#: src/main/errors.c:609
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Uyarı mesajları:"
@@ -3634,17 +3634,16 @@ msgstr[0] "Uyarı mesajları:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:665
+#: src/main/errors.c:672
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "%d hata oluştu (görmek için warnings() kullanın)"
 
-#: src/main/errors.c:670
+#: src/main/errors.c:677
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr ""
-"%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() kullanın)"
+msgstr "%d yada daha fazla uyarı oluştu (ilk %d'sini görmek için warnings() kullanın)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
@@ -4273,18 +4272,18 @@ msgstr ""
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
 msgstr "'\\U', \"%s\" ile başlayan bir karakter dizesinde onaltılı haneler olmadan kullanıldı"
 
-#: src/main/gram.y:3036
+#: src/main/gram.y:3037
 #, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
 msgstr "geçersiz \\U{xxxxxxxx} dizilimi (%s:%d:%d)"
 
-#: src/main/gram.y:3045
-#, c-format, fuzzy
+#: src/main/gram.y:3046
+#, fuzzy, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
 msgstr "geçersiz \\U{xxxxxxxx} değeri %6x (%s:%d:%d)"
 
-#: src/main/gram.y:3048
-#, c-format, fuzzy
+#: src/main/gram.y:3049
+#, fuzzy, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
 msgstr "geçersiz \\Uxxxxxxxx değeri %6x (%s:%d:%d)"
 
@@ -4750,7 +4749,7 @@ msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
 msgstr[0] "unprotect(): sadece %d korunmuş öğe var"
 
-#: src/main/memory.c:3527
+#: src/main/memory.c:3528
 #, c-format
 msgid "'R_Calloc' could not allocate memory (%llu of %llu bytes)"
 msgstr "R_Calloc bellekte (%llu / %llu) yer ayıramıyor"
@@ -7581,12 +7580,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl başarısız: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8927,7 +8926,4 @@ msgstr "UYARI: Dosya listesinde sadece ilk öğe düzenleniyor"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "basit olmayanda 'R_get_primname' çağırıldı"
-
-
-
 

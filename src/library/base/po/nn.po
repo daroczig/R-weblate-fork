@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-22 18:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -1823,7 +1823,7 @@ msgstr "ikkje-implementert predikat"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() brukt på ikkje-(liste eller vektor) av typen «%s»"
 
-#: src/main/coerce.c:2529 src/main/coerce.c:2590 src/main/coerce.c:2666
+#: src/main/coerce.c:2526 src/main/coerce.c:2587 src/main/coerce.c:2663
 #, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "ikkje-implementert type «%s»"
@@ -1856,9 +1856,7 @@ msgstr "Set class(x) til NULL. Resultatet vil ikkje lenger vera eit S4-objekt."
 #: src/main/coerce.c:2968
 #, c-format
 msgid "Setting class(x) to multiple strings (\"%s\", \"%s\", ...); result will no longer be an S4 object"
-msgstr ""
-"Set class(x) til fleire teiknstrengar (\"%s\", \"%s\", ...). Resultatet vil "
-"ikkje lenger vera eit S4-objekt"
+msgstr "Set class(x) til fleire teiknstrengar (\"%s\", \"%s\", ...). Resultatet vil ikkje lenger vera eit S4-objekt"
 
 #: src/main/coerce.c:2972
 #, c-format
@@ -3625,7 +3623,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Tapt åtvaringsmelding\n"
 
-#: src/main/errors.c:602
+#: src/main/errors.c:609
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Åtvaring:"
@@ -3636,19 +3634,17 @@ msgstr[1] "Åtvaringar:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:665
+#: src/main/errors.c:672
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "Det oppstod %d åtvaring (bruk «warnings()» for å sjå dei)"
 msgstr[1] "Det oppstod %d åtvaringar (bruk «warnings()» for å sjå dei)"
 
-#: src/main/errors.c:670
+#: src/main/errors.c:677
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
-msgstr ""
-"Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå dei %d "
-"første)"
+msgstr "Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå dei %d første)"
 
 #: src/main/errors.c:763
 msgid "Error during wrapup: "
@@ -7596,12 +7592,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "feil ved InternetOpenUrl: «%s»"
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -8958,7 +8954,4 @@ msgstr "ÅTVARING: Redigerer berre den første i lista over filer"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "«R_get_primname» kalla på ikkje-primtiv"
-
-
-
 

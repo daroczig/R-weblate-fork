@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: base 4.1.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-22 18:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -15,9 +15,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
-"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
-"1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? 1 : 2);\n"
 "X-Generator: Weblate 4.16.4\n"
 
 #: src/appl/optim.c:60
@@ -983,8 +981,7 @@ msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Masyvo, kurio ilgis 1, perdirbimas masyvo-vektoriaus aritmetikoje yra "
-"pasenęs.\n"
+"Masyvo, kurio ilgis 1, perdirbimas masyvo-vektoriaus aritmetikoje yra pasenęs.\n"
 "  Vietoj to naudokite c() arba as.vector()."
 
 #: src/main/arithmetic.c:580
@@ -992,8 +989,7 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"Masyvo, kurio ilgis 1, perdirbimas vektoriaus-masyvo aritmetikoje yra "
-"pasenęs.\n"
+"Masyvo, kurio ilgis 1, perdirbimas vektoriaus-masyvo aritmetikoje yra pasenęs.\n"
 "  Vietoj to naudokite c() arba as.vector()."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
@@ -6119,9 +6115,7 @@ msgstr "kol kas vardai pastoviose eilutėse nepalaikomi"
 #: src/main/serialize.c:1677
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr ""
-"įvesties eilutė '%s' negali būti išversta iš \"%s\" į UTF-8, bet galioja "
-"UTF-8"
+msgstr "įvesties eilutė '%s' negali būti išversta iš \"%s\" į UTF-8, bet galioja UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -8441,5 +8435,3 @@ msgstr "DĖMESIO!: galima redaguoti tik pirmąjį failų sąraše"
 
 #~ msgid "use 'is()' instead of 'inherits()' on S4 objects"
 #~ msgstr "objektuose S4 vietoj 'inherits()' naudoti 'is()'"
-
-

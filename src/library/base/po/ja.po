@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.5.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-03-30 03:05+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -763,8 +763,7 @@ msgstr "共有ライブラリ '%s' はロードされていません"
 #, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
-msgstr[0] "登録されたネイティブのシンボルのためのメモリを割り当てることができません。("
-"%d バイト)"
+msgstr[0] "登録されたネイティブのシンボルのためのメモリを割り当てることができません。(%d バイト)"
 
 #: src/main/Rdynload.c:1461 src/main/Rdynload.c:1660
 msgid "NULL value passed for DllInfo"
@@ -945,7 +944,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr "dimnames(<value>) は NULL でも長さ %d のリストでもありません"
 
-#: src/main/apply.c:343 src/main/coerce.c:2729
+#: src/main/apply.c:343 src/main/coerce.c:2726
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' はリストまたはexpressionでなければなりません"
@@ -1491,12 +1490,12 @@ msgstr "パッケージのインポートの親の環境は設定できません
 msgid "'parent' is not an environment"
 msgstr "'parent' は環境ではありません"
 
-#: src/main/builtin.c:570 src/main/connections.c:4160
-#: src/main/connections.c:4543 src/main/connections.c:4580
-#: src/main/connections.c:4960 src/main/connections.c:5030
-#: src/main/connections.c:5248 src/main/connections.c:5252
-#: src/main/connections.c:5733 src/main/deparse.c:414 src/main/deparse.c:500
-#: src/main/serialize.c:2461
+#: src/main/builtin.c:570 src/main/connections.c:4217
+#: src/main/connections.c:4600 src/main/connections.c:4637
+#: src/main/connections.c:5017 src/main/connections.c:5087
+#: src/main/connections.c:5305 src/main/connections.c:5309
+#: src/main/connections.c:5790 src/main/deparse.c:414 src/main/deparse.c:500
+#: src/main/serialize.c:2462
 msgid "cannot write to this connection"
 msgstr "このコネクションには書き出せません"
 
@@ -1994,13 +1993,13 @@ msgstr "fifo '%s' は準備ができていません"
 msgid "cannot open fifo '%s'"
 msgstr "fifo '%s' を開くことができません"
 
-#: src/main/connections.c:1201 src/main/connections.c:1212
-#: src/main/connections.c:1373 src/main/connections.c:1392
-#: src/main/connections.c:1846 src/main/connections.c:1856
-#: src/main/connections.c:1986 src/main/connections.c:2046
-#: src/main/connections.c:2601 src/main/connections.c:2617
-#: src/main/connections.c:2939 src/main/connections.c:5919
-#: src/main/connections.c:5983
+#: src/main/connections.c:1258 src/main/connections.c:1269
+#: src/main/connections.c:1430 src/main/connections.c:1449
+#: src/main/connections.c:1903 src/main/connections.c:1913
+#: src/main/connections.c:2043 src/main/connections.c:2103
+#: src/main/connections.c:2658 src/main/connections.c:2674
+#: src/main/connections.c:2996 src/main/connections.c:5976
+#: src/main/connections.c:6040
 msgid "too large a block specified"
 msgstr "指定されたブロックが大きすぎます"
 
@@ -2551,6 +2550,13 @@ msgstr "ソケットルーチンがロードできません"
 #: src/main/connections.c:6439
 msgid "not a socket connection"
 msgstr "ソケットコネクションではありません"
+
+#: src/main/connections.c:6427 src/modules/internet/libcurl.c:721
+#: src/modules/internet/sockconn.c:62 src/modules/internet/sockconn.c:96
+#: src/modules/internet/sockconn.c:296
+#, fuzzy
+msgid "file descriptor is too large for select()"
+msgstr "長さ %d は大きすぎてハッシュできません"
 
 #: src/main/connections.c:6433 src/modules/internet/libcurl.c:606
 msgid "too many file descriptors for select()"
@@ -3670,15 +3676,7 @@ msgstr "強制変換中に不正確な整数変換が行われました"
 msgid "unknown warning (report this!)"
 msgstr "未知の警告です (報告してください！)"
 
-#: src/main/errors.c:1525
-msgid "No function to return from, jumping to top level"
-msgstr "戻るべき関数がないので、トップレベルへジャンプします"
-
-#: src/main/errors.c:1541
-msgid "top level inconsistency?"
-msgstr "トップレベルの不整合？"
-
-#: src/main/errors.c:1797
+#: src/main/errors.c:1742
 msgid "bad handler data"
 msgstr "ハンドラーデータ (handler data) が不正です"
 
@@ -3873,8 +3871,9 @@ msgstr "代入の左辺が不正 (do_set) です"
 msgid "'%s' is missing"
 msgstr "'%s' が見つかりません"
 
-#: src/main/eval.c:3825
-msgid "invalid formal argument list for \"function\""
+#: src/main/eval.c:3859
+#, fuzzy, c-format
+msgid "invalid formal argument list for \"%s\""
 msgstr "\"function\" の仮引数リストが不正です"
 
 #: src/main/eval.c:3897 src/main/eval.c:3928 src/main/eval.c:3933
@@ -3885,10 +3884,6 @@ msgstr "'%s' 引数 (型 '%s') が不正です"
 #: src/main/eval.c:3925
 msgid "numeric 'envir' arg not of length one"
 msgstr "数値の 'envir' 引数の長さが 1 ではありません"
-
-#: src/main/eval.c:3935 src/main/eval.c:3959
-msgid "restarts not supported in 'eval'"
-msgstr "再実行機能は 'eval' 関数に対してはサポートされていません"
 
 #: src/main/eval.c:4043 src/main/eval.c:4056
 msgid "'Recall' called from outside a closure"
@@ -3921,19 +3916,7 @@ msgstr "opcode が不適当です"
 msgid "invalid %s type in 'x %s y'"
 msgstr "'x %s y' の %s の型が不正です"
 
-#: src/main/eval.c:7132
-msgid "bytecode version mismatch; using eval"
-msgstr "バイトコードのバージョンが不一致です; eval を使います"
-
-#: src/main/eval.c:7138
-msgid "bytecode version is too old"
-msgstr "バイトコードのバージョンが古すぎます"
-
-#: src/main/eval.c:7139
-msgid "bytecode version is too new"
-msgstr "バイトコードのバージョンが新しすぎます"
-
-#: src/main/eval.c:7184
+#: src/main/eval.c:7552
 msgid "byte code version mismatch"
 msgstr "バイトコードのバージョンが不一致です"
 
@@ -4697,8 +4680,7 @@ msgstr "unprotect_ptr: ポインターがありません"
 #, c-format
 msgid "R_Reprotect: only %d protected item, can't reprotect index %d"
 msgid_plural "R_Reprotect: only %d protected items, can't reprotect index %d"
-msgstr[0] "R_Reprotect: %d 個だけの保護された項目です、インデックス %d "
-"を再プロテクトできません"
+msgstr[0] "R_Reprotect: %d 個だけの保護された項目です、インデックス %d を再プロテクトできません"
 
 #: src/main/memory.c:3547
 #, fuzzy, c-format
@@ -5094,8 +5076,7 @@ msgstr "引数が不正です"
 #, c-format
 msgid "%d argument passed to .Internal(%s) which requires %d"
 msgid_plural "%d arguments passed to .Internal(%s) which requires %d"
-msgstr[0] ".Internal(%2$s) 関数に %1$d 個の引数が渡されましたが、%3$d "
-"個でなくてはなりません"
+msgstr[0] ".Internal(%2$s) 関数に %1$d 個の引数が渡されましたが、%3$d 個でなくてはなりません"
 
 #: src/main/paste.c:113 src/main/paste.c:351
 msgid "invalid separator"
@@ -5615,6 +5596,16 @@ msgstr "不正な UTF-8 文字列です"
 #, fuzzy
 msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
 msgstr "引数 'multiple' は TRUE または FALSE でなければなりません"
+
+#: src/main/relop.c:140 src/main/relop.c:154 src/main/relop.c:169
+#, fuzzy, c-format
+msgid "comparison (%s) is not possible for language types"
+msgstr "比較 (%d) はアトミックおよびリスト型に対してだけ可能です"
+
+#: src/main/relop.c:177
+#, fuzzy
+msgid "comparing this symbol and string pair is not supported"
+msgstr "これらの型の比較は未実装です"
 
 #: src/main/relop.c:185
 #, fuzzy, c-format
@@ -6228,6 +6219,10 @@ msgstr "不適切なバージョン値です"
 #: src/main/serialize.c:2648
 msgid "binary-mode connection required for ascii=FALSE"
 msgstr "ascii=FALSE に大してはバイナリコネクションが必要です"
+
+#: src/main/serialize.c:2656
+msgid "cannot return a promise (PROMSXP) object"
+msgstr ""
 
 #: src/main/serialize.c:2808 src/main/serialize.c:2845
 #: src/main/serialize.c:2908
@@ -7470,12 +7465,12 @@ msgid "InternetOpenUrl failed: '%s'"
 msgstr "InternetOpenUrl の失敗: '%s'"
 
 #: src/modules/internet/internet.c:599
-#, c-format, fuzzy
+#, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:217
-#, c-format, fuzzy
+#: src/modules/internet/libcurl.c:216
+#, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
 
@@ -7493,7 +7488,14 @@ msgstr ""
 msgid "curlGetHeaders is not supported on this platform"
 msgstr "このプラットフォームでは curlGetHeaders はサポートされていません"
 
-#: src/modules/internet/libcurl.c:392 src/modules/internet/libcurl.c:394
+#: src/modules/internet/libcurl.c:363 src/modules/internet/libcurl.c:673
+#: src/modules/internet/libcurl.c:692 src/modules/internet/libcurl.c:1025
+#: src/modules/internet/libcurl.c:1047
+#, fuzzy
+msgid "could not create curl handle"
+msgstr "'name' のための領域を割り当てられませんでした"
+
+#: src/modules/internet/libcurl.c:410 src/modules/internet/libcurl.c:412
 #, c-format
 msgid ""
 "libcurl error code %d:\n"
@@ -8046,6 +8048,24 @@ msgstr "'-e' に対して一時ファイルの作成は失敗しました"
 #: src/unix/system.c:575
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "警告: ファイルリストの最初のみを編集します"
+
+#~ msgid "No function to return from, jumping to top level"
+#~ msgstr "戻るべき関数がないので、トップレベルへジャンプします"
+
+#~ msgid "top level inconsistency?"
+#~ msgstr "トップレベルの不整合？"
+
+#~ msgid "restarts not supported in 'eval'"
+#~ msgstr "再実行機能は 'eval' 関数に対してはサポートされていません"
+
+#~ msgid "bytecode version mismatch; using eval"
+#~ msgstr "バイトコードのバージョンが不一致です; eval を使います"
+
+#~ msgid "bytecode version is too old"
+#~ msgstr "バイトコードのバージョンが古すぎます"
+
+#~ msgid "bytecode version is too new"
+#~ msgstr "バイトコードのバージョンが新しすぎます"
 
 #, fuzzy, c-format
 #~ msgid "%d argument passed to '%s' which requires 1 or 2 arguments"
@@ -8792,7 +8812,4 @@ msgstr "警告: ファイルリストの最初のみを編集します"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr " 'R_get_primname' がプリミティブでないものに対して呼び出されました "
-
-
-
 
