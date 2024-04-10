@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
 "PO-Revision-Date: 2024-03-28 18:44+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -93,9 +93,7 @@ msgstr "uso do ambiente NULL foi extinto"
 #: methods_list_dispatch.c:620
 #, c-format
 msgid "invalid environment in checking for missing argument, '%s', in methods dispatch: got an object of class \"%s\""
-msgstr ""
-"ambiente inválido na verificação de argumento faltante, '%s', no "
-"despachamento dos métodos: foi especificado um objeto de classe \"%s\""
+msgstr "ambiente inválido na verificação de argumento faltante, '%s', no despachamento dos métodos: foi especificado um objeto de classe \"%s\""
 
 #: methods_list_dispatch.c:643
 #, c-format
