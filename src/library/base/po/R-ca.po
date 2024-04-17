@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-11-20 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-04-18 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -759,24 +759,22 @@ msgid "No factors specified"
 msgstr "No s'ha especificat cap factor"
 
 msgid "invalid '%s': type \"%s\""
-msgstr ""
+msgstr "«%s» no vàlid: tipus \"%s\""
 
-#, fuzzy
 msgid "'uplo' must be \"U\" or \"L\""
-msgstr "«wait» ha de ser TRUE o FALSE"
+msgstr "«uplo» ha de ser \"U\" o \"L\""
 
-#, fuzzy
 msgid "invalid nrow(z)"
-msgstr "nrow(x) no vàlid"
+msgstr "nrow(z) no vàlid"
 
 msgid "triangular matrix should be square"
 msgstr "la matriu triangular ha de ser quadrada"
 
 msgid "using 1-norm approximation for approximate 2-norm"
-msgstr ""
+msgstr "s'està usant l'aproximació 1-norm per aproximar 2-norm"
 
 msgid "norm=\"%s\" not available here; using norm=\"1\""
-msgstr ""
+msgstr "norm=\"%s\" no disponible aquí; s'usarà norm=\"1\""
 
 msgid "unknown conflict policy: %s"
 msgstr "política de conflictes desconeguda: %s"
@@ -1368,9 +1366,8 @@ msgstr "estructura 'rle' no vàlida"
 msgid "... must contain names or character strings"
 msgstr "... ha de contenir noms o cadenes de caràcters"
 
-#, fuzzy
 msgid "invalid 'x'"
-msgstr "«dims» no vàlid"
+msgstr "«x» no vàlid"
 
 msgid "incorrect length for 'group'"
 msgstr "longitud incorrecta per «group»"
