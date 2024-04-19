@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-28 18:45+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-04-20 03:05+0000\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -801,7 +801,7 @@ msgid "using 1-norm approximation for approximate 2-norm"
 msgstr ""
 
 msgid "norm=\"%s\" not available here; using norm=\"1\""
-msgstr ""
+msgstr "norm=\"%s\" no disponible; usando norm=\"1\""
 
 msgid "unknown conflict policy: %s"
 msgstr "política de conflictos desconocida: %s"
@@ -976,7 +976,7 @@ msgid "empty (zero-byte) input file"
 msgstr "archivo de entrada vacío (cero bytes)"
 
 msgid "input has been corrupted, with LF replaced by CR"
-msgstr ""
+msgstr "la entrada se ha dañado,  LF fue reemplazado por CR"
 
 #, fuzzy
 msgid "bad 'file' argument"
@@ -1059,14 +1059,15 @@ msgstr "'input' debe tener longitud 1"
 msgid "'input' and 'target' must be character vectors"
 msgstr "'input' y 'target' deben ser vectores carácter"
 
+#, fuzzy
 msgid "cannot mtfrm"
-msgstr ""
+msgstr "no se puede MTFRM"
 
 msgid "'%s' is not a function, character or symbol"
 msgstr "'%s' no es una función, un carácter o un símbolo"
 
 msgid "found non-function '%s'"
-msgstr ""
+msgstr "se encontró una no-función '%s'"
 
 #, fuzzy
 msgid "attempt to set 'rownames' on an object with no dimensions"
@@ -1111,13 +1112,13 @@ msgid "'incomparables' is supported only for merging on a single column"
 msgstr ""
 
 msgid "additional arguments ignored in message()"
-msgstr ""
+msgstr "argumentos adicionales ignorados en message()"
 
 msgid "tracing functions requires the 'methods' package, but unable to load the 'methods' namespace"
 msgstr ""
 
 msgid "invalid to change the storage mode of a factor"
-msgstr ""
+msgstr "no es válido cambiar el modo de almacenamiento de un factor"
 
 msgid ""
 "namespace %s is not available and has been replaced\n"
@@ -1133,8 +1134,9 @@ msgid ""
 "%s"
 msgstr ""
 
+#, fuzzy
 msgid "%s not found"
-msgstr ""
+msgstr "'%s' no encontrado"
 
 msgid "namespace %s %s is already loaded, but %s %s is required"
 msgstr ""
@@ -1158,31 +1160,35 @@ msgid "package %s does not have a namespace"
 msgstr ""
 
 msgid "package %s was installed before R 4.0.0: please re-install it"
-msgstr ""
+msgstr "el paquete %s fue instalado antes de R 4.0.0: por favor reinstálelo"
 
 msgid "namespace %s %s is being loaded, but %s %s is required"
 msgstr ""
 
 msgid "package %s has no 'package.rds' in Meta/"
-msgstr ""
+msgstr "el package %s no tiene 'package.rds' en Meta/"
 
 msgid "package %s has a license that you need to accept in an interactive session"
 msgstr ""
+"el paquete %s tiene una licencia que se necesita aceptar en una sesión "
+"interactiva"
 
 msgid "package %s has a license that you need to accept after viewing"
 msgstr ""
+"el paquete %s tiene una licencia que necesita aceptar después de revisar"
 
 msgid "package %s has a license that you need to accept:"
-msgstr ""
+msgstr "el paquete %s tiene una licencia que necesita aceptar:"
 
 msgid "according to the DESCRIPTION file it is"
-msgstr ""
+msgstr "según el archivo DESCRIPTION es"
 
+#, fuzzy
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 msgid "license for package %s not accepted"
-msgstr ""
+msgstr "licencia para el paquete %s no aceptada"
 
 msgid "package %s was installed by an R version with different internals; it needs to be reinstalled for use with this R version"
 msgstr ""
