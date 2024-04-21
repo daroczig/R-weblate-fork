@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-20 03:05+0000\n"
-"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
+"PO-Revision-Date: 2024-04-22 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -667,17 +667,15 @@ msgid "Component '%s' missing in symbol object."
 msgstr "Falta el component «%s» a l'objecte de símbol."
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
 msgstr "Llista de símbols no vàlida."
 
 #: src/main/Rdynload.c:459
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol at %d does not have registration information."
 msgstr "El símbol a %d no té informació de registre."
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
 msgstr "El nom del símbol no és vàlid."
 
@@ -687,12 +685,12 @@ msgid "Cannot register already registered native symbol '%s'."
 msgstr "No es pot registrar el símbol natiu registrat «%s»."
 
 #: src/main/Rdynload.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid native address."
 msgstr "El símbol «%s» no té una adreça nativa vàlida."
 
 #: src/main/Rdynload.c:502
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid DllInfo reference."
 msgstr "El símbol «%s» no té una referència DllInfo vàlida."
 
