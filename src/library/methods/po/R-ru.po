@@ -9,17 +9,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-25 17:46\n"
-"PO-Revision-Date: 2024-03-25 14:47+0300\n"
+"PO-Revision-Date: 2024-04-24 03:05+0000\n"
 "Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "OOPS: что-то не так с '.OldClassesPrototypes[[%d]]'"
@@ -713,7 +714,7 @@ msgid "assignment of an object of class %s is not valid for @%s in an object of 
 msgstr "назначение объекта класса %s неверно для позиции %s в объекте класса %s; is(value, \"%s\") не является TRUE"
 
 msgid "class definition for %s not found (no action taken)"
-msgstr "определение класса для %s не найдено  (не предпринято никаких действий)"
+msgstr "определение класса для %s не найдено (не предпринято никаких действий)"
 
 msgid "class %s has multiple definitions visible; only the first removed"
 msgstr "класс %s имеет несколько видимых определений; удалено только первое"
@@ -1077,7 +1078,7 @@ msgid "code for methods in class %s was not checked for suspicious field assignm
 msgstr "код методов в классе %s не был проверен на подозрительные назначения полей (рекоммендуемый пакет %s не доступен?)"
 
 msgid "class %s is defined but is not a reference class"
-msgstr "класс %s не  определен как ссылочный класс"
+msgstr "класс %s не определен как ссылочный класс"
 
 msgid "class must be a reference class representation or a character string; got an object of class %s"
 msgstr "класс должен быть ссылочным представлением класса или текстовой строкой; получен объект класса %s"
