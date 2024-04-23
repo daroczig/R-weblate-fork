@@ -9,16 +9,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.11.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-04-24 03:05+0000\n"
+"Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16.4\n"
 "First-Translator: Dmitri I GOULIAEV <dmitri.gouliaev@telkel.net\n"
 
@@ -377,7 +378,7 @@ msgstr "команда '%s' прервана после %ds"
 #: src/gnuwin32/sys-win32.c:364 src/unix/sys-unix.c:868
 #, c-format
 msgid "running command '%s' had status %d"
-msgstr "работающая команда '%s' имеет статус %d"
+msgstr "выполнение команды '%s' имело статус %d"
 
 #: src/gnuwin32/system.c:138 src/main/sysutils.c:2495
 msgid "reached session elapsed time limit"
@@ -2944,7 +2945,7 @@ msgstr "неправильный режим (%s) для передачи в C и
 
 #: src/main/dotcode.c:1949
 msgid "pairlists are passed as SEXP as from R 2.15.0"
-msgstr "pairlists are passed as SEXP as from R 2.15.0"
+msgstr "начиная с R 2.15.0, LISP-списки передают как SEXP"
 
 #: src/main/dotcode.c:2768
 #, c-format
@@ -3165,7 +3166,7 @@ msgstr "неправильное значение pch '%d' для этой ло�
 #: src/main/engine.c:2437
 #, c-format
 msgid "unimplemented pch value '%d'"
-msgstr "не разработанное pch-значение '%d'"
+msgstr "значение 'pch' = '%d' не реализовано"
 
 #: src/main/engine.c:2454
 #, c-format
@@ -4455,9 +4456,7 @@ msgstr "dummy - do not translate"
 
 #: src/main/main.c:335
 msgid "error during cleanup\n"
-msgstr ""
-"ошибка во время очистки\n"
-" \n"
+msgstr "ошибка во время очистки\n"
 
 #: src/main/main.c:344
 msgid "Execution halted\n"
@@ -6139,7 +6138,7 @@ msgstr "для ascii=FALSE требуется двоичное соединен�
 
 #: src/main/serialize.c:2656
 msgid "cannot return a promise (PROMSXP) object"
-msgstr ""
+msgstr "не могу вернуть объект обещания (PROMSXP)"
 
 #: src/main/serialize.c:2808 src/main/serialize.c:2845
 #: src/main/serialize.c:2908
@@ -7168,7 +7167,7 @@ msgstr "в этой версии R нет поддержки TIFF"
 
 #: src/modules/X11/devX11.c:1398
 msgid "filename too long in tiff() call"
-msgstr "слишком длинное имя файла в 'tiff()'"
+msgstr "слишком длинное имя файла в вызове tiff()"
 
 #: src/modules/X11/devX11.c:1410
 msgid "filename too long in bmp() call"
