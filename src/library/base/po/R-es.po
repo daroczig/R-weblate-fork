@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-04-20 03:05+0000\n"
+"PO-Revision-Date: 2024-04-26 20:20+0000\n"
 "Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -1142,7 +1142,7 @@ msgid "namespace %s %s is already loaded, but %s %s is required"
 msgstr ""
 
 msgid "- loading"
-msgstr ""
+msgstr "- cargando"
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
 msgstr ""
@@ -1200,13 +1200,15 @@ msgid "-- done processing imports for"
 msgstr ""
 
 msgid "-- loading code for"
-msgstr ""
+msgstr "-- cargando código para"
 
+#, fuzzy
 msgid "unable to load R code in package %s"
-msgstr ""
+msgstr "no fue posible cargar el código de R en el paquete %s"
 
+#, fuzzy
 msgid "-- loading sysdata for"
-msgstr ""
+msgstr "-- cargando sysdata para"
 
 msgid "-- loading lazydata for"
 msgstr ""
