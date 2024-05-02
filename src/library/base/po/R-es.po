@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-04-26 20:20+0000\n"
-"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
+"PO-Revision-Date: 2024-05-03 03:05+0000\n"
+"Last-Translator: Lorena Abad <lore.abad6@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -459,9 +459,8 @@ msgstr "el operador unitario - no está definido para objetos \"POSIXt”"
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr "solo se puede sustraer números de objetos \"POSIXt\""
 
-#, fuzzy
 msgid "unary '%s' not defined for \"POSIXt\" objects"
-msgstr "el unario '%s' no está definido para objetos \"POSIXt\""
+msgstr "el operador unario '%s' no está definido para objetos \"POSIXt\""
 
 msgid "'%s' not defined for \"POSIXt\" objects"
 msgstr "'%s' no definido para objetos \"POSIXt\""
@@ -484,9 +483,8 @@ msgstr "necesita unidades explícitas para conversión numérica"
 msgid "invalid units specified"
 msgstr "unidades especificadas inválidas"
 
-#, fuzzy
 msgid "unary '%s' not defined for \"difftime\" objects"
-msgstr "el unario '%s' no está definido para objetos \"difftime\""
+msgstr "el operador unario '%s' no está definido para objetos \"difftime\""
 
 msgid "'%s' not defined for \"difftime\" objects"
 msgstr "'%s' no está definido para objetos \"difftime\""
