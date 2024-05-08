@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-03 03:05+0000\n"
-"Last-Translator: Lorena Abad <lore.abad6@gmail.com>\n"
+"PO-Revision-Date: 2024-05-09 03:05+0000\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -617,11 +617,9 @@ msgstr "'%s' no está definido para factores ordenados"
 msgid "'%s' is only meaningful for ordered factors if all arguments have the same level sets"
 msgstr "'%s' solo es significativo para factores ordenados si todos los argumentos tienen el mismo set de niveles"
 
-#, fuzzy
 msgid "no files to copy to"
-msgstr "no hay archivos a donde copiar"
+msgstr "no hay archivos por copiar"
 
-#, fuzzy
 msgid "attempt to copy a directory to itself"
 msgstr "intento de copiar un directorio a sí mismo"
 
@@ -643,13 +641,11 @@ msgstr "los directorios se omiten a menos que 'recursive = TRUE'"
 msgid "file can not be copied both 'from' and 'to'"
 msgstr "un archivo no puede ser copiado tanto 'from' y 'to'"
 
-#, fuzzy
 msgid "no files to link from"
 msgstr "sin archivos desde donde vincular"
 
-#, fuzzy
 msgid "no files/directory to link to"
-msgstr "sin archivos/directorio desde donde vincular"
+msgstr "sin archivos/directorio para vincular"
 
 #, fuzzy
 msgid "no files to link to"
