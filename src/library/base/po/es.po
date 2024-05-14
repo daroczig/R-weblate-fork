@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-05-15 00:15+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -347,6 +347,8 @@ msgid ""
 "expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
+"la longitud de la ruta expandida %llu sería demasiado larga para\n"
+"%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -422,7 +424,7 @@ msgstr "file.show(): archivo '%s' no existe\n"
 #: src/gnuwin32/system.c:1046
 #, c-format
 msgid "Not enough memory"
-msgstr ""
+msgstr "Memoria insuficiente"
 
 #: src/gnuwin32/system.c:1062 src/unix/system.c:462
 #, c-format
@@ -521,24 +523,21 @@ msgid "WARNING: '--max-ppsize' value is too large: ignored"
 msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado grande: ignorado"
 
 #: src/main/CommandLineArgs.c:257
-#, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
-msgstr "ATENCIÓN: ningún valor especificado para '--max-ppsize'"
+msgstr "ATENCIÓN: ningún valor especificado para '--max-connections'"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es negativo: ignorado"
+msgstr "ATENCIÓN: el valor de '--max-connections' es negativo: ignorado"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado pequeño: ignorado"
+msgstr ""
+"ATENCIÓN: el valor de '--max-connections' es demasiado pequeño: ignorado"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado grande: ignorado"
+msgstr "ATENCIÓN: el valor de '--max-connections' es demasiado grande: ignorado"
 
 #: src/main/RNG.c:180
 #, c-format
@@ -662,34 +661,31 @@ msgid "R_RegisterRoutines called with invalid DllInfo object."
 msgstr "R_RegisterRoutines invocado con un objeto DllInfo no válido."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "conexión inválida"
+msgstr "Objeto inválido"
 
 #: src/main/Rdynload.c:427
 #, c-format
 msgid "Invalid entry '%s' in native symbol object."
-msgstr ""
+msgstr "Entrada no válida '%s' en el objeto símbolo nativo."
 
 #: src/main/Rdynload.c:433
 #, c-format
 msgid "Component '%s' missing in symbol object."
-msgstr ""
+msgstr "Falta el componente '%s' en el objeto símbolo."
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "símbolo inválido"
+msgstr "Lista de símbolos inválida."
 
 #: src/main/Rdynload.c:459
 #, c-format
 msgid "Symbol at %d does not have registration information."
-msgstr ""
+msgstr "El símbolo en %d no tiene información de registro."
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "símbolo inválido"
+msgstr "Nombre de símbolo inválido."
 
 # Igual que antes, fijate si conviene asi. No lo modifico
 #: src/main/Rdynload.c:498
@@ -780,7 +776,7 @@ msgstr "debe darse un nombre de paquete o una referencia de DllInfo"
 #: src/main/Rdynload.c:1573
 #, c-format
 msgid "unimplemented type %d in 'createRSymbolObject'"
-msgstr "El tipo %d no fue implementado en createRSymbolObject"
+msgstr "Tipo %d no implementado en 'createRSymbolObject'"
 
 #: src/main/Rdynload.c:1655
 msgid "R_getRegisteredRoutines() expects a DllInfo reference"
@@ -2862,22 +2858,23 @@ msgstr "<Enter> para ver el próximo gráfico: "
 
 #: src/main/dotcode.c:127 src/main/dotcode.c:157
 msgid "NULL value passed as symbol address"
-msgstr "valor NULL pasado como un símbolo de dirección"
+msgstr "valor NULL pasado como dirección del símbolo"
 
 #: src/main/dotcode.c:148
 #, c-format
 msgid "Unimplemented type %d in createRSymbolObject"
-msgstr "Tipo %d no implementado  en createRSymbolObject"
+msgstr "Tipo %d no implementado en createRSymbolObject"
 
 #: src/main/dotcode.c:162 src/main/dotcode.c:260
 #, c-format
 msgid "symbol '%s' is too long"
-msgstr "symbol '%s' es demasiado largo"
+msgstr "el símbolo '%s' es demasiado largo"
 
 #: src/main/dotcode.c:174
-#, fuzzy
 msgid "first argument must be a string (of length 1) or native symbol reference"
-msgstr "'name' debe ser un string (de longitud 1) o una referencia a un símbolo nativo"
+msgstr ""
+"el primer argumento debe ser una cadena de longitud 1 o una referencia a un "
+"símbolo nativo"
 
 #: src/main/dotcode.c:224 src/main/dotcode.c:1425
 msgid "too many arguments in foreign function call"
@@ -2896,12 +2893,13 @@ msgstr "\t\"Información métrica no disponible para este dispositivo"
 #: src/main/dotcode.c:312
 #, c-format
 msgid "%s symbol name \"%s\" not in DLL for package \"%s\""
-msgstr "%s nombre de símbolo \"%s\" no está en el DLL para el paquete \"%s\""
+msgstr ""
+"El nombre de símbolo de %s \"%s\" no está en la DLL para el paquete \"%s\""
 
 #: src/main/dotcode.c:317
 #, c-format
 msgid "%s symbol name \"%s\" not in load table"
-msgstr "%s nombre de símbolo \"%s\" no está en la tabla de carga"
+msgstr "El nombre del símbolo de %s \"%s\" no está en la tabla de carga"
 
 #: src/main/dotcode.c:368 src/main/dotcode.c:370 src/main/dotcode.c:380
 #: src/main/dotcode.c:445 src/main/dotcode.c:452
@@ -2953,7 +2951,7 @@ msgstr "valor NULL para DLLInfoReference cuando se está buscando DLL"
 
 #: src/main/dotcode.c:1635
 msgid "DLL requires the use of native symbols"
-msgstr ""
+msgstr "DLL requiere el uso de símbolos nativos"
 
 #: src/main/dotcode.c:1732
 #, fuzzy, c-format
@@ -6040,7 +6038,7 @@ msgstr "factores de largos desiguales"
 
 #: src/main/seq.c:102 src/main/seq.c:858 src/main/seq.c:1103
 msgid "result would be too long a vector"
-msgstr "el resultado seria un vector muy largo"
+msgstr "el resultado sería un vector muy largo"
 
 #: src/main/seq.c:154
 #, fuzzy
