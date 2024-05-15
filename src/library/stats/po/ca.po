@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-20 03:05+0000\n"
-"Last-Translator: Lluís <lluis.revilla+weblate@gmail.com>\n"
+"PO-Revision-Date: 2024-05-16 03:05+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -193,9 +193,8 @@ msgid "distance(): invalid distance"
 msgstr "distance(): la distància no és vàlida"
 
 #: distn.c:47
-#, fuzzy
 msgid "NaNs produced"
-msgstr "NaN produït"
+msgstr "s'han produït NaNs"
 
 #: distn.c:48
 #, fuzzy
