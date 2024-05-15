@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-20 14:35+0000\n"
-"Last-Translator: Jan Strappa <jansf@disroot.org>\n"
+"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -96,9 +96,9 @@ msgid "invalid gray level, must be in [0,1]."
 msgstr ""
 
 #: colors.c:556 cairo/cairoBM.c:619
-#, c-format
+#, c-format, fuzzy
 msgid "invalid '%s' value"
-msgstr ""
+msgstr "valor '%s' inválido"
 
 #: colors.c:1343
 msgid "invalid hex digit in 'color' or 'lty'"
