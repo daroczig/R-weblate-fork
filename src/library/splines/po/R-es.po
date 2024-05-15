@@ -1,93 +1,109 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "must have at least 'ord' knots"
 msgstr ""
 
 msgid "length of 'derivs' is larger than length of 'x'"
-msgstr ""
+msgstr "La longitud de 'derivs' es mayor que la longitud de 'x'"
 
 msgid "empty 'derivs'"
-msgstr ""
+msgstr "'derivs' es vacío"
 
 msgid "'ord' must be positive integer, at most the number of knots"
-msgstr ""
+msgstr "'ord' debe ser un entero positivo, a lo sumo el número de nudos"
 
 msgid "need at least %s (=%d) knots"
-msgstr ""
+msgstr "se requieren al menos %s (=%d) nudos"
 
+#, fuzzy
 msgid "the 'x' data must be in the range %g to %g unless you set '%s'"
 msgstr ""
+"Los datos 'x' deben estar en el rango de %g a %g a menos que establezca '%s'"
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr ""
+msgstr "%s requiere el paquete 'Matrix' correctamente instalado"
 
+#, fuzzy
 msgid "values of 'x' must be distinct"
-msgstr ""
+msgstr "Los valores de 'x' deben ser distintos"
 
+#, fuzzy
 msgid "must have at least 'ord'=%d points"
-msgstr ""
+msgstr "debe tener al menos 'ord' = %d puntos"
 
 msgid "'formula' must be of the form \"y ~ x\""
-msgstr ""
+msgstr "'formula' debe tener la forma \"y ~ x\""
 
+#, fuzzy
 msgid "lengths of 'x' and 'y' must match"
-msgstr ""
+msgstr "Las longitudes de 'x' e 'y' deben coincidir"
 
+#, fuzzy
 msgid "values of 'x' must be strictly increasing"
-msgstr ""
+msgstr "Los valores de 'x' deben ser estrictamente crecientes"
 
+#, fuzzy
 msgid "'ord' must be >= 2"
-msgstr ""
+msgstr "'ord' debe ser >= 2"
 
 msgid "the range of 'x' values exceeds one period"
-msgstr ""
+msgstr "El rango de los valores de 'x' excede un período"
 
 msgid "knot positions must be non-decreasing"
-msgstr ""
+msgstr "Las posiciones de los nudos deben ser no decrecientes"
 
 msgid "lengths of 'x' and 'y' must be the same"
-msgstr ""
+msgstr "Las longitudes de 'x' e 'y' deben ser las mismas"
 
+#, fuzzy
 msgid "'deriv' must be between 0 and %d"
-msgstr ""
+msgstr "'deriv' debe estar entre 0 y %d"
 
+#, fuzzy
 msgid "knot positions must be strictly increasing"
-msgstr ""
+msgstr "Las posiciones de los nudos deben ser estrictamente crecientes"
 
+#, fuzzy
 msgid "currently implemented only for cubic splines"
-msgstr ""
+msgstr "Actualmente solo se implementa para splines cúbicos"
 
 msgid "spline must be monotone"
-msgstr ""
+msgstr "La spline debe ser monótona"
 
 msgid "'degree' must be integer >= 1"
-msgstr ""
+msgstr "'degree' debe ser entero >= 1"
 
 msgid "'df' was too small; have used %d"
-msgstr ""
+msgstr "'df' era demasiado pequeño; se ha utilizado %d"
 
 msgid "non-finite knots"
-msgstr ""
+msgstr "nudos no finitos"
 
 msgid "all interior knots match left boundary knot"
-msgstr ""
+msgstr "todos los nudos interiores coinciden con el nudo límite izquierdo"
 
 msgid "all interior knots match right boundary knot"
-msgstr ""
+msgstr "todos los nudos interiores coinciden con el nudo límite derecho"
 
 msgid "shoving 'interior' knots matching boundary knots to inside"
 msgstr ""
+"moviendo los nudos 'interiores' que coinciden con los nudos de límite hacia "
+"adentro"
 
 msgid "some 'x' values beyond boundary knots may cause ill-conditioned bases"
 msgstr ""
+"Algunos valores de 'x' más allá de los nudos de contorno pueden causar bases "
+"mal condicionadas"
