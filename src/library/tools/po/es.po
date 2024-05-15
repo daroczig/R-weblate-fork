@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-10-21 02:10+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -18,19 +18,20 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: Rmd5.c:57 Rsha256.c:70
+#: Rmd5.c:47
+#, fuzzy
 msgid "argument 'files' must be character"
-msgstr ""
+msgstr "El argumento 'files' debe ser de carácter"
 
-#: Rmd5.c:73
-#, c-format
+#: Rmd5.c:63
+#, c-format, fuzzy
 msgid "md5 failed on file '%ls'"
-msgstr ""
+msgstr "md5 falló en el archivo '%ls'"
 
 #: Rmd5.c:75
 #, c-format
 msgid "md5 failed on file '%s'"
-msgstr ""
+msgstr "md5 falló en el archivo '%s'"
 
 #: Rsha256.c:86
 #, c-format
@@ -43,9 +44,9 @@ msgid "sha256 failed on file '%s'"
 msgstr ""
 
 #: getfmts.c:61
-#, c-format
+#, c-format, fuzzy
 msgid "only %d arguments are allowed"
-msgstr ""
+msgstr "solo %d argumentos son permitidos"
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
@@ -70,39 +71,40 @@ msgid "at most one asterisk '*' is supported in each conversion specification"
 msgstr "Al menos, un asterisco es soportado en la especificación de cada conversión"
 
 #: gramLatex.c:2592 gramRd.c:3970
-#, c-format
+#, c-format, fuzzy
 msgid "unable to allocate buffer for long string at line %d"
-msgstr ""
+msgstr "no se puede asignar un búfer para la cadena larga en la línea %d"
 
 #: gramLatex.c:2869 gramRd.c:4523 gramRd.c:4529
-#, c-format
+#, c-format, fuzzy
 msgid "invalid '%s' value"
-msgstr ""
+msgstr "valor '%s' inválido"
 
 #: gramRd.c:2581 gramRd.c:2584
 #, c-format
 msgid "bad markup (extra space?) at %s:%d:%d"
-msgstr ""
+msgstr "marcado erróneo (¿espacio extra?) en %s:%d:%d"
 
 #: gramRd.c:3117
-#, c-format
+#, c-format, fuzzy
 msgid "Macro '%s' previously defined."
-msgstr ""
+msgstr "Macro '%s' previamente definida."
 
 #: gramRd.c:3127
 #, c-format
 msgid "At most 4 arguments are allowed for user defined macros."
 msgstr ""
+"Se permiten a lo sumo 4 argumentos para las macros definidas por el usuario."
 
 #: gramRd.c:3169
 #, c-format
 msgid "No macro definition for '%s'."
-msgstr ""
+msgstr "No existe macro definida para '%s'."
 
 #: gramRd.c:3231
-#, c-format
+#, c-format, fuzzy
 msgid "Not enough arguments passed to user macro '%s'"
-msgstr ""
+msgstr "No se han pasado suficientes argumentos a la macro de usuario '%s'"
 
 #: gramRd.c:3371 gramRd.c:3375
 #, c-format
@@ -198,4 +200,5 @@ msgstr ""
 #: text.c:225 text.c:247
 msgid "out of memory"
 msgstr ""
+
 
