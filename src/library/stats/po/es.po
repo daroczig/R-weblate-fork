@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -671,9 +671,9 @@ msgstr "valor de función en 'optimize' inválida"
 msgid "attempt to minimize non-function"
 msgstr "tentativa de minimizar una no-función"
 
-#: optimize.c:256 optimize.c:263 optimize.c:272 optimize.c:346 optimize.c:351
-#: optimize.c:367
-#, c-format
+#: optimize.c:263 optimize.c:270 optimize.c:279 optimize.c:353 optimize.c:358
+#: optimize.c:374
+#, c-format, fuzzy
 msgid "invalid '%s' value"
 msgstr "valor '%s' inválido"
 
@@ -974,4 +974,5 @@ msgstr ""
 #, fuzzy, c-format
 #~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
 #~ msgstr "Error en fexact3, it[i=%d]=%d: clave negativa %d (kyy=%d)\n"
+
 
