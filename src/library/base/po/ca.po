@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-04-22 03:05+0000\n"
+"PO-Revision-Date: 2024-05-16 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -367,9 +367,9 @@ msgid "command '%s' timed out after %ds"
 msgstr "l'ordre «%s» ha excedit el temps després de %ds"
 
 #: src/gnuwin32/sys-win32.c:364 src/unix/sys-unix.c:868
-#, fuzzy, c-format
+#, c-format
 msgid "running command '%s' had status %d"
-msgstr "l'ordre en execució «%s» tenia l'estat %d i el missatge d'error «%s»"
+msgstr "l'ordre en execució «%s» tenia l'estat %d"
 
 #: src/gnuwin32/system.c:138 src/main/sysutils.c:2495
 msgid "reached session elapsed time limit"
@@ -680,9 +680,9 @@ msgid "Invalid symbol name."
 msgstr "El nom del símbol no és vàlid."
 
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "No es pot registrar el símbol natiu registrat «%s»."
+msgstr "No es pot registrar el símbol natiu ja registrat «%s»."
 
 #: src/main/Rdynload.c:500
 #, c-format
@@ -695,7 +695,7 @@ msgid "Symbol '%s' does not have a valid DllInfo reference."
 msgstr "El símbol «%s» no té una referència DllInfo vàlida."
 
 #: src/main/Rdynload.c:507
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' comes from a different shared object."
 msgstr "El símbol «%s» prové d'un objecte compartit diferent."
 
@@ -709,38 +709,33 @@ msgid "`maximal number of DLLs reached..."
 msgstr "`s'ha arribat al número màxim de DLL..."
 
 #: src/main/Rdynload.c:901
-#, fuzzy
 msgid "could not allocate space for 'path'"
-msgstr "no s'ha pogut assignar espai per al «camí»"
+msgstr "no s'ha pogut assignar espai per a «path»"
 
 #: src/main/Rdynload.c:913
-#, fuzzy, c-format
+#, c-format
 msgid "DLLname '%s' is too long"
-msgstr "El DLLname «%s» és massa llarg"
+msgstr "El nom de la DLL «%s» és massa llarg"
 
 #: src/main/Rdynload.c:942
-#, fuzzy
 msgid "could not allocate space for 'name'"
 msgstr "no s'ha pogut assignar espai per a «name»"
 
 #: src/main/Rdynload.c:952
-#, fuzzy
 msgid "could not allocate space for 'DllInfo'"
 msgstr "no s'ha pogut assignar espai per a «DllInfo»"
 
 #: src/main/Rdynload.c:1195 src/main/platform.c:1931 src/main/util.c:900
 #: src/main/util.c:1008
-#, fuzzy
 msgid "path too long"
 msgstr "camí massa llarg"
 
 #: src/main/Rdynload.c:1223 src/main/Rdynload.c:1240 src/main/util.c:826
-#, fuzzy
 msgid "character argument expected"
-msgstr "s'esperava un argument de caràcter"
+msgstr "s'esperava un argument de tipus caràcter"
 
 #: src/main/Rdynload.c:1230 src/main/Rdynload.c:1263 src/main/Rdynload.c:1283
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "unable to load shared object '%s':\n"
 "  %s"
@@ -749,84 +744,76 @@ msgstr ""
 "  %s"
 
 #: src/main/Rdynload.c:1244
-#, fuzzy, c-format
+#, c-format
 msgid "shared object '%s' was not loaded"
 msgstr "no s'ha carregat l'objecte compartit «%s»"
 
 #: src/main/Rdynload.c:1323
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
 msgstr[0] "no s'ha pogut assignar memòria per al símbol natiu registrat (%d byte)"
 msgstr[1] "no s'ha pogut assignar memòria per al símbol natiu registrat (%d bytes)"
 
 #: src/main/Rdynload.c:1459 src/main/Rdynload.c:1658
-#, fuzzy
 msgid "NULL value passed for DllInfo"
-msgstr "Valor nul passat per DllInfo"
+msgstr "valor NULL passat per DllInfo"
 
 #: src/main/Rdynload.c:1463
-#, fuzzy
 msgid "must pass package name or DllInfo reference"
-msgstr "ha de passar el nom del paquet o la referència de DllInfo"
+msgstr "cal passar el nom del paquet o la referència de DllInfo"
 
 #: src/main/Rdynload.c:1573
-#, fuzzy, c-format
+#, c-format
 msgid "unimplemented type %d in 'createRSymbolObject'"
 msgstr "tipus no implementat %d a «createRSymbolObject»"
 
 #: src/main/Rdynload.c:1655
-#, fuzzy
 msgid "R_getRegisteredRoutines() expects a DllInfo reference"
-msgstr "RgetRegisteredRoutines() espera una referència de DllInfo"
+msgstr "R_getRegisteredRoutines() espera una referència de DllInfo"
 
 #: src/main/Rdynload.c:1744
-#, fuzzy, c-format
+#, c-format
 msgid "function '%s' not provided by package '%s'"
-msgstr "la funció «%s» no està proporcionada pel paquet «%s»"
+msgstr "la funció «%s» no és proporcionada pel paquet «%s»"
 
 #: src/main/Rdynload.c:1746
-#, fuzzy
 msgid "table entry must be an external pointer"
 msgstr "l'entrada de la taula ha de ser un punter extern"
 
 #: src/main/Renviron.c:258
-#, fuzzy, c-format
+#, c-format
 msgid "problem in setting variable '%s' in Renviron"
-msgstr "problema en establir la variable «%s» al Renviron"
+msgstr "problema en establir la variable «%s» a Renviron"
 
 #: src/main/Renviron.c:515 src/main/objects.c:1366 src/main/raw.c:207
-#, fuzzy, c-format
+#, c-format
 msgid "argument '%s' must be a character string"
 msgstr "l'argument «%s» ha de ser una cadena de caràcters"
 
 #: src/main/Renviron.c:519
-#, fuzzy, c-format
+#, c-format
 msgid "file '%s' cannot be opened for reading"
 msgstr "no es pot obrir el fitxer «%s» per a lectura"
 
 #: src/main/Rstrptime.h:529 src/main/Rstrptime.h:1014
-#, fuzzy, c-format
+#, c-format
 msgid "use of %s for input is not supported"
-msgstr "no s'admet l'ús de %s per a l'entrada"
+msgstr "no s'admet l'ús de %s com a entrada"
 
 #: src/main/Rstrptime.h:1302
-#, fuzzy
 msgid "input string is too long"
 msgstr "la cadena d'entrada és massa llarga"
 
 #: src/main/Rstrptime.h:1304
-#, fuzzy
 msgid "invalid multibyte input string"
 msgstr "cadena d'entrada multibyte no vàlida"
 
 #: src/main/Rstrptime.h:1307
-#, fuzzy
 msgid "format string is too long"
 msgstr "la cadena de format és massa llarga"
 
 #: src/main/Rstrptime.h:1309
-#, fuzzy
 msgid "invalid multibyte format string"
 msgstr "cadena de format multibyte no vàlida"
 
@@ -838,27 +825,25 @@ msgid "argument '%s' has length > 1 and only the first element will be used"
 msgstr "l'argument «%s» té longitud > 1 i només s'utilitzarà el primer element"
 
 #: src/main/agrep.c:191 src/main/agrep.c:822
-#, fuzzy
 msgid "'pattern' must be a non-empty character string"
-msgstr "«patró» ha de ser una cadena de caràcters no buida"
+msgstr "«pattern» ha de ser una cadena de caràcters no buida"
 
 #: src/main/agrep.c:202 src/main/agrep.c:831 src/main/grep.c:1356
 #: src/main/grep.c:3054 src/main/grep.c:3393
-#, fuzzy
 msgid "regular expression is invalid in this locale"
 msgstr "l'expressió regular no és vàlida en aquesta configuració regional"
 
 #: src/main/agrep.c:208 src/main/agrep.c:626
-#, fuzzy, c-format
+#, c-format
 msgid "regcomp error:  '%s'"
-msgstr "error de regcomp: «%s»"
+msgstr "error de regcomp:  «%s»"
 
 #: src/main/agrep.c:240 src/main/agrep.c:877 src/main/grep.c:636
 #: src/main/grep.c:738 src/main/grep.c:854 src/main/grep.c:1062
 #: src/main/grep.c:1409 src/main/grep.c:2274 src/main/grep.c:2564
 #: src/main/grep.c:3174 src/main/grep.c:3262 src/main/grep.c:3425
 #: src/main/grep.c:3432
-#, fuzzy, c-format
+#, c-format
 msgid "input string %lld is invalid in this locale"
 msgstr "la cadena d'entrada %lld no és vàlida en aquesta configuració regional"
 
@@ -867,27 +852,26 @@ msgstr "la cadena d'entrada %lld no és vàlida en aquesta configuració regiona
 #: src/main/grep.c:1596 src/main/grep.c:1604 src/main/grep.c:2149
 #: src/main/grep.c:2151 src/main/grep.c:3006 src/main/grep.c:3008
 #: src/main/grep.c:3349
-#, fuzzy, c-format
+#, c-format
 msgid "argument '%s' will be ignored"
-msgstr "s'ignorarà l'argument «%s = \"%s\"»"
+msgstr "s'ignorarà l'argument «%s»"
 
 #: src/main/agrep.c:617
-#, fuzzy, c-format
+#, c-format
 msgid "input string x[%d] is invalid in this locale"
 msgstr "la cadena d'entrada x[%d] no és vàlida en aquesta configuració regional"
 
 #: src/main/agrep.c:664
-#, fuzzy, c-format
+#, c-format
 msgid "input string y[%d] is invalid in this locale"
 msgstr "la cadena d'entrada y[%d] no és vàlida en aquesta configuració regional"
 
 #: src/main/agrep.c:837 src/main/grep.c:3399
-#, fuzzy, c-format
+#, c-format
 msgid "regcomp error: '%s'"
 msgstr "error de regcomp: «%s»"
 
 #: src/main/apply.c:111
-#, fuzzy
 msgid "'FUN.VALUE' must be a vector"
 msgstr "«FUN.VALUE» ha de ser un vector"
 
@@ -914,7 +898,6 @@ msgid "invalid '%s' value"
 msgstr "el valor «%s» no és vàlid"
 
 #: src/main/apply.c:117 src/main/complex.c:760
-#, fuzzy
 msgid "invalid length"
 msgstr "longitud no vàlida"
 
@@ -924,21 +907,21 @@ msgid "long vectors are not supported for matrix/array results"
 msgstr "no s'admeten vectors llargs per als resultats de matrius/arrays"
 
 #: src/main/apply.c:129
-#, fuzzy, c-format
+#, c-format
 msgid "type '%s' is not supported"
 msgstr "el tipus «%s» no és compatible"
 
 #: src/main/apply.c:177
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
 msgstr ""
 "els valors han de ser de longitud %d,\n"
-" però el resultat de FUN(X[[%lld]]) és longitud %d"
+" però el resultat de FUN(X[[%lld]]) és de longitud %d"
 
 #: src/main/apply.c:189
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
@@ -947,44 +930,38 @@ msgstr ""
 " però el resultat de FUN(X[[%lld]]) és el tipus «%s»"
 
 #: src/main/apply.c:266
-#, fuzzy, c-format
+#, c-format
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
-msgstr "dimnames(<value>) no és NULL ni llista de longitud %d"
+msgstr "dimnames(<value>) no és ni NULL ni una llista de longitud %d"
 
 #: src/main/apply.c:343 src/main/coerce.c:2726
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or expression"
-msgstr "«%s» ha de ser una llista o expressió"
+msgstr "«%s» ha de ser una llista o una expressió"
 
 #: src/main/arithmetic.c:50 src/main/eval.c:5104
-#, fuzzy
 msgid "NaNs produced"
-msgstr "NaN produït"
+msgstr "s'han produït NaNs"
 
 #: src/main/arithmetic.c:51
-#, fuzzy
 msgid "non-numeric argument to mathematical function"
-msgstr "argument no numèric per a la funció matemàtica"
+msgstr "argument no numèric per a una funció matemàtica"
 
 #: src/main/arithmetic.c:185
-#, fuzzy
 msgid "probable complete loss of accuracy in modulus"
 msgstr "probable pèrdua completa de precisió en el mòdul"
 
 #: src/main/arithmetic.c:303
-#, fuzzy
 msgid "NAs produced by integer overflow"
-msgstr "NA produïts per desbordament enter"
+msgstr "NAs produïts per desbordament d'enters"
 
 #: src/main/arithmetic.c:501
-#, fuzzy
 msgid "operator needs one or two arguments"
 msgstr "l'operador necessita un o dos arguments"
 
 #: src/main/arithmetic.c:517
-#, fuzzy
 msgid "non-numeric argument to binary operator"
-msgstr "argument no numèric a l'operador binari"
+msgstr "argument no numèric per a l'operador binari"
 
 #: src/main/arithmetic.c:572
 #, fuzzy
@@ -1010,20 +987,19 @@ msgid "non-conformable arrays"
 msgstr "matrius no conformes"
 
 #: src/main/arithmetic.c:654 src/main/logic.c:137 src/main/relop.c:361
-#, fuzzy
 msgid "longer object length is not a multiple of shorter object length"
-msgstr "La longitud d'objecte més llarga no és múltiple la longitud d'objecte més curta"
+msgstr ""
+"la longitud d'objecte més llarg no és múltiple de la longitud de l'objecte "
+"més curt"
 
 #: src/main/arithmetic.c:720
-#, fuzzy
 msgid "invalid argument to unary operator"
 msgstr "argument no vàlid per a un operador unari"
 
 #: src/main/arithmetic.c:752 src/main/arithmetic.c:778
 #: src/main/arithmetic.c:799
-#, fuzzy
 msgid "invalid unary operator"
-msgstr "operador unari invàlid"
+msgstr "operador unari no vàlid"
 
 #: src/main/arithmetic.c:1296
 #, fuzzy
