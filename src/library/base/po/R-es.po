@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -1215,152 +1215,190 @@ msgstr "no fue posible cargar el código de R en el paquete %s"
 msgid "-- loading sysdata for"
 msgstr "-- cargando sysdata para"
 
+#, fuzzy
 msgid "-- loading lazydata for"
-msgstr ""
+msgstr "-- cargando datos diferidos para"
 
 msgid "-- registerS3methods for"
-msgstr ""
+msgstr "-- registrando métodos S3 para"
 
 msgid "-- done registerS3methods for"
-msgstr ""
+msgstr "-- hecho registerS3methods para"
 
+#, fuzzy
 msgid "-- running .onLoad for"
-msgstr ""
+msgstr "-- ejecutando .onLoad para"
 
 msgid "-- done running .onLoad for"
-msgstr ""
+msgstr "-- hecho ejecutar .onLoad para"
 
+#, fuzzy
 msgid "S4 exports specified in 'NAMESPACE' but not defined in package %s"
 msgstr ""
+"Exportaciones de S4 especificadas en 'NAMESPACE' pero no definidas en el "
+"paquete %s"
 
+#, fuzzy
 msgid "-- processing S4 stuff for"
-msgstr ""
+msgstr "-- procesando cosas de S4 para"
 
 msgid "--- caching metadata"
-msgstr ""
+msgstr "--- cargando metadatos en caché"
 
 msgid "--- done caching metadata"
-msgstr ""
+msgstr "--- hecho carga de metadatos en caché"
 
 msgid "--- processing classes"
-msgstr ""
+msgstr "--- procesando clases"
 
+#, fuzzy
 msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in package %s"
 msgstr ""
+"'exportClassPattern' especificado en 'NAMESPACE' pero no hay clases "
+"coincidentes en el paquete %s"
 
 msgid "in package %s classes %s were specified for export but not defined"
 msgstr ""
+"En el paquete %s se especificaron las clases %s para la exportación, pero no "
+"están definidas"
 
+#, fuzzy
 msgid "no function found corresponding to methods exports from %s for: %s"
 msgstr ""
+"No se ha encontrado ninguna función que corresponda a las exportaciones de "
+"métodos de %s para: %s"
 
 msgid "in %s methods for export not found: %s"
-msgstr ""
+msgstr "No se encontraron los métodos para exportación en %s: %s"
 
 msgid "---- export method"
-msgstr ""
+msgstr "---- exportar método"
 
+#, fuzzy
 msgid "multiple methods tables found for %s"
-msgstr ""
+msgstr "Se han encontrado varias tablas de métodos para %s"
 
 msgid "failed to find metadata object for %s"
-msgstr ""
+msgstr "no se pudo encontrar el objeto de metadatos para %s"
 
 msgid "in package %s methods %s were specified for export but not defined"
 msgstr ""
+"en el paquete %s se especificaron los métodos %s para la exportación, pero "
+"no están definidos"
 
 msgid "-- done processing S4 stuff for"
-msgstr ""
+msgstr "-- hecho procesar cosas de S4 para"
 
 msgid "--- processing exports for"
-msgstr ""
+msgstr "--- procesando exportaciones para"
 
 msgid "--- sealing exports for"
-msgstr ""
+msgstr "--- sellando exportaciones para"
 
 msgid "- done loading"
-msgstr ""
+msgstr "- carga finalizada"
 
+#, fuzzy
 msgid "Loading required namespace: %s"
-msgstr ""
+msgstr "Cargando el espacio de nombres requerido: %s"
 
+#, fuzzy
 msgid "not loading a namespace"
-msgstr ""
+msgstr "No se carga un espacio de nombres"
 
+#, fuzzy
 msgid "namespace %s is imported by %s so cannot be unloaded"
 msgstr ""
+"El espacio de nombres %s es importado por %s, por lo que no se puede "
+"descargar"
 
+#, fuzzy
 msgid "not a namespace"
-msgstr ""
+msgstr "no es un espacio de nombres"
 
 msgid "operation not allowed on base namespace"
-msgstr ""
+msgstr "Operación no permitida en el espacio de nombres base"
 
+#, fuzzy
 msgid "duplicate import names %s"
-msgstr ""
+msgstr "Nombres de importación duplicados %s"
 
 msgid "replacing local value with import %s when loading %s"
-msgstr ""
+msgstr "Se reemplaza el valor local con la importación %s al cargar %s"
 
+#, fuzzy
 msgid "cannot import into a sealed namespace"
-msgstr ""
+msgstr "no se puede importar en un espacio de nombres sellado"
 
 msgid "replacing previous import by %s when loading %s"
-msgstr ""
+msgstr "reemplazando la importación anterior por %s al cargar %s"
 
 msgid "invalid import target"
-msgstr ""
+msgstr "destino de importación no válido"
 
 msgid "found methods to import for function %s but not the generic itself"
 msgstr ""
+"se encontraron métodos para importar para la función %s, pero no la función "
+"genérica en sí"
 
 msgid "replacing previous import %s by %s when loading %s"
-msgstr ""
+msgstr "reemplazando la importación previa por %s al cargar %s"
 
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
 msgstr ""
+"No se ha encontrado ninguna función genérica %s que corresponda a los "
+"métodos importados solicitados del paquete %s al cargar %s (¿exportaciones "
+"mal formadas?)"
 
 msgid "cannot add to exports of a sealed namespace"
 msgstr ""
+"no se puede agregar a las exportaciones de un espacio de nombres sellado"
 
 msgid "undefined exports: %s"
-msgstr ""
+msgstr "exportaciones no definidas: %s"
 
 msgid "unable to re-encode some lines in NAMESPACE file"
-msgstr ""
+msgstr "no se pueden re-codificar algunas líneas en el archivo NAMESPACE"
 
 msgid "package %s has no 'NAMESPACE' file"
-msgstr ""
+msgstr "el paquete %s no tiene ningún archivo 'NAMESPACE'"
 
+#, fuzzy
 msgid "empty name in directive '%s' in 'NAMESPACE' file"
-msgstr ""
+msgstr "nombre vacío en la directiva '%s' en el archivo 'NAMESPACE'"
 
+#, fuzzy
 msgid "duplicate symbol names %s in useDynLib(\"%s\")"
-msgstr ""
+msgstr "nombres de símbolos duplicados %s en useDynLib(\"%s\")"
 
 msgid "bad 'S3method' directive: %s"
-msgstr ""
+msgstr "directiva 'S3method' errónea: %s"
 
 msgid "unknown namespace directive: %s"
-msgstr ""
+msgstr "directiva de espacio de nombres desconocida: %s"
 
 msgid "S3 method %s was declared but not found"
-msgstr ""
+msgstr "el método S3 %s fue declarado, pero no fue encontrado"
 
 msgid "bad method"
-msgstr ""
+msgstr "método incorrecto"
 
 msgid "object '%s' not found whilst loading namespace '%s'"
 msgstr ""
+"el objeto '%s' no se encontró mientras se cargaba el espacio de nombres '%s'"
 
+#, fuzzy
 msgid "While loading namespace \"%s\": \"%s\" differ in ncol(.), env=%d, newNS=%d."
 msgstr ""
+"Al cargar el espacio de nombres \"%s\": \"%s\" difieren en ncol(.), env=%d, "
+"newNS=%d."
 
 msgid "Maybe package installed with version of R newer than %s ?"
-msgstr ""
+msgstr "¿Tal vez el paquete instalado con una versión de R más reciente que %s?"
 
+#, fuzzy
 msgid "'%s' is not implemented yet"
-msgstr ""
+msgstr "'%s' aún no se ha implementado"
 
 msgid "argument '%s' is not used (yet)"
 msgstr ""
