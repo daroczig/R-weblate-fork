@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-15 00:15+0000\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
@@ -478,9 +478,8 @@ msgid "object of type '%s' is not subsettable"
 msgstr "objeto de tipo '%s' no es subconjunto"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
-msgstr "[[ ]] con subscrito ausente"
+msgstr "[[ ]] con subíndice ausente"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
@@ -689,9 +688,9 @@ msgstr "Nombre de símbolo inválido."
 
 # Igual que antes, fijate si conviene asi. No lo modifico
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "no fue posible adjudicar memoria para el símbolo nativo registrado (%d bytes)"
+msgstr "No se puede registrar el símbolo nativo ya registrado '%s'."
 
 #: src/main/Rdynload.c:500
 #, c-format
@@ -701,17 +700,17 @@ msgstr "El símbolo '%s' no tiene una dirección nativa válida."
 #: src/main/Rdynload.c:502
 #, c-format
 msgid "Symbol '%s' does not have a valid DllInfo reference."
-msgstr ""
+msgstr "El símbolo '%s' no tiene una referencia Dllinfo válida."
 
 #: src/main/Rdynload.c:507
-#, c-format
+#, c-format, fuzzy
 msgid "Symbol '%s' comes from a different shared object."
-msgstr ""
+msgstr "El símbolo '%s' proviene de un objeto compartido diferente."
 
 #: src/main/Rdynload.c:510
 #, c-format
 msgid "Symbol '%s' is missing parameter specification."
-msgstr ""
+msgstr "Especificación de parámetros ausente para el símbolo '%s'."
 
 #: src/main/Rdynload.c:851
 msgid "`maximal number of DLLs reached..."
@@ -853,9 +852,9 @@ msgstr "error regcomp:  '%s'"
 #: src/main/grep.c:1409 src/main/grep.c:2274 src/main/grep.c:2564
 #: src/main/grep.c:3174 src/main/grep.c:3262 src/main/grep.c:3425
 #: src/main/grep.c:3432
-#, fuzzy, c-format
+#, c-format
 msgid "input string %lld is invalid in this locale"
-msgstr "string de entrada %lld es inválida en este locale"
+msgstr "cadena de entrada %lld es inválida en la configuración regional"
 
 #: src/main/agrep.c:528 src/main/agrep.c:768 src/main/connections.c:2513
 #: src/main/grep.c:572 src/main/grep.c:1295 src/main/grep.c:1297
@@ -921,22 +920,22 @@ msgid "type '%s' is not supported"
 msgstr "el tipo '%s' no es soportado"
 
 #: src/main/apply.c:177
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
 msgstr ""
 "Los valores deben ser de longitud %d, \n"
-"pero la longitud del resultado de FUN(X [[%lld]]) es %d"
+"pero la longitud del resultado de FUN(X[[%lld]]) es de longitud %d"
 
 #: src/main/apply.c:189
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
 msgstr ""
 "valores deben ser del tipo '%s',\n"
-"pero el resultado FUN(X[[%lld]])  es del tipo  '%s'"
+"pero el resultado FUN(X[[%lld]]) es de tipo '%s'"
 
 #: src/main/apply.c:266
 #, c-format
@@ -1060,19 +1059,24 @@ msgid "invalid 'ncol' value (< 0)"
 msgstr "valor de 'ncol' no válido (< 0)"
 
 #: src/main/array.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
-msgstr "la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número de filas [%d] en la matriz"
+msgstr ""
+"la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número "
+"de filas [%d]"
 
 #: src/main/array.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr "la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número de columnas [%d] en la matriz"
+msgstr ""
+"la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número "
+"de columnas [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr "la longitud de los datos difiere del tamaño de la matriz [%lld != %d x %d]"
+msgstr ""
+"la longitud de los datos difiere del tamaño de la matriz: [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1113,16 +1117,16 @@ msgid "a matrix-like object is required as argument to '%s'"
 msgstr "se requiere un objeto tipo matriz como argumento para '%s'"
 
 #: src/main/array.c:1269
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "%d argumento dado a '%s', que requieren %d o %d"
-msgstr[1] "%d argumentos dados a '%s', que requeiren %d o %d"
+msgstr[0] "%d argumento pasado a '%s', que requiere al menos %d argumentos"
+msgstr[1] "%d argumentos pasados a '%s', que requiere al menos %d argumentos"
 
 #: src/main/array.c:1289
-#, c-format
+#, c-format, fuzzy
 msgid "more than 2 arguments passed to default method of '%s'"
-msgstr ""
+msgstr "más de 2 argumentos pasados al método predeterminado de '%s'"
 
 #: src/main/array.c:1294
 msgid "requires numeric/complex matrix/vector arguments"
@@ -1206,9 +1210,9 @@ msgid "cannot set attribute on a symbol"
 msgstr "no se puede establecer un atributo en un símbolo"
 
 #: src/main/attrib.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-msgstr "tipo no válido (%s)  para 'names': debe ser un vector"
+msgstr "tipo no válido (%s) para 'names': debe ser un vector o NULL"
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
@@ -1248,9 +1252,9 @@ msgid "attempt to set invalid 'class' attribute"
 msgstr "se intenta especificar un atributo 'class' no válido"
 
 #: src/main/attrib.c:926
-#, fuzzy, c-format
+#, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-msgstr "No es valido usar names()<- para dar 'names' a un slot en una clase que no es vector ('%s')"
+msgstr "No es válido usar names()<- en un objeto S4 de clase ('%s')"
 
 #: src/main/attrib.c:969
 msgid "incompatible 'names' argument"
@@ -1286,9 +1290,9 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr "la longitud de 'dimnames' [%d] no es igual a la extensión del arreglo"
 
 #: src/main/attrib.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "segundo argumento inválido"
+msgstr "segundo argumento inválido, debe ser %s"
 
 #: src/main/attrib.c:1235
 msgid "length-0 dimension vector is invalid"
@@ -1582,6 +1586,8 @@ msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
 " Consider using '%s' instead."
 msgstr ""
+"EXPR es un \"factor\", usado como un entero.\n"
+" Considere usar '%s' en su lugar."
 
 #: src/main/builtin.c:1100 src/main/eval.c:8635 src/main/eval.c:8664
 #, fuzzy
@@ -1791,7 +1797,7 @@ msgstr "el argumento de 'code' debe ser un string de caracteres"
 #: src/main/coerce.c:1728
 #, c-format
 msgid "parsing result not of length one, but %d"
-msgstr ""
+msgstr "parseando resultado no de longitud uno sino %d"
 
 #: src/main/coerce.c:1760
 msgid "invalid length 0 argument"
@@ -1800,15 +1806,16 @@ msgstr "longitud 0 del argumento inválida"
 #: src/main/coerce.c:1776
 msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
 msgstr ""
+"No es posible usar as.call(<character>) , considere usar str2lang(<char.>)"
 
 #: src/main/coerce.c:1779
 msgid "invalid argument list"
 msgstr "argumento de lista inválido"
 
 #: src/main/coerce.c:1797
-#, c-format
+#, c-format, fuzzy
 msgid "'length = %lld' in coercion to '%s'"
-msgstr ""
+msgstr "'length = %lld' en coerción a '%s'"
 
 #: src/main/coerce.c:2139
 msgid "type \"single\" unimplemented in R"
