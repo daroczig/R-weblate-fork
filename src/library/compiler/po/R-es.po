@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-05-18 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -72,63 +72,69 @@ msgid "no visible global function definition for '%s'"
 msgstr "No hay una definición de función global visible para '%s'"
 
 msgid "no visible binding for global variable '%s'"
-msgstr ""
+msgstr "No hay vinculación visible para la variable global '%s'"
 
 msgid "no visible binding for '<<-' assignment to '%s'"
-msgstr ""
+msgstr "no hay vinculación visible para asignación no local ('<<-') a '%s'"
 
 msgid "wrong number of arguments to '%s'"
-msgstr ""
+msgstr "número incorrecto de argumentos para '%s'"
 
 msgid "more than one default provided in switch() call"
-msgstr ""
+msgstr "más de un valor predeterminado proporcionado en la llamada a switch()"
 
 msgid "'switch' with no alternatives"
-msgstr ""
+msgstr "'switch' sin alternativas"
 
+#, fuzzy
 msgid "Error: compilation failed -"
-msgstr ""
+msgstr "Error: error de compilación -"
 
 msgid "cannot compile a non-function"
-msgstr ""
+msgstr "no se puede compilar un objeto no función"
 
 msgid "compiling '%s'"
-msgstr ""
+msgstr "compilando '%s'"
 
 msgid "saving to file \"%s\" ..."
-msgstr ""
+msgstr "guardando en el archivo \"%s\" ..."
 
+#, fuzzy
 msgid "done"
-msgstr ""
+msgstr "hecho"
 
+#, fuzzy
 msgid "'env' must be a top level environment"
-msgstr ""
+msgstr "'env' debe ser un entorno de nivel superior"
 
 msgid "input and output file names are the same"
-msgstr ""
+msgstr "nombres de los archivos de entrada y salida son el mismo"
 
 msgid "empty input file; no output written"
-msgstr ""
+msgstr "archivo de entrada vacío; no se escribió salida"
 
 msgid "file '%s' does not exist"
-msgstr ""
+msgstr "el archivo '%s' no existe"
 
+#, fuzzy
 msgid "'%s' is not a valid compiler option"
-msgstr ""
+msgstr "'%s' no es una opción válida del compilador"
 
 msgid "invalid environment variable value: %s==%s"
-msgstr ""
+msgstr "valor de variable de entorno no válido: %s==%s"
 
 msgid "invalid compiler options: optimize(==%d)<2 and jitEnabled(==%d)>2"
 msgstr ""
+"opciones de compilador no válidas: optimize(==%d)<2 y jitEnabled(==%d)>2"
 
 msgid "function is not compiled"
-msgstr ""
+msgstr "la función no está compilada"
 
+#, fuzzy
 msgid "cannot compile this expression"
-msgstr ""
+msgstr "no se puede compilar esta expresión"
 
 msgid "local assignment to syntactic function: "
 msgid_plural "local assignments to syntactic functions: "
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "asignación local a la función sintáctica: "
+msgstr[1] "asignaciones locales a funciones sintácticas: "
