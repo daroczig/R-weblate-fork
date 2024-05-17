@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-05-18 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -128,7 +128,7 @@ msgid "you must specify 'package', 'dir' or 'file'"
 msgstr ""
 
 msgid "file '%s' does not exist"
-msgstr ""
+msgstr "el archivo '%s' no existe"
 
 msgid ""
 "parse error in file '%s':\n"
@@ -909,8 +909,9 @@ msgstr ""
 msgid "starting httpd help server ..."
 msgstr ""
 
+#, fuzzy
 msgid "done"
-msgstr ""
+msgstr "hecho"
 
 msgid "failed to start the httpd server"
 msgstr ""
