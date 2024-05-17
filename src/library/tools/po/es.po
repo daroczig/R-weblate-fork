@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -109,64 +109,72 @@ msgstr "No se han pasado suficientes argumentos a la macro de usuario '%s'"
 #: gramRd.c:3371 gramRd.c:3375
 #, c-format
 msgid "newline within quoted string at %s:%d"
-msgstr ""
+msgstr "nueva línea dentro de la cadena entrecomillada en %s:%d"
 
 #: gramRd.c:3394
 #, c-format
 msgid "unable to allocate buffer for long macro at line %d"
-msgstr ""
+msgstr "no fue posible asignar búfer para la macro larga en la línea %d"
 
 #: gramRd.c:3424
 msgid "macros nested too deeply: infinite recursion?"
-msgstr ""
+msgstr "macros con anidamiento demasiado profundo (¿recursión infinita?)"
 
 #: gramRd.c:3832
-#, c-format
+#, c-format, fuzzy
 msgid "Unable to find macro %s"
-msgstr ""
+msgstr "No se puede encontrar la macro %s"
 
 #: gramRd.c:4031
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
 msgstr ""
+"La entrada finalizó inesperadamente (en la cadena entrecomillada %c abierta "
+"en %s:%d:%d)"
 
 #: gramRd.c:4536
 msgid "cannot open the connection"
-msgstr ""
+msgstr "no se puede abrir la conexión"
 
 #: gramRd.c:4543
+#, fuzzy
 msgid "cannot read from this connection"
-msgstr ""
+msgstr "no se puede leer desde esta conexión"
 
 #: gramRd.c:4551
+#, fuzzy
 msgid "invalid Rd file"
-msgstr ""
+msgstr "archivo Rd no válido"
 
 #: gramRd.c:4570
 msgid "'deparseRd' only supports deparsing character elements"
 msgstr ""
+"'deparseRd' solo admite la conversión de expresión a texto sobre elementos "
+"de tipo carácter"
 
 #: gramRd.c:4573
 msgid "bad state"
-msgstr ""
+msgstr "estado incorrecto"
 
 #: gramRd.c:4586
-#, c-format
+#, c-format, fuzzy
 msgid "bad text mode %d in 'deparseRd'"
-msgstr ""
+msgstr "modo de texto incorrecto %d en 'deparseRd'"
 
 #: http.c:32
 msgid "invalid bind address specification"
-msgstr ""
+msgstr "especificación de dirección de enlace no válida"
 
 #: http.c:37
 #, c-format
 msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
 msgstr ""
+"Número de puerto no válido %d: debe estar en el rango 0:65535, normalmente "
+"por encima de 1024"
 
 #: install.c:95
 msgid "path too long"
-msgstr ""
+msgstr "ruta muy larga"
 
 #: install.c:120 install.c:139 install.c:141
 #, c-format
@@ -174,31 +182,34 @@ msgid "invalid '%s' argument"
 msgstr "argumento '%s' no válido"
 
 #: install.c:170
+#, fuzzy
 msgid "write error during file append"
-msgstr ""
+msgstr "Error de escritura durante la anexión de archivos"
 
 #: pdscan.c:67
 msgid "too many items"
-msgstr ""
+msgstr "Demasiados ítems"
 
 #: pdscan.c:115
+#, fuzzy
 msgid "non-character argument"
-msgstr ""
+msgstr "argumento de tipo no-carácter"
 
 #: signals.c:42
+#, fuzzy
 msgid "pskill() is not supported on this platform"
-msgstr ""
+msgstr "pskill() no es compatible con esta plataforma"
 
 #: signals.c:140
+#, fuzzy
 msgid "psnice() is not supported on this platform"
-msgstr ""
+msgstr "psnice() no es compatible con esta plataforma"
 
 #: text.c:69
 msgid "invalid argument type"
-msgstr ""
+msgstr "tipo de argumento no válido"
 
 #: text.c:225 text.c:247
 msgid "out of memory"
-msgstr ""
-
+msgstr "memoria insuficiente"
 
