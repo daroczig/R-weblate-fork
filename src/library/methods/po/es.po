@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-05-18 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -64,13 +64,14 @@ msgstr ""
 "desde el resolución interna del método para la función '%s'"
 
 #: methods_list_dispatch.c:409
+#, fuzzy
 msgid "Function name for method selection called internally"
-msgstr ""
+msgstr "Nombre de la función para la selección de métodos llamada internamente"
 
 #: methods_list_dispatch.c:503
-#, c-format
+#, c-format, fuzzy
 msgid "no generic function definition found for '%s'"
-msgstr ""
+msgstr "no se ha encontrado ninguna definición de función genérica para '%s'"
 
 #: methods_list_dispatch.c:504
 #, c-format, fuzzy
