@@ -1,70 +1,75 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "namespace found within local environments"
-msgstr ""
+msgstr "espacio de nombres encontrado dentro de los entornos locales"
 
+#, fuzzy
 msgid "not a proper evaluation environment"
-msgstr ""
+msgstr "no es un entorno de evaluación adecuado"
 
 msgid "non-namespace found within namespace environments"
 msgstr ""
+"entorno que no es un espacio de nombres encontrado entre los entornos de "
+"espacios de nombres"
 
 msgid "namespace found within global environments"
-msgstr ""
+msgstr "espacio de nombres encontrado dentro de entornos globales"
 
 msgid "bad assignment: %s"
-msgstr ""
+msgstr "asignación incorrecta: %s"
 
 msgid "cannot constant fold literal promises"
-msgstr ""
+msgstr "no se pueden duplicar constantemente las promesas literales"
 
 msgid "cannot constant fold literal bytecode objects"
-msgstr ""
+msgstr "No se pueden duplicar constantemente los objetos bytecode literales"
 
 msgid "no offset recorded for label \"%s\""
-msgstr ""
+msgstr "no se ha registrado ningún offset para la etiqueta \"%s\""
 
 msgid "cannot compile byte code literals in code"
-msgstr ""
+msgstr "No se pueden compilar literales de bytecode en el código"
 
 msgid "cannot compile promise literals in code"
-msgstr ""
+msgstr "no se pueden compilar promesas de literales en el código"
 
 msgid "possible error in '%s': %s"
-msgstr ""
+msgstr "posible error en '%s': %s"
 
 msgid "bad namespace import frame"
-msgstr ""
+msgstr "entorno de importación de espacio de nombres incorrecto"
 
 msgid "bad assignment 1"
-msgstr ""
+msgstr "asignación incorrecta 1"
 
 msgid "bad assignment 2"
-msgstr ""
+msgstr "asignación incorrecta 2"
 
 msgid "invalid function in complex assignment"
-msgstr ""
+msgstr "función inválida en asignación de complejos"
 
 msgid "missing arguments are not allowed"
-msgstr ""
+msgstr "no se permiten argumentos omitidos"
 
 msgid "empty alternative in numeric switch"
-msgstr ""
+msgstr "Alternativa vacía en switch numérico"
 
+#, fuzzy
 msgid "no visible global function definition for '%s'"
-msgstr ""
+msgstr "No hay una definición de función global visible para '%s'"
 
 msgid "no visible binding for global variable '%s'"
 msgstr ""
