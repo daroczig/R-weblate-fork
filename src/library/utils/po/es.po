@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-05-18 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -31,7 +31,7 @@ msgstr "argumento '%s' no válido"
 
 #: io.c:350 io.c:841
 msgid "invalid quote symbol set"
-msgstr ""
+msgstr "conjunto inválido de símbolos de entrecomillado (quote)"
 
 #: io.c:362 io.c:864 io.c:1084
 msgid "cannot open the connection"
@@ -43,71 +43,79 @@ msgid "cannot read from this connection"
 msgstr "no se puede leer desde esta conexión"
 
 #: io.c:416 io.c:434
-#, c-format
+#, c-format, fuzzy
 msgid "quoted string on line %d terminated by EOF"
-msgstr ""
+msgstr "cadena entrecomillada en línea %d terminada por EOF"
 
 #: io.c:569
 msgid "the first argument must be of mode character"
-msgstr ""
+msgstr "el primer argumento debe ser de modo carácter"
 
 #: io.c:599
 #, c-format
 msgid "invalid 'numerals' string: \"%s\""
-msgstr ""
+msgstr "cadena 'numerals' no válida: \"%s\""
 
 #: io.c:779
-#, c-format
+#, c-format, fuzzy
 msgid "Selection: "
-msgstr ""
+msgstr "Selección: "
 
 #: io.c:874 io.c:889
+#, fuzzy
 msgid "cannot allocate buffer in 'readTableHead'"
-msgstr ""
+msgstr "no se puede asignar el búfer en 'readTableHead'"
 
 #: io.c:902
+#, fuzzy
 msgid "\\ followed by EOF"
-msgstr ""
+msgstr "\\ seguido de EOF"
 
 #: io.c:954 io.c:958
-#, c-format
+#, c-format, fuzzy
 msgid "incomplete final line found by readTableHeader on '%s'"
-msgstr ""
+msgstr "línea final incompleta encontrada por readTableHeader en '%s'"
 
 #: io.c:1015
+#, fuzzy
 msgid "index out of range"
-msgstr ""
+msgstr "Índice fuera de rango"
 
 #: io.c:1052
-#, c-format
+#, c-format, fuzzy
 msgid "Problem closing connection:  %s"
-msgstr ""
+msgstr "Problema cerrando la conexión: %s"
 
 #: io.c:1054
 msgid "Problem closing connection"
-msgstr ""
+msgstr "Problema al cerrar la conexión"
 
 #: io.c:1077
+#, fuzzy
 msgid "'file' is not a connection"
-msgstr ""
+msgstr "'file' no es una conexión"
 
 #: io.c:1080
+#, fuzzy
 msgid "cannot write to this connection"
-msgstr ""
+msgstr "no es posible escribir en esa conexión"
 
 #: io.c:1110
+#, fuzzy
 msgid "'dec' must be a single character"
-msgstr ""
+msgstr "'dec' debe ser un solo carácter"
 
 #: io.c:1137
 #, c-format
 msgid "corrupt data frame -- length of column %d does not match nrows"
 msgstr ""
+"data frame corrupto -- la longitud de la columna %d no coincide con el "
+"número de filas"
 
 #: io.c:1171
-#, c-format
+#, c-format, fuzzy
 msgid "column %d claims to be a factor but does not have numeric codes"
-msgstr ""
+msgstr "la columna %d afirma ser un factor, pero no tiene códigos numéricos"
 
 #: io.c:1189
 msgid "corrupt matrix -- dims do not match length"
