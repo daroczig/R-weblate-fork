@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -129,7 +129,7 @@ msgstr ""
 
 #: colors.c:1510
 msgid "invalid argument type"
-msgstr ""
+msgstr "tipo de argumento no válido"
 
 #: colors.c:1521
 msgid "unknown palette (need >= 2 colors)"
