@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"PO-Revision-Date: 2024-05-17 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -35,11 +35,12 @@ msgstr ""
 
 #: io.c:362 io.c:864 io.c:1084
 msgid "cannot open the connection"
-msgstr ""
+msgstr "no se puede abrir la conexión"
 
 #: io.c:365 io.c:369
+#, fuzzy
 msgid "cannot read from this connection"
-msgstr ""
+msgstr "no se puede leer desde esta conexión"
 
 #: io.c:416 io.c:434
 #, c-format
