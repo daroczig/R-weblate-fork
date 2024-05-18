@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-18 23:20+0000\n"
+"PO-Revision-Date: 2024-05-20 00:20+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
@@ -703,7 +703,7 @@ msgid "Symbol '%s' does not have a valid DllInfo reference."
 msgstr "El símbolo '%s' no tiene una referencia Dllinfo válida."
 
 #: src/main/Rdynload.c:507
-#, c-format, fuzzy
+#, c-format
 msgid "Symbol '%s' comes from a different shared object."
 msgstr "El símbolo '%s' proviene de un objeto compartido diferente."
 
@@ -1344,9 +1344,8 @@ msgid "partial match of '%s' to '%s'"
 msgstr "encuentros parciales de '%s' to '%s'"
 
 #: src/main/attrib.c:1601
-#, fuzzy
 msgid "invalid slot name length"
-msgstr "longitud no válida"
+msgstr "El nombre de la ranura de longitud no es valida"
 
 #: src/main/attrib.c:1605
 #, c-format
@@ -1377,14 +1376,13 @@ msgid "attempt to set slot on NULL object"
 msgstr "se intenta especificar un atributo en un NULL"
 
 #: src/main/attrib.c:1896
-#, fuzzy
 msgid "formal classes cannot be used without the 'methods' package"
-msgstr "no pueden utilizarse clases formales  sin el paquete métodos"
+msgstr "no pueden utilizarse clases formales sin el paquete métodos"
 
 #: src/main/attrib.c:1906
-#, fuzzy, c-format
+#, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "no hay método aplicable para \"%s\""
+msgstr "no hay método aplicable para `@` aplicado a un objeto de clase \"%s\""
 
 #: src/main/bind.c:165
 #, c-format
@@ -1416,9 +1414,9 @@ msgid "class name too long in '%s'"
 msgstr "el nombre de la clase es muy largo en '%s'"
 
 #: src/main/bind.c:1175
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create a matrix from type '%s'"
-msgstr "no es posible crear una matriz a partir de estos tipos"
+msgstr "no es posible crear una matriz a partir de estos tipos '%s'"
 
 #: src/main/bind.c:1245
 #, c-format
@@ -1542,9 +1540,10 @@ msgid "vector: cannot make a vector of mode '%s'."
 msgstr "vector: no es posible hacer un vector de modo '%s'."
 
 #: src/main/builtin.c:837
-#, fuzzy
 msgid "cannot set length of non-(vector or list)"
-msgstr "no es posible especificar la longitud de un objeto que no es un vector"
+msgstr ""
+"no es posible especificar la longitud de un objeto que no es un vector o "
+"lista"
 
 #: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3096
 msgid "invalid value"
@@ -1567,9 +1566,9 @@ msgid "'...' used in an incorrect context"
 msgstr "'...' usado en un contexto incorrecto"
 
 #: src/main/builtin.c:1003
-#, fuzzy, c-format
+#, c-format
 msgid "duplicate 'switch' defaults: '%s' and '%s'"
-msgstr "duplicado de interuptores por defecto: '%s' y '%s'"
+msgstr "elementos por defecto de 'switch' duplicados: '%s' y '%s'"
 
 #: src/main/builtin.c:1036
 msgid "'EXPR' is missing"
@@ -1590,9 +1589,8 @@ msgstr ""
 " Considere usar '%s' en su lugar."
 
 #: src/main/builtin.c:1100 src/main/eval.c:8635 src/main/eval.c:8664
-#, fuzzy
 msgid "'switch' with no alternatives"
-msgstr "EXPR numéricos son necesarios para el switch() sin alternativas con nombre"
+msgstr "'switch' no tiene alternativas"
 
 #: src/main/character.c:117 src/main/character.c:305
 #, c-format
@@ -1610,14 +1608,16 @@ msgstr "%s' requiere un vector de caracteres"
 #: src/main/character.c:176 src/main/character.c:202 src/main/character.c:216
 #: src/main/character.c:281 src/main/character.c:388 src/main/character.c:593
 #: src/main/character.c:598
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, %s"
-msgstr "string multibyte %d inválida"
+msgstr "string multibyte %d inválida, %s"
 
 #: src/main/character.c:192
-#, fuzzy, c-format
+#, c-format
 msgid "number of characters is not computable in \"bytes\" encoding, %s"
-msgstr "número de caracteres no es computable para el elemento %d en el \"bytes\" codificación"
+msgstr ""
+"número de caracteres no es computable para el elemento %d en el \"bytes\" "
+"codificación, %s"
 
 #: src/main/character.c:245
 #, fuzzy, c-format
@@ -2351,7 +2351,7 @@ msgstr "no se puede asignar buffer en readLines"
 #: src/main/connections.c:4147
 #, c-format
 msgid "line %lld appears to contain an embedded nul"
-msgstr ""
+msgstr "la línea %lld parece contener un nul enbebido"
 
 #: src/main/connections.c:4166
 #, fuzzy, c-format
@@ -2439,6 +2439,7 @@ msgstr "puede solo leer en bytes en un local  non-UTF-8 MBCS"
 #, c-format
 msgid "text connection used with %s(), results may be incorrect"
 msgstr ""
+"conexión de texto usada con %s(), los resultados podrían ser incorrectos"
 
 # No se en que contexto va este mensaje, puede estar bien o mal traducido. Vos sabes?
 #: src/main/connections.c:5043
@@ -2502,6 +2503,7 @@ msgstr "esta plataforma no soporta nsl()"
 #: src/main/connections.c:5667 src/modules/internet/internet.c:225
 msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
 msgstr ""
+"el método 'interno' de url() ha desaparecido para las URL http:// y ftp://"
 
 #: src/main/connections.c:5680
 msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
@@ -2510,12 +2512,12 @@ msgstr "file(\"\") permite solamente open = \"w+\" y open = \"w+b\": se usó la p
 #: src/main/connections.c:5701
 #, c-format
 msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
-msgstr ""
+msgstr "usando 'raw = TRUE' porque '%s' es un fifo o pipe"
 
 #: src/main/connections.c:5708
 #, c-format
 msgid "'raw = FALSE' but '%s' is not a regular file"
-msgstr ""
+msgstr "'raw = FALSE' pero '%s' no es un archivo regular"
 
 #: src/main/connections.c:5752
 #, fuzzy
@@ -2603,7 +2605,7 @@ msgstr "longitud %d es muy grande para uso de hash"
 
 #: src/main/connections.c:6433 src/modules/internet/libcurl.c:606
 msgid "too many file descriptors for select()"
-msgstr ""
+msgstr "Demasiados descriptores de archivo para select()"
 
 #: src/main/connections.c:6764
 msgid "unknown compression, assuming none"
@@ -2660,11 +2662,11 @@ msgstr "no es que muchas funciones en la pila de llamadas"
 
 #: src/main/context.c:611
 msgid "debug flag in compiled function has no effect"
-msgstr ""
+msgstr "flag de debug en una función compilada no tiene efecto"
 
 #: src/main/context.c:613
 msgid "debug will apply when function leaves compiled code"
-msgstr ""
+msgstr "debug se va a activar cuando la función salga del texto compilado"
 
 #: src/main/context.c:724
 msgid "internal error in 'do_sys'"
@@ -2693,6 +2695,8 @@ msgstr "función cumxxx desconocida"
 #: src/main/datetime.c:594
 msgid "datetimes before 1902 may not be accurate: warns once per session"
 msgstr ""
+"Es posible que las datetimes antes de 1902 no sean precisas: advierte una "
+"vez por sesión"
 
 #: src/main/datetime.c:790 src/main/datetime.c:802 src/main/datetime.c:825
 #: src/main/datetime.c:830
@@ -2709,26 +2713,28 @@ msgstr "problema  al desestablecer zona horaria"
 
 #: src/main/datetime.c:969
 msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
-msgstr ""
+msgstr "un objeto \"POSIXIt\" válido es una lista de al menos 9 elementos"
 
 #: src/main/datetime.c:973
 msgid "a valid \"POSIXlt\" object has names"
-msgstr ""
+msgstr "un objeto \"POSIXIt\" válido tiene nombres"
 
 #: src/main/datetime.c:979
 #, c-format
 msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
 msgstr ""
+"un objeto \"POSIXlt\" válido tiene el elemento %d con el nombre '%s' que "
+"debería ser '%s'"
 
 #: src/main/datetime.c:986 src/main/datetime.c:1002
 #, c-format
 msgid "a valid \"POSIXlt\" object has a numeric element %s"
-msgstr ""
+msgstr "un objeto \"POSIXlt\" válido tiene un elemento numérico %s"
 
 #: src/main/datetime.c:997
 #, c-format
 msgid "a valid \"POSIXlt\" object has a character element %s"
-msgstr ""
+msgstr "un objeto \"POSIXlt\" válido tiene un elemento de tipo caracter %s"
 
 #: src/main/datetime.c:1010 src/main/datetime.c:1252 src/main/datetime.c:1938
 #, fuzzy, c-format
@@ -2850,6 +2856,8 @@ msgstr "ningún dispositivo activo o por defecto"
 #: src/main/devices.c:176
 msgid "no active device and default getOption(\"device\") is invalid"
 msgstr ""
+"no hay ningún dispositivo activo y y la opción predeterminada getOption("
+"\"device\") no es válido"
 
 #: src/main/devices.c:390 src/main/devices.c:452
 msgid "too many open devices"
@@ -2889,7 +2897,7 @@ msgstr "demasiados argumentos en llamada a una función externa"
 
 #: src/main/dotcode.c:236
 msgid "PACKAGE = \"\" is invalid"
-msgstr ""
+msgstr "PACKAGE = \"\" no es válido"
 
 #: src/main/dotcode.c:292 src/main/dotcode.c:297 src/main/dotcode.c:302
 #: src/main/dotcode.c:307
@@ -3190,7 +3198,7 @@ msgstr "falta de memoria al recortar una línea múltiple"
 
 #: src/main/engine.c:1113
 msgid "Clipping polygon that does not need clipping"
-msgstr ""
+msgstr "Polígono de recorte que no necesita recorte"
 
 #: src/main/engine.c:1500
 #, fuzzy
@@ -3265,11 +3273,15 @@ msgstr "argumento de lista inválido"
 #, c-format
 msgid "snapshot recorded with different graphics engine version (pre 11 - this is version %d)"
 msgstr ""
+"instantánea grabada con diferentes versiones del motor gráfico (pre 11 - "
+"esta es la versión %d)"
 
 #: src/main/engine.c:3141
 #, c-format
 msgid "snapshot recorded with different graphics engine version (%d - this is version %d)"
 msgstr ""
+"instantánea grabada con diferentes versiones del motor gráfico (pre 11 - "
+"esta es la versión %d)"
 
 #: src/main/engine.c:3230
 msgid "'expr' argument must be an expression"
@@ -3308,15 +3320,15 @@ msgstr "tipo de línea inválido"
 
 #: src/main/engine.c:3790
 msgid "Stroke ignored (device is appending path)"
-msgstr ""
+msgstr "Trazo ignorado (el dispositivo está anexando ruta)"
 
 #: src/main/engine.c:3802
 msgid "Fill ignored (device is appending path)"
-msgstr ""
+msgstr "Relleno ignorado (el dispositivo está anexando ruta)"
 
 #: src/main/engine.c:3814
 msgid "FillStroke ignored (device is appending path)"
-msgstr ""
+msgstr "Trazo ignorado (el dispositivo está anexando ruta)"
 
 #: src/main/envir.c:130 src/main/envir.c:144
 #, c-format
@@ -3347,7 +3359,7 @@ msgstr "el argumento a '%s' no es un entorno"
 #: src/main/envir.c:1421
 #, c-format
 msgid "indexing '...' with non-positive index %d"
-msgstr ""
+msgstr "indexando '...' con índice no positivo %d"
 
 #: src/main/envir.c:1430
 #, c-format
@@ -3363,7 +3375,7 @@ msgstr "..%d usado en un contexto incorreto, ningún ... para examinar"
 
 #: src/main/envir.c:1453
 msgid "indexing '...' with an invalid index"
-msgstr ""
+msgstr "Indexación '...' con un índice no válido"
 
 #: src/main/envir.c:1463 src/main/envir.c:1474
 #, fuzzy
@@ -3577,7 +3589,7 @@ msgstr "nombre de espacio inválido"
 #: src/main/envir.c:3940
 #, c-format
 msgid "'%s' is not an exported object from 'namespace:%s'"
-msgstr ""
+msgstr "'%s' no es un objeto exportado desde 'namespace:%s'"
 
 #: src/main/envir.c:3991
 msgid "bad import environment argument"
@@ -3612,7 +3624,7 @@ msgstr "'interrupts' suspendidas; señal ignorada"
 
 #: src/main/errors.c:368
 msgid "[... truncated]"
-msgstr ""
+msgstr "[... truncado]"
 
 #: src/main/errors.c:457
 msgid "invalid option \"warning.expression\""
@@ -3634,7 +3646,7 @@ msgstr "Aviso en %s :"
 
 #: src/main/errors.c:516 src/main/errors.c:531 src/main/errors.c:875
 msgid "Calls:"
-msgstr ""
+msgstr "Llamadas:"
 
 #: src/main/errors.c:578 src/main/errors.c:597 src/main/errors.c:771
 msgid "Lost warning messages\n"
@@ -3649,7 +3661,7 @@ msgstr[1] "Avisos:"
 #: src/main/errors.c:619 src/main/errors.c:647
 #, c-format
 msgid "In %s :"
-msgstr ""
+msgstr "En %s :"
 
 #: src/main/errors.c:672
 #, c-format
@@ -3670,6 +3682,8 @@ msgstr "Error durante el wrapup: "
 #: src/main/errors.c:773
 msgid "Error: no more error handlers available (recursive errors?); invoking 'abort' restart\n"
 msgstr ""
+"Error: no hay más manejadores de errores disponibles (¿errores recursivos?); "
+"Invocar el reinicio 'abortar'\n"
 
 #: src/main/errors.c:792
 msgid "Error in "
@@ -3678,7 +3692,7 @@ msgstr "Error en "
 #: src/main/errors.c:814 src/main/errors.c:821
 #, c-format
 msgid "Error in %s (from %s) : "
-msgstr ""
+msgstr "Error en %s (de %s): "
 
 #: src/main/errors.c:823
 #, c-format
@@ -3810,12 +3824,12 @@ msgstr "stack central desbordado"
 
 #: src/main/eval.c:682
 msgid "samples too large for I/O buffer skipped by Rprof"
-msgstr ""
+msgstr "muestras demasiado grandes para el búfer de E/S omitido por Rprof"
 
 #: src/main/eval.c:684
 #, c-format
 msgid "source files skipped by Rprof; please increase '%s'"
-msgstr ""
+msgstr "archivos fuente omitidos por Rprof; por favor, aumente '%s'"
 
 #: src/main/eval.c:708 src/main/eval.c:718
 #, c-format
@@ -3825,12 +3839,12 @@ msgstr "Rprof: no puede abrir el archivo de perfil '%s'"
 #: src/main/eval.c:900
 #, c-format
 msgid "interval too short for this platform, using '%f'"
-msgstr ""
+msgstr "intervalo demasiado corto para esta plataforma, usando '%f'"
 
 #: src/main/eval.c:905
 #, c-format
 msgid "interval too short, using '%f'"
-msgstr ""
+msgstr "intervalo demasiado corto, usando '%f'"
 
 #: src/main/eval.c:921
 msgid "R profiling is not available on this system"
@@ -3874,7 +3888,7 @@ msgstr "símbolo \"%s\" no está en el entorno del método"
 
 #: src/main/eval.c:2672
 msgid "the condition has length > 1"
-msgstr ""
+msgstr "La afección tiene una longitud > 1"
 
 #: src/main/eval.c:2689
 msgid "missing value where TRUE/FALSE needed"
@@ -8087,6 +8101,8 @@ msgid ""
 "expanded path length %lld would be too long for\n"
 "%s\n"
 msgstr ""
+"la longitud de la ruta expandida %llu sería demasiado larga para.\n"
+"%s.\n"
 
 #: src/unix/sys-std.c:596
 msgid "An unusual circumstance has arisen in the nesting of readline input. Please report using bug.report()"
