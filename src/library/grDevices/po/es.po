@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -21,63 +21,64 @@ msgstr ""
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
 msgid "'%s' must be numeric of length %d"
-msgstr ""
+msgstr "'%s' debe ser numérico de longitud %d"
 
 #: clippath.c:36
 msgid "Clipping path ignored (device is appending path)"
-msgstr ""
+msgstr "Trazado de recorte ignorado (el dispositivo está anexando trazado)"
 
 #: colors.c:69
 #, c-format
 msgid "color intensity %s, not in [0,1]"
-msgstr ""
+msgstr "intensidad de color %s, no en [0,1]"
 
 #: colors.c:71
 #, c-format
 msgid "color intensity %g, not in [0,1]"
-msgstr ""
+msgstr "intensidad %g de color %s, no en [0,1]"
 
 #: colors.c:78
 #, c-format
 msgid "color intensity %s, not in 0:255"
-msgstr ""
+msgstr "intensidad de color %s, no en 0:255"
 
 #: colors.c:80
-#, c-format
+#, c-format, fuzzy
 msgid "color intensity %d, not in 0:255"
-msgstr ""
+msgstr "intensidad de color %s, no en 0:255"
 
 #: colors.c:87
 #, c-format
 msgid "alpha level %s, not in [0,1]"
-msgstr ""
+msgstr "nivel alfa %s, no en [0,1]"
 
 #: colors.c:89
 #, c-format
 msgid "alpha level %g, not in [0,1]"
-msgstr ""
+msgstr "nivel alfa %g, no en [0,1]"
 
 #: colors.c:96
 #, c-format
 msgid "alpha level %s, not in 0:255"
-msgstr ""
+msgstr "nivel alfa %s, no en 0:255"
 
 #: colors.c:98
 #, c-format
 msgid "alpha level %d, not in 0:255"
-msgstr ""
+msgstr "nivel alfa %d, no en 0:255"
 
 #: colors.c:113
 msgid "inputs must be finite"
-msgstr ""
+msgstr "Las entradas deben ser finitas"
 
 #: colors.c:128
+#, fuzzy
 msgid "bad hsv to rgb color conversion"
-msgstr ""
+msgstr "Mala conversión de color HSV a RGB"
 
 #: colors.c:220 colors.c:234
 msgid "invalid hsv color"
-msgstr ""
+msgstr "Color HSV no válido"
 
 #: colors.c:346 colors.c:366
 msgid "invalid hcl color"
