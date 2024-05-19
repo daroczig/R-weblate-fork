@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34\n"
-"PO-Revision-Date: 2024-04-24 03:05+0000\n"
-"Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
+"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,9 @@ msgid "object not interpretable as a factor"
 msgstr "объект не интерпретируется как фактор"
 
 msgid "cannot fit models without level ('alpha' must not be 0 or FALSE)"
-msgstr "не могу подогнать модели без уровня ('alpha' не должна быть нулем или FALSE)."
+msgstr ""
+"не могу подогнать модели без уровня ('alpha' не должна быть нулем 0 или "
+"FALSE)"
 
 msgid "'alpha', 'beta' and 'gamma' must be within the unit interval"
 msgstr "'alpha', 'beta' и 'gamma' должны быть внутри единичного интервала"
@@ -505,10 +507,10 @@ msgstr "Выполняю профилирование..."
 
 # FIXME: need to reword confint.R:74
 msgid "Reprofiling for"
-msgstr ""
+msgstr "Перепрофилирование для"
 
 msgid "statistic. Waiting..."
-msgstr ""
+msgstr "статистический. Ожидание..."
 
 msgid "initial value is not in the interior of the feasible region"
 msgstr "начальное значение не является внутренним в допустимом регионе"
@@ -517,7 +519,7 @@ msgid "Barrier algorithm ran out of iterations and did not converge"
 msgstr "Barrier алгоритм вышел за пределы итераций и не сходится"
 
 msgid "Objective function increased at outer iteration %d"
-msgstr "Объектная функция увеличилась после внешней итерации  %d"
+msgstr "Объектная функция увеличилась после внешней итерации %d"
 
 msgid "Objective function decreased at outer iteration %d"
 msgstr "Объектная функция уменьшилась после внешней итерации %d"
@@ -996,13 +998,13 @@ msgstr "'col.vars' пропущены или неправильные"
 
 # TODO: reword glm-profile.R:78
 msgid "Parameter:"
-msgstr ""
+msgstr "Параметр:"
 
 msgid "down"
-msgstr ""
+msgstr "вниз"
 
 msgid "up"
-msgstr ""
+msgstr "вверх"
 
 msgid "profiling has found a better solution, so original fit had not converged"
 msgstr "профилирование нашло лучшее решение, так что исходное решение не сошлось"
@@ -1831,7 +1833,7 @@ msgid "the case k > 2 is unimplemented"
 msgstr "случай k > 2 не реализован"
 
 msgid "'r' must be a single positive number"
-msgstr "'r' должно быть одним положительным числом."
+msgstr "'r' должно быть одним положительным числом"
 
 msgid "exactly one of 'n', 'delta', 'sd', 'power', and 'sig.level' must be NULL"
 msgstr "в точности один из 'n', 'delta', 'sd', 'power', 'sig.level' должен быть NULL"
@@ -2353,7 +2355,7 @@ msgid "need an object with call component"
 msgstr "нужен объект с компонентом 'call'"
 
 msgid "'ratio' must be a single positive number"
-msgstr "'ratio' должно быть одним положительным числом."
+msgstr "'ratio' должно быть одним положительным числом"
 
 msgid "'x' and 'w' must have the same length"
 msgstr "'x' и 'w' должны иметь одинаковую длину"
