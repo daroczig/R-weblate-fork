@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -351,7 +351,7 @@ msgid ""
 "expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
-"扩展路径长度 %d 太长了，对于\n"
+"扩展路径长度 %llu 太长了，对于\n"
 "%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
@@ -697,17 +697,17 @@ msgstr "符号'%s' 没有有效的本地地址。"
 #: src/main/Rdynload.c:502
 #, c-format
 msgid "Symbol '%s' does not have a valid DllInfo reference."
-msgstr ""
+msgstr "符号“%s”没有有效的 DllInfo 引用."
 
 #: src/main/Rdynload.c:507
 #, c-format
 msgid "Symbol '%s' comes from a different shared object."
-msgstr ""
+msgstr "符号“%s”来自不同的共享对象。"
 
 #: src/main/Rdynload.c:510
 #, c-format
 msgid "Symbol '%s' is missing parameter specification."
-msgstr ""
+msgstr "符号“%s”缺少指定参数。"
 
 #: src/main/Rdynload.c:851
 msgid "`maximal number of DLLs reached..."
@@ -916,22 +916,22 @@ msgid "type '%s' is not supported"
 msgstr "不支持'%s'这一类型"
 
 #: src/main/apply.c:177
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
 msgstr ""
-"值的长度必需为%d，\n"
-" 但FUN(X[[%lld]])结果的长度却是%d"
+"值的长度必须为 %d，\n"
+"  但 FUN(X[[%lld]]) 结果长度为 %d"
 
 #: src/main/apply.c:189
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
 msgstr ""
-"值的类型必需是'%s'，\n"
-" 但FUN(X[[%lld]])结果的类型却是'%s'"
+"值必须是“%s”类型，\n"
+" 但 FUN(X[[%lld]]) 结果类型为“%s”"
 
 #: src/main/apply.c:266
 #, c-format
@@ -1048,12 +1048,12 @@ msgid "invalid 'ncol' value (< 0)"
 msgstr "'ncol'值无效(< 0)"
 
 #: src/main/array.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
-msgstr "数据长度[%lld]不是矩阵行数[%d]的整倍"
+msgstr "数据长度 [%lld] 不是行数 [%d] 的因数或倍数"
 
 #: src/main/array.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
 msgstr "数据长度[%lld]不是矩阵列数[%d]的整倍数"
 
