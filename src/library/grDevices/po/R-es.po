@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-08-31 11:06+0000\n"
-"Last-Translator: Geraldine Gomez Millan <geralidine.gomez@javeriana.edu.co>\n"
+"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -24,27 +24,29 @@ msgstr "cairo_pdf: dispositivos basados en Cairo no están disponibles para esta
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
 msgstr ""
+"cairo_pdf: dispositivos basados en Cairo no están disponibles para esta "
+"plataforma"
 
 msgid "'coef' must not be negative"
-msgstr "'coef' no debe ser negativo"
+msgstr "«coef» no debe ser negativo"
 
 msgid "no 'z' matrix specified"
-msgstr ""
+msgstr "No se ha especificado ninguna matriz 'z'"
 
 msgid "increasing 'x' and 'y' values expected"
-msgstr ""
+msgstr "Aumento de los valores 'x' e 'y' esperados"
 
 msgid "no proper 'z' matrix specified"
-msgstr ""
+msgstr "No se ha especificado una matriz 'z' adecuada"
 
 msgid "dimensions of 'x', 'y' and 'z' do not match"
-msgstr ""
+msgstr "Las dimensiones de 'x', 'y' y 'z' no coinciden"
 
 msgid "finite coordinates are needed"
-msgstr ""
+msgstr "Se necesitan coordenadas finitas"
 
 msgid "'bias' must be positive"
-msgstr ""
+msgstr "El \"sesgo\" debe ser positivo"
 
 msgid "'alpha' must be false if 'space' is specified"
 msgstr ""
@@ -451,7 +453,7 @@ msgid "compression is not supported for type = \"quartz\""
 msgstr ""
 
 msgid "invalid 'title'"
-msgstr ""
+msgstr "'Título' no válido"
 
 msgid "invalid 'file'"
 msgstr ""
