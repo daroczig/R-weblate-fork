@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-25 17:46\n"
-"PO-Revision-Date: 2024-04-24 03:05+0000\n"
-"Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgid "Debugging .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, fo
 msgstr "Проверка .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, force=TRUE);"
 
 msgid "E := environment(): %s; parent.env(E): %s"
-msgstr "E := environment(): %s; parent.env(E): %s"
+msgstr "E := окружающая среда(): %s; parent.env(E): %s"
 
 msgid "argument 'includeSubclasses' must be a logical, either one value or a vector of the same length as argument 'classes'"
 msgstr "аргумент 'includeSubclasses' должен быть логическим, либо иметь одно значение или быть вектором той же длины, что и классы аргумента"
@@ -582,19 +582,19 @@ msgid "Empty function name in .getGeneric"
 msgstr "Пустое имя функции в .getGeneric"
 
 msgid "--- caching class"
-msgstr ""
+msgstr "--- класс кэширования"
 
 msgid "--- done caching class"
-msgstr ""
+msgstr "--- done класс кэширования"
 
 msgid "--- getting generic"
-msgstr ""
+msgstr "--- получение дженерика"
 
 msgid "(and methods)"
 msgstr "(и методы)"
 
 msgid "--- done getting generic"
-msgstr ""
+msgstr "--- закончил с дженериком"
 
 msgid "no methods found for %s; cacheGenericsMetaData() will have no effect"
 msgstr "не найдено методов для %s; cacheGenericsMetaData() не будет иметь эффекта"
@@ -1120,10 +1120,14 @@ msgid "field %s is already locked"
 msgstr "поле %s уже заблокировано"
 
 msgid "field %s of class %s has a non-default binding and cannot be locked"
-msgstr "поле %s  класса %s имеет присоединение не по умолчанию и не может быть заблокировано"
+msgstr ""
+"поле %s класса %s имеет присоединение не по умолчанию и не может быть "
+"заблокировано"
 
 msgid "Reference superclasses must come from the same package for the environment to be defined:  got %s and %s"
-msgstr "Reference superclasses must come from the same package for the environment to be defined:  got %s and %s"
+msgstr ""
+"Ссылочные суперклассы должны поступать из одного и того же пакета, чтобы "
+"окружение было определено: . . got %s и %s"
 
 msgid "Class %s is not a subclass of %s; functional semantics not defined for this class"
 msgstr "Класс %s не является подклассом %s; функциональная семантика в этом классе не определена"
@@ -1231,7 +1235,7 @@ msgid "multiple generics match pattern, using table %s"
 msgstr "множественные общие совпадающие паттерны, использую таблицу %s"
 
 msgid "does not seem to be a method table for generic %s in tracing environment"
-msgstr "похоже, что для общего  %s нет таблицы методов в отслеживаемом окружении"
+msgstr "похоже, что для общего %s нет таблицы методов в отслеживаемом окружении"
 
 msgid "no method in methods table for %s for signature %s"
 msgstr "в таблице методов нет метода для %s для подписи %s"
