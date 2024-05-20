@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-05-20 00:20+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -218,7 +218,7 @@ msgid "cannot compute exact confidence intervals with ties"
 msgstr ""
 
 msgid "'formula' missing or incorrect"
-msgstr ""
+msgstr "'formula' faltante o incorrecta"
 
 msgid "grouping factor must have exactly 2 levels"
 msgstr ""
@@ -451,11 +451,12 @@ msgstr ""
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr ""
 
+#, fuzzy
 msgid "all entries of 'x' must be nonnegative and finite"
-msgstr ""
+msgstr "Todas las entradas de 'x' deben ser no negativas y finitas"
 
 msgid "at least one entry of 'x' must be positive"
-msgstr ""
+msgstr "al menos una entrada de 'x' debe ser positiva"
 
 msgid "cannot compute simulated p-value with zero marginals"
 msgstr ""
