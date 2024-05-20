@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-05-20 00:20+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -14,100 +14,120 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "'a' is overridden by 'reg'"
-msgstr ""
+msgstr "'a' es invalidado por 'reg'"
 
 msgid "only using the first two of %d regression coefficients"
-msgstr ""
+msgstr "utilizando solo los dos primeros de %d coeficientes de regresión"
 
 msgid "'a' and 'b' are overridden by 'coef'"
-msgstr ""
+msgstr "'a' y 'b' invalidados por 'Coef'"
 
 msgid "one of 'x1' and 'y1' must be given"
-msgstr ""
+msgstr "Se requiere uno de entre 'x1' y 'y1'"
 
 msgid "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
 msgstr ""
+"'length', 'angle' o 'code' son de longitud mayor que 1; se ignoran todos los "
+"valores excepto los primeros"
 
+#, fuzzy
 msgid "'x' must be a 2-d contingency table"
-msgstr ""
+msgstr "'x' debe ser una tabla de contingencia 2D"
 
+#, fuzzy
 msgid "all entries of 'x' must be nonnegative and finite"
-msgstr ""
+msgstr "Todas las entradas de 'x' deben ser no negativas y finitas"
 
 msgid "at least one entry of 'x' must be positive"
-msgstr ""
+msgstr "al menos una entrada de 'x' debe ser positiva"
 
+#, fuzzy
 msgid "incorrect 'col': must be length 2"
-msgstr ""
+msgstr "'col' incorrecto: debe tener una longitud de 2"
 
 msgid "only for 1-D table"
-msgstr ""
+msgstr "solo para tabla 1-D"
 
+#, fuzzy
 msgid "'side' must be in {1:4}"
-msgstr ""
+msgstr "'side' debe estar en {1:4}"
 
 msgid "invalid 'axp'"
-msgstr ""
+msgstr "'axp' no válido"
 
 msgid "invalid 'log'"
-msgstr ""
+msgstr "'log' no válido"
 
 msgid "invalid positive 'axp[3]'"
-msgstr ""
+msgstr "'axp[3]' positivo no válido"
 
+#, fuzzy
 msgid "invalid 'usr'"
-msgstr ""
+msgstr "'usr' no válido"
 
+#, fuzzy
 msgid "'height' must be a vector or a matrix"
-msgstr ""
+msgstr "'height' debe ser un vector o una matriz"
 
+#, fuzzy
 msgid "Cannot use shading lines in bars when log scale is used"
 msgstr ""
+"No se pueden utilizar líneas de sombreado en barras cuando se utiliza la "
+"escala logarítmica"
 
 msgid "log scale error: at least one 'height + offset' value <= 0"
 msgstr ""
+"error de escala logarítmica: al menos un valor de 'height + offset' <= 0"
 
 msgid "log scale error: 'xlim' <= 0"
-msgstr ""
+msgstr "error de escala logarítmica: 'xlim' <= 0"
 
 msgid "log scale error: 'ylim' <= 0"
-msgstr ""
+msgstr "error de escala logarítmica: 'ylim' <= 0"
 
 msgid "incorrect number of names"
-msgstr ""
+msgstr "número incorrecto de nombres"
 
 msgid "'formula' missing or incorrect"
-msgstr ""
+msgstr "'formula' faltante o incorrecta"
 
 msgid "formula must specify 1 or 2 categorical variables"
-msgstr ""
+msgstr "la fórmula debe especificar 1 o 2 variables categóricas"
 
 msgid "duplicated categorical values - try another formula or subset"
-msgstr ""
+msgstr "valores categóricos duplicados: pruebe con otra fórmula o subconjunto"
 
+#, fuzzy
 msgid "formula with cbind() must specify 1 categorical variable"
-msgstr ""
+msgstr "formula con cbind() debe especificar 1 variable categórica"
 
 msgid "invalid first argument"
-msgstr ""
+msgstr "primer argumento no válido"
 
+#, fuzzy
 msgid "'at' must have same length as 'z$n', i.e. %d"
-msgstr ""
+msgstr "'at' debe tener la misma longitud que 'z$n', es decir, %d"
 
 msgid "invalid boxplot widths"
-msgstr ""
+msgstr "anchos de diagrama de caja no válidos"
 
 msgid "some notches went outside hinges ('box'): maybe set notch=FALSE"
 msgstr ""
+"algunas 'muescas' quedan fuera de las bisagras de la caja: tal vez debe "
+"establecer notch=FALSE"
 
+#, fuzzy
 msgid "'formula' should specify exactly two variables"
-msgstr ""
+msgstr "'formula' debe especificar exactamente dos variables"
 
+#, fuzzy
 msgid "dependent variable should be a factor"
-msgstr ""
+msgstr "La variable dependiente debe ser un factor"
 
 msgid "y axis is on a cumulative probability scale, 'ylim' must be in [0,1]"
 msgstr ""
+"eje y está en una escala de probabilidad acumulada, 'ylim' debe estar en "
+"[0,1]"
 
 msgid "no 'z' matrix specified"
 msgstr "No se ha especificado ninguna matriz 'z'"
@@ -120,33 +140,40 @@ msgstr "No se ha especificado una matriz 'z' adecuada"
 
 msgid "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
 msgstr ""
+"'labels' es de longitud cero.  Utilice 'drawlabels = FALSE' para suprimir "
+"las etiquetas."
 
 msgid "invalid conditioning formula"
-msgstr ""
+msgstr "fórmula de condicionamiento no válida"
 
 msgid "incompatible variable lengths"
-msgstr ""
+msgstr "longitudes variables incompatibles"
 
+#, fuzzy
 msgid "'number' must be integer >= 1"
-msgstr ""
+msgstr "'number' debe ser entero >= 1"
 
+#, fuzzy
 msgid "'overlap' must be < 1 (and typically >= 0)."
-msgstr ""
+msgstr "'overlap' debe ser < 1 (y normalmente >= 0)."
 
+#, fuzzy
 msgid "invalid 'given.values'"
-msgstr ""
+msgstr "'given.values' no válido"
 
 msgid "rows * columns too small"
-msgstr ""
+msgstr "filas * columnas demasiado pequeño"
 
 msgid "Missing rows: %s"
-msgstr ""
+msgstr "Filas faltantes: %s"
 
+#, fuzzy
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr ""
+"'expr' debe ser una función, una llamada o una expresión que contenga '%s'"
 
 msgid "'add' will be ignored as there is no existing plot"
-msgstr ""
+msgstr "'add' se ignorará ya que no hay un gráfico existente"
 
 msgid "'from' and 'to' must be > 0 with log=\"x\""
 msgstr "'from' y 'to' deben > 0 con log=\"x\""
@@ -213,7 +240,7 @@ msgid "'breaks = %g' is too large and set to 1e6"
 msgstr "'breaks = %g' es demasiado grande y se establece en 1e6"
 
 msgid "hist.default: pretty() error, breaks=%s"
-msgstr ""
+msgstr "hist.default: error en pretty(), breaks=%s"
 
 #, fuzzy
 msgid "Invalid breakpoints produced by 'breaks(x)': %s"
@@ -496,17 +523,20 @@ msgstr "x escala logarítmica: xinch() es una tontería"
 msgid "log scale:  xyinch() is nonsense"
 msgstr "x escala logarítmica: xinch() es una tontería"
 
+#, fuzzy
 msgid "Duplicated argument %s is disregarded"
 msgid_plural "Duplicated arguments %s are disregarded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "No se tiene en cuenta el argumento duplicado %s"
+msgstr[1] "No se tienen en cuenta los argumentos duplicados %s"
 
+#, fuzzy
 msgid "Outlier (%s) in boxplot %d is not drawn"
 msgid_plural "Outliers (%s) in boxplot %d are not drawn"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El valor atípico (%s) en el diagrama de caja %d no se dibuja"
+msgstr[1] "Los valores atípicos (%s) en el diagrama de caja %d no se dibujan"
 
+#, fuzzy
 msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El argumento %s no se utiliza"
+msgstr[1] "Los argumentos %s no se utilizan"
