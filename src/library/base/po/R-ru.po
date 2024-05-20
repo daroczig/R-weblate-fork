@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -97,7 +97,7 @@ msgid "dim(X) must have a positive length"
 msgstr "dim(X) должен иметь положительную длину"
 
 msgid "'X' must have named dimnames"
-msgstr "'x' должен иметь именованные измерения"
+msgstr "'X' должен иметь именованные измерения"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "не все элементы 'MARGIN' есть имена измерений"
@@ -560,7 +560,7 @@ msgid "'nrow' or 'ncol' cannot be specified when 'x' is a matrix"
 msgstr "'nrow' или 'ncol' нельзя определять, если 'x' -- матрица"
 
 msgid "'x' is an array, but not one-dimensional."
-msgstr "'x' -- это не одномерная, а многомерная матрица (array)"
+msgstr "'x' -- это не одномерная, а многомерная матрица. (array)"
 
 msgid "only matrix diagonals can be replaced"
 msgstr "только диагонали матрицы могут быть заменены"
@@ -1087,7 +1087,7 @@ msgid "namespace %s %s is already loaded, but %s %s is required"
 msgstr "пространство имен %s %s загружено, но нужно еще и %s %s"
 
 msgid "- loading"
-msgstr ""
+msgstr "-погрузка"
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
 msgstr "пространство имен %s уже запечатано в 'loadNamespace'"
@@ -1135,46 +1135,46 @@ msgid "package %s was installed by an R version with different internals; it nee
 msgstr "пакет %s установлен версией R с другими внутренними правилами; его нужно переустановить для того, чтобы использовать в этой версии R"
 
 msgid "-- processing imports for"
-msgstr ""
+msgstr "-- обработка импорта для"
 
 msgid "-- done processing imports for"
-msgstr ""
+msgstr "-- завершена обработка импорта для"
 
 msgid "-- loading code for"
-msgstr ""
+msgstr "-- загрузка кода для"
 
 msgid "unable to load R code in package %s"
 msgstr "не могу загрузить код R пакета %s"
 
 msgid "-- loading sysdata for"
-msgstr ""
+msgstr "-- загрузка sysdata для"
 
 msgid "-- loading lazydata for"
-msgstr ""
+msgstr "-- загрузка lazydata для"
 
 msgid "-- registerS3methods for"
-msgstr ""
+msgstr "-- Регистрирует 3 метода для"
 
 msgid "-- done registerS3methods for"
-msgstr ""
+msgstr "-- выполнено регистрирование3 методов для"
 
 msgid "-- running .onLoad for"
-msgstr ""
+msgstr "-- запуск .onLoad для"
 
 msgid "-- done running .onLoad for"
-msgstr ""
+msgstr "-- done запуск .onLoad для"
 
 msgid "S4 exports specified in 'NAMESPACE' but not defined in package %s"
 msgstr "S4 экспорт указан в 'NAMESPACE' но не определен в пакете %s"
 
 msgid "-- processing S4 stuff for"
-msgstr ""
+msgstr "-- обработка материала S4 для"
 
 msgid "--- caching metadata"
-msgstr ""
+msgstr "--- кэширование метаданных"
 
 msgid "--- done caching metadata"
-msgstr ""
+msgstr "--- закончили кэширование метаданных"
 
 msgid "--- processing classes"
 msgstr "--- обработка классов"
@@ -1192,7 +1192,7 @@ msgid "in %s methods for export not found: %s"
 msgstr "в %s не найдены методы для экспорта: %s"
 
 msgid "---- export method"
-msgstr ""
+msgstr "---- способ экспорта"
 
 msgid "multiple methods tables found for %s"
 msgstr "множественные таблицы методов найдены для %s"
@@ -1204,16 +1204,16 @@ msgid "in package %s methods %s were specified for export but not defined"
 msgstr "в пакете '%s' указаны методы %s для экспорта, но не определены"
 
 msgid "-- done processing S4 stuff for"
-msgstr ""
+msgstr "-- закончил обработку материала S4 для"
 
 msgid "--- processing exports for"
-msgstr ""
+msgstr "--- обработки экспорта для"
 
 msgid "--- sealing exports for"
-msgstr ""
+msgstr "--- экспорта уплотнений для"
 
 msgid "- done loading"
-msgstr ""
+msgstr "- загрузка завершена"
 
 msgid "Loading required namespace: %s"
 msgstr "Загрузка требуемого пакета: %s"
