@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-18 03:05+0000\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -101,9 +101,8 @@ msgid "unimplemented pch value '%d'"
 msgstr "valor pch '%d' no implementado"
 
 #: grid.c:5079
-#, fuzzy
 msgid "invalid plotting symbol"
-msgstr "símbolo de gráfico inválido"
+msgstr "símbolo de gráfico no válido"
 
 #: grid.c:5197
 msgid "unable to clip to rotated rectangle"
@@ -135,9 +134,8 @@ msgstr ""
 "de longitud 0"
 
 #: unit.c:799 unit.c:1298
-#, fuzzy
 msgid "invalid unit or unit not yet implemented"
-msgstr "Unidad no válida o unidad aún no implementada"
+msgstr "unidad no válida o unidad aún no implementada"
 
 #: unit.c:1355 unit.c:1386
 msgid "Viewport has zero dimension(s)"
