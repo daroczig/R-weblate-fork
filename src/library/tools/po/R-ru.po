@@ -8,17 +8,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-25 17:46\n"
-"PO-Revision-Date: 2024-03-25 14:56+0300\n"
-"Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=KOI8-R\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "Checking %s"
 msgstr "Проверяю %s"
@@ -855,7 +856,7 @@ msgstr "<p>Чтобы увидеть результат в браузере, установите пакет <a href='https:/
 
 # NOTE: comes from message(sprintf(...)) so not actually translated
 msgid "HTTPD-REQUEST %s%s"
-msgstr ""
+msgstr "HTTPD-ЗАПРОС %s%s"
 
 msgid "="
 msgstr "="
@@ -876,7 +877,7 @@ msgid "Help pages:"
 msgstr "Страницы помощи:"
 
 msgid "HTTPD-ERROR %s %s"
-msgstr ""
+msgstr "HTTPD-ОШИБКА %s %s"
 
 msgid "No package named %s could be found"
 msgstr "Не найден пакет %s"
@@ -900,10 +901,10 @@ msgid "URL %s was not found"
 msgstr "URL %s не найден"
 
 msgid "HTTPD-DEMO %s::%s"
-msgstr ""
+msgstr "HTTPD-ДЕМО %s::%s"
 
 msgid "HTTPD-EXAMPLE %s::%s"
-msgstr ""
+msgstr "HTTPD-ПРИМЕР %s::%s"
 
 msgid "No NEWS found for package %s"
 msgstr "Не найдено NEWS для пакета %s"
@@ -936,7 +937,7 @@ msgid "failed to start the httpd server"
 msgstr "не удалось запустить httpd сервер"
 
 msgid "* Package: %s"
-msgstr ""
+msgstr "* Пакет: %s"
 
 msgid "cannot read index information in file '%s'"
 msgstr "не могу прочитать индексную информацию из файла '%s'"
@@ -995,27 +996,29 @@ msgstr "ступенчатая инсталляция возможна только с блокировкой"
 # not translating installation-time patches
 msgid "WARNING: installation-time patches will not be applied, could not get the patches index"
 msgstr ""
+"ВНИМАНИЕ: патчи во время установки не будут применены, не удалось получить "
+"индекс патчей"
 
 msgid "patch utility is needed for installation-time patching"
-msgstr ""
+msgstr "Утилита patch необходима для установки исправлений во время установки"
 
 msgid "NOTE: Skipping installation-time patch"
-msgstr ""
+msgstr "ПРИМЕЧАНИЕ: Пропуск патча во время установки"
 
 msgid "which seems to be already applied."
-msgstr ""
+msgstr "который, кажется, уже применяется."
 
 msgid "WARNING: failed to apply patch"
-msgstr ""
+msgstr "ВНИМАНИЕ: не удалось применить патч"
 
 msgid "Applied installation-time patch"
-msgstr ""
+msgstr "Примененное исправление во время установки"
 
 msgid "and saved it as"
-msgstr ""
+msgstr "и сохранил его как"
 
 msgid "in package installation"
-msgstr ""
+msgstr "в пакете установки"
 
 msgid "R include directory is empty -- perhaps need to install R-devel.rpm or similar"
 msgstr "Включаемая папка R пуста -- возможно, надо установить R-devel.rpm или похожее"
@@ -1060,13 +1063,13 @@ msgid "using C compiler:"
 msgstr ""
 
 msgid "using Fortran compiler:"
-msgstr ""
+msgstr "с помощью компилятора Fortran:"
 
 msgid "using C++ compiler:"
-msgstr ""
+msgstr "с помощью компилятора C++:"
 
 msgid "using C++"
-msgstr ""
+msgstr "с использованием C++"
 
 msgid "using SDK:"
 msgstr ""
