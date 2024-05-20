@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-15 09:30+0000\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -19,10 +19,9 @@ msgstr "valor invalido de %s"
 msgid "need at least one argument"
 msgstr "necesita al menos un argumento"
 
-#, fuzzy
 msgid "zero-length inputs cannot be mixed with those of non-zero length"
 msgstr ""
-"Las entradas de longitud cero no se pueden mezclar con las de longitud "
+"la entradas de longitud cero no se pueden mezclar con las de longitud "
 "distinta de cero"
 
 #, fuzzy
@@ -40,30 +39,26 @@ msgstr "no todos los elementos de 'MARGIN' son nombres de dimensiones"
 msgid "no cluster 'cl' supplied and none is registered"
 msgstr "No se ha proporcionado ningún clúster 'cl' y ninguno está registrado"
 
-#, fuzzy
 msgid "not a valid cluster"
-msgstr "No es un clúster válido"
+msgstr "no es un clúster válido"
 
-#, fuzzy
 msgid "unknown cluster type"
-msgstr "Tipo de clúster desconocido"
+msgstr "tipo de clúster desconocido"
 
 #, fuzzy
 msgid "numeric 'names' must be >= 1"
 msgstr "valores numéricos en 'names' deben ser >= 1"
 
-#, fuzzy
 msgid "node of a socket cluster on host %s with pid %d"
-msgstr "Nodo de un clúster de sockets en el host %s con pid %d"
+msgstr "nodo de un clúster de sockets en el host %s con pid %d"
 
 #, fuzzy
 msgid "Connection setup failed or timed out."
 msgstr ""
 "Error en la configuración de la conexión o se agotó el tiempo de espera."
 
-#, fuzzy
 msgid "PORT must be specified"
-msgstr "Se debe especificar PORT"
+msgstr "se debe especificar PORT"
 
 #, fuzzy
 msgid "'nnodes' must be >= 1"
