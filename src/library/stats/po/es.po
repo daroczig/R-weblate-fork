@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-05-21 01:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -211,6 +211,9 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
+"Error en FEXACT[f3xact()]: clave hash %.0g > INT_MAX, kyy=%d, it[i (= nco = "
+"%d)]= %d.\n"
+"Más bien establezca 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
 #, c-format
@@ -305,7 +308,7 @@ msgstr "'%s' debe tener longitud 1"
 #: isoreg.c:55
 #, c-format
 msgid "non-finite sum(y) == %g is not allowed"
-msgstr ""
+msgstr "valor sum(y) == %g no finito no está permitido"
 
 #: ksmooth.c:63
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
@@ -709,62 +712,64 @@ msgstr "valor de función en optimizador 'nlm' inválido"
 #: optimize.c:561 optimize.c:576
 msgid "function value caching for optimization is seriously confused"
 msgstr ""
+"caché de valores de función para optimización está seriamente confundido (no "
+"debería ocurrir)"
 
 #: optimize.c:591
 msgid "numeric parameter expected"
-msgstr ""
+msgstr "se esperaba parámetro numérico"
 
 #: optimize.c:595
 msgid "conflicting parameter lengths"
-msgstr ""
+msgstr "longitudes de parámetros están en conflicto"
 
 #: optimize.c:599
 msgid "invalid parameter length"
-msgstr ""
+msgstr "longitud del parámetro no válido"
 
 #: optimize.c:609 optimize.c:616
 msgid "missing value in parameter"
-msgstr ""
+msgstr "valor faltante en el parámetro"
 
 #: optimize.c:621
 msgid "invalid parameter type"
-msgstr ""
+msgstr "tipo de parámetro no válido"
 
 #: optimize.c:632
 msgid "non-positive number of parameters in nlm"
-msgstr ""
+msgstr "número no positivo de parámetros en nlm"
 
 #: optimize.c:634
 msgid "nlm is inefficient for 1-d problems"
-msgstr ""
+msgstr "nlm es ineficiente para problemas 1-d"
 
 #: optimize.c:636
 msgid "invalid gradient tolerance in nlm"
-msgstr ""
+msgstr "tolerancia de gradiente no válida en nlm"
 
 #: optimize.c:638
 msgid "invalid iteration limit in nlm"
-msgstr ""
+msgstr "límite de iteración no válido en nlm"
 
 #: optimize.c:640
 msgid "minimization function has no good digits in nlm"
-msgstr ""
+msgstr "la función de minimización no tiene dígitos aceptables en nlm"
 
 #: optimize.c:642
 msgid "no analytic gradient to check in nlm!"
-msgstr ""
+msgstr "¡falta gradiente analítico para verificar en nlm!"
 
 #: optimize.c:644
 msgid "no analytic Hessian to check in nlm!"
-msgstr ""
+msgstr "¡falta hessiano analítico para verificar en nlm!"
 
 #: optimize.c:646
 msgid "probable coding error in analytic gradient"
-msgstr ""
+msgstr "probable error de codificación en el gradiente analítico"
 
 #: optimize.c:648
 msgid "probable coding error in analytic Hessian"
-msgstr ""
+msgstr "probable error de codificación en el hessiano analítica"
 
 #: optimize.c:650
 #, c-format
@@ -772,22 +777,28 @@ msgid ""
 "*** unknown error message (msg = %d) in nlm()\n"
 "*** should not happen!"
 msgstr ""
+"*** mensaje de error desconocido (msg = %d) en nlm()\n"
+"*** no debería suceder..."
 
-#: optimize.c:661
+#: optimize.c:668
+#, fuzzy
 msgid "Relative gradient close to zero.\n"
-msgstr ""
+msgstr "Gradiente relativo cercano a cero.\n"
 
-#: optimize.c:662 optimize.c:666
+#: optimize.c:669 optimize.c:673
+#, fuzzy
 msgid "Current iterate is probably solution.\n"
-msgstr ""
+msgstr "La iteración actual es probablemente la solución.\n"
 
-#: optimize.c:665
+#: optimize.c:672
+#, fuzzy
 msgid "Successive iterates within tolerance.\n"
-msgstr ""
+msgstr "Iteraciones sucesivas dentro de la tolerancia.\n"
 
-#: optimize.c:669
+#: optimize.c:676
+#, fuzzy
 msgid "Last global step failed to locate a point lower than x.\n"
-msgstr ""
+msgstr "El último paso global no pudo localizar un punto inferior a x.\n"
 
 #: optimize.c:670
 msgid ""
@@ -795,10 +806,13 @@ msgid ""
 "the function is too non-linear for this algorithm,\n"
 "or steptol is too large.\n"
 msgstr ""
+"O bien x es un mínimo local aproximado de la función,\n"
+"la función es demasiado no lineal para este algoritmo,\n"
+"o 'steptol' es demasiado grande.\n"
 
 #: optimize.c:675
 msgid "Iteration limit exceeded.  Algorithm failed.\n"
-msgstr ""
+msgstr "Se ha superado el límite de iteración.  El algoritmo falló.\n"
 
 #: optimize.c:678
 msgid ""
@@ -808,108 +822,125 @@ msgid ""
 "from above in some direction,\n"
 "or stepmx is too small.\n"
 msgstr ""
+"Se ha superado el tamaño máximo de paso 5 veces consecutivas.\n"
+"O bien la función no está acotada por debajo,\n"
+"se vuelve asintótica a un valor finito\n"
+"desde arriba en alguna dirección,\n"
+"o 'stepmx' es demasiado pequeño.\n"
 
-#: optimize.c:740 optimize.c:745 optimize.c:749 optimize.c:753 optimize.c:757
-#: optimize.c:761 optimize.c:766
+#: optimize.c:747 optimize.c:752 optimize.c:756 optimize.c:760 optimize.c:764
+#: optimize.c:768 optimize.c:773
+#, fuzzy
 msgid "invalid NA value in parameter"
-msgstr ""
+msgstr "valor NA no válido en el parámetro"
 
 #: optimize.c:795
 msgid "hessian supplied is of the wrong length or mode, so ignored"
 msgstr ""
+"el hessiano suministrado es de longitud o modo incorrecto, por lo que se "
+"ignora"
 
 #: optimize.c:799
 msgid "gradient supplied is of the wrong length or mode, so ignored"
 msgstr ""
+"gradiente suministrado es de longitud o modo incorrecto, por lo que se ignora"
 
 #: pacf.c:87
 msgid "bad Starma struct"
-msgstr ""
+msgstr "estructura Starma incorrecta"
 
 #: pacf.c:233
 #, c-format
 msgid "starma error code %d"
-msgstr ""
+msgstr "código de error starma: %d"
 
 #: pacf.c:293
 #, c-format
 msgid "forkal error code %d"
-msgstr ""
+msgstr "código de error forkal: %d"
 
 #: pacf.c:466
 msgid "invalid value of lag.max"
-msgstr ""
+msgstr "valor no válido de lag.max"
 
 #: port.c:133
-#, c-format
+#, c-format, fuzzy
 msgid "Rf_divset: alg = %d must be 1, 2, 3, or 4"
-msgstr ""
+msgstr "Rf_divset: alg = %d debe ser 1, 2, 3 o 4"
 
 #: port.c:149
 msgid "port algorithms 3 or higher are not supported"
-msgstr ""
+msgstr "algoritmos de PORT 3 o superior no son compatibles"
 
 #: port.c:318
 #, c-format
 msgid "gradient function must return a numeric vector of length %d"
-msgstr ""
+msgstr "función gradiente debe devolver un vector numérico de longitud %d"
 
 #: port.c:330
 #, c-format
 msgid "Hessian function must return a square numeric matrix of order %d"
-msgstr ""
+msgstr "función hessiana debe devolver una matriz numérica cuadrada de orden %d"
 
-#: port.c:387
+#: port.c:386
+#, fuzzy
 msgid "'rho' must be an environment"
-msgstr ""
+msgstr "'rho' debe ser un entorno"
 
-#: port.c:389 port.c:555
+#: port.c:388 port.c:554
+#, fuzzy
 msgid "'d' must be a nonempty numeric vector"
-msgstr ""
+msgstr "'d' debe ser un vector numérico no vacío"
 
 #: port.c:391
 msgid "When Hessian defined must also have gradient defined"
 msgstr ""
+"Cuando se define la matriz hessiana, también debe estar definido el gradiente"
 
 #: port.c:394
 #, c-format
 msgid "environment 'rho' must contain a numeric vector '.par' of length %d"
-msgstr ""
+msgstr "entorno 'rho' debe contener un vector numérico '.par' de longitud %d"
 
-#: port.c:408
+#: port.c:407
+#, fuzzy
 msgid "'lower' and 'upper' must be numeric vectors"
-msgstr ""
+msgstr "'lower' y 'upper' deben ser vectores numéricos"
 
-#: port.c:467
+#: port.c:466
+#, fuzzy
 msgid "'getElement' applies only to named lists"
-msgstr ""
+msgstr "'getElement' solo se aplica a las listas con nombre"
 
-#: port.c:488
-#, c-format
+#: port.c:487
+#, c-format, fuzzy
 msgid "%s$%s() not found"
-msgstr ""
+msgstr "%s$%s() no encontrado"
 
 #: port.c:501
 #, c-format
 msgid "'gradient' must be a numeric matrix of dimension (%d,%d)"
-msgstr ""
+msgstr "'gradient' debe ser una matriz numérica de dimensión (%d,%d)"
 
 #: port.c:522
 #, c-format
 msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
 msgstr ""
+"fcn produjo resultado modo %d, longitud %d - se esperaba modo %d, longitud %d"
 
 #: port.c:535
 msgid "invalid type for eval_check_store"
-msgstr ""
+msgstr "tipo no válido para eval_check_store"
 
-#: port.c:556
+#: port.c:555
+#, fuzzy
 msgid "m must be a list"
-msgstr ""
+msgstr "m debe ser una lista"
 
-#: port.c:576
+#: port.c:575
+#, fuzzy
 msgid "'lowerb' and 'upperb' must be numeric vectors"
-msgstr ""
+msgstr "'lowerb' y 'upperb' deben ser vectores numéricos"
 
 #: prho.c:159
 msgid "invalid sample size 'n' in C routine prho(n,s,*)"
@@ -917,62 +948,64 @@ msgstr ""
 
 #: rWishart.c:53
 msgid "inconsistent degrees of freedom and dimension"
-msgstr ""
+msgstr "grados de libertad y dimensión son inconsistentes"
 
 #: rWishart.c:86
+#, fuzzy
 msgid "'scal' must be a square, real matrix"
-msgstr ""
+msgstr "'scal' debe ser una matriz cuadrada y real"
 
 #: rWishart.c:99
 msgid "'scal' matrix is not positive-definite"
-msgstr ""
+msgstr "la matriz 'scal' no es definida positiva"
 
 #: random.c:53 random.c:137 random.c:217 random.c:307
 msgid "NAs produced"
-msgstr ""
+msgstr "se produjeron NA's"
 
 #: random.c:60 random.c:66 random.c:72 random.c:87 random.c:167 random.c:256
 #: random.c:394
 msgid "invalid arguments"
-msgstr ""
+msgstr "argumentos no válidos"
 
 #: random.c:333
 msgid "NA in probability vector"
-msgstr ""
+msgstr "NA en el vector de probabilidades"
 
 #: random.c:335
 msgid "negative probability"
-msgstr ""
+msgstr "probabilidad negativa"
 
 #: random.c:341
 msgid "no positive probabilities"
-msgstr ""
+msgstr "ninguna probabilidad positiva"
 
 #: random.c:353
 msgid "invalid first argument 'n'"
-msgstr ""
+msgstr "primer argumento 'n' no válido"
 
 #: random.c:355
 msgid "invalid second argument 'size'"
-msgstr ""
+msgstr "segundo argumento no válido 'size'"
 
 #: rcont.c:79
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr ""
+msgstr "rcont2 [%d,%d]: exponencial subdesbordó a 0; error en el algoritmo"
 
-#: smooth.c:101
-#, c-format
+#: smooth.c:107
+#, c-format, fuzzy
 msgid "invalid end-rule for running median of 3: %d"
-msgstr ""
+msgstr "regla final no válida para ejecutar una mediana de 3: %d"
 
 #: starma.c:364
 #, c-format
 msgid "missing value in last %d observations"
-msgstr ""
+msgstr "valor faltante en las últimas %d observaciones"
 
 #, fuzzy, c-format
 #~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
 #~ msgstr "Error en fexact3, it[i=%d]=%d: clave negativa %d (kyy=%d)\n"
+
 
 
