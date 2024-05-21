@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-25 17:46\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"PO-Revision-Date: 2024-05-21 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -557,7 +557,7 @@ msgid "is not one line"
 msgstr "не является одной строкой"
 
 msgid "Converting Rd files to LaTeX ..."
-msgstr "Конвертирую  Rd файлы в LaTeX ..."
+msgstr "Конвертирую Rd файлы в LaTeX ..."
 
 msgid "-t option without value"
 msgstr "-t опция без значения"
@@ -685,7 +685,7 @@ msgid "Engine name %s and package %s do not match"
 msgstr "Имя движка %s и пакет %s не соответствуют друг другу"
 
 msgid "Argument %s must be a function and not %s"
-msgstr "Argument %s must be a function and not %s"
+msgstr "Аргумент %s должен быть функцией, а не %s"
 
 msgid "Argument %s must be a character vector or NULL and not %s"
 msgstr "Аргумент %s должен быть текстовым вектором или NULL и не %s"
@@ -961,7 +961,9 @@ msgid "this seems to be a bundle -- and they are defunct"
 msgstr "похоже, что это сборник -- они отключены"
 
 msgid "'cleanup' exists but is not executable -- see the 'R Installation and Administration Manual'"
-msgstr "'cleanup' есть, но его невозможно выполнить  -- смотрите 'R Installation and Adminstration Manual'"
+msgstr ""
+"'cleanup' есть, но его невозможно выполнить-- смотрите 'R Installation and "
+"Adminstration Manual'"
 
 msgid "generating debug symbols (%s)"
 msgstr "создаю символы отладки (%s)"
@@ -1060,7 +1062,7 @@ msgid "building a fake installation is disallowed"
 msgstr "сборка ложной установки не разрешается"
 
 msgid "using C compiler:"
-msgstr ""
+msgstr "с помощью компилятора C:"
 
 msgid "using Fortran compiler:"
 msgstr "с помощью компилятора Fortran:"
@@ -1072,13 +1074,13 @@ msgid "using C++"
 msgstr "с использованием C++"
 
 msgid "using SDK:"
-msgstr ""
+msgstr "с помощью SDK:"
 
 msgid "WARNING: failed to revert patch"
-msgstr ""
+msgstr "ВНИМАНИЕ: не удалось отменить патч"
 
 msgid "Reverted installation-time patch"
-msgstr ""
+msgstr "Отмененное исправление во время установки"
 
 msgid ""
 "See\n"
