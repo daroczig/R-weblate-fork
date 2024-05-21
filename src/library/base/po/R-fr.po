@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-05-21 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -479,6 +479,8 @@ msgstr "les attributs 'tzone' ne correspondent pas"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
+"as.character(td, ..) n’obéit plus à un argument 'format' ; Utiliser format("
+"td, ..) ?"
 
 #, fuzzy
 msgid "'digits' must be numeric, integer valued"
@@ -642,7 +644,7 @@ msgid "cannot overwrite a non-directory with a directory"
 msgstr "impossible de remplacer un fichier par un répertoire"
 
 msgid "directories are omitted unless 'recursive = TRUE'"
-msgstr ""
+msgstr "les répertoires sont omis sauf si 'recursive = TRUE'"
 
 msgid "file can not be copied both 'from' and 'to'"
 msgstr "un fichier à copier ne peut à la fois être 'from' et 'to'"
@@ -781,9 +783,11 @@ msgstr "la matrice triangulaire doit être carrée"
 
 msgid "using 1-norm approximation for approximate 2-norm"
 msgstr ""
+"Utilisation de l’approximation de la norme 1 pour l’approximation de la "
+"norme 2"
 
 msgid "norm=\"%s\" not available here; using norm=\"1\""
-msgstr ""
+msgstr "norm=\"%s\" non disponible ici ; en utilisant norm=\"1\""
 
 msgid "unknown conflict policy: %s"
 msgstr "règle de gestion de conflit inconnue : %s"
@@ -1487,6 +1491,7 @@ msgstr "'partial' non fini"
 
 msgid "'decreasing' of length > 1 is only for method = \"radix\""
 msgstr ""
+"'décroissant' de longueur > 1 est uniquement pour la méthode = \"radix\""
 
 msgid "argument lengths differ"
 msgstr "la longueur des arguments diffère"
@@ -1514,7 +1519,7 @@ msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
 msgstr "'verbose' est TRUE, 'echo' non ; ... forçage 'echo <- TRUE'"
 
 msgid "empty file/url name"
-msgstr ""
+msgstr "Nom de fichier/URL vide"
 
 msgid "unable to find a plausible encoding"
 msgstr "impossible de trouver un encodage plausible"
@@ -1542,10 +1547,10 @@ msgid "'formula' must be a formula"
 msgstr "'from' doit être 'raw' ou une chaîne de caractères"
 
 msgid "Unexpected LHS in 'formula' has been ignored."
-msgstr ""
+msgstr "La LHS inattendue dans 'formula' a été ignorée."
 
 msgid "Unexpected LHS in 'formula' has been combined with RHS."
-msgstr ""
+msgstr "La LHS inattendue dans la « formule » a été combinée avec la RHS."
 
 msgid "Timestamp of %s has changed"
 msgstr "La date d'enregistrement de %s a changé"
@@ -1637,7 +1642,7 @@ msgid "invalid value of %s"
 msgstr "valeur incorrecte pour %s"
 
 msgid "'X' must be a data frame when 'INDEX' is a formula"
-msgstr ""
+msgstr "'X' doit être un cadre de données alors que 'INDEX' est une formule"
 
 msgid "'INDEX' is of length zero"
 msgstr "'INDEX' est de longueur nulle"
@@ -1691,6 +1696,9 @@ msgstr "Pas d'historique des fonctions appelées ('traceback') disponible"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "spécification de version incorrecte %s"
 
+msgid "Calls"
+msgstr "Appels"
+
 msgid "invalid version specification %s"
 msgstr "spécification de version incorrecte %s"
 
@@ -1720,6 +1728,7 @@ msgstr "'digits' incorrect"
 
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
 msgstr ""
+"L’appel direct de '%s()' est obsolète.  Utilisez '%s()' ou '%s()' à la place"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr "les arguments 'show.output.on.console', 'minimized' et 'invisible' sont seulement pour Windows"
@@ -2298,3 +2307,4 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valeur incorrecte"
+
