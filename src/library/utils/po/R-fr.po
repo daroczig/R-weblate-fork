@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-03-28 18:45+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-05-21 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -33,9 +33,13 @@ msgstr "document introuvable"
 
 msgid "some options in argument 'restrict' were not recognized and hence ignored"
 msgstr ""
+"Certaines options de l’argument 'restrict' n’ont pas été reconnues et donc "
+"ignorées"
 
 msgid "argument 'format' is deprecated and has no affect on search results"
 msgstr ""
+"argument 'format' est obsolète et n’a aucun effet sur les résultats de "
+"recherche"
 
 msgid "A search query has been submitted to %s"
 msgstr "Une requête de recherche a été soumise à %s"
@@ -146,7 +150,7 @@ msgid "No suitable spell check program found."
 msgstr "Aucun programme de vérification orthographique utilisable n'est trouvé."
 
 msgid "Performing query %s"
-msgstr ""
+msgstr "Exécution de la requête %s"
 
 msgid ""
 "Use <code> %s </code> \n"
@@ -387,7 +391,7 @@ msgid "invalid 'n' - must contain at least one non-missing element, got none."
 msgstr "'n' incorrect - doit contenir au moins un élément non manquant, j’en trouve aucun."
 
 msgid "invalid 'n' - must be numeric, possibly NA."
-msgstr ""
+msgstr "'n' invalide - doit être numérique, éventuellement NA."
 
 msgid "invalid 'n' - must have length one when dim(x) is NULL, got %d"
 msgstr "'n' incorrect - doit être de longueur unitaire lorsque dim(x) est NULL, j’ai %d"
@@ -705,7 +709,7 @@ msgid "invalid options(\"pkgType\"); must be a character string"
 msgstr "options(\"pkgType\") incorrecte ; Doit être une chaîne de caractères"
 
 msgid "No matching repositories found for"
-msgstr ""
+msgstr "Aucun référentiel correspondant n’a été trouvé pour"
 
 msgid ","
 msgstr ","
@@ -801,6 +805,8 @@ msgstr "fichiers : %s"
 
 msgid "Windows default 'timeout' command is not usable for parallel installs"
 msgstr ""
+"La commande 'timeout' par défaut de Windows n’est pas utilisable pour les "
+"installations parallèles"
 
 msgid "timeouts for parallel installs require the 'timeout' command"
 msgstr "les délais maximaux pour les installations en parallèle nécessitent la commande 'timeout'"
