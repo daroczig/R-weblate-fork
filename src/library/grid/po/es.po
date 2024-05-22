@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"PO-Revision-Date: 2024-05-23 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgid "Masks within a (clipping) path are not honoured"
 msgstr "Las máscaras dentro de una ruta (recortada) no están siendo respetadas"
 
 #: grid.c:699 grid.c:877
-#, c-format, fuzzy
+#, c-format
 msgid "Viewport '%s' was not found"
 msgstr "No se encontró la ventana gráfica '%s'"
 
@@ -74,7 +74,6 @@ msgid "require at least two points to draw arrow"
 msgstr "se requieren al menos dos puntos para dibujar la flecha"
 
 #: grid.c:2467
-#, fuzzy
 msgid "non-finite control point in Xspline"
 msgstr "punto de control no finito en Xspline"
 
@@ -96,7 +95,7 @@ msgid "pch value '%d' is invalid in this locale"
 msgstr "valor pch '%d' no es válido para esta configuración local"
 
 #: grid.c:4920
-#, c-format, fuzzy
+#, c-format
 msgid "unimplemented pch value '%d'"
 msgstr "valor pch '%d' no implementado"
 
@@ -109,12 +108,10 @@ msgid "unable to clip to rotated rectangle"
 msgstr "No se puede recortar a un rectángulo girado"
 
 #: layout.c:600
-#, fuzzy
 msgid "invalid 'layout.pos.row'"
 msgstr "'layout.pos.row' no válido"
 
 #: layout.c:604
-#, fuzzy
 msgid "invalid 'layout.pos.col'"
 msgstr "'layout.pos.col' no válido"
 
@@ -146,7 +143,6 @@ msgid "Unsupported unit conversion"
 msgstr "Conversión de unidades no admitida"
 
 #: unit.c:1555
-#, fuzzy
 msgid "Invalid unit"
 msgstr "Unidad no válida"
 
@@ -173,7 +169,6 @@ msgid "no 'grob' supplied for 'grobwidth/height' unit"
 msgstr "no se ha suministrado 'grob' para la unidad de 'grobwidth/height'"
 
 #: unit.c:1618
-#, fuzzy
 msgid "'gPath' must have depth 1 in 'grobwidth/height' units"
 msgstr "'gPath' debe tener una profundidad de 1 en unidades 'grobwidth/height'"
 
