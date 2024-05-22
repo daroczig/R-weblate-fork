@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-18 03:05+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"PO-Revision-Date: 2024-05-23 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -26,7 +26,7 @@ msgid "you must specify 'package' or 'dir'"
 msgstr "Debes especificar 'package' o 'dir'"
 
 msgid "directory '%s' does not exist"
-msgstr ""
+msgstr "El directorio '%s' no existe"
 
 msgid "neither code nor data objects found"
 msgstr "No se encontraron ni los objetos de datos ni el código"
@@ -41,76 +41,79 @@ msgid "Undocumented S4 classes:"
 msgstr "$4 clases indocumentadas:"
 
 msgid "Undocumented S4 methods:"
-msgstr ""
+msgstr "Métodos S4 no documentados:"
 
 msgid "Prototyped non-primitives:"
-msgstr ""
+msgstr "Prototipos no primitivos:"
 
 msgid "Undocumented %s:"
-msgstr ""
+msgstr "%s indocumentados:"
 
 msgid "directory '%s' does not contain R code"
-msgstr ""
+msgstr "El directorio '%s' no contiene código R"
 
 msgid "directory '%s' does not contain Rd objects"
-msgstr ""
+msgstr "El directorio '%s' no contiene objetos Rd"
 
 msgid "Functions or methods with usage in Rd file '%s' but not in code:"
-msgstr ""
+msgstr "Funciones o métodos con uso en el archivo Rd '%s' pero no en el código:"
 
 msgid "Data with usage in Rd file '%s' but not in code:"
-msgstr ""
+msgstr "Datos con uso en el archivo Rd '%s' pero no en el código:"
 
 msgid "Variables with usage in Rd file '%s' but not in code:"
-msgstr ""
+msgstr "Variables con uso en el archivo Rd '%s' pero no en el código:"
 
 msgid "Argument names in code not in docs:"
-msgstr ""
+msgstr "Nombres de argumentos en el código, no en los documentos:"
 
+#, fuzzy
 msgid "Argument names in docs not in code:"
-msgstr ""
+msgstr "Nombres de argumentos en documentos que no están en el código:"
 
 msgid "Mismatches in argument names (first 3):"
-msgstr ""
+msgstr "Discrepancias en los nombres de los argumentos (los 3 primeros):"
 
 msgid "Mismatches in argument names:"
-msgstr ""
+msgstr "Discrepancias en los nombres de los argumentos:"
 
 msgid "Mismatches in argument default values (first 3):"
 msgstr ""
+"Discrepancias en los valores predeterminados de los argumentos (los primeros "
+"3):"
 
 msgid "Mismatches in argument default values:"
-msgstr ""
+msgstr "Discrepancias en los valores predeterminados de los argumentos:"
 
 msgid "Codoc mismatches from Rd file '%s':"
-msgstr ""
+msgstr "Discrepancias de Codoc del archivo Rd '%s':"
 
 msgid "Code: %s"
-msgstr ""
+msgstr "Código: %s"
 
 msgid "Docs: %s"
-msgstr ""
+msgstr "Documentos: %s"
 
 msgid "S4 class codoc mismatches from Rd file '%s':"
-msgstr ""
+msgstr "Discrepancias de codoc de clase S4 del archivo Rd '%s':"
 
 msgid "Slots for class '%s'"
-msgstr ""
+msgstr "Ranuras para la clase '%s'"
 
 msgid "Data codoc mismatches from Rd file '%s':"
-msgstr ""
+msgstr "Discrepancias de codoc de datos del archivo Rd '%s':"
 
 msgid "Variables in data frame '%s'"
-msgstr ""
+msgstr "Variables en el marco de datos '%s'"
 
 msgid "Undocumented arguments in Rd file '%s'"
-msgstr ""
+msgstr "Argumentos no documentados en el archivo Rd '%s'"
 
 msgid "Duplicated \\argument entries in Rd file '%s':"
-msgstr ""
+msgstr "Entradas \\argument duplicadas en el archivo Rd '%s':"
 
 msgid "Documented arguments not in \\usage in Rd file '%s':"
-msgstr ""
+msgstr "Argumentos documentados que no están en \\usage en el fichero Rd '%s':"
 
 msgid "Objects in \\usage without \\alias in Rd file '%s':"
 msgstr ""
