@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2022-08-31 15:04+0000\n"
-"Last-Translator: Marcel Ramos <marcel.ramos@sph.cuny.edu>\n"
+"PO-Revision-Date: 2024-05-26 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "invalid 'at' location in 'axis'"
 msgstr "position 'at' incorrecte dans 'axis'"
@@ -468,9 +468,8 @@ msgstr "'r' doit être un objet 'unit'"
 msgid "'x', 'y', 'width', and 'height' must have length 1"
 msgstr "'x', 'y', 'width' et 'height' doivent tous de longueur 1"
 
-#, fuzzy
 msgid "Invalid glyph info"
-msgstr "Transformation invalide"
+msgstr "Informations sur les glyphes non valides"
 
 #, fuzzy
 msgid "'x' and 'y' must have length > 0"
