@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"PO-Revision-Date: 2024-05-27 00:43+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
@@ -300,7 +300,7 @@ msgstr "selección de archivo cancelada"
 #: src/gnuwin32/run.c:446
 #, c-format
 msgid "'CreateProcess' failed to run '%s'"
-msgstr "'CreateProcess'  falló en correr  %s"
+msgstr "'CreateProcess'  falló en correr  '%s'"
 
 #: src/gnuwin32/run.c:603
 msgid "Child process not responding.  R will terminate it."
@@ -348,7 +348,7 @@ msgid ""
 "%s\n"
 msgstr ""
 "la longitud de la ruta expandida %llu sería demasiado larga para\n"
-"%s\n"
+"%s.\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -395,7 +395,7 @@ msgstr "límite de tiempo de CPU alcanzado"
 #: src/gnuwin32/system.c:180
 #, c-format
 msgid "Fatal error: %s\n"
-msgstr "Error fatal: %s\n"
+msgstr "Error fatal: %s.\n"
 
 #: src/gnuwin32/system.c:430 src/unix/sys-std.c:1001
 #, c-format
@@ -405,7 +405,7 @@ msgstr "codificación'%s' no reconocida"
 #: src/gnuwin32/system.c:439 src/unix/sys-std.c:1010
 #, c-format
 msgid "<ERROR: re-encoding failure from encoding '%s'>\n"
-msgstr "<ERROR: entrada no válida para codificación '%s'>\n"
+msgstr "<ERROR: entrada no válida para codificación '%s'>.\n"
 
 #: src/gnuwin32/system.c:682 src/gnuwin32/system.c:1238
 #: src/gnuwin32/system.c:1250 src/main/connections.c:886
@@ -419,7 +419,7 @@ msgstr "no fue posible abrir el archivo '%s': %s"
 #: src/gnuwin32/system.c:697
 #, c-format
 msgid "file.show(): file '%s' does not exist\n"
-msgstr "file.show(): archivo '%s' no existe\n"
+msgstr "file.show(): archivo '%s' no existe.\n"
 
 #: src/gnuwin32/system.c:1046
 #, c-format
@@ -444,12 +444,12 @@ msgstr "la opción %s requiere de un argumento no vacío"
 #: src/gnuwin32/system.c:1269 src/unix/system.c:445
 #, c-format
 msgid "WARNING: '-e %s' omitted as input is too long\n"
-msgstr "ATENCION: se omite entrada de  '-e %s' (muy larga)\n"
+msgstr "ATENCION: se omite entrada de  '-e %s' (muy larga).\n"
 
 #: src/gnuwin32/system.c:1273 src/unix/system.c:458
 #, c-format
 msgid "WARNING: unknown option '%s'\n"
-msgstr "ATENCIÓN: opción desconocida '%s'\n"
+msgstr "ATENCIÓN: opción desconocida '%s'.\n"
 
 # Fijate si asi se entiende. Lo deje como estaba
 #: src/gnuwin32/system.c:1286 src/unix/system.c:473
