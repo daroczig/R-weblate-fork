@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-06-02 23:53+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -14,17 +14,16 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "namespace found within local environments"
-msgstr ""
+msgstr "namespace encontrado dentro de ambientes locais"
 
 msgid "not a proper evaluation environment"
 msgstr "não é um ambiente apropriado para avaliação"
 
-#, fuzzy
 msgid "non-namespace found within namespace environments"
-msgstr "'ns' deve ser um espaço de nomes ou um ambiente importado de espaço de nomes"
+msgstr "não-namespace encontrado em ambientes de namespace"
 
 msgid "namespace found within global environments"
-msgstr ""
+msgstr "namespace encontrado dentro de ambientes globais"
 
 msgid "bad assignment: %s"
 msgstr "atribuição não apropriada: %s"
