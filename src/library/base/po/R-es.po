@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-29 03:05+0000\n"
+"PO-Revision-Date: 2024-06-02 23:53+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -84,7 +84,6 @@ msgstr "'scale' debe ser de tipo numérico o NULL"
 msgid "'%s' must be logical"
 msgstr "'%s' debe ser lógico"
 
-#, fuzzy
 msgid "dim(X) must have a positive length"
 msgstr "dim(X) debe tener una longitud positiva"
 
@@ -1401,13 +1400,13 @@ msgid "'%s' is not implemented yet"
 msgstr "'%s' aún no se ha implementado"
 
 msgid "argument '%s' is not used (yet)"
-msgstr ""
+msgstr "el argumento '%s' no se usa (todavía)"
 
 msgid "'x' cannot be coerced to class \"octmode\""
-msgstr ""
+msgstr "'x' no puede ser convertido a la clase \"octmode\""
 
 msgid "'x' cannot be coerced to class \"hexmode\""
-msgstr ""
+msgstr "'x' no puede ser convertido a la clase \"hexmode\""
 
 msgid "using ... with FUN = \"*\" is an error"
 msgstr "es un error usar ... con FUN = \"*\""
@@ -1416,94 +1415,105 @@ msgid "no arguments"
 msgstr "sin argumentos"
 
 msgid "an argument will be fractionally recycled"
-msgstr ""
+msgstr "un argumento será reciclado en forma fraccional"
 
+#, fuzzy
 msgid "invalid ncol(x)"
-msgstr ""
+msgstr "ncol(x) no válido"
 
 msgid "too large a matrix for LINPACK"
-msgstr ""
+msgstr "matriz demasiado grande para LINPACK"
 
 msgid "first argument must be a QR decomposition"
-msgstr ""
+msgstr "el primer argumento debe ser una descomposición QR"
 
+#, fuzzy
 msgid "invalid nrow(qr$qr)"
-msgstr ""
+msgstr "nrow no válido(qr$qr)"
 
+#, fuzzy
 msgid "invalid ncol(qr$qr)"
-msgstr ""
+msgstr "ncol(qr$qr) no válido"
 
+#, fuzzy
 msgid "invalid ncol(qr$rank)"
-msgstr ""
+msgstr "ncol no válido(qr$rank)"
 
+#, fuzzy
 msgid "invalid ncol(y)"
-msgstr ""
+msgstr "ncol(y) no válido"
 
+#, fuzzy
 msgid "'qr' and 'y' must have the same number of rows"
-msgstr ""
+msgstr "'qr' e 'y' deben tener el mismo número de filas"
 
 msgid "exact singularity in 'qr.coef'"
-msgstr ""
+msgstr "singularidad exacta en 'qr.coef'"
 
+#, fuzzy
 msgid "argument is not a QR decomposition"
-msgstr ""
+msgstr "argumento no es una descomposición QR"
 
+#, fuzzy
 msgid "invalid NCOL(y)"
-msgstr ""
+msgstr "NCOL(y) no válido"
 
 msgid "not implemented for complex 'qr'"
-msgstr ""
+msgstr "no implementado para 'qr' complejo"
 
 msgid "not supported for LAPACK QR"
-msgstr ""
+msgstr "no soportado para QR de LAPACK"
 
 msgid "'k' is too large"
-msgstr ""
+msgstr "'k' es demasiado grande"
 
+#, fuzzy
 msgid "need larger value of 'ncol' as pivoting occurred"
-msgstr ""
+msgstr "se requiere un valor mayor de 'ncol' ya que se debió pivotar"
 
+#, fuzzy
 msgid "invalid NCOL(R)"
-msgstr ""
+msgstr "NCOL(R) no válido"
 
+#, fuzzy
 msgid "'x' must be a vector of an atomic type"
-msgstr ""
+msgstr "'x' debe ser un vector de tipo atómico"
 
 msgid "invalid 'rle' structure"
-msgstr ""
+msgstr "estructura 'rle' no válida"
 
 msgid "... must contain names or character strings"
-msgstr ""
+msgstr "... debe contener nombres o cadenas de caracteres"
 
 msgid "invalid 'x'"
 msgstr "'x' no válido"
 
 msgid "incorrect length for 'group'"
-msgstr ""
+msgstr "longitud incorrecta para 'group'"
 
 msgid "missing values for 'group'"
-msgstr ""
+msgstr "valores faltantes para 'group'"
 
 msgid "not a data frame"
-msgstr ""
+msgstr "no es un data frame"
 
 msgid "length of 'center' must equal the number of columns of 'x'"
-msgstr ""
+msgstr "la longitud de 'center' debe ser igual al número de columnas de 'x'"
 
 msgid "length of 'scale' must equal the number of columns of 'x'"
-msgstr ""
+msgstr "la longitud de 'scale' debe ser igual al número de columnas de 'x'"
 
 msgid "either specify 'nmax' or 'n', but not both."
-msgstr ""
+msgstr "especifique o bien 'nmax' o o bien 'n', pero no ambos."
 
 msgid "'from' must be a finite number"
-msgstr ""
+msgstr "'from' debe ser un número finito"
 
 msgid "argument 'length.out' must be of length 1"
-msgstr ""
+msgstr "el argumento 'length.out' debe tener una longitud de 1"
 
 msgid "first element used of 'length.out' argument"
-msgstr ""
+msgstr "se utiliza el primer elemento del argumento 'length.out'"
 
 msgid "'to' must be a finite number"
 msgstr ""
