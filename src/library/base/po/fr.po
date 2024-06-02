@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-06-02 23:53+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
 msgstr "R_pretty() : gamme infinie  ; *ndiv=%d, devrait avoir ndiv >= 2"
 
 #: src/appl/pretty.c:142
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
 msgstr "Internal(pretty()) : intervalle trop petit.. corrigé"
 
