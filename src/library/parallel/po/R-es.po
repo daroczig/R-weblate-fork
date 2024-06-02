@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"PO-Revision-Date: 2024-06-02 23:53+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -24,7 +24,6 @@ msgstr ""
 "la entradas de longitud cero no se pueden mezclar con las de longitud "
 "distinta de cero"
 
-#, fuzzy
 msgid "dim(X) must have a positive length"
 msgstr "dim(X) debe tener una longitud positiva"
 
