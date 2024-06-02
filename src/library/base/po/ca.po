@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-16 03:05+0000\n"
+"PO-Revision-Date: 2024-06-02 23:53+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -700,7 +700,7 @@ msgid "Symbol '%s' comes from a different shared object."
 msgstr "El símbol «%s» prové d'un objecte compartit diferent."
 
 #: src/main/Rdynload.c:510
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' is missing parameter specification."
 msgstr "Falta l'especificació del paràmetre al símbol «%s»."
 
@@ -902,9 +902,8 @@ msgid "invalid length"
 msgstr "longitud no vàlida"
 
 #: src/main/apply.c:122
-#, fuzzy
 msgid "long vectors are not supported for matrix/array results"
-msgstr "no s'admeten vectors llargs per als resultats de matrius/arrays"
+msgstr "no s'admeten vectors llargs per als resultats de matrius"
 
 #: src/main/apply.c:129
 #, c-format
@@ -964,21 +963,21 @@ msgid "non-numeric argument to binary operator"
 msgstr "argument no numèric per a l'operador binari"
 
 #: src/main/arithmetic.c:572
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"La matriu de reciclatge de longitud 1 en aritmètica de vector de matriu està obsoleta.\n"
+"El reciclatge de matrius de longitud 1 en aritmètica de matriu-vector està "
+"obsolet.\n"
 "  Utilitzeu c() o as.vector() en el seu lloc."
 
 #: src/main/arithmetic.c:580
-#, fuzzy
 msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"La matriu de reciclatge de longitud 1 en l'aritmètica de matriu vectorial està obsoleta.\n"
+"El reciclatge de matrius de longitud 1 en l'aritmètica de vector-matriu està "
+"obsolet.\n"
 "  Utilitzeu c() o as.vector() en el seu lloc."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
