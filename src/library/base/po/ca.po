@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-02 23:53+0000\n"
+"PO-Revision-Date: 2024-06-03 22:02+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1001,137 +1001,126 @@ msgid "invalid unary operator"
 msgstr "operador unari no vàlid"
 
 #: src/main/arithmetic.c:1296
-#, fuzzy
 msgid "unimplemented real function of 1 argument"
-msgstr "funció real no implementada d'1 argument"
+msgstr "funció real d'1 argument no implementada"
 
 #: src/main/arithmetic.c:1310 src/main/complex.c:643 src/main/complex.c:714
-#, fuzzy
 msgid "unimplemented complex function"
 msgstr "funció complexa no implementada"
 
 #: src/main/arithmetic.c:1584 src/main/arithmetic.c:2037
 #: src/main/arithmetic.c:2208 src/main/arithmetic.c:2313
-#, fuzzy, c-format
+#, c-format
 msgid "unimplemented real function of %d numeric arguments"
-msgstr "funció real no implementada de %d arguments numèrics"
+msgstr "funció real de %d arguments numèrics no implementada"
 
 #: src/main/arithmetic.c:1688 src/main/arithmetic.c:1787
 #: src/main/arithmetic.c:1805 src/main/envir.c:1586 src/main/envir.c:2133
 #: src/main/eval.c:1186 src/main/eval.c:5787
-#, fuzzy, c-format
+#, c-format
 msgid "argument \"%s\" is missing, with no default"
 msgstr "manca l'argument «%s», sense valor per defecte"
 
 #: src/main/arithmetic.c:1691
-#, fuzzy
 msgid "invalid second argument of length 0"
 msgstr "el segon argument de longitud 0 no és vàlid"
 
 #: src/main/arithmetic.c:1811
-#, fuzzy
 msgid "invalid argument 'base' of length 0"
-msgstr "argument «base» de longitud 0 no vàlid"
+msgstr "l'argument «base» de longitud 0 no és vàlid"
 
 #: src/main/array.c:101 src/main/array.c:2093
-#, fuzzy, c-format
+#, c-format
 msgid "'data' must be of a vector type, was '%s'"
-msgstr "«data» ha de ser d'un tipus de vector, era «%s»"
+msgstr "«data» ha de ser de tipus vector, però era «%s»"
 
 #: src/main/array.c:121 src/main/array.c:129
-#, fuzzy
 msgid "non-numeric matrix extent"
 msgstr "extensió de la matriu no numèrica"
 
 #: src/main/array.c:124 src/main/array.c:2199
-#, fuzzy
 msgid "invalid 'nrow' value (too large or NA)"
-msgstr "valor «nrow» no vàlid (massa gran o NA)"
+msgstr "el valor «nrow» no és vàlid (massa gran o NA)"
 
 #: src/main/array.c:126 src/main/array.c:2201
-#, fuzzy
 msgid "invalid 'nrow' value (< 0)"
-msgstr "valor «nrow» no vàlid ( 0 0)"
+msgstr "valor «nrow» no vàlid (< 0)"
 
 #: src/main/array.c:132 src/main/array.c:2204
-#, fuzzy
 msgid "invalid 'ncol' value (too large or NA)"
-msgstr "valor «ncol» no vàlid (massa gran o NA)"
+msgstr "el valor «ncol» no és vàlid (massa gran o NA)"
 
 #: src/main/array.c:134 src/main/array.c:2206
-#, fuzzy
 msgid "invalid 'ncol' value (< 0)"
-msgstr "valor «ncol» no vàlid ( 0 0)"
+msgstr "valor «ncol» no vàlid (< 0)"
 
 #: src/main/array.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
-msgstr "la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre de files [%d]"
+msgstr ""
+"la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre "
+"de files [%d]"
 
 #: src/main/array.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr "la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre de columnes [%d]"
+msgstr ""
+"la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre "
+"de columnes [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr "la longitud de les dades difereix de la mida de la matriu: [%lld !] %d x %d]"
+msgstr ""
+"la longitud de les dades difereix de la mida de la matriu: [%lld != %d x %d]"
 
 #: src/main/array.c:174
-#, fuzzy
 msgid "non-empty data for zero-extent matrix"
-msgstr "dades no buides per a la matriu d'extensió zero"
+msgstr "dades no buides per a una matriu d'extensió zero"
 
 #: src/main/array.c:179 src/main/array.c:2105 src/main/array.c:2213
-#, fuzzy
 msgid "too many elements specified"
 msgstr "s'han especificat massa elements"
 
 #: src/main/array.c:237
-#, fuzzy
 msgid "negative extents to matrix"
-msgstr "extensió negativa a la matriu"
+msgstr "extensió negativa de la matriu"
 
 #: src/main/array.c:240
-#, fuzzy
 msgid "allocMatrix: too many elements specified"
 msgstr "allocMatrix: s'han especificat massa elements"
 
 #: src/main/array.c:268
-#, fuzzy
 msgid "negative extents to 3D array"
-msgstr "extensió negativa a la matriu 3D"
+msgstr "extensió negativa de la matriu 3D"
 
 #: src/main/array.c:271
-#, fuzzy
 msgid "'alloc3DArray': too many elements specified"
 msgstr "'alloc3DArray': s'han especificat massa elements"
 
 #: src/main/array.c:298
-#, fuzzy
 msgid "'allocArray': too many elements specified by 'dims'"
 msgstr "«allocArray»: massa elements especificats per «dims»"
 
 #: src/main/array.c:565
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or atomic vector"
 msgstr "«%s» ha de ser una llista o un vector atòmic"
 
 #: src/main/array.c:609
-#, fuzzy, c-format
+#, c-format
 msgid "a matrix-like object is required as argument to '%s'"
 msgstr "es requereix un objecte semblant a una matriu com a argument per a «%s»"
 
 #: src/main/array.c:1269
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "S'ha passat %d argument a «%s» que requereix com a mínim %d"
-msgstr[1] "S'han passat %d arguments a «%s» que requereix com a mínim %d"
+msgstr[0] "S'ha passat l'argument %d a «%s» que requereix com a mínim %d"
+msgstr[1] "S'han passat els arguments %d a «%s» que requereix com a mínim %d"
 
 #: src/main/array.c:1289
-#, fuzzy, c-format
+#, c-format
 msgid "more than 2 arguments passed to default method of '%s'"
 msgstr "s'han passat més de 2 arguments al mètode per defecte de «%s»"
 
