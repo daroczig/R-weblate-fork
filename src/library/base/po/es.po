@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-06-02 23:53+0000\n"
+"PO-Revision-Date: 2024-06-03 22:02+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
@@ -479,7 +479,7 @@ msgstr "objeto de tipo '%s' no es subconjunto"
 
 #: src/include/Errormsg.h:29
 msgid "missing subscript"
-msgstr "[[ ]] con subíndice ausente"
+msgstr "[[ ]] con subscrito ausente"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
@@ -761,8 +761,11 @@ msgstr "el objeto compartido '%s' no fue cargado"
 #, c-format
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
-msgstr[0] "no fue posible adjudicar memoria para el símbolo nativo registrado (%d bytes)"
-msgstr[1] "no fue posible adjudicar memoria para los simbolos nativos registrados (%d bytes)"
+msgstr[0] ""
+"no fue posible asignar memoria para el símbolo nativo registrado (%d bytes)"
+msgstr[1] ""
+"no fue posible asignar memoria para los símbolos nativos registrados (%d "
+"bytes)"
 
 #: src/main/Rdynload.c:1459 src/main/Rdynload.c:1658
 msgid "NULL value passed for DllInfo"
