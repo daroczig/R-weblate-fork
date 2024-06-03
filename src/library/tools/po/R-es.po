@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-23 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-06-03 22:02+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -787,7 +787,7 @@ msgid "cannot link from %s"
 msgstr ""
 
 msgid "-l option without value"
-msgstr ""
+msgstr "opción -l sin valor"
 
 msgid "configuration files are not supported as from R 2.12.0"
 msgstr ""
@@ -912,7 +912,6 @@ msgstr ""
 msgid "starting httpd help server ..."
 msgstr ""
 
-#, fuzzy
 msgid "done"
 msgstr "hecho"
 
@@ -1028,7 +1027,7 @@ msgid "invalid package"
 msgstr ""
 
 msgid "ERROR: no packages specified"
-msgstr ""
+msgstr "ERROR: no se especificaron paquetes"
 
 msgid "ERROR: cannot cd to directory %s"
 msgstr ""
