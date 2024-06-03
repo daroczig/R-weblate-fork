@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-02 23:53+0000\n"
+"PO-Revision-Date: 2024-06-03 22:02+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -446,7 +446,7 @@ msgid "'y' has rank 0"
 msgstr ""
 
 msgid "'x' and 'y' must have the same length"
-msgstr ""
+msgstr "'x' e 'y' deben tener la misma longitud"
 
 msgid "'x' and 'y' must have at least 2 levels"
 msgstr ""
@@ -947,7 +947,7 @@ msgid "incorrect specification for 'formula'"
 msgstr ""
 
 msgid "nothing to tabulate"
-msgstr ""
+msgstr "nada para tabular"
 
 msgid "incorrect specification for 'row.vars'"
 msgstr ""
@@ -1204,7 +1204,6 @@ msgstr ""
 msgid "invalid nrow(x)"
 msgstr ""
 
-#, fuzzy
 msgid "invalid ncol(x)"
 msgstr "ncol(x) no válido"
 
