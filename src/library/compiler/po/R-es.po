@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"PO-Revision-Date: 2024-06-03 22:02+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -16,7 +16,6 @@ msgstr ""
 msgid "namespace found within local environments"
 msgstr "espacio de nombres encontrado dentro de los entornos locales"
 
-#, fuzzy
 msgid "not a proper evaluation environment"
 msgstr "no es un entorno de evaluación adecuado"
 
@@ -85,7 +84,6 @@ msgstr "más de un valor predeterminado proporcionado en la llamada a switch()"
 msgid "'switch' with no alternatives"
 msgstr "'switch' sin alternativas"
 
-#, fuzzy
 msgid "Error: compilation failed -"
 msgstr "Error: error de compilación -"
 
@@ -98,11 +96,9 @@ msgstr "compilando '%s'"
 msgid "saving to file \"%s\" ..."
 msgstr "guardando en el archivo \"%s\" ..."
 
-#, fuzzy
 msgid "done"
 msgstr "hecho"
 
-#, fuzzy
 msgid "'env' must be a top level environment"
 msgstr "'env' debe ser un entorno de nivel superior"
 
@@ -115,7 +111,6 @@ msgstr "archivo de entrada vacío; no se escribió salida"
 msgid "file '%s' does not exist"
 msgstr "el archivo '%s' no existe"
 
-#, fuzzy
 msgid "'%s' is not a valid compiler option"
 msgstr "'%s' no es una opción válida del compilador"
 
@@ -129,7 +124,6 @@ msgstr ""
 msgid "function is not compiled"
 msgstr "la función no está compilada"
 
-#, fuzzy
 msgid "cannot compile this expression"
 msgstr "no se puede compilar esta expresión"
 
