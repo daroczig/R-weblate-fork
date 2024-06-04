@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-06-03 22:02+0000\n"
+"PO-Revision-Date: 2024-06-05 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -561,7 +561,6 @@ msgstr ""
 msgid "'class' is of length > 1; only the first element will be used"
 msgstr ""
 
-#, fuzzy
 msgid "must supply 'generic.function' or 'class'"
 msgstr "debe proporcionar 'generic.function' o 'class'"
 
