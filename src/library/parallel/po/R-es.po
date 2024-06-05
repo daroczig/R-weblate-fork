@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-03 22:02+0000\n"
+"PO-Revision-Date: 2024-06-06 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -42,14 +42,12 @@ msgstr "no es un clúster válido"
 msgid "unknown cluster type"
 msgstr "tipo de clúster desconocido"
 
-#, fuzzy
 msgid "numeric 'names' must be >= 1"
 msgstr "valores numéricos en 'names' deben ser >= 1"
 
 msgid "node of a socket cluster on host %s with pid %d"
 msgstr "nodo de un clúster de sockets en el host %s con pid %d"
 
-#, fuzzy
 msgid "Connection setup failed or timed out."
 msgstr ""
 "Error en la configuración de la conexión o se agotó el tiempo de espera."
@@ -57,54 +55,43 @@ msgstr ""
 msgid "PORT must be specified"
 msgstr "se debe especificar PORT"
 
-#, fuzzy
 msgid "'nnodes' must be >= 1"
 msgstr "'nnodes' debe ser >= 1"
 
-#, fuzzy
 msgid "Cluster setup failed."
 msgstr "Error en la configuración del clúster."
 
 msgid "invalid 'child' argument"
 msgstr "Argumento 'child' no válido"
 
-#, fuzzy
 msgid "'children' must be a list of processes or a single process"
 msgstr "'children' debe ser una lista de procesos o un solo proceso"
 
-#, fuzzy
 msgid "'process' must be of class %s"
 msgstr "'process' debe ser de clase %s"
 
-#, fuzzy
 msgid "'child' must be a valid child process"
 msgstr "'child' debe ser un proceso secundario válido"
 
 msgid "'what' must be a character or raw vector"
 msgstr "'what' debe ser un carácter o un vector de tipo 'raw'"
 
-#, fuzzy
 msgid "'mc.cores' must be >= 1"
 msgstr "'mc.cores' debe ser >= 1"
 
-#, fuzzy
 msgid "affinity.list and X must have the same length"
 msgstr "affinity.list y X deben tener la misma longitud"
 
-#, fuzzy
 msgid "%d function calls resulted in an error"
-msgstr "%d llamados a función han resultado error"
+msgstr "%d llamados a función han resultado en un error"
 
-#, fuzzy
 msgid "'mc.preschedule' must be false if 'affinity.list' is used"
-msgstr "'mc.preschedule' debe ser false si se usa 'affinity.list'"
+msgstr "'mc.preschedule' debe ser FALSE si se usa 'affinity.list'"
 
-#, fuzzy
 msgid "all scheduled cores encountered errors in user code"
 msgstr ""
-"Todos los núcleos programados encontraron errores en el código de usuario"
+"todos los núcleos programados encontraron errores en el código de usuario"
 
-#, fuzzy
 msgid "Zero-length inputs cannot be mixed with those of non-zero length"
 msgstr ""
 "Las entradas de longitud cero no se pueden mezclar con las de longitud "
@@ -116,10 +103,9 @@ msgstr "Argumento 'jobs' no válido"
 msgid "'v' must be a vector"
 msgstr "'v' debe ser un vector"
 
-#, fuzzy
 msgid "some results may be missing, folded or caused an error"
 msgstr ""
-"Es posible que falten algunos resultados, que estén duplicados, o que se "
+"es posible que falten algunos resultados, que estén duplicados, o que se "
 "hayan producido errores"
 
 msgid "fork clusters are not supported on Windows"
@@ -137,7 +123,6 @@ msgstr[1] ""
 "Error en la configuración del clúster. %d de %d procesos de trabajo no "
 "pudieron conectarse."
 
-#, fuzzy
 msgid "socket cluster with %d nodes on host %s"
 msgid_plural "socket cluster with %d nodes on hosts %s"
 msgstr[0] "Clúster de sockets con %d nodos en el host %s"
@@ -148,7 +133,6 @@ msgid_plural "%d parallel function calls did not deliver results"
 msgstr[0] "La llamada en paralelo a la función %d no entregó un resultado"
 msgstr[1] "La llamada en paralelo a la/s función/es %d no entregaron resultados"
 
-#, fuzzy
 msgid "scheduled core %s did not deliver a result, all values of the job will be affected"
 msgid_plural "scheduled cores %s did not deliver results, all values of the jobs will be affected"
 msgstr[0] ""
@@ -158,7 +142,6 @@ msgstr[1] ""
 "Los núcleos programados %s no entregaron resultados, todos los valores de "
 "los trabajos se verán afectados"
 
-#, fuzzy
 msgid "scheduled core %s encountered error in user code, all values of the job will be affected"
 msgid_plural "scheduled cores %s encountered errors in user code, all values of the jobs will be affected"
 msgstr[0] ""
@@ -168,7 +151,6 @@ msgstr[1] ""
 "Los núcleos programados %s encontraron errores en el código de usuario, "
 "todos los valores del trabajo se verán afectados"
 
-#, fuzzy
 msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] "%d trabajo en paralelo no entregó resultado"
