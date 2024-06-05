@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2024-05-27 03:05+0000\n"
+"PO-Revision-Date: 2024-06-06 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -322,7 +322,6 @@ msgstr "'nrow' debe ser >= 1"
 msgid "'ncol' must be >= 1"
 msgstr "'ncol' debe ser >= 1"
 
-#, fuzzy
 msgid "nrow * ncol < #{legend labels}"
 msgstr "nrow * ncol < #{legend labels}"
 
@@ -508,9 +507,8 @@ msgstr "Función de resumen '%s' no tiene sentido para las unidades"
 msgid "operator '%s' not meaningful for units"
 msgstr "el operador '%s' no tiene sentido para las unidades"
 
-#, fuzzy
 msgid "'*' or '/' cannot be used as a unary operator"
-msgstr "'*' o '/' no se pueden usar como operador unario"
+msgstr "'*' o '/' no se pueden usar como un operador unario"
 
 msgid "only one operand may be a unit"
 msgstr "solo un operando puede ser de tipo unidad"
@@ -538,15 +536,12 @@ msgstr "el índice debe tener una longitud de 1"
 msgid "replacement must be of length 1"
 msgstr "el reemplazo debe ser de longitud 1"
 
-#, fuzzy
 msgid "invalid 'theta'"
 msgstr "'theta' no válido"
 
-#, fuzzy
 msgid "'range' must be numeric"
 msgstr "'range' debe ser numérico"
 
-#, fuzzy
 msgid "invalid 'gp' value"
 msgstr "Valor 'gp' no válido"
 
