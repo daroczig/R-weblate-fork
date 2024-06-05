@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-03 22:02+0000\n"
+"PO-Revision-Date: 2024-06-06 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1125,9 +1125,8 @@ msgid "more than 2 arguments passed to default method of '%s'"
 msgstr "s'han passat més de 2 arguments al mètode per defecte de «%s»"
 
 #: src/main/array.c:1294
-#, fuzzy
 msgid "requires numeric/complex matrix/vector arguments"
-msgstr "requereix arguments numèrics/complexos de matriu/vector"
+msgstr "requereix arguments matriu/vector de tipus numèric/complex"
 
 #: src/main/array.c:1404 src/main/array.c:1408 src/main/array.c:1412
 #, fuzzy
@@ -1135,12 +1134,11 @@ msgid "non-conformable arguments"
 msgstr "arguments no conformes"
 
 #: src/main/array.c:1697
-#, fuzzy
 msgid "argument is not a matrix"
 msgstr "l'argument no és una matriu"
 
 #: src/main/array.c:1717 src/main/attrib.c:1226
-#, fuzzy, c-format
+#, c-format
 msgid "invalid first argument, must be %s"
 msgstr "el primer argument no és vàlid, ha de ser %s"
 
