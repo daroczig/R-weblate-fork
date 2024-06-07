@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-08-08 03:05+0000\n"
-"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
+"PO-Revision-Date: 2024-06-07 07:20+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "error tcl.\n"
 #: tcltk.c:208 tcltk.c:283 tcltk.c:300 tcltk.c:320 tcltk.c:340 tcltk.c:415
 #: tcltk.c:480 tcltk.c:534 tcltk.c:773
 msgid "invalid argument"
-msgstr "argumento inválido"
+msgstr "argumento no válido"
 
 #: tcltk.c:290
 msgid "no such variable"
