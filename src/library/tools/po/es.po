@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-06-07 07:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -76,9 +76,9 @@ msgid "unable to allocate buffer for long string at line %d"
 msgstr "no se puede asignar un búfer para la cadena larga en la línea %d"
 
 #: gramLatex.c:2869 gramRd.c:4523 gramRd.c:4529
-#, c-format, fuzzy
+#, c-format
 msgid "invalid '%s' value"
-msgstr "valor '%s' inválido"
+msgstr "valor '%s' no válido"
 
 #: gramRd.c:2581 gramRd.c:2584
 #, c-format
