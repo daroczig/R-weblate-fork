@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-07 07:20+0000\n"
+"PO-Revision-Date: 2024-06-08 08:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -96,7 +96,7 @@ msgstr "'x' es NULL"
 
 #: cov.c:676 cov.c:682
 msgid "incompatible dimensions"
-msgstr "Dimensiones incompatibles"
+msgstr "dimensiones incompatibles"
 
 #: cov.c:701 cov.c:742 cov.c:775
 msgid "no complete element pairs"
