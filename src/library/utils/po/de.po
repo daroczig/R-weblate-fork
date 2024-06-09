@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-06-10 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: R Core <r-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -25,12 +25,11 @@ msgstr ""
 #: windows/dialogs.c:278 windows/dialogs.c:289 windows/dialogs.c:313
 #: windows/dialogs.c:321 windows/util.c:127 windows/widgets.c:80
 #: windows/widgets.c:83 windows/widgets.c:88
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s' argument"
 msgstr "ungültiges '%s' Argument"
 
 #: io.c:350 io.c:841
-#, fuzzy
 msgid "invalid quote symbol set"
 msgstr "ungültiges quote Symbol gesetzt"
 
@@ -41,7 +40,7 @@ msgstr "kann die Verbindung nicht öffnen"
 #: io.c:365 io.c:369
 #, fuzzy
 msgid "cannot read from this connection"
-msgstr "kann in diese Verbindung nicht schreiben"
+msgstr "kann aus dieser Verbindung nicht lesen"
 
 #: io.c:416 io.c:434
 #, c-format
@@ -53,7 +52,7 @@ msgid "the first argument must be of mode character"
 msgstr "das erste Argument muss vom Modus character sein"
 
 #: io.c:599
-#, fuzzy, c-format
+#, c-format
 msgid "invalid 'numerals' string: \"%s\""
 msgstr "unzulässige 'numerals' Zeichenkette \"%s\""
 
@@ -89,7 +88,6 @@ msgid "Problem closing connection"
 msgstr "Problem beim Schließen der Verbindung"
 
 #: io.c:1077
-#, fuzzy
 msgid "'file' is not a connection"
 msgstr "'file' ist keine Verbindung"
 
@@ -107,9 +105,10 @@ msgid "corrupt data frame -- length of column %d does not match nrows"
 msgstr "beschädigter Dataframe -- Länge der Spalte %d entspricht nicht der Anzahl Zeilen"
 
 #: io.c:1171
-#, fuzzy, c-format
+#, c-format
 msgid "column %d claims to be a factor but does not have numeric codes"
-msgstr "Spalte %d behauptet Faktor zu sein, hat aber keine numerischen Kodes"
+msgstr ""
+"Spalte %d behauptet, ein Faktor zu sein, hat aber keine numerischen Codes"
 
 #: io.c:1189
 msgid "corrupt matrix -- dims do not match length"
@@ -124,7 +123,6 @@ msgid "'loadhistory' can only be used in Rgui and Rterm"
 msgstr "'loadhistory' kann nur in Rgui und Rterm genutzt werden"
 
 #: stubs.c:85
-#, fuzzy
 msgid "invalid timestamp"
 msgstr "ungültiger Zeitstempel"
 
@@ -133,7 +131,6 @@ msgid "X11 dataentry cannot be loaded"
 msgstr "X11 Dateneintrag kann nicht geladen werden"
 
 #: stubs.c:155 stubs.c:184 stubs.c:190
-#, fuzzy
 msgid "X11 is not available"
 msgstr "X11 nicht verfügbar"
 
