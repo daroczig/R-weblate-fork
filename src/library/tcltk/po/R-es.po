@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34\n"
-"PO-Revision-Date: 2024-05-17 03:05+0000\n"
+"PO-Revision-Date: 2024-06-09 09:20+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -99,12 +99,11 @@ msgstr "Manuales en formato PDF"
 msgid "OK"
 msgstr "OK"
 
-#, fuzzy
 msgid "Cancel"
 msgstr "Cancelar"
 
 msgid "'pb' is not from class %s"
-msgstr "'pb' no es de clase %s"
+msgstr "'pb' no es de la clase %s"
 
 #, fuzzy
 msgid "'filters' must be a 2-column character matrix"
