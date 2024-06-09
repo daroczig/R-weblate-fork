@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"PO-Revision-Date: 2024-06-10 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: R-core <R-core@r-project.org>\n"
 "Language: de\n"
@@ -2312,6 +2312,7 @@ msgstr "Schreibfehler in Verbindung"
 #: src/main/connections.c:4962 src/main/connections.c:5798 src/main/dcf.c:100
 #: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2454
 #: src/main/source.c:293
+#, fuzzy
 msgid "cannot read from this connection"
 msgstr "kann aus dieser Verbindung nicht lesen"
 
@@ -5908,7 +5909,7 @@ msgstr "ungültiger Dezimaltrenner"
 
 #: src/main/scan.c:942
 msgid "invalid quote symbol set"
-msgstr "ungültige Menge von quote Symbolen"
+msgstr "ungültiges quote Symbol gesetzt"
 
 #: src/main/scan.c:1026
 msgid "embedded nul(s) found in input"
