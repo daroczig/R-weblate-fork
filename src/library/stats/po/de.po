@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-06-10 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: R-core <r-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -22,11 +22,13 @@ msgid "bandwidth/span of running medians is larger than n"
 msgstr "Bandbreite/Spannweite der gleitenden Mediane größer als n"
 
 #: Srunmed.c:262
-#, fuzzy, c-format
+#, c-format
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
-msgstr "runmed(x, .., na.action=\"na.fail\"): es gibt NAs beginnend bei x[%lld]"
+msgstr ""
+"runmed(x, .., na.action=\"na.fail\"): haben NAs, die bei x[%lld beginnen]"
 
 #: Srunmed.c:265
+#, fuzzy
 msgid "runmed(): invalid 'na.action'"
 msgstr "runmed(): unzulässige 'na.action'"
 
@@ -210,6 +212,9 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
+"FEXACT[f3xact()] Fehler: Hash-Schlüssel %.0g > INT_MAX, kyy=%d, it[i (= nco "
+"= %d)]= %d.\n"
+"Setze lieber 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
 #, c-format
@@ -304,7 +309,7 @@ msgstr "'%s' muss Länge 1 haben"
 #: isoreg.c:55
 #, c-format
 msgid "non-finite sum(y) == %g is not allowed"
-msgstr ""
+msgstr "unendliche Summe(y) == %g ist nicht erlaubt"
 
 #: ksmooth.c:63
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
