@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-08 08:39+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -30,7 +30,6 @@ msgstr ""
 "'length', 'angle' o 'code' son de longitud mayor que 1; se ignoran todos los "
 "valores excepto los primeros"
 
-#, fuzzy
 msgid "'x' must be a 2-d contingency table"
 msgstr "'x' debe ser una tabla de contingencia 2D"
 
@@ -40,14 +39,12 @@ msgstr "todas las entradas de 'x' deben ser no negativas y finitas"
 msgid "at least one entry of 'x' must be positive"
 msgstr "al menos una entrada de 'x' debe ser positiva"
 
-#, fuzzy
 msgid "incorrect 'col': must be length 2"
-msgstr "'col' incorrecto: debe tener una longitud de 2"
+msgstr "'col' incorrecto: debe ser de longitud de 2"
 
 msgid "only for 1-D table"
 msgstr "solo para tabla 1-D"
 
-#, fuzzy
 msgid "'side' must be in {1:4}"
 msgstr "'side' debe estar en {1:4}"
 
@@ -60,19 +57,16 @@ msgstr "'log' no válido"
 msgid "invalid positive 'axp[3]'"
 msgstr "'axp[3]' positivo no válido"
 
-#, fuzzy
 msgid "invalid 'usr'"
 msgstr "'usr' no válido"
 
-#, fuzzy
 msgid "'height' must be a vector or a matrix"
 msgstr "'height' debe ser un vector o una matriz"
 
-#, fuzzy
 msgid "Cannot use shading lines in bars when log scale is used"
 msgstr ""
-"No se pueden utilizar líneas de sombreado en barras cuando se utiliza la "
-"escala logarítmica"
+"No se pueden utilizar líneas de sombreado en barras cuando se usa escala "
+"logarítmica"
 
 msgid "log scale error: at least one 'height + offset' value <= 0"
 msgstr ""
@@ -96,14 +90,12 @@ msgstr "la fórmula debe especificar 1 o 2 variables categóricas"
 msgid "duplicated categorical values - try another formula or subset"
 msgstr "valores categóricos duplicados: pruebe con otra fórmula o subconjunto"
 
-#, fuzzy
 msgid "formula with cbind() must specify 1 categorical variable"
-msgstr "formula con cbind() debe especificar 1 variable categórica"
+msgstr "fórmula con cbind() debe especificar 1 variable categórica"
 
 msgid "invalid first argument"
 msgstr "primer argumento no válido"
 
-#, fuzzy
 msgid "'at' must have same length as 'z$n', i.e. %d"
 msgstr "'at' debe tener la misma longitud que 'z$n', es decir, %d"
 
@@ -115,13 +107,11 @@ msgstr ""
 "algunas 'muescas' quedan fuera de las bisagras de la caja: tal vez debe "
 "establecer notch=FALSE"
 
-#, fuzzy
 msgid "'formula' should specify exactly two variables"
 msgstr "'formula' debe especificar exactamente dos variables"
 
-#, fuzzy
 msgid "dependent variable should be a factor"
-msgstr "La variable dependiente debe ser un factor"
+msgstr "la variable dependiente debe ser un factor"
 
 msgid "y axis is on a cumulative probability scale, 'ylim' must be in [0,1]"
 msgstr ""
@@ -148,15 +138,12 @@ msgstr "fórmula de condicionamiento no válida"
 msgid "incompatible variable lengths"
 msgstr "longitudes variables incompatibles"
 
-#, fuzzy
 msgid "'number' must be integer >= 1"
 msgstr "'number' debe ser entero >= 1"
 
-#, fuzzy
 msgid "'overlap' must be < 1 (and typically >= 0)."
 msgstr "'overlap' debe ser < 1 (y normalmente >= 0)."
 
-#, fuzzy
 msgid "invalid 'given.values'"
 msgstr "'given.values' no válido"
 
@@ -166,7 +153,6 @@ msgstr "filas * columnas demasiado pequeño"
 msgid "Missing rows: %s"
 msgstr "Filas faltantes: %s"
 
-#, fuzzy
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
 msgstr ""
 "'expr' debe ser una función, una llamada o una expresión que contenga '%s'"
@@ -210,9 +196,8 @@ msgstr "La tabla para cada estrato debe ser de 2 por 2"
 msgid "'conf.level' must be a single number between 0 and 1"
 msgstr "'conf.level' debe ser un solo número entre 0 y 1"
 
-#, fuzzy
 msgid "incorrect 'margin' specification"
-msgstr "Especificación incorrecta de \"margen\""
+msgstr "especificación incorrecta de 'margin'"
 
 msgid "incorrect geometry specification"
 msgstr "Especificación de geometría incorrecta"
@@ -241,7 +226,6 @@ msgstr "'breaks = %g' es demasiado grande y se establece en 1e6"
 msgid "hist.default: pretty() error, breaks=%s"
 msgstr "hist.default: error en pretty(), breaks=%s"
 
-#, fuzzy
 msgid "Invalid breakpoints produced by 'breaks(x)': %s"
 msgstr "Puntos de interrupción no válidos producidos por 'breaks(x)': %s"
 
@@ -251,44 +235,35 @@ msgstr "Longitud no válida (descansos)"
 msgid "'breaks' are not strictly increasing"
 msgstr "Los 'descansos' no están aumentando estrictamente"
 
-#, fuzzy
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' es un alias de '!freq', sin embargo, difieren."
 
 msgid "fuzz must be non-negative"
 msgstr "fuzz no debe ser negativo"
 
-#, fuzzy
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
-msgstr ""
-"alguna 'x' no se cuenta; Tal vez los 'saltos' no abarquen el rango de 'x'"
+msgstr "alguna 'x' no se cuenta; tal vez 'breaks' no abarque el rango de 'x'"
 
 msgid "the AREAS in the plot are wrong -- rather use 'freq = FALSE'"
 msgstr "las ÁREAS en la gráfica son incorrectas, en su lugar use 'freq = FALSE'"
 
-#, fuzzy
 msgid "'x' is wrongly structured"
-msgstr "'x' está mal estructurada"
+msgstr "'x' está mal estructurado"
 
-#, fuzzy
 msgid "argument must be matrix-like"
-msgstr "El argumento debe ser similar a una matriz"
+msgstr "el argumento debe ser matriz o similar"
 
-#, fuzzy
 msgid "'x' and 'y' values must be finite and non-missing"
-msgstr "Los valores 'x' e 'y' deben ser finitos y no faltantes"
+msgstr "los valores 'x' e 'y' deben ser finitos y no faltantes"
 
-#, fuzzy
 msgid "'z' must be a matrix"
 msgstr "'z' debe ser una matriz"
 
-#, fuzzy
 msgid "'z' must be numeric or logical"
 msgstr "'z' debe ser numérico o lógico"
 
-#, fuzzy
 msgid "invalid z limits"
-msgstr "Límites Z no válidos"
+msgstr "límites z no válidos"
 
 msgid "must have one more break than colour"
 msgstr "debe tener un descanso más que el color"
@@ -305,9 +280,8 @@ msgstr "Las dimensiones de z no son longitud(x)(-1) por longitud(y)(-1)"
 msgid "%s can only be used with a regular grid"
 msgstr "%s solo se puede usar con una cuadrícula normal"
 
-#, fuzzy
 msgid "integer colors must be non-negative"
-msgstr "Los colores enteros no deben ser negativos"
+msgstr "los colores de valor entero no deben ser negativos"
 
 msgid "'respect' must be logical or matrix with same dimension as 'mat'"
 msgstr "'respect' debe ser lógico o matriz con la misma dimensión que 'mat'"
@@ -322,13 +296,11 @@ msgstr ""
 msgid "invalid 'title'"
 msgstr "'Título' no válido"
 
-#, fuzzy
 msgid "'legend' is of length 0"
-msgstr "'legend' tiene una longitud 0"
+msgstr "'legend' tiene longitud 0"
 
-#, fuzzy
 msgid "invalid coordinate lengths"
-msgstr "Longitudes de coordenadas no válidas"
+msgstr "longitudes de coordenadas no válidas"
 
 msgid "horizontal specification overrides: Number of columns := %d"
 msgstr "Anulaciones de especificación horizontal: Número de columnas := %d"
@@ -514,28 +486,24 @@ msgstr "Se debe especificar exactamente un tipo de símbolo"
 msgid "x log scale:  xinch() is nonsense"
 msgstr "x escala logarítmica: xinch() es una tontería"
 
-#, fuzzy
 msgid "y log scale:  yinch() is nonsense"
-msgstr "x escala logarítmica: xinch() es una tontería"
+msgstr "escala logarítmica \"y\":  yinch() no tiene sentido"
 
-#, fuzzy
 msgid "log scale:  xyinch() is nonsense"
-msgstr "x escala logarítmica: xinch() es una tontería"
+msgstr "escala logarítmica \"x\":  xinch() no tiene sentido"
 
-#, fuzzy
 msgid "Duplicated argument %s is disregarded"
 msgid_plural "Duplicated arguments %s are disregarded"
 msgstr[0] "No se tiene en cuenta el argumento duplicado %s"
 msgstr[1] "No se tienen en cuenta los argumentos duplicados %s"
 
-#, fuzzy
 msgid "Outlier (%s) in boxplot %d is not drawn"
 msgid_plural "Outliers (%s) in boxplot %d are not drawn"
-msgstr[0] "El valor atípico (%s) en el diagrama de caja %d no se dibuja"
-msgstr[1] "Los valores atípicos (%s) en el diagrama de caja %d no se dibujan"
+msgstr[0] "El valor atípico (outlier) %s en el diagrama de caja %d no se dibuja"
+msgstr[1] ""
+"Los valores atípicos (outliers) %s en el diagrama de caja %d no se dibujan"
 
-#, fuzzy
 msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
-msgstr[0] "El argumento %s no se utiliza"
-msgstr[1] "Los argumentos %s no se utilizan"
+msgstr[0] "el argumento %s no se utiliza"
+msgstr[1] "los argumentos %s no se utilizan"
