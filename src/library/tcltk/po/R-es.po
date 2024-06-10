@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34\n"
-"PO-Revision-Date: 2024-06-09 09:20+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -22,25 +22,21 @@ msgstr "no se pueden cambiar los nombres en una matriz de Tcl"
 msgid "cannot set length of Tcl array"
 msgstr "no se puede establecer la longitud de una matriz de Tcl"
 
-#, fuzzy
 msgid "Tcl package '%s' not found"
-msgstr "Paquete Tcl '%s' no encontrado"
+msgstr "paquete Tcl '%s' no encontrado"
 
 msgid "The tkGUI is not available under Windows"
 msgstr "tkGUI no está disponible en Windows"
 
-#, fuzzy
 msgid "File"
 msgstr "Archivo"
 
 msgid "Demos"
 msgstr "Demos"
 
-#, fuzzy
 msgid "Packages"
 msgstr "Paquetes"
 
-#, fuzzy
 msgid "Help"
 msgstr "Ayuda"
 
@@ -53,46 +49,36 @@ msgstr "Salir"
 msgid "Save workspace"
 msgstr "Guardar espacio de trabajo"
 
-#, fuzzy
 msgid "Don't save workspace"
-msgstr "No guardar el espacio de trabajo"
+msgstr "No guardar esp. de trabajo"
 
-#, fuzzy
 msgid "t test"
-msgstr "Prueba T"
+msgstr "prueba T"
 
-#, fuzzy
 msgid "Density"
 msgstr "Densidad"
 
-#, fuzzy
 msgid "Interactive linear fitting"
 msgstr "Ajuste lineal interactivo"
 
-#, fuzzy
 msgid "R FAQ"
-msgstr "Preguntas frecuentes sobre R"
+msgstr "FAQ de R"
 
-#, fuzzy
 msgid "Load"
-msgstr "Carga"
+msgstr "Cargar"
 
-#, fuzzy
 msgid "Go get them!"
 msgstr "¡Ve a buscarlos!"
 
 msgid "Load packages"
 msgstr "Cargar paquetes"
 
-#, fuzzy
 msgid "Install packages from CRAN"
 msgstr "Instalar paquetes desde CRAN"
 
-#, fuzzy
 msgid "Help topic:"
 msgstr "Tema de ayuda:"
 
-#, fuzzy
 msgid "Manuals in PDF format"
 msgstr "Manuales en formato PDF"
 
@@ -105,7 +91,6 @@ msgstr "Cancelar"
 msgid "'pb' is not from class %s"
 msgstr "'pb' no es de la clase %s"
 
-#, fuzzy
 msgid "'filters' must be a 2-column character matrix"
 msgstr "'filters' debe ser una matriz de caracteres de 2 columnas"
 
@@ -115,6 +100,5 @@ msgstr "DLL de tcltk está vinculada a"
 msgid "Tcl/Tk support is not available on this system"
 msgstr "Soporte de Tcl/Tk no está disponible en este sistema"
 
-#, fuzzy
 msgid "Tcl/Tk support files were not installed"
-msgstr "Los archivos de soporte de Tcl/Tk no se instalaron"
+msgstr "los archivos de soporte de Tcl/Tk no se instalaron"
