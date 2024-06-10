@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-09 09:20+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -63,11 +63,9 @@ msgstr "la matriz rgb debe tener 3 filas"
 msgid "rgb values must be in [0, maxColorValue]"
 msgstr "los valores rgb deben estar en [0, maxColorValue]"
 
-#, fuzzy
 msgid "'start' and 'end' must be distinct and in [0, 1]."
 msgstr "'start' y 'end' deben ser distintos y estar en [0, 1]."
 
-#, fuzzy
 msgid "'palette' does not match any given palette"
 msgstr "'palette' no coincide con ninguna paleta dada"
 
@@ -77,27 +75,21 @@ msgstr "'palette' es ambiguo"
 msgid "'n' set to %s, the maximum available for %s palette"
 msgstr "se establece 'n' en %s, el máximo disponible para la paleta %s"
 
-#, fuzzy
 msgid "'gamma' must be a scalar or 'sRGB'"
 msgstr "'gamma' debe ser un escalar o 'sRGB'"
 
-#, fuzzy
 msgid "Color space converter: %s"
 msgstr "Convertidor de espacio de color: %s"
 
-#, fuzzy
 msgid "Reference white: %s"
 msgstr "Blanco de referencia: %s"
 
-#, fuzzy
 msgid "display gamma = %s"
-msgstr "Gamma de visualización = %s"
+msgstr "gamma de visualización = %s"
 
-#, fuzzy
 msgid "'from' must be a \"colorConverter\" object or a string"
 msgstr "'from' debe ser un objeto \"colorConverter\" o una cadena"
 
-#, fuzzy
 msgid "'to' must be a \"colorConverter\" object or a string"
 msgstr "'to' debe ser un objeto \"colorConverter\" o una cadena"
 
@@ -110,16 +102,14 @@ msgstr "'to.ref.white' no concuerda con la definición de %s"
 msgid "color spaces use different reference whites"
 msgstr "los espacios de color utilizan diferentes blancos de referencia"
 
-#, fuzzy
 msgid "'name' must be a character vector"
 msgstr "'name' debe ser un vector de caracteres"
 
 msgid "cannot shut down device 1 (the null device)"
 msgstr "no se puede cerrar el dispositivo 1 (el dispositivo nulo)"
 
-#, fuzzy
 msgid "cannot supply 'which' and 'device' at the same time"
-msgstr "no puede suministrar 'which' y 'device' al mismo tiempo"
+msgstr "no puede proporcionar 'which' y 'device' al mismo tiempo"
 
 msgid "cannot copy from the null device"
 msgstr "no se puede copiar desde el dispositivo nulo"
@@ -142,18 +132,15 @@ msgstr "solo se puede imprimir desde un dispositivo de pantalla"
 msgid "need to specify one of 'width' and 'height'"
 msgstr "se requiere especificar o bien 'ancho' o bien 'alto'"
 
-#, fuzzy
 msgid "dev.control() called without an open graphics device"
 msgstr "dev.control() sin un dispositivo de gráficos abierto"
 
 msgid "argument is missing with no default"
 msgstr "el argumento está ausente, sin valor por omisión"
 
-#, fuzzy
 msgid "dev.displaylist() called without an open graphics device"
-msgstr "dev.displaylist() llamado sin un dispositivo gráfico abierto"
+msgstr "se llamó a dev.displaylist() sin un dispositivo gráfico abierto"
 
-#, fuzzy
 msgid "invalid setting for 'getOption(\"device\")'"
 msgstr "configuración no válida para 'getOption(\"device\")'"
 
@@ -163,7 +150,6 @@ msgstr "dispositivo '%s' no encontrado"
 msgid "no suitable unused file name for pdf()"
 msgstr "no hay un nombre de archivo adecuado no utilizado para pdf()"
 
-#, fuzzy
 msgid "dev.new(): using pdf(file=\"%s\")"
 msgstr "dev.new(): usando pdf(file=\"%s\")"
 
@@ -179,9 +165,8 @@ msgstr "Capacidades no válidas: avisar al mantenedor del dispositivo"
 msgid "Invalid span weight"
 msgstr "Grosor de tipografía no válido"
 
-#, fuzzy
 msgid "length of arguments must match (and be greater than 0)"
-msgstr "La longitud de los argumentos debe coincidir (y ser mayor que 0)"
+msgstr "la longitud de los argumentos debe coincidir (y ser mayor que 0)"
 
 msgid "Invalid glyph width(s)"
 msgstr "Ancho(s) de glifo(s) no válido(s)"
@@ -216,18 +201,15 @@ msgstr "El nombre de fuente PostScript de más de 200 se truncará"
 msgid "Font information is inconsistent"
 msgstr "La información de fuente es inconsistente"
 
-#, fuzzy
 msgid "List must include at least one font"
 msgstr "La lista debe incluir al menos una fuente"
 
 msgid "Invalid glyph font"
 msgstr "Fuente de glifo no válida"
 
-#, fuzzy
 msgid "Invalid font list"
 msgstr "Lista de fuentes no válidas"
 
-#, fuzzy
 msgid "Unknown font"
 msgstr "Fuente desconocida"
 
@@ -238,26 +220,21 @@ msgstr ""
 msgid "Invalid glyph info"
 msgstr "Información de glifo no válida"
 
-#, fuzzy
 msgid "Invalid compositing operator"
 msgstr "Operador de composición no válido"
 
 msgid "wrong 'type'; should never happen, please report!"
 msgstr "'type' incorrecto; nunca debería suceder, ¡por favor repórtelo!"
 
-#, fuzzy
 msgid "Invalid mask type"
 msgstr "Tipo de máscara no válido"
 
-#, fuzzy
 msgid "Invalid fill rule"
 msgstr "Regla de relleno no válida"
 
-#, fuzzy
 msgid "Invalid pattern type"
 msgstr "Tipo de patrón no válido"
 
-#, fuzzy
 msgid "Invalid 'extend' value"
 msgstr "Valor 'extend' no válido"
 
@@ -279,7 +256,6 @@ msgstr "opciones no válidas en '%s'"
 msgid "NOT changing %s"
 msgstr "no se cambia/n %s"
 
-#, fuzzy
 msgid "argument 'append' is for back-compatibility and will be ignored"
 msgstr ""
 "El argumento 'append' es para compatibilidad con versiones anteriores y se "
@@ -300,7 +276,6 @@ msgstr "argumento 'archivo' no válido '%s'"
 msgid "invalid PDF version"
 msgstr "versión de PDF no válida"
 
-#, fuzzy
 msgid "Invalid font type"
 msgstr "Tipo de fuente no válido"
 
@@ -313,14 +288,12 @@ msgstr "información de métrica no válida en la especificación de fuente"
 msgid "invalid encoding in font specification"
 msgstr "codificación no válida en la especificación de fuente"
 
-#, fuzzy
 msgid "Not a CID font"
 msgstr "No es una fuente CID"
 
 msgid "invalid CMap name in font specification"
 msgstr "nombre CMap no válido en la especificación de fuente"
 
-#, fuzzy
 msgid "invalid 'cmapEncoding' in font specification"
 msgstr "'cmapEncoding' no válido en la especificación de fuente"
 
@@ -354,7 +327,6 @@ msgstr "formato de salida no válido"
 msgid "status %d in running command '%s'"
 msgstr "estado %d al ejecutar el comando '%s'"
 
-#, fuzzy
 msgid "'file' must be a non-empty character string"
 msgstr "'file' debe ser una cadena de caracteres no vacía"
 
@@ -377,7 +349,6 @@ msgstr "una matriz ráster debe tener exactamente 3 dimensiones"
 msgid "a raster array must have exactly 3 or 4 planes"
 msgstr "una matriz ráster debe tener exactamente 3 o 4 planos"
 
-#, fuzzy
 msgid "'drop' is always implicitly FALSE in '[.raster'"
 msgstr "'drop' siempre es implícitamente FALSE en '[.raster'"
 
@@ -408,7 +379,6 @@ msgstr "instantánea grabada en otra versión de R (%s)"
 msgid "snapshot contains invalid graphics call"
 msgstr "la instantánea contiene una llamada de gráficos no válida"
 
-#, fuzzy
 msgid "'nbin' must be numeric of length 1 or 2"
 msgstr "'nbin' debe ser numérico de longitud 1 o 2"
 
@@ -421,9 +391,8 @@ msgstr "'bandwidth' debe ser positivo"
 msgid "Must have the ('Recommended') package \"KernSmooth\" installed"
 msgstr "Debe tener instalado el ('recomendado') paquete \"KernSmooth\""
 
-#, fuzzy
 msgid "'r' must be a \"range\", hence of length 2"
-msgstr "'r' debe ser un \"rango\", por lo tanto, de longitud 2"
+msgstr "'r' debe ser un rango, por lo tanto, de longitud 2"
 
 msgid "points cut off after point[%d]"
 msgstr "puntos recortados después del punto[%d]"
@@ -431,9 +400,8 @@ msgstr "puntos recortados después del punto[%d]"
 msgid "invalid first argument"
 msgstr "primer argumento no válido"
 
-#, fuzzy
 msgid "'x' is a list, but does not have components 'x' and 'y'"
-msgstr "'x' es una lista, pero no tiene los componentes 'x' e 'y'"
+msgstr "'x' es una lista, pero no tiene componentes 'x' e 'y'"
 
 msgid "'x' and 'y' lengths differ"
 msgstr "las longitudes 'x' e 'y' difieren"
@@ -444,7 +412,6 @@ msgstr "primer argumento no válido [objeto de lenguaje incorrecto]"
 msgid "at least 2 columns needed"
 msgstr "se requieren al menos 2 columnas"
 
-#, fuzzy
 msgid "'x' is a list, but does not have components 'x', 'y'  and 'z'"
 msgstr "'x' es una lista, pero no tiene los componentes 'x', 'y' y 'z'"
 
@@ -463,7 +430,6 @@ msgstr "formato de \"gs -help\" no reconocido"
 msgid "device '%s' is not available"
 msgstr "el dispositivo '%s' no está disponible"
 
-#, fuzzy
 msgid ""
 "Available devices are:\n"
 "%s"
@@ -477,11 +443,9 @@ msgstr "ancho no válido"
 msgid "invalid height"
 msgstr "alto no válido"
 
-#, fuzzy
 msgid "'res' must be specified unless 'units = \"px\"'"
 msgstr "'res' debe especificarse a menos que 'units = \"px\"'"
 
-#, fuzzy
 msgid "'filename' must be a non-empty character string"
 msgstr "'filename' debe ser una cadena de caracteres no vacía"
 
@@ -506,7 +470,6 @@ msgstr "archivo ('file') no válido"
 msgid "invalid Quartz font:  must be 4 strings"
 msgstr "fuente Quartz no válida: deben ser 4 cadenas"
 
-#, fuzzy
 msgid "invalid arguments in 'quartzFonts' (must be font names)"
 msgstr "argumentos no válidos en 'quartzFonts' (deben ser nombres de fuentes)"
 
@@ -514,20 +477,17 @@ msgid "invalid arguments in 'quartzFonts' (need named args)"
 msgstr ""
 "argumentos no válidos en 'quartzFonts' (se requieren argumentos con nombre)"
 
-#, fuzzy
 msgid "cairo-based types are not supported on this build - using \"Xlib\""
 msgstr ""
-"Los tipos basados en Cairo no son compatibles con esta compilación, usando "
+"los tipos basados en Cairo no son soportados en esta compilación - usando "
 "\"Xlib\""
 
-#, fuzzy
 msgid "unknown family for X11(type = \"XLib\")"
 msgstr "familia desconocida para X11(type = \"XLib\")"
 
 msgid "invalid X11 font specification:"
 msgstr "especificación de fuente X11 no válida:"
 
-#, fuzzy
 msgid "invalid arguments in 'X11Fonts' (must be font names)"
 msgstr "argumentos no válidos en 'X11Fonts' (deben ser nombres de fuente)"
 
@@ -538,21 +498,18 @@ msgstr ""
 msgid "no such device"
 msgstr "no existe el dispositivo"
 
-#, fuzzy
 msgid "can only copy from 'X11(type=\"*cairo\")' devices"
 msgstr "solo se puede copiar desde dispositivos 'X11(type=\"*cairo\")'"
 
 msgid "invalid value for 'rescale'"
 msgstr "valor no válido para 'rescale'"
 
-#, fuzzy
 msgid "Calls like '%s' are unsafe and should be replaced by '%s'"
 msgstr "Las llamadas como '%s' no son seguras y deben reemplazarse por '%s'"
 
 msgid "can only bring windows devices to the front"
 msgstr "solo pueden traer al frente los dispositivos de tipo ventana"
 
-#, fuzzy
 msgid "'type' not applicable to the R console"
 msgstr "'type' no es aplicable a la consola de R"
 
@@ -569,7 +526,6 @@ msgid "invalid Windows font:  must be a single font family name"
 msgstr ""
 "fuente de Windows no válida:  debe ser un solo nombre de familia de fuentes"
 
-#, fuzzy
 msgid "invalid arguments in 'windowsFonts' (must be font names)"
 msgstr "argumentos no válidos en 'windowsFonts' (deben ser nombres de fuente)"
 
