@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-07 07:20+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -35,7 +35,7 @@ msgstr "intensidad de color %s no está en [0,1]"
 #: colors.c:71
 #, c-format
 msgid "color intensity %g, not in [0,1]"
-msgstr "intensidad %g de color %s no está en [0,1]"
+msgstr "intensidad de color %g no está en [0,1]"
 
 #: colors.c:78
 #, c-format
@@ -120,7 +120,7 @@ msgstr "especificación de color no válida \"%s\""
 
 #: colors.c:1495
 msgid "supplied color is neither numeric nor character"
-msgstr "color suministrado no es numérico ni de caracteres."
+msgstr "color suministrado no es numérico ni de caracteres"
 
 #: colors.c:1499
 #, c-format
@@ -697,7 +697,7 @@ msgstr "Grupos Quartz agotados (no se pudo aumentar maxGroups)"
 
 #: devQuartz.c:1128 cairo/cairoFns.c:920
 msgid "Attempt to release non-existent group"
-msgstr "Intento de liberar grupo inexistente."
+msgstr "Intento de liberar grupo inexistente"
 
 #: devQuartz.c:1157
 msgid "Quartz groups exhausted"
@@ -719,7 +719,7 @@ msgstr "no se pudo encontrar la fuente \"%s\" para la familia \"%s\""
 
 #: devQuartz.c:1673
 msgid "font family name is too long"
-msgstr "el nombre de la familia de fuentes es demasiado largo."
+msgstr "el nombre de la familia de fuentes es demasiado largo"
 
 #: devQuartz.c:1712
 #, c-format
@@ -915,7 +915,7 @@ msgstr "width' o 'height' no válidos"
 
 #: devices.c:51
 msgid "argument must have positive length"
-msgstr "el argumento debe tener una longitud positiva."
+msgstr "el argumento debe tener una longitud positiva"
 
 #: devices.c:60
 msgid "invalid argument"
