@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-09 03:05+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -96,7 +96,7 @@ msgid "x$lag must have at least 1 column"
 msgstr "x$lag debe tener al menos 1 columna"
 
 msgid "can use ci.type=\"ma\" only if first lag is 0"
-msgstr "sólo puede usar ci.type=\"ma\" si el primer rezago es 0"
+msgstr "solo puede usar ci.type=\"ma\" si el primer rezago es 0"
 
 msgid "Page [%d,%d]: i =%s; j =%s"
 msgstr "Página [%d,%d]: i=%s; j=%s"
@@ -496,7 +496,7 @@ msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr "'k' debe estar en {1, 2, .. n - 1}"
 
 msgid "only %d of the first %d eigenvalues are > 0"
-msgstr "sólo %d de los primeros %d valores propios son > 0"
+msgstr "solo %d de los primeros %d valores propios son > 0"
 
 msgid "Waiting for profiling to be done..."
 msgstr "Esperando a que se haga el perfil..."
@@ -552,10 +552,10 @@ msgid "wrong number of columns in new data:"
 msgstr "número incorrecto de columnas en datos nuevos:"
 
 msgid "contrasts apply only to factors"
-msgstr "los contrastes se aplican sólo a factores"
+msgstr "los contrastes se aplican solo a factores"
 
 msgid "contrasts can be applied only to factors with 2 or more levels"
-msgstr "los contrastes se pueden aplicar sólo a factores con 2 o más niveles"
+msgstr "los contrastes se pueden aplicar solo a factores con 2 o más niveles"
 
 msgid "wrong number of contrast matrix rows"
 msgstr "número incorrecto de filas de la matriz de contraste"
@@ -815,7 +815,7 @@ msgid "response not allowed in formula"
 msgstr "respuesta no permitida en la fórmula"
 
 msgid "factor analysis applies only to numerical variables"
-msgstr "el análisis factorial se aplica sólo a variables numéricas"
+msgstr "el análisis factorial se aplica solo a variables numéricas"
 
 msgid "'covmat' is of unknown type"
 msgstr "'covmat' es de tipo desconocido"
@@ -879,7 +879,7 @@ msgid "using weights as shape parameters"
 msgstr "usando pesos (weights) como parámetros de forma"
 
 msgid "positive values only are allowed for the 'inverse.gaussian' family"
-msgstr "sólo se permiten valores positivos para la familia 'inverse.gaussian'"
+msgstr "solo se permiten valores positivos para la familia 'inverse.gaussian'"
 
 msgid "need CRAN package 'SuppDists' for simulation from the 'inverse.gaussian' family"
 msgstr ""
@@ -1437,7 +1437,7 @@ msgid "invalid NCOL(X)"
 msgstr "NCOL no válido(X)"
 
 msgid "only 1-4 predictors are allowed"
-msgstr "sólo se permiten de 1 a 4 predictores"
+msgstr "solo se permiten de 1 a 4 predictores"
 
 msgid "invalid NROW(X)"
 msgstr "NROW(X) no válido"
@@ -1452,7 +1452,7 @@ msgstr ""
 
 msgid "specified the square of a predictor to be dropped with only one numeric predictor"
 msgstr ""
-"se especificó que el cuadrado de un predicto se elimine cuando haya sólo un "
+"se especificó que el cuadrado de un predicto se elimine cuando haya solo un "
 "predictor numérico"
 
 msgid "specified parametric for all predictors"
@@ -1751,7 +1751,7 @@ msgid "cannot recognize parameter name"
 msgstr "no se reconoce el nombre del parámetro"
 
 msgid "levels truncated to positive values only"
-msgstr "niveles truncados sólo a valores positivos"
+msgstr "niveles truncados solo a valores positivos"
 
 msgid "invalid  'attr(rhs, \"gradient\")'"
 msgstr "'attr(rhs, \"gradient\")' no válido"
@@ -1791,10 +1791,10 @@ msgid "cannot calculate REML log-likelihood for \"nls\" objects"
 msgstr "no se puede calcular la log-verosimilitud REML para objetos \"nls\""
 
 msgid "anova is only defined for sequences of \"nls\" objects"
-msgstr "anova sólo está definido para secuencias de objetos \"nls\""
+msgstr "anova solo está definido para secuencias de objetos \"nls\""
 
 msgid "'anova' is only defined for sequences of \"nls\" objects"
-msgstr "'anova' sólo está definido para secuencias de objetos \"nls\""
+msgstr "'anova' solo está definido para secuencias de objetos \"nls\""
 
 msgid "formula '%s' must be of the form '~expr'"
 msgstr "la fórmula '%s' debe tener el formato '~expr'"
@@ -1834,7 +1834,7 @@ msgstr ""
 
 msgid "method = \"Brent\" is only available for one-dimensional optimization"
 msgstr ""
-"el método = \"Brent\" sólo está disponible para optimización unidimensional"
+"el método = \"Brent\" solo está disponible para optimización unidimensional"
 
 msgid "'lower' and 'upper' must be finite values"
 msgstr "'lower' y 'upper' deben ser valores finitos"
@@ -1859,7 +1859,7 @@ msgstr ""
 " %s"
 
 msgid "use only with \"lm\" objects"
-msgstr "utilizar sólo con objetos \"lm\""
+msgstr "utilizar solamente con objetos \"lm\""
 
 msgid "'which' must be in 1:6"
 msgstr "'which' debe estar en 1:6"
@@ -1933,7 +1933,7 @@ msgid "'nterms' is missing with no default"
 msgstr "Falta 'nterms' sin valor predeterminado"
 
 msgid "'ppr' applies only to numerical variables"
-msgstr "'ppr' se aplica sólo a variables numéricas"
+msgstr "'ppr' solo se aplica a variables numéricas"
 
 msgid "mismatched 'x' and 'y'"
 msgstr "'x' y 'y' no coinciden"
@@ -2412,7 +2412,7 @@ msgstr ""
 "valores que se reemplazarán"
 
 msgid "only replacement of elements is allowed"
-msgstr "sólo el remplazo de elementos está permitido"
+msgstr "solo el remplazo de elementos está permitido"
 
 msgid "'model' must be list"
 msgstr "'model' debe ser una lista"
