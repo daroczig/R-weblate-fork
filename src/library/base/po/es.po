@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-06-03 22:17+0000\n"
+"PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
@@ -422,7 +422,7 @@ msgid "file.show(): file '%s' does not exist\n"
 msgstr "file.show(): archivo '%s' no existe.\n"
 
 #: src/gnuwin32/system.c:1046
-#, c-format
+#, c-format, fuzzy
 msgid "Not enough memory"
 msgstr "Memoria insuficiente"
 
