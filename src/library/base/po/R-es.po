@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-09 09:20+0000\n"
+"PO-Revision-Date: 2024-06-13 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
@@ -70,7 +70,7 @@ msgid "'%s' is not a valid choice"
 msgstr "'%s' no es una elección válida"
 
 msgid "malformed version string"
-msgstr "versión deformada de string"
+msgstr "cadena de versión mal formada"
 
 msgid "target is %s, current is %s"
 msgstr "el objetivo es %s, el valor actual es %s"
@@ -121,7 +121,7 @@ msgid "invalid 'name' argument"
 msgstr "argumento 'name' es inválido"
 
 msgid "package %s is required by %s, which may no longer work correctly"
-msgstr "%s requiere el paquete %s, que puede ya no funcionar correctamente"
+msgstr "%s requiere el paquete %s, que puede que ya no funcione correctamente"
 
 msgid "package %s is required by %s so will not be detached"
 msgstr "paquete %s es requerido por %s por lo que no será desactivado"
@@ -136,7 +136,7 @@ msgstr ""
 "  error: %s"
 
 msgid "%s namespace cannot be unloaded:"
-msgstr "namespace %s no puede ser descargado:"
+msgstr "espacio de nombres %s no puede ser descargado:"
 
 msgid "%s converted to character string"
 msgstr "%s convertido a una cadena de caracteres"
@@ -151,7 +151,7 @@ msgid "'value' must be a list"
 msgstr "'value' debe ser una lista"
 
 msgid "an object with that name already exists"
-msgstr "Ya existe un objeto con ese nombre"
+msgstr "ya existe un objeto con ese nombre"
 
 msgid "autoloader did not find '%s' in '%s'"
 msgstr "autoloader no encontró '%s' en '%s'"
@@ -160,13 +160,13 @@ msgid "can only splice inside a call"
 msgstr "solo puede ser unido dentro de una llamada"
 
 msgid "can only splice vectors"
-msgstr "Solo puede empalmar vectores"
+msgstr "solo puede empalmar vectores"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
-msgstr "El argumento LINPACK ya no existe desde R 3.1.0"
+msgstr "el argumento LINPACK está retirado desde R 3.1.0"
 
 msgid "complex matrices not permitted at present"
-msgstr "matrices complejas no permitidas actualmente"
+msgstr "actualmente no se permiten matrices complejas"
 
 msgid "'x' must be an array of at least two dimensions"
 msgstr "'x' debe ser un array de al menos dos dimensiones"
@@ -184,25 +184,30 @@ msgid "not an interactive session"
 msgstr "no es una sesión interactiva"
 
 msgid "not a valid restart specification"
-msgstr "especificación de reinicio inválida"
+msgstr "no es una especificación válida para un restart"
 
+#, fuzzy
 msgid "condition handlers must be functions"
-msgstr "los gestores de condición deben ser funciones"
+msgstr "los controladores de condición deben ser funciones"
 
+#, fuzzy
 msgid "pushing duplicate `%s` handler on top of the stack"
-msgstr "empujar el gestor '%s' duplicado en la parte superior de la pila"
+msgstr "moviendo el controlador duplicado `%s` al tope de la pila"
 
+#, fuzzy
 msgid "argument 'where' of length 0"
-msgstr "el argumento 'where' de longitud 0"
+msgstr "argumento 'where' de longitud 0"
 
+#, fuzzy
 msgid "can only write character objects"
-msgstr "sólo se pueden escribir objetos de tipo character"
+msgstr "sólo se pueden escribir objetos de tipo carácter"
 
 msgid "'headers' must have names and must not be NA"
-msgstr "'headers' deben tener nombres y no deben ser NA"
+msgstr "'headers' debe tener nombres y no deben ser NA"
 
+#, fuzzy
 msgid "'name' must be a single character string"
-msgstr "'name' debe ser un string de un solo caracter"
+msgstr "'name' debe ser una cadena de un solo carácter"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
 msgstr "'origin' debe ser uno entre 'start, 'current' o 'end'"
@@ -237,8 +242,9 @@ msgstr "El número de intervalos y la longitud de las 'etiquetas' difieren"
 msgid "invalid 'row.names' length"
 msgstr "longitud de 'row.names' inválida"
 
+#, fuzzy
 msgid "invalid 'make.names'"
-msgstr "'make.names' inválido"
+msgstr "'make.names' no válido"
 
 msgid "duplicate 'row.names' are not allowed"
 msgstr "no se permiten 'row.names' duplicados"
@@ -255,8 +261,11 @@ msgstr "no se puede forzar la clase %s a un data.frame"
 msgid "'row.names' is not a character or integer vector of length %d"
 msgstr "'row.names' no es un vector de caracteres o enteros de longitud %d"
 
+#, fuzzy
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
-msgstr "no coinciden los nombres de fila en los argumentos de 'data.frame', item %d"
+msgstr ""
+"no coinciden los nombres de fila en los argumentos de 'data.frame', elemento "
+"%d"
 
 msgid "some row.names duplicated: %s --> row.names NOT used"
 msgstr "algunos row.names duplicados: %s --> row.names NO utilizados"
@@ -265,7 +274,7 @@ msgid "row names contain missing values"
 msgstr "los nombres de fila contienen valores faltantes"
 
 msgid "duplicate row.names: %s"
-msgstr "duplicar row.names: %s"
+msgstr "row.names duplicado: %s"
 
 msgid "arguments imply differing number of rows: %s"
 msgstr "los argumentos implican un número diferente de filas: %s"
@@ -300,14 +309,18 @@ msgstr "el número de elementos a sustituir no es un múltiplo de la longitud de
 msgid "'value' is the wrong length"
 msgstr "'value' es de la longitud incorrecta"
 
+#, fuzzy
 msgid "unsupported matrix index in replacement"
-msgstr "Índice de matriz no admitido en reemplazo"
+msgstr "índice matricial no admitido en reemplazo"
 
+#, fuzzy
 msgid "need 0, 1, or 2 subscripts"
-msgstr "necesita 0, 1 o 2 subíndices"
+msgstr "se requieren 0, 1 o 2 subíndices"
 
 msgid "missing values are not allowed in subscripted assignments of data frames"
-msgstr "No se permiten valores faltantes en asignaciones con subíndices de data frames"
+msgstr ""
+"no se permiten valores faltantes en asignaciones con subíndices de data "
+"frames"
 
 msgid "non-existent rows not allowed"
 msgstr "filas inexistentes no permitidas"
@@ -342,14 +355,16 @@ msgstr "argumento de lista inválido: todas las variables deben tener la misma l
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
 msgstr "El número de columnas del resultado, %d, no es un múltiplo de la longitud del vector %d del argumento %d"
 
+#, fuzzy
 msgid "<0 rows> (or 0-length row.names)"
-msgstr "<0 rows> (o 0- extensión row.names)"
+msgstr "<0 filas> (o row.names de longitud 0)"
 
 msgid "invalid 'max' / getOption(\"max.print\"):"
-msgstr "'max' / getOption(\"max.print\") inválido:"
+msgstr "'max' / getOption(\"max.print\") no válido:"
 
+#, fuzzy
 msgid "non-numeric-alike variable(s) in data frame:"
-msgstr "Variable(s) no numérica(s) en el data frame:"
+msgstr "variable(s) no numérica(s) o similar en el data frame:"
 
 msgid ","
 msgstr ","
@@ -414,11 +429,13 @@ msgstr "'length.out' debe ser de longitud 1"
 msgid "exactly two of 'to', 'by' and 'length.out' / 'along.with' must be specified"
 msgstr "exactamente dos 'to', 'by' y 'length.out' / 'along.width' deben ser especificados"
 
+#, fuzzy
 msgid "'by' must be of length 1"
-msgstr "«by» debe ser de longitud 1"
+msgstr "'by' debe ser de longitud 1"
 
+#, fuzzy
 msgid "invalid 'by' string"
-msgstr "cadena de caracteres 'by' inválida"
+msgstr "cadena de caracteres 'by' no válida"
 
 msgid "invalid string for 'by'"
 msgstr "cadena de caracteres no válida para 'by'"
@@ -453,8 +470,9 @@ msgstr "el operador binario '+' no esta definido para objetos \"POSIXt\""
 msgid "can only subtract from \"POSIXt\" objects"
 msgstr "solo se puede sustraer de objetos \"POSIXt\""
 
+#, fuzzy
 msgid "unary '-' is not defined for \"POSIXt\" objects"
-msgstr "el operador unitario - no está definido para objetos \"POSIXt”"
+msgstr "el operador unario - no está definido para objetos \"POSIXt\""
 
 msgid "can only subtract numbers from \"POSIXt\" objects"
 msgstr "solo se puede sustraer números de objetos \"POSIXt\""
@@ -468,8 +486,11 @@ msgstr "'%s' no definido para objetos \"POSIXt\""
 msgid "'tzone' attributes are inconsistent"
 msgstr "los atributos 'tzone' son inconsistentes"
 
+#, fuzzy
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
-msgstr "as.character(td, ..) ya no obedece a un argumento de 'formato'; use format(td, ..) ?"
+msgstr ""
+"as.character(td, ..) ya no obedece al argumento 'format'; use format(td, ..) "
+"?"
 
 msgid "'digits' must be numeric, integer valued"
 msgstr "'digits' debe ser numérico, con valores enteros"
@@ -532,8 +553,11 @@ msgstr ""
 "Las líneas erróneas empiezan con:\n"
 "%s"
 
+#, fuzzy
 msgid "failed to load the methods package for debugging by signature"
-msgstr "no se pudo cargar el paquete de métodos para la depuración firmada"
+msgstr ""
+"no se pudo cargar el paquete 'methods' para la depuración del método con "
+"esta firma"
 
 msgid "failed to load methods package for undebugging by signature"
 msgstr ""
@@ -563,7 +587,7 @@ msgid "replacement diagonal has wrong length"
 msgstr "la diagonal de reemplazo tiene una longitud errónea"
 
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr "MARGIN = %s es inválido para dim = %s"
+msgstr "MARGIN = %s no es válido para dim = %s"
 
 msgid "must pass a package name, %s or %s object"
 msgstr "se debe brindar un nombre de paquete, %s o un objeto %s"
@@ -598,8 +622,9 @@ msgstr "'labels' inválidas; la longitud %d debe ser 1 o %d"
 msgid "number of levels differs"
 msgstr "los números de niveles difieren"
 
+#, fuzzy
 msgid "%s not meaningful for factors"
-msgstr "%s no es significativo para factores"
+msgstr "%s no tiene sentido para factores"
 
 msgid "level sets of factors are different"
 msgstr "los conjuntos de niveles de los factores son diferentes"
@@ -607,8 +632,9 @@ msgstr "los conjuntos de niveles de los factores son diferentes"
 msgid "invalid factor level, NA generated"
 msgstr "nivel de factor inválido, se ha generado NA"
 
+#, fuzzy
 msgid "'%s' is not meaningful for ordered factors"
-msgstr "'%s' no es significativo para factores ordenados"
+msgstr "'%s' no tiene sentido para factores ordenados"
 
 msgid "'%s' not defined for ordered factors"
 msgstr "'%s' no está definido para factores ordenados"
