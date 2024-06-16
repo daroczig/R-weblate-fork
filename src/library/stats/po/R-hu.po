@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-10 03:05+0000\n"
+"PO-Revision-Date: 2024-06-17 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
@@ -989,9 +989,10 @@ msgstr ""
 msgid "up"
 msgstr ""
 
-#, fuzzy
 msgid "profiling has found a better solution, so original fit had not converged"
-msgstr "a profilozás jobb megoldást talált, az eredeti illesztés nem konvergált"
+msgstr ""
+"A profilalkotás jobb megoldást talált, így az eredeti illeszkedés nem "
+"konvergált"
 
 msgid "'family' not recognized"
 msgstr ""
@@ -1411,7 +1412,6 @@ msgstr ""
 msgid "no models to compare"
 msgstr ""
 
-#, fuzzy
 msgid "extra arguments discarded"
 msgstr "a töblet argumentumok figyelmen kívül lettek hagyva"
 
@@ -1675,7 +1675,6 @@ msgstr ""
 msgid "cannot recognize parameter name"
 msgstr ""
 
-#, fuzzy
 msgid "levels truncated to positive values only"
 msgstr "a szintek csak a pozitív értékekre korlátozódnak"
 
