@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Norbert Solymosi <solymosi.norbert@gmail.com>\n"
+"PO-Revision-Date: 2024-06-18 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
@@ -3818,7 +3818,7 @@ msgstr ""
 
 #: src/main/eval.c:3504 src/main/eval.c:3531
 msgid "invalid function in complex assignment"
-msgstr ""
+msgstr "Érvénytelen függvény összetett hozzárendelésben"
 
 #: src/main/eval.c:3602
 msgid "invalid (do_set) left-hand side to assignment"
