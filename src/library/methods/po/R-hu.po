@@ -1,202 +1,265 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2024-06-18 03:05+0000\n"
+"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
 "Language-Team: none\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
-msgstr ""
+msgstr "HOPPÁ: valami baj van a '. OldClassesPrototypes[[%d]]'"
 
 msgid "unnamed argument to initialize() for S3 class must have a class definition; %s does not"
 msgstr ""
+"az S3 osztály inicializálásához szükséges névtelen argumentumnak "
+"rendelkeznie kell osztálydefinícióval; %s nem"
 
 msgid "unnamed argument must extend either the S3 class or the class of the data part; not true of class %s"
 msgstr ""
+"a névtelen argumentumnak ki kell terjesztenie az S3 osztályt vagy az "
+"adatrész osztályát; Nem igaz a %s osztályra"
 
 msgid "class %s does not have an S3 data part, and so is of type \"S4\"; no S3 equivalent"
 msgstr ""
+"a %s osztálynak nincs S3 adatrésze, ezért \"S4\" típusú; nincs S3 ekvivalens"
 
 msgid "class %s is VIRTUAL; not meaningful to create an S4 object from this class"
 msgstr ""
+"osztály %s VIRTUÁLIS; nem értelmes S4 objektumot létrehozni ebből az "
+"osztályból"
 
 msgid "object must be a valid data part for class %s; not true of type %s"
 msgstr ""
+"Az objektumnak érvényes adatrésznek kell lennie a %s osztályhoz; %s típusra "
+"nem igaz"
 
 msgid "cannot specify matrix() arguments when specifying '.Data'"
-msgstr ""
+msgstr "Nem lehet megadni a matrix() argumentumokat a ' megadásakor. Adatok\""
 
 msgid "cannot specify array() arguments when specifying '.Data'"
-msgstr ""
+msgstr "nem adhatók meg array() argumentumok a ' megadásakor. Adatok\""
 
 msgid "cannot have more than one unnamed argument as environment"
-msgstr ""
+msgstr "nem lehet egynél több névtelen argumentum környezetként"
 
 msgid "unnamed argument to new() must be an environment for the new object"
 msgstr ""
+"A New() névtelen argumentumának az új objektum környezetének kell lennie"
 
 msgid "methods may not be defined for primitive function %s in this version of R"
 msgstr ""
+"előfordulhat, hogy az R ezen verziójában a %s primitív függvényhez nem "
+"határozhatók meg módszerek"
 
 msgid "S3Part() is only defined for classes set up by setOldCLass(), basic classes or subclasses of these:  not true of class %s"
 msgstr ""
+"Az S3Part() csak a setOldCLass() által létrehozott osztályokra, ezek "
+"alaposztályaira vagy alosztályaira van definiálva: nem igaz a %s osztályra"
 
 msgid "the 'S3Class' argument must be a superclass of %s:  not true of class %s"
 msgstr ""
+"az \"S3Class\" argumentumnak %s szuperosztálynak kell lennie: ez nem igaz a "
+"%s osztályra"
 
 msgid "replacement value must extend class %s, got %s"
-msgstr ""
+msgstr "A helyettesítő értéknek ki kell terjesztenie a %s osztályt, kapott %s"
 
 msgid "replacement value must be of class %s, got one of class %s"
 msgstr ""
+"A helyettesítő értéknek %s osztályúnak kell lennie, %s osztályúnak kell "
+"lennie"
 
 msgid "no 'replace' method was defined for 'as(x, \"%s\") <- value' for class %s"
 msgstr ""
+"A %s osztály \"as(x, \"%s\") <- értékére nem határoztak meg \"csere\" "
+"módszert"
 
 msgid "the 'coerce' argument to 'setIs' should be a function of one argument, got an object of class %s"
 msgstr ""
+"a \"kényszerítés\" argumentumnak a \"setIs\" -hez egy argumentum "
+"függvényének kell lennie, és a %s osztály objektumát kapta"
 
 msgid "the computation: 'as(object,\"%s\") <- value' is valid when object has class %s only if 'is(value, \"%s\")' is TRUE ('class(value)' was %s)"
 msgstr ""
+"az 'as(object,\"%s\") <- value' számítás csak akkor érvényes, ha az objektum "
+"csak akkor rendelkezik %s osztállyal, ha 'is(value, \"%s\")' TRUE "
+"('class(value)' was %s)"
 
 msgid "there is no automatic definition for 'as(object, \"%s\") <- value' when object has class %s and no 'replace' argument was supplied; replacement will be an error"
 msgstr ""
+"nincs automatikus definíciója az \"as(objektum, \"%s\") <- értéknek, ha az "
+"objektum %s osztállyal rendelkezik, és nincs megadva \"csere\" argumentum; A "
+"csere hiba lesz"
 
 msgid "the 'replace' argument to setIs() should be a function of 2 or 3 arguments, got an object of class %s"
 msgstr ""
+"a setIs() 'replace' argumentumának 2 vagy 3 argumentumból álló függvénynek "
+"kell lennie, a %s osztály objektumát kapta"
 
 msgid "the member classes must be defined: not true of %s"
-msgstr ""
+msgstr "A tagosztályokat meg kell határozni: nem igaz a %s"
 
 msgid "unable to create union class:  could not set members %s"
 msgstr ""
+"Nem hozható létre Union osztály: Nem sikerült beállítani a tagok %s osztályát"
 
 msgid "methods:::bind_activation() is defunct;\n rather provide methods for cbind2() / rbind2()"
 msgstr ""
+"metódusok:::bind_activation() megszűnt;\n"
+" inkább adjon meg metódusokat a cbind2() / rbind2() számára"
 
 msgid "invalid argument 'name': %s"
-msgstr ""
+msgstr "Érvénytelen argumentum 'név': %s"
 
 msgid "%s dispatches internally;  methods can be defined, but the generic function is implicit, and cannot be changed."
 msgstr ""
+"%s kiszállítások belsőleg;  A metódusok definiálhatók, de az általános "
+"függvény implicit, és nem módosítható."
 
 msgid "if the 'def' argument is supplied, it must be a function that calls standardGeneric(\"%s\") or is the default"
 msgstr ""
+"ha a \"def\" argumentum meg van adva, akkor annak olyan függvénynek kell "
+"lennie, amely meghívja a standardGeneric(\"%s\") függvényt, vagy ez az "
+"alapértelmezett"
 
 msgid "must supply a function skeleton for %s, explicitly or via an existing function"
 msgstr ""
+"meg kell adnia egy függvényvázat a %s számára, explicit módon vagy egy "
+"meglévő függvényen keresztül"
 
 msgid "Creating a generic function for %s from %s in %s\n    (from the saved implicit definition)"
 msgstr ""
 
 msgid "Creating a new generic function for %s in %s"
-msgstr ""
+msgstr "Új általános függvény létrehozása %s in %s"
 
 msgid "no generic version of %s on package %s is allowed;\n   a new generic will be assigned for %s"
 msgstr ""
 
 msgid "fdef appears to be a generic function, but with generic name %s instead of %s"
-msgstr ""
+msgstr "Az fdef általános függvénynek tűnik, de %s helyett %s általános névvel"
 
 msgid "generic function %s not found for removal"
-msgstr ""
+msgstr "általános függvény %s nem található eltávolításra"
 
 msgid "a function for argument 'f' must be a generic function"
-msgstr ""
+msgstr "Az \"F\" argumentum függvényének általános függvénynek kell lennie"
 
 msgid "the environment %s is locked; cannot assign methods for function %s"
 msgstr ""
+"a %s környezet zárolva van; Nem lehet metódusokat hozzárendelni a %s "
+"függvényhez"
 
 msgid "the 'where' environment (%s) is a locked namespace; cannot assign methods there"
 msgstr ""
+"a \"hol\" környezet (%s) zárolt névtér; Nem lehet ott metódusokat "
+"hozzárendelni"
 
 msgid "Copying the generic function %s to environment %s, because the previous version was in a sealed namespace (%s)"
 msgstr ""
+"A %s általános függvény másolása a %s környezetbe, mert az előző verzió "
+"lezárt névtérben (%s) volt"
 
 msgid "no existing definition for function %s"
-msgstr ""
+msgstr "nincs létező definíciója a %s függvénynek"
 
 msgid "Creating a generic function from function %s in %s"
-msgstr ""
+msgstr "Általános függvény létrehozása %s függvényből %s-ban"
 
 msgid "Creating a generic function for %s from package %s in %s"
-msgstr ""
+msgstr "Általános függvény létrehozása %s számára a %s csomagból %s in %s"
 
 msgid "the method for function %s and signature %s is sealed and cannot be re-defined"
 msgstr ""
+"A %s függvény és a %s aláírás módszere le van zárva, és nem definiálható újra"
 
 msgid "For function %s, signature %s: argument in method definition changed from (%s) to (%s)"
 msgstr ""
+"A %s függvény esetében a %s: aláírás argumentuma a metódusdefinícióban (%s)-"
+"ról (%s)-ra változott"
 
 msgid "primitive functions cannot be methods; they must be enclosed in a regular function"
 msgstr ""
+"a primitív függvények nem lehetnek módszerek; rendszeres funkcióban kell "
+"lenniük"
 
 msgid "invalid method definition: expected a function, got an object of class %s"
 msgstr ""
+"Érvénytelen metódusdefiníció: várt egy függvényt, kapott egy %s osztályú "
+"objektumot"
 
 msgid "function supplied as argument 'f' must be a generic"
-msgstr ""
+msgstr "Az \"F\" argumentumként megadott függvénynek általánosnak kell lennie"
 
 msgid "no generic function %s found"
-msgstr ""
+msgstr "nincs általános függvény %s"
 
 msgid "no method found for function %s and signature %s"
-msgstr ""
+msgstr "Nem található metódus a %s függvényhez és a %s aláíráshoz"
 
 msgid "no environment or package corresponding to argument where=%s"
 msgstr ""
+"nincs olyan környezet vagy csomag, amely megfelel az argumentumnak ahol=%s"
 
 msgid "no generic function found for '%s'"
-msgstr ""
+msgstr "nem található általános függvény a következőhöz: \"%s\""
 
 msgid "no method found for function '%s' and signature %s"
-msgstr ""
+msgstr "nem található metódus a \"%s\" függvényhez és a %s aláíráshoz"
 
+#, fuzzy
 msgid "'file' must be a character string or a connection"
-msgstr ""
+msgstr "A \"fájlnak\" karakterláncnak vagy kapcsolatnak kell lennie"
 
 msgid "argument 'signature' is not meaningful with the current implementation and is ignored \n(extract a subset of the methods list instead)"
 msgstr ""
 
 msgid "no method for %s matches class %s"
-msgstr ""
+msgstr "nincs módszer a %s egyezik osztályhoz %s"
 
 msgid "no method found for signature %s"
-msgstr ""
+msgstr "Nem található módszer a %s aláíráshoz"
 
 msgid "%s has no methods defined"
-msgstr ""
+msgstr "%s nincs definiálva metódussal"
 
 msgid "bad class specified for element %d (should be a single character string)"
 msgstr ""
+"A %d elemhez megadott hibás osztály (egyetlen karakterből álló "
+"karakterláncnak kell lennie)"
 
 msgid "first argument should be the names of one of more generic functions (got object of class %s)"
 msgstr ""
+"Az első argumentumnak az egyik általánosabb függvény nevének kell lennie (a "
+"%s osztály GOT objektumának)"
 
 msgid "must supply 'generic.function' or 'class'"
-msgstr ""
+msgstr "\"generic.function\" vagy \"class\" funkciót kell szolgáltatnia"
 
 msgid "%s is not an S4 generic function in %s; methods not removed"
-msgstr ""
+msgstr "A %s nem S4 általános függvény %s-ban; Nem eltávolított módszerek"
 
 msgid "cannot remove methods for %s in locked environment/package %s"
 msgstr ""
+"A(z) %s metódusai nem távolíthatók el zárolt környezetben/csomagban (%s)"
 
 msgid "Restoring default function definition of %s"
-msgstr ""
+msgstr "A %s alapértelmezett függvénydefiníciójának visszaállítása"
 
 msgid "error in updating S4 generic function %s; the function definition is not an S4 generic function (class %s)"
 msgstr ""
+"hiba az S4 általános függvény frissítésekor %s; a függvénydefiníció nem S4 "
+"általános függvény (%s osztály)"
 
 msgid "Function %s is already a group generic; no change"
-msgstr ""
+msgstr "A %s függvény már csoportáltalános; nincs változás"
 
 msgid "Function %s is a group generic; do not call it directly"
 msgstr ""
