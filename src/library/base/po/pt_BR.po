@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-28 19:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-06-19 19:37+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -3246,7 +3246,7 @@ msgstr ""
 #: src/main/envir.c:130 src/main/envir.c:144
 #, c-format
 msgid "cannot change value of locked binding for '%s'"
-msgstr "não é possível mudar o valor de vinculo bloqueado para '%s'"
+msgstr "não é possível mudar o valor de vínculo bloqueado para '%s'"
 
 #: src/main/envir.c:267 src/main/envir.c:1668
 msgid "cannot add bindings to a locked environment"
@@ -3323,7 +3323,7 @@ msgstr "primeiro argumento deve ser uma lista nomeada"
 
 #: src/main/envir.c:1917
 msgid "names(x) must be a character vector of the same length as x"
-msgstr "names(x) deve ser um vetor de caracter de mesmo comprimento que x"
+msgstr "names(x) deve ser um vetor de caracteres de mesmo comprimento que x"
 
 #: src/main/envir.c:1920
 #, fuzzy
@@ -4621,9 +4621,8 @@ msgid "third argument must be 'TRUE' or 'FALSE'"
 msgstr "terceiro argumento deve ser 'TRUE' ou 'FALSE'"
 
 #: src/main/memory.c:2166
-#, fuzzy
 msgid "vector memory exhausted"
-msgstr "memória vetorial esgotada (limite atingido?)"
+msgstr "memória vetorial esgotada"
 
 #: src/main/memory.c:2179
 #, c-format
@@ -6408,9 +6407,8 @@ msgid "second argument must be a factor"
 msgstr "segundo argumento deve ser um fator"
 
 #: src/main/split.c:46
-#, fuzzy
 msgid "group length is 0 but data length > 0"
-msgstr "Comprimento do grupo é zero mas o comprimento dos dados é maior que zero"
+msgstr "comprimento do grupo é 0, mas o comprimento dos dados > 0"
 
 #: src/main/split.c:48
 msgid "data length is not a multiple of split variable"
