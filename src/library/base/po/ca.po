@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-06 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2024-06-24 18:49+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -2058,7 +2058,7 @@ msgstr "no es pot obrir el fitxer «%ls»: és un directori"
 
 #: src/main/connections.c:898 src/main/connections.c:1837
 #: src/main/connections.c:1989 src/main/connections.c:2185
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s': it is a directory"
 msgstr "no es pot obrir el fitxer «%s»: és un directori"
 
@@ -2158,7 +2158,6 @@ msgstr "Ha fallat l'assignació de la connexió fifo"
 #: src/main/deparse.c:492 src/main/saveload.c:2371 src/main/saveload.c:2456
 #: src/main/scan.c:969 src/main/serialize.c:2633 src/main/serialize.c:2689
 #: src/main/source.c:290
-#, fuzzy
 msgid "cannot open the connection"
 msgstr "no s'ha pogut obrir la connexió"
 
@@ -3027,7 +3026,7 @@ msgstr "«opts» ha de ser un enter petit no negatiu"
 #: src/main/envir.c:3842 src/main/eval.c:1178 src/main/eval.c:2608
 #: src/main/eval.c:5798 src/main/saveload.c:2082 src/main/saveload.c:2417
 #: src/main/serialize.c:3226
-#, fuzzy, c-format
+#, c-format
 msgid "object '%s' not found"
 msgstr "no s'ha trobat l'objecte «%s»"
 
@@ -3919,12 +3918,10 @@ msgid "Calls:"
 msgstr "Trucades:"
 
 #: src/main/errors.c:578 src/main/errors.c:597 src/main/errors.c:771
-#, fuzzy
 msgid "Lost warning messages\n"
 msgstr "Missatges d'avís perduts\n"
 
 #: src/main/errors.c:609
-#, fuzzy
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Missatge d'avís:"
@@ -3978,9 +3975,8 @@ msgid "Error: "
 msgstr "Error: "
 
 #: src/main/errors.c:888 src/main/errors.c:1500
-#, fuzzy
 msgid "In addition: "
-msgstr "A més: "
+msgstr "A més a més: "
 
 #: src/main/errors.c:1014
 #, fuzzy
@@ -7811,7 +7807,6 @@ msgid "error message truncated to 255 chars"
 msgstr "missatge d'error truncat a 255 caràcters"
 
 #: src/main/util.c:1831
-#, fuzzy
 msgid "warning message truncated to 255 chars"
 msgstr "missatge d'avís truncat a 255 caràcters"
 
@@ -8147,9 +8142,9 @@ msgid "not an open X11cairo device"
 msgstr "no és un dispositiu X11cairo obert"
 
 #: src/modules/X11/devX11.c:3374
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s'"
-msgstr "no s'ha pogut obrir el fitxer «%s»"
+msgstr "no es pot obrir el fitxer «%s»"
 
 #: src/modules/X11/devX11.c:3391
 #, fuzzy
@@ -8344,7 +8339,7 @@ msgid "cannot read from connection"
 msgstr "no es pot llegir des de la connexió"
 
 #: src/modules/internet/libcurl.c:1066
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open the connection to '%s'"
 msgstr "no s'ha pogut obrir la connexió a «%s»"
 
@@ -8783,7 +8778,7 @@ msgid "problem in saving the history file '%s'"
 msgstr "s'ha produït un problema en desar el fitxer d'historial «%s»"
 
 #: src/unix/sys-std.c:1306
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Cannot open file '%s': %s\n"
 "\n"
