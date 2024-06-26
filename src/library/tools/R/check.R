@@ -2475,11 +2475,11 @@ add_dummies <- function(dir, Log)
                     bad <- split(bad[, "Target"], bad[, "Source"])
                     msg <- c(if(any) "",
                              strwrap("Found the following Rd file(s) with Rd \\link{} targets missing package anchors:"),
-                             sprintf("  %s: %s",
-                                     names(bad),
-                                     strwrap(vapply(bad, paste, "",
-                                                    collapse = ", "),
-                                             exdent = 4L, indent = 0L)),
+                             strwrap(sprintf("  %s: %s",
+                                             names(bad),
+                                             vapply(bad, paste, "",
+                                                    collapse = ", ")),
+                                     exdent = 4L, indent = 2L),
                              strwrap("Please provide package anchors for all Rd \\link{} targets not in the package itself and the base packages."))
                     if(!any) {
                         noteLog(Log)
@@ -3869,7 +3869,10 @@ add_dummies <- function(dir, Log)
                          "It is good practice to register native routines and to disable symbol search.\n")
             wrapLog("\n", paste(msg, collapse = " "), "\n",
                     "See 'Writing portable packages'",
-                    "in the 'Writing R Extensions' manual.\n")
+                    "in the 'Writing R Extensions' manual.",
+                    "See section 'Moving into C API compliance' in the ",
+                    "'Writing R Extensions' manual for issues with use ",
+                    "of non-API entry points.\n")
         } else resultLog(Log, "OK")
     }
 
