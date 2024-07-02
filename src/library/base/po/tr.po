@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-29 01:32+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"Last-Translator: Arjen Deniz <arjendenizturkmen@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -1171,7 +1171,7 @@ msgstr "'resize' DOĞRU yada YANLIŞ olmalı"
 
 #: src/main/array.c:1920
 msgid "'x' must be numeric"
-msgstr "'x' sayısal olmalı"
+msgstr "'x' nümerik olmalı"
 
 #: src/main/array.c:1923
 #, fuzzy
