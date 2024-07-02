@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-06-10 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
 "Language-Team: R-Core <R-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -155,9 +155,9 @@ msgid "invalid string in '%s'"
 msgstr "ungültige Zeichenkette in '%s'"
 
 #: devPS.c:810
-#, fuzzy, c-format
+#, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
-msgstr "Zeichenbreite unbekannt für das Zeichen 0x%x"
+msgstr "Zeichenbreite unbekannt für das Zeichen 0x%02x im Encoding %s"
 
 #: devPS.c:871
 #, fuzzy, c-format
@@ -172,12 +172,12 @@ msgstr "unbekannte Kodierung '%s' in 'PostScriptMetricInfo'"
 #: devPS.c:899
 #, c-format
 msgid "Unicode character %lc (U+%04X) cannot be converted"
-msgstr ""
+msgstr "Der Unicode-Character %lc (U+%04X) kann nicht konvertiert werden"
 
 #: devPS.c:918 devPS.c:972
-#, fuzzy, c-format
+#, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr "Fontmetrik für das Zeichen 0x%x unbekannt"
+msgstr "Fontmetrik für das Zeichen 0x%x im Encoding %s ist unbekannt"
 
 #: devPS.c:987
 #, fuzzy, c-format
@@ -367,9 +367,9 @@ msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "unbekannte Kodierung '%s' in 'mbcsToSbcs'"
 
 #: devPS.c:4582 devPS.c:4589
-#, fuzzy, c-format
+#, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
-msgstr "Konvertierungsfehler für '%s' in 'mbcsToSbcs': Punkt ersetzt <%02x>"
+msgstr "Konvertierungsfehler für '%s' in 'mbcsToSbcs': für <%02x>"
 
 #: devPS.c:4584 devPS.c:4591
 #, c-format
