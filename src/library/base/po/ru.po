@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: R 2.11.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-04-24 03:05+0000\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
 "Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
@@ -5974,7 +5974,7 @@ msgstr "'%s' должен быть конечным числом"
 
 #: src/main/seq.c:852
 msgid "'length.out' must be a non-negative number"
-msgstr "'length.out' должен быть неотрицательным числом"
+msgstr "'length.out' должна быть неотрицательным числом"
 
 #: src/main/seq.c:866 src/main/seq.c:873 src/main/seq.c:881
 #, c-format
