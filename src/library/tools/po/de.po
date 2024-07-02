@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-10 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
 "Language-Team: R Core <r-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -133,7 +133,6 @@ msgid "cannot open the connection"
 msgstr "kann Verbindung nicht öffnen"
 
 #: gramRd.c:4543
-#, fuzzy
 msgid "cannot read from this connection"
 msgstr "kann aus dieser Verbindung nicht lesen"
 
