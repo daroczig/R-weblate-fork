@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R-4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-10 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
 "Language-Team: R-core <R-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -1058,9 +1058,10 @@ msgid "data length [%lld] is not a sub-multiple or multiple of the number of row
 msgstr "Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Zeilen [%d]"
 
 #: src/main/array.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr "Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Spalten [%d]"
+msgstr ""
+"Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Spalten [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
 #, c-format
@@ -1107,11 +1108,11 @@ msgid "a matrix-like object is required as argument to '%s'"
 msgstr "ein matrixähnliches Objekt ist als Argument für '%s' nötig"
 
 #: src/main/array.c:1269
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "%d Argument an '%s' übergeben, welches zwischen %d und %d benötigt"
-msgstr[1] "%d Argumente an '%s' übergeben, welches zwischen %d und %d benötigt"
+msgstr[0] "%d Argument an '%s' übergeben, welches mindestens %d benötigt"
+msgstr[1] "%d Argumente an '%s' übergeben, welches mindestens %d benötigt"
 
 #: src/main/array.c:1285
 #, c-format
@@ -1652,7 +1653,7 @@ msgstr "Nicht-character Namen"
 #: src/main/character.c:1036 src/main/character.c:1165
 #, fuzzy, c-format
 msgid "invalid multibyte string %lld"
-msgstr "ungültige multibyte Zeichenkette %lld"
+msgstr "ungültige Multi-Byte-Zeichenkette %lld"
 
 #: src/main/character.c:1078 src/main/grep.c:576
 msgid "non-character argument"
@@ -1689,9 +1690,9 @@ msgid "'old' is longer than 'new'"
 msgstr "'old' ist länger als 'new'"
 
 #: src/main/character.c:1594
-#, fuzzy, c-format
+#, c-format
 msgid "invalid input multibyte string %lld"
-msgstr "ungültige multi-byte Eingabezeichenkette %lld"
+msgstr "ungültige Multi-Byte-Eingabezeichenkette %lld"
 
 #: src/main/character.c:1701
 msgid "strtrim() requires a character vector"
@@ -1791,7 +1792,7 @@ msgstr "ungültige Argumentenliste"
 #: src/main/coerce.c:1798
 #, fuzzy, c-format
 msgid "'length = %lld' in coercion to '%s'"
-msgstr "'length(x) = %lld > 1' in Umwandlung zu '%s'"
+msgstr "'length(x) = %lld > 1' in forcierter Umwandlung zu '%s'"
 
 #: src/main/coerce.c:2143
 msgid "type \"single\" unimplemented in R"
@@ -2307,7 +2308,6 @@ msgstr "Schreibfehler in Verbindung"
 #: src/main/connections.c:4962 src/main/connections.c:5798 src/main/dcf.c:100
 #: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2454
 #: src/main/source.c:293
-#, fuzzy
 msgid "cannot read from this connection"
 msgstr "kann aus dieser Verbindung nicht lesen"
 
@@ -2318,7 +2318,7 @@ msgstr "kann Buffer in readLines nicht allozieren"
 #: src/main/connections.c:4151
 #, fuzzy, c-format
 msgid "line %lld appears to contain an embedded nul"
-msgstr "Zeile %lld scheint ein nul Zeichen zu enthalten"
+msgstr "Zeile %lld scheint ein Null-Zeichen zu enthalten"
 
 #: src/main/connections.c:4170
 #, c-format
@@ -2495,7 +2495,7 @@ msgstr "Schreibfehler während flush auf 'gzcon'-Verbindung"
 #: src/main/connections.c:6033
 #, fuzzy, c-format
 msgid "crc error %lx %lx\n"
-msgstr "Checksummenfehler %lx %lx\n"
+msgstr "CRC-Fehler %lx %lx\n"
 
 #: src/main/connections.c:6060
 msgid "write error on 'gzcon' connection"
@@ -2555,7 +2555,7 @@ msgstr "keine Socket Verbindung"
 #: src/modules/internet/sockconn.c:297
 #, fuzzy
 msgid "file descriptor is too large for select()"
-msgstr "Länge %d zu lang für hashing"
+msgstr "Die File-Beschreibung ist zu lang für select()"
 
 #: src/main/connections.c:6448 src/modules/internet/libcurl.c:793
 msgid "too many file descriptors for select()"
@@ -4085,7 +4085,7 @@ msgstr "ungültige Menge von quote Symbolen (%s:%d:%d)"
 #: src/main/gram.y:1777
 #, fuzzy
 msgid "out of memory while parsing"
-msgstr "zu wenig Speicher beim Abschneiden von polyline"
+msgstr "zu wenig Speicher beim Parsen"
 
 #: src/main/gram.y:2125 src/main/gram.y:3964 src/main/gram.y:3972
 #: src/main/gram.y:3979 src/main/gram.y:3987
@@ -4136,7 +4136,7 @@ msgstr "Unerwartete(s) %s"
 #: src/main/gram.y:2435
 #, fuzzy, c-format
 msgid "repeated formal argument '%s' (%s:%d:%d)"
-msgstr "wiederholtes formales Argument '%s' in Zeile %d"
+msgstr "wiederholtes formales Argument '%s' (%s:%d:%d)"
 
 #: src/main/gram.y:2671
 #, c-format
@@ -4186,8 +4186,7 @@ msgstr ""
 #, fuzzy, c-format
 msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
 msgstr ""
-"\\uxxxx-Sequenzen, die innerhalb von Backticks nicht unterstützt werden "
-"(%s:%d:%d)"
+"\\uxxxx-Sequenzen werden innerhalb von Backticks nicht unterstützt (%s:%d:%d)"
 
 #: src/main/gram.y:2978
 #, c-format
@@ -4328,24 +4327,24 @@ msgstr ""
 #: src/main/grep.c:627 src/main/grep.c:729 src/main/grep.c:845
 #: src/main/grep.c:1401 src/main/grep.c:2269 src/main/grep.c:3165
 #: src/main/grep.c:3254
-#, fuzzy, c-format
+#, c-format
 msgid "input string %lld is invalid UTF-8"
 msgstr "Eingabe-Zeichenkette %lld ist ungültig in UTF-8"
 
 #: src/main/grep.c:705 src/main/grep.c:805
 #, fuzzy, c-format
 msgid "'split' string %lld is invalid UTF-8"
-msgstr "'split' Zeichenkette %lld ist inkorrektes UTF-8"
+msgstr "'split'-Zeichenkette %lld ist inkorrektes UTF-8"
 
 #: src/main/grep.c:710 src/main/grep.c:810 src/main/grep.c:1038
-#, fuzzy, c-format
+#, c-format
 msgid "'split' string %lld is invalid in this locale"
-msgstr "'split' Zeichenkette %lld ist ungültig in dieser Lokalisierung"
+msgstr "'split'-Zeichenkette %lld ist ungültig in dieser Lokalisierung"
 
 #: src/main/grep.c:956
 #, fuzzy, c-format
 msgid "'split' string %lld is invalid"
-msgstr "'split' Zeichenkette %lld ist inkorrektes UTF-8"
+msgstr "'split'-Zeichenkette %lld ist nicht valide"
 
 #: src/main/grep.c:972 src/main/grep.c:1393 src/main/grep.c:2265
 #: src/main/grep.c:2573 src/main/grep.c:3156
