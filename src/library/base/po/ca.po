@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-24 18:49+0000\n"
+"PO-Revision-Date: 2024-07-03 03:05+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -327,9 +327,8 @@ msgstr "la impressió d'una sortida extremadament llarga està truncada"
 #: src/gnuwin32/run.c:1114 src/main/connections.c:1695
 #: src/main/connections.c:1699 src/main/connections.c:1706
 #: src/main/connections.c:1721
-#, fuzzy
 msgid "allocation of pipe connection failed"
-msgstr "ha fallat l'assignació de la connexió de canonada"
+msgstr "ha fallat l'assignació de la connexió del conducte"
 
 #: src/gnuwin32/run.c:1130
 msgid "'names' is not a character vector"
@@ -657,14 +656,14 @@ msgid "Invalid object."
 msgstr "L'objecte no és vàlid."
 
 #: src/main/Rdynload.c:427
-#, fuzzy, c-format
+#, c-format
 msgid "Invalid entry '%s' in native symbol object."
-msgstr "L'entrada «%s» no és vàlida a l'objecte de símbol natiu."
+msgstr "L'entrada «%s» no és vàlida en un objecte símbol natiu."
 
 #: src/main/Rdynload.c:433
-#, fuzzy, c-format
+#, c-format
 msgid "Component '%s' missing in symbol object."
-msgstr "Falta el component «%s» a l'objecte de símbol."
+msgstr "Falta el component «%s» en un objecte símbol."
 
 #: src/main/Rdynload.c:445
 msgid "Invalid symbol list."
@@ -981,7 +980,6 @@ msgstr ""
 "  Utilitzeu c() o as.vector() en el seu lloc."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
-#, fuzzy
 msgid "non-conformable arrays"
 msgstr "matrius no conformes"
 
@@ -1129,7 +1127,6 @@ msgid "requires numeric/complex matrix/vector arguments"
 msgstr "requereix arguments matriu/vector de tipus numèric/complex"
 
 #: src/main/array.c:1404 src/main/array.c:1408 src/main/array.c:1412
-#, fuzzy
 msgid "non-conformable arguments"
 msgstr "arguments no conformes"
 
@@ -1148,42 +1145,35 @@ msgid "'perm' is of wrong length %d (!= %d)"
 msgstr "«perm» té una longitud incorrecta %d (!= %d)"
 
 #: src/main/array.c:1737 src/main/array.c:1740
-#, fuzzy
 msgid "'a' does not have named dimnames"
-msgstr "«a» no té noms difuminats"
+msgstr "«a» no té dimnames amb noms"
 
 #: src/main/array.c:1748
-#, fuzzy, c-format
+#, c-format
 msgid "'perm[%d]' does not match a dimension name"
-msgstr "'perm[%d]' no coincideix amb un nom de dimensió"
+msgstr "«perm[%d]» no coincideix amb un nom de dimensió"
 
 #: src/main/array.c:1761
-#, fuzzy
 msgid "value out of range in 'perm'"
 msgstr "valor fora de l'interval a «perm»"
 
 #: src/main/array.c:1854
-#, fuzzy
 msgid "'resize' must be TRUE or FALSE"
-msgstr "«resize» ha de ser CERT o FALS"
+msgstr "«resize» ha de ser TRUE o FALSE"
 
 #: src/main/array.c:1924
-#, fuzzy
 msgid "'x' must be numeric"
-msgstr "«%s» ha de ser una matriu numèrica"
+msgstr "«%s» ha de ser numèric"
 
 #: src/main/array.c:1927
-#, fuzzy
 msgid "'x' is too short"
 msgstr "«x» és massa curt"
 
 #: src/main/array.c:2101
-#, fuzzy
 msgid "'dims' cannot be of length 0"
 msgstr "«dims» no pot ser de longitud 0"
 
 #: src/main/array.c:2209
-#, fuzzy
 msgid "'x' must have positive length"
 msgstr "«x» ha de tenir una longitud positiva"
 
