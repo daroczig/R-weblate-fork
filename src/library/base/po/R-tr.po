@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"PO-Revision-Date: 2024-07-05 03:05+0000\n"
 "Last-Translator: Arjen Deniz <arjendenizturkmen@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -1505,43 +1505,47 @@ msgid "unable to find a plausible encoding"
 msgstr ""
 
 msgid "encoding = \"%s\" chosen"
-msgstr ""
+msgstr "encoding = \"%s\" seçildi"
 
 msgid "'chdir = TRUE' makes no sense for a URL"
-msgstr ""
+msgstr "'chdir = TRUE' bir URL için hiçbir anlam ifade etmiyor"
 
 msgid "cannot 'chdir' as current directory is unknown"
-msgstr ""
+msgstr "Geçerli dizin bilinmediği için 'chdir' kullanılamıyor"
 
 msgid "'chdir = TRUE' makes no sense for a connection"
 msgstr ""
 
 msgid "specify either 'file' or 'exprs' but not both"
 msgstr ""
+"'exprs' veya 'exprObject' ifadelerinden yalnızca birini belirtin, ikisini "
+"birden değil"
 
 msgid "'%s' is not an existing file"
 msgstr ""
 
 msgid "'formula' must be a formula"
-msgstr ""
+msgstr "'formula' bir formül olmalı"
 
 msgid "Unexpected LHS in 'formula' has been ignored."
-msgstr ""
+msgstr "'formula'daki beklenmeyen LHS yok sayıldı."
 
 msgid "Unexpected LHS in 'formula' has been combined with RHS."
-msgstr ""
+msgstr "'formula'daki beklenmeyen LHS, RHS ile birleştirildi."
 
 msgid "Timestamp of %s has changed"
-msgstr ""
+msgstr "%s'in zaman damgası değişti"
 
 msgid "'x' and 'to' must refer to same file"
-msgstr ""
+msgstr "'x' ve 'to' aynı dosyaya işaret etmeli"
 
 msgid "additional arguments ignored in stop()"
-msgstr ""
+msgstr "stop() içindeki ek argümanlar yok sayıldı"
 
+#, fuzzy
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
 msgstr ""
+"'exprs', 'exprObject' veya ifadelerden yalnızca biri, daha fazlası değil"
 
 msgid ""
 "%s and %s are not equal:\n"
@@ -1551,7 +1555,7 @@ msgstr ""
 "  %s"
 
 msgid "additional arguments ignored in warning()"
-msgstr ""
+msgstr "warning() içindeki ek argümanlar yok sayıldı"
 
 msgid "no natural language support or missing translations"
 msgstr ""
