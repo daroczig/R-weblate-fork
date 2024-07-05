@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-03 03:05+0000\n"
+"PO-Revision-Date: 2024-07-06 03:05+0000\n"
 "Last-Translator: Arjen Deniz <arjendenizturkmen@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -6107,9 +6107,8 @@ msgid "'%s' must be of length 1"
 msgstr "'%s' 1 uzunluğunda olmalıdır"
 
 #: src/main/seq.c:899
-#, fuzzy
 msgid "invalid '(to - from)/by'"
-msgstr "'seq' içinde geçersiz '(to - from)/by'"
+msgstr "geçersiz '(to - from)/by'"
 
 #: src/main/seq.c:911
 msgid "'by' argument is much too small"
@@ -6117,7 +6116,7 @@ msgstr "'by' argümanı çok küçük"
 
 #: src/main/seq.c:913
 msgid "wrong sign in 'by' argument"
-msgstr "'by' argümanında yanlış imza"
+msgstr "'by' argümanında yanlış girdi"
 
 #: src/main/seq.c:1101 src/main/seq.c:1108
 msgid "argument must be coercible to non-negative integer"
@@ -6837,9 +6836,8 @@ msgid "invalid input type"
 msgstr "geçersiz giriş biçimi"
 
 #: src/main/summary.c:1249
-#, fuzzy
 msgid "an argument will be fractionally recycled"
-msgstr "argüman '%s' görmezden gelinecek"
+msgstr "bir argüman kısmi geri dönüştürülecek"
 
 #: src/main/sysutils.c:75 src/main/sysutils.c:89
 #, c-format
