@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: R 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-07-06 03:05+0000\n"
+"PO-Revision-Date: 2024-07-07 17:20+0000\n"
 "Last-Translator: Arjen Deniz <arjendenizturkmen@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
@@ -1195,18 +1195,20 @@ msgstr ""
 
 msgid "in package %s methods %s were specified for export but not defined"
 msgstr ""
+"Paket %s yöntemlerinde %s dışarı aktarma için belirtildi ancak tanımlanmadı"
 
 msgid "-- done processing S4 stuff for"
 msgstr ""
 
+#, fuzzy
 msgid "--- processing exports for"
-msgstr ""
+msgstr "--- dışa aktarmalar işleniyor"
 
 msgid "--- sealing exports for"
 msgstr ""
 
 msgid "- done loading"
-msgstr ""
+msgstr "- yükleme bitti"
 
 #, fuzzy
 msgid "Loading required namespace: %s"
@@ -1220,31 +1222,36 @@ msgstr ""
 
 #, fuzzy
 msgid "not a namespace"
-msgstr "isim alanı"
+msgstr "isim alanı değil"
 
 msgid "operation not allowed on base namespace"
-msgstr ""
+msgstr "Temel ad alanında işleme izin verilmiyor"
 
 msgid "duplicate import names %s"
-msgstr ""
+msgstr "Yinelenen içe aktarma adları %s"
 
+#, fuzzy
 msgid "replacing local value with import %s when loading %s"
-msgstr ""
+msgstr "%s yüklenirken lokal değeri içe aktarılan %s ile değiştiriliyor"
 
 msgid "cannot import into a sealed namespace"
 msgstr ""
 
+#, fuzzy
 msgid "replacing previous import by %s when loading %s"
-msgstr ""
+msgstr "%s yüklenirken önceki içe aktarmayı %s ile değiştirme"
 
 msgid "invalid import target"
-msgstr ""
+msgstr "geçersiz içe aktarma hedefi"
 
 msgid "found methods to import for function %s but not the generic itself"
 msgstr ""
+"%s fonksiyonu için içe aktarılacak yöntemler bulundu, ancak genel yöntemi "
+"değil"
 
+#, fuzzy
 msgid "replacing previous import %s by %s when loading %s"
-msgstr ""
+msgstr "%s yüklenirken önceki içe aktarma %s'yi %s ile değiştirme"
 
 msgid "No generic function %s found corresponding to requested imported methods from package %s when loading %s (malformed exports?)"
 msgstr ""
