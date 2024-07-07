@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-07-07 17:20+0000\n"
+"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -155,15 +155,15 @@ msgstr "遇到未知AFM值这个错误"
 msgid "invalid string in '%s'"
 msgstr "'%s'里的字符串无效"
 
-#: devPS.c:811
-#, fuzzy, c-format
+#: devPS.c:810
+#, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
-msgstr "字符0x%x不带字体宽度这样的设置"
+msgstr "编码 %s 中字符 0x%02x 的字体宽度未知"
 
-#: devPS.c:872
-#, fuzzy, c-format
+#: devPS.c:871
+#, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
-msgstr "Unicode字符U+%04x不带字体度量"
+msgstr "Unicode 字符 U+%04X 的字体规格未知"
 
 #: devPS.c:883
 #, c-format
@@ -1097,3 +1097,4 @@ msgstr "石英字体数据库里找不到字体系列"
 
 #~ msgid "unable to start device Quartz"
 #~ msgstr "无法启动石英装置"
+
