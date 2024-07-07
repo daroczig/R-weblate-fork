@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-09-18 03:05+0000\n"
+"PO-Revision-Date: 2024-07-07 17:20+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -84,16 +84,14 @@ msgstr "名称数目不正确"
 msgid "'formula' missing or incorrect"
 msgstr "缺失'formula'或有错误"
 
-#, fuzzy
 msgid "formula must specify 1 or 2 categorical variables"
-msgstr "'formula'只能指定两个变量"
+msgstr "'formula'只能被指定为1个或2个分类变量"
 
 msgid "duplicated categorical values - try another formula or subset"
 msgstr ""
 
-#, fuzzy
 msgid "formula with cbind() must specify 1 categorical variable"
-msgstr "'formula'只能指定两个变量"
+msgstr "带有 cbind()的'formula'只能指定1个分类变量"
 
 msgid "invalid first argument"
 msgstr "第一个参数无效"
