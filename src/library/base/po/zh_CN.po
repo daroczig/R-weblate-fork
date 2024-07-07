@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-20 00:20+0000\n"
+"PO-Revision-Date: 2024-07-07 17:20+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -3581,7 +3581,7 @@ msgstr ""
 
 #: src/main/errors.c:795
 msgid "Error in "
-msgstr "错误于 "
+msgstr "错误位于 "
 
 #: src/main/errors.c:814 src/main/errors.c:821
 #, c-format
@@ -3591,7 +3591,7 @@ msgstr "%s中错误(从%s) : "
 #: src/main/errors.c:823
 #, c-format
 msgid "Error in %s : "
-msgstr "错误于%s: "
+msgstr "错误位于%s: "
 
 #: src/main/errors.c:849 src/main/errors.c:855
 msgid "Error: "
