@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-03 03:05+0000\n"
-"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
+"PO-Revision-Date: 2024-07-10 12:20+0000\n"
+"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -1185,14 +1185,13 @@ msgstr "matriu singular a «backsolve». Primer zero en diagonal [%d]"
 #: src/main/attrib.c:44 src/main/attrib.c:253 src/main/attrib.c:285
 #: src/main/attrib.c:309 src/main/attrib.c:434 src/main/attrib.c:481
 #: src/main/attrib.c:535
-#, fuzzy
 msgid "attempt to set an attribute on NULL"
 msgstr "s'ha intentat establir un atribut a NULL"
 
 #: src/main/attrib.c:81
-#, fuzzy, c-format
+#, c-format
 msgid "row names must be 'character' or 'integer', not '%s'"
-msgstr "els noms de les files han de ser 'caràcter' o 'enter', no '%s'"
+msgstr "els noms de les files han de ser 'character' o 'integer', no '%s'"
 
 #: src/main/attrib.c:141
 #, fuzzy, c-format
@@ -1200,14 +1199,13 @@ msgid "getAttrib: invalid type (%s) for TAG"
 msgstr "getAttrib: tipus no vàlid (%s) per a l'ETIQUETA"
 
 #: src/main/attrib.c:359
-#, fuzzy
 msgid "cannot set attribute on a symbol"
-msgstr "no s'ha pogut establir l'atribut en un símbol"
+msgstr "no es pot establir atribut en un símbol"
 
 #: src/main/attrib.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-msgstr "tipus no vàlid (%s) per a 'noms': ha de ser vector o NULL"
+msgstr "tipus no vàlid (%s) per a 'names': ha de ser un vector o NULL"
 
 #: src/main/attrib.c:410
 #, fuzzy, c-format
