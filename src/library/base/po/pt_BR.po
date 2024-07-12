@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-19 19:37+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
+"PO-Revision-Date: 2024-07-13 03:05+0000\n"
+"Last-Translator: Fernando Corrêa <fptcorrea@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -6426,7 +6426,7 @@ msgstr "'fmt' não é um vetor de caracteres"
 #: src/main/sprintf.c:111
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr "somente %d argumentos são permitidos"
+msgstr ""
 
 #: src/main/sprintf.c:119
 #, c-format
