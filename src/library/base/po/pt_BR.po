@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-07-13 03:05+0000\n"
-"Last-Translator: Fernando Corrêa <fptcorrea@gmail.com>\n"
+"Last-Translator: Gergely Daroczi <gergely@rx.studio>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -4644,10 +4644,10 @@ msgstr ""
 msgid "memory exhausted"
 msgstr "memória esgotada (limite atingido?)"
 
-#: src/main/memory.c:2330
-#, fuzzy, c-format
-msgid "cannot allocate memory block of size %0.f %s"
-msgstr "não foi possível alocar um bloco de memória de tamanho %0.1f Gb"
+#: src/main/memory.c:2329
+#, c-format
+msgid "cannot allocate memory block of size %0.f Tb"
+msgstr "não foi possível alocar um bloco de memória de tamanho %0.1f Tb"
 
 #: src/main/memory.c:2335
 #, fuzzy, c-format
@@ -8885,4 +8885,5 @@ msgstr "ATENÇÃO: Somente editando o primeiro arquivo da lista"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' chamada em um ambiente não-primitivo"
+
 
