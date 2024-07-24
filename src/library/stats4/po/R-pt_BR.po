@@ -8,7 +8,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2020-03-24 10:13\n"
 "PO-Revision-Date: 2024-07-24 03:05+0000\n"
-"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
+"Last-Translator: Gabriel Tormin <gta1998@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#, fuzzy
 msgid "named list expected"
 msgstr "lista nomeada esperada"
 
@@ -29,7 +28,6 @@ msgstr ""
 msgid "Mismatch in length of start values"
 msgstr "Incompatibilidade no comprimento dos valores iniciais"
 
-#, fuzzy
 msgid "fixed values violate constraints"
 msgstr "valores fixos violam restrições"
 
