@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.11.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2023-09-01 11:37+0000\n"
-"Last-Translator: Caio Lente <lente@ime.usp.br>\n"
+"PO-Revision-Date: 2024-07-24 03:05+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -32,7 +32,7 @@ msgstr "argumento inválido"
 
 #: tcltk.c:290
 msgid "no such variable"
-msgstr ""
+msgstr "variável não existente"
 
 #: tcltk.c:322 tcltk.c:342 tcltk.c:417 tcltk.c:482 tcltk.c:536
 msgid "invalid tclObj -- perhaps saved from another session?"
