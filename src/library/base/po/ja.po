@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"PO-Revision-Date: 2024-07-25 03:05+0000\n"
 "Last-Translator: Reiko Okamoto <reiko.okamoto17@gmail.com>\n"
 "Language-Team: R-core <R-core@R-project.org>\n"
 "Language: ja\n"
@@ -71,7 +71,7 @@ msgstr ""
 #: src/appl/pretty.c:142
 #, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "R_pretty(): 'cell' の範囲 =%g が小さすぎて %g に修正しました"
+msgstr "R_pretty(): 'cell' の範囲 =%g が狭すぎて %g に修正しました"
 
 #: src/appl/pretty.c:146
 #, c-format
@@ -5360,7 +5360,7 @@ msgstr "'mode' の長さは 1 以上でなくてはなりません"
 #: src/main/plot3d.c:120
 #, c-format
 msgid "contour(): circular/long seglist -- set %s > %d?"
-msgstr "contour(): circular/long seglist -- %s > %d を設定してみてください"
+msgstr "contour(): circular/long seglist -- %s > %d を設定してください"
 
 #: src/main/plot3d.c:198
 msgid "all z values are equal"
