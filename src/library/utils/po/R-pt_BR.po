@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-07-24 03:05+0000\n"
+"Last-Translator: Rafael Fontenelle <rffontenelle+r@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgid "No suitable spell check program found."
 msgstr "Nenhum programa de correção ortográfica apropriado foi encontrado."
 
 msgid "Performing query %s"
-msgstr ""
+msgstr "Realizando consulta %s"
 
 msgid ""
 "Use <code> %s </code> \n"
@@ -537,9 +537,8 @@ msgstr "não é possível atualizar índice HTML do pacote"
 msgid "done"
 msgstr "concluído"
 
-#, fuzzy
 msgid "Source must be a seekable connection"
-msgstr "'file' deve ser uma string de caracteres ou conexão"
+msgstr "A fonte deve ser uma conexão buscável"
 
 msgid "menu() cannot be used non-interactively"
 msgstr "menu() não deve ser usada de forma não interativa"
@@ -958,6 +957,8 @@ msgstr "O argumento 'flesh' não contém um atributo skeleton."
 
 msgid "Either ensure you unlist a relistable object, or specify the skeleton separately."
 msgstr ""
+"Certifique-se de não listas um objeto relistável ou especifique o esqueleto "
+"separadamente."
 
 msgid "cannot coerce 'x' to roman"
 msgstr "não é possível fazer coerção de 'x' para romano"
@@ -1019,9 +1020,8 @@ msgstr "O número de tokens != 'length(proto)'"
 msgid "The number of tokens is not consistent across 'x'"
 msgstr "O número de tokens não é consistente ao longo de 'x'"
 
-#, fuzzy
 msgid "cannot coerce %s to TRUE or FALSE"
-msgstr "não é possível fazer a coerção de %s para lógico"
+msgstr "não é possível fazer a coerção para TRUE ou FALSE"
 
 msgid "no lines found in %s"
 msgstr "nenhuma linha encontrada em %s"
@@ -1084,7 +1084,7 @@ msgid "incomplete block on file"
 msgstr "bloco inválido no arquivo"
 
 msgid "incomplete block: rather use gzfile(.) created connection?"
-msgstr ""
+msgstr "bloco incompleto: prefere usar conexão criada com gzfile(.)?"
 
 msgid "invalid name field in tarball"
 msgstr "campo name inválido no tarball"
