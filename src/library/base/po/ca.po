@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-10 12:20+0000\n"
+"PO-Revision-Date: 2024-07-26 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1208,32 +1208,28 @@ msgid "invalid type (%s) for 'names': must be vector or NULL"
 msgstr "tipus no vàlid (%s) per a 'names': ha de ser un vector o NULL"
 
 #: src/main/attrib.c:410
-#, fuzzy, c-format
+#, c-format
 msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
-msgstr "l'atribut «names» [%lld] ha de tenir la mateixa longitud que el vector [%lld]"
+msgstr ""
+"l'atribut «names» [%lld] ha de tenir la mateixa longitud que el vector [%lld]"
 
 #: src/main/attrib.c:416
-#, fuzzy
 msgid "names() applied to a non-vector"
 msgstr "names() aplicat a un no vector"
 
 #: src/main/attrib.c:424
-#, fuzzy
 msgid "invalid time series parameters specified"
-msgstr "s'han especificat paràmetres de sèries de temps no vàlids"
+msgstr "s'han especificat paràmetres de sèries de temporals no vàlids"
 
 #: src/main/attrib.c:438
-#, fuzzy
 msgid "'tsp' attribute must be numeric"
 msgstr "l'atribut «tsp» ha de ser numèric"
 
 #: src/main/attrib.c:444
-#, fuzzy
 msgid "'tsp' attribute must be numeric of length three"
 msgstr "l'atribut «tsp» ha de ser numèric de longitud tres"
 
 #: src/main/attrib.c:461
-#, fuzzy
 msgid "cannot assign 'tsp' to zero-length vector"
 msgstr "no es pot assignar «tsp» a un vector de longitud zero"
 
