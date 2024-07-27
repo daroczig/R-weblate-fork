@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-26 03:05+0000\n"
+"PO-Revision-Date: 2024-07-28 11:20+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1234,74 +1234,67 @@ msgid "cannot assign 'tsp' to zero-length vector"
 msgstr "no es pot assignar «tsp» a un vector de longitud zero"
 
 #: src/main/attrib.c:492
-#, fuzzy
 msgid "attempt to set invalid 'comment' attribute"
-msgstr "s'ha intentat establir l'atribut «comment» no vàlid"
+msgstr "s'ha intentat establir un atribut «comment» no vàlid"
 
 #: src/main/attrib.c:544
-#, fuzzy
 msgid "adding class \"factor\" to an invalid object"
 msgstr "s'està afegint la classe «factor» a un objecte no vàlid"
 
 #: src/main/attrib.c:575
-#, fuzzy
 msgid "attempt to set invalid 'class' attribute"
-msgstr "s'ha intentat establir l'atribut «class» no vàlid"
+msgstr "s'ha intentat establir un atribut «class» no vàlid"
 
 #: src/main/attrib.c:926
-#, fuzzy, c-format
+#, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-msgstr "no és vàlid usar names() on- en un objecte S4 de la classe «%s»"
+msgstr "no és vàlid usar names()<- en un objecte S4 de la classe «%s»"
 
 #: src/main/attrib.c:969
-#, fuzzy
 msgid "incompatible 'names' argument"
 msgstr "argument «names» incompatible"
 
 #: src/main/attrib.c:1019
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) to set 'names' attribute"
 msgstr "tipus no vàlid (%s) per a definir l'atribut «names»"
 
 #: src/main/attrib.c:1093
-#, fuzzy
 msgid "'dimnames' applied to non-array"
-msgstr "'dimnames' aplicat a no-array"
+msgstr "«dimnames» aplicat a una no-matriu"
 
 #: src/main/attrib.c:1098 src/main/coerce.c:2729
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list"
 msgstr "«%s» ha de ser una llista"
 
 #: src/main/attrib.c:1102 src/main/attrib.c:1131
-#, fuzzy, c-format
+#, c-format
 msgid "length of 'dimnames' [%d] must match that of 'dims' [%d]"
 msgstr "la longitud de «dimnames» [%d] ha de coincidir amb la de «dims» [%d]"
 
 #: src/main/attrib.c:1137
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for 'dimnames' (must be a vector)"
 msgstr "tipus no vàlid (%s) per a «dimnames» (ha de ser un vector)"
 
 #: src/main/attrib.c:1140
-#, fuzzy, c-format
+#, c-format
 msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr "la longitud de «dimnames» [%d] no és igual a l'extensió de la matriu"
 
 #: src/main/attrib.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
 msgstr "el segon argument no és vàlid, ha de ser %s"
 
 #: src/main/attrib.c:1235
-#, fuzzy
 msgid "length-0 dimension vector is invalid"
-msgstr "el vector longitud-0 dimensió no és vàlid"
+msgstr "el vector de dimensió de longitud 0 no és vàlid"
 
 #: src/main/attrib.c:1240
-#, fuzzy
 msgid "the dims contain missing values"
-msgstr "els valors perduts contenen ATENUAcions"
+msgstr "el «dims» conté valors no disponibles"
 
 #: src/main/attrib.c:1242
 #, fuzzy
