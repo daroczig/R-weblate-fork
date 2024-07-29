@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 4.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-28 11:20+0000\n"
+"PO-Revision-Date: 2024-07-30 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -1297,22 +1297,22 @@ msgid "the dims contain missing values"
 msgstr "el «dims» conté valors no disponibles"
 
 #: src/main/attrib.c:1242
-#, fuzzy
 msgid "the dims contain negative values"
-msgstr "els valors d'enfosquiment contenen valors negatius"
+msgstr "les dimensions contenen valors negatius"
 
 #: src/main/attrib.c:1246
-#, fuzzy, c-format
+#, c-format
 msgid "dims [product %lld] do not match the length of object [%lld]"
-msgstr "dims [producte %lld] no coincideix amb la longitud de l'objecte [%lld]"
+msgstr ""
+"les dimensions [producte de %lld] no coincideixen amb la longitud de "
+"l'objecte [%lld]"
 
 #: src/main/attrib.c:1328
-#, fuzzy, c-format
+#, c-format
 msgid "factor level [%lld] is duplicated"
 msgstr "el nivell del factor [%lld] està duplicat"
 
 #: src/main/attrib.c:1356
-#, fuzzy
 msgid "attributes must be a list or NULL"
 msgstr "els atributs han de ser una llista o NULL"
 
@@ -1322,23 +1322,21 @@ msgid "attributes must be named"
 msgstr "els atributs han de ser anomenats"
 
 #: src/main/attrib.c:1365
-#, fuzzy, c-format
+#, c-format
 msgid "all attributes must have names [%d does not]"
-msgstr "tots els atributs han de tenir noms [%d no]"
+msgstr "tots els atributs han de tenir noms [%d no en té]"
 
 #: src/main/attrib.c:1470
-#, fuzzy
 msgid "'which' must be of mode character"
-msgstr "«quin» ha de ser de caràcter de mode"
+msgstr "«which» ha de ser de mode caràcter"
 
 #: src/main/attrib.c:1472
-#, fuzzy
 msgid "exactly one attribute 'which' must be given"
-msgstr "s'ha de donar exactament un atribut «quin»"
+msgstr "s'ha de donar exactament un atribut «which»"
 
 #: src/main/attrib.c:1533 src/main/attrib.c:1556 src/main/subscript.c:298
 #: src/main/subscript.c:302 src/main/subset.c:1332 src/main/subset.c:1390
-#, fuzzy, c-format
+#, c-format
 msgid "partial match of '%s' to '%s'"
 msgstr "coincidència parcial de «%s» a «%s»"
 
