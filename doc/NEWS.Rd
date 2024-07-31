@@ -46,6 +46,9 @@
       corresponding metadata field, and logical arguments
       \code{timestamp} and \code{producer} to optionally omit the
       respective metadata.  (Thanks to \I{Edzer Pebesma}.)
+
+      \item \code{grDevices::glyphInfo()} gains \code{rot} argument
+      to allow per-glyph rotation.   (Thanks to \I{Daniel Sabanes Bove}.)
     }
   }
 
@@ -80,7 +83,7 @@
 
   \subsection{INSTALLATION}{
     \itemize{
-      \item Control of symbol visibility is now suported on macOS (the
+      \item Control of symbol visibility is now supported on macOS (the
       previous check only worked on ELF platforms).
     }
   }
