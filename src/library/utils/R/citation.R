@@ -239,10 +239,8 @@ function(x, i, j, value)
         value <- rep_len(value, length(p))
         if(j == "role")
             value <- lapply(value, .canonicalize_person_role)
-        for(i in p) 
-            y[[i]][[j]] <- if(.is_not_nonempty_text(value[[i]]))
-                               NULL
-                           else as.character(value[[i]])
+        for(i in p)
+            y[[i]] <- .person_elt_fld_gets(y[[i]], j, value[[i]])            
     }
     class(y) <- class(x)
     y
@@ -262,12 +260,19 @@ function(x, i, j, value)
         j <- match.arg(j, person_field_names)
         if(j == "role")
             value <- .canonicalize_person_role(value)
-        y[[i]][[j]] <- if(.is_not_nonempty_text(value))
-                           NULL
-                       else as.character(value)
+        y[[i]] <- .person_elt_fld_gets(y[[i]], j, value)
     }
     class(y) <- class(x)
     y
+}
+
+.person_elt_fld_gets <-
+function(x, j, v)
+{
+    x[[j]] <- if(.is_not_nonempty_text(v))
+                  NULL
+              else as.character(v)
+    x
 }
         
 print.person <-
@@ -301,13 +306,10 @@ function(x, name, value)
         value <- lapply(value, .canonicalize_person_role)
 
     for(i in seq_along(x)) {
-        x[[i]][[name]] <- if(.is_not_nonempty_text(value[[i]]))
-            NULL
-        else as.character(value[[i]])
+        x[[i]] <- .person_elt_fld_gets(x[[i]], name, value[[i]])
     }
 
-    class(x) <- "person"
-    x
+    .person(x)
 }
 
 c.person <-
@@ -727,24 +729,20 @@ function(x)
     unlist(keys)
 }
 
+.bibentry_names_or_keys <-
+function(x)
+{
+    if(is.null(y <- names(x)))
+        y <- .bibentry_get_key(x)
+    y
+}
+
 `[.bibentry` <-
 function(x, i, j, drop = TRUE)    
 {
     if(!length(x)) return(x)
 
-    s <- seq_along(x)
-    if(!missing(i) && is.character(i)) {
-        ## For character subscript i, use keys if there are no names.
-        ## Note that creating bibentries does not add the keys as names: 
-        ## assuming that both can independently be set, we would need to
-        ## track whether names were auto-generated or not.
-        ## (We could consider providing a names() getter which returns
-        ## given names or keys as used for character subscripting,
-        ## though). 
-        names(s) <- names(x)
-        if(is.null(names(s)))
-            names(s) <- .bibentry_get_key(x)
-    }
+    s <- .bibentry_seq_along(x, i)
     i <- s[i]
     y <- unclass(x)[i]
     if(!all(ok <- lengths(y) > 0L)) {
@@ -770,13 +768,7 @@ function(x, i, j, drop = TRUE)
 `[[.bibentry` <-
 function(x, i, j)    
 {
-    s <- seq_along(x)
-    if(is.character(i)) {
-        ## See comments in [ method.
-        names(s) <- names(x)
-        if(is.null(names(s)))
-            names(s) <- .bibentry_get_key(x)
-    }
+    s <- .bibentry_seq_along(x, i)
     i <- s[[i]]
     y <- unclass(x)[[i]]
     if(missing(j)) {
@@ -791,6 +783,90 @@ function(x, i, j)
                  y[[tolower(j)]]
     }
     y
+}
+
+`[<-.bibentry` <-
+function(x, i, j, value)
+{
+    y <- unclass(x)
+    if(missing(j)) {
+        y[i] <- as.bibentry(value)
+    } else {
+        stopifnot(is.character(j),
+                  length(j) == 1L)
+        s <- .bibentry_seq_along(x, i)
+        p <- s[i]
+        ## See $<-.bibentry ...
+        value <- rep_len(.listify(value), length(x))
+        if(j == "bibtype")
+            value <- .bibentry_canonicalize_bibtype_value(value)
+        a <- (j %in% bibentry_attribute_names)
+        for(i in p) {
+            y[[i]] <- .bibentry_elt_fld_gets(y[[i]], j, value[[i]], a)
+        }
+    }
+    class(y) <- class(x)
+    y
+}
+    
+`[[<-.bibentry` <-
+function(x, i, j, value)
+{
+    s <- .bibentry_seq_along(x, i)
+    i <- s[[i]]
+    y <- unclass(x)    
+    if(missing(j)) {
+        y[i] <- as.bibentry(value)
+    } else {
+        stopifnot(is.character(j),
+                  length(j) == 1L)
+        if(j == "bibtype")
+            value <-
+                .bibentry_canonicalize_bibtype_value(list(value))[[1L]]
+        a <- (j %in% bibentry_attribute_names)
+        y[[i]] <- .bibentry_elt_fld_gets(y[[i]], j, value, a)
+    }
+    class(y) <- class(x)
+    y
+}       
+
+.bibentry_seq_along <-
+function(x, i = NULL)
+{
+    ## When subscripting bibentries with character subscript i, we use
+    ## keys if there are no names. 
+    ## Note that creating bibentries does not add the keys as names: 
+    ## assuming that both can independently be set, we would need to
+    ## track whether names were auto-generated or not.
+    ## We could consider providing a names() getter which returns
+    ## given names or keys as used for character subscripting, though:
+    ## as of 2024-08 we have .bibentry_names_or_keys() for this.
+    s <- seq_along(x)
+    if(!missing(i) && is.character(i)) {
+        names(s) <- .bibentry_names_or_keys(x)
+    }
+    s
+}
+
+.bibentry_elt_fld_gets <- function(x, j, v, a) {
+    if(a) {
+        attr(x, j) <-
+            if(is.null(v))
+                NULL
+            else
+                paste(v)
+    } else {
+        j <- tolower(j)
+        x[[j]] <-
+            if(is.null(v))
+                NULL
+            else if(j %in% c("author", "editor"))
+                as.person(v)
+            else
+                paste(v)
+    }
+    .bibentry_check_bibentry1(x)
+    x
 }
 
 bibentry_format_styles <-
@@ -1146,59 +1222,51 @@ function(x, name)
     ## Return list if length > 1, vector otherwise (to mirror the
     ## behavior of the input format for bibentry()).
     ## </COMMENT>
-    is_attribute <- name %in% bibentry_attribute_names
-    rval <- if(is_attribute) lapply(unclass(x), attr, name)
-        else lapply(unclass(x), `[[`, tolower(name))
-    if(length(rval) == 1L) rval <- rval[[1L]]
-    rval
+    y <- if(name %in% bibentry_attribute_names)
+             lapply(unclass(x), attr, name)
+         else
+             lapply(unclass(x), `[[`, tolower(name))
+    if(length(y) == 1L) y <- y[[1L]]
+    y
 }
 
 `$<-.bibentry` <-
 function(x, name, value)
 {
-    is_attribute <- name %in% bibentry_attribute_names
-
     x <- unclass(x)
-    if(!is_attribute) name <- tolower(name)
 
     ## recycle value
     value <- rep_len(.listify(value), length(x))
 
     ## check bibtype
-    if(name == "bibtype") {
-        stopifnot(all(lengths(value) == 1L))
-        BibTeX_names <- names(tools:::BibTeX_entry_field_db)
-        value <- unlist(value)
-        pos <- match(tolower(value), tolower(BibTeX_names))
-        if(anyNA(pos))
-            stop(gettextf("%s has to be one of %s",
-                          sQuote("bibtype"),
-                          paste(BibTeX_names, collapse = ", ")),
-                 domain = NA)
-        value <- as.list(BibTeX_names[pos])
-    }
+    if(name == "bibtype")
+        value <- .bibentry_canonicalize_bibtype_value(value)
 
-    ## replace all values
+    ## replace all values and check whether all elements still have
+    ## their required fields:
+    a <- (name %in% bibentry_attribute_names)
     for(i in seq_along(x)) {
-        if(is_attribute) {
-	    attr(x[[i]], name) <-
-                if(is.null(value[[i]])) NULL else paste(value[[i]])
-	} else {
-	    x[[i]][[name]] <-
-                if(is.null(value[[i]])) NULL else {
-                    if(name %in% c("author", "editor"))
-                        as.person(value[[i]])
-                    else paste(value[[i]])
-                }
-        }
+        x[[i]] <- .bibentry_elt_fld_gets(x[[i]], name, value[[i]], a)
     }
-
-    ## check whether all elements still have their required fields
-    for(i in seq_along(x)) .bibentry_check_bibentry1(x[[i]])
 
     .bibentry(x)
 }
 
+.bibentry_canonicalize_bibtype_value <-
+function(value)    
+{
+    stopifnot(all(lengths(value) == 1L))
+    BibTeX_names <- names(tools:::BibTeX_entry_field_db)
+    value <- unlist(value)
+    pos <- match(tolower(value), tolower(BibTeX_names))
+    if(anyNA(pos))
+        stop(gettextf("%s has to be one of %s",
+                      sQuote("bibtype"),
+                      paste(BibTeX_names, collapse = ", ")),
+             domain = NA)
+    as.list(BibTeX_names[pos])
+}
+    
 `$<-.citation` <-
 function(x, name, value)
     .citation(NextMethod("$<-"), attr(x, "package"))
