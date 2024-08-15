@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-06-10 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
@@ -24,8 +24,7 @@ msgstr "Bandbreite/Spannweite der gleitenden Mediane größer als n"
 #: Srunmed.c:262
 #, c-format
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
-msgstr ""
-"runmed(x, .., na.action=\"na.fail\"): haben NAs, die bei x[%lld beginnen]"
+msgstr "runmed(x, .., na.action=\"na.fail\"): haben NAs, die bei x[%lld beginnen]"
 
 #: Srunmed.c:265
 #, fuzzy
@@ -212,8 +211,7 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
-"FEXACT[f3xact()] Fehler: Hash-Schlüssel %.0g > INT_MAX, kyy=%d, it[i (= nco "
-"= %d)]= %d.\n"
+"FEXACT[f3xact()] Fehler: Hash-Schlüssel %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Setze lieber 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073

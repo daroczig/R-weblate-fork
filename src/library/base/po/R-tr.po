@@ -8,7 +8,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-07-07 17:20+0000\n"
 "Last-Translator: Arjen Deniz <arjendenizturkmen@gmail.com>\n"
@@ -265,8 +265,7 @@ msgid "cannot coerce class %s to a data.frame"
 msgstr ""
 
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr ""
-"'row.names' bir karakter veya %d uzunluğunda bir tam sayı vektörü değildir"
+msgstr "'row.names' bir karakter veya %d uzunluğunda bir tam sayı vektörü değildir"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr ""
@@ -1194,8 +1193,7 @@ msgid "failed to find metadata object for %s"
 msgstr ""
 
 msgid "in package %s methods %s were specified for export but not defined"
-msgstr ""
-"Paket %s yöntemlerinde %s dışarı aktarma için belirtildi ancak tanımlanmadı"
+msgstr "Paket %s yöntemlerinde %s dışarı aktarma için belirtildi ancak tanımlanmadı"
 
 msgid "-- done processing S4 stuff for"
 msgstr ""
@@ -1245,9 +1243,7 @@ msgid "invalid import target"
 msgstr "geçersiz içe aktarma hedefi"
 
 msgid "found methods to import for function %s but not the generic itself"
-msgstr ""
-"%s fonksiyonu için içe aktarılacak yöntemler bulundu, ancak genel yöntemi "
-"değil"
+msgstr "%s fonksiyonu için içe aktarılacak yöntemler bulundu, ancak genel yöntemi değil"
 
 #, fuzzy
 msgid "replacing previous import %s by %s when loading %s"
@@ -1523,9 +1519,7 @@ msgid "'chdir = TRUE' makes no sense for a connection"
 msgstr ""
 
 msgid "specify either 'file' or 'exprs' but not both"
-msgstr ""
-"'exprs' veya 'exprObject' ifadelerinden yalnızca birini belirtin, ikisini "
-"birden değil"
+msgstr "'exprs' veya 'exprObject' ifadelerinden yalnızca birini belirtin, ikisini birden değil"
 
 msgid "'%s' is not an existing file"
 msgstr ""
@@ -1550,8 +1544,7 @@ msgstr "stop() içindeki ek argümanlar yok sayıldı"
 
 #, fuzzy
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
-msgstr ""
-"'exprs', 'exprObject' veya ifadelerden yalnızca biri, daha fazlası değil"
+msgstr "'exprs', 'exprObject' veya ifadelerden yalnızca biri, daha fazlası değil"
 
 msgid ""
 "%s and %s are not equal:\n"

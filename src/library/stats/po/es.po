@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
@@ -210,8 +210,7 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
-"Error en FEXACT[f3xact()]: clave hash %.0g > INT_MAX, kyy=%d, it[i (= nco = "
-"%d)]= %d.\n"
+"Error en FEXACT[f3xact()]: clave hash %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Más bien establezca 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
@@ -276,9 +275,7 @@ msgstr "nextn() no encontró solución < %d = INT_MAX (el entero máximo); pase 
 #: fourier.c:233
 #, c-format
 msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
-msgstr ""
-"nextn<64>() no encontró solución < %llu = UINT64_MAX (el máximo entero "
-"posible)"
+msgstr "nextn<64>() no encontró solución < %llu = UINT64_MAX (el máximo entero posible)"
 
 #: fourier.c:241
 msgid "no factors"
@@ -712,9 +709,7 @@ msgstr "valor de función en optimizador 'nlm' inválido"
 
 #: optimize.c:561 optimize.c:576
 msgid "function value caching for optimization is seriously confused"
-msgstr ""
-"caché de valores de función para optimización está seriamente confundido (no "
-"debería ocurrir)"
+msgstr "caché de valores de función para optimización está seriamente confundido (no debería ocurrir)"
 
 #: optimize.c:591
 msgid "numeric parameter expected"
@@ -832,14 +827,11 @@ msgstr "valor NA no válido en el parámetro"
 
 #: optimize.c:795
 msgid "hessian supplied is of the wrong length or mode, so ignored"
-msgstr ""
-"el hessiano suministrado es de longitud o modo incorrecto, por lo que se "
-"ignora"
+msgstr "el hessiano suministrado es de longitud o modo incorrecto, por lo que se ignora"
 
 #: optimize.c:799
 msgid "gradient supplied is of the wrong length or mode, so ignored"
-msgstr ""
-"gradiente suministrado es de longitud o modo incorrecto, por lo que se ignora"
+msgstr "gradiente suministrado es de longitud o modo incorrecto, por lo que se ignora"
 
 #: pacf.c:87
 msgid "bad Starma struct"
@@ -888,8 +880,7 @@ msgstr "'d' debe ser un vector numérico no vacío"
 
 #: port.c:391
 msgid "When Hessian defined must also have gradient defined"
-msgstr ""
-"Cuando se define la matriz hessiana, también debe estar definido el gradiente"
+msgstr "Cuando se define la matriz hessiana, también debe estar definido el gradiente"
 
 #: port.c:394
 #, c-format
@@ -917,8 +908,7 @@ msgstr "'gradient' debe ser una matriz numérica de dimensión (%d,%d)"
 #: port.c:522
 #, c-format
 msgid "fcn produced mode %d, length %d - wanted mode %d, length %d"
-msgstr ""
-"fcn produjo resultado modo %d, longitud %d - se esperaba modo %d, longitud %d"
+msgstr "fcn produjo resultado modo %d, longitud %d - se esperaba modo %d, longitud %d"
 
 #: port.c:535
 msgid "invalid type for eval_check_store"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
@@ -101,9 +101,7 @@ msgstr "'dec' debe ser un solo carácter"
 #: io.c:1137
 #, c-format
 msgid "corrupt data frame -- length of column %d does not match nrows"
-msgstr ""
-"data frame corrupto -- la longitud de la columna %d no coincide con el "
-"número de filas"
+msgstr "data frame corrupto -- la longitud de la columna %d no coincide con el número de filas"
 
 #: io.c:1171
 #, c-format
@@ -180,9 +178,7 @@ msgstr "tipo desconocido"
 #: windows/dialogs.c:213 windows/dialogs.c:237 windows/dialogs.c:275
 #: windows/dialogs.c:310
 msgid "menu functions can only be used in the GUI"
-msgstr ""
-"las funciones de menú solo se pueden utilizar en la interfaz gráfica de "
-"usuario"
+msgstr "las funciones de menú solo se pueden utilizar en la interfaz gráfica de usuario"
 
 #: windows/dialogs.c:245
 #, c-format

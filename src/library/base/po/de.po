@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-07-03 03:05+0000\n"
 "Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
@@ -688,8 +688,7 @@ msgstr "ungültiger Symbolparameter."
 #: src/main/Rdynload.c:498
 #, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr ""
-"Das bereits registrierte native Symbol '%s' kann nicht registriert werden."
+msgstr "Das bereits registrierte native Symbol '%s' kann nicht registriert werden."
 
 #: src/main/Rdynload.c:500
 #, c-format
@@ -1060,14 +1059,12 @@ msgstr "Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Zeilen
 #: src/main/array.c:162
 #, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr ""
-"Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Spalten [%d]"
+msgstr "Datenlänge [%lld] ist kein Teiler oder Vielfaches der Anzahl der Spalten [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
 #, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr ""
-"Datenlänge unterscheidet sich von der Größe der matrix: [%lld != %d x %d]"
+msgstr "Datenlänge unterscheidet sich von der Größe der matrix: [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1117,8 +1114,7 @@ msgstr[1] "%d Argumente an '%s' übergeben, welches mindestens %d benötigt"
 #: src/main/array.c:1285
 #, c-format
 msgid "more than 2 arguments passed to default method of '%s'"
-msgstr ""
-"mehr als 2 Argumente, die an die Standardmethode von '%s' übergeben werden"
+msgstr "mehr als 2 Argumente, die an die Standardmethode von '%s' übergeben werden"
 
 #: src/main/array.c:1290
 msgid "requires numeric/complex matrix/vector arguments"
@@ -1208,8 +1204,7 @@ msgstr "ungültiger Typ (%s) für 'names': muss ein Vektor oder NULL sein"
 #: src/main/attrib.c:410
 #, c-format
 msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
-msgstr ""
-"'names'-Attribut [%lld] muss die gleiche Länge wie der Vektor [%lld] haben"
+msgstr "'names'-Attribut [%lld] muss die gleiche Länge wie der Vektor [%lld] haben"
 
 #: src/main/attrib.c:416
 msgid "names() applied to a non-vector"
@@ -2643,9 +2638,7 @@ msgstr "unbekannte cumxxx Funktion"
 #: src/main/datetime.c:544 src/main/datetime.c:555 src/main/datetime.c:599
 #: src/main/datetime.c:611
 msgid "datetimes before 1902 may not be accurate: warns once per session"
-msgstr ""
-"Datum/Uhrzeit vor 1902 ist möglicherweise nicht korrekt: Warnt einmal pro "
-"Sitzung"
+msgstr "Datum/Uhrzeit vor 1902 ist möglicherweise nicht korrekt: Warnt einmal pro Sitzung"
 
 #: src/main/datetime.c:807 src/main/datetime.c:819 src/main/datetime.c:842
 #: src/main/datetime.c:847
@@ -2662,8 +2655,7 @@ msgstr "Problem beim Zurücksetzen der Zeitzone"
 
 #: src/main/datetime.c:986
 msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
-msgstr ""
-"ein gültiges \"POSIXlt\"-Objekt ist eine Liste von mindestens 9 Elementen"
+msgstr "ein gültiges \"POSIXlt\"-Objekt ist eine Liste von mindestens 9 Elementen"
 
 #: src/main/datetime.c:990
 msgid "a valid \"POSIXlt\" object has names"
@@ -2672,9 +2664,7 @@ msgstr "ein gültiges \"POSIXlt\"-Objekt hat Namen"
 #: src/main/datetime.c:996
 #, c-format
 msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
-msgstr ""
-"Ein gültiges \"POSIXlt\"-Objekt hat das Element %d mit dem Namen \"%s\", das "
-"\"%s\" sein sollte"
+msgstr "Ein gültiges \"POSIXlt\"-Objekt hat das Element %d mit dem Namen \"%s\", das \"%s\" sein sollte"
 
 #: src/main/datetime.c:1003 src/main/datetime.c:1019
 #, c-format
@@ -4024,8 +4014,7 @@ msgstr "Überlauf des Eingabebuffers in Zeile (%s:%d:%d)"
 #: src/main/gram.y:1216
 #, c-format
 msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
-msgstr ""
-"Funktion '%s' wird im RHS-Aufruf einer Pipe nicht unterstützt (%s:%d:%d)"
+msgstr "Funktion '%s' wird im RHS-Aufruf einer Pipe nicht unterstützt (%s:%d:%d)"
 
 #: src/main/gram.y:1224 src/main/gram.y:1256
 #, c-format
@@ -4035,9 +4024,7 @@ msgstr "Pipe-Platzhalter dürfen nur einmal angezeigt werden (%s:%d:%d)"
 #: src/main/gram.y:1267
 #, c-format
 msgid "The pipe operator requires a function call as RHS (%s:%d:%d)"
-msgstr ""
-"Der pipe-Operator benötigt auf der rechten Seite einen Funktionsaufruf "
-"(%s:%d:%d)"
+msgstr "Der pipe-Operator benötigt auf der rechten Seite einen Funktionsaufruf (%s:%d:%d)"
 
 #: src/main/gram.y:1275
 #, c-format
@@ -4047,21 +4034,17 @@ msgstr "Variable auf der rechten Seite muss ein Symbol (%s:%d:%d)"
 #: src/main/gram.y:1287
 #, c-format
 msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
-msgstr ""
-"Pipe-Platzhalter kann nicht in der RHS-Funktion verwendet werden (%s:%d:%d)"
+msgstr "Pipe-Platzhalter kann nicht in der RHS-Funktion verwendet werden (%s:%d:%d)"
 
 #: src/main/gram.y:1303
 #, c-format
 msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
-msgstr ""
-"Pipe-Platzhalter kann nur als benanntes Argument verwendet werden (%s:%d:%d)"
+msgstr "Pipe-Platzhalter kann nur als benanntes Argument verwendet werden (%s:%d:%d)"
 
 #: src/main/gram.y:1336
 #, c-format
 msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
-msgstr ""
-"'=>' ist deaktiviert; '_R_USE_PIPEBIND_' envvar auf einen true-Wert setzen, "
-"um es zu aktivieren (%s:%d:%d)"
+msgstr "'=>' ist deaktiviert; '_R_USE_PIPEBIND_' envvar auf einen true-Wert setzen, um es zu aktivieren (%s:%d:%d)"
 
 #: src/main/gram.y:1411
 #, c-format
@@ -4161,9 +4144,7 @@ msgstr "ungültiges multibyte Zeichen im Parser in Zeile (%s:%d:%d)"
 #: src/main/gram.y:2867
 #, c-format
 msgid "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
-msgstr ""
-"Bidi-Formatierung nicht erlaubt, stattdessen Escapes verwenden (\\u%04x) "
-"(%s:%d:%d)"
+msgstr "Bidi-Formatierung nicht erlaubt, stattdessen Escapes verwenden (\\u%04x) (%s:%d:%d)"
 
 #: src/main/gram.y:2917 src/main/gram.y:2948 src/main/gram.y:2995
 #: src/main/gram.y:3042
@@ -4179,20 +4160,17 @@ msgstr "\\%o überschreitet den maximal zulässigen Oktalwert \\377 (%s:%d:%d)"
 #: src/main/gram.y:2939
 #, c-format
 msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\x' wird ohne Hexadezimalziffern in der Zeichenfolge verwendet (%s:%d:%d)"
+msgstr "'\\x' wird ohne Hexadezimalziffern in der Zeichenfolge verwendet (%s:%d:%d)"
 
 #: src/main/gram.y:2960
 #, fuzzy, c-format
 msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr ""
-"\\uxxxx-Sequenzen werden innerhalb von Backticks nicht unterstützt (%s:%d:%d)"
+msgstr "\\uxxxx-Sequenzen werden innerhalb von Backticks nicht unterstützt (%s:%d:%d)"
 
 #: src/main/gram.y:2978
 #, c-format
 msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\x' wird ohne Hexadezimalziffern in der Zeichenfolge verwendet (%s:%d:%d)"
+msgstr "'\\x' wird ohne Hexadezimalziffern in der Zeichenfolge verwendet (%s:%d:%d)"
 
 #: src/main/gram.y:2992
 #, c-format
@@ -4202,14 +4180,12 @@ msgstr "ungültige \\u{xxxx} Sequenz (Zeile %d)"
 #: src/main/gram.y:3005
 #, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr ""
-"\\Uxxxxxxx Sequenzen werden nicht zwischen backticks unterstützt (%s:%d:%d)"
+msgstr "\\Uxxxxxxx Sequenzen werden nicht zwischen backticks unterstützt (%s:%d:%d)"
 
 #: src/main/gram.y:3025
 #, c-format
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
-msgstr ""
-"'\\U' ohne Hex-Ziffern in der Zeichenkette beginnend mit (%s:%d:%d) genutzt"
+msgstr "'\\U' ohne Hex-Ziffern in der Zeichenkette beginnend mit (%s:%d:%d) genutzt"
 
 #: src/main/gram.y:3037
 #, c-format
@@ -4229,15 +4205,12 @@ msgstr "ungültiger \\U{xxxxxxxx}-Wert %6x (%s:%d:%d)"
 #: src/main/gram.y:3097
 #, c-format
 msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
-msgstr ""
-"'\\%s' ist ein nicht erkanntes Escapezeichen in der Zeichenfolge (%s:%d:%d)"
+msgstr "'\\%s' ist ein nicht erkanntes Escapezeichen in der Zeichenfolge (%s:%d:%d)"
 
 #: src/main/gram.y:3178 src/main/gram.y:3318
 #, c-format
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
-msgstr ""
-"Das Mischen von Unicode- und Oktal-/Hex-Escapes in einer Zeichenfolge ist "
-"nicht zulässig (%s:%d:%d)"
+msgstr "Das Mischen von Unicode- und Oktal-/Hex-Escapes in einer Zeichenfolge ist nicht zulässig (%s:%d:%d)"
 
 #: src/main/gram.y:3183 src/main/gram.y:3323
 #, c-format
@@ -4245,8 +4218,7 @@ msgid ""
 "string containing Unicode escapes not in this locale\n"
 "is too long (max 10000 chars) (%s:%d:%d)"
 msgstr ""
-"Zeichenfolge, die Unicode-Escapezeichen enthält, nicht in diesem "
-"Gebietsschema\n"
+"Zeichenfolge, die Unicode-Escapezeichen enthält, nicht in diesem Gebietsschema\n"
 "ist zu lang (max. 10000 Zeichen) (%s:%d:%d)"
 
 #: src/main/gram.y:3221
@@ -5280,9 +5252,7 @@ msgstr "OS meldet: Anfrage Lokalisierung auf \"%s\" zu setzen kann nicht beachte
 #: src/main/platform.c:2326
 #, c-format
 msgid "using locale code page other than %d%s may cause problems"
-msgstr ""
-"Die Verwendung einer anderen Gebietsschema-Codepage als %d%s kann zu "
-"Problemen führen"
+msgstr "Die Verwendung einer anderen Gebietsschema-Codepage als %d%s kann zu Problemen führen"
 
 #: src/main/platform.c:2716
 #, c-format
@@ -5502,8 +5472,7 @@ msgstr "Länge der Argumente unterschiedlich"
 
 #: src/main/radixsort.c:1595
 msgid "length(decreasing) must match the number of order arguments"
-msgstr ""
-"length(decreasing) muss mit der Anzahl der Order-Argumente übereinstimmen"
+msgstr "length(decreasing) muss mit der Anzahl der Order-Argumente übereinstimmen"
 
 #: src/main/radixsort.c:1598
 #, fuzzy
@@ -6120,11 +6089,9 @@ msgid "names in persistent strings are not supported yet"
 msgstr "Namen in persistenten Zeichenketten werden noch nicht unterstützt"
 
 #: src/main/serialize.c:1677
-#, c-format, fuzzy
+#, fuzzy, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr ""
-"Eingabezeichenkette '%s' kann nicht von '%s' in UTF-8 übersetzt werden, ist "
-"aber gültiges UTF-8"
+msgstr "Eingabezeichenkette '%s' kann nicht von '%s' in UTF-8 übersetzt werden, ist aber gültiges UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -7848,8 +7815,7 @@ msgstr "Underflow in '%s' aufgetreten\n"
 #: src/nmath/pbeta.c:69
 #, fuzzy, c-format
 msgid "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
-msgstr ""
-"pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gab den Fehlercode %d"
+msgstr "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gab den Fehlercode %d"
 
 #: src/nmath/pbinom.c:37
 #, c-format

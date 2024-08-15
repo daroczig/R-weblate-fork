@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
 "PO-Revision-Date: 2024-07-03 03:05+0000\n"
 "Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
@@ -106,8 +106,7 @@ msgstr "beschädigter Dataframe -- Länge der Spalte %d entspricht nicht der Anz
 #: io.c:1171
 #, c-format
 msgid "column %d claims to be a factor but does not have numeric codes"
-msgstr ""
-"Spalte %d behauptet, ein Faktor zu sein, hat aber keine numerischen Codes"
+msgstr "Spalte %d behauptet, ein Faktor zu sein, hat aber keine numerischen Codes"
 
 #: io.c:1189
 msgid "corrupt matrix -- dims do not match length"

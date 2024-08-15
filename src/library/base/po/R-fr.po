@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-05-21 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
@@ -478,9 +478,7 @@ msgid "'tzone' attributes are inconsistent"
 msgstr "les attributs 'tzone' ne correspondent pas"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
-msgstr ""
-"as.character(td, ..) n’obéit plus à un argument 'format' ; Utiliser format("
-"td, ..) ?"
+msgstr "as.character(td, ..) n’obéit plus à un argument 'format' ; Utiliser format(td, ..) ?"
 
 #, fuzzy
 msgid "'digits' must be numeric, integer valued"
@@ -782,9 +780,7 @@ msgid "triangular matrix should be square"
 msgstr "la matrice triangulaire doit être carrée"
 
 msgid "using 1-norm approximation for approximate 2-norm"
-msgstr ""
-"Utilisation de l’approximation de la norme 1 pour l’approximation de la "
-"norme 2"
+msgstr "Utilisation de l’approximation de la norme 1 pour l’approximation de la norme 2"
 
 msgid "norm=\"%s\" not available here; using norm=\"1\""
 msgstr "norm=\"%s\" non disponible ici ; en utilisant norm=\"1\""
@@ -1490,8 +1486,7 @@ msgid "non-finite 'partial'"
 msgstr "'partial' non fini"
 
 msgid "'decreasing' of length > 1 is only for method = \"radix\""
-msgstr ""
-"'décroissant' de longueur > 1 est uniquement pour la méthode = \"radix\""
+msgstr "'décroissant' de longueur > 1 est uniquement pour la méthode = \"radix\""
 
 msgid "argument lengths differ"
 msgstr "la longueur des arguments diffère"
@@ -1727,8 +1722,7 @@ msgid "invalid 'digits'"
 msgstr "'digits' incorrect"
 
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
-msgstr ""
-"L’appel direct de '%s()' est obsolète.  Utilisez '%s()' ou '%s()' à la place"
+msgstr "L’appel direct de '%s()' est obsolète.  Utilisez '%s()' ou '%s()' à la place"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr "les arguments 'show.output.on.console', 'minimized' et 'invisible' sont seulement pour Windows"

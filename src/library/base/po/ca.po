@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-07-30 03:05+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
@@ -966,8 +966,7 @@ msgid ""
 "Recycling array of length 1 in array-vector arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"El reciclatge de matrius de longitud 1 en aritmètica de matriu-vector està "
-"obsolet.\n"
+"El reciclatge de matrius de longitud 1 en aritmètica de matriu-vector està obsolet.\n"
 "  Utilitzeu c() o as.vector() en el seu lloc."
 
 #: src/main/arithmetic.c:580
@@ -975,8 +974,7 @@ msgid ""
 "Recycling array of length 1 in vector-array arithmetic is deprecated.\n"
 "  Use c() or as.vector() instead."
 msgstr ""
-"El reciclatge de matrius de longitud 1 en l'aritmètica de vector-matriu està "
-"obsolet.\n"
+"El reciclatge de matrius de longitud 1 en l'aritmètica de vector-matriu està obsolet.\n"
 "  Utilitzeu c() o as.vector() en el seu lloc."
 
 #: src/main/arithmetic.c:594 src/main/logic.c:94 src/main/relop.c:317
@@ -985,9 +983,7 @@ msgstr "matrius no conformes"
 
 #: src/main/arithmetic.c:654 src/main/logic.c:137 src/main/relop.c:361
 msgid "longer object length is not a multiple of shorter object length"
-msgstr ""
-"la longitud d'objecte més llarg no és múltiple de la longitud de l'objecte "
-"més curt"
+msgstr "la longitud d'objecte més llarg no és múltiple de la longitud de l'objecte més curt"
 
 #: src/main/arithmetic.c:720
 msgid "invalid argument to unary operator"
@@ -1055,22 +1051,17 @@ msgstr "valor «ncol» no vàlid (< 0)"
 #: src/main/array.c:158
 #, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
-msgstr ""
-"la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre "
-"de files [%d]"
+msgstr "la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre de files [%d]"
 
 #: src/main/array.c:162
 #, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr ""
-"la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre "
-"de columnes [%d]"
+msgstr "la longitud de les dades [%lld] no és un submúltiple o múltiple del nombre de columnes [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
 #, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr ""
-"la longitud de les dades difereix de la mida de la matriu: [%lld != %d x %d]"
+msgstr "la longitud de les dades difereix de la mida de la matriu: [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1210,8 +1201,7 @@ msgstr "tipus no vàlid (%s) per a 'names': ha de ser un vector o NULL"
 #: src/main/attrib.c:410
 #, c-format
 msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
-msgstr ""
-"l'atribut «names» [%lld] ha de tenir la mateixa longitud que el vector [%lld]"
+msgstr "l'atribut «names» [%lld] ha de tenir la mateixa longitud que el vector [%lld]"
 
 #: src/main/attrib.c:416
 msgid "names() applied to a non-vector"
@@ -1303,9 +1293,7 @@ msgstr "les dimensions contenen valors negatius"
 #: src/main/attrib.c:1246
 #, c-format
 msgid "dims [product %lld] do not match the length of object [%lld]"
-msgstr ""
-"les dimensions [producte de %lld] no coincideixen amb la longitud de "
-"l'objecte [%lld]"
+msgstr "les dimensions [producte de %lld] no coincideixen amb la longitud de l'objecte [%lld]"
 
 #: src/main/attrib.c:1328
 #, c-format
@@ -8861,5 +8849,3 @@ msgstr "ha fallat la creació d'un fitxer temporal per a «-e»"
 #, fuzzy
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "AVÍS: només s'està editant el primer a la llista de fitxers"
-
-

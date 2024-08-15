@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
 "PO-Revision-Date: 2024-05-23 03:05+0000\n"
 "Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
@@ -24,9 +24,7 @@ msgstr "updateGContext solo debe ser llamado después de initGContext"
 
 #: grid.c:199
 msgid "Turning clipping on or off within a (clipping) path is no honoured"
-msgstr ""
-"Activar o desactivar el recorte dentro de una ruta (recortada) no está "
-"siendo respetado"
+msgstr "Activar o desactivar el recorte dentro de una ruta (recortada) no está siendo respetado"
 
 #: grid.c:241
 msgid "cannot clip to rotated viewport"
@@ -34,9 +32,7 @@ msgstr "no se puede recortar a la ventana gráfica rotada"
 
 #: grid.c:456
 msgid "Clipping paths within a (clipping) path are not honoured"
-msgstr ""
-"El recorte de las rutas dentro de una ruta (recortada) no está siendo "
-"respetado"
+msgstr "El recorte de las rutas dentro de una ruta (recortada) no está siendo respetado"
 
 #: grid.c:475
 msgid "Masks within a (clipping) path are not honoured"
@@ -49,9 +45,7 @@ msgstr "No se encontró la ventana gráfica '%s'"
 
 #: grid.c:909 grid.c:914 grid.c:1035 grid.c:1040
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
-msgstr ""
-"no se puede abrir la ventana gráfica de nivel superior (¿se mezclan la "
-"salida de 'grid' y 'graphics'?)"
+msgstr "no se puede abrir la ventana gráfica de nivel superior (¿se mezclan la salida de 'grid' y 'graphics'?)"
 
 #: grid.c:1241
 msgid "attempt to plot on null device"
@@ -121,14 +115,11 @@ msgstr "matriz de transformación es singular"
 
 #: state.c:191
 msgid "unable to store 'grid' state.  Too many devices open?"
-msgstr ""
-"no se puede almacenar el estado de 'grid'. ¿Demasiados dispositivos abiertos?"
+msgstr "no se puede almacenar el estado de 'grid'. ¿Demasiados dispositivos abiertos?"
 
 #: unit.c:65
 msgid "Cannot create unit scalar from 0-length unit vector"
-msgstr ""
-"No se puede crear un escalar de unidades a partir de un vector de unidades "
-"de longitud 0"
+msgstr "No se puede crear un escalar de unidades a partir de un vector de unidades de longitud 0"
 
 #: unit.c:799 unit.c:1298
 msgid "invalid unit or unit not yet implemented"
@@ -156,9 +147,7 @@ msgstr "'units' debe tener una longitud > 0"
 
 #: unit.c:1584
 msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
-msgstr ""
-"los datos deben ser NULL, tener una longitud de 1 o coincidir con la "
-"longitud del vector de unidades final"
+msgstr "los datos deben ser NULL, tener una longitud de 1 o coincidir con la longitud del vector de unidades final"
 
 #: unit.c:1596
 msgid "no string supplied for 'strwidth/height' unit"

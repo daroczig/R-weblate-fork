@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-06-11 03:05+0000\n"
 "Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
@@ -178,21 +178,16 @@ msgstr "El carácter Unicode %lc (U+%04X) no se puede convertir"
 #: devPS.c:918 devPS.c:972
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr ""
-"métricas de fuente desconocidas para el carácter 0x%02x en la codificación %s"
+msgstr "métricas de fuente desconocidas para el carácter 0x%02x en la codificación %s"
 
 #: devPS.c:987
 #, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr ""
-"carácter no válido (%04X) enviado a 'PostScriptCIDMetricInfo' en una "
-"configuración regional de un solo byte"
+msgstr "carácter no válido (%04X) enviado a 'PostScriptCIDMetricInfo' en una configuración regional de un solo byte"
 
 #: devPS.c:995
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr ""
-"carácter no válido enviado a 'PostScriptCIDMetricInfo' en una configuración "
-"regional de un solo byte"
+msgstr "carácter no válido enviado a 'PostScriptCIDMetricInfo' en una configuración regional de un solo byte"
 
 #: devPS.c:1107
 msgid "failed to allocate CID font info"
@@ -238,22 +233,17 @@ msgstr "nombre de fuente no válido o más de un nombre de fuente"
 #: devPS.c:1717 devPS.c:1752
 #, c-format
 msgid "font family '%s' not found in PostScript font database"
-msgstr ""
-"la familia de fuentes '%s' no se encuentra en la base de datos de fuentes "
-"PostScript"
+msgstr "la familia de fuentes '%s' no se encuentra en la base de datos de fuentes PostScript"
 
 #: devPS.c:1836 devPS.c:1918 devPS.c:1945
 #, c-format
 msgid "font encoding for family '%s' not found in font database"
-msgstr ""
-"codificación de fuente para la familia '%s' no encontrada en la base de "
-"datos de fuentes"
+msgstr "codificación de fuente para la familia '%s' no encontrada en la base de datos de fuentes"
 
 #: devPS.c:1863 devPS.c:1890
 #, c-format
 msgid "font CMap for family '%s' not found in font database"
-msgstr ""
-"fuente CMap para la familia '%s' no encontrada en la base de datos de fuentes"
+msgstr "fuente CMap para la familia '%s' no encontrada en la base de datos de fuentes"
 
 #: devPS.c:2085 devPS.c:2165 devPS.c:2233
 #, c-format
@@ -341,9 +331,7 @@ msgstr "tipo de página '%s' no válido (postscript)"
 
 #: devPS.c:3626 devPS.c:4892 devWindows.c:2345
 msgid "semi-transparency is not supported on this device: reported only once per page"
-msgstr ""
-"la semitransparencia no es soportada en este dispositivo: se informa solo "
-"una vez por página"
+msgstr "la semitransparencia no es soportada en este dispositivo: se informa solo una vez por página"
 
 #: devPS.c:3737 devPS.c:3748
 #, c-format
@@ -387,8 +375,7 @@ msgstr "error de conversión en '%s' en 'mbcsToSbcs': para <%02x>"
 #: devPS.c:4584 devPS.c:4591
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': dot substituted for <%02x>"
-msgstr ""
-"error de conversión en '%s' en 'mbcsToSbcs': punto sustituido por <%02x>"
+msgstr "error de conversión en '%s' en 'mbcsToSbcs': punto sustituido por <%02x>"
 
 #: devPS.c:4673
 #, c-format
@@ -455,8 +442,7 @@ msgstr "No se pudo asignar memoria para la cadena de definición de PDF"
 
 #: devPS.c:6014
 msgid "failed to increase definition string (shut down PDF device)"
-msgstr ""
-"no se pudo aumentar la cadena de definición (se apaga el dispositivo PDF)"
+msgstr "no se pudo aumentar la cadena de definición (se apaga el dispositivo PDF)"
 
 #: devPS.c:6064
 msgid "failed to increase 'maxDefns'"
@@ -468,9 +454,7 @@ msgstr "Dibujo no añadido a la ruta (contiene texto)"
 
 #: devPS.c:6925
 msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
-msgstr ""
-"El operador de composición no tiene un modo de combinación correspondiente; "
-"se usa Normal por defecto"
+msgstr "El operador de composición no tiene un modo de combinación correspondiente; se usa Normal por defecto"
 
 #: devPS.c:7198
 msgid "Failed to write PDF clipping path"
@@ -510,8 +494,7 @@ msgstr "codificaciones cargadas corruptas; fuente no agregada"
 
 #: devPS.c:7674
 msgid "failed to record device encoding; font not added"
-msgstr ""
-"no se pudo registrar la codificación del dispositivo; fuente no agregada"
+msgstr "no se pudo registrar la codificación del dispositivo; fuente no agregada"
 
 #: devPS.c:7792
 msgid "increasing the PDF version to 1.2"
@@ -591,9 +574,7 @@ msgstr ""
 #: devPS.c:9220
 #, c-format
 msgid "Cannot open temporary file '%s' for compression (reason: %s); compression has been turned off for this device"
-msgstr ""
-"No se puede abrir el archivo temporal '%s' para compresión (motivo: %s); la "
-"compresión se ha desactivado para este dispositivo"
+msgstr "No se puede abrir el archivo temporal '%s' para compresión (motivo: %s); la compresión se ha desactivado para este dispositivo"
 
 #: devPS.c:9829 devPS.c:10333 devPS.c:10380
 msgid "failed to find or load PDF font"
@@ -705,8 +686,7 @@ msgstr "Grupos Quartz agotados"
 
 #: devQuartz.c:1177
 msgid "Add compositing operator not supported; falling back to over"
-msgstr ""
-"No se admite agregar operador de composición; volviendo atrás a \"over\""
+msgstr "No se admite agregar operador de composición; volviendo atrás a \"over\""
 
 #: devQuartz.c:1265 cairo/cairoFns.c:877
 msgid "Groups exhausted"
@@ -765,9 +745,7 @@ msgstr "no se puede crear la descripción del dispositivo"
 
 #: devQuartz.c:3245
 msgid "unable to create quartz() device target, given type may not be supported"
-msgstr ""
-"no se puede crear el destino del dispositivo quartz(); es posible que el "
-"tipo determinado no esté soportado"
+msgstr "no se puede crear el destino del dispositivo quartz(); es posible que el tipo determinado no esté soportado"
 
 #: devQuartz.c:3375
 msgid "Quartz device is not available on this platform"
@@ -792,8 +770,7 @@ msgstr "especificación de fuente no válida"
 
 #: devWindows.c:658
 msgid "font family not found in Windows font database"
-msgstr ""
-"familia de fuentes no encontrada en la base de datos de fuentes de Windows"
+msgstr "familia de fuentes no encontrada en la base de datos de fuentes de Windows"
 
 #: devWindows.c:1089
 msgid "plot history seems corrupted"
@@ -850,9 +827,7 @@ msgstr "Memoria insuficiente para cambiar el tamaño. Matando dispositivo"
 
 #: devWindows.c:2145
 msgid "Insufficient memory for resize. Disabling alpha blending"
-msgstr ""
-"Memoria insuficiente para cambiar el tamaño. Se deshabilita la composición "
-"alfa"
+msgstr "Memoria insuficiente para cambiar el tamaño. Se deshabilita la composición alfa"
 
 #: devWindows.c:2174
 msgid "a clipboard metafile can store only one figure."
@@ -873,8 +848,7 @@ msgstr "intente utilizar el localizador después de dev.hold()"
 
 #: devWindows.c:3237
 msgid "graphics device closed during call to locator or identify"
-msgstr ""
-"dispositivo gráfico cerrado durante la llamada para localizar o identificar"
+msgstr "dispositivo gráfico cerrado durante la llamada para localizar o identificar"
 
 #: devWindows.c:3512
 msgid "option 'windowsTimeouts' should be integer"
@@ -927,8 +901,7 @@ msgstr "argumento NA no es válido"
 
 #: group.c:38
 msgid "Group definition ignored (device is appending path)"
-msgstr ""
-"Se ignora la definición de grupo (el dispositivo está agregando la ruta)"
+msgstr "Se ignora la definición de grupo (el dispositivo está agregando la ruta)"
 
 #: group.c:57
 msgid "Group use ignored (device is appending path)"
@@ -979,9 +952,7 @@ msgstr "Patrones Cairo agotados"
 
 #: cairo/cairoFns.c:392
 msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
-msgstr ""
-"Las rutas de recorte de Cairo están agotados (no se pudo aumentar "
-"maxClipPaths)"
+msgstr "Las rutas de recorte de Cairo están agotados (no se pudo aumentar maxClipPaths)"
 
 #: cairo/cairoFns.c:439
 msgid "Cairo clipping paths exhausted"
@@ -1009,6 +980,5 @@ msgstr "grupos Cairo agotados"
 
 #: cairo/cairoFns.c:2394
 msgid "Font file not found; matching font family and face"
-msgstr ""
-"Archivo de fuente no encontrado; haciendo coincidir familia y tipo de letra"
+msgstr "Archivo de fuente no encontrado; haciendo coincidir familia y tipo de letra"
 
