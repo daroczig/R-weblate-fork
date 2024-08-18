@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-02 23:53+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-08-19 10:30+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1651,7 +1651,7 @@ msgstr "chaîne de charactères multioctets incorrecte %lld"
 
 #: src/main/character.c:1078 src/main/grep.c:576
 msgid "non-character argument"
-msgstr "l'argument n'est pas une chaîne de caractères"
+msgstr "argument qui n’est pas une chaîne de caractères"
 
 #: src/main/character.c:1221
 #, c-format
@@ -2303,7 +2303,7 @@ msgstr "Erreur d'écriture vers la connexion"
 #: src/main/scan.c:972 src/main/scan.c:976 src/main/serialize.c:2458
 #: src/main/source.c:294
 msgid "cannot read from this connection"
-msgstr "impossible de lire depuis la connexion"
+msgstr "impossible de lire depuis cette connexion"
 
 #: src/main/connections.c:4111 src/main/connections.c:4133
 msgid "cannot allocate buffer in readLines"
@@ -3146,7 +3146,7 @@ msgstr "valeur pch '%d' incorrecte dans cet environnement linguistique"
 #: src/main/engine.c:2440
 #, c-format
 msgid "unimplemented pch value '%d'"
-msgstr "valeur '%d' de pch non implémentée"
+msgstr "valeur '%d' non implémentée pour 'pch'"
 
 #: src/main/engine.c:2457
 #, c-format
@@ -3644,7 +3644,7 @@ msgstr "nombre d'arguments incorrect"
 
 #: src/main/errors.c:1429 src/main/logic.c:190
 msgid "invalid argument type"
-msgstr "type de l'argument incorrect"
+msgstr "type d'argument incorrect"
 
 #: src/main/errors.c:1431
 msgid "time-series/vector length mismatch"
@@ -5126,7 +5126,7 @@ msgstr "choix de nom de fichier incorrect"
 
 #: src/main/platform.c:418 src/main/platform.c:474
 msgid "write error during file append"
-msgstr "erreur en écriture lors de l'ajout a un fichier"
+msgstr "erreur en écriture lors du rajout dans un fichier"
 
 #: src/main/platform.c:438
 msgid "nothing to append to"
@@ -5890,7 +5890,7 @@ msgstr "scan() attendait '%s' et a reçu '%s'"
 
 #: src/main/scan.c:603 src/main/scan.c:763
 msgid "too many items"
-msgstr "trop d'éléments"
+msgstr "trop d’éléments"
 
 #: src/main/scan.c:692
 msgid "empty 'what' specified"
@@ -6344,12 +6344,12 @@ msgstr "longueur de chaîne résultante requise %d plus grande que la longueur m
 
 #: src/main/sprintf.c:106
 msgid "'fmt' is not a character vector"
-msgstr "'fmt' n'est pas un vecteur de caractères"
+msgstr "'fmt' n'est pas un vecteur de chaînes de caractères"
 
 #: src/main/sprintf.c:111
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr "%d arguments possibles au maximum"
+msgstr "seuls %d arguments sont autorisés"
 
 #: src/main/sprintf.c:119
 #, c-format
@@ -6363,12 +6363,12 @@ msgstr "les arguments ne peuvent être recyclés à la même taille"
 #: src/main/sprintf.c:155 src/main/sprintf.c:266
 #, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "taille de 'fmt' au-delà de la taille de format maximale %d"
+msgstr "la longueur de 'fmt' dépasse la longueur du format maximal %d"
 
 #: src/main/sprintf.c:174
 #, c-format
 msgid "unrecognised format specification '%s'"
-msgstr "spécification de format '%s' incorrecte"
+msgstr "spécification de format inconnu '%s'"
 
 #: src/main/sprintf.c:185 src/main/sprintf.c:191 src/main/sprintf.c:204
 #: src/main/sprintf.c:211
@@ -6382,7 +6382,9 @@ msgstr "trop peu d'arguments"
 
 #: src/main/sprintf.c:223
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr "un maximum d'une astérisque '*' est supportée dans chaque spécification de conversion"
+msgstr ""
+"une seule astérisque '*' est supportée au maximum dans chaque spécification "
+"de conversion"
 
 #: src/main/sprintf.c:234
 msgid "argument for '*' conversion specification must be a number"
@@ -7490,7 +7492,7 @@ msgstr "les longueurs de 'url' and 'destfile' doivent correspondre"
 
 #: src/modules/internet/libcurl.c:839 src/modules/internet/libcurl.c:855
 msgid "out of memory"
-msgstr "manque de mémoire"
+msgstr "plus de mémoire disponible"
 
 #: src/modules/internet/libcurl.c:992
 msgid "cannot download any files"
