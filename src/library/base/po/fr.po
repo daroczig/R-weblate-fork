@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-19 10:30+0000\n"
+"PO-Revision-Date: 2024-08-20 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -661,9 +661,8 @@ msgid "R_RegisterRoutines called with invalid DllInfo object."
 msgstr "R_RegisterRoutines appelé avec un objet DllInfo incorrect."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "connexion incorrecte"
+msgstr "Objet incorrect."
 
 #: src/main/Rdynload.c:427
 #, c-format
@@ -676,9 +675,8 @@ msgid "Component '%s' missing in symbol object."
 msgstr ""
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "symbole non valide"
+msgstr "Liste de symboles incorrecte."
 
 #: src/main/Rdynload.c:459
 #, c-format
@@ -686,19 +684,18 @@ msgid "Symbol at %d does not have registration information."
 msgstr ""
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "symbole non valide"
+msgstr "Nom incorrect du symbole."
 
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "impossible d'allouer de la mémoire pour le symbole natif enregistré (%d byte)"
+msgstr "impossible d'enregistrer le symbole natif déjà enregistré '%s'."
 
 #: src/main/Rdynload.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid native address."
-msgstr "le corps du fichier n'a pas une entête gzip correcte"
+msgstr "Le symbole '%s' n'a pas d'adresse native valide."
 
 #: src/main/Rdynload.c:502
 #, c-format
