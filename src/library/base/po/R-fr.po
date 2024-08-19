@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-05-21 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-08-20 03:05+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -236,9 +236,8 @@ msgstr "nombre d'intervalles incorrect"
 msgid "'breaks' are not unique"
 msgstr "'breaks' ne sont pas des valeurs uniques"
 
-#, fuzzy
 msgid "number of intervals and length of 'labels' differ"
-msgstr "les longueurs de 'breaks' et 'labels' diffèrent"
+msgstr "le nombre d'intervalles et la longueur de 'labels' sont différents"
 
 msgid "invalid 'row.names' length"
 msgstr "longueur de 'row.names' incorrecte"
@@ -258,9 +257,10 @@ msgstr "'dimnames' incorrect pour ce tableau de données"
 msgid "cannot coerce class %s to a data.frame"
 msgstr "impossible de convertir automatiquement la classe %s en un tableau de données (data.frame)"
 
-#, fuzzy
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr "'row.names' n’est pas un vecteur de chaînes de caractères de longueur %d — il est ignoré. Ce sera une erreur !"
+msgstr ""
+"'row.names' n’est pas un vecteur de chaînes de caractères ni d'entiers de "
+"longueur %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "erreur dans le nom des lignes dans les arguments de 'data.frame', élément %d"
@@ -346,9 +346,10 @@ msgstr "les nombres de colonnes des arguments ne correspondent pas"
 msgid "invalid list argument: all variables should have the same length"
 msgstr "liste d'arguments incorrecte : toutes les variables doivent avoir la même longueur"
 
-#, fuzzy
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr "le nombre d'éléments à remplacer n'est pas un multiple de la longueur de remplacement"
+msgstr ""
+"le nombre de colonnes du résultat, %d, n'est pas un multiple de la longueur "
+"du vecteur %d de l'argument %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 lignes> (ou 'row.names' de longueur nulle)"
@@ -374,9 +375,8 @@ msgstr "seulement défini pour des tableaux de données dont toutes les variable
 msgid "cannot xtfrm data frames"
 msgstr "impossible d’utiliser xtfrm sur un tableau de données (data frame)"
 
-#, fuzzy
 msgid "all variables should have the same length"
-msgstr "liste d'arguments incorrecte : toutes les variables doivent avoir la même longueur"
+msgstr "toutes les variables doivent avoir la même longueur"
 
 msgid "character string is not in a standard unambiguous format"
 msgstr "la chaîne de caractères n'est pas dans un format standard non ambigu"
@@ -480,9 +480,8 @@ msgstr "les attributs 'tzone' ne correspondent pas"
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr "as.character(td, ..) n’obéit plus à un argument 'format' ; Utiliser format(td, ..) ?"
 
-#, fuzzy
 msgid "'digits' must be numeric, integer valued"
-msgstr "'trim' doit être une valeur numérique de longueur un"
+msgstr "'digits' doit être une valeur numérique entière"
 
 msgid "'tim' is not character or numeric"
 msgstr "tim' n'est pas une chaîne de caractères ou une valeur numérique"
@@ -738,7 +737,7 @@ msgid "unknown cost components ignored"
 msgstr "composantes de coût inconnues et donc ignorées"
 
 msgid "cost components must be non-negative"
-msgstr "les composantes de coût ne peuvent être négatives"
+msgstr "les composantes de coût ne peuvent pas être négatives"
 
 msgid "%s and %s must have the same length"
 msgstr "%s et %s doivent avoir la même longueur"
@@ -764,17 +763,14 @@ msgstr "des remplacements doivent être fournis pour les correspondances"
 msgid "No factors specified"
 msgstr "Aucunes variables 'factor's spécifiées"
 
-#, fuzzy
 msgid "invalid '%s': type \"%s\""
-msgstr "valeur 'n' incorrecte"
+msgstr "'%s' incorrect : type \"%s\""
 
-#, fuzzy
 msgid "'uplo' must be \"U\" or \"L\""
-msgstr "'wait' doit être TRUE ou FALSE"
+msgstr "'uplo' doit être \"U\" ou \"L\""
 
-#, fuzzy
 msgid "invalid nrow(z)"
-msgstr "nrow(x) incorrect"
+msgstr "nrow(z) incorrect"
 
 msgid "triangular matrix should be square"
 msgstr "la matrice triangulaire doit être carrée"
