@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -23,18 +23,21 @@ msgid "bandwidth/span of running medians is larger than n"
 msgstr "largeur de fenêtre de médiane mobile supérieure à n"
 
 #: Srunmed.c:262
-#, fuzzy, c-format
+#, c-format
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
-msgstr "runmed(x, .., na.action=\"na.fail\"): des valeurs manquantes se trouvent à x[%lld]"
+msgstr ""
+"runmed(x, .., na.action=\"na.fail\") : des valeurs manquantes se trouvent à "
+"x[%lld]"
 
 #: Srunmed.c:265
 msgid "runmed(): invalid 'na.action'"
-msgstr "runmed(): 'na.action' incorrecte"
+msgstr "runmed() : 'na.action' incorrecte"
 
 #: Srunmed.c:315
 #, c-format
 msgid "na_action logic error (%d), please report!"
-msgstr "na_action erreur logique (%d), veuillez reporter l’erreur, s’il-vous-plait !"
+msgstr ""
+"na_action erreur logique (%d), veuillez rapporter l’erreur, s’il-vous-plait !"
 
 #: ansari.c:121
 msgid "probabilities outside [0,1] in qansari()"
@@ -142,9 +145,8 @@ msgid "invalid expression in '%s'"
 msgstr "expression incorrecte dans '%s'"
 
 #: deriv.c:865
-#, fuzzy
 msgid "too many variables"
-msgstr "trop de facteurs"
+msgstr "trop de variables"
 
 #: deriv.c:1080 model.c:93
 msgid "invalid variable names"
@@ -211,6 +213,9 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
+"erreur FEXACT[f3xact()] : clé de hachage %.0g > INT_MAX, kyy=%d, it[i (= nco "
+"= %d)]= %d.\n"
+"Utiluser plutôt 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
 #, c-format
@@ -244,15 +249,16 @@ msgstr ""
 "Augmentez la taille de l’environnement de travail ou considérez l’utilisation de 'simulate.p.value=TRUE’."
 
 #: fexact.c:1458
-#, c-format
+#, c-format, fuzzy
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
 "Increase workspace or consider using 'simulate.p.value=TRUE'"
 msgstr ""
 "FEXACT erreur 7(%s). LDSTP=%d est trop petit pour ce problème,\n"
-"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
-"Augmentez la taille de l’environnement de travail ou considérez l’utilisation de ‘simulate.p.value=TRUE’."
+"  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g). \n"
+"Augmenter la taille de l’environnement de travail ou utiliser ‘simulate.p."
+"value=TRUE’"
 
 #: fourier.c:62 fourier.c:157
 msgid "non-numeric argument"
@@ -271,10 +277,12 @@ msgstr "série multivariée requise"
 msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
 msgstr "nextn() n’a pas trouvé de solution < %d = INT_MAX (le plus grand entier) ; passer '0 + n' à la place de 'n'"
 
-#: fourier.c:225
-#, fuzzy, c-format
+#: fourier.c:233
+#, c-format
 msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
-msgstr "nextn<64>() n’a pas trouvé de solution < %llu = UINT64_MAX (le plus grand entier)"
+msgstr ""
+"nextn<64>() n’a pas trouvé de solution < %llu = UINT64_MAX (le plus grand "
+"entier)"
 
 #: fourier.c:241
 msgid "no factors"
@@ -305,7 +313,7 @@ msgstr "'%s' doit être de longueur unitaire"
 #: isoreg.c:55
 #, c-format
 msgid "non-finite sum(y) == %g is not allowed"
-msgstr ""
+msgstr "sum(y) == %g n'est pas limité et donc non autorisé"
 
 #: ksmooth.c:63
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
@@ -315,8 +323,8 @@ msgstr "seulement 2500 lignes autorisées pour sm.method=\"spline\""
 msgid "'x' is not a matrix"
 msgstr "'x' n'est pas une matrice"
 
-#: lm.c:56
-#, fuzzy, c-format
+#: lm.c:62
+#, c-format
 msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
 msgstr "les dimensions de 'x' (%d,%d) et de 'y' (%lld) ne correspondent pas"
 
@@ -969,7 +977,9 @@ msgstr "second argument 'size' incorrect"
 #: rcont.c:79
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
-msgstr "rcont2 [%d,%d]: exp provoque un dépassement mémoire vers le bas à 0; l'algorithme a échoué"
+msgstr ""
+"rcont2 [%d,%d] : exp provoque un dépassement mémoire vers le bas à 0; "
+"l'algorithme a échoué"
 
 #: smooth.c:101
 #, c-format
@@ -1004,3 +1014,4 @@ msgstr "valeur manquante dans les %d dernières observations"
 
 #~ msgid "allocation error in smooth(*, '3R')."
 #~ msgstr "erreur d'allocation dans smooth(*, '3R')."
+
