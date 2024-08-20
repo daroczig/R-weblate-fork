@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-05-26 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -235,9 +235,8 @@ msgstr "'FUN' doit être une fonction ou NULL"
 msgid "cannot handle S4 methods yet"
 msgstr "incapable de traiter les méthodes S4 actuellement"
 
-#, fuzzy
 msgid "'package' must be a character vector or NULL"
-msgstr "'package' doit être une chaîne de caratcères ou NULL"
+msgstr "'package' doit être un vecteur de caractères ou NULL"
 
 msgid "data index for package %s is invalid and will be ignored"
 msgstr "l'index de données pour le package %s est incorrect et sera ignoré"
@@ -455,7 +454,7 @@ msgid "R Help on %s"
 msgstr "R Help sur %s"
 
 msgid "invalid %s argument"
-msgstr "argument %s incorrect"
+msgstr "argument '%s' incorrect"
 
 msgid "package %s exists but was not installed under R >= 2.10.0 so help cannot be accessed"
 msgstr "le package %s existe, mais il n'a pas été installé sous R >= 2.10.0 et donc l'aide n'est pas accessible"
