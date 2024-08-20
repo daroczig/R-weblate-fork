@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-08-19 10:31+0000\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -1003,6 +1003,8 @@ msgstr ""
 
 msgid "profiling has found a better solution, so original fit had not converged"
 msgstr ""
+"le profilage a trouvé une meilleure solution, l'ajustement original n'a donc "
+"pas convergé"
 
 msgid "'family' not recognized"
 msgstr "'family' non reconnu"
@@ -1080,10 +1082,10 @@ msgid "glm.fit: algorithm stopped at boundary value"
 msgstr "glm.fit : l'algorithme s'est arrêté à la valeur limite"
 
 msgid "glm.fit: fitted probabilities numerically 0 or 1 occurred"
-msgstr "glm.fit: des probabilités ont été ajustées numériquement à 0 ou 1"
+msgstr "glm.fit : des probabilités ont été ajustées numériquement à 0 ou 1"
 
 msgid "glm.fit: fitted rates numerically 0 occurred"
-msgstr "glm.fit: des taux ont été ajustés numériquement à 0"
+msgstr "glm.fit : des taux ont été ajustés numériquement à 0"
 
 msgid "the following arguments to 'anova.glm' are invalid and dropped:"
 msgstr "les arguments de 'anova.glm' suivants sont incorrects et ignorés :"
@@ -1107,7 +1109,9 @@ msgid "observations with zero weight not used for calculating dispersion"
 msgstr "les observations de poids nul n'ont pas été utilisées pour le calcul de la dispersion"
 
 msgid "The \"ward\" method has been renamed to \"ward.D\"; note new \"ward.D2\""
-msgstr "La méthode \"ward\" a été renommée \"ward.D\"; notez la nouvelle méthode \"ward.D2\""
+msgstr ""
+"La méthode \"ward\" a été renommée en \"ward.D\" ; notez la nouvelle méthode "
+"\"ward.D2\""
 
 msgid "invalid clustering method"
 msgstr "méthode de classification incorrecte"
@@ -1435,7 +1439,7 @@ msgid "no models to compare"
 msgstr "pas de modèle à comparer"
 
 msgid "extra arguments discarded"
-msgstr "arguments supplémentaires ignorés"
+msgstr "arguments supplémentaires supprimés"
 
 msgid "'logLik.lm' does not support multiple responses"
 msgstr "'logLik.lm' n'est pas implémenté pour les réponses multiples"
@@ -1664,7 +1668,7 @@ msgid "f.upper = f(upper) is NA"
 msgstr "f.upper = f(upper) est NA"
 
 msgid "invalid 'extendInt'; please report"
-msgstr "argument 'extendInt' incorrect; veuillez envoyer un rapport de bug"
+msgstr "'extendInt' incorrect ; veuillez rapporter le bogue"
 
 msgid "no sign change found in %d iterations"
 msgstr "pas de changement de signe après %d itérations"
@@ -1703,7 +1707,7 @@ msgid "cannot recognize parameter name"
 msgstr "nom de paramètre inconnu"
 
 msgid "levels truncated to positive values only"
-msgstr "les niveaux ont été réduits aux valeurs positives"
+msgstr "les niveaux ont été tronqués aux valeurs positives uniquement"
 
 msgid "invalid  'attr(rhs, \"gradient\")'"
 msgstr "'attr(rhs, \"gradient\")' incorrect"
