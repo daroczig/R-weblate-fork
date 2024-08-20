@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-20 03:05+0000\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -74,9 +74,9 @@ msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
 msgstr "Internal(pretty()) : intervalle trop petit.. corrigé"
 
 #: src/appl/pretty.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()) : intervalle trop grand.. corrigé"
+msgstr "R_pretty() : intervalle trop grand 'cell'=%g, corrigé en %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
@@ -351,6 +351,8 @@ msgid ""
 "expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
+"la longueur du chemin développé %llu serait trop grande pour\n"
+"%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -371,12 +373,12 @@ msgstr "argument '%s' incorrect"
 #: src/unix/sys-unix.c:1080
 #, c-format
 msgid "command '%s' timed out after %ds"
-msgstr "l'exécution de la commande '%s' renvoie un statut %d"
+msgstr "la commande '%s' a dépassé le temps maximum d'exécution (%ds)"
 
 #: src/gnuwin32/sys-win32.c:364 src/unix/sys-unix.c:868
 #, c-format
 msgid "running command '%s' had status %d"
-msgstr "l'exécution de la commande '%s' renvoie un statut %d"
+msgstr "l'exécution de la commande '%s' a renvoyé le statut %d"
 
 #: src/gnuwin32/system.c:138 src/main/sysutils.c:2919
 msgid "reached session elapsed time limit"
@@ -423,10 +425,10 @@ msgstr "impossible d'ouvrir le fichier '%s' : %s"
 msgid "file.show(): file '%s' does not exist\n"
 msgstr "file.show() : fichier '%s' inexistant\n"
 
-#: src/gnuwin32/system.c:1076
-#, fuzzy, c-format
+#: src/gnuwin32/system.c:1046
+#, c-format
 msgid "Not enough memory"
-msgstr "manque de mémoire"
+msgstr "mémoire insuffisante"
 
 #: src/gnuwin32/system.c:1092 src/unix/system.c:462
 #, c-format
@@ -479,9 +481,8 @@ msgid "object of type '%s' is not subsettable"
 msgstr "objet de type '%s' non indiçable"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
-msgstr "[[ ]] avec indice manquant"
+msgstr "indice manquant"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
@@ -526,22 +527,19 @@ msgstr "AVIS : valeur de '--max-ppsize' trop grande : ignorée"
 #: src/main/CommandLineArgs.c:257
 #, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
-msgstr "AVIS : aucune valeur donnée pour '--max-ppsize'"
+msgstr "AVIS : aucune valeur donnée pour '--max-connections'"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
-msgstr "AVIS : valeur de '--max-ppsize' strictement négative : ignorée"
+msgstr "AVIS : valeur de '--max-connections' strictement négative : ignorée"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
-msgstr "AVIS : valeur de '--max-ppsize' trop petite : ignorée"
+msgstr "AVIS : valeur de '--max-connections' trop petite : ignorée"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
-msgstr "AVIS : valeur de '--max-ppsize' trop grande : ignorée"
+msgstr "AVIS : valeur de '--max-connections' trop grande : ignorée"
 
 #: src/main/RNG.c:180
 #, c-format
@@ -667,12 +665,12 @@ msgstr "Objet incorrect."
 #: src/main/Rdynload.c:427
 #, c-format
 msgid "Invalid entry '%s' in native symbol object."
-msgstr ""
+msgstr "Entrée incorrecte '%s' dans l'objet symbole natif."
 
 #: src/main/Rdynload.c:433
 #, c-format
 msgid "Component '%s' missing in symbol object."
-msgstr ""
+msgstr "Composant '%s' absent dans l'objet symbole."
 
 #: src/main/Rdynload.c:445
 msgid "Invalid symbol list."
@@ -3155,15 +3153,15 @@ msgstr "étendue de l'axe incorrecte [GEPretty(.,.,n=%d)"
 msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
 msgstr "étendue de l'axe infinie [GEPretty(%g,%g,%d)]"
 
-#: src/main/engine.c:2502
-#, fuzzy, c-format
+#: src/main/engine.c:2499
+#, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. GEPretty(.) : nouveau *lo = %g < %g = x1"
+msgstr " nouveau *lo = %g < %g = x1"
 
-#: src/main/engine.c:2504
-#, fuzzy, c-format
+#: src/main/engine.c:2501
+#, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. GEPretty(.) : nouveau *up = %g > %g = x2"
+msgstr " nouveau *up = %g > %g = x2"
 
 #: src/main/engine.c:3024
 msgid "display list redraw incomplete"
@@ -5939,14 +5937,13 @@ msgid "argument of length 0"
 msgstr "l'argument est de longueur nulle"
 
 #: src/main/seq.c:157
-#, fuzzy
 msgid "numerical expression has length > 1"
-msgstr "l'expression numérique a %d élément : seul le premier est utilisé"
+msgstr "l'expression numérique a une longueur > 1"
 
 #: src/main/seq.c:159
-#, fuzzy, c-format
+#, c-format
 msgid "numerical expression has %d elements: only the first used"
-msgstr "l'expression numérique a %d élément : seul le premier est utilisé"
+msgstr "l'expression numérique a %d éléments : seul le premier est utilisé"
 
 #: src/main/seq.c:166
 msgid "NA/NaN argument"
@@ -5984,7 +5981,7 @@ msgstr "'%s' doit être un entier fini"
 
 #: src/main/seq.c:852
 msgid "'length.out' must be a non-negative number"
-msgstr "'length.out' doit être un entier positif ou nul"
+msgstr "'length.out' doit être un nombre positif ou nul"
 
 #: src/main/seq.c:866 src/main/seq.c:873 src/main/seq.c:881
 #, c-format
@@ -8819,3 +8816,4 @@ msgstr "AVIS : édition uniquement du premier fichier de la liste"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' appelé sur une fonction qui n'est pas primitive"
+
