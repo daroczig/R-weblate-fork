@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-05-26 03:05+0000\n"
-"Last-Translator: Nichole Haines <NicholeHaines54@gmail.com>\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -30,20 +30,18 @@ msgstr "'labels' et 'at' doivent être de même longueur"
 msgid "logical 'label' supplied of length 0"
 msgstr "la valeur logique 'label' est de longueur nulle"
 
-#, fuzzy
 msgid "Invalid coordinates"
-msgstr "'order' incorrect"
+msgstr "Coordonnées incorrectes"
 
-#, fuzzy
 msgid "Invalid grob coordinates"
-msgstr "nom de 'grob' incorrect"
+msgstr "Coordonnées de 'grob' incorrectes"
+
+msgid "Invalid gTree coordinates"
+msgstr "Coordonnées 'gTree' incorrectes"
 
 #, fuzzy
-msgid "Invalid gTree coordinates"
-msgstr "classe \"gTree\" incorrecte"
-
 msgid "Closed must not be a missing value"
-msgstr ""
+msgstr "Closed ne doit pas être une valeur absente"
 
 msgid "end points must not be identical"
 msgstr "les points extrêmes ne peuvent être identiques"
@@ -115,7 +113,7 @@ msgid "'gamma' 'gpar' element is defunct"
 msgstr "'gamma' 'gpar' n'existe plus"
 
 msgid "'fill' gpar list components must all be patterns"
-msgstr ""
+msgstr "les composants 'fill'de la liste gpar doivent tous être des modèles"
 
 msgid "invalid 'linemitre' value"
 msgstr "valeur 'linemitre' incorrecte"
@@ -168,9 +166,8 @@ msgstr "il faut naviguer dans au moins une vue"
 msgid "Invalid number of generations"
 msgstr "Nombre de générations incorrect"
 
-#, fuzzy
 msgid "Invalid 'clearGroups' argument"
-msgstr "argument 'arrow' incorrect"
+msgstr "argument 'clearGroups' incorrect"
 
 msgid "invalid object inserted on the display list"
 msgstr "objet incorrect inséré dans la liste d'affichage"
@@ -349,9 +346,8 @@ msgstr "listing incorrect"
 msgid "invalid 'listing'"
 msgstr "'listing' incorrect"
 
-#, fuzzy
 msgid "Only a grob can be converted to a mask"
-msgstr "Seul un grob peut être converti en chemin"
+msgstr "Seul un grob peut être converti en masque"
 
 msgid "invalid 'origin'"
 msgstr "'origin' incorrecte"
@@ -361,19 +357,17 @@ msgstr "Seul un grob peut être converti en chemin"
 
 #, fuzzy
 msgid "colours and stops must be at least length 1"
-msgstr "'x' et 'y' doivent être de même longueur"
+msgstr "les couleurs et les arrêts doivent être au moins de longueur 1"
 
-#, fuzzy
 msgid "x1, y1, x2, and y2 must all be length 1"
-msgstr "'x1', 'y1', 'x2' et 'y2' doivent être des unités ('units')"
+msgstr "'x1', 'y1', 'x2' et 'y2' doivent tous être de longueur 1"
 
-#, fuzzy
 msgid "cx1, cy1, cx2, cy2, r1, and r2 must all be length 1"
-msgstr "'x1', 'y1', 'x2' et 'y2' doivent être des unités ('units')"
+msgstr ""
+"'cx1', 'cy1', 'cx2', 'cy2', 'r1' et 'r2' doivent tous être de longueur 1"
 
-#, fuzzy
 msgid "x, y, width, and height must all be length 1"
-msgstr "'x', 'y', 'width' et 'height' doivent tous de longueur 1"
+msgstr "'x', 'y', 'width' et 'height' doivent tous être de longueur 1"
 
 msgid "Pattern must be based on grob"
 msgstr "Le modèle doit être basé sur le grob"
@@ -471,23 +465,20 @@ msgstr "'x', 'y', 'width' et 'height' doivent tous de longueur 1"
 msgid "Invalid glyph info"
 msgstr "Informations sur les glyphes non valides"
 
-#, fuzzy
 msgid "'x' and 'y' must have length > 0"
-msgstr "'x' et 'y' doivent être de longueur unitaire"
+msgstr "'x' et 'y' doivent avoir une longueur > 0"
 
 msgid "'hjust' and 'vjust' must be glyphJust() values"
 msgstr ""
 
-#, fuzzy
 msgid "'hjust' and 'vjust' must have length 1"
-msgstr "'x' et 'y' doivent être de longueur unitaire"
+msgstr "'hjust' et 'vjust' doivent être de longueur 1"
 
 msgid "Unknown width; using first width"
 msgstr ""
 
-#, fuzzy
 msgid "Unknown anchor; using left justification"
-msgstr "justification horizontale incorrecte"
+msgstr "Ancre non définie ; justification à gauche utilisée"
 
 msgid "Unknown height; using first height"
 msgstr ""
@@ -501,13 +492,11 @@ msgstr "'x' et 'units' doivent avoir une longueur positive"
 msgid "invalid 'axis' or 'type'"
 msgstr "'axis' ou 'type' incorrect"
 
-#, fuzzy
 msgid "'x' and 'y' must be units and 'device' must be logical"
-msgstr "'x' et 'y' doivent être des objets 'unit' et doivent avoir la même longueur"
+msgstr "'x' et 'y' doivent être des unités et 'device' doit être booléen"
 
-#, fuzzy
 msgid "'w' and 'h' must be units and 'device' must be logical"
-msgstr "'x' et 'y' doivent être des objets 'unit' et doivent avoir la même longueur"
+msgstr "'w' et 'h' doivent être des unités et 'device' doit être un booléen"
 
 msgid "Not a unit object"
 msgstr "Ce n’est pas un objet 'unit'"
