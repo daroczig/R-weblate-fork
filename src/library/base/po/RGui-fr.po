@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: RGui 4.1.3\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 16:47+0100\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
 msgid "Not enough memory"
-msgstr "Pas assez de mémoire"
+msgstr "mémoire insuffisante"
 
 #: src/gnuwin32/console.c:1289 src/gnuwin32/console.c:1293
 msgid "Insufficient memory: text not copied to the clipboard"
@@ -888,19 +888,16 @@ msgid "Insufficient memory to create metafile"
 msgstr "Mémoire insuffisante. Veuillez refermer la console, s'il-vous-plait"
 
 #: src/extra/graphapp/printer.c:111
-#, fuzzy
 msgid "Unable to choose printer"
-msgstr "Impossible de créer la fenêtre de l'afficheur"
+msgstr "Impossible de sélectionner une imprimante"
 
 #: src/extra/graphapp/printer.c:139
-#, fuzzy
 msgid "Insufficient memory for new printer"
-msgstr "Mémoire insuffisante pour afficher le fichier dans un afficheur interne"
+msgstr "Mémoire insuffisante pour la nouvelle imprimante"
 
 #: src/extra/graphapp/printer.c:175
-#, fuzzy
 msgid "Unable to start the print job"
-msgstr "Impossible de créer la fenêtre de l'afficheur"
+msgstr "Impossible d'exécuter la tâche d'impression"
 
 #: src/library/utils/src/windows/dataentry.c:251
 #: src/library/utils/src/windows/dataentry.c:1896
