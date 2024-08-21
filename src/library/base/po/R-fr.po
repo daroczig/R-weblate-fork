@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"PO-Revision-Date: 2024-08-21 23:30+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -950,9 +950,8 @@ msgstr "'file' doit être spécifié"
 msgid "nothing specified to be save()d"
 msgstr "rien n'est indiqué pour être sauvé avec save()"
 
-#, fuzzy
-msgid "'%s' must be a non-empty character string"
-msgstr "'file' doit être une chaîne de caractères non vide"
+msgid "'%s' must be a non-empty string"
+msgstr "'%s' doit être une chaîne de caractères non vide"
 
 msgid "'compress' must be logical or character"
 msgstr "'compress' ou une valeur logique ou une chaîne de caractères"
@@ -1178,9 +1177,8 @@ msgstr "-- mise en cache des métadonnées"
 msgid "--- done caching metadata"
 msgstr "-- fin de la mise en cache des métadonnées"
 
-#, fuzzy
 msgid "--- processing classes"
-msgstr "-- traitement des classes"
+msgstr "--- traitement des classes"
 
 msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in package %s"
 msgstr "'exportClassPattern' spécifié dans le fichier 'NAMESPACE', mais aucune classe ne correspond dans le package %s"
@@ -1374,9 +1372,8 @@ msgstr "structure 'rle' incorrecte"
 msgid "... must contain names or character strings"
 msgstr "... doit contenir des noms ou des chaînes de caractères"
 
-#, fuzzy
 msgid "invalid 'x'"
-msgstr "'dims' incorrect"
+msgstr "'x' incorrect"
 
 msgid "incorrect length for 'group'"
 msgstr "longueur de 'group' incorrecte"
@@ -1533,9 +1530,8 @@ msgstr "spécifiez soit 'file', soit 'exprs', mais pas les deux à la fois"
 msgid "'%s' is not an existing file"
 msgstr "'%s' n'est pas un fichier existant"
 
-#, fuzzy
 msgid "'formula' must be a formula"
-msgstr "'from' doit être 'raw' ou une chaîne de caractères"
+msgstr "'formula' doit être une formule"
 
 msgid "Unexpected LHS in 'formula' has been ignored."
 msgstr "La LHS inattendue dans 'formula' a été ignorée."
@@ -1735,9 +1731,8 @@ msgstr "'ignore.stderr' doit être TRUE ou FALSE"
 msgid "'wait' must be TRUE or FALSE"
 msgstr "'wait' doit être TRUE ou FALSE"
 
-#, fuzzy
 msgid "'receive.console.signals' must be TRUE or FALSE"
-msgstr "'intern' doit être TRUE ou FALSE"
+msgstr "'receive.console.signals' doit être TRUE ou FALSE"
 
 msgid "'input' must be a character vector or 'NULL'"
 msgstr "'input' doit être un vecteur de chaînes de caractères ou 'NULL'"
@@ -2297,4 +2292,5 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valeur incorrecte"
+
 
