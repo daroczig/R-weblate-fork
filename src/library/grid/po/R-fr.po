@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"PO-Revision-Date: 2024-08-21 23:30+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -39,7 +39,6 @@ msgstr "Coordonnées de 'grob' incorrectes"
 msgid "Invalid gTree coordinates"
 msgstr "Coordonnées 'gTree' incorrectes"
 
-#, fuzzy
 msgid "Closed must not be a missing value"
 msgstr "Closed ne doit pas être une valeur absente"
 
@@ -355,9 +354,8 @@ msgstr "'origin' incorrecte"
 msgid "Only a grob can be converted to a path"
 msgstr "Seul un grob peut être converti en chemin"
 
-#, fuzzy
 msgid "colours and stops must be at least length 1"
-msgstr "les couleurs et les arrêts doivent être au moins de longueur 1"
+msgstr "'colours' et 'stops' doivent être au moins de longueur 1"
 
 msgid "x1, y1, x2, and y2 must all be length 1"
 msgstr "'x1', 'y1', 'x2' et 'y2' doivent tous être de longueur 1"
@@ -380,9 +378,8 @@ msgid ""
 "(recycling coords)"
 msgstr ""
 
-#, fuzzy
 msgid "Pattern fill applied to object with no inside"
-msgstr "Remplissage en gradient appliqué à un objet qui n’a pas de contenu"
+msgstr "Remplissage du modèle appliqué à un objet sans contenu"
 
 msgid "'length' must be a 'unit' object"
 msgstr "'length' doit être un objet 'unit'"
@@ -469,22 +466,22 @@ msgid "'x' and 'y' must have length > 0"
 msgstr "'x' et 'y' doivent avoir une longueur > 0"
 
 msgid "'hjust' and 'vjust' must be glyphJust() values"
-msgstr ""
+msgstr "'hjust' et 'vjust' doivent être des valeurs glyphJust()"
 
 msgid "'hjust' and 'vjust' must have length 1"
 msgstr "'hjust' et 'vjust' doivent être de longueur 1"
 
 msgid "Unknown width; using first width"
-msgstr ""
+msgstr "Largeur inconnue ; utilisation de la première largeur"
 
 msgid "Unknown anchor; using left justification"
 msgstr "Ancre non définie ; justification à gauche utilisée"
 
 msgid "Unknown height; using first height"
-msgstr ""
+msgstr "Hauteur inconnue ; utilisation de la première hauteur"
 
 msgid "Unknown anchor; using bottom justification"
-msgstr ""
+msgstr "Ancrage inconnu ; utilisation de la justification par le bas"
 
 msgid "'x' and 'units' must have length > 0"
 msgstr "'x' et 'units' doivent avoir une longueur positive"
