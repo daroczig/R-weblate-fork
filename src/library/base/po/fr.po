@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-21 23:30+0000\n"
+"PO-Revision-Date: 2024-08-24 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -678,7 +678,7 @@ msgstr "Liste de symboles incorrecte."
 #: src/main/Rdynload.c:459
 #, c-format
 msgid "Symbol at %d does not have registration information."
-msgstr ""
+msgstr "Le symbole à %d n'a pas les informations d'enregistrement."
 
 #: src/main/Rdynload.c:495
 msgid "Invalid symbol name."
@@ -697,17 +697,17 @@ msgstr "Le symbole '%s' n'a pas d'adresse native valide."
 #: src/main/Rdynload.c:502
 #, c-format
 msgid "Symbol '%s' does not have a valid DllInfo reference."
-msgstr ""
+msgstr "Référence DllInfo incorrecte pour le symbole '%s' ."
 
 #: src/main/Rdynload.c:507
 #, c-format
 msgid "Symbol '%s' comes from a different shared object."
-msgstr ""
+msgstr "Le symbole '%s' provient d'un objet partagé différent."
 
 #: src/main/Rdynload.c:510
 #, c-format
 msgid "Symbol '%s' is missing parameter specification."
-msgstr ""
+msgstr "Il manque la spécification du paramètre pour le symbole '%s'."
 
 #: src/main/Rdynload.c:851
 msgid "`maximal number of DLLs reached..."
@@ -1073,7 +1073,7 @@ msgstr ""
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
-msgstr ""
+msgstr "données non vides pour une matrice d'extension zéro"
 
 #: src/main/array.c:179 src/main/array.c:2101 src/main/array.c:2209
 msgid "too many elements specified"
@@ -1119,7 +1119,7 @@ msgstr[1] "%d arguments passés à '%s' qui en exige au moins %d"
 #: src/main/array.c:1285
 #, c-format
 msgid "more than 2 arguments passed to default method of '%s'"
-msgstr ""
+msgstr "plus de 2 arguments passés à la méthode par défaut de '%s'"
 
 #: src/main/array.c:1290
 msgid "requires numeric/complex matrix/vector arguments"
@@ -2465,6 +2465,8 @@ msgstr "ethod = \"wininet\" n’est supporté que sous Windows"
 #: src/main/connections.c:5678 src/modules/internet/internet.c:225
 msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
 msgstr ""
+"la méthode 'internal' de url() est obsolète et a été supprimée pour les URL "
+"http:// et ftp://"
 
 #: src/main/connections.c:5691
 msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
@@ -2562,7 +2564,7 @@ msgstr "le descripteur de fichier est trop long pour select()"
 
 #: src/main/connections.c:6448 src/modules/internet/libcurl.c:793
 msgid "too many file descriptors for select()"
-msgstr ""
+msgstr "trop de descripteurs de fichiers pour select()"
 
 #: src/main/connections.c:6783
 msgid "unknown compression, assuming none"
@@ -2647,6 +2649,8 @@ msgstr "fonction cumxxx inconnue"
 #: src/main/datetime.c:611
 msgid "datetimes before 1902 may not be accurate: warns once per session"
 msgstr ""
+"il est possible que les datetimes d'avant 1902 ne soient pas exactes : sera "
+"signalé une fois par session"
 
 #: src/main/datetime.c:807 src/main/datetime.c:819 src/main/datetime.c:842
 #: src/main/datetime.c:847
@@ -2663,26 +2667,27 @@ msgstr "problème lors de la désaffectation d'un fuseau horaire"
 
 #: src/main/datetime.c:986
 msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
-msgstr ""
+msgstr "un objet \"POSIXlt\" valide est une liste d'au moins 9 éléments"
 
 #: src/main/datetime.c:990
 msgid "a valid \"POSIXlt\" object has names"
-msgstr ""
+msgstr "un objet \"POSIXlt\" possède des noms"
 
 #: src/main/datetime.c:996
 #, c-format
 msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
 msgstr ""
+"un objet \"POSIXlt\" valide a un élément %d de nom '%s' qui doit être '%s'"
 
 #: src/main/datetime.c:1003 src/main/datetime.c:1019
 #, c-format
 msgid "a valid \"POSIXlt\" object has a numeric element %s"
-msgstr ""
+msgstr "un objet \"POSIXlt\" valide possède un élément numérique %s"
 
 #: src/main/datetime.c:1014
 #, c-format
 msgid "a valid \"POSIXlt\" object has a character element %s"
-msgstr ""
+msgstr "un objet \"POSIXlt\" valide possède un élément de type caractère %s"
 
 #: src/main/datetime.c:1010 src/main/datetime.c:1252 src/main/datetime.c:1938
 #, c-format
@@ -2691,7 +2696,7 @@ msgstr "valeur '%s' incorrecte"
 
 #: src/main/datetime.c:1030
 msgid "attr(x, \"tzone\") should have length 1 or 3"
-msgstr ""
+msgstr "attr(x, \"tzone\") doit avoir une longueur de 1 ou 3"
 
 #: src/main/datetime.c:1147
 #, c-format
@@ -2905,7 +2910,7 @@ msgstr "Valeur NULL pour DLLInfoReference lors de la recherche de la DLL"
 
 #: src/main/dotcode.c:1635
 msgid "DLL requires the use of native symbols"
-msgstr ""
+msgstr "DLL nécessite l'utilisation de symboles natifs"
 
 #: src/main/dotcode.c:1732
 #, c-format
@@ -3162,10 +3167,10 @@ msgstr "valeur '%d' non implémentée pour 'pch'"
 msgid "invalid axis extents [GEPretty(.,.,n=%d)"
 msgstr "étendue de l'axe incorrecte [GEPretty(.,.,n=%d)"
 
-#: src/main/engine.c:2459
-#, fuzzy, c-format
+#: src/main/engine.c:2456
+#, c-format
 msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
-msgstr "étendue de l'axe infinie [GEPretty(%g,%g,%d)]"
+msgstr "extension infinie de l'axe [GEPretty(%g,%g,n=%d)]"
 
 #: src/main/engine.c:2499
 #, c-format
@@ -3233,7 +3238,7 @@ msgstr ""
 
 #: src/main/engine.c:3805
 msgid "Fill ignored (device is appending path)"
-msgstr ""
+msgstr "Remplissage ignoré (l'équipement ajoute le chemin)"
 
 #: src/main/engine.c:3817
 msgid "FillStroke ignored (device is appending path)"
@@ -3346,10 +3351,10 @@ msgstr "impossible d'éliminer des variables de cette base de données"
 msgid "not a symbol"
 msgstr "ceci n'est pas un symbole"
 
-#: src/main/envir.c:2078
-#, fuzzy, c-format
+#: src/main/envir.c:2070
+#, c-format
 msgid "invalid '%s' argument '%s'"
-msgstr "argument '%s' incorrect"
+msgstr "argument '%s' incorrect '%s'"
 
 #: src/main/envir.c:2096
 msgid "first argument has length > 1"
@@ -3698,14 +3703,12 @@ msgid "error message must be a character string"
 msgstr "le message d'erreur doit être une chaîne de caractères"
 
 #: src/main/errors.c:2665
-#, fuzzy
 msgid "condition object must be a VECSXP of length at least one"
-msgstr "'mode' doit être de longueur unitaire ou plus"
+msgstr "l'objet 'condition' doit être un VECSXP de longueur >=1"
 
 #: src/main/errors.c:2668
-#, fuzzy
 msgid "first element of condition object must be a scalar string"
-msgstr "objet de remplacement incorrect, doit être de classe chaîne de caractères"
+msgstr "le premier élément de l'objet condition doit être une chaîne scalaire"
 
 #: src/main/errors.c:2763
 #, c-format
@@ -3735,7 +3738,7 @@ msgstr "pile de noeuds débordée vers le haut"
 
 #: src/main/eval.c:682
 msgid "samples too large for I/O buffer skipped by Rprof"
-msgstr ""
+msgstr "échantillons trop grands pour le tampon d'E/S ignorés par Rprof"
 
 #: src/main/eval.c:684
 #, c-format
@@ -3750,12 +3753,12 @@ msgstr "Rprof : impossible d'ouvrir le fichier '%s'"
 #: src/main/eval.c:900
 #, c-format
 msgid "interval too short for this platform, using '%f'"
-msgstr ""
+msgstr "intervalle trop court piur cette plateforme, utilisation de '%f'"
 
 #: src/main/eval.c:905
 #, c-format
 msgid "interval too short, using '%f'"
-msgstr ""
+msgstr "intervalle trop court, utilisation de '%f'"
 
 #: src/main/eval.c:921
 msgid "R profiling is not available on this system"
@@ -3822,9 +3825,8 @@ msgid "multi-argument returns are not permitted"
 msgstr "les renvois multi-arguments sont inderdits"
 
 #: src/main/eval.c:3073
-#, fuzzy
 msgid "\"expr\" must be a call expression"
-msgstr "l'argument 'expr' doit être une expression"
+msgstr "l'argument 'expr' doit être l'expression d'un appel"
 
 #: src/main/eval.c:3182
 msgid "invalid (NULL) left side of assignment"
@@ -8829,5 +8831,6 @@ msgstr "AVIS : édition uniquement du premier fichier de la liste"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' appelé sur une fonction qui n'est pas primitive"
+
 
 
