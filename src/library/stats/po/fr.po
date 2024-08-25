@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"PO-Revision-Date: 2024-08-26 19:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -249,7 +249,7 @@ msgstr ""
 "Augmentez la taille de l’environnement de travail ou considérez l’utilisation de 'simulate.p.value=TRUE’."
 
 #: fexact.c:1458
-#, c-format, fuzzy
+#, c-format
 msgid ""
 "FEXACT error 7(%s). LDSTP=%d is too small for this problem,\n"
 "  (pastp=%g, ipn_0:=ipoin[itp=%d]=%d, stp[ipn_0]=%g).\n"
@@ -978,7 +978,7 @@ msgstr "second argument 'size' incorrect"
 #, c-format
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
 msgstr ""
-"rcont2 [%d,%d] : exp provoque un dépassement mémoire vers le bas à 0; "
+"rcont2 [%d,%d] : exp provoque un dépassement mémoire vers le bas à 0 ; "
 "l'algorithme a échoué"
 
 #: smooth.c:101
