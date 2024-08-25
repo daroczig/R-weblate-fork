@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"PO-Revision-Date: 2024-08-26 19:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -171,7 +171,8 @@ msgid "Timestamp file no longer exists."
 msgstr "Le fichier timestamp n'existe plus."
 
 msgid "Not all arguments are of the same length, the following need to be recycled: %s"
-msgstr "Tous les arguments n'ont pas même longueur, le suivant doit être recyclé: %s"
+msgstr ""
+"Tous les arguments n'ont pas même longueur, le suivant doit être recyclé : %s"
 
 msgid "Use either %s or %s/%s but not both."
 msgstr "Utilisez soit %s, soit %s/%s, mais pas les deux en même temps."
@@ -377,13 +378,12 @@ msgstr "'form' doit être une formule à deux membres"
 msgid "'form' must be a two-sided formula with one term on each side"
 msgstr "'form' doit être une formule à deux membres avec un terme de chaque côté"
 
-#, fuzzy
 msgid "invalid object for 'as.environment'"
-msgstr "argument 'socket' incorrect"
+msgstr "objet incorrect pour 'as.environment'"
 
-#, fuzzy
 msgid "invalid 'n' - must contain at least one non-missing element, got none."
-msgstr "'n' incorrect - doit contenir au moins un élément non manquant, j’en trouve aucun."
+msgstr ""
+"'n' incorrect - doit contenir au moins un élément non manquant, aucun trouvé."
 
 msgid "invalid 'n' - must be numeric, possibly NA."
 msgstr "'n' invalide - doit être numérique, éventuellement NA."
@@ -471,9 +471,8 @@ msgstr "Annulé par l’utilisateur"
 msgid "Unable to connect to CRAN to check R version."
 msgstr "Impossible de se connecter à CRAN pour vérifier la version de R."
 
-#, fuzzy
-msgid "'%s' must be a character string"
-msgstr "'unzip' doit être une seule chaîne de caractères"
+msgid "argument %s must be a character string"
+msgstr "l'argument %s doit être une chaîne de caractères"
 
 msgid "incorrect field specification"
 msgstr "spécification de champ incorrecte"
@@ -545,9 +544,8 @@ msgstr "impossible de mettre à jour l'index HTML des packages"
 msgid "done"
 msgstr "terminé"
 
-#, fuzzy
 msgid "Source must be a seekable connection"
-msgstr "'file' doit être une chaîne de caractères ou une connexion"
+msgstr "La source doit être une connexion où seek() est autorisé"
 
 msgid "menu() cannot be used non-interactively"
 msgstr "menu() ne peut être utilisé en mode non interactif"
@@ -583,7 +581,7 @@ msgid "function '%s' appears not to be S3 generic; found functions that look lik
 msgstr "la fonction '%s' semble ne pas être générique S3 ; des fonctions ressemblant à des méthodes S3 sont trouvées"
 
 msgid "'class' is of length > 1; only the first element will be used"
-msgstr "'class' est de longueur > 1; seul le premier élément sera utilisé"
+msgstr "'class' est de longueur > 1 ; seul le premier élément sera utilisé"
 
 msgid "must supply 'generic.function' or 'class'"
 msgstr "il faut fournir 'generic.function' ou 'class'"
@@ -724,8 +722,12 @@ msgid ""
 "Do not know which element of 'lib' to install dependencies into\n"
 "skipping dependencies"
 msgstr ""
-"Je ne sais pas dans quel élément de 'lib' installer les dépendances\n"
+"Impossible de déterminer dans quel élément de 'lib' installer les "
+"dépendances\n"
 "dépendances ignorées"
+
+msgid "'%s' must be a character string"
+msgstr "'%s' doit être une chaîne de caractères"
 
 msgid "type 'binary' is not supported on this platform"
 msgstr "le type 'binary' n’est pas supporté sur cette plateforme"
@@ -803,23 +805,18 @@ msgstr "La commande 'timeout' par défaut de Windows n’est pas utilisable pour
 msgid "timeouts for parallel installs require the 'timeout' command"
 msgstr "les délais maximaux pour les installations en parallèle nécessitent la commande 'timeout'"
 
-#, fuzzy
 msgid "installation of package %s failed"
-msgstr "le téléchargement du package %s a échoué"
+msgstr "échec de l'installation du package %s"
 
-#, fuzzy
 msgid "installation of %d packages failed:  %s"
-msgstr ""
-"l'installation de un package ou plus a échoué,\n"
-" probablement %s"
+msgstr "échec de l'installation de %d packages :  %s"
 
-#, fuzzy
 msgid ""
 "installation of %d packages failed:\n"
 "  %s"
 msgstr ""
-"l'installation de un package ou plus a échoué,\n"
-" probablement %s"
+"échec de l'installation de %d packages :\n"
+"  %s"
 
 msgid ""
 "The downloaded source packages are in\n"
@@ -1006,7 +1003,7 @@ msgid "invalid components in options(\"str\"): %s"
 msgstr "composants erronés dans options(\"str\") : %s"
 
 msgid "'str.default': 'le' is NA, so taken as 0"
-msgstr "'str.default': 'le' est NA, donc il est considéré comme 0"
+msgstr "'str.default' : 'le' est NA, donc il est considéré comme 0"
 
 msgid "'nchar.max = %d' is too small"
 msgstr "'nchar.max = %d' est trop petit"
@@ -1029,9 +1026,8 @@ msgstr "Le nombre de tokens != 'length(proto)'"
 msgid "The number of tokens is not consistent across 'x'"
 msgstr "Le nombre de tokens est incohérent avec 'x’"
 
-#, fuzzy
 msgid "cannot coerce %s to TRUE or FALSE"
-msgstr "impossible de convertir %s en booléen"
+msgstr "impossible de convertir %s en TRUE ou FALSE"
 
 msgid "no lines found in %s"
 msgstr "aucune ligne trouvée dans %s"
@@ -1205,9 +1201,8 @@ msgstr "l’appel de 'wget' a un statut de sortie non nul"
 msgid "'curl' call had nonzero exit status"
 msgstr "l’appel de 'curl' a un statut de sortie non nul"
 
-#, fuzzy
 msgid "invalid method:"
-msgstr "format incorrect"
+msgstr "méthode incorrecte :"
 
 msgid "download had nonzero exit status"
 msgstr "le téléchargement a a eu un statut de sortie non nul"
@@ -1274,13 +1269,11 @@ msgstr "impossible de copier l'installation temporaire %s vers %s"
 msgid "Only '*.zip' and '*.tar.gz' files can be installed."
 msgstr "Seulement les fichiers '*.zip' et '*.tar.gz' peuvent être installés."
 
-#, fuzzy
 msgid "'memory.size()' is no longer supported"
-msgstr "'memory.size()' est spécifique à Windows"
+msgstr "'memory.size()' n'est plus supportée"
 
-#, fuzzy
 msgid "'memory.limit()' is no longer supported"
-msgstr "'memory.limit()' est spécifique à Windows"
+msgstr "'memory.limit()' n'est plus supportée"
 
 msgid "winDialog() cannot be used non-interactively"
 msgstr "winDialog() ne peut être utilisé en mode non interactif"
@@ -1338,11 +1331,11 @@ msgid_plural "objects '%s' not found"
 msgstr[0] "objet '%s' introuvable"
 msgstr[1] "objets '%s' introuvables"
 
-#, fuzzy
 msgid "package %s is a base package, and cannot be removed"
 msgid_plural "packages %s are base packages, and cannot be removed"
-msgstr[0] "le package %s est un package de base et ne devrait pas être mis à jour"
-msgstr[1] "les packages %s sont des packages de base et ne devraient pas être mis à jour"
+msgstr[0] "le package %s est un package de base et ne peut pas être supprimé"
+msgstr[1] ""
+"les packages %s sont des packages de base et ne peuvent pas être supprimés"
 
 msgid ""
 "Removing package from %s\n"
@@ -1706,3 +1699,4 @@ msgstr[1] "nombres romans incorrects : %s"
 
 #~ msgid "argument 'lib' is missing: using '%s'"
 #~ msgstr "l'argument 'lib' manque : '%s' est utilisé"
+
