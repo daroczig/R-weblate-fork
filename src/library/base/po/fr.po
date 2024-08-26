@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-24 03:05+0000\n"
+"PO-Revision-Date: 2024-08-26 19:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -8017,7 +8017,7 @@ msgstr "AVIS : interface graphique '%s' inconnue, aucune n'est utilisée\n"
 #: src/unix/system.c:417
 #, c-format
 msgid "path given in -f/--file is too long"
-msgstr ""
+msgstr "le chemin fourni pour -f/--file est trop long"
 
 #: src/unix/system.c:489
 msgid "creating temporary file for '-e' failed"
