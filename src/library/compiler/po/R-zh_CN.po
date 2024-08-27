@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.15.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-03-18 21:18+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-08-28 03:05+0000\n"
+"Last-Translator: Jinyu Lu <jil945@mail.usask.ca>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -19,17 +19,16 @@ msgstr ""
 "X-Generator: Weblate 4.16.4\n"
 
 msgid "namespace found within local environments"
-msgstr ""
+msgstr "命名空间被发现在本地环境中"
 
 msgid "not a proper evaluation environment"
 msgstr "不是一个正确的评估环境"
 
-#, fuzzy
 msgid "non-namespace found within namespace environments"
-msgstr "'ns'必须是一个命名空间或命名空间的进口环境"
+msgstr "非命名空间被发现在命名空间环境中"
 
 msgid "namespace found within global environments"
-msgstr ""
+msgstr "命名空间被发现在全局环境中"
 
 msgid "bad assignment: %s"
 msgstr "坏的赋值：%s"
@@ -86,7 +85,7 @@ msgid "more than one default provided in switch() call"
 msgstr "调用switch()时只能有一个默认值"
 
 msgid "'switch' with no alternatives"
-msgstr ""
+msgstr "'switch' 没有选择项"
 
 msgid "Error: compilation failed -"
 msgstr ""
