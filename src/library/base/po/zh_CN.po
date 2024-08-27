@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-07 17:20+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"PO-Revision-Date: 2024-08-28 03:05+0000\n"
+"Last-Translator: Jinyu Lu <jil945@mail.usask.ca>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -8025,7 +8025,7 @@ msgstr "警告: 没有这种gui ’%s', 因此什么都不用\n"
 #: src/unix/system.c:417
 #, c-format
 msgid "path given in -f/--file is too long"
-msgstr ""
+msgstr "文件中给出的路径太长"
 
 #: src/unix/system.c:489
 msgid "creating temporary file for '-e' failed"
