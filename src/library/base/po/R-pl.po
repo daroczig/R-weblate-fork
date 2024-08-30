@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -15,6 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 msgid "'%s' is defunct."
@@ -47,9 +49,8 @@ msgstr "wartość nieskończona lub brakuje wartości w 'x'"
 msgid "a dimension is zero"
 msgstr "wymiar wynosi zero"
 
-#, fuzzy
 msgid "\"all\" and \"exact\" are mutually exclusive"
-msgstr "argumenty \"hexNumeric\" oraz \"digits17\" wzajemnie się wykluczają"
+msgstr "\"all\" oraz \"exact\" wzajemnie się wykluczają"
 
 msgid "\"hexNumeric\" and \"digits17\" are mutually exclusive"
 msgstr "argumenty \"hexNumeric\" oraz \"digits17\" wzajemnie się wykluczają"
@@ -67,12 +68,14 @@ msgstr "'kind' musi być łańcuchem tekstowym o długości 1 (zostanie użyty '
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' nie jest poprawnym skrótem dla 'RNG'"
 
-#, fuzzy
-msgid "'%s' must be a character string"
-msgstr "argument 'object' musi być konwertowalny do pojedynczego łańcucha tekstowego"
+msgid "'normal.kind' must be a character string of length 1"
+msgstr "'normal.kind' musi być wektorem napisowym o długości 1"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' nie jest poprawnym wyborem"
+
+msgid "'sample.kind' must be a character string of length 1"
+msgstr "'sample.kind' musi być wektorem znakowym o długości 1"
 
 msgid "malformed version string"
 msgstr "zniekształcony łańcuch tekstowy wersji"
@@ -99,14 +102,13 @@ msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "nie wszystkie elementy 'MARGIN' są nazwami wymiarów"
 
 msgid "'MARGIN' does not match dim(X)"
-msgstr ""
+msgstr "'MARGIN' nie odpowiada dim(X)"
 
-#, fuzzy
 msgid "'dim' cannot be of length 0"
-msgstr "'dims' nie mogą posiadać długości 0"
+msgstr "'dim' nie może mieć długości 0"
 
 msgid "'dim' specifies too large an array"
-msgstr "'dim' określa zbyć dużą tablicę"
+msgstr "'dim' określa zbyt dużą tablicę"
 
 #, fuzzy
 msgid "'x' must have named dimnames"
@@ -115,9 +117,8 @@ msgstr "'X' musi mieć nazwane wymiary"
 msgid "incorrect value for 'MARGIN'"
 msgstr "niepoprawna wartość dla argumentu 'MARGIN'"
 
-#, fuzzy
 msgid "dim(x) must have a positive length"
-msgstr "'dim(X)' musi mieć dodatnią długość"
+msgstr "'dim(x)' musi mieć dodatnią długość"
 
 msgid "'pos=1' is not possible and has been warned about for years"
 msgstr "'pos=1' nie jest możliwe co było już przez lata wskazywane"
@@ -165,23 +166,22 @@ msgid "autoloader did not find '%s' in '%s'"
 msgstr "automat ładujący nie znalazł '%s' w pakiecie '%s'"
 
 msgid "can only splice inside a call"
-msgstr ""
+msgstr "można łączyć tylko wewnątrz wywołania"
 
-#, fuzzy
 msgid "can only splice vectors"
-msgstr "można zapisać jedynie obiekty wektorowe"
+msgstr "można łączyć tylko wektory"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
-msgstr ""
+msgstr "argument LINPACK nie istnieje od wersji R 3.1.0"
 
 msgid "complex matrices not permitted at present"
 msgstr "macierze zespolone na chwilę obecną nie są dozwolone"
 
 msgid "'x' must be an array of at least two dimensions"
-msgstr "argument 'x' musi być tablicą o co najmniej dwóch wymiarach"
+msgstr "'x' musi być tablicą o co najmniej dwóch wymiarach"
 
 msgid "invalid 'dims'"
-msgstr "niepoprawny argument 'dims'"
+msgstr "niepoprawna wartość argumentu 'dims'"
 
 msgid "condition handlers must be specified with a condition class"
 msgstr ""
@@ -212,9 +212,8 @@ msgstr "można zapisać jedynie obiekty wektorowe"
 msgid "'headers' must have names and must not be NA"
 msgstr "'X' musi mieć nazwane wymiary"
 
-#, fuzzy
 msgid "'name' must be a single character string"
-msgstr "argument 'object' musi być konwertowalny do pojedynczego łańcucha tekstowego"
+msgstr "'name' musi być pojedyńczym znakiem"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
 msgstr "argument 'origin' musi być jednym ze 'start', 'current' lub 'end'"
@@ -2089,3 +2088,4 @@ msgstr[2] ""
 
 #~ msgid "version"
 #~ msgstr "wersja"
+
