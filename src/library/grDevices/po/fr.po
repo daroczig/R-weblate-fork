@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-19 10:31+0000\n"
+"PO-Revision-Date: 2024-08-31 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -155,15 +155,15 @@ msgstr "entité AFM inconnue rencontrée"
 msgid "invalid string in '%s'"
 msgstr "argument chaîne de caractère incorrect dans '%s'"
 
-#: devPS.c:811
-#, fuzzy, c-format
+#: devPS.c:810
+#, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
-msgstr "largeur de police inconnue pour le caractère 0x%x"
+msgstr "largeur de police inconnue pour le caractère 0x%02x dans l'encodage %s"
 
-#: devPS.c:872
-#, fuzzy, c-format
+#: devPS.c:871
+#, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
-msgstr "taille de police inconnue pour le caractère Unicode U+%04x"
+msgstr "métriques de la police inconnues pour le caractère Unicode U+%04X"
 
 #: devPS.c:883
 #, c-format
@@ -173,17 +173,20 @@ msgstr "encodage inconnu '%s' dans 'PostScriptMetricInfo'"
 #: devPS.c:900
 #, c-format
 msgid "Unicode character %lc (U+%04X) cannot be converted"
-msgstr ""
+msgstr "Le caractère Unicode %lc (U+%04X) ne peut pas être converti"
 
-#: devPS.c:919 devPS.c:973
-#, fuzzy, c-format
+#: devPS.c:918 devPS.c:972
+#, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr "taille de police inconnue pour le caractère 0x%x"
+msgstr ""
+"métriques de la police inconnues pour le caractère 0x%02x dans l'encodage %s"
 
-#: devPS.c:988
-#, fuzzy, c-format
+#: devPS.c:987
+#, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr "chaîne de caractères incorrecte (%04x) envoyée à 'PostScriptCIDMetricInfo' dans une version localisée simple-octet"
+msgstr ""
+"caractère incorrect (%04X) envoyé à 'PostScriptCIDMetricInfo' dans une "
+"version localisée simple-octet"
 
 #: devPS.c:996
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -367,10 +370,10 @@ msgstr "famille '%s' non incluse dans le périphérique postscript()"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "encodage inconnu '%s' dans 'mbcsToSbcs'"
 
-#: devPS.c:4635 devPS.c:4642
-#, fuzzy, c-format
+#: devPS.c:4582 devPS.c:4589
+#, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
-msgstr "erreur de conversion de '%s' dans 'mbcsToSbcs' : le point est substitué pour <%02x>"
+msgstr "erreur de conversion de '%s' dans 'mbcsToSbcs' : pour <%02x>"
 
 #: devPS.c:4637 devPS.c:4644
 #, c-format
@@ -474,7 +477,7 @@ msgstr "Échec de l'écriture du PDF fillStroke"
 
 #: devPS.c:7367
 msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
-msgstr ""
+msgstr "ID de glyphe supérieur à 0xFFFF ; la sortie sera incorrecte"
 
 #: devPS.c:7390
 msgid "invalid 'alpha' value in PDF"
@@ -588,10 +591,10 @@ msgstr "Texte non ajouté au chemin contenant un autre dessin"
 msgid "failed to find or load PDF CID font"
 msgstr "impossible de trouver ou de charger la police PDF CID"
 
-#: devPS.c:10853 devPS.c:10945 devPicTeX.c:763
-#, fuzzy, c-format
+#: devPS.c:10786 devPS.c:10878 devPicTeX.c:763
+#, c-format
 msgid "invalid 'file' parameter in %s"
-msgstr "paramètre 'family' incorrect dans %s"
+msgstr "paramètre 'file' incorrect dans %s"
 
 #: devPS.c:10862 devPS.c:10866 devPS.c:11033 devPS.c:11037
 #, c-format
@@ -616,93 +619,82 @@ msgid "unable to start %s() device"
 msgstr "impossible de démarrer le périphérique %s()"
 
 #: devQuartz.c:471
-#, fuzzy
 msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
-msgstr "Modèles du Cairo épuisés (échec de l'augmentation de maxPatterns)"
+msgstr "Gradients Quartz épuisés (échec de l'augmentation de maxPatterns)"
 
 #: devQuartz.c:477
-#, fuzzy
 msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
-msgstr "Modèles du Cairo épuisés (échec de l'augmentation de maxPatterns)"
+msgstr "Modèles Quartz épuisés (échec de l'augmentation de maxPatterns)"
 
 #: devQuartz.c:518 cairo/cairoFns.c:350
-#, fuzzy
 msgid "Attempt to release non-existent pattern"
 msgstr "Tentative de libération d'un modèle inexistant"
 
 #: devQuartz.c:555
-#, fuzzy
 msgid "Quartz patterns exhausted"
-msgstr "Modèles du Cairo épuisés"
+msgstr "Modèles Quartz épuisés"
 
 #: devQuartz.c:621 devQuartz.c:636 devQuartz.c:638 devQuartz.c:669
 #: devQuartz.c:671
-#, fuzzy
 msgid "Failed to create gradient"
-msgstr "échec d'augmentation de 'maxDefns'"
+msgstr "Échec dans la création du gradient"
 
 #: devQuartz.c:653 devQuartz.c:686
 msgid "Unsupported gradient fill extend type; using 'pad'"
 msgstr ""
+"Type d'extension de remplissage du gradient non pris en charge ; 'pad' est "
+"utilisé"
 
 #: devQuartz.c:729 devQuartz.c:762
-#, fuzzy
 msgid "Failed to create pattern"
-msgstr "échec d'allocation d'images en mode pixel"
+msgstr "Échec dans la création de modèle"
 
 #: devQuartz.c:752
 msgid "Unsupported pattern extend mode;  using \"repeat\""
-msgstr ""
+msgstr "Mode d'extension du modèle non pris en charge ;  \"repeat\" est utilisé"
 
 #: devQuartz.c:814
-#, fuzzy
 msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
-msgstr "Chemins de détourage du Cairo épuisés (échec de l'augmentation de maxClipPaths)"
+msgstr ""
+"Chemins de détourage Quartz épuisés (échec de l'augmentation de maxClipPaths)"
 
 #: devQuartz.c:863
-#, fuzzy
 msgid "Quartz clipping paths exhausted"
-msgstr "Chemins de détourage du Cairo épuisés"
+msgstr "Chemins de détourage Quartz épuisés"
 
 #: devQuartz.c:871
-#, fuzzy
 msgid "Failed to create clipping path"
-msgstr "Impossible d'écrire le chemin de détourage PDF"
+msgstr "Impossible de créer le chemin de détourage"
 
 #: devQuartz.c:964
-#, fuzzy
 msgid "Quartz masks exhausted (failed to increase maxMasks)"
-msgstr "Masques du Cairo épuisés (échec de l'augmentation de maxMasks)"
+msgstr "Masques Quartz épuisés (échec de l'augmentation de maxMasks)"
 
 #: devQuartz.c:1015
-#, fuzzy
 msgid "Quartz masks exhausted"
-msgstr "Masques du Cairo épuisés"
+msgstr "Masques Quartz épuisés"
 
 #: devQuartz.c:1031
-#, fuzzy
 msgid "Failed to create Quartz mask"
-msgstr "échec d'allocation pour des masques"
+msgstr "Échec de la création des masques Quartz"
 
 #: devQuartz.c:1100
-#, fuzzy
 msgid "Quartz groups exhausted (failed to increase maxGroups)"
-msgstr "Groupes du Cairo épuisés (échec de l'augmentation de maxGroups)"
+msgstr "Groupes Quartz épuisés (échec de l'augmentation de maxGroups)"
 
 #: devQuartz.c:1128 cairo/cairoFns.c:920
-#, fuzzy
 msgid "Attempt to release non-existent group"
 msgstr "Tentative de libération d'un groupe inexistant"
 
 #: devQuartz.c:1157
-#, fuzzy
 msgid "Quartz groups exhausted"
-msgstr "Les groupes du Cairo épuisés"
+msgstr "Les groupes Quartz sont épuisés"
 
 #: devQuartz.c:1177
-#, fuzzy
 msgid "Add compositing operator not supported; falling back to over"
-msgstr "L'opérateur de composition n'a pas de mode de fusion correspondant ; par défaut sur Normal"
+msgstr ""
+"L'ajout d'opérateur de composition n'est pas pris en charge ; repli sur "
+"\"over\""
 
 #: devQuartz.c:1265 cairo/cairoFns.c:877
 msgid "Groups exhausted"
@@ -727,28 +719,20 @@ msgid "Attempt to reuse non-existent clipping path"
 msgstr "Tenter de réutiliser un chemin de détourage inexistant"
 
 #: devQuartz.c:2718 cairo/cairoFns.c:541
-#, fuzzy
 msgid "Attempt to release non-existent clipping path"
 msgstr "Tentative de libération d'un chemin de détourage inexistant"
 
 #: devQuartz.c:2734
 msgid "Ignored alpha mask (not supported on this device)"
-msgstr ""
+msgstr "Masque alpha ignoré (non pris en charge par cet équipement)"
 
-#: devQuartz.c:2773 cairo/cairoFns.c:688
-#, fuzzy
+#: devQuartz.c:2758 cairo/cairoFns.c:688
 msgid "Attempt to release non-existent mask"
 msgstr "Tentative de libération d'un masque inexistant"
 
-#: devQuartz.c:3023
-#, fuzzy, c-format
-msgid "Invalid font path: \"%s\""
-msgstr "paramètre 'fonts' incorrect dans %s"
-
-#: devQuartz.c:3053
-#, fuzzy
+#: devQuartz.c:3040
 msgid "Failed to load font"
-msgstr "échec d'allocation de la liste de polices"
+msgstr "Échec au chargement de la police"
 
 #: devQuartz.c:3148 devQuartz.c:3153
 msgid "invalid 'file' argument"
@@ -987,7 +971,7 @@ msgstr "Masques du Cairo épuisés"
 
 #: cairo/cairoFns.c:649
 msgid "Ignored luminance mask (not supported on this device)"
-msgstr ""
+msgstr "Masque de luminance ignoré (non pris en charge par cet équipement)"
 
 #: cairo/cairoFns.c:719
 msgid "Cairo groups exhausted (failed to increase maxGroups)"
@@ -998,9 +982,8 @@ msgid "Cairo groups exhausted"
 msgstr "Les groupes du Cairo épuisés"
 
 #: cairo/cairoFns.c:2394
-#, fuzzy
 msgid "Font file not found; matching font family and face"
-msgstr "famille de police introuvable dans la base de données des polices Windows"
+msgstr "Fichier de police non trouvé ; dans la famille de polices et la face"
 
 #~ msgid "Impossible to load Rbitmap.dll"
 #~ msgstr "Impossible to charger Rbitmap.dll"
@@ -1082,3 +1065,4 @@ msgstr "famille de police introuvable dans la base de données des polices Windo
 
 #~ msgid "re-encoding is not possible on this system"
 #~ msgstr "le réencodage n'est pas possible sur ce système"
+
