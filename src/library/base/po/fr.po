@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-08-26 19:31+0000\n"
+"PO-Revision-Date: 2024-09-01 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -3249,7 +3249,7 @@ msgstr "type de ligne incorrect"
 
 #: src/main/engine.c:3790
 msgid "Stroke ignored (device is appending path)"
-msgstr ""
+msgstr "Entrée ignorée (l'équipement ajoute le chemin)"
 
 #: src/main/engine.c:3802
 msgid "Fill ignored (device is appending path)"
@@ -3258,6 +3258,7 @@ msgstr "Remplissage ignoré (l'équipement ajoute le chemin)"
 #: src/main/engine.c:3814
 msgid "FillStroke ignored (device is appending path)"
 msgstr ""
+"Les caractères de remplissage sont ignorés (l'équipement ajoute le chemin)"
 
 #: src/main/envir.c:130 src/main/envir.c:144
 #, c-format
@@ -4029,6 +4030,8 @@ msgstr "débordement vers le haut du tampon d'entrée à la ligne (%s:%d:%d)"
 #, c-format
 msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
 msgstr ""
+"la fonction '%s' n'est pas prise en charge dans l'appel du membre de droite "
+"d'un pipeline (%s:%d:%d)"
 
 #: src/main/gram.y:1223 src/main/gram.y:1255
 #, c-format
@@ -4053,16 +4056,22 @@ msgstr "la variable du membre de droite doit être un symbole (%s:%d:%d)"
 #, c-format
 msgid "pipe placeholder cannot be used in the RHS function (%s:%d:%d)"
 msgstr ""
+"l'emplacement du pipeline ne peut pas être dans la fonction du membre de "
+"droite (%s:%d:%d)"
 
 #: src/main/gram.y:1302
 #, c-format
 msgid "pipe placeholder can only be used as a named argument (%s:%d:%d)"
 msgstr ""
+"l'emplacement du pipeline ne peut être utilisé qu'en temps qu'argument nommé "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:1335
 #, c-format
 msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable it (%s:%d:%d)"
 msgstr ""
+"'=>' est désactivé ; initialiser la variable d'environnement "
+"'_R_USE_PIPEBIND_' à TRUE pour l'activer (%s:%d:%d)"
 
 #: src/main/gram.y:1411
 #, c-format
@@ -4076,23 +4085,22 @@ msgstr "échec d'allocation de l’état de la source de référence"
 #: src/main/gram.y:1756
 #, c-format
 msgid "invalid use of pipe placeholder (%s:%d:%d)"
-msgstr ""
+msgstr "utilisation incorrecte de l'emplacement du pipeline (%s:%d:%d)"
 
 #: src/main/gram.y:1765
-#, fuzzy, c-format
+#, c-format
 msgid "invalid use of pipe bind symbol (%s:%d:%d)"
-msgstr "symbole de chaîne de caractères incorrect"
+msgstr "utilisation incorrecte du symbole barre verticale de liaison (%s:%d:%d)"
 
 #: src/main/gram.y:1776
-#, fuzzy
 msgid "out of memory while parsing"
-msgstr "manque de mémoire lors de la coupure d'une ligne brisée"
+msgstr "mémoire insuffisante pendant l'analyse syntaxique"
 
 #: src/main/gram.y:2125 src/main/gram.y:3964 src/main/gram.y:3972
 #: src/main/gram.y:3979 src/main/gram.y:3987
-#, fuzzy, c-format
+#, c-format
 msgid "contextstack overflow (%s:%d:%d)"
-msgstr "pile de noeuds débordée vers le haut"
+msgstr "débordement supérieur de la pile des contextes (%s:%d:%d)"
 
 #: src/main/gram.y:2381 src/main/gram.y:2387 src/main/gram.y:2409
 #, c-format
@@ -4135,9 +4143,9 @@ msgid "unexpected %s"
 msgstr "%s inattendu(e)"
 
 #: src/main/gram.y:2434
-#, fuzzy, c-format
+#, c-format
 msgid "repeated formal argument '%s' (%s:%d:%d)"
-msgstr "argument formel répété '%s' à la ligne %d"
+msgstr "argument formel répété '%s' (%s:%d:%d)"
 
 #: src/main/gram.y:2670
 #, c-format
@@ -4155,40 +4163,49 @@ msgid "integer literal %s contains unnecessary decimal point"
 msgstr "le littéral entier %s contient un séparateur décimal inutile"
 
 #: src/main/gram.y:2769 src/main/gram.y:2777
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte character (%s:%d:%d)"
-msgstr "caractères multioctets incorrects dans l'analyse de code (parser) à la ligne %d"
+msgstr "caractère multioctets incorrect (%s:%d:%d)"
 
 #: src/main/gram.y:2865
 #, c-format
 msgid "bidi formatting not allowed, use escapes instead (\\u%04x) (%s:%d:%d)"
 msgstr ""
+"format bidirectionnel non autorisé, utiliser le caractère d'échappement à la "
+"place (\\u%04x) (%s:%d:%d)"
 
 #: src/main/gram.y:2917 src/main/gram.y:2948 src/main/gram.y:2995
 #: src/main/gram.y:3042
-#, fuzzy, c-format
+#, c-format
 msgid "nul character not allowed (%s:%d:%d)"
-msgstr "caractères nul non autorisé (ligne %d)"
+msgstr "caractère nul non autorisé (%s:%d:%d)"
 
 #: src/main/gram.y:2920
 #, c-format
 msgid "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
 msgstr ""
+"\\%o dépasse le maximum autorisé pour une valeur octale \\377 (%s:%d:%d)"
 
 #: src/main/gram.y:2939
-#, fuzzy, c-format
+#, c-format
 msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\x' non suivi de chiffres hexadécimaux dans la chaîne de caractères débutant \"%s\""
+msgstr ""
+"'\\x' non suivi de chiffres hexadécimaux dans la chaîne de caractères "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:2958
-#, fuzzy, c-format
+#, c-format
 msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr "\\uxxxx séquences non supportées dans les 'backticks' (ligne %d)"
+msgstr ""
+"séquences \\uxxxx non prises en charge dans les apostrophes inverse "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:2978
-#, fuzzy, c-format
+#, c-format
 msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\u' non suivi de chiffres hexadécimaux dans la chaîne de caractères débutant \"%s\""
+msgstr ""
+"'\\u' non suivi de chiffres hexadécimaux dans la chaîne de caractères "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:2990
 #, c-format
@@ -4196,24 +4213,27 @@ msgid "invalid \\u{xxxx} sequence (line %d)"
 msgstr "séquence \\u{xxxx} incorrecte (ligne %d)"
 
 #: src/main/gram.y:3005
-#, fuzzy, c-format
+#, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr "\\Uxxxxxxxx séquences non supportées dans les 'backticks' (ligne %d)"
+msgstr ""
+"séquences \\Uxxxxxxxx non supportées dans les apostrophes inverses (%s:%d:%d)"
 
 #: src/main/gram.y:3025
-#, fuzzy, c-format
+#, c-format
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\U' non suivi de chiffres hexadécimaux dans la chaîne de caractères débutant \"%s\""
+msgstr ""
+"'\\U' non suivi de chiffres hexadécimaux dans la chaîne de caractères "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:3037
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
-msgstr "séquence \\U{xxxxxxxx} incorrecte (ligne %d)"
+msgstr "séquence \\U{xxxxxxxx} incorrecte (%s:%d:%d)"
 
 #: src/main/gram.y:3046
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
-msgstr "séquence \\U{xxxxxxxx} valant %6x incorrecte (ligne %d)"
+msgstr "valeur \\U{xxxxxxxx} incorrecte valant %6x (%s:%d:%d)"
 
 #: src/main/gram.y:3049
 #, fuzzy, c-format
@@ -7811,7 +7831,7 @@ msgstr "pnchisq(x=%g, f=%g, theta=%g, ..) : absence de convergence en %d itérat
 #: src/nmath/polygamma.c:510
 #, c-format
 msgid "deriv = %d > %d (= n_max)\n"
-msgstr "deriv = %d > %d (= n_max)\n"
+msgstr "dérivée = %d > %d (= n_max)\n"
 
 #: src/nmath/rmultinom.c:78
 #, c-format
