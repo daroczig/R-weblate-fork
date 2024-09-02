@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-08-21 03:05+0000\n"
+"PO-Revision-Date: 2024-09-03 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -219,9 +219,8 @@ msgstr "'breaks = %g' est trop large et est mis à 1e6"
 msgid "hist.default: pretty() error, breaks=%s"
 msgstr "hist.default : erreur pour pretty(), breaks=%s"
 
-#, fuzzy
 msgid "Invalid breakpoints produced by 'breaks(x)': %s"
-msgstr "Coupures de classes incorrectes produites à l'aide de 'breaks(x)' : %s"
+msgstr "Coupures incorrectes des intervalles produits par 'breaks(x)' : %s"
 
 msgid "invalid length(breaks)"
 msgstr "length(breaks) incorrects"
@@ -231,6 +230,9 @@ msgstr "'breaks' ne sont pas strictement croissantes"
 
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' est un alias pour '!freq', cependant ils diffèrent."
+
+msgid "fuzz must be non-negative"
+msgstr "fuzz doit être non négatif"
 
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "des valeurs de 'x' n'ont pas été comptées ; peut-être 'breaks' ne couvrent pas l'étendue de 'x'"
@@ -506,3 +508,4 @@ msgstr[1] "les arguments %s ne sont pas utilisés par"
 
 #~ msgid "regression coefficients"
 #~ msgstr "coefficients de régression"
+
