@@ -1,19 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-27 16:15\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2024-09-04 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
-"Language: pl_PL\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Bookmarks: -1,232,-1,-1,-1,-1,-1,-1,-1,-1\n"
 
 msgid "Checking %s"
@@ -58,17 +59,14 @@ msgstr "katalog '%s' nie zawiera kodu R"
 msgid "directory '%s' does not contain Rd objects"
 msgstr "katalog '%s' nie zawiera obiektów Rd"
 
-#, fuzzy
 msgid "Functions or methods with usage in Rd file '%s' but not in code:"
-msgstr "Funkcje lub metody z użyciem w obiekcie dokumentacji '%s' ale nie w kodzie:"
+msgstr "Funkcje lub metody z użyciem w pliku Rd '%s' ale nie w kodzie:"
 
-#, fuzzy
 msgid "Data with usage in Rd file '%s' but not in code:"
-msgstr "Dane z użyciem w obiekcie dokumentacji '%s', ale nie w kodzie:"
+msgstr "Dane z użyciem w pliku Rd '%s', ale nie w kodzie:"
 
-#, fuzzy
 msgid "Variables with usage in Rd file '%s' but not in code:"
-msgstr "Dane z użyciem w obiekcie dokumentacji '%s', ale nie w kodzie:"
+msgstr "Zmienne z użyciem w pliku Rd '%s', ale nie w kodzie:"
 
 msgid "Argument names in code not in docs:"
 msgstr "Nazwy argumentów w kodzie, ale nie w dokumentacji:"
@@ -112,29 +110,23 @@ msgstr "Niezgodność struktury danych w obiekcie dokumentacji '%s':"
 msgid "Variables in data frame '%s'"
 msgstr "Zmienne w ramce danych '%s'"
 
-#, fuzzy
 msgid "Undocumented arguments in Rd file '%s'"
-msgstr "Nieudokumentowane argumenty w obiekcie dokumentacji '%s'"
+msgstr "Nieudokumentowane argumenty w pliku Rd '%s'"
 
-#, fuzzy
 msgid "Duplicated \\argument entries in Rd file '%s':"
-msgstr "Powtórzone wpisy '\\argument' w obiekcie dokumentacji '%s':"
+msgstr "Powtórzone wpisy '\\argument' w pliku Rd '%s':"
 
-#, fuzzy
 msgid "Documented arguments not in \\usage in Rd file '%s':"
-msgstr "Udokumentowane argumenty nie są w '\\usage' w obiekcie dokumentacji '%s':"
+msgstr "Udokumentowane argumenty nie są w sekcji '\\usage' w pliku Rd '%s':"
 
-#, fuzzy
 msgid "Objects in \\usage without \\alias in Rd file '%s':"
-msgstr "Obiekty w '\\usage' bez '\\alias' w obiekcie dokumentacji '%s':"
+msgstr "Obiekty w sekcji '\\usage' bez sekcji '\\alias' w pliku Rd '%s':"
 
-#, fuzzy
 msgid "Assignments in \\usage in Rd file '%s':"
-msgstr "Przypisania w '\\usage' w obiekcie dokumentacji '%s':"
+msgstr "Przypisania w sekcji '\\usage' w pliku Rd '%s':"
 
-#, fuzzy
 msgid "Bad \\usage lines found in Rd file '%s':"
-msgstr "Znaleziono niepoprawne linie '\\usage' w obiekcie dokumentacji '%s':"
+msgstr "Znaleziono niepoprawne linie w sekcji '\\usage' w pliku Rd '%s':"
 
 #, fuzzy
 msgid "S3 methods shown with full name in Rd file '%s':"
@@ -156,11 +148,12 @@ msgstr ""
 msgid "cannot check R code installed as image"
 msgstr "nie można sprawdzić kodu R zainstalowanego jako obraz"
 
-#, fuzzy
 msgid ""
 "parse error in examples from file '%s':\n"
 "%s"
-msgstr "błąd przetwarzania w przykładach z pliku '%s':"
+msgstr ""
+"błąd przetwarzania w przykładach z pliku '%s':\n"
+"%s"
 
 msgid "File '%s':"
 msgstr "Plik '%s':"
@@ -281,7 +274,7 @@ msgid "Unknown encoding with non-ASCII data"
 msgstr "Nieznane kodowanie z danymi nie-ASCII"
 
 msgid "Record: %d Field(s): %s"
-msgstr ""
+msgstr "Wpis: %d Pole(a): %s"
 
 msgid "Non-standard license specification:"
 msgstr "Niestandardowa specyfikacja licencji:"
@@ -342,7 +335,7 @@ msgid "Call sequence:"
 msgstr "Sekwencja wywołania:"
 
 msgid "..."
-msgstr ""
+msgstr "..."
 
 msgid "No dataset created in 'envir'"
 msgstr ""
