@@ -2,6 +2,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -222,9 +224,8 @@ msgstr "argument 'origin' musi być jednym ze 'start', 'current' lub 'end'"
 msgid "can only truncate an open connection"
 msgstr "funkcja 'truncate.connection()' może przycinać jedynie otwarte połączenie"
 
-#, fuzzy
 msgid "invalid 'endian' argument"
-msgstr "niepoprawny argument 'name'"
+msgstr "niepoprawna wartość argumentu 'endian'"
 
 msgid "can only write vector objects"
 msgstr "można zapisać jedynie obiekty wektorowe"
@@ -266,9 +267,10 @@ msgstr "niepoprawne 'dimnames' dla podanej ramki danych"
 msgid "cannot coerce class %s to a data.frame"
 msgstr "nie można przekształcić klasy %s w klasę \"data.frame\""
 
-#, fuzzy
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr "argument 'row.names' nie jest wektorem tekstowym o długości %d -- pomijanie go. Będzie błąd!"
+msgstr ""
+"argument 'row.names' nie jest wektorem znakowym ani liczb całkowitych o "
+"długości %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "niedopasowanie nazw wierszy w argumentach 'data.frame()', pozycja %d"
@@ -822,11 +824,12 @@ msgstr "pakiet %s został zbudowany dla platformy %s"
 msgid "package %s is not installed for 'arch = %s'"
 msgstr "pakiet %s nie jest zainstalowany dla 'arch=%s'"
 
-#, fuzzy
 msgid ""
 "Conflicts attaching package %s:\n"
 "%s"
-msgstr "Dołączanie pakietu: %s"
+msgstr ""
+"Konflikty podczas dołączania pakietu %s:\n"
+"%s"
 
 msgid "Attaching package: %s"
 msgstr "Dołączanie pakietu: %s"
@@ -1410,7 +1413,7 @@ msgid "length of 'scale' must equal the number of columns of 'x'"
 msgstr "długość argumentu 'scale' musi równać się liczbie kolumn argumentu 'x'"
 
 msgid "either specify 'nmax' or 'n', but not both."
-msgstr "określ albo 'nmax' albo 'n', ale nie oba naraz"
+msgstr "określ albo 'nmax' albo 'n', ale nie oba naraz."
 
 msgid "'from' must be a finite number"
 msgstr "argument 'from' musi być skończoną liczcbą"
@@ -1924,12 +1927,11 @@ msgstr[0] "nie znaleziono obiektu %s"
 msgstr[1] "nie znaleziono obiektów %s"
 msgstr[2] "nie znaleziono obiektów %s"
 
-#, fuzzy
 msgid "'arg' should be %s"
 msgid_plural "'arg' should be one of %s"
-msgstr[0] "argument 'arg' powininen być jednym z %s"
-msgstr[1] "argument 'arg' powininen być jednym z %s"
-msgstr[2] "argument 'arg' powininen być jednym z %s"
+msgstr[0] "argument 'arg' powininen być równy %s"
+msgstr[1] "argumentem 'arg' powinno być jedno z: %s"
+msgstr[2] "argumentem 'arg' powinno być jedno z: %s"
 
 msgid "'by' must specify a uniquely valid column"
 msgid_plural "'by' must specify uniquely valid columns"
