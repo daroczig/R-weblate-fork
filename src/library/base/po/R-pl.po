@@ -4,8 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 09:28\n"
 "PO-Revision-Date: 2024-09-05 03:05+0000\n"
-"Last-Translator: Tomasz Gieorgijewski <Tomek@users.noreply.translate.rx."
-"studio>\n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
@@ -354,9 +353,8 @@ msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 wierszy> (lub 'row.names' o zerowej długości)"
 
 msgid "invalid 'max' / getOption(\"max.print\"):"
-msgstr ""
+msgstr "niepoprawna wartość 'max' / getOption(\"max.print\"):"
 
-#, fuzzy
 msgid "non-numeric-alike variable(s) in data frame:"
 msgstr "zmienna nieliczbowa w ramce danych:"
 
@@ -377,9 +375,8 @@ msgstr "funkcja 'summary()' zdefiniowana jest jedynie na ramce danych ze wszystk
 msgid "cannot xtfrm data frames"
 msgstr "argument nie jest ramką danych"
 
-#, fuzzy
 msgid "all variables should have the same length"
-msgstr "niepoprawny argument listy: wszystkie zmienne powinny mieć tę samą długość"
+msgstr "wszystkie zmienne powinny mieć tę samą długość"
 
 msgid "character string is not in a standard unambiguous format"
 msgstr "łańcuch tekstowy nie jest w standardowym jednoznacznym formacie"
@@ -573,9 +570,8 @@ msgstr "tylko elementy diagonalne macierzy mogą zostać zastąpione"
 msgid "replacement diagonal has wrong length"
 msgstr "zamiana elementów diagonalnych ma niepoprawną długość"
 
-#, fuzzy
 msgid "MARGIN = %s is invalid for dim = %s"
-msgstr "MARGIN = %d jest niepoprawny dla dim =%d"
+msgstr "MARGIN = %s jest niepoprawny dla dim =%s"
 
 msgid "must pass a package name, %s or %s object"
 msgstr "wymagane jest przekazanie nazwy pakietu %s lub obiekt %s"
@@ -641,10 +637,10 @@ msgid "'recursive' will be ignored as 'to' is not a single existing directory"
 msgstr "argument 'recursive' zostanie zignorowany ponieważ argument 'to' nie jest pojedynczym istniejącym katalogiem"
 
 msgid "cannot overwrite a non-directory with a directory"
-msgstr ""
+msgstr "nie można nadpisać nie-katalogu katalogiem"
 
 msgid "directories are omitted unless 'recursive = TRUE'"
-msgstr ""
+msgstr "katalogi są pomijane o ile nie określono 'recursive = TRUE'"
 
 msgid "file can not be copied both 'from' and 'to'"
 msgstr "plik nie może być skopiowany jednocześnie z 'from' oraz 'to'"
@@ -680,7 +676,7 @@ msgid "using the first element of 'value' of type \"expression\""
 msgstr "używanie pierwszego elementu 'value' typu \"expression\""
 
 msgid "Found no format() method for class \"%s\""
-msgstr ""
+msgstr "Nie znaleziono metody 'format() dla klasy \"%s\""
 
 msgid "class of 'x' was discarded"
 msgstr "klasa argumentu 'x' została odrzucona"
