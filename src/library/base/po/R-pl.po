@@ -3,6 +3,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -198,9 +200,8 @@ msgstr "nieinteraktywna sesja"
 msgid "not a valid restart specification"
 msgstr "niepoprawne określenie restartu"
 
-#, fuzzy
 msgid "condition handlers must be functions"
-msgstr "przewodnik musi być funkcją"
+msgstr "Obsługa zdarzeń (condition handlers) powinna być typu funkcyjnego"
 
 msgid "pushing duplicate `%s` handler on top of the stack"
 msgstr ""
@@ -211,9 +212,8 @@ msgstr "argument 'where' ma długość 0"
 msgid "can only write character objects"
 msgstr "można zapisać jedynie obiekty wektorowe"
 
-#, fuzzy
 msgid "'headers' must have names and must not be NA"
-msgstr "'X' musi mieć nazwane wymiary"
+msgstr "'headers' powinny być nazwane i nie mogą być NA"
 
 msgid "'name' must be a single character string"
 msgstr "'name' musi być pojedyńczym znakiem"
@@ -245,9 +245,8 @@ msgstr "niepoprawna liczba interwałów"
 msgid "'breaks' are not unique"
 msgstr "wartosci w argumencie 'breaks' nie są unikalne"
 
-#, fuzzy
 msgid "number of intervals and length of 'labels' differ"
-msgstr "długości argumentów 'breaks' oraz 'labels' różnią się"
+msgstr "liczba interwałów i długość parametru 'labels' różnią się"
 
 msgid "invalid 'row.names' length"
 msgstr "niepoprawna długość 'row.names'"
