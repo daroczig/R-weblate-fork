@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-09-04 03:05+0000\n"
+"PO-Revision-Date: 2024-09-05 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -39,11 +39,13 @@ msgstr ""
 #: grid.c:699 grid.c:877
 #, c-format
 msgid "Viewport '%s' was not found"
-msgstr ""
+msgstr "Okno widoku '%s' nie zostało znalezione"
 
 #: grid.c:909 grid.c:914 grid.c:1035 grid.c:1040
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
-msgstr "nie można wyświetlić okienka ekranu na wierzchu (siatka oraz grafika pomieszały się?)"
+msgstr ""
+"nie można wyświetlić okienka ekranu na wierzchu (wyjścia 'grid' oraz "
+"'graphics' pomieszały się?)"
 
 #: grid.c:1241
 msgid "attempt to plot on null device"
@@ -84,7 +86,7 @@ msgstr ""
 #: grid.c:4099
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
-msgstr ""
+msgstr "wartość pch '%d' nie jest poprawna dla tej lokalizacji"
 
 #: grid.c:4920
 #, c-format
@@ -118,6 +120,7 @@ msgstr "nie można zachować stanu siatki. Zbyt duża liczba otwartych urządze�
 #: unit.c:65
 msgid "Cannot create unit scalar from 0-length unit vector"
 msgstr ""
+"Nie można utworzyć jednostkowego skalara z jednostkowego wektora o długości 0"
 
 #: unit.c:799 unit.c:1298
 msgid "invalid unit or unit not yet implemented"
