@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-04 03:05+0000\n"
+"PO-Revision-Date: 2024-09-05 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -68,14 +68,14 @@ msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
 msgstr ""
 
 #: src/appl/pretty.c:142
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): bardzo mały zakres.. poprawiono"
+msgstr "R_pretty(): bardzo mały zakres 'cell'=%d, poprawiono na %g"
 
 #: src/appl/pretty.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "Internal(pretty()): bardzo duży zakres.. poprawiono"
+msgstr "R_pretty(): bardzo duży zakres 'cell'=%d, poprawiono na %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
@@ -3145,7 +3145,7 @@ msgstr "brak aktywnego urządzenia graficznego"
 #: src/main/engine.c:2182
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
-msgstr "niepoprawna wartość '%d' 'pch' w tej lokalizacji"
+msgstr "wartość pch '%d' nie jest poprawna dla tej lokalizacji"
 
 #: src/main/engine.c:2440
 #, c-format
@@ -6395,7 +6395,7 @@ msgstr "długość 'fmt' przekracza maksymalną długość %d formatu"
 #: src/main/sprintf.c:174
 #, c-format
 msgid "unrecognised format specification '%s'"
-msgstr "nierozpoznane określenie formatu '%s'"
+msgstr "nierozpoznane określenie '%s' formatu"
 
 #: src/main/sprintf.c:185 src/main/sprintf.c:191 src/main/sprintf.c:204
 #: src/main/sprintf.c:211
