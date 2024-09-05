@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Bookmarks: -1,20,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
 
 
 
@@ -161,15 +163,13 @@ msgid "arguments must have same length"
 msgstr "argumenty muszą mieć tę samą długość"
 
 msgid "argument 'x' is  missing -- it has been renamed from 'formula'"
-msgstr ""
+msgstr "brakuje argumentu 'x' -- został przemianowany z 'formula'"
 
-#, fuzzy
 msgid "argument 'x' must be a formula"
-msgstr "argument 'x' musi być liczbą"
+msgstr "argument 'x' musi być formułą"
 
-#, fuzzy
 msgid "formula 'x' must have both left and right hand sides"
-msgstr "'formula' musi mieć jednocześnie lewą i prawą stronę"
+msgstr "formuła 'x' musi mieć jednocześnie lewą i prawą stronę"
 
 msgid "cannot change frequency from %g to %g"
 msgstr "nie można zmienić częstotliwości z %g na %g"
@@ -220,7 +220,7 @@ msgid "cannot compute exact confidence intervals with ties"
 msgstr "nie można obliczyć dokładnych przedziałów ufności z powtórzonymi wartościami"
 
 msgid "'formula' missing or incorrect"
-msgstr "brakuje argumentu 'formula' lub jest niepoprawny"
+msgstr "brakuje argumentu 'formula' lub jest on niepoprawny"
 
 msgid "grouping factor must have exactly 2 levels"
 msgstr "grupujący czynnik musi mieć dokładnie 2 poziomy"
@@ -499,13 +499,13 @@ msgid "only %d of the first %d eigenvalues are > 0"
 msgstr "tylko %d pierwszych %d wartości własnych jest > 0"
 
 msgid "Waiting for profiling to be done..."
-msgstr ""
+msgstr "Oczekiwanie aż profilowanie się zakończy..."
 
 msgid "Reprofiling for"
-msgstr ""
+msgstr "Ponowne profilowanie dla"
 
 msgid "statistic. Waiting..."
-msgstr ""
+msgstr "statystyki. Oczekiwanie..."
 
 msgid "initial value is not in the interior of the feasible region"
 msgstr "wartość początkowa nie jest wewnątrz możliwego regionu"
@@ -594,9 +594,10 @@ msgstr "nie można obsłużyć 'pairwise.complete.obs'"
 msgid "'V' is not a square numeric matrix"
 msgstr "'V' nie jest kwadratową macierzą liczbową"
 
-#, fuzzy
 msgid "diag(V) had non-positive or NA entries; the non-finite result may be dubious"
-msgstr "'diag(.)' miał 0 lub wpisy NA; nieskończony rezultat jest wątpliwy"
+msgstr ""
+"'diag(V)' miał niedodatnie wpisy lub wpisy NA; nieskończony rezultat może "
+"być wątpliwy"
 
 msgid "'x' must be a numeric vector"
 msgstr "argument 'x' musi być wektorem liczbowym"
@@ -728,7 +729,7 @@ msgid "non-finite 'bw'"
 msgstr "nieskończony argument 'bw'"
 
 msgid "'bw' is not positive."
-msgstr "argument 'bw' nie jest dodatni"
+msgstr "argument 'bw' nie jest dodatni."
 
 msgid "non-finite 'from'"
 msgstr "nieskończony argument 'from'"
