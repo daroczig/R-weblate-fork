@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -16,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -107,7 +109,9 @@ msgstr "potrzeba dostarczyć strukturę funkcji dla %s, jawnie lub poprzez istni
 msgid ""
 "Creating a generic function for %s from %s in %s\n"
 "    (from the saved implicit definition)"
-msgstr "Tworzenie ogólnej funkcji dla %s z pakietu %s w pakiecie %s (z zachowanej niejawnej definicji)"
+msgstr ""
+"Tworzenie ogólnej funkcji dla %s z pakietu %s w pakiecie %s\n"
+"    (z zachowanej niejawnej definicji)"
 
 msgid "Creating a new generic function for %s in %s"
 msgstr "Tworzenie nowej ogólnej funkcji dla %s w pakiecie %s"
@@ -115,11 +119,12 @@ msgstr "Tworzenie nowej ogólnej funkcji dla %s w pakiecie %s"
 msgid ""
 "no generic version of %s on package %s is allowed;\n"
 "   a new generic will be assigned for %s"
-msgstr "żadna ogólna wersja %s w pakiecie %s nie jest dozwolona; nowa ogólna funkcja będzie przypisana dla pakietu %s"
+msgstr ""
+"żadna ogólna wersja %s w pakiecie %s nie jest dozwolona;\n"
+"   nowa ogólna funkcja będzie przypisana dla pakietu %s"
 
-#, fuzzy
 msgid "fdef appears to be a generic function, but with generic name %s instead of %s"
-msgstr "funkcja %s wygląda na ogólną funkcję ale z ogólną nazwą %s"
+msgstr "funkcja fdef wygląda na ogólną funkcję ale z ogólną nazwą %s zamiast %s"
 
 msgid "generic function %s not found for removal"
 msgstr "nie znaleziono ogólnej funkcji %s do usunięcia"
@@ -332,18 +337,15 @@ msgstr "nie znaleziono ogólnej funkcji odpowiadającej %s"
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is deprecated."
 msgstr "%s, razem z innym użyciem obiektów metadanych 'MethodsList' jest przestarzałe."
 
-#, fuzzy
 msgid "In %s: use of \"MethodsList\" metadata objects is deprecated."
 msgstr "w %s: użycie obiektów metadanych \"MethodsList\" jest przestarzałe."
 
-#, fuzzy
 msgid "Use %s instead."
-msgstr "użyj wzamian %s."
+msgstr "Użyj w zamian %s."
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is defunct."
 msgstr "%s, razem z innym użyciem obiektów metadanych 'MethodsList' zostało zlikwidowane."
 
-#, fuzzy
 msgid "In %s: use of \"MethodsList\" metadata objects is defunct."
 msgstr "w %s: użycie obiektów metadanych \"MethodsList\" zostało zlikwidowane."
 
@@ -440,16 +442,16 @@ msgstr "obiekt prototypu został dostarczony z gniazdami klasy %s, ale definicja
 msgid "a prototype was supplied of class %s, but the class definition requires an object that is class %s"
 msgstr "został dostarczony prototyp klasy %s, ale definicja klasy wymaga obiektu klasy %s"
 
-#, fuzzy
 msgid "Definition of slot %s, in class %s, as %s conflicts with definition, inherited from class %s, as %s"
-msgstr "gniazdo %s w klasie %s aktualnie zdefiniowane (lub odziedziczone) jako %s, jest w konflikcie z odziedziczoną definicją w klasie %s"
+msgstr ""
+"Definicja gniazda %s w klasie %s, jako %s jest w konflikcie z odziedziczoną "
+"definicją w klasie %s jako %s"
 
 msgid "class %s extends an undefined class (%s)"
 msgstr "klasa %s rozszerza niezdefiniowaną klasę (%s)"
 
-#, fuzzy
 msgid "The prototype for class %s has undefined slot(s): %s"
-msgstr "lista '%s' dla klasy %s, zawiera w sobie niezdefiniowaną klasę %s"
+msgstr "Prototyp dla klasy %s, zawiera w sobie niezdefiniowane gniazda: %s"
 
 msgid "%s is not eligible to be the data part of another class (must be a basic class or a virtual class with no slots)"
 msgstr "%s nie kwalifikuje się aby być częścią danych innej klasy (musi być podstawową klasą albo klasą wirtualną bez gniazd)"
@@ -498,7 +500,9 @@ msgid "Note: some superclasses of class %s in package %s have duplicate definiti
 msgstr "Uwaga: niektóre superklasy klasy %s w pakiecie %s posiadają powtórzone definicje. Ta definicja nie jest traktowana jako równoważna tej z pakietu %s"
 
 msgid "Note: the specification for class %s in package %s seems equivalent to one from package %s: not turning on duplicate class definitions for this class."
-msgstr "Uwaga: specyfikacja dla klasy S3 %s w pakiecie %s wydaje się być równoważna tej z pakietu %s i nie jest duplikatem definicji klasy dla tej klasy"
+msgstr ""
+"Uwaga: specyfikacja dla klasy S3 %s w pakiecie %s wydaje się być równoważna "
+"tej z pakietu %s i nie jest duplikatem definicji klasy dla tej klasy."
 
 msgid "Found more than one class \"%s\" in cache; using the first, from namespace '%s'"
 msgstr "Znaleziono więcej niż jedną klasę \"%s\" w cache; używanie pierwszej, z przestrzeni nazw '%s'"
@@ -514,9 +518,11 @@ msgstr "brak definicji dziedziczenia z %s do %s mimo, że relacja została zasug
 
 msgid "Debugging .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, force=TRUE);"
 msgstr ""
+"Debugowanie .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, "
+"force=TRUE);"
 
 msgid "E := environment(): %s; parent.env(E): %s"
-msgstr ""
+msgstr "E := environment(): %s; parent.env(E): %s"
 
 msgid "argument 'includeSubclasses' must be a logical, either one value or a vector of the same length as argument 'classes'"
 msgstr "argument 'includeSubclasses' musi być argumentem logicznym posiadającym jedną wartość lub wektorem o tej samej długości jak argument 'classes'"
@@ -570,19 +576,19 @@ msgid "Empty function name in .getGeneric"
 msgstr "Pusta nazwa funkcji w '.getGeneric'"
 
 msgid "--- caching class"
-msgstr ""
+msgstr "--- zachowywanie klasy"
 
 msgid "--- done caching class"
-msgstr ""
+msgstr "--- zakończono zachowywać klasę"
 
 msgid "--- getting generic"
-msgstr ""
+msgstr "--- pozyskiwanie funkcji ogólnej"
 
 msgid "(and methods)"
-msgstr ""
+msgstr "(oraz metod)"
 
 msgid "--- done getting generic"
-msgstr ""
+msgstr "--- zakończono pozyskiwanie funkcji ogólnej"
 
 msgid "no methods found for %s; cacheGenericsMetaData() will have no effect"
 msgstr "nie znaleziono metod dla %s; 'cacheGenericsMetaData()' nie będzie miał efektu"
@@ -769,9 +775,8 @@ msgstr ""
 msgid "argument %s must be a list or a character vector; got an object of class %s"
 msgstr "argument %s musi być listą lub wektorem tekstowym; otrzymano obiekt klasy %s"
 
-#, fuzzy
 msgid "expected a non-empty character string for argument 'name'"
-msgstr "oczekiwano niepustego łańcucha tekstowego dla nazwy argumentu"
+msgstr "oczekiwano niepustego łańcucha tekstowego dla argumentu 'name'"
 
 msgid "no function %s found"
 msgstr "nie znaleziono funkcji %s"
@@ -852,9 +857,11 @@ msgstr "nie można utworzyć relacji 'setIs' kiedy żadna z klas (%s oraz %s) ni
 msgid "class %s is sealed; new superclasses can not be defined, except by 'setClassUnion'"
 msgstr "klasa %s jest zamknięta; nowa superklasa nie może zostać zdefiniowana, za wyjątkiem 'setClassUnion'"
 
-#, fuzzy
 msgid "class %s is defined (with package slot %s) but no metadata object found to revise %s information---not imported?  Making a copy in package %s"
-msgstr "klasa %s jest zdefiniowana (z gniazdem pakietu %s), ale nie znaleziono obiektu metadanych do przeglądu informacji %s -- nie wyeksportowano? Tworzenie kopii w pakiecie %s"
+msgstr ""
+"klasa %s jest zdefiniowana (z gniazdem pakietu %s), ale nie znaleziono "
+"obiektu metadanych do przeglądu informacji %s -- nie zaimportowano? "
+"Tworzenie kopii w pakiecie %s"
 
 msgid "class %s cannot extend class %s"
 msgstr "klasa %s nie może rozszerzyć klasy %s"
