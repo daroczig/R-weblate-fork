@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -16,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -161,8 +163,8 @@ msgstr "niepoprawny łańcuch w '%s'"
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "nieznana szerokość czcionki dla znaku '0x%x'"
 
-#: devPS.c:872
-#, fuzzy, c-format
+#: devPS.c:871
+#, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "nieznane metryki czcionki dla znaku Unicode 'U+%04x'"
 
@@ -991,3 +993,4 @@ msgstr ""
 #, fuzzy
 msgid "Font file not found; matching font family and face"
 msgstr "rodzina czcionek nie została znaleziona w bazie czcionek systemu Windows"
+
