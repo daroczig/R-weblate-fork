@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-05 03:05+0000\n"
+"PO-Revision-Date: 2024-09-06 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -56,7 +56,7 @@ msgstr "obszar wykresu jest zbyt duży"
 #, c-format
 msgid "nonfinite axis=%d limits [GScale(%g,%g,..); log=%s] -- corrected now"
 msgstr ""
-"nieskończone granice osi [GScale(%g,%g,%d, .); log=%s] -- poprawiono teraz"
+"nieskończone granice osi=%d [GScale(%g,%g,...); log=%s] -- poprawiono teraz"
 
 #: graphics.c:2023
 #, c-format
