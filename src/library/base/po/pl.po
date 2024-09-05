@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-05 03:05+0000\n"
+"PO-Revision-Date: 2024-09-06 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -70,12 +70,12 @@ msgstr ""
 #: src/appl/pretty.c:142
 #, c-format
 msgid "R_pretty(): very small range 'cell'=%g, corrected to %g"
-msgstr "R_pretty(): bardzo mały zakres 'cell'=%d, poprawiono na %g"
+msgstr "R_pretty(): bardzo mały zakres 'cell'=%g, poprawiono na %g"
 
 #: src/appl/pretty.c:146
 #, c-format
 msgid "R_pretty(): very large range 'cell'=%g, corrected to %g"
-msgstr "R_pretty(): bardzo duży zakres 'cell'=%d, poprawiono na %g"
+msgstr "R_pretty(): bardzo duży zakres 'cell'=%g, poprawiono na %g"
 
 #: src/gnuwin32/dynload.c:118
 #, c-format
@@ -5910,7 +5910,7 @@ msgstr "'scan()' oczekiwał '%s', dostał '%s'"
 
 #: src/main/scan.c:603 src/main/scan.c:763
 msgid "too many items"
-msgstr "zbyt dużo pozycji"
+msgstr "zbyt wiele pozycji"
 
 #: src/main/scan.c:692
 msgid "empty 'what' specified"
