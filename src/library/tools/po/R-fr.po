@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-09-03 03:05+0000\n"
+"PO-Revision-Date: 2024-09-06 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -125,17 +125,14 @@ msgstr ""
 msgid "Objects in \\usage without \\alias in Rd file '%s':"
 msgstr "Objets dans \\usage sans \\alias dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Assignments in \\usage in Rd file '%s':"
-msgstr "Affectations dans \\usage pour la documentation de l'objet '%s' :"
+msgstr "Affectations dans \\usage dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Bad \\usage lines found in Rd file '%s':"
-msgstr "Mauvaises lignes \\usage trouvées dans la documentation de l'objet '%s' :"
+msgstr "Lignes \\usage incorrectes dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "S3 methods shown with full name in Rd file '%s':"
-msgstr "Methodes S3 indiquées avec le nom complet dans la documentation de l'objet '%s' :"
+msgstr "Méthodes S3 indiquées avec le nom complet dans le fichier Rd '%s' :"
 
 msgid "you must specify 'package', 'dir' or 'file'"
 msgstr "vous devez spécifier 'package', 'dir' ou 'file'"
@@ -153,11 +150,12 @@ msgstr ""
 msgid "cannot check R code installed as image"
 msgstr "impossible de vérifier du code R installé comme une image"
 
-#, fuzzy
 msgid ""
 "parse error in examples from file '%s':\n"
 "%s"
-msgstr "erreur d'analyse de code dans les exemples pour le fichier '%s' :"
+msgstr ""
+"erreur d'analyse syntaxique dans les exemples du fichier '%s' :\n"
+"%s"
 
 msgid "File '%s':"
 msgstr "Fichier '%s' :"
@@ -307,9 +305,10 @@ msgstr "Les composants avec restrictions de licence qui sont des modèles et qui
 msgid "License stub is invalid DCF."
 msgstr "L'exemplaire de licence n'est pas du DCF valide."
 
-#, fuzzy
 msgid "License stub records with missing/empty fields:"
-msgstr "impossible de travailler avec des objets Rd dont les noms sont manquants ou vides"
+msgstr ""
+"Enregistrements de licence à compléter dont les champs sont manquants ou "
+"vides :"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
@@ -327,13 +326,12 @@ msgstr "Des variables remplacent les valeurs utilisateur/site :"
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
 msgstr "un 'OS.type' incorrect \"%s\" est trouvé. Cela ne devrait pas se produire"
 
-#, fuzzy
 msgid "Missing link or links in Rd file '%s':"
-msgstr "Lien(s) manquant(s) dans la documentation de l'objet '%s' :"
+msgstr "Lien(s) manquant(s) dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Non-file package-anchored link(s) in Rd file '%s':"
-msgstr "Lien(s) non liés à un ou des fichiers dans la documentation de l'objet '%s' :"
+msgstr ""
+"Lien(s) non lié(s) à un ou des fichiers du package dans le fichier Rd '%s' :"
 
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
 msgstr "Voyez l'information dans la section 'Cross-references' du manuel 'Writing R Extensions'."
@@ -479,25 +477,21 @@ msgstr "Fichiers Rd avec nom dupliqué '%s' :"
 msgid "Rd files with duplicated alias '%s':"
 msgstr "Fichiers Rd avec alias '%s' dupliqué :"
 
-#, fuzzy
 msgid "Rd files without \\alias:"
-msgstr "Fichiers Rd avec alias '%s' dupliqué :"
+msgstr "Fichiers Rd sans \\alias :"
 
-#, fuzzy
 msgid "Invalid package aliases in Rd file '%s':"
-msgstr "Indicateur non portable dans le fichier '%s' :"
+msgstr "Alias de packages incorrects dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Argument items with no description in Rd file '%s':"
-msgstr "Arguments sans description dans l'objet Rd '%s' :"
+msgstr "Eléments d'arguments sans description dans le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Auto-generated content requiring editing in Rd file '%s':"
-msgstr "Contenu automatique de l'objet Rd '%s' à éditer :"
+msgstr ""
+"Contenu généré automatiquement nécessitant de modifier le fichier Rd '%s' :"
 
-#, fuzzy
 msgid "Rd files without \\description:"
-msgstr "Fichiers Rd avec alias '%s' dupliqué :"
+msgstr "Fichiers Rd sans \\description :"
 
 msgid "no Rd sections specified"
 msgstr "aucune section Rd n'est spécifiée"
@@ -571,9 +565,8 @@ msgstr "plus d'une section \\example, utilisation de la première"
 msgid "alias:"
 msgstr "alias :"
 
-#, fuzzy
 msgid "is not one line"
-msgstr "n'est pas enregisté"
+msgstr "n'est pas une ligne"
 
 msgid "Converting Rd files to LaTeX ..."
 msgstr "Conversion des fichiers Rd en LaTeX ..."
@@ -641,9 +634,8 @@ msgstr "La vignette %s réécrit sur la sortie %s de la vignette suivante %s : %
 msgid "Detected vignette source files (%s) with shared names (%s) and therefore risking overwriting each other's output files"
 msgstr "Fichiers sources pour des vignettes (%s) détectés avec des noms identiques (%s) et qui risquent donc de se réécrire les uns sur les autres pour les fichiers de sortie"
 
-#, fuzzy
 msgid "Note: skipping %s"
-msgstr "analyse de %s"
+msgstr "Note : %s est ignoré"
 
 msgid "Error: Vignette '%s' is non-ASCII but has no declared encoding"
 msgstr "Erreur : la vignette '%s' n’est pas ASCII mais n’a pas d’encodage déclaré"
@@ -662,7 +654,8 @@ msgid ""
 "Error: tangling vignette '%s' failed with diagnostics:\n"
 "%s"
 msgstr ""
-"Erreur: le traitement (tangle) de la vignette '%s' a échoué avec le diagnostic :\n"
+"Erreur : le traitement (tangle) de la vignette '%s' a échoué avec le "
+"diagnostic :\n"
 "%s"
 
 msgid "--- finished re-building %s"
@@ -879,6 +872,10 @@ msgstr ""
 
 msgid "<p>To view output in the browser, the <a href='https://CRAN.R-project.org/package=knitr'>knitr</a> package must be installed and the environment variable <code>_R_HELP_ENABLE_ENHANCED_HTML_</code> must be set to TRUE.</p>"
 msgstr ""
+"<p>Pour afficher la sortie dans le navigateur, le package <a "
+"href='https://CRAN.R-project.org/package=knitr'>knitr</a> doit être installé "
+"et la variable d'environnement <code>_R_HELP_ENABLE_ENHANCED_HTML_</code> "
+"doit être initialisée à TRUE.</p>"
 
 msgid "HTTPD-REQUEST %s%s"
 msgstr "HTTPD-REQUEST %s%s"
@@ -929,11 +926,10 @@ msgid "HTTPD-DEMO %s::%s"
 msgstr "HTTPD-DEMO %s::%s"
 
 msgid "HTTPD-EXAMPLE %s::%s"
-msgstr ""
+msgstr "HTTPD-EXEMPLE %s::%s"
 
-#, fuzzy
 msgid "No NEWS found for package %s"
-msgstr "Pas d'aide trouvée pour le package %s"
+msgstr "NEWS non trouvé pour le package %s"
 
 msgid "Only help files, %s, %s and files under %s and %s in a package can be viewed"
 msgstr "Visualisation possible seulement pour les fichiers d'aide, %s, %s et les fichiers dans %s et %s d'un package"
@@ -1021,30 +1017,31 @@ msgstr "installation fictive seulement possible avec verrouillage"
 
 msgid "WARNING: installation-time patches will not be applied, could not get the patches index"
 msgstr ""
+"AVIS : les correctifs d'installation ne seront pas appliqués, impossible "
+"d'obtenir leurs indices"
 
 msgid "patch utility is needed for installation-time patching"
 msgstr ""
+"l'utilitaire de correction est nécessaire pour appliquer les correctifs "
+"d'installation"
 
 msgid "NOTE: Skipping installation-time patch"
-msgstr ""
+msgstr "NOTE : le correctif d'installation a été ignoré"
 
-#, fuzzy
 msgid "which seems to be already applied."
-msgstr "ceci semble être un bundle -- ils ne sont plus supportés"
+msgstr "qui semble avoir déjà été appliqué."
 
 msgid "WARNING: failed to apply patch"
-msgstr ""
+msgstr "AVIS : échec dans l'application du correctif"
 
-#, fuzzy
 msgid "Applied installation-time patch"
-msgstr "installation packagée de"
+msgstr "Correctif d'installation appliqué"
 
 msgid "and saved it as"
-msgstr ""
+msgstr "et sauvegardez-le dans"
 
-#, fuzzy
 msgid "in package installation"
-msgstr "installation packagée de"
+msgstr "pendant l'installation du paquet"
 
 msgid "R include directory is empty -- perhaps need to install R-devel.rpm or similar"
 msgstr "Le répertoire include de R est vide -- il faut peut-être installer R-devel.rpm ou similaire"
@@ -1086,25 +1083,25 @@ msgid "building a fake installation is disallowed"
 msgstr "construire une installation fantôme n'est pas permise"
 
 msgid "using C compiler:"
-msgstr ""
+msgstr "utilisation du compilateur C :"
 
 msgid "using Fortran compiler:"
-msgstr ""
+msgstr "utilisation du compilateur Fortran :"
 
 msgid "using C++ compiler:"
-msgstr ""
+msgstr "utilisation du compilateur C++ :"
 
 msgid "using C++"
-msgstr ""
+msgstr "utilisation de C++"
 
 msgid "using SDK:"
-msgstr ""
+msgstr "utilisation du SDK :"
 
 msgid "WARNING: failed to revert patch"
-msgstr ""
+msgstr "AVIS : échec dans l'annulation du correctif"
 
 msgid "Reverted installation-time patch"
-msgstr ""
+msgstr "Correctif d'installation annulé"
 
 msgid ""
 "See\n"
@@ -1172,11 +1169,13 @@ msgstr ""
 "Extrait %s :\n"
 "%s"
 
-#, fuzzy
 msgid ""
 "Cannot extract version info from the following section titles:\n"
 "%s"
-msgstr "Impossible d'extraire la version des titres de sections suivants :"
+msgstr ""
+"Impossible d'extraire les informations de version à partir des titres de "
+"section suivants :\n"
+"%s"
 
 msgid ""
 "Malformed NEWS.Rd file:\n"
@@ -1226,12 +1225,11 @@ msgstr ""
 "la lecture de DESCRIPTION pour le package %s a échoué avec le message :\n"
 "  %s"
 
-#, fuzzy
 msgid "unable to create temporary directory %s"
 msgstr "impossible de créer le répertoire temporaire %s"
 
 msgid "expected one package directory, found %d."
-msgstr ""
+msgstr "un répertoire de package est attendu, reçu %d."
 
 msgid "argument '%s' must be a character string or connection"
 msgstr "l'argument '%s' doit être une chaîne de caractères ou une connexion"
@@ -1259,10 +1257,10 @@ msgid "no native symbols were extracted"
 msgstr "aucuns symboles natifs n’ont été extraits"
 
 msgid "not a PDF file"
-msgstr ""
+msgstr "fichier non PDF"
 
 msgid "'diff' is not available so useDiff = FALSE will be used"
-msgstr ""
+msgstr "'diff' n'est pas disponible, donc useDiff = FALSE sera utilisé"
 
 msgid "testing '%s' failed"
 msgstr "le test '%s' a échoué"
@@ -1314,16 +1312,16 @@ msgstr "aucun fichier source n'est trouvé"
 msgid "FAILED"
 msgstr "ECHEC"
 
-#, fuzzy
 msgid "directory %s is not writeable"
-msgstr "le répertoire '%s' n'existe pas"
+msgstr "le répertoire '%s' n'est pas accessible en écriture"
 
 msgid "DIFFERED"
 msgstr "DIFFERE"
 
-#, fuzzy
 msgid "running tests of random deviate generation (should no longer ever fail)"
-msgstr "exécution des tests de génération de déviance aléatoire -- peut échouer de temps en temps"
+msgstr ""
+"exécution des tests de génération de déviance aléatoire (ne doit plus jamais "
+"échouer)"
 
 msgid "unknown header specification"
 msgstr "spécification d’entête inconnue"
@@ -1436,7 +1434,7 @@ msgid "invalid package layout"
 msgstr "structure de package incorrecte"
 
 msgid "*not* using 'C' for LC_COLLATE locale"
-msgstr ""
+msgstr "'C' *n'est pas* utilisé pour la locale LC_COLLATE"
 
 msgid "file '%s' is not in valid DCF format"
 msgstr "le fichier '%s' n'est pas d'un format DCF valide"
@@ -1496,7 +1494,7 @@ msgstr[1] "Note : %d chaînes de caractères marquées comme \"bytes\" trouvées
 msgid "Warning in file %s:"
 msgid_plural "Warnings in file %s:"
 msgstr[0] "Avis dans le fichier '%s' :"
-msgstr[1] "Avis dans le fichier '%s' :"
+msgstr[1] "Avis dans les fichiers '%s' :"
 
 msgid "Found possibly global 'T' or 'F' in the following function:"
 msgid_plural "Found possibly global 'T' or 'F' in the following functions:"
