@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,17 +20,18 @@ msgstr ""
 
 
 
+
 msgid "invalid 'filename'"
 msgstr "niepoprawny argument 'filename'"
 
 msgid "svg: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "svg: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "cairo_pdf: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "cairo_ps: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "'coef' must not be negative"
 msgstr "wartość 'coef' musi być nieujemna"
@@ -71,13 +73,13 @@ msgid "'start' and 'end' must be distinct and in [0, 1]."
 msgstr "wartości 'start' oraz 'end' muszą być różne oraz zawierać się w przedziale [0, 1]."
 
 msgid "'palette' does not match any given palette"
-msgstr ""
+msgstr "argument 'palette' nie pasuje do żadnej podanej palety"
 
 msgid "'palette' is ambiguous"
-msgstr ""
+msgstr "argument 'palette' jest niejednoznaczny"
 
 msgid "'n' set to %s, the maximum available for %s palette"
-msgstr ""
+msgstr "'n' ustawione na %s, maksymalna możliwa wartość dla palety %s"
 
 msgid "'gamma' must be a scalar or 'sRGB'"
 msgstr "argument 'gamma' musi być liczbą lub wartością 'sRGB'"
@@ -225,7 +227,7 @@ msgid "There must be anchors named \"left\" and \"bottom\""
 msgstr ""
 
 msgid "Invalid glyph info"
-msgstr ""
+msgstr "niepoprawna informacja o glifie"
 
 #, fuzzy
 msgid "Invalid compositing operator"
@@ -325,9 +327,8 @@ msgstr "nieznana czcionka"
 msgid "font encoding mismatch '%s'/'%s'"
 msgstr "niezgodność strony kodowej czcionki '%s'/'%s'"
 
-#, fuzzy
 msgid "'%s' must be a non-empty character string"
-msgstr "argument 'file' musi być niepustym łańcuchem tekstowym"
+msgstr "argument '%s' musi być niepustym tekstem"
 
 msgid "GhostScript was not found"
 msgstr "program 'GhostScript' nie został znaleziony"
