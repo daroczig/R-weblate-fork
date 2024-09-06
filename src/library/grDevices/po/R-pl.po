@@ -1,16 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-09-06 17:14+0000\n"
+"Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.16.4\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -19,13 +20,13 @@ msgid "invalid 'filename'"
 msgstr "niepoprawny argument 'filename'"
 
 msgid "svg: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "svg: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "cairo_pdf: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
-msgstr ""
+msgstr "cairo_ps: urządzenia oparte o Cairo nie są dostępne na tej platformie"
 
 msgid "'coef' must not be negative"
 msgstr "wartość 'coef' musi być nieujemna"
@@ -67,13 +68,13 @@ msgid "'start' and 'end' must be distinct and in [0, 1]."
 msgstr "wartości 'start' oraz 'end' muszą być różne oraz zawierać się w przedziale [0, 1]."
 
 msgid "'palette' does not match any given palette"
-msgstr ""
+msgstr "argument 'palette' nie pasuje do żadnej podanej palety"
 
 msgid "'palette' is ambiguous"
-msgstr ""
+msgstr "argument 'palette' jest niejednoznaczny"
 
 msgid "'n' set to %s, the maximum available for %s palette"
-msgstr ""
+msgstr "'n' ustawione na %s, maksymalna możliwa wartość dla palety %s"
 
 msgid "'gamma' must be a scalar or 'sRGB'"
 msgstr "argument 'gamma' musi być liczbą lub wartością 'sRGB'"
@@ -221,7 +222,7 @@ msgid "There must be anchors named \"left\" and \"bottom\""
 msgstr ""
 
 msgid "Invalid glyph info"
-msgstr ""
+msgstr "niepoprawna informacja o glifie"
 
 #, fuzzy
 msgid "Invalid compositing operator"
@@ -321,9 +322,8 @@ msgstr "nieznana czcionka"
 msgid "font encoding mismatch '%s'/'%s'"
 msgstr "niezgodność strony kodowej czcionki '%s'/'%s'"
 
-#, fuzzy
 msgid "'%s' must be a non-empty character string"
-msgstr "argument 'file' musi być niepustym łańcuchem tekstowym"
+msgstr "argument '%s' musi być niepustym tekstem"
 
 msgid "GhostScript was not found"
 msgstr "program 'GhostScript' nie został znaleziony"
