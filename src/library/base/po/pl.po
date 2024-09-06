@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-09-06 03:05+0000\n"
+"PO-Revision-Date: 2024-09-06 17:14+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -65,7 +65,7 @@ msgstr "'trace' oraz 'REPORT' muszą być >= 0 (metoda = \"SANN\")"
 #: src/appl/pretty.c:127
 #, c-format
 msgid "R_pretty(): infinite range; *ndiv=%d, should have ndiv >= 2"
-msgstr ""
+msgstr "R_pretty(): nieskończony zakres; *ndiv=%d, powinno mieć ndiv >= 2"
 
 #: src/appl/pretty.c:142
 #, c-format
@@ -660,9 +660,8 @@ msgid "R_RegisterRoutines called with invalid DllInfo object."
 msgstr "R_RegisterRoutines wezwane z niepoprawnym obiektem DllInfo."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "niepoprawne połączenie"
+msgstr "niepoprawny obiekt."
 
 #: src/main/Rdynload.c:427
 #, c-format
@@ -675,9 +674,8 @@ msgid "Component '%s' missing in symbol object."
 msgstr ""
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "niepoprawny symbol"
+msgstr "niepoprawna lista symboli."
 
 #: src/main/Rdynload.c:459
 #, c-format
@@ -685,19 +683,18 @@ msgid "Symbol at %d does not have registration information."
 msgstr ""
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "niepoprawny symbol"
+msgstr "niepoprawna nazwa symbolu."
 
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "nie można przydzielić pamięci dla zarejestrowanego naturalnego znaku (%d bajt)"
+msgstr "nie można zarejestrować już zarejestrowanego symbolu natywnego '%s'."
 
 #: src/main/Rdynload.c:500
-#, fuzzy, c-format
+#, c-format
 msgid "Symbol '%s' does not have a valid native address."
-msgstr "strumień plikowy nie posiada poprawnego nagłówka gzip"
+msgstr "Symbol '%s' nie ma poprawnego adresu natywnego."
 
 #: src/main/Rdynload.c:502
 #, c-format
@@ -923,14 +920,15 @@ msgid "type '%s' is not supported"
 msgstr "typ '%s' nie jest wspierany"
 
 #: src/main/apply.c:177
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
-msgstr "wartości muszą mieć długość %d, ale wynik FUN (X [[%lld]]) ma długość %d"
+msgstr ""
+"wartości muszą mieć długość %d, ale wynik FUN (X [[%lld]]) ma długość %d"
 
 #: src/main/apply.c:189
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
@@ -942,9 +940,9 @@ msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr "dimnames(<value>) nie jest wartością NULL ani też listą o długości %d"
 
 #: src/main/apply.c:343 src/main/coerce.c:2726
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list or expression"
-msgstr "'args' musi być listą lub wyrażeniem"
+msgstr "'%s' musi być listą lub wyrażeniem"
 
 #: src/main/arithmetic.c:50 src/main/eval.c:5104
 msgid "NaNs produced"
@@ -1068,9 +1066,9 @@ msgid "data length [%lld] is not a sub-multiple or multiple of the number of col
 msgstr "długość danych [%lld] nie jest pod-wielokrotnością lub wielokrotnością liczby kolumn [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr "długość danych przewyższa rozmiar macierzy"
+msgstr "długość danych różni się od rozmiaru macierzy: [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1112,12 +1110,12 @@ msgid "a matrix-like object is required as argument to '%s'"
 msgstr "obiekt macierzopodobny jest wymagany jako argument przekazywany do '%s'"
 
 #: src/main/array.c:1269
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "%d argument przekazano do funkcji '%s', która wymaga od %d do %d"
-msgstr[1] "%d argumenty przekazano do funkcji '%s', która wymaga od %d do %d"
-msgstr[2] "%d argumentów przekazano do funkcji '%s', która wymaga od %d do %d"
+msgstr[0] "%d argument przekazano do funkcji '%s', która wymaga co najmniej %d"
+msgstr[1] "%d argumenty przekazano do funkcji '%s', która wymaga co najmniej %d"
+msgstr[2] "%d argumentów przekazano do funkcji '%s', która wymaga co najmniej %d"
 
 #: src/main/array.c:1289
 #, c-format
@@ -1137,9 +1135,9 @@ msgid "argument is not a matrix"
 msgstr "argument nie jest macierzą"
 
 #: src/main/array.c:1717 src/main/attrib.c:1226
-#, fuzzy, c-format
+#, c-format
 msgid "invalid first argument, must be %s"
-msgstr "niepoprawny pierwszy argument, musi być tablicą"
+msgstr "niepoprawny pierwszy argument, musi być %s"
 
 #: src/main/array.c:1732
 #, c-format
@@ -1285,9 +1283,9 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr "długość 'dimnames' [%d] nie jest równa stopniowi tablicy"
 
 #: src/main/attrib.c:1228
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "niepoprawny drugi argument"
+msgstr "niepoprawny drugi argument, musi być %s"
 
 #: src/main/attrib.c:1235
 msgid "length-0 dimension vector is invalid"
@@ -1375,9 +1373,9 @@ msgid "formal classes cannot be used without the 'methods' package"
 msgstr "formalne klasy nie mogą być używane bez pakietu 'methods'"
 
 #: src/main/attrib.c:1906
-#, fuzzy, c-format
+#, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "niestosowalna metoda dla '%s' zastosowana do obiektu klasy \"%s\""
+msgstr "niestosowalna metoda dla '@' zastosowana do obiektu klasy \"%s\""
 
 #: src/main/bind.c:165
 #, c-format
@@ -1613,19 +1611,19 @@ msgid "width is not computable for %s in \"bytes\" encoding"
 msgstr "szerokość nie jest obliczalna dla elementu %s w kodowaniu \"bytes\""
 
 #: src/main/character.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, element %ld"
-msgstr "niepoprawny wielobajtowy łańcuch %d"
+msgstr "niepoprawny wielobajtowy tekst, element %ld"
 
 #: src/main/character.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "number of characters is not computable in \"bytes\" encoding, element %ld"
-msgstr "liczba znaków nie jest obliczalna w kodowaniu \"bytes\", %s"
+msgstr "liczba znaków nie jest obliczalna w kodowaniu \"bytes\", element %ld"
 
 #: src/main/character.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "width is not computable in \"bytes\" encoding, element %ld"
-msgstr "szerokość nie jest obliczalna dla elementu %s w kodowaniu \"bytes\""
+msgstr "szerokość nie jest obliczalna w kodowaniu \"bytes\", element %ld"
 
 #: src/main/character.c:429
 msgid "extracting substrings from a non-character object"
@@ -1733,9 +1731,9 @@ msgid "invalid data of mode '%s' (too short)"
 msgstr "niepoprawne dane trybu '%s' (zbyt krótkie)"
 
 #: src/main/coerce.c:1032 src/main/coerce.c:1154 src/main/coerce.c:1177
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' object cannot be coerced to type '%s'"
-msgstr "obiekt 'pairlist' nie może zostać przekształcony na typ '%s'"
+msgstr "obiekt '%s' nie może zostać przekształcony na typ '%s'"
 
 #: src/main/coerce.c:1207 src/main/coerce.c:1577
 msgid "no method for coercing this S4 class to a vector"
@@ -1900,9 +1898,9 @@ msgid "root finding code failed"
 msgstr "kod znajdujący pierwiastki zawiódł"
 
 #: src/main/connections.c:193
-#, fuzzy, c-format
+#, c-format
 msgid "all %d connections are in use"
-msgstr "wszystkie połączenia są w użyciu"
+msgstr "wszystkie połączenia (%d) są w użyciu"
 
 #: src/main/connections.c:204
 msgid "connection not found"
@@ -1949,15 +1947,15 @@ msgid "cannot open file '%ls': %s"
 msgstr "nie można otworzyć pliku '%ls': %s"
 
 #: src/main/connections.c:866
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%ls': it is a directory"
-msgstr "nie można otworzyć pliku '%ls': %s"
+msgstr "nie można otworzyć pliku '%ls': to jest katalog"
 
 #: src/main/connections.c:898 src/main/connections.c:1837
 #: src/main/connections.c:1989 src/main/connections.c:2185
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s': it is a directory"
-msgstr "nie można otworzyć pliku '%s': %s"
+msgstr "nie można otworzyć pliku '%s': to jest katalog"
 
 #: src/main/connections.c:1018
 msgid "connection is not open for reading"
@@ -2204,14 +2202,14 @@ msgid "allocation of raw connection failed"
 msgstr "przydział prostego połączenia nie powiódł się"
 
 #: src/main/connections.c:3126
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a %s"
-msgstr "połączenie fifo '%s' nie jest gotowe"
+msgstr "'%s' nie jest %s"
 
 #: src/main/connections.c:3130
-#, fuzzy, c-format
+#, c-format
 msgid "internal connection is not a %s"
-msgstr "połączenie nie jest otwarte"
+msgstr "wewnętrzne połączenie nie jest %s"
 
 #: src/main/connections.c:3143
 msgid "'con' is not an output rawConnection"
@@ -2705,9 +2703,9 @@ msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
 msgstr "komponent o zerowej długości [[%d]] w niepustej strukturze \"POSIXlt\""
 
 #: src/main/datetime.c:1771
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a \"%s\""
-msgstr "połączenie fifo '%s' nie jest gotowe"
+msgstr "'%s' nie jest \"%s\""
 
 #: src/main/dcf.c:112 src/main/dcf.c:188 src/main/dcf.c:269
 msgid "could not allocate memory for 'read.dcf'"
@@ -3184,14 +3182,14 @@ msgid "non-finite axis extents [GEPretty(%g,%g, n=%d)]"
 msgstr "nieskończone długości osi '[GEPretty(%g,%g,%d)]'"
 
 #: src/main/engine.c:2499
-#, fuzzy, c-format
+#, c-format
 msgid " new *lo = %g < %g = x1"
-msgstr " .. 'GEPretty(.)': nowy *lo = %g < %g = x1"
+msgstr " nowe *lo = %g < %g = x1"
 
 #: src/main/engine.c:2501
-#, fuzzy, c-format
+#, c-format
 msgid " new *up = %g > %g = x2"
-msgstr " .. 'GEPretty(.)': nowy *up = %g > %g = x2"
+msgstr " nowe *up = %g > %g = x2"
 
 #: src/main/engine.c:3021
 msgid "display list redraw incomplete"
@@ -3365,9 +3363,9 @@ msgid "not a symbol"
 msgstr "argument nie jest symbolem"
 
 #: src/main/envir.c:2070
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s' argument '%s'"
-msgstr "niepoprawny argument '%s'"
+msgstr "niepoprawny argument '%s' ('%s')"
 
 #: src/main/envir.c:2088
 #, fuzzy
@@ -3389,9 +3387,9 @@ msgid "second argument must be an environment"
 msgstr "drugi argument musi być środowiskiem"
 
 #: src/main/envir.c:2397
-#, fuzzy, c-format
+#, c-format
 msgid "'missing(%s)' did not find an argument"
-msgstr "'missing' można użyć jedynie dla argumentów"
+msgstr "'missing(%s)' nie znalazło argumentu"
 
 #: src/main/envir.c:2421
 msgid "invalid use of 'missing'"
@@ -3640,7 +3638,7 @@ msgstr "niepoprawna opcja \"error\"\n"
 #: src/modules/lapack/Lapack.c:895
 #, c-format
 msgid "'%s' must be a character string"
-msgstr "'%s' musi być łańcuchem tekstowym"
+msgstr "'%s' musi być ciągiem znaków"
 
 #: src/main/errors.c:1362
 msgid " [invalid string in stop(.)]"
@@ -3757,14 +3755,14 @@ msgid "Rprof: cannot open profile file '%s'"
 msgstr "Rprof: nie można otworzyć pliku profilu '%s'"
 
 #: src/main/eval.c:900
-#, fuzzy, c-format
+#, c-format
 msgid "interval too short for this platform, using '%f'"
-msgstr "ten typ nie jest obsługiwany na tej platformie - używanie \"nbcairo\""
+msgstr "przedział jest zbyt krótki dla tej platformy, używanie '%f'"
 
 #: src/main/eval.c:905
-#, fuzzy, c-format
+#, c-format
 msgid "interval too short, using '%f'"
-msgstr "błąd wewnętrzny w '%s'"
+msgstr "przedział jest zbyt krótki, używanie '%f'"
 
 #: src/main/eval.c:921
 msgid "R profiling is not available on this system"
@@ -3874,9 +3872,9 @@ msgid "'%s' is missing"
 msgstr "brakuje '%s'"
 
 #: src/main/eval.c:3859
-#, fuzzy, c-format
+#, c-format
 msgid "invalid formal argument list for \"%s\""
-msgstr "niepoprawna lista formalnych argumentów dla \"function\""
+msgstr "niepoprawna lista argumentów formalnych dla \"%s\""
 
 #: src/main/eval.c:3916 src/main/eval.c:3947 src/main/eval.c:3952
 #, c-format
@@ -4022,14 +4020,14 @@ msgstr "nie ustawiono obsługi zdarzeń grafiki"
 
 #: src/main/gram.y:328 src/main/gram.y:337 src/main/gram.y:663
 #: src/main/gram.y:670 src/main/gram.y:746
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte character in parser (%s:%d:%d)"
-msgstr "niepoprawny wielobajtowy znak w parserze w linii %d"
+msgstr "niepoprawny wielobajtowy znak w parserze (%s:%d:%d)"
 
 #: src/main/gram.y:581
-#, fuzzy, c-format
+#, c-format
 msgid "input buffer overflow (%s:%d:%d)"
-msgstr "przepełnienie bufora wejściowego w linii %d"
+msgstr "przepełnienie bufora wejściowego (%s:%d:%d)"
 
 #: src/main/gram.y:1215
 #, c-format
@@ -4047,9 +4045,9 @@ msgid "The pipe operator requires a function call as RHS (%s:%d:%d)"
 msgstr ""
 
 #: src/main/gram.y:1275
-#, fuzzy, c-format
+#, c-format
 msgid "RHS variable must be a symbol (%s:%d:%d)"
-msgstr "argumenty muszą być symboliczne"
+msgstr "zmienna po prawej stronie musi być symbolem (%s:%d:%d)"
 
 #: src/main/gram.y:1286
 #, c-format
@@ -4067,9 +4065,9 @@ msgid "'=>' is disabled; set '_R_USE_PIPEBIND_' envvar to a true value to enable
 msgstr ""
 
 #: src/main/gram.y:1411
-#, fuzzy, c-format
+#, c-format
 msgid "incorrect tag type (%s:%d:%d)"
-msgstr "niepoprawny typ tagu w linii %d"
+msgstr "niepoprawny typ tagu (%s:%d:%d)"
 
 #: src/main/gram.y:1590
 #, fuzzy
@@ -4082,9 +4080,9 @@ msgid "invalid use of pipe placeholder (%s:%d:%d)"
 msgstr ""
 
 #: src/main/gram.y:1765
-#, fuzzy, c-format
+#, c-format
 msgid "invalid use of pipe bind symbol (%s:%d:%d)"
-msgstr "niepoprawne ustawiony symbol cudzysłowiu"
+msgstr "niepoprawne użycie symbolu łączącego (%s:%d:%d)"
 
 #: src/main/gram.y:1776
 #, fuzzy
@@ -4093,9 +4091,9 @@ msgstr "zabrakło pamięci podczas obcinania krzywej łamanej"
 
 #: src/main/gram.y:2125 src/main/gram.y:3964 src/main/gram.y:3972
 #: src/main/gram.y:3979 src/main/gram.y:3987
-#, fuzzy, c-format
+#, c-format
 msgid "contextstack overflow (%s:%d:%d)"
-msgstr "przepełniony stos kontekstu"
+msgstr "przepełniony stos kontekstu (%s:%d:%d)"
 
 #: src/main/gram.y:2381 src/main/gram.y:2387 src/main/gram.y:2409
 #, c-format
@@ -4138,9 +4136,9 @@ msgid "unexpected %s"
 msgstr "nieoczekiwane %s"
 
 #: src/main/gram.y:2434
-#, fuzzy, c-format
+#, c-format
 msgid "repeated formal argument '%s' (%s:%d:%d)"
-msgstr "powtórzony formalny argument '%s' w linii %d"
+msgstr "powtórzony argument formalny '%s' (%s:%d:%d)"
 
 #: src/main/gram.y:2670
 #, c-format
@@ -4158,9 +4156,9 @@ msgid "integer literal %s contains unnecessary decimal point"
 msgstr "stały literał %s zawiera niepotrzebny separator dziesiętny"
 
 #: src/main/gram.y:2769 src/main/gram.y:2777
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte character (%s:%d:%d)"
-msgstr "niepoprawny wielobajtowy znak w parserze w linii %d"
+msgstr "niepoprawny wielobajtowy znak (%s:%d:%d)"
 
 #: src/main/gram.y:2865
 #, c-format
@@ -4169,9 +4167,9 @@ msgstr ""
 
 #: src/main/gram.y:2917 src/main/gram.y:2948 src/main/gram.y:2995
 #: src/main/gram.y:3042
-#, fuzzy, c-format
+#, c-format
 msgid "nul character not allowed (%s:%d:%d)"
-msgstr "znak 'nul' nie jest dozwolony (linia %d)"
+msgstr "znak 'nul' nie jest dozwolony (%s:%d:%d)"
 
 #: src/main/gram.y:2920
 #, c-format
@@ -4179,19 +4177,23 @@ msgid "\\%o exceeds maximum allowed octal value \\377 (%s:%d:%d)"
 msgstr ""
 
 #: src/main/gram.y:2939
-#, fuzzy, c-format
+#, c-format
 msgid "'\\x' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\x' użyte bez szestnastkowych cyfr w łańcuchu tekstowym rozpoczynającym \"%s\""
+msgstr "'\\x' użyte bez szesnastkowych cyfr w łańcuchu tekstowym (%s:%d:%d)"
 
 #: src/main/gram.y:2958
-#, fuzzy, c-format
+#, c-format
 msgid "\\uxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr "sekwencja \\uxxxxxxxx nie jest wspierana wewnątrz odwrotnych cudzysłowiów (``) (linia %d)"
+msgstr ""
+"sekwencja \\uxxxxxxxx nie jest wspierana wewnątrz odwrotnych cudzysłowów (``)"
+" (%s:%d:%d)"
 
 #: src/main/gram.y:2978
-#, fuzzy, c-format
+#, c-format
 msgid "'\\u' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\u' użyte bez szestnastkowych cyfr w łańcuchu tekstowym rozpoczynającym \"%s\""
+msgstr ""
+"'\\u' użyte bez szesnastkowych cyfr w łańcuchu tekstowym rozpoczynającym "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:2990
 #, c-format
@@ -4199,48 +4201,54 @@ msgid "invalid \\u{xxxx} sequence (line %d)"
 msgstr "niepoprawna sekwencja \\u{xxxx} (linia %d)"
 
 #: src/main/gram.y:3005
-#, fuzzy, c-format
+#, c-format
 msgid "\\Uxxxxxxxx sequences not supported inside backticks (%s:%d:%d)"
-msgstr "sekwencja \\Uxxxxxxxx nie jest wspierana wewnątrz odwrotnych cudzysłowiów (``) (linia %d)"
+msgstr ""
+"sekwencja \\Uxxxxxxxx nie jest wspierana wewnątrz odwrotnych cudzysłowów (``)"
+" (%s:%d:%d)"
 
 #: src/main/gram.y:3025
-#, fuzzy, c-format
+#, c-format
 msgid "'\\U' used without hex digits in character string (%s:%d:%d)"
-msgstr "'\\U' użyte bez szestnastkowych cyfr w łańcuchu tekstowym rozpoczynającym \"%s\""
+msgstr "'\\U' użyte bez szesnastkowych cyfr w łańcuchu tekstowym (%s:%d:%d)"
 
 #: src/main/gram.y:3037
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\U{xxxxxxxx} sequence (%s:%d:%d)"
-msgstr "niepoprawna sekwencja \\U{xxxxxxxx} (linia %d)"
+msgstr "niepoprawna sekwencja \\U{xxxxxxxx} (%s:%d:%d)"
 
 #: src/main/gram.y:3046
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\U{xxxxxxxx} value %6x (%s:%d:%d)"
-msgstr "niepoprawna sekwencja \\U{xxxxxxxx} (linia %d)"
+msgstr "niepoprawna wartość \\U{xxxxxxxx} %6x (%s:%d:%d)"
 
 #: src/main/gram.y:3049
-#, fuzzy, c-format
+#, c-format
 msgid "invalid \\Uxxxxxxxx value %6x (%s:%d:%d)"
-msgstr "niepoprawna sekwencja \\U{xxxxxxxx} (linia %d)"
+msgstr "niepoprawna wartość \\U{xxxxxxxx} %6x (%s:%d:%d)"
 
 #: src/main/gram.y:3097
-#, fuzzy, c-format
+#, c-format
 msgid "'\\%s' is an unrecognized escape in character string (%s:%d:%d)"
-msgstr "'\\%c' jest nierozponanym znakiem modyfikacji w łańcuchu tekstowym rozpoczynającym \"%s\""
+msgstr ""
+"'\\%s' jest nierozpoznanym znakiem modyfikacji w łańcuchu tekstowym "
+"(%s:%d:%d)"
 
 #: src/main/gram.y:3178 src/main/gram.y:3318
-#, fuzzy, c-format
+#, c-format
 msgid "mixing Unicode and octal/hex escapes in a string is not allowed (%s:%d:%d)"
-msgstr "mieszanie znaków Unicode oraz ósemkowych/szestnastkowych znaków modyfikacji w łańcuchu jest niedozwolone"
+msgstr ""
+"mieszanie znaków Unicode oraz ósemkowych/szesnastkowych znaków modyfikacji w "
+"łańcuchu jest niedozwolone (%s:%d:%d)"
 
 #: src/main/gram.y:3183 src/main/gram.y:3323
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "string containing Unicode escapes not in this locale\n"
 "is too long (max 10000 chars) (%s:%d:%d)"
 msgstr ""
-"łańcuch w linii %d zawierający znak modyfikacji Unicode nie w tej lokalizacji\n"
-"jest zbyt długi (maksymalnie 10000 znaków)"
+"łańcuch zawierający znak modyfikacji Unicode nie w tej lokalizacji\n"
+"jest zbyt długi (maksymalnie 10000 znaków) (%s:%d:%d)"
 
 #: src/main/gram.y:3221
 #, c-format
@@ -4248,9 +4256,9 @@ msgid "malformed raw string literal (%s:%d:%d)"
 msgstr ""
 
 #: src/main/gram.y:4078
-#, fuzzy, c-format
+#, c-format
 msgid "internal parser error (%s:%d:%d)"
-msgstr "wewnętrzny błąd parsera w linii %d"
+msgstr "wewnętrzny błąd parsera (%s:%d:%d)"
 
 #: src/main/graphics.c:95
 #, c-format
@@ -4390,9 +4398,9 @@ msgid "zero-length pattern"
 msgstr "ścieżka o długości zero"
 
 #: src/main/grep.c:3071
-#, fuzzy, c-format
+#, c-format
 msgid "'pcre2_patterninfo' returned '%d' "
-msgstr "'pcre_fullinfo' zwrócił '%d' "
+msgstr "'pcre2_patterninfo' zwrócił '%d' "
 
 #: src/main/grep.c:3088
 #, c-format
@@ -4960,9 +4968,9 @@ msgid "corrupted options list"
 msgstr "uszkodzona lista opcji"
 
 #: src/main/options.c:146
-#, fuzzy, c-format
+#, c-format
 msgid "invalid printing width %d, used 80"
-msgstr "niepoprawna szerokość druku, użyto 80"
+msgstr "niepoprawna szerokość %d druku, użyto 80"
 
 #: src/main/options.c:149
 #, fuzzy
@@ -4970,14 +4978,14 @@ msgid "invalid printing width"
 msgstr "niepoprawna szerokość druku, użyto 80"
 
 #: src/main/options.c:164
-#, fuzzy, c-format
+#, c-format
 msgid "invalid printing digits %d, used 7"
-msgstr "niepoprawna liczba cyfr po przecinku, użyto 7"
+msgstr "niepoprawna liczba cyfr %d po przecinku, użyto 7"
 
 #: src/main/options.c:167
-#, fuzzy, c-format
+#, c-format
 msgid "invalid printing digits %d"
-msgstr "niepoprawna liczba cyfr po przecinku, użyto 7"
+msgstr "niepoprawna liczba cyfr %d po przecinku"
 
 #: src/main/options.c:183
 msgid "invalid 'deparse.cutoff', used 60"
@@ -4997,9 +5005,9 @@ msgid "option '%s' cannot be deleted"
 msgstr "plik zip '%s' nie może zostać otwarty"
 
 #: src/main/options.c:577 src/main/options.c:588 src/main/options.c:595
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s' parameter, allowed %d...%d"
-msgstr "niepoprawny parametr 'digits', dozwolone %d...%d"
+msgstr "niepoprawny parametr '%s', dozwolone %d...%d"
 
 #: src/main/options.c:602 src/main/options.c:610 src/main/options.c:616
 #: src/main/options.c:624 src/main/options.c:631 src/main/options.c:636
@@ -5058,9 +5066,9 @@ msgid "invalid separator"
 msgstr "niepoprawny separator"
 
 #: src/main/paste.c:160 src/main/paste.c:371
-#, fuzzy, c-format
+#, c-format
 msgid "non-string argument to .Internal(%s)"
-msgstr "argument niełańcuchowy przekazany do wewnętrznej funkcji 'paste'"
+msgstr "argument nietekstowy przekazany do .Internal(%s)"
 
 #: src/main/paste.c:225 src/main/paste.c:294
 msgid "result would exceed 2^31-1 bytes"
@@ -5077,9 +5085,9 @@ msgid "first argument must be atomic or environment"
 msgstr "argument '%s' musi być środowiskiem"
 
 #: src/main/paste.c:479
-#, fuzzy, c-format
+#, c-format
 msgid "invalid value %d for '%s' argument"
-msgstr "niepoprawna wartość w '%s'"
+msgstr "niepoprawna wartość %d dla argumentu '%s'"
 
 #: src/main/paste.c:528
 msgid "'decimal.mark' must be a string of one character"
@@ -5178,9 +5186,9 @@ msgid "'from' and 'to' are of different lengths"
 msgstr "argumenty 'from' oraz 'to' są różnej długości"
 
 #: src/main/platform.c:753
-#, fuzzy, c-format
+#, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
-msgstr "nie można zmienić nazwy pliku z '%s' na '%s', powód '%s'"
+msgstr "nie można zmienić nazwy pliku z '%ls' na '%ls', powód '%s'"
 
 #: src/main/platform.c:760
 msgid "expanded 'from' name too long"
@@ -5196,9 +5204,9 @@ msgid "cannot rename file '%s' to '%s', reason '%s'"
 msgstr "nie można zmienić nazwy pliku z '%s' na '%s', powód '%s'"
 
 #: src/main/platform.c:1215
-#, fuzzy, c-format
+#, c-format
 msgid "error while listing a directory: '%s'"
-msgstr "problem z utworzeniem katalogu %s: %s"
+msgstr "problem podczas listowania katalogu '%s'"
 
 #: src/main/platform.c:1367 src/main/platform.c:3002 src/main/platform.c:3016
 #: src/main/platform.c:3048 src/main/platform.c:3069
@@ -5232,9 +5240,9 @@ msgid "setting 'LC_NUMERIC' may cause R to function strangely"
 msgstr "ustawienie 'LC_NUMERIC' może spowodować, że R będzie dziwnie działał"
 
 #: src/main/platform.c:2206
-#, fuzzy, c-format
+#, c-format
 msgid "%s does not exist on Windows"
-msgstr "'exdir' nie istnieje"
+msgstr "'%s' nie istnieje w systemie Windows"
 
 #: src/main/platform.c:2242
 #, c-format
@@ -5271,9 +5279,9 @@ msgid "too deep nesting"
 msgstr "zbyt głębokie zagnieżdżenie"
 
 #: src/main/platform.c:2774
-#, fuzzy, c-format
+#, c-format
 msgid "cannot overwrite non-directory %ls with directory %ls"
-msgstr "nie można utworzyć katalogu '%s', powód '%s'"
+msgstr "nie można nadpisać nie-katalogu %ls katalogiem %ls"
 
 #: src/main/platform.c:2780
 #, c-format
@@ -5281,9 +5289,9 @@ msgid "problem creating directory %ls: %s"
 msgstr "problem z utworzeniem katalogu %ls: %s"
 
 #: src/main/platform.c:2802
-#, fuzzy, c-format
+#, c-format
 msgid "problem reading directory %ls: %s"
-msgstr "problem z czytaniem katalogu %s: %s"
+msgstr "problem z czytaniem katalogu %ls: %s"
 
 #: src/main/platform.c:2819
 #, c-format
@@ -5319,9 +5327,9 @@ msgid "insufficient OS support on this platform"
 msgstr "niewystarczające wsparcie OS na tej platformie"
 
 #: src/main/platform.c:3416
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be of length at least one"
-msgstr "argument 'mode' musi mieć długość co najmniej 1"
+msgstr "argument '%s' musi mieć długość co najmniej 1"
 
 #: src/main/plot3d.c:120
 #, c-format
@@ -5381,9 +5389,9 @@ msgid "'gap' must be non-negative integer"
 msgstr "'gap' musi być nieujemną liczbą całkowitą"
 
 #: src/main/print.c:272
-#, fuzzy, c-format
+#, c-format
 msgid "'print.gap' must be less than %d"
-msgstr "'fromLast' musi mieć długość 1"
+msgstr "'print.gap' musi być mniejszy niż %d"
 
 #: src/main/print.c:1010
 msgid "print buffer overflow"
@@ -5555,9 +5563,9 @@ msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
 msgstr "argument 'allow_surrogate_pairs' musi posiadać wartość TRUE lub FALSE"
 
 #: src/main/relop.c:140 src/main/relop.c:154 src/main/relop.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is not possible for language types"
-msgstr "porównanie (%d) jest możliwe jedynie dla typów atomowych oraz list"
+msgstr "porównanie (%s) nie jest możliwe dla typów językowych"
 
 #: src/main/relop.c:177
 #, fuzzy
@@ -5565,9 +5573,9 @@ msgid "comparing this symbol and string pair is not supported"
 msgstr "nazwy w persystentnych łańcuchach nie są jeszcze wspierane"
 
 #: src/main/relop.c:185
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is not possible language types"
-msgstr "porównanie (%d) jest możliwe jedynie dla typów atomowych oraz list"
+msgstr "porównanie (%s) nie jest możliwe dla typów językowych"
 
 #: src/main/relop.c:190
 #, fuzzy
@@ -5580,9 +5588,9 @@ msgid "comparison of language objects is not supported"
 msgstr "porównanie tych typów nie jest zaimplementowane"
 
 #: src/main/relop.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is possible only for atomic and list types"
-msgstr "porównanie (%d) jest możliwe jedynie dla typów atomowych oraz list"
+msgstr "porównanie (%s) jest możliwe jedynie dla typów atomowych oraz list"
 
 #: src/main/relop.c:303
 msgid "comparison is not allowed for expressions"
@@ -6077,9 +6085,11 @@ msgid "names in persistent strings are not supported yet"
 msgstr "nazwy w persystentnych łańcuchach nie są jeszcze wspierane"
 
 #: src/main/serialize.c:1677
-#, fuzzy, c-format
+#, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
-msgstr "łańcuch wejściowy '%s' nie może być przetłumaczony na UTF-8; czy jest on poprawny w '%s'?"
+msgstr ""
+"łańcuch wejściowy '%s' nie może być przetłumaczony z '%s\" na UTF-8, ale "
+"jest poprawnym UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -6423,9 +6433,9 @@ msgid "one argument not used by format"
 msgstr "drugi argument musi być czynnikiem"
 
 #: src/main/sprintf.c:490
-#, fuzzy, c-format
+#, c-format
 msgid "%d arguments not used by format"
-msgstr "argument nie jest macierzą"
+msgstr "argumenty (%d) nie zostały użyte przez format"
 
 #: src/main/startup.c:72
 msgid "R_LibraryFileName: buffer too small"
@@ -6630,9 +6640,9 @@ msgid "no index specified"
 msgstr "nie określono indeksu"
 
 #: src/main/subset.c:1000
-#, fuzzy, c-format
+#, c-format
 msgid "this %s class is not subsettable"
-msgstr "ta klasa S4 nie jest podstawialna"
+msgstr "ta klasa %s nie jest podstawialna"
 
 #: src/main/subset.c:1008
 msgid "wrong arguments for subsetting an environment"
@@ -6743,9 +6753,9 @@ msgid "wrong type for argument"
 msgstr "błędny typ argumentu"
 
 #: src/main/sysutils.c:474
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' and '%s' are of different lengths"
-msgstr "argumenty 'from' oraz 'to' są różnej długości"
+msgstr "argumenty '%s' oraz '%s' są różnej długości"
 
 #: src/main/sysutils.c:495
 msgid "'Sys.setenv' is not available on this system"
@@ -6786,9 +6796,9 @@ msgid "internal error: no translation needed"
 msgstr "błąd wewnętrzny: translacja nie jest konieczna"
 
 #: src/main/sysutils.c:1377 src/main/sysutils.c:1382
-#, fuzzy, c-format
+#, c-format
 msgid "unable to translate '%s' to native encoding"
-msgstr "nie można zapisać do schowka"
+msgstr "nie można przetłumaczyć '%s' do natywnego kodowania"
 
 #: src/main/sysutils.c:1562 src/main/sysutils.c:1568
 #, fuzzy, c-format
@@ -6801,9 +6811,9 @@ msgid "unsupported conversion to '%s' from codepage %d"
 msgstr "niewspierana konwersja do '%s' ze strony kodowej %d"
 
 #: src/main/sysutils.c:1755 src/main/sysutils.c:1761
-#, fuzzy, c-format
+#, c-format
 msgid "unable to translate '%s' to a wide string"
-msgstr "nie można zapisać do schowka"
+msgstr "nie można przetłumaczyć '%s' do szerokiego tekstu"
 
 #: src/main/sysutils.c:2135
 #, c-format
@@ -7207,7 +7217,7 @@ msgstr "brak wsparcia 'tiff' w tej wersji R"
 
 #: src/modules/X11/devX11.c:1398
 msgid "filename too long in tiff() call"
-msgstr "nazwa pliku jest zbyt długa w wywołaniu 'tiff()'"
+msgstr "nazwa pliku w wywołaniu 'tiff()' jest zbyt długa"
 
 #: src/modules/X11/devX11.c:1410
 msgid "filename too long in bmp() call"
@@ -7800,9 +7810,10 @@ msgid "underflow occurred in '%s'\n"
 msgstr "wystąpił niedomiar w '%s'\n"
 
 #: src/nmath/pbeta.c:69
-#, fuzzy, c-format
+#, c-format
 msgid "pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() gave error code %d"
-msgstr "pbeta_raw(%g, a=%g, b=%g, ..) -> bratio() zwróciło kod błędu %d"
+msgstr ""
+"pbeta_raw(%g, a=%g, b=%g, lower=%d, log=%d) -> bratio() zwróciło kod błędu %d"
 
 #: src/nmath/pbinom.c:37
 #, c-format
@@ -7815,9 +7826,9 @@ msgid "pnbinom_mu() -> bratio() gave error code %d"
 msgstr "pnbinom_mu() -> bratio() zwróciło kod błędu %d"
 
 #: src/nmath/pnchisq.c:304
-#, fuzzy, c-format
+#, c-format
 msgid "pnchisq(x=%g, f=%g, theta=%g, ..): not converged in %d iter."
-msgstr "pnchisq(x=%g, ..): nie uzbieżnił się w %d iteracjach."
+msgstr "pnchisq(x=%g, f=%g, theta=%g, ..): nie uzbieżnił się w %d iteracjach."
 
 #: src/nmath/polygamma.c:510
 #, c-format
@@ -7878,7 +7889,7 @@ msgstr "Jawne leniwe dynamiczne ładowanie nie jest obsługiwane na tej platform
 
 #: src/unix/dynload.c:212
 msgid "cannot get working directory!"
-msgstr "nie można uzyskać dostępu do katalogu roboczego"
+msgstr "nie można uzyskać dostępu do katalogu roboczego!"
 
 #: src/unix/sys-std.c:511 src/unix/sys-unix.c:162
 #, c-format
