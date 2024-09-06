@@ -2,6 +2,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 
 
 
+
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
 msgid "'%s' must be numeric of length %d"
@@ -28,7 +30,7 @@ msgstr "'%s' musi być liczbą o długości %d"
 
 #: clippath.c:36
 msgid "Clipping path ignored (device is appending path)"
-msgstr ""
+msgstr "Ścieżka przycinająca zignorowana (urządzenie dołącza ścieżkę)"
 
 #: colors.c:69
 #, c-format
@@ -158,15 +160,15 @@ msgstr "napotkano nieznany obiekt AFM"
 msgid "invalid string in '%s'"
 msgstr "niepoprawny łańcuch w '%s'"
 
-#: devPS.c:811
-#, fuzzy, c-format
+#: devPS.c:810
+#, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
-msgstr "nieznana szerokość czcionki dla znaku '0x%x'"
+msgstr "nieznana szerokość czcionki dla znaku '0x%02x' w kodowaniu %s"
 
 #: devPS.c:871
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
-msgstr "nieznane metryki czcionki dla znaku Unicode 'U+%04x'"
+msgstr "nieznane metryki czcionki dla znaku Unicode 'U+%04X'"
 
 #: devPS.c:883
 #, c-format
@@ -176,17 +178,19 @@ msgstr "nieznane kodowanie '%s' w 'PostScriptMetricInfo'"
 #: devPS.c:900
 #, c-format
 msgid "Unicode character %lc (U+%04X) cannot be converted"
-msgstr ""
+msgstr "Znak Unicode %lc (U+%04X) nie może być przekształcony"
 
-#: devPS.c:919 devPS.c:973
-#, fuzzy, c-format
+#: devPS.c:918 devPS.c:972
+#, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr "nieznane metryki czcionki dla znaku '0x%x'"
+msgstr "nieznane metryki czcionki dla znaku '0x%02x' w kodowaniu %s"
 
-#: devPS.c:988
-#, fuzzy, c-format
+#: devPS.c:987
+#, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr "niepoprawny znak (%04x) wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej lokalizacji"
+msgstr ""
+"niepoprawny znak (%04X) wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej "
+"lokalizacji"
 
 #: devPS.c:996
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -752,7 +756,7 @@ msgstr "niepoprawny rozmiar urządzenia 'quartz()'"
 
 #: devQuartz.c:3208
 msgid "unable to create device description"
-msgstr "nie można utworzyć opisu urządzenia."
+msgstr "nie można utworzyć opisu urządzenia"
 
 #: devQuartz.c:3258
 msgid "unable to create quartz() device target, given type may not be supported"
@@ -993,4 +997,5 @@ msgstr ""
 #, fuzzy
 msgid "Font file not found; matching font family and face"
 msgstr "rodzina czcionek nie została znaleziona w bazie czcionek systemu Windows"
+
 
