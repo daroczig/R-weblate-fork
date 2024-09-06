@@ -1,19 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2024-09-06 17:14+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
-"Language: pl_PL\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.4\n"
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
@@ -26,11 +27,11 @@ msgstr "niepoprawna lista do podmiany"
 #: methods_list_dispatch.c:129
 #, c-format
 msgid "unexpected type '%s' for condition message"
-msgstr ""
+msgstr "nieoczekiwany typ '%s' w wiadomości warunkowej"
 
 #: methods_list_dispatch.c:132
 msgid "condition message must be length 1"
-msgstr ""
+msgstr "wiadomość warunkowa musi być długości 1"
 
 #: methods_list_dispatch.c:213
 msgid "could not find the skeleton calls for 'methods' (package detached?): expect very bad things to happen"
@@ -45,10 +46,12 @@ msgstr "nie znaleziono gniazd 'allMethods' w obiekcie klasy \"%s\" użytej jako 
 #, c-format
 msgid "S language method selection did not return normally when called from internal dispatch for function '%s'"
 msgstr ""
+"wybór metody języka S nie zwrócił wyniku normalnie podczas wywoływania z "
+"wewnętrznego dyspozytora dla funkcji '%s'"
 
 #: methods_list_dispatch.c:409
 msgid "Function name for method selection called internally"
-msgstr ""
+msgstr "Nazwa funkcji dla wyboru metody wywołana wewnętrznie"
 
 #: methods_list_dispatch.c:503
 #, c-format
