@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-03-27 16:15\n"
-"PO-Revision-Date: 2024-09-04 03:05+0000\n"
+"PO-Revision-Date: 2024-09-06 17:14+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -228,7 +228,7 @@ msgid "Packages with priorities 'base' or 'recommended' or 'defunct-base' must a
 msgstr "Pakiety z priorytetami 'base' lub 'recommended' lub 'defunct-base' muszą być już być znane R."
 
 msgid "Malformed Title field: should not end in a period."
-msgstr "Niepoprawnie wypełnione pole 'Title': nie powinno kończyć się kropką"
+msgstr "Niepoprawnie wypełnione pole 'Title': nie powinno kończyć się kropką."
 
 msgid "Malformed Description field: should contain one or more complete sentences."
 msgstr "Niepoprawnie wypełnione pole 'Description': powinno zawierać jedno lub więcej kompletnych zdań."
@@ -252,7 +252,7 @@ msgid "Authors@R field gives persons with no role:"
 msgstr "Pole 'Authors@R' wskazuje na osoby bez żadnej roli:"
 
 msgid "Authors@R field gives no person with name and author role"
-msgstr "Pole 'Authors@R' nie zawiera danych osoby z imieniem oraz rolą autora."
+msgstr "Pole 'Authors@R' nie zawiera danych osoby z imieniem oraz rolą autora"
 
 msgid "Cannot extract Maintainer field from Authors@R field:"
 msgstr "Nie można wyodrębnić pola 'Maintainer' z pola 'Authors@R':"
@@ -300,9 +300,8 @@ msgstr "Komponenty licencji, które są szablonami oraz potrzebują dodatkowo pl
 msgid "License stub is invalid DCF."
 msgstr ""
 
-#, fuzzy
 msgid "License stub records with missing/empty fields:"
-msgstr "nie można poradzić sobie z obiektami Rd z brakującymi/pustymi nazwami"
+msgstr "nie można poradzić sobie z obiektami Rd z brakującymi/pustymi nazwami:"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
 msgstr ""
@@ -410,7 +409,7 @@ msgid "'library' or 'require' calls in package code:"
 msgstr "wywołania 'library' lub 'require' w kodzie pakietu:"
 
 msgid "'library' or 'require' call to %s in package code."
-msgstr "wywołania 'library' lub 'require' do %s w kodzie pakietu"
+msgstr "wywołania 'library' lub 'require' do %s w kodzie pakietu."
 
 msgid "Namespaces in Imports field not imported from:"
 msgstr "Przestrzenie nazw w polu 'Imports' nie zostały zaimportowane z pakietu:"
@@ -1020,9 +1019,8 @@ msgstr ""
 msgid "NOTE: Skipping installation-time patch"
 msgstr ""
 
-#, fuzzy
 msgid "which seems to be already applied."
-msgstr "plik 'DESCRIPTION' wygląda to na paczkę -- a one zostały zlikwidowane"
+msgstr "które wygląda na już zastosowane."
 
 msgid "WARNING: failed to apply patch"
 msgstr ""
@@ -1156,11 +1154,12 @@ msgstr ""
 "Fragment %s:\n"
 "%s"
 
-#, fuzzy
 msgid ""
 "Cannot extract version info from the following section titles:\n"
 "%s"
-msgstr "Nie można wyodrębnić informacji o wersji z następujących tytułów sekcji:"
+msgstr ""
+"Nie można wyodrębnić informacji o wersji z następujących tytułów sekcji:\n"
+"%s"
 
 msgid ""
 "Malformed NEWS.Rd file:\n"
@@ -1604,9 +1603,9 @@ msgstr[2] "obiekty %s są utworzone przez więcej niż jedno wywołanie danych"
 
 msgid "%d of the package tests failed"
 msgid_plural "%d of the package tests failed"
-msgstr[0] "%d z testów pakietu nie powiodło się"
-msgstr[1] "%d z testów pakietu nie powiodło się"
-msgstr[2] "%d z testów pakietu nie powiodło się"
+msgstr[0] "%d test pakietu nie powiódł się"
+msgstr[1] "%d testy pakietu nie powiodły się"
+msgstr[2] "%d testów pakietu nie powiodło się"
 
 msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
