@@ -1,21 +1,20 @@
 msgid ""
-
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2024-09-06 17:14+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
-"Language: pl_PL\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "na-Revision-Date: 2012-05-29 07:55+0100\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 2.0.4\n"
-
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
@@ -25,15 +24,16 @@ msgstr "pasmo/rozpiętość ruchomych median jest większe niż 'n'"
 #, c-format
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
 msgstr ""
+"runmed(x, .., na.action=\"na.fail\"): ma wartości NA zaczynając od x[%lld]"
 
 #: Srunmed.c:265
 msgid "runmed(): invalid 'na.action'"
-msgstr ""
+msgstr "runmed(): niepoprawna wartość 'na.action'"
 
 #: Srunmed.c:315
 #, c-format
 msgid "na_action logic error (%d), please report!"
-msgstr ""
+msgstr "na_action błąd logiczny (%d), zgłoś!"
 
 #: ansari.c:118
 msgid "probabilities outside [0,1] in qansari()"
@@ -53,7 +53,7 @@ msgstr "approx(): próbowano interpolować wartości NA"
 
 #: approx.c:128
 msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
-msgstr ""
+msgstr "approx(x,y, .., na.rm=FALSE): wartości NA w x nie są dozwolone"
 
 #: arima.c:81 arima.c:192 arima.c:377 arima.c:608 optim.c:39
 msgid "invalid argument type"
@@ -141,9 +141,8 @@ msgid "invalid expression in '%s'"
 msgstr "niepoprawne wyrażenie w '%s'"
 
 #: deriv.c:872
-#, fuzzy
 msgid "too many variables"
-msgstr "brak czynników"
+msgstr "zbyt wiele zmiennych"
 
 #: deriv.c:1087 model.c:99
 msgid "invalid variable names"
