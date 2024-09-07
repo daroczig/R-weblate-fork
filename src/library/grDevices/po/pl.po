@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-09-06 17:14+0000\n"
+"PO-Revision-Date: 2024-09-07 11:03+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -368,9 +368,9 @@ msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "nieznana strona kodowa '%s' w 'mbcsToSbcs'"
 
 #: devPS.c:4582 devPS.c:4589
-#, fuzzy, c-format
+#, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
-msgstr "niepowodzenie konwersji '%s' w 'mbcsToSbcs': kropka zastąpiona <%02x>"
+msgstr "błąd konwersji na '%s'; w 'mbcsToSbcs': dla <%02x>"
 
 #: devPS.c:4584 devPS.c:4591
 #, c-format
@@ -437,46 +437,47 @@ msgid "unable to use encoding '%s'"
 msgstr "nie można użyć strony kodowej '%s'"
 
 #: devPS.c:5992
-#, fuzzy
 msgid "Failed to allocate PDF definition string"
-msgstr "nie udało się przydzielić listy czcionek"
+msgstr "Nie udało się przydzielić ciągu definicji PDF"
 
 #: devPS.c:6014
 msgid "failed to increase definition string (shut down PDF device)"
-msgstr ""
+msgstr "nie udało się zwiększyć ciągu definicji (zamknięcie urządzenia PDF)"
 
 #: devPS.c:6064
-#, fuzzy
 msgid "failed to increase 'maxDefns'"
-msgstr "nie udało się zwiększyć 'maxRaster'"
+msgstr "nie udało się zwiększyć 'maxDefns'"
 
 #: devPS.c:6696
 msgid "Drawing not appended to path (contains text)"
-msgstr ""
+msgstr "Rysunek nie jest dołączony do ścieżki (zawiera tekst)"
 
 #: devPS.c:6925
 msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
 msgstr ""
+"Operator tworzenia kompozycji nie ma odpowiadającego mu trybu mieszania; "
+"ustawianie domyślnego trybu 'Normal'"
 
 #: devPS.c:7198
 msgid "Failed to write PDF clipping path"
-msgstr ""
+msgstr "Nie udało się zapisać ścieżki przycinającej PDF"
 
 #: devPS.c:7223
 msgid "Failed to write PDF stroke"
-msgstr ""
+msgstr "Nie udało się zapisać obrysu PDF"
 
 #: devPS.c:7244
 msgid "Failed to write PDF fill"
-msgstr ""
+msgstr "Nie udało się zapisać wypełnienia PDF"
 
 #: devPS.c:7265
 msgid "Failed to write PDF fillStroke"
-msgstr ""
+msgstr "Nie udało się zapisać pliku PDF fillStroke"
 
 #: devPS.c:7311
 msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
 msgstr ""
+"Identyfikator glifu większy niż 0xFFFF; dane wyjściowe będą nieprawidłowe"
 
 #: devPS.c:7334
 msgid "invalid 'alpha' value in PDF"
@@ -523,9 +524,8 @@ msgid "failed to allocate masks"
 msgstr "nie udało się przydzielić masek"
 
 #: devPS.c:7974
-#, fuzzy
 msgid "failed to allocate definitions"
-msgstr "nie udało się przydzielić listy czcionek"
+msgstr "nie udało się przydzielić definicji"
 
 #: devPS.c:8047
 #, c-format
@@ -585,16 +585,16 @@ msgstr "nie udało się znaleźć lub załadować czcionkę PDF"
 
 #: devPS.c:10012 devPS.c:10071
 msgid "Text not added to path containing other drawing"
-msgstr ""
+msgstr "Tekst nie został dodany do ścieżki zawierającej inny rysunek"
 
 #: devPS.c:10121 devPS.c:10288
 msgid "failed to find or load PDF CID font"
 msgstr "nie udało się znaleźć lub załadować czcionkę CID PDF"
 
 #: devPS.c:10786 devPS.c:10878 devPicTeX.c:763
-#, fuzzy, c-format
+#, c-format
 msgid "invalid 'file' parameter in %s"
-msgstr "niepoprawny parametr 'family' w %s"
+msgstr "nieprawidłowy parametr 'file' w %s"
 
 #: devPS.c:10795 devPS.c:10799 devPS.c:10963 devPS.c:10967
 #, c-format
@@ -621,37 +621,36 @@ msgstr "nie można uruchomić urządzenia '%s()'"
 #: devQuartz.c:471
 msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
 msgstr ""
+"Gradienty Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
 
 #: devQuartz.c:477
 msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
-msgstr ""
+msgstr "Wzory Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
 
 #: devQuartz.c:518 cairo/cairoFns.c:350
 msgid "Attempt to release non-existent pattern"
-msgstr ""
+msgstr "Próba zwolnienia nieistniejącego wzorca"
 
 #: devQuartz.c:555
 msgid "Quartz patterns exhausted"
-msgstr ""
+msgstr "Wzory Quartz zostały wyczerpane"
 
 #: devQuartz.c:621 devQuartz.c:636 devQuartz.c:638 devQuartz.c:669
 #: devQuartz.c:671
-#, fuzzy
 msgid "Failed to create gradient"
-msgstr "nie udało się zwiększyć 'maxRaster'"
+msgstr "Nie udało się utworzyć gradientu"
 
 #: devQuartz.c:653 devQuartz.c:686
 msgid "Unsupported gradient fill extend type; using 'pad'"
-msgstr ""
+msgstr "Nieobsługiwany typ wydłużenia wypełnienia gradientowego; używanie 'pad'"
 
 #: devQuartz.c:729 devQuartz.c:762
-#, fuzzy
 msgid "Failed to create pattern"
-msgstr "nie udało się przydzielić rastrów"
+msgstr "Nie udało się utworzyć wzorca"
 
 #: devQuartz.c:752
 msgid "Unsupported pattern extend mode;  using \"repeat\""
-msgstr ""
+msgstr "Nieobsługiwany tryb rozszerzania wzoru;  używanie \"repeat\""
 
 #: devQuartz.c:814
 msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
