@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -17,6 +18,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Bookmarks: -1,232,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
 
 
 
@@ -89,9 +91,8 @@ msgstr "Niezgodność w domyslnych wartościach argumentów (pierwsze 3):"
 msgid "Mismatches in argument default values:"
 msgstr "Niezgodność w domyślnych wartościach argumentów:"
 
-#, fuzzy
 msgid "Codoc mismatches from Rd file '%s':"
-msgstr "Niezgodność struktury w obiekcie dokumentacji '%s':"
+msgstr "Niezgodność kodu z dokumentacją na podstawie pliku Rd '%s':"
 
 msgid "Code: %s"
 msgstr "Kod: %s"
@@ -99,16 +100,14 @@ msgstr "Kod: %s"
 msgid "Docs: %s"
 msgstr "Dokumenty: %s"
 
-#, fuzzy
 msgid "S4 class codoc mismatches from Rd file '%s':"
-msgstr "Niezgodność struktury klasy S4 w obiekcie dokumentacji '%s':"
+msgstr "Niezgodność kodu z dokumentacją klasy S4 na podstawie pliku Rd '%s':"
 
 msgid "Slots for class '%s'"
 msgstr "Gniazda dla klasy \"%s\""
 
-#, fuzzy
 msgid "Data codoc mismatches from Rd file '%s':"
-msgstr "Niezgodność struktury danych w obiekcie dokumentacji '%s':"
+msgstr "Niezgodność danych z dokumentacją na podstawie pliku Rd '%s':"
 
 msgid "Variables in data frame '%s'"
 msgstr "Zmienne w ramce danych '%s'"
@@ -131,9 +130,8 @@ msgstr "Przypisania w sekcji '\\usage' w pliku Rd '%s':"
 msgid "Bad \\usage lines found in Rd file '%s':"
 msgstr "Znaleziono niepoprawne linie w sekcji '\\usage' w pliku Rd '%s':"
 
-#, fuzzy
 msgid "S3 methods shown with full name in Rd file '%s':"
-msgstr "Metody S3 pokazane z pełną nazwą w obiekcie dokumentacji '%s':"
+msgstr "Metody S3 pokazane z pełną nazwą w pliku Rd '%s':"
 
 msgid "you must specify 'package', 'dir' or 'file'"
 msgstr "musisz określić 'package', 'dir' lub 'file'"
@@ -266,9 +264,9 @@ msgstr "Pole 'Authors@R' zawiera więcej niż jedną osobę z rolą opiekuna:"
 msgid "Authors@R field gives no person with maintainer role, valid email address and non-empty name."
 msgstr "Pole 'Authors@R' nie zawiera danych osoby z rolą opiekuna, poprawnym adresem e-mail oraz niepustą nazwą."
 
-#, fuzzy
 msgid "Authors@R field gives persons with invalid ORCID identifiers:"
-msgstr "Pole 'Authors@R' wskazuje na osoby beż żadnych imion:"
+msgstr ""
+"Pole 'Authors@R' wskazuje na osoby z nieprawidłowymi identyfikatorami ORCID:"
 
 #, fuzzy
 msgid "Authors@R field gives persons with duplicated ORCID identifiers:"
@@ -305,34 +303,31 @@ msgid "License components which are templates and need '+ file LICENSE':"
 msgstr "Komponenty licencji, które są szablonami oraz potrzebują dodatkowo pliku 'LICENSE':"
 
 msgid "License stub is invalid DCF."
-msgstr ""
+msgstr "Fragment licencji jest niepoprawny w pliku DCF."
 
 msgid "License stub records with missing/empty fields:"
 msgstr "nie można poradzić sobie z obiektami Rd z brakującymi/pustymi nazwami:"
 
 msgid "Uses ACM license: only appropriate for pre-2013 ACM TOMS code"
-msgstr ""
+msgstr "Używa licencji ACM: dotyczy tylko kodu ACM TOMS sprzed 2013 roku"
 
 msgid "Non-portable flags in variable '%s':"
 msgstr "Nieprzenośne flagi w zmiennej '%s':"
 
-#, fuzzy
 msgid "Non-portable flags in file '%s':"
-msgstr "Nieprzenośne flagi w zmiennej '%s':"
+msgstr "Nieprzenośne flagi w pliku '%s':"
 
 msgid "Variables overriding user/site settings:"
 msgstr "Zmienne omijające ustawienia użytkownika/strony:"
 
 msgid "invalid 'OS.type' \"%s\".  Should not happen"
-msgstr ""
+msgstr "niepoprawny 'OS.type' \"%s\". Nie powinno się wydarzyć"
 
-#, fuzzy
 msgid "Missing link or links in Rd file '%s':"
-msgstr "Brakujący link lub linki w obiekcie dokumentacji '%s':"
+msgstr "Brakujący link lub linki w pliku Rd '%s':"
 
-#, fuzzy
 msgid "Non-file package-anchored link(s) in Rd file '%s':"
-msgstr "Brakujący link lub linki w obiekcie dokumentacji '%s':"
+msgstr "Linki zakotwiczone w pakiecie nie będące plikami w pliku Rd '%s':"
 
 msgid "See section 'Cross-references' in the 'Writing R Extensions' manual."
 msgstr "Zobacz informację w sekcji 'Cross-references' podręcznika 'Writing R Extensions'."
@@ -344,10 +339,10 @@ msgid "..."
 msgstr "..."
 
 msgid "No dataset created in 'envir'"
-msgstr ""
+msgstr "Brak zbioru danych utworzonego w 'envir'"
 
 msgid "Search path was changed"
-msgstr ""
+msgstr "Ścieżka wyszukiwania została zmieniona"
 
 msgid "File %s:"
 msgstr "Plik %s:"
@@ -478,13 +473,11 @@ msgstr "Pliki Rd z powtórzoną nazwą '%s':"
 msgid "Rd files with duplicated alias '%s':"
 msgstr "Pliki Rd z powtórzonym aliasem '%s':"
 
-#, fuzzy
 msgid "Rd files without \\alias:"
-msgstr "Pliki Rd z powtórzonym aliasem '%s':"
+msgstr "Pliki Rd bez pola \\alias:"
 
-#, fuzzy
 msgid "Invalid package aliases in Rd file '%s':"
-msgstr "Nieprzenośne flagi w zmiennej '%s':"
+msgstr "Nieprawidłowe aliasy pakietu w pliku Rd '%s':"
 
 #, fuzzy
 msgid "Argument items with no description in Rd file '%s':"
