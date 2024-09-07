@@ -6,6 +6,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,6 +22,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -181,7 +183,7 @@ msgid "can only splice vectors"
 msgstr "można łączyć tylko wektory"
 
 msgid "the LINPACK argument has been defunct since R 3.1.0"
-msgstr "argument LINPACK nie istnieje od wersji R 3.1.0"
+msgstr "In bare C locale: LANGUAGE reset, but message language may be unchanged"
 
 msgid "complex matrices not permitted at present"
 msgstr "macierze zespolone na chwilę obecną nie są dozwolone"
@@ -193,7 +195,7 @@ msgid "invalid 'dims'"
 msgstr "niepoprawna wartość argumentu 'dims'"
 
 msgid "condition handlers must be specified with a condition class"
-msgstr ""
+msgstr "Procedury obsługi warunków muszą być określone za pomocą klasy warunku"
 
 msgid "no 'restart' '%s' found"
 msgstr "nie znaleziono 'restart' '%s'"
@@ -208,7 +210,7 @@ msgid "condition handlers must be functions"
 msgstr "Obsługa zdarzeń (condition handlers) powinna być typu funkcyjnego"
 
 msgid "pushing duplicate `%s` handler on top of the stack"
-msgstr ""
+msgstr "Wypychanie zduplikowanego programu obsługi '%s' na wierzch stosu"
 
 msgid "argument 'where' of length 0"
 msgstr "argument 'where' ma długość 0"
@@ -359,9 +361,10 @@ msgstr "liczba kolumn argumentów nie zgadza się"
 msgid "invalid list argument: all variables should have the same length"
 msgstr "niepoprawny argument listy: wszystkie zmienne powinny mieć tę samą długość"
 
-#, fuzzy
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr "liczba pozycji do zastąpienia nie jest wielokrotnością długości zamiany"
+msgstr ""
+"liczba kolumn wyniku, %d, nie jest wielokrotnością długości wektora %d z arg "
+"%d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 wierszy> (lub 'row.names' o zerowej długości)"
@@ -381,13 +384,11 @@ msgstr "%s jest zdefiniowane jedynie dla ramek danych o równych rozmiarach"
 msgid "list of length %d not meaningful"
 msgstr "lista o długości %d nie ma sensu"
 
-#, fuzzy
 msgid "only defined on a data frame with all numeric-alike variables"
-msgstr "funkcja 'summary()' zdefiniowana jest jedynie na ramce danych ze wszystkimi zmiennymi będącymi liczbami"
+msgstr "zdefiniowany tylko w ramce danych ze wszystkimi zmiennymi numerycznymi"
 
-#, fuzzy
 msgid "cannot xtfrm data frames"
-msgstr "argument nie jest ramką danych"
+msgstr "nie można wywołać 'xtfrm` na ramce danych"
 
 msgid "all variables should have the same length"
 msgstr "wszystkie zmienne powinny mieć tę samą długość"
@@ -493,10 +494,11 @@ msgstr "atrybuty 'tzone' są niespójne"
 
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
+"as.character(td, ..) już nie bierze pod uwagę argumentu 'format'; użyj "
+"format(td, ..) ?"
 
-#, fuzzy
 msgid "'digits' must be numeric, integer valued"
-msgstr "argument 'trim' musi być liczbą o długości 1"
+msgstr "argument 'digits' musi być liczbą całkowitą"
 
 msgid "'tim' is not character or numeric"
 msgstr "argument 'tim' nie jest tekstem ani liczbą"
@@ -525,9 +527,8 @@ msgstr "argument 'from' musi być obiektem klasy \"POSIXt\""
 msgid "'to' must be a \"POSIXt\" object"
 msgstr "argument 'to' musi być obiektem klasy \"POSIXt\""
 
-#, fuzzy
 msgid "component subscript must be a character string"
-msgstr "argument 'object' musi być konwertowalny do pojedynczego łańcucha tekstowego"
+msgstr "indeks dolny składnika musi być ciągiem znaków"
 
 msgid "no Olson database found"
 msgstr "nie znaleziono bazy Olsona"
@@ -724,6 +725,8 @@ msgstr "'zero.print' musi być tekstem, wartością logiczną lub NULL"
 
 msgid "'zero.print' is truncated to fit into formatted zeros; consider 'replace=TRUE'"
 msgstr ""
+"argument 'zero.print' został przycięty celem dopasowania do sformatowanych "
+"zer; rozważ 'replace=TRUE'"
 
 msgid "'big.mark' and 'decimal.mark' are both '%s', which could be confusing"
 msgstr "oba argumenty 'big.mark' oraz 'decimal.mark' są ustawione na '%s', co może być mylące"
@@ -740,9 +743,8 @@ msgstr "wartość dla %s nie została znaleziona"
 msgid "all arguments must be named"
 msgstr "wszystkie argumenty muszą być nazwane"
 
-#, fuzzy
 msgid "argument '%s' will be ignored"
-msgstr "argument 'drop' zostanie zignorowany"
+msgstr "argument '%s' zostanie zignorowany"
 
 msgid "match distance components must be non-negative"
 msgstr "komponenty o dopasowanej odległości muszą być nieujemne"
@@ -781,30 +783,28 @@ msgid "No factors specified"
 msgstr "Nie określono czynników"
 
 msgid "invalid '%s': type \"%s\""
-msgstr ""
+msgstr "nieprawidłowy '%s': typ \"%s\""
 
-#, fuzzy
 msgid "'uplo' must be \"U\" or \"L\""
-msgstr "argument 'wait' musi mieć wartość TRUE lub FALSE"
+msgstr "argument 'uplo' musi mieć wartość \"U\" lub \"L\""
 
-#, fuzzy
 msgid "invalid nrow(z)"
-msgstr "niepoprawna wartość 'nrow(x)'"
+msgstr "niepoprawna wartość 'nrow(z)'"
 
 msgid "triangular matrix should be square"
 msgstr "macierz trójkątna powinna mieć równą liczbę wierszy i kolumn"
 
 msgid "using 1-norm approximation for approximate 2-norm"
-msgstr ""
+msgstr "używanie aproksymacji 1-normowej dla przybliżonej 2-normowej"
 
 msgid "norm=\"%s\" not available here; using norm=\"1\""
-msgstr ""
+msgstr "norm=\"%s\" jest tutaj niedostępne; używanie norm=\"1\""
 
 msgid "unknown conflict policy: %s"
-msgstr ""
+msgstr "nieznane zasady konfliktu: %s"
 
 msgid "only one of 'include.only' and 'exclude' can be used"
-msgstr ""
+msgstr "tylko jedno z 'include.only' oraz 'exclude' może być użyte"
 
 msgid "package %s has not been installed properly"
 msgstr "pakiet %s nie został zainstalowany poprawnie"
@@ -969,9 +969,8 @@ msgstr "argument 'file' musi być określony"
 msgid "nothing specified to be save()d"
 msgstr "nic nie zostało określone do zapisu"
 
-#, fuzzy
-msgid "'%s' must be a non-empty character string"
-msgstr "argument 'file' musi być niepustym łańcuchem tekstowym"
+msgid "'%s' must be a non-empty string"
+msgstr "argument '%s' musi być niepustym ciągiem znaków"
 
 msgid "'compress' must be logical or character"
 msgstr "argument 'compress' musi być typem logicznym lub tekstem"
@@ -1030,9 +1029,8 @@ msgstr "argument 'input' musi mieć długość 1"
 msgid "'input' and 'target' must be character vectors"
 msgstr "argumenty 'input' oraz 'target' muszą być wektorami tekstowymi"
 
-#, fuzzy
 msgid "cannot mtfrm"
-msgstr "argument nie jest ramką danych"
+msgstr "nie można wykonać mtfrm"
 
 msgid "'%s' is not a function, character or symbol"
 msgstr "'%s' nie jest funkcją, tekstem ani symbolem"
@@ -1106,7 +1104,7 @@ msgid "namespace %s %s is already loaded, but %s %s is required"
 msgstr "przestrzeń nazw %s %s jest już załadowana, ale %s %s jest wymagana"
 
 msgid "- loading"
-msgstr ""
+msgstr "- ładowanie"
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
 msgstr "przestrzeń nazw %s jest już zamknięta w 'loadNamespace()'"
@@ -1123,16 +1121,15 @@ msgstr "nie udało się przypisać NativeSymbolInfo dla %s ponieważ %s jest ju�
 msgid "package %s does not have a namespace"
 msgstr "pakiet %s nie zawiera przestrzeni nazw"
 
-#, fuzzy
 msgid "package %s was installed before R 4.0.0: please re-install it"
-msgstr "pakiet %s został zbudowany przed R 3.0.0: proszę go przeinstalować"
+msgstr ""
+"pakiet %s został zainstalowany przed R 4.0.0: proszę go ponownie zainstalować"
 
 msgid "namespace %s %s is being loaded, but %s %s is required"
 msgstr "przestrzeń nazw %s %s jest ładowana, ale %s %s jest wymagana"
 
-#, fuzzy
 msgid "package %s has no 'package.rds' in Meta/"
-msgstr "pakiet %s nie posiada pliku 'NAMESPACE'"
+msgstr "pakiet %s nie ma pliku 'package.rds' w Meta/"
 
 msgid "package %s has a license that you need to accept in an interactive session"
 msgstr "Pakiet %s posiada licencję, którą musisz zaakceptować w interaktywnej sesji"
@@ -1156,51 +1153,49 @@ msgid "package %s was installed by an R version with different internals; it nee
 msgstr "pakiet %s był zainstalowany przez wersję R z innymi metodami wewnętrznymi; musi być przeinstalowany aby móc użyć go z tą wersją R"
 
 msgid "-- processing imports for"
-msgstr ""
+msgstr "-- przetwarzanie importów dla"
 
 msgid "-- done processing imports for"
-msgstr ""
+msgstr "-- zakończono przetwarzanie importów dla"
 
 msgid "-- loading code for"
-msgstr ""
+msgstr "-- ładowanie kodu dla"
 
 msgid "unable to load R code in package %s"
 msgstr "nie można załadować kodu R w pakiecie %s"
 
 msgid "-- loading sysdata for"
-msgstr ""
+msgstr "-- ładowanie danych systemowych dla"
 
 msgid "-- loading lazydata for"
-msgstr ""
+msgstr "-- leniwe ładowanie danych dla"
 
 msgid "-- registerS3methods for"
-msgstr ""
+msgstr "-- registerS3methods dla"
 
 msgid "-- done registerS3methods for"
-msgstr ""
+msgstr "-- zakończono registerS3methods dla"
 
 msgid "-- running .onLoad for"
-msgstr ""
+msgstr "-- uruchamianie .onLoad dla"
 
 msgid "-- done running .onLoad for"
-msgstr ""
+msgstr "-- zakończono uruchamianie .onLoad dla"
 
-#, fuzzy
 msgid "S4 exports specified in 'NAMESPACE' but not defined in package %s"
-msgstr "'exportClassPattern' określono w pliku 'NAMESPACE', ale brak pasujących klas w pakiecie %s"
+msgstr "Eksporty S4 określone w 'NAMESPACE', ale niezdefiniowane w pakiecie %s"
 
 msgid "-- processing S4 stuff for"
-msgstr ""
+msgstr "-- przetwarzanie rzeczy S4 dla"
 
 msgid "--- caching metadata"
-msgstr ""
+msgstr "--- buforowanie metadanych"
 
 msgid "--- done caching metadata"
-msgstr ""
+msgstr "--- zakończono buforowanie metadanych"
 
-#, fuzzy
 msgid "--- processing classes"
-msgstr "błędna klasa"
+msgstr "--- przetwarzanie klas"
 
 msgid "'exportClassPattern' specified in 'NAMESPACE' but no matching classes in package %s"
 msgstr "'exportClassPattern' określono w pliku 'NAMESPACE', ale brak pasujących klas w pakiecie %s"
@@ -1215,7 +1210,7 @@ msgid "in %s methods for export not found: %s"
 msgstr "w pakiecie %s metody do eksportu nie zostały znalezione: %s"
 
 msgid "---- export method"
-msgstr ""
+msgstr "---- eksportowanie metody"
 
 msgid "multiple methods tables found for %s"
 msgstr "wiele tablic metod znaleziono dla %s"
@@ -1227,16 +1222,16 @@ msgid "in package %s methods %s were specified for export but not defined"
 msgstr "w pakiecie %s metody %s zostały określone do eksportu, ale nie zostały zdefiniowane"
 
 msgid "-- done processing S4 stuff for"
-msgstr ""
+msgstr "-- zakończono przetwarzanie rzeczy S4 dla"
 
 msgid "--- processing exports for"
-msgstr ""
+msgstr "--- przetwarzanie eksportów dla"
 
 msgid "--- sealing exports for"
-msgstr ""
+msgstr "--- domykanie eksportów dla"
 
 msgid "- done loading"
-msgstr ""
+msgstr "- zakończono ładowanie"
 
 msgid "Loading required namespace: %s"
 msgstr "Ładowanie wymaganej przestrzeni nazw: %s"
@@ -1283,9 +1278,8 @@ msgstr "nie można dodać do eksportów zamkniętej przestrzeni nazw"
 msgid "undefined exports: %s"
 msgstr "niezdefiniowane eksporty: %s"
 
-#, fuzzy
 msgid "unable to re-encode some lines in NAMESPACE file"
-msgstr "pusta nazwa w dyrektywie %s w pliku 'NAMESPACE'"
+msgstr "nie można ponownie zakodować niektórych wierszy w pliku NAMESPACE"
 
 msgid "package %s has no 'NAMESPACE' file"
 msgstr "pakiet %s nie posiada pliku 'NAMESPACE'"
@@ -1313,9 +1307,11 @@ msgstr "nie znaleziono obiektu '%s' podczas ładowania przestrzeni nazw '%s'"
 
 msgid "While loading namespace \"%s\": \"%s\" differ in ncol(.), env=%d, newNS=%d."
 msgstr ""
+"Podczas wczytywania przestrzeni nazw \"%s\": \"%s\" różnią się w ncol(.), "
+"env=%d, newNS=%d."
 
 msgid "Maybe package installed with version of R newer than %s ?"
-msgstr ""
+msgstr "Być może pakiet był zainstalowany z wersją R nowszą niż %s ?"
 
 msgid "'%s' is not implemented yet"
 msgstr "'%s' nie jest jeszcze zaimplementowane"
@@ -1395,9 +1391,8 @@ msgstr "niepoprawna struktura 'rle'"
 msgid "... must contain names or character strings"
 msgstr "'...' musi zawierać nazwy lub łańcuchy tekstowe"
 
-#, fuzzy
 msgid "invalid 'x'"
-msgstr "niepoprawny argument 'dims'"
+msgstr "niepoprawny argument 'x'"
 
 msgid "incorrect length for 'group'"
 msgstr "niepoprawna długość argumentu 'group'"
@@ -1504,6 +1499,7 @@ msgstr "nieskończona wartość 'partial'"
 
 msgid "'decreasing' of length > 1 is only for method = \"radix\""
 msgstr ""
+"argument 'decreasing' o długości > 1 jest tylko dla 'method = \"radix\"'"
 
 msgid "argument lengths differ"
 msgstr "długości argumentów różnią się"
@@ -1511,16 +1507,16 @@ msgstr "długości argumentów różnią się"
 msgid "method = \"quick\" is only for numeric 'x'"
 msgstr "'method=\"quick\"' jest tylko dla liczbowych 'x'"
 
-#, fuzzy
 msgid ""
 "'x' must be atomic for 'sort.list', method \"shell\" and \"quick\"\n"
 "Have you called 'sort' on a list?"
 msgstr ""
-"'x' musi być typem atomowym dla 'sort.list'\n"
+"'x' musi być typem atomowym dla 'sort.list', metoda \"shell\" oraz \"quick\""
+"\n"
 "Czy wywołano 'sort' na liście?"
 
 msgid "cannot xtfrm 'x'"
-msgstr ""
+msgstr "nie można wywołać xtfrm na 'x'"
 
 msgid "'local' must be TRUE, FALSE or an environment"
 msgstr "argument 'local' musi być TRUE, FALSE lub musi być środowiskiem"
@@ -1532,7 +1528,7 @@ msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
 msgstr "argument 'verbose' jest TRUE, argument 'echo' nie; ... przekształcanie 'echo <- TRUE'"
 
 msgid "empty file/url name"
-msgstr ""
+msgstr "pusta nazwa pliku/url"
 
 msgid "unable to find a plausible encoding"
 msgstr "nie można znaleźć wiarygodnego kodowania"
@@ -1555,15 +1551,14 @@ msgstr "określ albo 'file' albo 'exprs', ale nie oba naraz"
 msgid "'%s' is not an existing file"
 msgstr "'%s' nie jest istniejącym plikiem"
 
-#, fuzzy
 msgid "'formula' must be a formula"
-msgstr "argument 'from' musi być typem pustym lub tekstem"
+msgstr "argument 'formula' musi być formułą"
 
 msgid "Unexpected LHS in 'formula' has been ignored."
-msgstr ""
+msgstr "Nieoczekiwana lewa strona w 'formula' została zignorowana."
 
 msgid "Unexpected LHS in 'formula' has been combined with RHS."
-msgstr ""
+msgstr "Nieoczekiwana lewa strona w 'formula' została połączona z prawą stroną."
 
 msgid "Timestamp of %s has changed"
 msgstr "Sygnatura czasu dla %s zmieniła się"
@@ -1575,7 +1570,7 @@ msgid "additional arguments ignored in stop()"
 msgstr "dodatkowe argumenty zostały zignorowane w 'stop()'"
 
 msgid "Only one of 'exprs', 'exprObject' or expressions, not more"
-msgstr ""
+msgstr "tylko jedno z 'exprs', 'exprObject' lub wyrażeń, nie więcej"
 
 msgid ""
 "%s and %s are not equal:\n"
@@ -1597,7 +1592,7 @@ msgid "In bare C locale, not forcing locale; possibly use 'force = TRUE'?"
 msgstr ""
 
 msgid "Sys.setenv(LANGUAGE=\"%s\") may have failed"
-msgstr ""
+msgstr "Sys.setenv(LANGUAGE=\"%s\") mogło się nie powieść"
 
 msgid ""
 "Calling 'structure(NULL, *)' is deprecated, as NULL cannot have attributes.\n"
@@ -1655,7 +1650,7 @@ msgid "invalid value of %s"
 msgstr "niepoprawna wartość '%s'"
 
 msgid "'X' must be a data frame when 'INDEX' is a formula"
-msgstr ""
+msgstr "argument 'X' musi być ramką danych, gdy \"INDEX\" jest formułą"
 
 msgid "'INDEX' is of length zero"
 msgstr "argument 'INDEX' ma zerową długość"
@@ -1669,20 +1664,17 @@ msgstr "całkowita liczba poziomów jest >= 2^31"
 msgid "handler must be a function"
 msgstr "przewodnik musi być funkcją"
 
-#, fuzzy
 msgid "'which' must be of length 1"
-msgstr "argument 'by' musi mieć długość 1"
+msgstr "argument 'which' musi mieć długość 1"
 
 msgid "no such element '%s'"
 msgstr "nie ma elementu '%s'"
 
-#, fuzzy
 msgid "invalid 'which' argument"
-msgstr "niepoprawny argument 'path'"
+msgstr "niepoprawny argument 'which'"
 
-#, fuzzy
 msgid "'which' must be character or numeric"
-msgstr "argument 'tim' nie jest tekstem ani liczbą"
+msgstr "argument 'which' musi być znakiem lub liczbą"
 
 msgid "Removing %s"
 msgstr "Usuwanie %s"
@@ -1708,9 +1700,11 @@ msgstr "argument 'width' musi być dodatni"
 msgid "No traceback available"
 msgstr "Śledzenie nie jest dostepne"
 
-#, fuzzy
 msgid "invalid non-character version specification 'x' (type: %s)"
-msgstr "niepoprawne określenie wersji %s"
+msgstr "niepoprawna specyfikacja wersji niezawierającej znaków 'x' (typ: %s)"
+
+msgid "Calls"
+msgstr "Wywołania"
 
 msgid "invalid version specification %s"
 msgstr "niepoprawne określenie wersji %s"
@@ -1741,6 +1735,8 @@ msgstr "niepoprawna wartość 'digits'"
 
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
 msgstr ""
+"Bezpośrednie wywołanie '%s()' jest przestarzałe.  Zamiast tego użyj '%s()' "
+"lub '%s()'"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr "argumenty 'show.output.on.console', 'minimized' oraz 'invisible' są tylko dla systemu Windows"
@@ -1757,9 +1753,8 @@ msgstr "argument 'ignore.stderr' musi mieć wartość TRUE lub FALSE"
 msgid "'wait' must be TRUE or FALSE"
 msgstr "argument 'wait' musi mieć wartość TRUE lub FALSE"
 
-#, fuzzy
 msgid "'receive.console.signals' must be TRUE or FALSE"
-msgstr "argument 'intern' musi mieć wartość TRUE lub FALSE"
+msgstr "argument 'receive.console.signals' musi mieć wartość TRUE lub FALSE"
 
 msgid "'input' must be a character vector or 'NULL'"
 msgstr "argument 'input' musi być wektorem tekstowym lub wartością 'NULL'"
@@ -2093,4 +2088,5 @@ msgstr[2] ""
 
 #~ msgid "version"
 #~ msgstr "wersja"
+
 
