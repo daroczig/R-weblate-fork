@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-07-31 14:59\n"
-"PO-Revision-Date: 2024-09-06 17:14+0000\n"
+"PO-Revision-Date: 2024-09-08 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -35,7 +35,7 @@ msgid "Invalid grob coordinates"
 msgstr "niepoprawne współrzędne 'grob'"
 
 msgid "Invalid gTree coordinates"
-msgstr "niepoprawne współrzędne \"gTree\""
+msgstr "niepoprawne współrzędne 'gTree'"
 
 msgid "Closed must not be a missing value"
 msgstr "argument 'closed' nie może być brakującą wartością"
@@ -133,9 +133,10 @@ msgstr "potrzeba określić tylko poprawne nazwy 'gpar'"
 msgid "invalid display list element"
 msgstr "niepoprawne element listy wyświetleń"
 
-#, fuzzy
 msgid "one or more grobs overwritten (grab WILL not be faithful; try 'wrap.grobs = TRUE')"
-msgstr "jeden lub więcej 'grob' nadpisane ('grab' NIE BĘDZIE wiarygodne; spróbuj 'wrap=TRUE')"
+msgstr ""
+"jeden lub więcej 'grob' nadpisane ('grab' NIE BĘDZIE wiarygodne; spróbuj "
+"'wrap.grobs=TRUE')"
 
 msgid "viewport overwritten (grab MAY not be faithful)"
 msgstr "okno ekranu nadpisane ('grab' MOŻE nie być wiarygodne)"
@@ -164,9 +165,8 @@ msgstr "potrzeba przenieść w górę przynajmniej jedno okno ekranu"
 msgid "Invalid number of generations"
 msgstr "niepoprawna liczba generacji"
 
-#, fuzzy
 msgid "Invalid 'clearGroups' argument"
-msgstr "niepoprawny argument 'arrow'"
+msgstr "niepoprawny argument 'clearGroups'"
 
 msgid "invalid object inserted on the display list"
 msgstr "niepoprawne obiekty wstawione na listę wyświetleń"
@@ -283,25 +283,22 @@ msgid "Invalid 'order'"
 msgstr "niepoprawna wartość 'order'"
 
 msgid "Group definition failed"
-msgstr ""
+msgstr "Definicja grupy nie powiodła się"
 
-#, fuzzy
 msgid "Invalid source"
-msgstr "niepoprawna wartość 'order'"
+msgstr "niepoprawne źródło"
 
-#, fuzzy
 msgid "Invalid destination"
-msgstr "niepoprawne justowanie"
+msgstr "niepoprawny cel"
 
 msgid "Unknown group:"
-msgstr ""
+msgstr "Nieznana grupa:"
 
 msgid "Invalid transform (nothing drawn)"
-msgstr ""
+msgstr "Niepoprawna transformacja (nic nie zostało narysowane)"
 
-#, fuzzy
 msgid "Invalid transform"
-msgstr "niepoprawna wartość 'order'"
+msgstr "Niepoprawna transformacja"
 
 msgid "'l' must be a layout"
 msgstr "argument 'l' musi być layoutem"
@@ -349,43 +346,44 @@ msgid "invalid 'listing'"
 msgstr "niepoprawna wartość 'listing'"
 
 msgid "Only a grob can be converted to a mask"
-msgstr ""
+msgstr "Tylko grob może zostać przekształcony w maskę"
 
 msgid "invalid 'origin'"
 msgstr "niepoprawna wartość \"origin\""
 
 msgid "Only a grob can be converted to a path"
-msgstr ""
+msgstr "Tylko grob może zostać przekształcony w ścieżkę"
 
-#, fuzzy
 msgid "colours and stops must be at least length 1"
-msgstr "argumenty 'x' oraz 'units' muszą mieć tę samą długość"
+msgstr "argumenty 'colours' oraz 'stops' muszą mieć długość co najmniej 1"
 
-#, fuzzy
 msgid "x1, y1, x2, and y2 must all be length 1"
-msgstr "argumenty Wielkości 'x1', 'y1', 'x2', oraz 'y2' muszą być jednostkami"
+msgstr "argumenty 'x1', 'y1', 'x2', oraz 'y2' muszą wszystkie być o długości 1"
 
-#, fuzzy
 msgid "cx1, cy1, cx2, cy2, r1, and r2 must all be length 1"
-msgstr "argumenty Wielkości 'x1', 'y1', 'x2', oraz 'y2' muszą być jednostkami"
+msgstr ""
+"argumenty 'cx1', 'cy1', 'cx2', 'cy2' 'r1' oraz 'r2' muszą wszystkie być o "
+"długości 1"
 
-#, fuzzy
 msgid "x, y, width, and height must all be length 1"
-msgstr "'x', 'y', 'width', oraz 'height' muszą mieć długość 1"
+msgstr ""
+"argumenty 'x', 'y', 'width' oraz 'height' muszą wszystkie być o długości 1"
 
 msgid "Pattern must be based on grob"
-msgstr ""
+msgstr "Wzorzec musi być oparty na obiekcie klasy \"grob\""
 
 msgid "Missing pattern fill has been set to transparent"
-msgstr ""
+msgstr "Brakujący wzorzec wypełnienia został ustawiony na przezroczyste"
 
 msgid ""
 "grob drawing produces more shapes than grob coords\n"
 "(recycling coords)"
 msgstr ""
+"Rysunek grob tworzy więcej kształtów niż współrzędne grob\n"
+"(użyję współrzędnych cyklicznie)"
 
 msgid "Pattern fill applied to object with no inside"
-msgstr ""
+msgstr "Wypełnienie wzorcem zastosowane do obiektu bez wnętrza"
 
 msgid "'length' must be a 'unit' object"
 msgstr "argument 'length' musi być obiektem klasy \"unit\""
@@ -423,9 +421,10 @@ msgstr "'x' oraz 'y' muszą być jednostkami"
 msgid "corrupt 'arrows' object"
 msgstr "uszkodzony obiekt 'arrows'"
 
-#, fuzzy
 msgid "'x' and 'y' and 'pathId.lengths' must specify same overall length"
-msgstr "komponenty 'x' oraz 'y' oraz 'id.lengths' argumentu 'x' muszą określać tę samą całościową długość"
+msgstr ""
+"argumenty 'x', 'y' oraz 'pathId.lengths' muszą określać tę samą długość "
+"całkowitą"
 
 msgid "x and y must be units"
 msgstr "'x' oraz 'y' muszą być jednostkami"
@@ -469,29 +468,26 @@ msgstr "'x', 'y', 'width', oraz 'height' muszą mieć długość 1"
 msgid "Invalid glyph info"
 msgstr "niepoprawna informacja o glifie"
 
-#, fuzzy
 msgid "'x' and 'y' must have length > 0"
-msgstr "argumenty 'x' oraz 'y' muszą mieć długość 1"
+msgstr "argumenty 'x' oraz 'y' muszą mieć długość > 0"
 
 msgid "'hjust' and 'vjust' must be glyphJust() values"
-msgstr ""
+msgstr "'hjust' oraz 'vjust' muszą być wartościami glyphJust()"
 
-#, fuzzy
 msgid "'hjust' and 'vjust' must have length 1"
-msgstr "argumenty 'x' oraz 'y' muszą mieć długość 1"
+msgstr "argumenty 'hjust' oraz 'vjust' muszą mieć długość 1"
 
 msgid "Unknown width; using first width"
-msgstr ""
+msgstr "Nieznana szerokość; używanie pierwszej szerokości"
 
-#, fuzzy
 msgid "Unknown anchor; using left justification"
-msgstr "niepoprawne poziome justowanie"
+msgstr "Nieznana kotwica; używanie lewego justowania"
 
 msgid "Unknown height; using first height"
-msgstr ""
+msgstr "Nieznana wysokość; używanie pierwszej wysokości"
 
 msgid "Unknown anchor; using bottom justification"
-msgstr ""
+msgstr "Nieznana kotwica; używanie justowania do dołu"
 
 msgid "'x' and 'units' must have length > 0"
 msgstr "argumenty 'x' oraz 'units' muszą mieć długość > 0"
@@ -499,17 +495,18 @@ msgstr "argumenty 'x' oraz 'units' muszą mieć długość > 0"
 msgid "invalid 'axis' or 'type'"
 msgstr "niepoprawna wartość 'axis' lub 'type'"
 
-#, fuzzy
 msgid "'x' and 'y' must be units and 'device' must be logical"
-msgstr "komponenty 'x' oraz 'y' argumentu 'x' muszą być obiektami klasy \"unit\" oraz muszą mieć tę samą długość"
+msgstr ""
+"argumenty 'x' oraz 'y' muszą być jednostkami, a 'device' musi być wartością "
+"logiczną"
 
-#, fuzzy
 msgid "'w' and 'h' must be units and 'device' must be logical"
-msgstr "komponenty 'x' oraz 'y' argumentu 'x' muszą być obiektami klasy \"unit\" oraz muszą mieć tę samą długość"
+msgstr ""
+"argumenty 'w' oraz 'h' muszą być jednostkami, a 'device' musi być wartością "
+"logiczną"
 
-#, fuzzy
 msgid "Not a unit object"
-msgstr "niepoprawny obiekt 'unit'"
+msgstr "niepoprawny obiekt klasy \"unit\""
 
 msgid "'Summary' function '%s' not meaningful for units"
 msgstr "Funkcja 'summary' '%s' nie ma znaczenia dla jednostek"
@@ -518,7 +515,7 @@ msgid "operator '%s' not meaningful for units"
 msgstr "operator '%s' nie posiada znaczenia dla jednostek"
 
 msgid "'*' or '/' cannot be used as a unary operator"
-msgstr ""
+msgstr "'*' lub '/' nie mogą być używane jako operator jednoargumentowy"
 
 msgid "only one operand may be a unit"
 msgstr "tylko jeden operator może być jednostką"
@@ -527,25 +524,23 @@ msgid "non-unit operand must be numeric"
 msgstr "niejednostkowy operator musi być liczbą"
 
 msgid "can't divide with a unit"
-msgstr ""
+msgstr "nie można dzielić za pomocą jednostki"
 
 msgid "both operands must be units"
 msgstr "oba operatory muszą być jednostkami"
 
-#, fuzzy
 msgid "index out of bounds (\"unit\" subsetting)"
 msgstr "indeks poza zakresem (podzbiór 'unit')"
 
 msgid "Cannot create zero-length unit vector (\"unit\" subsetting)"
 msgstr ""
+"Nie można utworzyć wektora jednostkowego o zerowej długości (podzbiór 'unit')"
 
-#, fuzzy
 msgid "index must be of length 1"
-msgstr "'x' oraz 'y' muszą być jednostkami o długości 1"
+msgstr "argument 'index' musi mieć długość 1"
 
-#, fuzzy
 msgid "replacement must be of length 1"
-msgstr "element '%s' w 'gpar' nie może mieć długości 0"
+msgstr "zamiennik musi mieć długość 1"
 
 msgid "invalid 'theta'"
 msgstr "niepoprawna wartość 'theta'"
@@ -559,9 +554,8 @@ msgstr "niepoprawna wartość 'gp'"
 msgid "invalid 'clip' value"
 msgstr "niepoprawna wartość 'clip'"
 
-#, fuzzy
 msgid "invalid 'mask' value"
-msgstr "niepoprawna wartość 'gp'"
+msgstr "niepoprawna wartość 'mask'"
 
 msgid "invalid 'xscale' in viewport"
 msgstr "niepoprawny argument 'xscale' w oknie ekranu"
