@@ -1,6 +1,7 @@
 msgid ""
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -16,6 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -212,6 +214,9 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
+"błąd FEXACT[f3xact()]: klucz hahujacy %.0g > INT_MAX, kyy=%d, it[i (= nco = "
+"%d)]= %d.\n"
+"Raczej ustaw 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
 #, c-format
@@ -271,20 +276,23 @@ msgstr "wymagany jest (wielowymiarowy) szereg o wartościach będących wektoram
 #, c-format
 msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
 msgstr ""
+"nextn() nie znalazł rozwiązania < %d = INT_MAX (maksymalna liczba całkowita);"
+" przekaż '0+ n' zamiast 'n'"
 
 #: fourier.c:225
 #, c-format
 msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
 msgstr ""
+"nextn<64>() nie znalazł rozwiązania < %llu = UINT64_MAX (maksymalna liczba "
+"całkowita)"
 
 #: fourier.c:241
 msgid "no factors"
 msgstr "brak czynników"
 
 #: fourier.c:242
-#, fuzzy
 msgid "too many factors"
-msgstr "brak czynników"
+msgstr "zbyt wiele czynników"
 
 #: fourier.c:245
 msgid "invalid factors"
@@ -292,12 +300,14 @@ msgstr "niepoprawne czynniki"
 
 #: fourier.c:249
 msgid "'n' must have typeof(.) \"integer\" or \"double\""
-msgstr ""
+msgstr "'n' musi mieć typeof(.) równy \"integer\" lub \"double\""
 
 #: fourier.c:290
 #, c-format
 msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
 msgstr ""
+"nextn() = %<PRIu64> > 2^53 może nie być dokładnie reprezentowalne w R (jako "
+"\"double\")"
 
 #: integrate.c:79 integrate.c:81 integrate.c:123
 #, c-format
@@ -307,7 +317,7 @@ msgstr "argument '%s' musi mieć długość 1"
 #: isoreg.c:55
 #, c-format
 msgid "non-finite sum(y) == %g is not allowed"
-msgstr ""
+msgstr "nieskończona wartość sum(y) == %g nie jest dozwolona"
 
 #: ksmooth.c:63
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
@@ -317,8 +327,8 @@ msgstr "tylko 2500 wierszy jest dozwolonych dla 'sm.method=\"spline\"'"
 msgid "'x' is not a matrix"
 msgstr "argument 'x' nie jest macierzą"
 
-#: lm.c:56
-#, fuzzy, c-format
+#: lm.c:62
+#, c-format
 msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
 msgstr "wymiary 'x' (%d,%d) oraz 'y' (%lld) nie zgadzają się"
 
@@ -334,11 +344,11 @@ msgstr "argument 'span' jest zbyt mały"
 #: loessc.c:257
 #, c-format
 msgid "workspace required (%.0f) is too large%s."
-msgstr ""
+msgstr "wymagany obszar roboczy (%.0f) jest za duży%s."
 
 #: loessc.c:258
 msgid " probably because of setting 'se = TRUE'"
-msgstr ""
+msgstr " prawdopodobnie z powodu ustawienia 'se = TRUE'"
 
 #: loglin.c:367
 msgid "this should not happen"
@@ -366,7 +376,7 @@ msgstr "argument 'delta' musi być skończony oraz > 0"
 
 #: mAR.c:83
 msgid "assert failed in src/library/ts/src/carray.c"
-msgstr ""
+msgstr "założenie nie powiodło się w src/library/ts/src/carray.c"
 
 #: mAR.c:470
 msgid "Singular matrix in qr_solve"
@@ -523,6 +533,8 @@ msgstr "argument 'data' posiada niepoprawny typ"
 #, c-format
 msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
 msgstr ""
+"'varlist' został zmieniony (z nvar=%d) na nowy %d po EncodeVars() -- nie "
+"powinno się już zdarzyć!"
 
 #: model.c:2151
 msgid "'.' in formula and no 'data' argument"
@@ -594,7 +606,7 @@ msgstr "'dir' nie jest wektorem liczbowym o poprawnej długości"
 
 #: nls.c:300
 msgid "'central' is NA, but must be TRUE or FALSE"
-msgstr ""
+msgstr "argument 'central' ma wartość NA, a musi mieć wartość TRUE lub FALSE"
 
 #: nls.c:316
 msgid "Missing value or an infinity produced when evaluating the model"
@@ -627,7 +639,7 @@ msgstr "gradient w 'optim' obliczony do długości %d a nie %d"
 #: optim.c:146 optim.c:185
 #, c-format
 msgid "non-finite finite-difference value [%d]"
-msgstr ""
+msgstr "nieskończona wartość skończonej różnicy [%d]"
 
 #: optim.c:217 optim.c:423
 msgid "'fn' is not a function"
@@ -998,3 +1010,4 @@ msgstr "brakuje wartości w ostatnich %d obserwacjach"
 
 #~ msgid "stats"
 #~ msgstr "stats"
+
