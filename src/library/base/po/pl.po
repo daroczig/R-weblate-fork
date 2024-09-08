@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-08 15:07+0000\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -923,8 +923,7 @@ msgstr "typ '%s' nie jest wspierany"
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
-msgstr ""
-"wartości muszą mieć długość %d, ale wynik FUN (X [[%lld]]) ma długość %d"
+msgstr "wartości muszą mieć długość %d, ale wynik FUN(X[[%lld]]) ma długość %d"
 
 #: src/main/apply.c:189
 #, c-format
@@ -6108,8 +6107,8 @@ msgstr "nazwy w persystentnych łańcuchach nie są jeszcze wspierane"
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
 msgstr ""
-"łańcuch wejściowy '%s' nie może być przetłumaczony z '%s\" na UTF-8, ale "
-"jest poprawnym UTF-8"
+"łańcuch wejściowy '%s' nie może być przetłumaczony z '%s' na UTF-8, ale jest "
+"poprawnym UTF-8"
 
 #: src/main/serialize.c:1681
 #, c-format
@@ -6444,7 +6443,7 @@ msgstr "argument spoza dziedziny w '%s'"
 #: src/main/sprintf.c:485
 #, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "%d argument spoza dziedziny w '%s'"
+msgstr "argumenty (%d) nie zostały użyte przez format '%s'"
 
 #: src/main/sprintf.c:488
 msgid "one argument not used by format"
