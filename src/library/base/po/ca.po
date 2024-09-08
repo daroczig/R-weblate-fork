@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-30 03:05+0000\n"
-"Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
 "Language-Team: none\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
@@ -1154,7 +1154,7 @@ msgstr "«resize» ha de ser TRUE o FALSE"
 
 #: src/main/array.c:1924
 msgid "'x' must be numeric"
-msgstr "«%s» ha de ser numèric"
+msgstr "«x» ha de ser numèric"
 
 #: src/main/array.c:1927
 msgid "'x' is too short"
