@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-09-08 03:05+0000\n"
+"PO-Revision-Date: 2024-09-08 12:53+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -3286,12 +3286,12 @@ msgid "indexing '...' with non-positive index %d"
 msgstr "indeksowanie '...' używając niedodatniego indeksu %d"
 
 #: src/main/envir.c:1430
-#, fuzzy, c-format
+#, c-format
 msgid "the ... list contains fewer than %d element"
 msgid_plural "the ... list contains fewer than %d elements"
-msgstr[0] "lista '...' nie zawiera żadnych elementów"
-msgstr[1] "lista '...' nie zawiera %d elementów"
-msgstr[2] "lista '...' nie zawiera %d elementów"
+msgstr[0] "lista '...' zawiera mniej niż %d element"
+msgstr[1] "lista '...' zawiera mniej niż %d elementy"
+msgstr[2] "lista '...' zawiera mniej niż %d elementów"
 
 #: src/main/envir.c:1434
 #, c-format
@@ -3299,9 +3299,8 @@ msgid "..%d used in an incorrect context, no ... to look in"
 msgstr "..%d użyte w niepoprawnym znaczeniu, brak '...' do szukania"
 
 #: src/main/envir.c:1453
-#, fuzzy
 msgid "indexing '...' with an invalid index"
-msgstr "indeksowanie '...' używając niedodatniego indeksu %d"
+msgstr "indeksowanie '...' z niepoprawnym indeksem"
 
 #: src/main/envir.c:1463 src/main/envir.c:1474
 msgid "incorrect context: the current call has no '...' to look in"
@@ -3369,9 +3368,8 @@ msgid "invalid '%s' argument '%s'"
 msgstr "niepoprawny argument '%s' ('%s')"
 
 #: src/main/envir.c:2088
-#, fuzzy
 msgid "first argument has length > 1"
-msgstr "argument '%s' musi mieć długość 1"
+msgstr "pierwszy argument ma długość > 1"
 
 #: src/main/envir.c:2146
 #, c-format
@@ -3466,9 +3464,9 @@ msgid "cannot change active binding if binding is locked"
 msgstr "nie można zmienić aktywnego powiązania jeśli powiązanie jest zablokowane"
 
 #: src/main/envir.c:3536 src/main/envir.c:3545
-#, fuzzy, c-format
+#, c-format
 msgid "no active binding for \"%s\""
-msgstr "brak połączenia dla '%s'"
+msgstr "brak aktywnego powiązania dla \"%s\""
 
 #: src/main/envir.c:3565 src/main/envir.c:3827
 msgid "unknown op"
@@ -3495,14 +3493,12 @@ msgid "namespace not registered"
 msgstr "przestrzeń nazw nie została zarejestrowana"
 
 #: src/main/envir.c:3862
-#, fuzzy
 msgid "bad variable name"
-msgstr "błędne nazwy zmiennej"
+msgstr "błędna nazwa zmiennej"
 
 #: src/main/envir.c:3904
-#, fuzzy
 msgid "bad namespace"
-msgstr "zła nazwa przestrzeni nazw"
+msgstr "błędna przestrzeń nazw"
 
 #: src/main/envir.c:3940
 #, fuzzy, c-format
