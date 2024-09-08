@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -664,48 +666,48 @@ msgstr "Nieobsługiwany tryb rozszerzania wzoru;  używanie \"repeat\""
 #: devQuartz.c:814
 msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
 msgstr ""
+"Wyczerpano ścieżki przycinania Quartz (nie udało się zwiększyć maxClipPaths)"
 
 #: devQuartz.c:863
 msgid "Quartz clipping paths exhausted"
-msgstr ""
+msgstr "Wyczerpano ścieżki przycinania Quartz"
 
 #: devQuartz.c:871
-#, fuzzy
 msgid "Failed to create clipping path"
-msgstr "nie udało się przydzielić listy kodowań"
+msgstr "Nie udało się utworzyć ścieżki przycinającej"
 
 #: devQuartz.c:964
 msgid "Quartz masks exhausted (failed to increase maxMasks)"
-msgstr ""
+msgstr "Wyczerpano maski Quartz (nie udało się zwiększyć maxMasks)"
 
 #: devQuartz.c:1015
 msgid "Quartz masks exhausted"
-msgstr ""
+msgstr "Wyczerpano maski Quartz"
 
 #: devQuartz.c:1031
-#, fuzzy
 msgid "Failed to create Quartz mask"
-msgstr "nie udało się przydzielić masek"
+msgstr "Nie udało się utworzyć maski Quartz"
 
 #: devQuartz.c:1100
 msgid "Quartz groups exhausted (failed to increase maxGroups)"
-msgstr ""
+msgstr "Wyczerpano grupy Quartz (nie udało się zwiększyć maxGroups)"
 
 #: devQuartz.c:1128 cairo/cairoFns.c:920
 msgid "Attempt to release non-existent group"
-msgstr ""
+msgstr "Próba zwolnienia nieistniejącej grupy"
 
 #: devQuartz.c:1157
 msgid "Quartz groups exhausted"
-msgstr ""
+msgstr "Wyczerpano grupy Quartz"
 
 #: devQuartz.c:1177
 msgid "Add compositing operator not supported; falling back to over"
 msgstr ""
+"Operator dodawania kompozycji nie jest obsługiwany; ustawianie trybu 'nad'"
 
 #: devQuartz.c:1265 cairo/cairoFns.c:877
 msgid "Groups exhausted"
-msgstr ""
+msgstr "Grupy wyczerpane"
 
 #: devQuartz.c:1655
 #, c-format
@@ -723,29 +725,23 @@ msgstr "nie można było znaleźć żadnej czcionki dla rodziny '%s'"
 
 #: devQuartz.c:2697 cairo/cairoFns.c:528
 msgid "Attempt to reuse non-existent clipping path"
-msgstr ""
+msgstr "Próba ponownego użycia nieistniejącej ścieżki przycinającej"
 
 #: devQuartz.c:2718 cairo/cairoFns.c:541
 msgid "Attempt to release non-existent clipping path"
-msgstr ""
+msgstr "Próba zwolnienia nieistniejącej ścieżki przycinającej"
 
 #: devQuartz.c:2734
 msgid "Ignored alpha mask (not supported on this device)"
-msgstr ""
+msgstr "maska alfa została zignorowana (nieobsługiwana na tym urządzeniu)"
 
 #: devQuartz.c:2773 cairo/cairoFns.c:688
 msgid "Attempt to release non-existent mask"
-msgstr ""
+msgstr "Próba zwolnienia nieistniejącej maski"
 
-#: devQuartz.c:3023
-#, fuzzy, c-format
-msgid "Invalid font path: \"%s\""
-msgstr "niepoprawny parametr 'fonts' w %s"
-
-#: devQuartz.c:3053
-#, fuzzy
+#: devQuartz.c:3040
 msgid "Failed to load font"
-msgstr "nie udało się przydzielić listy czcionek"
+msgstr "nie udało się załadować czcionki"
 
 #: devQuartz.c:3148 devQuartz.c:3153
 msgid "invalid 'file' argument"
@@ -917,15 +913,15 @@ msgstr "argument NA jest niepoprawny"
 
 #: group.c:38
 msgid "Group definition ignored (device is appending path)"
-msgstr ""
+msgstr "Definicja grupy została zignorowana (urządzenie dołącza ścieżkę)"
 
 #: group.c:57
 msgid "Group use ignored (device is appending path)"
-msgstr ""
+msgstr "Grupowe użycie zostało zignorowane (urządzenie dołącza ścieżkę)"
 
 #: mask.c:37
 msgid "Mask ignored (device is appending path)"
-msgstr ""
+msgstr "Maska została zignorowana (urządzenie dołącza ścieżkę)"
 
 #: qdBitmap.c:84
 #, c-format
@@ -946,58 +942,57 @@ msgstr "niepoprawny argument '%s'"
 
 #: cairo/cairoBM.c:193 cairo/cairoBM.c:362
 msgid "unimplemented cairo-based device"
-msgstr ""
+msgstr "niezaimplementowane urządzenie oparte o Cairo"
 
 #: cairo/cairoBM.c:265
-#, fuzzy, c-format
+#, c-format
 msgid "could not open file '%s'"
-msgstr "nie można otworzyć pliku '%s'"
+msgstr "nie udało się otworzyć pliku '%s'"
 
 #: cairo/cairoBM.c:662
-#, fuzzy, c-format
+#, c-format
 msgid "unable to start device '%s'"
-msgstr "nie można uruchomić urządzenia '%s()'"
+msgstr "nie można uruchomić urządzenia '%s'"
 
 #: cairo/cairoFns.c:148
 msgid "Cairo patterns exhausted (failed to increase maxPatterns)"
-msgstr ""
+msgstr "Wyczerpano wzorce Cairo (nie udało się zwiększyć maxPatterns)"
 
 #: cairo/cairoFns.c:195
 msgid "Cairo patterns exhausted"
-msgstr ""
+msgstr "Wyczerpano wzorce Cairo"
 
 #: cairo/cairoFns.c:392
 msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
 msgstr ""
+"Wyczerpano ścieżki przycinania Cairo (nie udało się zwiększyć maxClipPaths)"
 
 #: cairo/cairoFns.c:439
 msgid "Cairo clipping paths exhausted"
-msgstr ""
+msgstr "Wyczerpano ścieżki przycinania Cairo"
 
 #: cairo/cairoFns.c:571
 msgid "Cairo masks exhausted (failed to increase maxMasks)"
-msgstr ""
+msgstr "Wyczerpano maski Cairo (nie udało się zwiększyć maxMasks)"
 
 #: cairo/cairoFns.c:619
 msgid "Cairo masks exhausted"
-msgstr ""
+msgstr "Wyczerpano maski Cairo"
 
 #: cairo/cairoFns.c:649
 msgid "Ignored luminance mask (not supported on this device)"
-msgstr ""
+msgstr "maska luminancji została zignorowana (nieobsługiwana na tym urządzeniu)"
 
 #: cairo/cairoFns.c:719
 msgid "Cairo groups exhausted (failed to increase maxGroups)"
-msgstr ""
+msgstr "Wyczerpano grupy Cairo (nie udało się zwiększyć maxGroups)"
 
 #: cairo/cairoFns.c:773
 msgid "Cairo groups exhausted"
-msgstr ""
+msgstr "Wyczerpano grupy Cairo"
 
 #: cairo/cairoFns.c:2394
-#, fuzzy
 msgid "Font file not found; matching font family and face"
-msgstr "rodzina czcionek nie została znaleziona w bazie czcionek systemu Windows"
-
-
+msgstr ""
+"Nie znaleziono pliku czcionki; Dopasowywanie rodziny czcionek oraz kroju"
 
