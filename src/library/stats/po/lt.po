@@ -1,5 +1,4 @@
 msgid ""
-
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -12,7 +11,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.4.1\n"
-
 
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
