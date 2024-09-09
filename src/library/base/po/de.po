@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-03 03:05+0000\n"
-"Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: R-core <R-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -924,7 +924,7 @@ msgid ""
 " but FUN(X[[%lld]]) result is length %d"
 msgstr ""
 "Werte müssen die Länge %d,.haben,\n"
-"Ergebnis von FUN(X[[%%lld]]) hat .aber Länge %d"
+"Ergebnis von FUN(X[[%lld]]) hat .aber Länge %d"
 
 #: src/main/apply.c:189
 #, c-format
@@ -3856,7 +3856,7 @@ msgstr "'%s' fehlt"
 #: src/main/eval.c:3859
 #, c-format
 msgid "invalid formal argument list for \"%s\""
-msgstr "ungültiges formales Argument für \"function\""
+msgstr "ungültiges formales Argument für \"%s\""
 
 #: src/main/eval.c:3897 src/main/eval.c:3928 src/main/eval.c:3933
 #, c-format
@@ -7899,7 +7899,7 @@ msgid ""
 "expanded path length %lld would be too long for\n"
 "%s\n"
 msgstr ""
-"erweiterte Pfadlänge %llu wäre zu lang für.\n"
+"erweiterte Pfadlänge %lld wäre zu lang für.\n"
 "%s.\n"
 
 #: src/unix/sys-std.c:598
