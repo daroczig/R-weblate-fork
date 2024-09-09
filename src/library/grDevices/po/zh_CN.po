@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-07 17:20+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -158,7 +158,7 @@ msgstr "'%s'里的字符串无效"
 #: devPS.c:810
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
-msgstr "编码 %s 中字符 0x%02x 的字体宽度未知"
+msgstr "编码 %2$s 中字符 0x%1$02x 的字体宽度未知"
 
 #: devPS.c:871
 #, c-format
