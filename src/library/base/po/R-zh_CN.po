@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2023-12-20 13:03+0000\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -72,7 +72,7 @@ msgid "'%s' must be a character string"
 msgstr "“name”必须是单个字符串"
 
 msgid "'%s' is not a valid choice"
-msgstr "%s'不是有效的选择"
+msgstr "'%s'不是有效的选择"
 
 msgid "malformed version string"
 msgstr "版本字串格式有错误"
@@ -87,13 +87,13 @@ msgid "'scale' should be numeric or NULL"
 msgstr "'scale' 应当是数值或 NULL"
 
 msgid "'%s' must be logical"
-msgstr "'%s' 必需是逻辑值"
+msgstr "'%s' 必须是逻辑值"
 
 msgid "dim(X) must have a positive length"
 msgstr "dim(X)的值必需是正数"
 
 msgid "'X' must have named dimnames"
-msgstr "'X'必需有带名称的维名"
+msgstr "'X' 必须具有维度名"
 
 msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "所有'MARGIN'的元素都必需是维的名称不是'MARGIN'的所有元素都是尺寸名称"
