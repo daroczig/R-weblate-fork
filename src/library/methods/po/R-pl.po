@@ -3,6 +3,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -18,6 +19,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -524,7 +526,7 @@ msgstr ""
 "force=TRUE);"
 
 msgid "E := environment(): %s; parent.env(E): %s"
-msgstr "are not maintained are not maintained"
+msgstr "E := environment(): %s; parent.env(E): %s"
 
 msgid "argument 'includeSubclasses' must be a logical, either one value or a vector of the same length as argument 'classes'"
 msgstr "argument 'includeSubclasses' musi być argumentem logicznym posiadającym jedną wartość lub wektorem o tej samej długości jak argument 'classes'"
