@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-03 03:05+0000\n"
-"Last-Translator: Sarah Zeller <s.zeller@posteo.net>\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: R-Core <R-core@r-project.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -177,7 +177,7 @@ msgstr "Der Unicode-Character %lc (U+%04X) kann nicht konvertiert werden"
 #: devPS.c:918 devPS.c:972
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr "Fontmetrik für das Zeichen 0x%x im Encoding %s ist unbekannt"
+msgstr "Fontmetrik für das Zeichen 0x%02x im Encoding %s ist unbekannt"
 
 #: devPS.c:988
 #, fuzzy, c-format
