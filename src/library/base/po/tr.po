@@ -8,10 +8,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-07-13 03:05+0000\n"
-"Last-Translator: Gergely Daroczi <gergely@rx.studio>\n"
+"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
 "Language-Team: Turkish <muratalk@gmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
@@ -4696,7 +4696,7 @@ msgstr "bellek tükendi (limite erişildi?)"
 #: src/main/memory.c:2329
 #, c-format
 msgid "cannot allocate memory block of size %0.f Tb"
-msgstr "%0.1f Tb boyutunda bellek bölgesi oluşturulamadı"
+msgstr "%0.f Tb boyutunda bellek bölgesi oluşturulamadı"
 
 #: src/main/memory.c:2335
 #, fuzzy, c-format
