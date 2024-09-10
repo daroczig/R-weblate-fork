@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"PO-Revision-Date: 2024-09-11 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -923,14 +923,18 @@ msgstr "typ '%s' nie jest wspierany"
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
-msgstr "wartości muszą mieć długość %d, ale wynik FUN(X[[%lld]]) ma długość %d"
+msgstr ""
+"wartości muszą mieć długość %d,\n"
+" ale wynik FUN(X[[%lld]]) ma długość %d"
 
 #: src/main/apply.c:189
 #, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
-msgstr "wartości muszą być typu '%s', ale wynik FUN(X[[%lld]]) jest typu '%s'"
+msgstr ""
+"wartości muszą być typu '%s',\n"
+" ale wynik FUN(X[[%lld]]) jest typu '%s'"
 
 #: src/main/apply.c:266
 #, c-format
@@ -7161,7 +7165,9 @@ msgstr "nie można ustawić skali szarości: powracanie do monochromatyczności"
 msgid ""
 "X11 driver unable to obtain color cube\n"
 "  reverting to monochrome"
-msgstr "sterownik X11 nie może uzyskać kolorowego sześcianu. Powracanie do monochromatyczności"
+msgstr ""
+"sterownik X11 nie może uzyskać kolorowego sześcianu.\n"
+" Powracanie do monochromatyczności"
 
 #: src/modules/X11/devX11.c:601
 msgid ""
@@ -7175,7 +7181,9 @@ msgstr ""
 msgid ""
 "could not find any X11 fonts\n"
 "Check that the Font Path is correct."
-msgstr "nie można znaleźć żadnych czcionek X11. Sprawdź, czy ścieżka do czcionek jest poprawna."
+msgstr ""
+"nie można znaleźć żadnych czcionek X11.\n"
+"Sprawdź, czy ścieżka do czcionek jest poprawna."
 
 #: src/modules/X11/devX11.c:1096
 #, c-format
