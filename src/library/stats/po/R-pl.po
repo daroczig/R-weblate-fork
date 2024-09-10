@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -20,6 +21,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Bookmarks: -1,20,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
 
 
 
@@ -155,7 +157,9 @@ msgstr "argument 'A' musi być tablicą lub tabelą"
 msgid ""
 "length of FUN, %d,\n"
 " does not match the length of the margins, %d"
-msgstr "długość 'FUN', %d, nie zgadza się z długością marginesów, %d"
+msgstr ""
+"długość 'FUN', %d,\n"
+" nie zgadza się z długością marginesów, %d"
 
 msgid "no rows to aggregate"
 msgstr "brak wierszy do zagregowania"
@@ -862,9 +866,9 @@ msgid ""
 "for the '%s' family, y must be a vector of 0 and 1's\n"
 "or a 2 column matrix where col 1 is no. successes and col 2 is no. failures"
 msgstr ""
-"dla rodziny '%s, argument 'y' musi być wektorem zer i jedynek lub 2 "
-"kolumnową macierzą, gdzie pierwsza kolumna jest liczbą sukcesów, a druga "
-"kolumna jest liczbą porażek"
+"dla rodziny '%s, argument 'y' musi być wektorem zer i jedynek\n"
+"lub 2 kolumnową macierzą, gdzie pierwsza kolumna jest liczbą sukcesów, a "
+"druga kolumna jest liczbą porażek"
 
 msgid "cannot simulate from non-integer prior.weights"
 msgstr "nie można symulować z niecałkowitych 'prior.weights'"
@@ -1328,7 +1332,9 @@ msgstr "idealne dopasowanie: podsumowanie może nie być wiarygodne"
 msgid ""
 "lm object does not have a proper 'qr' component.\n"
 " Rank zero or should not have used lm(.., qr=FALSE)."
-msgstr "obiekt 'lm' nie ma poprawnego komponentu 'qr'. Ranga powinna być zerem lub nie powinieneś był użyć 'lm(.., qr=FALSE)'."
+msgstr ""
+"obiekt 'lm' nie ma poprawnego komponentu 'qr'.\n"
+" Ranga powinna być zerem lub nie powinieneś był użyć 'lm(.., qr=FALSE)'."
 
 msgid "simulate() is not yet implemented for multivariate lm()"
 msgstr "funkcja 'simulate()' nie jest jeszcze zaimplementowana dla wielowymiarowych 'lm()'"
