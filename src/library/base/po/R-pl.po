@@ -8,6 +8,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -23,6 +24,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -1085,7 +1087,9 @@ msgstr "nie można zmienić trybu przechowywania czynnika"
 msgid ""
 "namespace %s is not available and has been replaced\n"
 "by .GlobalEnv when processing object %s"
-msgstr "przestrzeń nazw %s nie jest dostępna, więc została zastąpiona przez '.GlobalEnv' podczas przetwarzania obiektu %s"
+msgstr ""
+"przestrzeń nazw %s nie jest dostępna, więc została zastąpiona\n"
+"przez '.GlobalEnv' podczas przetwarzania obiektu %s"
 
 msgid "namespace is already attached"
 msgstr "przestrzeń nazw jest już dołączona"
