@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-09-06 03:05+0000\n"
+"PO-Revision-Date: 2024-09-16 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -29,7 +29,7 @@ msgstr "niepoprawny argument '%s'"
 
 #: io.c:350 io.c:841
 msgid "invalid quote symbol set"
-msgstr "niepoprawne ustawiony symbol cudzysłowiu"
+msgstr "niepoprawnie ustawiony symbol cudzysłowu"
 
 #: io.c:362 io.c:864 io.c:1084
 msgid "cannot open the connection"
@@ -42,7 +42,7 @@ msgstr "nie można czytać z tego połączenia"
 #: io.c:416 io.c:434
 #, c-format
 msgid "quoted string on line %d terminated by EOF"
-msgstr "cytowany łańcuch tekstowy w linii %d przerwany przez znak końca pliku (EOF)"
+msgstr "cytowany ciąg znaków w linii %d przerwany przez znak końca pliku (EOF)"
 
 #: io.c:569
 msgid "the first argument must be of mode character"
@@ -64,7 +64,7 @@ msgstr "nie można przydzielić bufora w 'readTableHead'"
 
 #: io.c:902
 msgid "\\ followed by EOF"
-msgstr "\\ a następnie EOF"
+msgstr "\\ po którym następuje EOF"
 
 #: io.c:954 io.c:958
 #, c-format
@@ -90,7 +90,7 @@ msgstr "argument 'file' nie jest połączeniem"
 
 #: io.c:1080
 msgid "cannot write to this connection"
-msgstr "nie można zapisać w tym połączeniu"
+msgstr "nie można zapisać do tego połączenia"
 
 #: io.c:1110
 msgid "'dec' must be a single character"
