@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-12 22:46+0000\n"
+"PO-Revision-Date: 2024-09-16 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -1505,7 +1505,7 @@ msgstr "'parent' nie jest środowiskiem"
 #: src/main/connections.c:5801 src/main/deparse.c:416 src/main/deparse.c:502
 #: src/main/serialize.c:2466
 msgid "cannot write to this connection"
-msgstr "nie można zapisywać w tym połączeniu"
+msgstr "nie można zapisać do tego połączenia"
 
 #: src/main/builtin.c:575 src/main/builtin.c:607
 #, c-format
@@ -2265,7 +2265,7 @@ msgstr "nieznana wartość 'rw'"
 #: src/main/connections.c:3805
 #, c-format
 msgid "Problem closing connection:  %s"
-msgstr "Problem podczas zamykania połączenia:  %s"
+msgstr "Problem podczas zamykania połączenia: %s"
 
 #: src/main/connections.c:3807
 msgid "Problem closing connection"
@@ -5934,7 +5934,7 @@ msgstr "niepoprawny separator dziesiętny"
 
 #: src/main/scan.c:942
 msgid "invalid quote symbol set"
-msgstr "niepoprawne ustawiony symbol cudzysłowiu"
+msgstr "niepoprawnie ustawiony symbol cudzysłowu"
 
 #: src/main/scan.c:1026
 msgid "embedded nul(s) found in input"
