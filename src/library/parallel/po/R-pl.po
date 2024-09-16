@@ -1,5 +1,6 @@
 msgid ""
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -15,6 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 msgid "invalid value of %s"
@@ -36,10 +38,11 @@ msgid "not all elements of 'MARGIN' are names of dimensions"
 msgstr "nie wszystkie elementy 'MARGIN' są nazwami wymiarów"
 
 msgid "no cluster 'cl' supplied and none is registered"
-msgstr "nie dostarczono argumentu klastr 'cl' oraz żaden nie jest zarejestrowany"
+msgstr ""
+"nie dostarczono argumentu klastra 'cl' oraz żaden nie jest zarejestrowany"
 
 msgid "not a valid cluster"
-msgstr "to nie jest poprawny klaster"
+msgstr "nie jest to poprawny klaster"
 
 msgid "replacing registration for cluster type '%s'"
 msgstr ""
@@ -175,4 +178,5 @@ msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] "%d równoległe zadanie nie dostarczyło wyniku"
 msgstr[1] "%d równoległe zadania nie dostarczyły wyników"
 msgstr[2] "%d równoległych zadań nie dostarczyło wyników"
+
 
