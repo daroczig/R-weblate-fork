@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-09-06 17:14+0000\n"
+"PO-Revision-Date: 2024-09-16 17:13+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -18,7 +18,7 @@ msgstr ""
 
 #: class_support.c:29
 msgid "calling the C routine used as an initializer for 'externalptr' objects"
-msgstr "wywołanie procedury C użyte jako inicjalizator dla obiektów 'externalptr'"
+msgstr "wywołanie procedury C użyte jako inicjator dla obiektów 'externalptr'"
 
 #: do_substitute_direct.c:41
 msgid "invalid list for substitution"
