@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -25,11 +26,14 @@ msgstr ""
 
 
 
+
 msgid "OOPS: something wrong with '.OldClassesPrototypes[[%d]]'"
 msgstr "OOPS: coś nie tak z '.OldClassesPrototypes[[%d]]'"
 
 msgid "unnamed argument to initialize() for S3 class must have a class definition; %s does not"
-msgstr "nienazwany argument przekazany do metody 'initialize()' dla klasy S3 musi posiadać definicję klasy; a %s takiej nie posiada"
+msgstr ""
+"nienazwany argument przekazany do metody 'initialize()' dla klasy S3 musi "
+"posiadać definicję klasy; a %s takiej nie posiada"
 
 msgid "unnamed argument must extend either the S3 class or the class of the data part; not true of class %s"
 msgstr "nienazwany argument musi rozszerzać albo klasę S3 albo klasę części danych; nie jest to prawdą dla klasy %s"
