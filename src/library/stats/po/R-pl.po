@@ -6,6 +6,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -22,6 +23,7 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
 "X-Poedit-Bookmarks: -1,20,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
 
 
 
@@ -502,7 +504,7 @@ msgid "distances must be result of 'dist' or a square matrix"
 msgstr "odległości muszą być wynikiem 'dist' lub być kwadratową macierzą"
 
 msgid "invalid value of %s"
-msgstr "niepoprawna wartość %s"
+msgstr "niepoprawna wartość '%s'"
 
 msgid "'k' must be in {1, 2, ..  n - 1}"
 msgstr "'k' musi być w zakresie {1, 2, ..  n - 1}"
@@ -577,7 +579,7 @@ msgid "numeric contrasts or contrast name expected"
 msgstr "oczekiwano kontrastów liczbowych lub nazwy kontrastu"
 
 msgid "%s needs package 'Matrix' correctly installed"
-msgstr "'%s' potrzebuje poprawnie zainstalowanego pakietu 'Matrix'"
+msgstr "'%s' wymaga poprawnie zainstalowanego pakietu 'Matrix'"
 
 msgid "not enough degrees of freedom to define contrasts"
 msgstr "niewystarczająca liczba stopni swobody do zdefiniowania kontrastów"
