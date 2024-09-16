@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-09-12 22:46+0000\n"
+"PO-Revision-Date: 2024-09-16 17:13+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -74,7 +74,7 @@ msgstr ""
 # G_("Save selection to")
 #: src/gnuwin32/console.c:2352
 msgid "Save selection to"
-msgstr "Zapisz wybór do"
+msgstr "Zapisz zaznaczenie w"
 
 # src/gnuwin32/console.c: 2129
 # G_("Save console contents to")
@@ -142,7 +142,8 @@ msgstr "     Backspace: usuń poprzedni znak;\n"
 
 #: src/gnuwin32/console.c:2474
 msgid "     Ctrl+Del or Ctrl+K: delete text from current character to end of line.\n"
-msgstr "     Ctrl+Del lub Ctrl+K: usuń tekst od bieżącego znaku do końca linii.\n"
+msgstr ""
+"     Ctrl+Del lub Ctrl+K: usuń tekst od bieżącego znaku do końca linii.\n"
 
 #: src/gnuwin32/console.c:2475
 msgid "     Ctrl+U: delete all text from current line.\n"
@@ -154,15 +155,20 @@ msgstr "  Kopiuj i wklej.\n"
 
 #: src/gnuwin32/console.c:2477
 msgid "     Use the mouse (with the left button held down) to mark (select) text.\n"
-msgstr "     Użyj myszki (z naciśniętym lewym przyciskiem myszki) by zaznaczyć (wybrać) tekst.\n"
+msgstr ""
+"     Użyj myszki (z naciśniętym lewym przyciskiem myszki) by zaznaczyć "
+"(wybrać) tekst.\n"
 
 #: src/gnuwin32/console.c:2478
 msgid "     Use Shift+Del (or Ctrl+C) to copy the marked text to the clipboard and\n"
-msgstr "     Użyj Shift+Del (lub Ctrl+C) by skopiować zaznaczony tekst do schowka i\n"
+msgstr ""
+"     Użyj Shift+Del (lub Ctrl+C) by skopiować zaznaczony tekst do schowka i\n"
 
 #: src/gnuwin32/console.c:2479
 msgid "     Shift+Ins (or Ctrl+V or Ctrl+Y) to paste the content of the clipboard (if any)  \n"
-msgstr "     Shift+Ins (lub Ctrl+V lub Ctrl+Y) by wkleić zawartość schowka (jeśli jakaś jest)  \n"
+msgstr ""
+"     Shift+Ins (lub Ctrl+V lub Ctrl+Y) by wkleić zawartość schowka (jeśli "
+"jakaś jest)  \n"
 
 #: src/gnuwin32/console.c:2480
 msgid "     to the console, Ctrl+X first copy then paste\n"
@@ -178,7 +184,8 @@ msgstr "     Ctrl+L: Wyczyść konsolę.\n"
 
 #: src/gnuwin32/console.c:2483
 msgid "     Ctrl+O or INS: Toggle overwrite mode: initially off.\n"
-msgstr "     Ctrl+O lub INS: Przełącz tryb nadpisywania: początkowo wyłączony.\n"
+msgstr ""
+"     Ctrl+O lub INS: Przełącz tryb nadpisywania: początkowo wyłączony.\n"
 
 #: src/gnuwin32/console.c:2484
 msgid "     Ctrl+T: Interchange current char with one to the left.\n"
@@ -211,7 +218,7 @@ msgid ""
 "Use ESC to stop the interpreter.\n"
 "\n"
 msgstr ""
-"Użyj ESC aby zatrzymać tłumacza.\n"
+"Użyj ESC aby zatrzymać interpretera.\n"
 "\n"
 
 # src/gnuwin32/console.c: 2255
@@ -247,21 +254,21 @@ msgstr "Edytor R"
 #: src/gnuwin32/editor.c:162
 #, c-format
 msgid "unable to open file %s for reading"
-msgstr "nie można otworzyć pliku %s do czytania"
+msgstr "nie można otworzyć pliku %s do odczytu"
 
 # src/gnuwin32/editor.c: 166
 # G_("Could not save file '%s'")
 #: src/gnuwin32/editor.c:187
 #, c-format
 msgid "Could not read from file '%s'"
-msgstr "Nie można było zapisać pliku '%s'"
+msgstr "Nie można odczytać z pliku '%s'"
 
 # src/gnuwin32/editor.c: 166
 # G_("Could not save file '%s'")
 #: src/gnuwin32/editor.c:220
 #, c-format
 msgid "Could not save file '%s'"
-msgstr "Nie można było zapisać pliku '%s'"
+msgstr "Nie można zapisać pliku '%s'"
 
 # src/gnuwin32/editor.c: 182
 # G_("Save script as")
@@ -298,7 +305,7 @@ msgstr "EDYTOR R\n"
 
 #: src/gnuwin32/editor.c:675
 msgid "A standard text editor for editing and running R code.\n"
-msgstr "Standardowy edytor tekstuA standard text editor for editing and running R code.\n"
+msgstr "Standardowy edytor tekstu do edytowania i uruchamiania kodu języka R.\n"
 
 #: src/gnuwin32/editor.c:677
 msgid "RUNNING COMMANDS\n"
@@ -306,7 +313,7 @@ msgstr "URUCHAMIANIE POLECEŃ\n"
 
 #: src/gnuwin32/editor.c:678
 msgid "To run a line or section of R code, select the code and either\n"
-msgstr "Aby uruchomić linijkę lub sekcję kodu R, zaznacz kod i albo:\n"
+msgstr "Aby uruchomić wiersz lub sekcję kodu R, zaznacz kod i albo:\n"
 
 #: src/gnuwin32/editor.c:679
 msgid "     Press Ctrl-R\n"
@@ -314,11 +321,12 @@ msgstr "     Naciśnij Ctrl-R\n"
 
 #: src/gnuwin32/editor.c:680
 msgid "     Select \"Run line or selection\" from the \"Edit\" menu\n"
-msgstr "     Wybierz \"Uruchom linię lub zaznaczenie\" z menu \"Edycja\"\n"
+msgstr "     Wybierz \"Uruchom wiersz lub zaznaczenie\" z menu \"Edycja\"\n"
 
 #: src/gnuwin32/editor.c:681
 msgid "     Press the \"Run line or selection\" icon on the toolbar\n"
-msgstr "     Naciśnij ikonę \"Uruchom linię lub zaznaczenie\" na pasku narzędzi\n"
+msgstr ""
+"     Naciśnij ikonę \"Uruchom wiersz lub zaznaczenie\" na pasku narzędzi\n"
 
 #: src/gnuwin32/editor.c:682
 msgid "This will copy the selected commands to the console and evaluate them.\n"
@@ -341,7 +349,7 @@ msgstr "kursor o jedną linię.\n"
 #: src/gnuwin32/editor.c:696 src/gnuwin32/editor.c:773
 #: src/gnuwin32/editor.c:831
 msgid "Run line or selection"
-msgstr "Uruchom linijkę lub zaznaczenie"
+msgstr "Uruchom wiersz lub zaznaczenie"
 
 # src/gnuwin32/editor.c: 625
 # GN_("Undo")
@@ -540,7 +548,7 @@ msgstr "Zamknij skrypt"
 #: src/gnuwin32/editor.c:815 src/gnuwin32/pager.c:487 src/gnuwin32/rui.c:1231
 #: src/library/utils/src/windows/dataentry.c:1843
 msgid "Edit"
-msgstr "Edytuj"
+msgstr "Edycja"
 
 # src/gnuwin32/rui.c: 1148
 # G_("Clear console")
@@ -753,7 +761,9 @@ msgstr ""
 # G_("Changes in pager size will not apply to any open pagers")
 #: src/gnuwin32/preferences.c:381
 msgid "Changes in pager size will not apply to any open pagers"
-msgstr "Zmiany w rozmiarze strony nie zostaną zastosowane w żadnych otwartych stronach"
+msgstr ""
+"Zmiany w rozmiarze strony nie zostaną zastosowane w żadnych otwartych "
+"stronach"
 
 # src/gnuwin32/preferences.c: 377
 # G_("Do not change pager type if any pager is open\nProceed?")
@@ -762,7 +772,7 @@ msgid ""
 "Do not change pager type if any pager is open\n"
 "Proceed?"
 msgstr ""
-"Nie zmieniaj typu stony jeśli jakakolwiek strona jest otwarta\n"
+"Nie zmieniaj typu strony jeśli jakakolwiek strona jest otwarta\n"
 "Kontynuować?"
 
 # src/gnuwin32/preferences.c: 410
@@ -832,7 +842,7 @@ msgstr "Brak dostępnego tekstu"
 # G_("Name of data frame or matrix")
 #: src/gnuwin32/rui.c:373
 msgid "Name of data frame or matrix"
-msgstr "Nazwa ramki lub macierzy"
+msgstr "Nazwa ramki danych lub macierzy"
 
 # src/gnuwin32/rui.c: 310
 # G_("'%s' cannot be found")
@@ -845,7 +855,7 @@ msgstr "'%s' nie może zostać znalezione"
 # G_("Are you sure?")
 #: src/gnuwin32/rui.c:524
 msgid "Are you sure?"
-msgstr "Jesteś pewien?"
+msgstr "Czy na pewno?"
 
 # src/gnuwin32/rui.c: 544
 # G_("Help on")
@@ -955,13 +965,13 @@ msgstr "Zainstaluj pakiet(y) z lokalnych plików..."
 # G_("FAQ on R")
 #: src/gnuwin32/rui.c:1021
 msgid "FAQ on R"
-msgstr "FAQ dotyczący R"
+msgstr "FAQ na temat R"
 
 # src/gnuwin32/rui.c: 944
 # G_("FAQ on R for &Windows")
 #: src/gnuwin32/rui.c:1023
 msgid "FAQ on R for &Windows"
-msgstr "FAQ dotyczący R dla &Windows"
+msgstr "FAQ na temat R dla &Windows"
 
 # src/gnuwin32/rui.c: 950
 # G_("Manuals (in PDF)")
@@ -981,7 +991,7 @@ msgstr "Funkcje R (tekst)..."
 # G_("Html help")
 #: src/gnuwin32/rui.c:1064
 msgid "Html help"
-msgstr "Pomoc html"
+msgstr "Pomoc HTML"
 
 # src/gnuwin32/rui.c: 987
 # G_("Search help...")
@@ -1405,13 +1415,13 @@ msgstr "Hasło"
 #: src/extra/graphapp/dialogs.c:1034 src/extra/graphapp/dialogs.c:1040
 #, c-format
 msgid "\"%s\" not found"
-msgstr "\"%s\" nie znaleziono"
+msgstr "nie znaleziono \"%s\""
 
 # src/extra/graphapp/gmenus.c: 56
 # G_("Arrange Icons")
 #: src/extra/graphapp/gmenus.c:56
 msgid "Arrange Icons"
-msgstr "Organizuj ikony"
+msgstr "Rozmieść ikony"
 
 # src/extra/graphapp/clipboard.c: 53
 # G_("Unable to open the clipboard")
@@ -1484,7 +1494,7 @@ msgstr "niepoprawny argument"
 # error(G_("invalid type for value"))
 #: src/library/utils/src/windows/dataentry.c:298
 msgid "invalid type for value"
-msgstr "błędny typ dla wartości"
+msgstr "niepoprawny typ dla wartości"
 
 # src/library/utils/src/windows/dataentry.c: 281
 # G_("Data Editor")
@@ -1531,7 +1541,7 @@ msgstr "wewnętrzny błąd typu przy wprowadzaniu danych"
 # warning(G_("dataentry: parse error on string"))
 #: src/library/utils/src/windows/dataentry.c:894
 msgid "dataentry: parse error on string"
-msgstr "dataentry: błąd składni dla łańcucha"
+msgstr "dataentry: błąd składni w ciągu znaków"
 
 # src/modules/X11/dataentry.c: 1345
 # warning("dataentry: expression too long")
@@ -1541,7 +1551,7 @@ msgstr "dataentry: błąd składni dla łańcucha"
 # warning(G_("dataentry: expression too long"))
 #: src/library/utils/src/windows/dataentry.c:1039
 msgid "dataentry: expression too long"
-msgstr "dataentry: wyrażenie zbyt długie"
+msgstr "dataentry: wyrażenie jest zbyt długie"
 
 # src/library/utils/src/windows/dataentry.c: 1472
 # G_("column names cannot be blank")
@@ -1597,7 +1607,7 @@ msgstr "Szerokość(i) komórki"
 # G_("Cell width")
 #: src/library/utils/src/windows/dataentry.c:1692
 msgid "Cell width"
-msgstr "Szerokość"
+msgstr "Szerokość komórki"
 
 # src/library/base/man/gettext.Rd: 87
 # ngettext(length(miss), "variable", "variables")
@@ -1636,9 +1646,10 @@ msgstr ""
 "\tTab przesuń w prawo, Shift+Tab przesuń w lewo\n"
 "\tPgDn lub Ctrl+F: przesuń w dół o jeden ekran\n"
 "\tPgUp lub Ctrl+B: przesuń w górę o jeden ekran\n"
-"\tHome: przesuwań do komórki (1,1) cell\n"
+"\tHome: przesuwań do komórki (1,1)\n"
 "\tEnd: pokaż ostatnie wiersze ostatniej kolumny.\n"
-"   Myszka: kliknij lewym przyciskiem myszy na komórkę, używaj paska przewijania.\n"
+"   Myszka: kliknij lewym przyciskiem myszy na komórkę, używaj paska "
+"przewijania.\n"
 "\n"
 "Edytowanie.\n"
 "  Wprowadzaj wartości w aktualnie zaznaczonej komórce\n"
@@ -1648,7 +1659,8 @@ msgstr ""
 "  Ctrl-L przerysowuje ekran, automatycznie ustawianie rozmiaru kolumn\n"
 "  Ctrl-C kopiuje zaznaczoną komórkę\n"
 "  Ctrl-V wkleja do zaznaczonej komórki\n"
-"  Kliknij prawym przyciskiem myszy aby skopiować, wkleić automatycznie stawić aktualnie zaznaczoną kolumnę\n"
+"  Kliknij prawym przyciskiem myszy aby skopiować, wkleić automatycznie "
+"stawić aktualnie zaznaczoną kolumnę\n"
 "\n"
 
 # src/library/utils/src/windows/dataentry.c: 1699
@@ -1709,7 +1721,7 @@ msgstr "Plik PNG"
 # G_("Windows bitmap file")
 #: src/library/grDevices/src/devWindows.c:950
 msgid "Windows bitmap file"
-msgstr "Plik bitmapy windowsa"
+msgstr "Plik bitmapy systemu Windows"
 
 # src/library/grDevices/src/devWindows.c: 938
 # G_("TIFF file")
@@ -1721,7 +1733,7 @@ msgstr "Plik TIFF"
 # G_("Jpeg file")
 #: src/library/grDevices/src/devWindows.c:956
 msgid "Jpeg file"
-msgstr "Plik jpeg"
+msgstr "Plik Jpeg"
 
 # src/library/grDevices/src/devWindows.c: 963
 # G_("Postscript file")
@@ -1739,7 +1751,7 @@ msgstr "Plik PDF"
 # G_("Enhanced metafiles")
 #: src/library/grDevices/src/devWindows.c:1002
 msgid "Enhanced metafiles"
-msgstr "Rozszerzone metapliki"
+msgstr "Ulepszone metapliki"
 
 # src/library/grDevices/src/devWindows.c: 990
 # G_("file path selected is too long: only 512 bytes are allowed")
@@ -1748,7 +1760,8 @@ msgstr "Rozszerzone metapliki"
 #: src/library/grDevices/src/devWindows.c:1005
 #: src/library/grDevices/src/devWindows.c:3561
 msgid "file path selected is too long: only 512 bytes are allowed"
-msgstr "wybrana ścieżka do pliku jest zbyt długa: tylko 512 bajtów jest dozwolone"
+msgstr ""
+"wybrana ścieżka do pliku jest zbyt długa: dozwolone jest tylko 512 bajtów"
 
 # src/library/grDevices/src/devWindows.c: 1201
 # G_("No plot to replace!")
@@ -1875,7 +1888,7 @@ msgstr "Nagrywanie"
 # G_("Add\tINS")
 #: src/library/grDevices/src/devWindows.c:1671
 msgid "Add\tINS"
-msgstr "Kopiuj\tINS"
+msgstr "Dodaj\tINS"
 
 # src/library/grDevices/src/devWindows.c: 1654
 # G_("Replace")
@@ -1935,7 +1948,7 @@ msgstr "Dopasuj do okna"
 # G_("Fixed size")
 #: src/library/grDevices/src/devWindows.c:1686
 msgid "Fixed size"
-msgstr "Ustalony rozmiar"
+msgstr "Stały rozmiar"
 
 # src/library/grDevices/src/devWindows.c: 1675
 # G_("Copy as metafile")
