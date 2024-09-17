@@ -4,6 +4,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,6 +20,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -42,7 +44,7 @@ msgstr "runmed(): niepoprawna wartość 'na.action'"
 #: Srunmed.c:315
 #, c-format
 msgid "na_action logic error (%d), please report!"
-msgstr "na_action błąd logiczny (%d), zgłoś!"
+msgstr "błąd logiczny na_action (%d), prosimy o zgłoszenie!"
 
 #: ansari.c:121
 msgid "probabilities outside [0,1] in qansari()"
@@ -58,7 +60,7 @@ msgstr "approx(): niepoprawna metoda interpolacji"
 
 #: approx.c:117
 msgid "approx(): attempted to interpolate NA values"
-msgstr "approx(): próbowano interpolować wartości NA"
+msgstr "approx(): próba interpolacji wartości NA"
 
 #: approx.c:121
 msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
@@ -598,7 +600,7 @@ msgstr "argument 'theta' powinien być typu tekstowego"
 
 #: nls.c:287 port.c:383
 msgid "use of NULL environment is defunct"
-msgstr "użycie wartości NULL dla środowiska zostało zlikwidowane"
+msgstr "użycie środowiska NULL jest przestarzałe"
 
 #: nls.c:291
 msgid "'rho' should be an environment"
