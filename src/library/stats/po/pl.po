@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-09-16 03:05+0000\n"
+"PO-Revision-Date: 2024-09-18 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -33,7 +33,7 @@ msgstr "runmed(): niepoprawna wartość 'na.action'"
 #: Srunmed.c:315
 #, c-format
 msgid "na_action logic error (%d), please report!"
-msgstr "na_action błąd logiczny (%d), zgłoś!"
+msgstr "błąd logiczny na_action (%d), prosimy o zgłoszenie!"
 
 #: ansari.c:118
 msgid "probabilities outside [0,1] in qansari()"
@@ -49,7 +49,7 @@ msgstr "approx(): niepoprawna metoda interpolacji"
 
 #: approx.c:124
 msgid "approx(): attempted to interpolate NA values"
-msgstr "approx(): próbowano interpolować wartości NA"
+msgstr "approx(): próba interpolacji wartości NA"
 
 #: approx.c:128
 msgid "approx(x,y, .., na.rm=FALSE): NA values in x are not allowed"
@@ -589,7 +589,7 @@ msgstr "argument 'theta' powinien być typu tekstowego"
 
 #: nls.c:286 port.c:382
 msgid "use of NULL environment is defunct"
-msgstr "użycie wartości NULL dla środowiska zostało zlikwidowane"
+msgstr "użycie środowiska NULL jest przestarzałe"
 
 #: nls.c:290
 msgid "'rho' should be an environment"
