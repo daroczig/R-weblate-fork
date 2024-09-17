@@ -7,6 +7,7 @@ msgid ""
 
 
 
+
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -22,6 +23,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
+
 
 
 
@@ -142,7 +144,7 @@ msgstr "liczbowe wartości koloru muszą być >=0, znaleziono %d"
 
 #: colors.c:1510
 msgid "invalid argument type"
-msgstr "niepoprawny argument 'type'"
+msgstr "niepoprawny typ argumentu"
 
 #: colors.c:1521
 msgid "unknown palette (need >= 2 colors)"
