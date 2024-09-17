@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-16 03:05+0000\n"
+"PO-Revision-Date: 2024-09-18 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -1510,7 +1510,7 @@ msgstr "nie można zapisać do tego połączenia"
 #: src/main/builtin.c:575 src/main/builtin.c:607
 #, c-format
 msgid "invalid '%s' specification"
-msgstr "niepoprawna specyfikacja '%s'"
+msgstr "niepoprawne określenie '%s'"
 
 #: src/main/builtin.c:592
 msgid "non-positive 'fill' argument will be ignored"
@@ -6394,7 +6394,8 @@ msgstr "zbyt mało argumentów"
 
 #: src/main/sprintf.c:223
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr "najwyżej jedna gwiazdka '*' jest wspierana w każdej specyfikacji konwersji"
+msgstr ""
+"co najwyżej jedna gwiazdka '*' jest wspierana w każdym określeniu zamiany"
 
 #: src/main/sprintf.c:234
 msgid "argument for '*' conversion specification must be a number"
