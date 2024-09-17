@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2024-09-16 03:05+0000\n"
+"PO-Revision-Date: 2024-09-18 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -127,7 +127,7 @@ msgstr "liczbowe wartości koloru muszą być >=0, znaleziono %d"
 
 #: colors.c:1510
 msgid "invalid argument type"
-msgstr "niepoprawny argument 'type'"
+msgstr "niepoprawny typ argumentu"
 
 #: colors.c:1521
 msgid "unknown palette (need >= 2 colors)"
