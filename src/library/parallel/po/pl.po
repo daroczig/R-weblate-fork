@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
-"PO-Revision-Date: 2024-09-16 03:05+0000\n"
+"PO-Revision-Date: 2024-09-18 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -37,7 +37,9 @@ msgstr "niepoprawny argument '%s'"
 
 #: fork.c:451
 msgid "Error while shutting down parallel: unable to terminate some child processes\n"
-msgstr "Błąd podczas wyłączania równoległych procesów: nie można zakończyć niektórych procesów potomnych\n"
+msgstr ""
+"Błąd podczas wyłączania równoległych procesów: nie można zakończyć "
+"niektórych procesów potomnych\n"
 
 #: fork.c:544 fork.c:547
 msgid "unable to create a pipe"
@@ -58,7 +60,8 @@ msgstr "nie ma potoku do procesu głównego"
 
 #: fork.c:765
 msgid "content to send must be RAW, use serialize() if needed"
-msgstr "zawartość do wysłania musi być PUSTA, użyj 'serialize()' jeśli konieczne"
+msgstr ""
+"zawartość do wysłania musi być typu RAW, użyj 'serialize()' jeśli konieczne"
 
 #: fork.c:774 fork.c:785 fork.c:1204
 msgid "write error, closing pipe to the master"
