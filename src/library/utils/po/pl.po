@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-09-16 17:13+0000\n"
+"PO-Revision-Date: 2024-09-18 03:05+0000\n"
 "Last-Translator: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language-Team: Łukasz Daniel <lukasz.daniel@gmail.com>\n"
 "Language: pl\n"
@@ -51,7 +51,7 @@ msgstr "pierwszy argument musi być trybu tekstowego"
 #: io.c:599
 #, c-format
 msgid "invalid 'numerals' string: \"%s\""
-msgstr "niepoprawny łańcuch tekstowy 'numerals': \"%s\""
+msgstr "niepoprawny ciąg znaków 'numerals': \"%s\""
 
 #: io.c:779
 #, c-format
@@ -144,7 +144,7 @@ msgstr "'%s' zawiera brakujące wartości"
 
 #: utils.c:68
 msgid "argument 'class' must be a character string"
-msgstr "argument 'class' musi być łańcuchem tekstowym"
+msgstr "argument 'class' musi być ciągiem znaków"
 
 #: utils.c:78
 msgid "argument 'x' must be a length-1 character vector"
@@ -233,11 +233,11 @@ msgstr "nie można zapisać do schowka"
 
 #: windows/util.c:416
 msgid "'title' must be a character string"
-msgstr "argument 'title' musi być łańcuchem tekstowym"
+msgstr "argument 'title' musi być ciągiem znaków"
 
 #: windows/util.c:425
 msgid "'text' must be a character string"
-msgstr "argument 'text' musi być łańcuchem tekstowym"
+msgstr "argument 'text' musi być ciągiem znaków"
 
 #: windows/util.c:464
 #, c-format
@@ -264,7 +264,7 @@ msgstr "Wybierz jeden"
 
 #: windows/widgets.c:196 windows/widgets.c:266
 msgid "'default' must be a character string"
-msgstr "argument 'default' musi być łańcuchem tekstowym"
+msgstr "argument 'default' musi być ciągiem znaków"
 
 #: windows/widgets.c:198
 msgid "'default' is overlong"
@@ -272,7 +272,7 @@ msgstr "argument 'default' jest zbyt długi"
 
 #: windows/widgets.c:202 windows/widgets.c:272
 msgid "'caption' must be a character string"
-msgstr "argument 'caption' musi być łańcuchem tekstowym"
+msgstr "argument 'caption' musi być ciągiem znaków"
 
 #: windows/widgets.c:204
 msgid "'multi' must be a logical value"
