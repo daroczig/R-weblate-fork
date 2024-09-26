@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50-0700\n"
-"PO-Revision-Date: 2024-05-21 01:20+0000\n"
+"PO-Revision-Date: 2024-09-27 09:31+0000\n"
 "Last-Translator: Joan Maspons <joanmaspons@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ca\n"
@@ -641,7 +641,7 @@ msgstr "Quant a"
 
 #: src/gnuwin32/rui.c:1085 src/extra/graphapp/gmenus.c:52
 msgid "Windows"
-msgstr "Windows"
+msgstr "Finestres"
 
 #: src/gnuwin32/rui.c:1086 src/extra/graphapp/gmenus.c:53
 msgid "Cascade"
