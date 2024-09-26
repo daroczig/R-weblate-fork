@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-09-24 03:05+0000\n"
+"PO-Revision-Date: 2024-09-27 09:31+0000\n"
 "Last-Translator: yes <2311901272@qq.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -22,15 +22,15 @@ msgstr ""
 msgid "'%s' is defunct."
 msgstr "'%s' is defunct."
 
-#, fuzzy
 msgid "Use '%s' instead."
-msgstr "coef"
+msgstr "column"
 
 msgid "See help(\"Defunct\") and help(\"%s-defunct\")."
 msgstr "见help(\"Defunct\"))和help(\"%s-defunct\")。"
 
+#, fuzzy
 msgid "See help(\"Defunct\")"
-msgstr "见help(\"Defunct\"))"
+msgstr "column"
 
 #, fuzzy
 msgid "'%s' is deprecated."
