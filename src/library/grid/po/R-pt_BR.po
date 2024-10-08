@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-03-28 18:44+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-10-09 03:05+0000\n"
+"Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -547,7 +547,7 @@ msgstr "'x', 'y', 'width', e 'height' devem ter comprimento 1"
 
 #, fuzzy
 msgid "Invalid glyph info"
-msgstr "'frame' inválido"
+msgstr "Informações de glyph inválidas"
 
 #, fuzzy
 msgid "'x' and 'y' must have length > 0"
