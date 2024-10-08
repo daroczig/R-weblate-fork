@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-22 18:05+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-10-09 03:05+0000\n"
+"Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,18 @@ msgstr "'filename' inválido"
 
 msgid "svg: Cairo-based devices are not available for this platform"
 msgstr ""
+"svg: dispositivos baseados em Cairo não estão disponíveis para esta "
+"plataforma"
 
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
 msgstr ""
+"cairo_pdf: Dispositivos baseados em Cairo não estão disponíveis para esta "
+"plataforma"
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
 msgstr ""
+"cairo_ps: Dispositivos baseados em Cairo não estão disponíveis para esta "
+"plataforma"
 
 msgid "'coef' must not be negative"
 msgstr "'coef' não pode ser negativo"
@@ -38,16 +44,16 @@ msgid "no proper 'z' matrix specified"
 msgstr "nenhuma matriz 'z' própria especificada"
 
 msgid "dimensions of 'x', 'y' and 'z' do not match"
-msgstr ""
+msgstr "as dimensões de 'x', 'y'e 'z' não correspondem"
 
 msgid "finite coordinates are needed"
-msgstr ""
+msgstr "são necessárias coordenadas finitas"
 
 msgid "'bias' must be positive"
 msgstr "'bias' deve ser positivo"
 
 msgid "'alpha' must be false if 'space' is specified"
-msgstr ""
+msgstr "'alpha' deve ser falso se 'space' for especificado"
 
 msgid "at least 3 columns needed"
 msgstr "pelo menos 3 colunas necessárias"
@@ -65,48 +71,42 @@ msgid "'start' and 'end' must be distinct and in [0, 1]."
 msgstr "'stard' e 'end' devem ser distintos e em [0,1]"
 
 msgid "'palette' does not match any given palette"
-msgstr ""
+msgstr "'palette' não corresponde a nenhuma paleta fornecida"
 
 msgid "'palette' is ambiguous"
-msgstr ""
+msgstr "'pallete' é ambíguo"
 
+#, fuzzy
 msgid "'n' set to %s, the maximum available for %s palette"
-msgstr ""
+msgstr "'n' definido como %s, o máximo disponível para a paleta %s"
 
 msgid "'gamma' must be a scalar or 'sRGB'"
 msgstr "'gamma' deve ser um escalar ou 'sRGB'"
 
-#, fuzzy
 msgid "Color space converter: %s"
-msgstr "Conversor de espaço de cor:"
+msgstr "Conversor de espaço de cores: %s"
 
-#, fuzzy
 msgid "Reference white: %s"
-msgstr "Referencia branca:"
+msgstr "Branco de referência: %s"
 
 #, fuzzy
 msgid "display gamma = %s"
-msgstr "exibição gama"
+msgstr "exibição de gama = %s"
 
-#, fuzzy
 msgid "'from' must be a \"colorConverter\" object or a string"
-msgstr "'from' deve ser colorConverter ou cadeia de caracter"
+msgstr "'from' deve ser um objeto \"colorConverter\" ou um string de caracteres"
 
-#, fuzzy
 msgid "'to' must be a \"colorConverter\" object or a string"
-msgstr "'to' deve ser um colorConverter ou uma cadeia de caracter"
+msgstr "'to' deve ser um objeto \"colorConverter\" ou um string de caracteres"
 
-#, fuzzy
 msgid "'from.ref.white' disagrees with definition of %s"
-msgstr "'from.ref.white' discorda com a definição de"
+msgstr "'from.ref.white' não está de acordo com a definição de %s"
 
-#, fuzzy
 msgid "'to.ref.white' disagrees with definition of %s"
-msgstr "'to.ref.white' discorda com a definição de"
+msgstr "'from.ref.white' não está de acordo com a definição de %s"
 
-#, fuzzy
 msgid "color spaces use different reference whites"
-msgstr "espaços de cores usam diferentes brancos de referência"
+msgstr "os espaços de cores usam diferentes brancos de referência"
 
 msgid "'name' must be a character vector"
 msgstr "'name' deve ser um vetor de caracteres"
@@ -166,72 +166,76 @@ msgid "dev.new(): using postscript(file=\"%s\")"
 msgstr "dev.new(): usando postscript(arquivo=\"%s\")"
 
 msgid "Invalid capabilities - alert the device maintainer"
-msgstr ""
+msgstr "Recursos inválidos - alerte o mantenedor do dispositivo"
 
 #, fuzzy
 msgid "Invalid span weight"
 msgstr "Tipo de fonte inválido"
 
 msgid "length of arguments must match (and be greater than 0)"
-msgstr ""
+msgstr "os comprimentos dos argumentos devem corresponder (e ser maior que 0)"
 
 msgid "Invalid glyph width(s)"
 msgstr ""
 
 msgid "Invalid glyph width"
-msgstr ""
+msgstr "Largura de 'glyph' inválida"
 
 msgid "Unknown width; using left anchor"
-msgstr ""
+msgstr "Largura desconhecida; usando a âncora esquerda"
 
+#, fuzzy
 msgid "Invalid glyph height(s)"
-msgstr ""
+msgstr "Altura(s) de glyph inválidas"
 
+#, fuzzy
 msgid "Invalid glyph height"
-msgstr ""
+msgstr "Altura de glyph inválida"
 
 msgid "Unknown height; using bottom anchor"
-msgstr ""
+msgstr "Altura desconhecida; usando a âncora inferior"
 
+#, fuzzy
 msgid "Invalid glyph anchor"
-msgstr ""
+msgstr "Âncora de glyph inválida"
 
 msgid "Font file longer than 500 will be truncated"
-msgstr ""
+msgstr "Nome de arquivo da fonte com mais de 500 caracteres será truncado"
 
+#, fuzzy
 msgid "Font family longer than 200 will be truncated"
-msgstr ""
+msgstr "'family' com mais de 200 characteres será truncado"
 
+#, fuzzy
 msgid "PostScript font name longer than 200 will be truncated"
-msgstr ""
+msgstr "Nome da fonte PostScript com mais de 200 caracteres será truncado"
 
 msgid "Font information is inconsistent"
-msgstr ""
+msgstr "Informações de fonte inconsistentes"
 
 msgid "List must include at least one font"
-msgstr ""
+msgstr "A lista deve incluir pelo menos uma fonte"
 
-#, fuzzy
 msgid "Invalid glyph font"
-msgstr "Tipo de fonte inválido"
+msgstr "Tipo de fonte glyph inválido"
 
-#, fuzzy
 msgid "Invalid font list"
-msgstr "Tipo de fonte inválido"
+msgstr "Lista de fontes inválida"
 
-#, fuzzy
 msgid "Unknown font"
 msgstr "fonte desconhecida"
 
 msgid "There must be anchors named \"left\" and \"bottom\""
 msgstr ""
+"Deve haver âncoras denominadas \"left\" (esquerda) e \"bottom\" (inferior)"
 
+#, fuzzy
 msgid "Invalid glyph info"
-msgstr ""
+msgstr "Informações de glyph inválidas"
 
 #, fuzzy
 msgid "Invalid compositing operator"
-msgstr "formato de saída inválido"
+msgstr "Operador de composição inválido"
 
 msgid "wrong 'type'; should never happen, please report!"
 msgstr ""
@@ -240,9 +244,8 @@ msgstr ""
 msgid "Invalid mask type"
 msgstr "Tipo de fonte inválido"
 
-#, fuzzy
 msgid "Invalid fill rule"
-msgstr "'file' inválido"
+msgstr "'rule' inválido"
 
 #, fuzzy
 msgid "Invalid pattern type"
@@ -253,7 +256,7 @@ msgid "Invalid 'extend' value"
 msgstr "'filename' inválido"
 
 msgid "'%s' is deprecated."
-msgstr ""
+msgstr "'%s' está obsoleto."
 
 msgid "invalid arguments in '%s' (need named args)"
 msgstr "argumentos inválidos em '%s' (precisa-se de argumentos nomeados)"
@@ -268,11 +271,9 @@ msgid "invalid options in '%s'"
 msgstr "opções inválidas em '%s'"
 
 # NOT é acrônimo, NOT não é NÃO!?
-#, fuzzy
 msgid "NOT changing %s"
-msgstr "NOT mudando"
+msgstr "NOT está alterando %s"
 
-#, fuzzy
 msgid "argument 'append' is for back-compatibility and will be ignored"
 msgstr "argumento 'append' é para retro-compatibilidade e será ignorado"
 
@@ -283,11 +284,10 @@ msgid "invalid 'family' argument"
 msgstr "argumento 'family' inválido"
 
 msgid "'title' argument \"%s\" contains invalid characters"
-msgstr ""
+msgstr "O argumento 'title' \"%s\" contém caracteres inválidos"
 
-#, fuzzy
 msgid "invalid 'file' argument '%s'"
-msgstr "argumento 'family' inválido"
+msgstr "argumento 'file' '%s' inválido"
 
 msgid "invalid PDF version"
 msgstr "versão PDF inválida"
@@ -335,9 +335,8 @@ msgid "'%s' must be a non-empty character string"
 msgstr "'%s' deve ser uma string não vazia"
 
 msgid "GhostScript was not found"
-msgstr ""
+msgstr "GhostScript não foi encontrado"
 
-#, fuzzy
 msgid "invalid output format"
 msgstr "formato de saída inválido"
 
@@ -349,7 +348,7 @@ msgid "Invalid 'glyphInfo'"
 msgstr "'file' inválido"
 
 msgid "failed to add more ticks; 'min.n' too large?"
-msgstr ""
+msgstr "não conseguiu adicionar mais \"ticks\"; 'min.n' muito grande?"
 
 #, fuzzy
 msgid "a raster matrix must be character, or numeric, or logical"
@@ -486,7 +485,7 @@ msgid "compression is not supported for type = \"quartz\""
 msgstr ""
 
 msgid "invalid 'title'"
-msgstr "'title' inválido"
+msgstr "título inválido"
 
 msgid "invalid 'file'"
 msgstr "'file' inválido"
