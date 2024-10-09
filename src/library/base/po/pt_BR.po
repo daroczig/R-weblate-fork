@@ -7,8 +7,8 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-09 04:02+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-10-09 22:15+0000\n"
+"Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -3152,12 +3152,12 @@ msgstr "nenhum dispositivo gráfico está ativo"
 #: src/main/engine.c:2182
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
-msgstr "valor pch '%d' é inválido nesse locale"
+msgstr "O valor pch '%d' é inválido nesta configuração de localidade"
 
 #: src/main/engine.c:2440
 #, c-format
 msgid "unimplemented pch value '%d'"
-msgstr "valor pch '%d' não implementado"
+msgstr "O valor '%d' de pch não está implementado"
 
 #: src/main/engine.c:2457
 #, c-format
