@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-10-09 03:05+0000\n"
+"PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -545,9 +545,8 @@ msgstr "'r' deve ser um objeto unitário"
 msgid "'x', 'y', 'width', and 'height' must have length 1"
 msgstr "'x', 'y', 'width', e 'height' devem ter comprimento 1"
 
-#, fuzzy
 msgid "Invalid glyph info"
-msgstr "Informações de glyph inválidas"
+msgstr "Informações de glyph/glifo inválidas"
 
 #, fuzzy
 msgid "'x' and 'y' must have length > 0"
