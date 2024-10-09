@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.3.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-10-09 03:05+0000\n"
+"PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -473,8 +473,11 @@ msgstr "'%s' definido para objetos \"POSIXt\""
 msgid "'tzone' attributes are inconsistent"
 msgstr "atributos 'tzone' inconsistentes"
 
+#, fuzzy
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
 msgstr ""
+"as.character(td, ..) não obedece mais a um argumento de 'formato'; use "
+"format(td, ..) ?"
 
 #, fuzzy
 msgid "'digits' must be numeric, integer valued"
@@ -637,8 +640,9 @@ msgstr "'recursive' será ignorado já que 'to' não é um único diretório exi
 msgid "cannot overwrite a non-directory with a directory"
 msgstr "impossível sobrescrever um não diretório com um diretório"
 
+#, fuzzy
 msgid "directories are omitted unless 'recursive = TRUE'"
-msgstr ""
+msgstr "diretórios são omitidos, a menos que 'recursive = TRUE'"
 
 msgid "file can not be copied both 'from' and 'to'"
 msgstr "arquivo não pode ser copiado ao mesmo tempo em 'from' e 'to'"
@@ -775,11 +779,13 @@ msgstr "nrow(x) inválido"
 msgid "triangular matrix should be square"
 msgstr "matriz triangular deve ser quadrada"
 
+#, fuzzy
 msgid "using 1-norm approximation for approximate 2-norm"
-msgstr ""
+msgstr "usando aproximação de 1 norma para aproximadamente 2 normas"
 
+#, fuzzy
 msgid "norm=\"%s\" not available here; using norm=\"1\""
-msgstr ""
+msgstr "norm=\"%s\" não disponível aqui; usando norm=\"1\""
 
 msgid "unknown conflict policy: %s"
 msgstr "política de conflito desconhecida: %s"
@@ -1479,8 +1485,9 @@ msgstr "opções não disponíveis para ordenação parcial"
 msgid "non-finite 'partial'"
 msgstr "'partial' não finito"
 
+#, fuzzy
 msgid "'decreasing' of length > 1 is only for method = \"radix\""
-msgstr ""
+msgstr "'decrescente' do comprimento > 1 é apenas para o método = \"base\""
 
 msgid "argument lengths differ"
 msgstr "comprimentos dos argumentos diferem"
@@ -1507,8 +1514,9 @@ msgstr "'echo' deve ser lógico"
 msgid "'verbose' is TRUE, 'echo' not; ... coercing 'echo <- TRUE'"
 msgstr "'verbose' é TRUE, 'echo' não; ... fazendo 'echo <- TRUE'"
 
+#, fuzzy
 msgid "empty file/url name"
-msgstr ""
+msgstr "Nome do arquivo/URL vazio"
 
 msgid "unable to find a plausible encoding"
 msgstr "não foi possível achar uma codificação plausível"
@@ -1535,11 +1543,13 @@ msgstr "'%s' não é um arquivo existente"
 msgid "'formula' must be a formula"
 msgstr "'from' deve ser de tipo raw ou caractere"
 
+#, fuzzy
 msgid "Unexpected LHS in 'formula' has been ignored."
-msgstr ""
+msgstr "LHS inesperado em 'fórmula' foi ignorado."
 
+#, fuzzy
 msgid "Unexpected LHS in 'formula' has been combined with RHS."
-msgstr ""
+msgstr "LHS inesperado em 'fórmula' foi combinado com RHS."
 
 msgid "Timestamp of %s has changed"
 msgstr "Timestamp de %s mudou"
@@ -1630,8 +1640,9 @@ msgstr "'bin' deve ser numérico ou um fator"
 msgid "invalid value of %s"
 msgstr "valor inválido de %s"
 
+#, fuzzy
 msgid "'X' must be a data frame when 'INDEX' is a formula"
-msgstr ""
+msgstr "'X' deve ser um quadro de dados quando 'INDEX' é uma fórmula"
 
 msgid "'INDEX' is of length zero"
 msgstr "'INDEX' tem comprimento zero"
@@ -1685,6 +1696,10 @@ msgstr "Nenhum rastreamento disponível"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "especificação de versão %s inválida"
 
+#, fuzzy
+msgid "Calls"
+msgstr "Chamadas"
+
 msgid "invalid version specification %s"
 msgstr "especificação de versão %s inválida"
 
@@ -1712,8 +1727,10 @@ msgstr "Resumo das mensagens de alerta (de um total de %d):"
 msgid "invalid 'digits'"
 msgstr "'digits' inválido"
 
+#, fuzzy
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
 msgstr ""
+"A chamada direta de '%s()' foi preterida.  Use '%s()' ou '%s()' em vez disso"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr "argumentos 'show.output.on.console', 'minimized' e 'invisible' são válidos somente para Windows"
@@ -2268,3 +2285,4 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valor inválido"
+
