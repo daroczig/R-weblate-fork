@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 2.1.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2023-11-30 16:47+0100\n"
-"PO-Revision-Date: 2024-09-16 17:13+0000\n"
+"PO-Revision-Date: 2024-10-17 07:31+0000\n"
 "Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
@@ -509,7 +509,7 @@ msgstr "保存映像到"
 
 #: src/gnuwin32/rui.c:259
 msgid "Load history from"
-msgstr "载入历史于"
+msgstr "加载历史自"
 
 #: src/gnuwin32/rui.c:268
 msgid "Save history in"
@@ -940,7 +940,7 @@ msgstr "单元格宽"
 
 #: src/library/utils/src/windows/dataentry.c:1690
 msgid "Cell width"
-msgstr "单元格宽"
+msgstr "单元格宽度"
 
 #: src/library/utils/src/windows/dataentry.c:1693
 msgid "variable"
