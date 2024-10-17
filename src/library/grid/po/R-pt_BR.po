@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.13.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33\n"
-"PO-Revision-Date: 2024-10-09 22:15+0000\n"
+"PO-Revision-Date: 2024-10-18 03:05+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -41,7 +41,7 @@ msgid "Invalid gTree coordinates"
 msgstr "Classe 'gTree' inválida"
 
 msgid "Closed must not be a missing value"
-msgstr ""
+msgstr "'Closed' não pode ser um valor faltante"
 
 #, fuzzy
 msgid "end points must not be identical"
@@ -122,7 +122,7 @@ msgid "'gpar' element '%s' must not be length 0"
 msgstr "elemento gpar '%s' não deve ser de comprimento 0"
 
 msgid "mixture of missing and non-missing values for %s"
-msgstr ""
+msgstr "Mistura de valores faltantes e não-faltantes para %s"
 
 #, fuzzy
 msgid "'gamma' 'gpar' element is defunct"
