@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
@@ -2952,7 +2952,7 @@ msgid "cannot compute confidence interval when all observations are tied"
 msgstr "no es pot calcular l'interval de confiança quan totes les observacions estan lligades"
 
 #, fuzzy
-msgid "must supply either 'formula' or 'data'"
+msgid "must supply 'formula' or 'data'"
 msgstr "s'ha de proporcionar «fórmula» o «dades»"
 
 #, fuzzy
@@ -3182,4 +3182,3 @@ msgstr[1] "«start.innov» és massa curt: calen %d punts"
 #, fuzzy
 #~ msgid ".nknots.smspl() is now exported; use it instead of n.knots()"
 #~ msgstr "Ara s'exporta .nknots.smspl(); useu-lo en lloc de n.knots()"
-

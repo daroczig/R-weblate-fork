@@ -1086,6 +1086,12 @@ msgstr ""
 msgid "package seems to be using lazy loading already"
 msgstr ""
 
+msgid "'files' and 'bytes' are mutually exclusive"
+msgstr ""
+
+msgid "'bytes' must be a raw vector"
+msgstr ""
+
 msgid ""
 "Cannot process chunk/lines:\n"
 "%s"
@@ -1526,4 +1532,3 @@ msgid "Corresponding BibTeX entry:"
 msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] ""
 msgstr[1] ""
-

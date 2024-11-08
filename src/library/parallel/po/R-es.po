@@ -37,7 +37,11 @@ msgstr "No se ha proporcionado ningún clúster 'cl' y ninguno está registrado"
 msgid "not a valid cluster"
 msgstr "no es un clúster válido"
 
-msgid "unknown cluster type"
+msgid "replacing registration for cluster type '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "unknown cluster type: '%s'"
 msgstr "tipo de clúster desconocido"
 
 msgid "numeric 'names' must be >= 1"
@@ -135,4 +139,3 @@ msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] "%d trabajo en paralelo no entregó resultado"
 msgstr[1] "%d trabajos en paralelo no entregaron resultados"
-

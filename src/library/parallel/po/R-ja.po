@@ -37,7 +37,11 @@ msgstr "クラスタ 'cl' が指定されておらず、登録されているも
 msgid "not a valid cluster"
 msgstr "有効なクラスターではありません"
 
-msgid "unknown cluster type"
+msgid "replacing registration for cluster type '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "unknown cluster type: '%s'"
 msgstr "不明なクラスター型です"
 
 msgid "numeric 'names' must be >= 1"
@@ -129,4 +133,3 @@ msgstr[0] "スケジュールされたコア %s でユーザーコードでエ�
 msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] "%d 個の並列ジョブは結果を提供しませんでした"
-

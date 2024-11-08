@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -155,12 +155,12 @@ msgstr "遇到未知AFM值这个错误"
 msgid "invalid string in '%s'"
 msgstr "'%s'里的字符串无效"
 
-#: devPS.c:810
+#: devPS.c:811
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "编码 %2$s 中字符 0x%1$02x 的字体宽度未知"
 
-#: devPS.c:871
+#: devPS.c:872
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "Unicode 字符 U+%04X 的字体规格未知"
@@ -1097,4 +1097,3 @@ msgstr "石英字体数据库里找不到字体系列"
 
 #~ msgid "unable to start device Quartz"
 #~ msgstr "无法启动石英装置"
-

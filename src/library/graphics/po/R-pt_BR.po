@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-10-09 03:05+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -26,9 +26,7 @@ msgid "one of 'x1' and 'y1' must be given"
 msgstr "somente 'x1' ou 'y1' devem ser fornecidos"
 
 msgid "'length', 'angle', or 'code' greater than length 1; values after the first are ignored"
-msgstr ""
-"'length', 'angle' ou 'code' com comprimento maior que 1; os valores após o "
-"primeiro são ignorados"
+msgstr "'length', 'angle' ou 'code' com comprimento maior que 1; os valores após o primeiro são ignorados"
 
 msgid "'x' must be a 2-d contingency table"
 msgstr "'x' deve ser uma tabela de contingência 2-d"
@@ -121,9 +119,7 @@ msgid "no proper 'z' matrix specified"
 msgstr "nenhuma matriz 'z' apropriada especificada"
 
 msgid "'labels' is length zero.  Use 'drawlabels = FALSE' to suppress labels."
-msgstr ""
-"'labels' tem comprimento zero. Use 'drawlabels = FALSE' para suprimir os "
-"rótulos."
+msgstr "'labels' tem comprimento zero. Use 'drawlabels = FALSE' para suprimir os rótulos."
 
 msgid "invalid conditioning formula"
 msgstr "fórmula de condicionamento inválida"
@@ -147,8 +143,7 @@ msgid "Missing rows: %s"
 msgstr "Linhas ausentes: %s"
 
 msgid "'expr' must be a function, or a call or an expression containing '%s'"
-msgstr ""
-"'expr' deve ser uma função, uma chamada ou uma expressão que contenha '%s'"
+msgstr "'expr' deve ser uma função, uma chamada ou uma expressão que contenha '%s'"
 
 msgid "'add' will be ignored as there is no existing plot"
 msgstr "'add' será ignorado, pois não há nenhum gráfico existente"
@@ -231,9 +226,6 @@ msgstr "'breaks' não é estritamente crescente"
 
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' é um sinônimo para '!freq', porém, eles diferem."
-
-msgid "fuzz must be non-negative"
-msgstr "argumento 'fuzz' não pode ser negativo"
 
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "alguns valores de 'x' não computados; talvez 'breaks' não abranja todo o intervalo de 'x'"
@@ -502,6 +494,8 @@ msgid_plural "arguments %s are not made use of"
 msgstr[0] "argumento %s não está sendo utilizado"
 msgstr[1] "argumentos %s não estão sendo utilizados"
 
+#~ msgid "fuzz must be non-negative"
+#~ msgstr "argumento 'fuzz' não pode ser negativo"
+
 #~ msgid "negative 'counts'. Internal Error in C-code for \"bincount\""
 #~ msgstr "'counts' negativo. Erro interno no código C para \"bincount\""
-

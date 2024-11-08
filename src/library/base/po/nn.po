@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: nn\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -1823,7 +1823,7 @@ msgstr "ikkje-implementert predikat"
 msgid "%s() applied to non-(list or vector) of type '%s'"
 msgstr "%s() brukt på ikkje-(liste eller vektor) av typen «%s»"
 
-#: src/main/coerce.c:2526 src/main/coerce.c:2587 src/main/coerce.c:2663
+#: src/main/coerce.c:2530 src/main/coerce.c:2591 src/main/coerce.c:2667
 #, c-format
 msgid "default method not implemented for type '%s'"
 msgstr "ikkje-implementert type «%s»"
@@ -3623,7 +3623,7 @@ msgstr ""
 msgid "Lost warning messages\n"
 msgstr "Tapt åtvaringsmelding\n"
 
-#: src/main/errors.c:609
+#: src/main/errors.c:613
 msgid "Warning message:"
 msgid_plural "Warning messages:"
 msgstr[0] "Åtvaring:"
@@ -3634,14 +3634,14 @@ msgstr[1] "Åtvaringar:"
 msgid "In %s :"
 msgstr ""
 
-#: src/main/errors.c:672
+#: src/main/errors.c:676
 #, c-format
 msgid "There was %d warning (use warnings() to see it)"
 msgid_plural "There were %d warnings (use warnings() to see them)"
 msgstr[0] "Det oppstod %d åtvaring (bruk «warnings()» for å sjå dei)"
 msgstr[1] "Det oppstod %d åtvaringar (bruk «warnings()» for å sjå dei)"
 
-#: src/main/errors.c:677
+#: src/main/errors.c:681
 #, c-format
 msgid "There were %d or more warnings (use warnings() to see the first %d)"
 msgstr "Det oppstod %d eller fleire åtvaringar (bruk «warnings()» for å sjå dei %d første)"
@@ -4695,10 +4695,10 @@ msgstr ""
 msgid "memory exhausted"
 msgstr "ikkje nok minne (nådde grensa?)"
 
-#: src/main/memory.c:2329
-#, c-format
-msgid "cannot allocate memory block of size %0.f Tb"
-msgstr "klarte ikkje reservera minneblokk av storleik %0.f Tb"
+#: src/main/memory.c:2330
+#, fuzzy, c-format
+msgid "cannot allocate memory block of size %0.f %s"
+msgstr "klarte ikkje reservera minneblokk av storleik %0.1f Gb"
 
 #: src/main/memory.c:2335
 #, fuzzy, c-format
@@ -7596,7 +7596,7 @@ msgstr "feil ved InternetOpenUrl: «%s»"
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:216
+#: src/modules/internet/libcurl.c:213
 #, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
@@ -8178,6 +8178,10 @@ msgstr "feil ved oppretting av mellombels fil for «-e»"
 #: src/unix/system.c:575
 msgid "WARNING: Only editing the first in the list of files"
 msgstr "ÅTVARING: Redigerer berre den første i lista over filer"
+
+#, c-format
+#~ msgid "cannot allocate memory block of size %0.f Tb"
+#~ msgstr "klarte ikkje reservera minneblokk av storleik %0.f Tb"
 
 #, fuzzy
 #~ msgid "'.Random.seed' is a missing argument with no default"
@@ -8954,5 +8958,3 @@ msgstr "ÅTVARING: Redigerer berre den første i lista over filer"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "«R_get_primname» kalla på ikkje-primtiv"
-
-

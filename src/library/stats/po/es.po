@@ -272,7 +272,7 @@ msgstr "Se requieren series con valores vectoriales (multivariantes)"
 msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
 msgstr "nextn() no encontró solución < %d = INT_MAX (el entero máximo); pase '0+ n' en lugar de 'n'"
 
-#: fourier.c:233
+#: fourier.c:225
 #, c-format
 msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
 msgstr "nextn<64>() no encontró solución < %llu = UINT64_MAX (el máximo entero posible)"
@@ -316,7 +316,7 @@ msgstr "Solo se permiten 2500 filas para SM.Method=\"spline\""
 msgid "'x' is not a matrix"
 msgstr "'x' no es una matriz"
 
-#: lm.c:62
+#: lm.c:56
 #, c-format
 msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
 msgstr "las dimensiones de 'x' (%d,%d) e 'y' (%lld) no coinciden"
@@ -672,8 +672,8 @@ msgstr "valor de función en 'optimize' inválida"
 msgid "attempt to minimize non-function"
 msgstr "tentativa de minimizar una no-función"
 
-#: optimize.c:263 optimize.c:270 optimize.c:279 optimize.c:353 optimize.c:358
-#: optimize.c:374
+#: optimize.c:256 optimize.c:263 optimize.c:272 optimize.c:346 optimize.c:351
+#: optimize.c:367
 #, c-format
 msgid "invalid '%s' value"
 msgstr "valor '%s' no válido"
@@ -776,19 +776,19 @@ msgstr ""
 "*** mensaje de error desconocido (msg = %d) en nlm()\n"
 "*** no debería suceder..."
 
-#: optimize.c:668
+#: optimize.c:661
 msgid "Relative gradient close to zero.\n"
 msgstr "Gradiente relativo cercano a cero.\n"
 
-#: optimize.c:669 optimize.c:673
+#: optimize.c:662 optimize.c:666
 msgid "Current iterate is probably solution.\n"
 msgstr "La iteración actual es probablemente la solución.\n"
 
-#: optimize.c:672
+#: optimize.c:665
 msgid "Successive iterates within tolerance.\n"
 msgstr "Iteraciones sucesivas dentro de la tolerancia.\n"
 
-#: optimize.c:676
+#: optimize.c:669
 msgid "Last global step failed to locate a point lower than x.\n"
 msgstr "El último paso global no pudo encontrar un punto más bajo que x.\n"
 
@@ -820,8 +820,8 @@ msgstr ""
 "desde arriba en alguna dirección,\n"
 "o 'stepmx' es demasiado pequeño.\n"
 
-#: optimize.c:747 optimize.c:752 optimize.c:756 optimize.c:760 optimize.c:764
-#: optimize.c:768 optimize.c:773
+#: optimize.c:740 optimize.c:745 optimize.c:749 optimize.c:753 optimize.c:757
+#: optimize.c:761 optimize.c:766
 msgid "invalid NA value in parameter"
 msgstr "valor NA no válido en el parámetro"
 
@@ -870,11 +870,11 @@ msgstr "función gradiente debe devolver un vector numérico de longitud %d"
 msgid "Hessian function must return a square numeric matrix of order %d"
 msgstr "función hessiana debe devolver una matriz numérica cuadrada de orden %d"
 
-#: port.c:386
+#: port.c:387
 msgid "'rho' must be an environment"
 msgstr "'rho' debe ser un entorno"
 
-#: port.c:388 port.c:554
+#: port.c:389 port.c:555
 msgid "'d' must be a nonempty numeric vector"
 msgstr "'d' debe ser un vector numérico no vacío"
 
@@ -887,15 +887,15 @@ msgstr "Cuando se define la matriz hessiana, también debe estar definido el gra
 msgid "environment 'rho' must contain a numeric vector '.par' of length %d"
 msgstr "entorno 'rho' debe contener un vector numérico '.par' de longitud %d"
 
-#: port.c:407
+#: port.c:408
 msgid "'lower' and 'upper' must be numeric vectors"
 msgstr "'lower' y 'upper' deben ser vectores numéricos"
 
-#: port.c:466
+#: port.c:467
 msgid "'getElement' applies only to named lists"
 msgstr "'getElement' solo se aplica a las listas con nombre"
 
-#: port.c:487
+#: port.c:488
 #, c-format
 msgid "%s$%s() not found"
 msgstr "%s$%s() no encontrado"
@@ -914,11 +914,11 @@ msgstr "fcn produjo resultado modo %d, longitud %d - se esperaba modo %d, longit
 msgid "invalid type for eval_check_store"
 msgstr "tipo no válido para eval_check_store"
 
-#: port.c:555
+#: port.c:556
 msgid "m must be a list"
 msgstr "m debe ser una lista"
 
-#: port.c:575
+#: port.c:576
 msgid "'lowerb' and 'upperb' must be numeric vectors"
 msgstr "'lowerb' y 'upperb' deben ser vectores numéricos"
 
@@ -972,7 +972,7 @@ msgstr "segundo argumento no válido 'size'"
 msgid "rcont2 [%d,%d]: exp underflow to 0; algorithm failure"
 msgstr "rcont2 [%d,%d]: exponencial subdesbordó a 0; error en el algoritmo"
 
-#: smooth.c:107
+#: smooth.c:101
 #, c-format
 msgid "invalid end-rule for running median of 3: %d"
 msgstr "regla final no válida para mediana móvil de 3: %d"
@@ -985,7 +985,3 @@ msgstr "valor faltante en las últimas %d observaciones"
 #, fuzzy, c-format
 #~ msgid "Bug in fexact3, it[i=%d]=%d: negative key %d (kyy=%d)\n"
 #~ msgstr "Error en fexact3, it[i=%d]=%d: clave negativa %d (kyy=%d)\n"
-
-
-
-

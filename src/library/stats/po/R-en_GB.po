@@ -2371,7 +2371,8 @@ msgstr "Requested conf.level not achievable"
 msgid "cannot compute confidence interval when all observations are tied"
 msgstr "cannot compute confidence interval when all observations are tied"
 
-msgid "must supply either 'formula' or 'data'"
+#, fuzzy
+msgid "must supply 'formula' or 'data'"
 msgstr "must supply either 'formula' or 'data'"
 
 msgid "%s applies only to two-way tables"
@@ -2559,4 +2560,3 @@ msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
 msgstr[0] "'start.innov' is too short: need %d point"
 msgstr[1] "'start.innov' is too short: need %d points"
-

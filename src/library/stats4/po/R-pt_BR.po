@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -34,9 +34,7 @@ msgstr "valores iniciais não satisfazem as restrições"
 
 #, fuzzy
 msgid "profiling has found a better solution, so original fit had not converged"
-msgstr ""
-"O perfilamento encontrou uma solução melhor, de modo que o ajuste original "
-"não convergiu"
+msgstr "O perfilamento encontrou uma solução melhor, de modo que o ajuste original não convergiu"
 
 msgid "levels truncated to positive values only"
 msgstr "níveis truncados somente para valores positivos"

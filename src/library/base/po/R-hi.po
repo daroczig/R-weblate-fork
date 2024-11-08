@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-09-06 03:05+0000\n"
 "Last-Translator: Jyoti Bhogal <bhogaljyoti1@gmail.com>\n"
@@ -56,20 +56,18 @@ msgid "'iconvlist' is not available on this system"
 msgstr "इस तंत्र पर 'iconvlist' उपलब्ध नहीं है"
 
 #, fuzzy
-msgid "'kind' must be a character string of length 1 (RNG to be used)."
+msgid "'kind' must be a character string (RNG to be used)."
 msgstr "'kind' लंबाई 1 का कैरेक्टर स्ट्रिंग होना चाहिए (RNG का उपयोग करें)।"
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' RNG का एक वैध संक्षिप्त नाम नहीं है"
 
-msgid "'normal.kind' must be a character string of length 1"
-msgstr "'normal.kind' लंबाई 1 का कैरेक्टर स्ट्रिंग होना चाहिए"
+#, fuzzy
+msgid "'%s' must be a character string"
+msgstr "'sample.kind' लंबाई 1 का कैरेक्टर स्ट्रिंग होना चाहिए"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' एक वैध विकल्प नहीं है"
-
-msgid "'sample.kind' must be a character string of length 1"
-msgstr "'sample.kind' लंबाई 1 का कैरेक्टर स्ट्रिंग होना चाहिए"
 
 msgid "malformed version string"
 msgstr "विकृत संस्करण स्ट्रिंग"
@@ -1906,3 +1904,5 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#~ msgid "'normal.kind' must be a character string of length 1"
+#~ msgstr "'normal.kind' लंबाई 1 का कैरेक्टर स्ट्रिंग होना चाहिए"

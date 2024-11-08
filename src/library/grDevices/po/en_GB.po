@@ -155,12 +155,12 @@ msgstr "unknown AFM entity encountered"
 msgid "invalid string in '%s'"
 msgstr "invalid string in '%s'"
 
-#: devPS.c:810
+#: devPS.c:811
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "font width unknown for character 0x%02x in encoding %s"
 
-#: devPS.c:871
+#: devPS.c:872
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "font metrics unknown for Unicode character U+%04X"
@@ -175,12 +175,12 @@ msgstr "unknown encoding '%s' in 'PostScriptMetricInfo'"
 msgid "Unicode character %lc (U+%04X) cannot be converted"
 msgstr "Unicode character %lc (U+%04X) cannot be converted"
 
-#: devPS.c:918 devPS.c:972
+#: devPS.c:919 devPS.c:973
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
 msgstr "font metrics unknown for character 0x%02x in encoding %s"
 
-#: devPS.c:987
+#: devPS.c:988
 #, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
 msgstr "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -367,7 +367,7 @@ msgstr "family '%s' not included in postscript() device"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "unknown encoding '%s' in 'mbcsToSbcs'"
 
-#: devPS.c:4582 devPS.c:4589
+#: devPS.c:4635 devPS.c:4642
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
 msgstr "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
@@ -588,7 +588,7 @@ msgstr "Text not added to path containing other drawing"
 msgid "failed to find or load PDF CID font"
 msgstr "failed to find or load PDF CID font"
 
-#: devPS.c:10786 devPS.c:10878 devPicTeX.c:763
+#: devPS.c:10853 devPS.c:10945 devPicTeX.c:763
 #, c-format
 msgid "invalid 'file' parameter in %s"
 msgstr "invalid 'file' parameter in %s"
@@ -984,4 +984,3 @@ msgstr "Font file not found; matching font family and face"
 
 #~ msgid "only gray colors are allowed in this color model"
 #~ msgstr "only grey colours are allowed in this colour model"
-

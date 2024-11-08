@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: R 4.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
-"POT-Creation-Date: 2024-04-01 10:34\n"
+"POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
@@ -129,13 +129,17 @@ msgstr ""
 msgid "file '%s' does not exist"
 msgstr ""
 
-msgid "parse error in file '%s':\n%s"
+msgid ""
+"parse error in file '%s':\n"
+"%s"
 msgstr ""
 
 msgid "cannot check R code installed as image"
 msgstr ""
 
-msgid "parse error in examples from file '%s':\n%s"
+msgid ""
+"parse error in examples from file '%s':\n"
+"%s"
 msgstr ""
 
 msgid "File '%s':"
@@ -247,6 +251,9 @@ msgid "Authors@R field gives no person with maintainer role, valid email address
 msgstr ""
 
 msgid "Authors@R field gives persons with invalid ORCID identifiers:"
+msgstr ""
+
+msgid "Authors@R field gives persons with duplicated ORCID identifiers:"
 msgstr ""
 
 msgid "Encoding '%s' is not portable"
@@ -468,7 +475,12 @@ msgstr ""
 msgid "no Rd sections specified"
 msgstr ""
 
-msgid "Generics 'g' in 'env' %s where '%s' errors: %s\nMay need something like\n\n%s\nin NAMESPACE."
+msgid ""
+"Generics 'g' in 'env' %s where '%s' errors: %s\n"
+"May need something like\n"
+"\n"
+"%s\n"
+"in NAMESPACE."
 msgstr ""
 
 msgid "concordance is not valid"
@@ -603,10 +615,14 @@ msgstr ""
 msgid "--- re-building %s using %s"
 msgstr ""
 
-msgid "Error: processing vignette '%s' failed with diagnostics:\n%s"
+msgid ""
+"Error: processing vignette '%s' failed with diagnostics:\n"
+"%s"
 msgstr ""
 
-msgid "Error: tangling vignette '%s' failed with diagnostics:\n%s"
+msgid ""
+"Error: tangling vignette '%s' failed with diagnostics:\n"
+"%s"
 msgstr ""
 
 msgid "--- finished re-building %s"
@@ -634,9 +650,6 @@ msgid "Vignette engine package not specified"
 msgstr ""
 
 msgid "Unsupported engine name"
-msgstr ""
-
-msgid "None of packages %s have registered vignette engines"
 msgstr ""
 
 msgid "Vignette engine %s is not registered"
@@ -696,10 +709,14 @@ msgstr ""
 msgid "processing %s"
 msgstr ""
 
-msgid "running %s on vignette '%s' failed with message:\n%s"
+msgid ""
+"running %s on vignette '%s' failed with message:\n"
+"%s"
 msgstr ""
 
-msgid "compiling TeX file %s failed with message:\n%s"
+msgid ""
+"compiling TeX file %s failed with message:\n"
+"%s"
 msgstr ""
 
 msgid "cannot copy '%s' to '%s'"
@@ -715,6 +732,12 @@ msgid "ERROR: this R is version %s, required is R %s %s"
 msgstr ""
 
 msgid "loading failed"
+msgstr ""
+
+msgid "'cc' is not on the path"
+msgstr ""
+
+msgid "'objdump' is not on the path"
 msgstr ""
 
 msgid "Got %s in evaluating %s; wanted %s"
@@ -1032,7 +1055,10 @@ msgstr ""
 msgid "Reverted installation-time patch"
 msgstr ""
 
-msgid "See\n  %s\nfor details."
+msgid ""
+"See\n"
+"  %s\n"
+"for details."
 msgstr ""
 
 msgid "namespace must not be already loaded"
@@ -1059,7 +1085,15 @@ msgstr ""
 msgid "package seems to be using lazy loading already"
 msgstr ""
 
-msgid "Cannot process chunk/lines:\n%s"
+msgid "'files' and 'bytes' are mutually exclusive"
+msgstr ""
+
+msgid "'bytes' must be a raw vector"
+msgstr ""
+
+msgid ""
+"Cannot process chunk/lines:\n"
+"%s"
 msgstr ""
 
 msgid "DESCRIPTION file not found"
@@ -1074,19 +1108,36 @@ msgstr ""
 msgid "Could not extract news from the following text chunks:"
 msgstr ""
 
-msgid "Chunk %s:\n%s"
+msgid ""
+"Chunk %s:\n"
+"%s"
 msgstr ""
 
-msgid "Cannot extract version info from the following section titles:\n%s"
+msgid ""
+"Cannot extract version info from the following section titles:\n"
+"%s"
 msgstr ""
 
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\itemize."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains no \\itemize."
 msgstr ""
 
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains more than one \\itemize.\nUsing the first one."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains more than one \\itemize.\n"
+"Using the first one."
 msgstr ""
 
-msgid "Malformed NEWS.Rd file:\nChunk starting\n  %s\ncontains no \\item."
+msgid ""
+"Malformed NEWS.Rd file:\n"
+"Chunk starting\n"
+"  %s\n"
+"contains no \\item."
 msgstr ""
 
 msgid "Processing packages:"
@@ -1095,7 +1146,9 @@ msgstr ""
 msgid "Invalid DESCRIPTION file for package %s"
 msgstr ""
 
-msgid "reading DESCRIPTION for package %s failed with message:\n  %s"
+msgid ""
+"reading DESCRIPTION for package %s failed with message:\n"
+"  %s"
 msgstr ""
 
 msgid "unable to create temporary directory %s"
@@ -1108,6 +1161,12 @@ msgid "argument '%s' must be a character string or connection"
 msgstr ""
 
 msgid "unimplemented encoding"
+msgstr ""
+
+msgid "x must be a single string"
+msgstr ""
+
+msgid "invalid hex string"
 msgstr ""
 
 msgid "this requires 'objdump.exe' to be on the PATH"
@@ -1134,6 +1193,9 @@ msgstr ""
 msgid "Testing examples for package %s"
 msgstr ""
 
+msgid "Error: running examples in %s failed"
+msgstr ""
+
 msgid "comparing %s to %s ..."
 msgstr ""
 
@@ -1156,6 +1218,9 @@ msgid "Running specific tests for package %s"
 msgstr ""
 
 msgid "Running %s"
+msgstr ""
+
+msgid "Error: running the tests in %s failed"
 msgstr ""
 
 msgid "Running vignettes for package %s"
@@ -1215,7 +1280,9 @@ msgstr ""
 msgid "OFF"
 msgstr ""
 
-msgid "]\nDetected PACKAGES file with"
+msgid ""
+"]\n"
+"Detected PACKAGES file with"
 msgstr ""
 
 msgid "entries at"
@@ -1245,7 +1312,7 @@ msgstr ""
 msgid "update_PACKAGES complete."
 msgstr ""
 
-msgid "'x' must be a single character string"
+msgid "'%s' must be a character string"
 msgstr ""
 
 msgid "test '%s' is not available"
@@ -1297,6 +1364,9 @@ msgid "Unknown encoding with non-ASCII data: converting to ASCII"
 msgstr ""
 
 msgid "cannot source package code:"
+msgstr ""
+
+msgid "inferiorCallError"
 msgstr ""
 
 msgid "inferior call failed"
@@ -1408,13 +1478,22 @@ msgid_plural "Generics without any methods in %s: %s"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "missing/empty \\name field in Rd file\n%s"
-msgid_plural "missing/empty \\name field in Rd files\n%s"
+msgid ""
+"missing/empty \\name field in Rd file\n"
+"%s"
+msgid_plural ""
+"missing/empty \\name field in Rd files\n"
+"%s"
 msgstr[0] ""
 msgstr[1] ""
 
 msgid "SUMMARY: processing the following file failed:"
 msgid_plural "SUMMARY: processing the following files failed:"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "Package %s does not have a registered vignette engine"
+msgid_plural "None of packages %s have registered vignette engines"
 msgstr[0] ""
 msgstr[1] ""
 

@@ -19,7 +19,8 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
+#: src/gnuwin32/console.c:1204 src/gnuwin32/console.c:1246
+#: src/gnuwin32/console.c:1774
 msgid "Not enough memory"
 msgstr "메모리가 부족합니다"
 
@@ -1211,4 +1212,3 @@ msgstr "페이지 변경을 확인하기 위해 기다리는 중..."
 #: src/library/grDevices/src/devWindows.c:3900
 msgid "Click or hit ENTER for next page"
 msgstr "다음 페이지로 이동하기 위해서는 클릭 또는 엔터키를 누르세요"
-

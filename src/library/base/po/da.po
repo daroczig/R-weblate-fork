@@ -7417,7 +7417,7 @@ msgstr "InternetOpenUrl mislykkedes: '%s'"
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:216
+#: src/modules/internet/libcurl.c:213
 #, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
@@ -8128,4 +8128,3 @@ msgstr "ADVARSEL: Redigeringer kun den første i listen over filer"
 
 #~ msgid "symbol"
 #~ msgstr "symbol"
-

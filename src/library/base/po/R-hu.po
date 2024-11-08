@@ -55,14 +55,16 @@ msgstr "a második argumentum lista kell hogy legyen"
 msgid "'iconvlist' is not available on this system"
 msgstr "'iconvlist' nem elérhető ezen a rendszeren"
 
-msgid "'kind' must be a character string of length 1 (RNG to be used)."
+#, fuzzy
+msgid "'kind' must be a character string (RNG to be used)."
 msgstr "'kind' 1 hosszúságú karakterlánc kell legyen (RNG alkalmazása esetén)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' az RNG-hez nem érvényes rövidítés"
 
-msgid "'normal.kind' must be a character string of length 1"
-msgstr "'normal.kind' 1 hosszúságú karakterlánc kell legyen"
+#, fuzzy
+msgid "'%s' must be a character string"
+msgstr "'file' karakterlánc vagy összeköttetés kell hogy legyen"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' nem érvényes választás"
@@ -936,7 +938,7 @@ msgid "nothing specified to be save()d"
 msgstr ""
 
 #, fuzzy
-msgid "'%s' must be a non-empty string"
+msgid "'%s' must be a non-empty character string"
 msgstr "'x' kvadratikus mátrix kell hogy legyen"
 
 msgid "'compress' must be logical or character"
@@ -1662,9 +1664,6 @@ msgstr "Traceback nem elérhető"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr ""
 
-msgid "Calls"
-msgstr ""
-
 msgid "invalid version specification %s"
 msgstr ""
 
@@ -1929,6 +1928,8 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
+#~ msgid "'normal.kind' must be a character string of length 1"
+#~ msgstr "'normal.kind' 1 hosszúságú karakterlánc kell legyen"
+
 #~ msgid "norm '%s' currently always uses exact = FALSE"
 #~ msgstr "norm '%s' jelenleg mindig exact = FALSE beállítást használ"
-

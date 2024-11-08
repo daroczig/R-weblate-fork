@@ -2370,7 +2370,8 @@ msgstr "Nivel de confianza conf.level solicitado no alcanzable"
 msgid "cannot compute confidence interval when all observations are tied"
 msgstr "no se puede calcular el intervalo de confianza cuando todas las observaciones están empatadas"
 
-msgid "must supply either 'formula' or 'data'"
+#, fuzzy
+msgid "must supply 'formula' or 'data'"
 msgstr "debe proporcionar o bien 'formula' o bien 'data'"
 
 msgid "%s applies only to two-way tables"
@@ -2557,4 +2558,3 @@ msgid "'start.innov' is too short: need %d point"
 msgid_plural "'start.innov' is too short: need %d points"
 msgstr[0] "'_start.innov_' is too short: need %d point"
 msgstr[1] "'start.innov' es demasiado corto: necesita %d puntos"
-

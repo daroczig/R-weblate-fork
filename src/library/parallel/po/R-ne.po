@@ -37,7 +37,10 @@ msgstr ""
 msgid "not a valid cluster"
 msgstr ""
 
-msgid "unknown cluster type"
+msgid "replacing registration for cluster type '%s'"
+msgstr ""
+
+msgid "unknown cluster type: '%s'"
 msgstr ""
 
 msgid "numeric 'names' must be >= 1"
@@ -135,4 +138,3 @@ msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] ""
 msgstr[1] ""
-

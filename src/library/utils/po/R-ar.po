@@ -445,7 +445,7 @@ msgstr ""
 msgid "Unable to connect to CRAN to check R version."
 msgstr ""
 
-msgid "argument %s must be a character string"
+msgid "'%s' must be a character string"
 msgstr ""
 
 msgid "incorrect field specification"
@@ -693,9 +693,6 @@ msgstr ""
 msgid ""
 "Do not know which element of 'lib' to install dependencies into\n"
 "skipping dependencies"
-msgstr ""
-
-msgid "'%s' must be a character string"
 msgstr ""
 
 msgid "type 'binary' is not supported on this platform"
@@ -1398,4 +1395,3 @@ msgid "invalid roman numeral: %s"
 msgid_plural "invalid roman numerals: %s"
 msgstr[0] ""
 msgstr[1] ""
-

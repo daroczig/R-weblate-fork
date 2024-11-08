@@ -226,10 +226,6 @@ msgstr "'breaks' are not strictly increasing"
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' is an alias for '!freq', however they differ."
 
-#, fuzzy
-msgid "fuzz must be non-negative"
-msgstr "integer colours must be non-negative"
-
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 
@@ -492,3 +488,6 @@ msgid_plural "arguments %s are not made use of"
 msgstr[0] "argument %s is not made use of"
 msgstr[1] "arguments %s are not made use of"
 
+#, fuzzy
+#~ msgid "fuzz must be non-negative"
+#~ msgstr "integer colours must be non-negative"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-08-26 19:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
@@ -258,9 +258,7 @@ msgid "cannot coerce class %s to a data.frame"
 msgstr "impossible de convertir automatiquement la classe %s en un tableau de données (data.frame)"
 
 msgid "'row.names' is not a character or integer vector of length %d"
-msgstr ""
-"'row.names' n’est pas un vecteur de chaînes de caractères ni d'entiers de "
-"longueur %d"
+msgstr "'row.names' n’est pas un vecteur de chaînes de caractères ni d'entiers de longueur %d"
 
 msgid "mismatch of row names in arguments of 'data.frame', item %d"
 msgstr "erreur dans le nom des lignes dans les arguments de 'data.frame', élément %d"
@@ -347,9 +345,7 @@ msgid "invalid list argument: all variables should have the same length"
 msgstr "liste d'arguments incorrecte : toutes les variables doivent avoir la même longueur"
 
 msgid "number of columns of result, %d, is not a multiple of vector length %d of arg %d"
-msgstr ""
-"le nombre de colonnes du résultat, %d, n'est pas un multiple de la longueur "
-"du vecteur %d de l'argument %d"
+msgstr "le nombre de colonnes du résultat, %d, n'est pas un multiple de la longueur du vecteur %d de l'argument %d"
 
 msgid "<0 rows> (or 0-length row.names)"
 msgstr "<0 lignes> (ou 'row.names' de longueur nulle)"
@@ -540,8 +536,7 @@ msgid ""
 "%s"
 msgstr ""
 "Format DCF incorrect.\n"
-"Les lignes qui continuent les précédentes ne doivent pas commencer un "
-"enregistrement.\n"
+"Les lignes qui continuent les précédentes ne doivent pas commencer un enregistrement.\n"
 "Les lignes litigieuses commencent par :\n"
 "%s"
 
@@ -951,8 +946,9 @@ msgstr "'file' doit être spécifié"
 msgid "nothing specified to be save()d"
 msgstr "rien n'est indiqué pour être sauvé avec save()"
 
-msgid "'%s' must be a non-empty string"
-msgstr "'%s' doit être une chaîne de caractères non vide"
+#, fuzzy
+msgid "'%s' must be a non-empty character string"
+msgstr "'name' doit être une chaîne de caractères unique"
 
 msgid "'compress' must be logical or character"
 msgstr "'compress' ou une valeur logique ou une chaîne de caractères"
@@ -1680,12 +1676,7 @@ msgid "No traceback available"
 msgstr "Pas d'historique des fonctions appelées ('traceback') disponible"
 
 msgid "invalid non-character version specification 'x' (type: %s)"
-msgstr ""
-"spécification incorrecte de version 'x' qui ne sont pas des caractères (type "
-": %s)"
-
-msgid "Calls"
-msgstr "Appels"
+msgstr "spécification incorrecte de version 'x' qui ne sont pas des caractères (type : %s)"
 
 msgid "invalid version specification %s"
 msgstr "spécification de version incorrecte %s"
@@ -1952,6 +1943,12 @@ msgstr[0] ""
 msgstr[1] ""
 "Dans %s :\n"
 "les arguments supplémentaires %s seront ignorés"
+
+#~ msgid "'%s' must be a non-empty string"
+#~ msgstr "'%s' doit être une chaîne de caractères non vide"
+
+#~ msgid "Calls"
+#~ msgstr "Appels"
 
 #~ msgid "'normal.kind' must be a character string of length 1"
 #~ msgstr "'normal.kind' doit être une chaîne de caractères de longueur 1"
@@ -2293,5 +2290,3 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valeur incorrecte"
-
-

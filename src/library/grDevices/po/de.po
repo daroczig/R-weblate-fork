@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R-4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -154,7 +154,7 @@ msgstr "unbekannte AFM Entität aufgetreten"
 msgid "invalid string in '%s'"
 msgstr "ungültige Zeichenkette in '%s'"
 
-#: devPS.c:810
+#: devPS.c:811
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "Zeichenbreite unbekannt für das Zeichen 0x%02x im Encoding %s"
@@ -174,7 +174,7 @@ msgstr "unbekannte Kodierung '%s' in 'PostScriptMetricInfo'"
 msgid "Unicode character %lc (U+%04X) cannot be converted"
 msgstr "Der Unicode-Character %lc (U+%04X) kann nicht konvertiert werden"
 
-#: devPS.c:918 devPS.c:972
+#: devPS.c:919 devPS.c:973
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
 msgstr "Fontmetrik für das Zeichen 0x%02x im Encoding %s ist unbekannt"
@@ -366,7 +366,7 @@ msgstr "Familie '%s' ist nicht im postscript() Gerät enthalten"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "unbekannte Kodierung '%s' in 'mbcsToSbcs'"
 
-#: devPS.c:4582 devPS.c:4589
+#: devPS.c:4635 devPS.c:4642
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
 msgstr "Konvertierungsfehler für '%s' in 'mbcsToSbcs': für <%02x>"
@@ -1080,4 +1080,3 @@ msgstr "Zeichensatzfamilie in der Windows Zeichensatzdatenbank nicht gefunden"
 
 #~ msgid "re-encoding is not possible on this system"
 #~ msgstr "Re-Kodierung ist auf diesem System nicht möglich"
-

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -302,15 +302,6 @@ msgstr "Método de inserción correspondiente a la firma vacía"
 msgid "inserting method into non-methods-list object (class %s)"
 msgstr "Insertar un método en un objeto que no es una lista de métodos (clase %s)"
 
-msgid "invalid method sublist"
-msgstr "Sublista de métodos no válidos"
-
-msgid "%f is not a valid generic function: methods list was an object of class %s"
-msgstr "%f no es una función genérica válida: la lista de métodos era un objeto de la clase %s"
-
-msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
-msgstr "%s debe ser TRUE, FALSE o un vector lógico con nombre de esos valores; se obtuvo un objeto de clase %s"
-
 msgid "default method must be a method definition, a primitive or NULL: got an object of class %s"
 msgstr "el método predeterminado debe ser una definición de método, una primitiva o NULL: se obtuvo un objeto de clase %s"
 
@@ -334,9 +325,6 @@ msgstr "Más elementos en la signatura del método (%d) que en la signatura gen�
 
 msgid "no generic function found corresponding to %s"
 msgstr "No se ha encontrado ninguna función genérica que corresponda a %s"
-
-msgid "skipping methods list element %s of unexpected class %s"
-msgstr "omitiendo el elemento %s, de clase inesperada %s, de la lista de métodos"
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is deprecated."
 msgstr "%s, junto con otros usos de los objetos de metadatos \"MethodsList\", es obsoleto."
@@ -491,7 +479,8 @@ msgstr "la clase no puede tener tanto un tipo de datos ordinario como uno oculto
 msgid "a validity method must be a function of one argument, got an object of class %s"
 msgstr "un método de validación debe ser una función de un argumento, se obtuvo un objeto de clase %s"
 
-msgid "unable to find required package %s"
+#, fuzzy
+msgid "unable to load required package %s"
 msgstr "imposible hallar el paquete requerido %s"
 
 msgid "unable to find an environment containing class %s"
@@ -555,9 +544,7 @@ msgid "formal arguments (%s) omitted in the method definition cannot be in the s
 msgstr "los argumentos formales (%s) omitidos en la definición del método no pueden estar en la firma de método"
 
 msgid "expanding the signature to include omitted arguments in definition: %s"
-msgstr ""
-"expandiendo la firma de método para incluir argumentos omitidos en la "
-"definición: %s"
+msgstr "expandiendo la firma de método para incluir argumentos omitidos en la definición: %s"
 
 msgid "methods can add arguments to the generic %s only if '...' is an argument to the generic"
 msgstr "los métodos pueden agregar argumentos al genérico %s solo si '...' es un argumento del genérico"
@@ -831,9 +818,7 @@ msgid "object %s not found"
 msgstr "no se encontró el objeto %s"
 
 msgid "object %s not changed (it is not consistent with the current definition of class %s from %s)"
-msgstr ""
-"el objeto %s no cambió (no es consistente con la actual definición de clase "
-"%s de %s)"
+msgstr "el objeto %s no cambió (no es consistente con la actual definición de clase %s de %s)"
 
 msgid "no definition for the class of %s (class %s) found"
 msgstr "no se encontró definición para la clase de %s (clase %s)"
@@ -880,7 +865,8 @@ msgstr "Esqueleto para método se escribió en %s"
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "objeto no válido en la metatabla de métodos para %s, etiqueta %s, tenía clase %s"
 
-msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
+#, fuzzy
+msgid "invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 msgstr "elemento mlist no válido para la firma de método %s en el nivel %d (debe ser MethodDefinition o .Primitive, tenía clase %s)"
 
 msgid "bad method object stored in method table, class %s"
@@ -1331,3 +1317,14 @@ msgid_plural "no definition of class %s in the specified position, %s, definitio
 msgstr[0] "no se encontró definición de clase %s en la posición especificada, %s, definición en : %s"
 msgstr[1] "no se encontró definición de clase %s en la posición especificada, %s, definiciones en : %s"
 
+#~ msgid "invalid method sublist"
+#~ msgstr "Sublista de métodos no válidos"
+
+#~ msgid "%f is not a valid generic function: methods list was an object of class %s"
+#~ msgstr "%f no es una función genérica válida: la lista de métodos era un objeto de la clase %s"
+
+#~ msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
+#~ msgstr "%s debe ser TRUE, FALSE o un vector lógico con nombre de esos valores; se obtuvo un objeto de clase %s"
+
+#~ msgid "skipping methods list element %s of unexpected class %s"
+#~ msgstr "omitiendo el elemento %s, de clase inesperada %s, de la lista de métodos"

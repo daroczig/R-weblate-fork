@@ -1,10 +1,4 @@
 msgid ""
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -21,12 +15,6 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
 
-
-
-
-
-
-
 #: Srunmed.c:63
 msgid "bandwidth/span of running medians is larger than n"
 msgstr "pasmo/rozpiętość ruchomych median jest większe niż 'n'"
@@ -34,8 +22,7 @@ msgstr "pasmo/rozpiętość ruchomych median jest większe niż 'n'"
 #: Srunmed.c:262
 #, c-format
 msgid "runmed(x, .., na.action=\"na.fail\"): have NAs starting at x[%lld]"
-msgstr ""
-"runmed(x, .., na.action=\"na.fail\"): ma wartości NA zaczynając od x[%lld]"
+msgstr "runmed(x, .., na.action=\"na.fail\"): ma wartości NA zaczynając od x[%lld]"
 
 #: Srunmed.c:265
 msgid "runmed(): invalid 'na.action'"
@@ -220,8 +207,7 @@ msgid ""
 "FEXACT[f3xact()] error: hash key %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Rather set 'simulate.p.value=TRUE'\n"
 msgstr ""
-"błąd FEXACT[f3xact()]: klucz hahujacy %.0g > INT_MAX, kyy=%d, it[i (= nco = "
-"%d)]= %d.\n"
+"błąd FEXACT[f3xact()]: klucz hahujacy %.0g > INT_MAX, kyy=%d, it[i (= nco = %d)]= %d.\n"
 "Raczej ustaw 'simulate.p.value=TRUE'\n"
 
 #: fexact.c:1073
@@ -281,16 +267,12 @@ msgstr "wymagany jest (wielowymiarowy) szereg o wartościach będących wektoram
 #: fourier.c:213
 #, c-format
 msgid "nextn() found no solution < %d = INT_MAX (the maximal integer); pass '0+ n' instead of 'n'"
-msgstr ""
-"nextn() nie znalazł rozwiązania < %d = INT_MAX (maksymalna liczba całkowita);"
-" przekaż '0+ n' zamiast 'n'"
+msgstr "nextn() nie znalazł rozwiązania < %d = INT_MAX (maksymalna liczba całkowita); przekaż '0+ n' zamiast 'n'"
 
 #: fourier.c:225
 #, c-format
 msgid "nextn<64>() found no solution < %llu = UINT64_MAX (the maximal integer)"
-msgstr ""
-"nextn<64>() nie znalazł rozwiązania < %llu = UINT64_MAX (maksymalna liczba "
-"całkowita)"
+msgstr "nextn<64>() nie znalazł rozwiązania < %llu = UINT64_MAX (maksymalna liczba całkowita)"
 
 #: fourier.c:241
 msgid "no factors"
@@ -311,9 +293,7 @@ msgstr "'n' musi mieć typeof(.) równy \"integer\" lub \"double\""
 #: fourier.c:290
 #, c-format
 msgid "nextn() = %<PRIu64> > 2^53 may not be exactly representable in R (as \"double\")"
-msgstr ""
-"nextn() = %<PRIu64> > 2^53 może nie być dokładnie reprezentowalne w R (jako "
-"\"double\")"
+msgstr "nextn() = %<PRIu64> > 2^53 może nie być dokładnie reprezentowalne w R (jako \"double\")"
 
 #: integrate.c:79 integrate.c:81 integrate.c:123
 #, c-format
@@ -333,7 +313,7 @@ msgstr "tylko 2500 wierszy jest dozwolonych dla 'sm.method=\"spline\"'"
 msgid "'x' is not a matrix"
 msgstr "argument 'x' nie jest macierzą"
 
-#: lm.c:62
+#: lm.c:56
 #, c-format
 msgid "dimensions of 'x' (%d,%d) and 'y' (%lld) do not match"
 msgstr "wymiary 'x' (%d,%d) oraz 'y' (%lld) nie zgadzają się"
@@ -538,9 +518,7 @@ msgstr "argument 'data' posiada niepoprawny typ"
 #: model.c:1867
 #, c-format
 msgid "'varlist' has changed (from nvar=%d) to new %d after EncodeVars() -- should no longer happen!"
-msgstr ""
-"'varlist' został zmieniony (z nvar=%d) na nowy %d po EncodeVars() -- nie "
-"powinno się już zdarzyć!"
+msgstr "'varlist' został zmieniony (z nvar=%d) na nowy %d po EncodeVars() -- nie powinno się już zdarzyć!"
 
 #: model.c:2151
 msgid "'.' in formula and no 'data' argument"
@@ -1016,4 +994,3 @@ msgstr "brakuje wartości w ostatnich %d obserwacjach"
 
 #~ msgid "stats"
 #~ msgstr "stats"
-

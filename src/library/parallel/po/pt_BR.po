@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.5.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:34-0700\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -38,12 +38,8 @@ msgid "invalid '%s' argument"
 msgstr "argumento '%s' inválido"
 
 #: fork.c:451
-msgid ""
-"Error while shutting down parallel: unable to terminate some child "
-"processes\n"
-msgstr ""
-"Erro ao desligar o paralelo: não foi possível encerrar algum(s) processo(s) "
-"filho(s)\n"
+msgid "Error while shutting down parallel: unable to terminate some child processes\n"
+msgstr "Erro ao desligar o paralelo: não foi possível encerrar algum(s) processo(s) filho(s)\n"
 
 #: fork.c:544 fork.c:547
 msgid "unable to create a pipe"

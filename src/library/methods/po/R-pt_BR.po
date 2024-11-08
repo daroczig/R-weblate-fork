@@ -975,7 +975,8 @@ msgstr ""
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "definição de método inválida: uma função era esperada, mas foi especificado um objeto de classe \"%s\""
 
-msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
+#, fuzzy
+msgid "invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 msgstr "elemento mlist inválido para assinatura %s no nível %d (deve ser MethodDefinition ou .Primitive, tinha classe %s)"
 
 #, fuzzy
@@ -1682,5 +1683,3 @@ msgstr[1] "nenhuma definição de classe %s na posição especificada, %s, defin
 #, fuzzy
 #~ msgid "Package \"%s\" is not loaded"
 #~ msgstr "Pacote '%s' não está carregado"
-
-

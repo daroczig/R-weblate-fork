@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -588,8 +588,7 @@ msgid "'V' is not a square numeric matrix"
 msgstr "'V' não é uma matriz quadrada numérica"
 
 msgid "diag(V) had non-positive or NA entries; the non-finite result may be dubious"
-msgstr ""
-"diag(V) tem entradas 0 ou NA; os resultados não-finitos podem ser duvidosos"
+msgstr "diag(V) tem entradas 0 ou NA; os resultados não-finitos podem ser duvidosos"
 
 msgid "'x' must be a numeric vector"
 msgstr "'X' deve ser um vetor numérico"
@@ -997,9 +996,7 @@ msgstr "em cima"
 
 #, fuzzy
 msgid "profiling has found a better solution, so original fit had not converged"
-msgstr ""
-"O perfilamento encontrou uma solução melhor, de modo que o ajuste original "
-"não convergiu"
+msgstr "O perfilamento encontrou uma solução melhor, de modo que o ajuste original não convergiu"
 
 msgid "'family' not recognized"
 msgstr "'family' não reconhecida"
@@ -1337,9 +1334,7 @@ msgid "%s; consider predict(., rankdeficient=\"NA\")"
 msgstr "%s; considerar predict(., rankdeficient=\"NA\")"
 
 msgid "lower-rank qr: determining non-estimable cases"
-msgstr ""
-"qr de classificação inferior (lower-rank qr): determinando casos não "
-"estimáveis"
+msgstr "qr de classificação inferior (lower-rank qr): determinando casos não estimáveis"
 
 msgid "%s; attr(*, \"non-estim\") has doubtful cases"
 msgstr "%s; attr(*, \"non-estim\") tem casos duvidosos"
@@ -1870,9 +1865,7 @@ msgid "wrong number of columns in 'x'"
 msgstr "número errado de colunas em 'x'"
 
 msgid "cannot rescale a constant/zero column to unit variance"
-msgstr ""
-"não é possível redimensionar uma coluna constante/zero para variância "
-"unitária"
+msgstr "não é possível redimensionar uma coluna constante/zero para variância unitária"
 
 msgid "PCA applies only to numerical variables"
 msgstr "PCA aplica-se apenas a variáveis numéricas"
@@ -2232,9 +2225,7 @@ msgid "data are essentially constant"
 msgstr "os dados são essencialmente constantes"
 
 msgid "cannot use 'paired' in formula method"
-msgstr ""
-"não é possível usar 'paired' quando 'fomula' é utilizado ao invés de 'x' e "
-"'y'"
+msgstr "não é possível usar 'paired' quando 'fomula' é utilizado ao invés de 'x' e 'y'"
 
 msgid "'main' must be TRUE, FALSE, NULL or character (vector)."
 msgstr "'main' deve ser TRUE, FALSE, NULL ou character (vetor)."

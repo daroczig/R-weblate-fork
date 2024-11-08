@@ -1128,7 +1128,7 @@ msgstr "적합한 인자들이 아닙니다"
 msgid "argument is not a matrix"
 msgstr "인자가 행렬을 가지지 않습니다"
 
-#: src/main/array.c:1717 src/main/attrib.c:1226
+#: src/main/array.c:1713 src/main/attrib.c:1221
 #, c-format
 msgid "invalid first argument, must be %s"
 msgstr "잘못된 첫 번째 인수, %s여야 합니다."
@@ -5179,7 +5179,7 @@ msgstr "이 플랫폼에서는 (하드) 링크가 지원되지 않습니다"
 msgid "'%s' and '%s' are of different lengths"
 msgstr "'from'과 'to'의 길이가 다릅니다"
 
-#: src/main/platform.c:753
+#: src/main/platform.c:754
 #, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
 msgstr "파일명을 '%ls'에서 '%ls'로 바꿀 수 없습니다. 그 이유는 '%s' 때문입니다"
@@ -7423,7 +7423,7 @@ msgstr ""
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:216
+#: src/modules/internet/libcurl.c:213
 #, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
@@ -8249,4 +8249,3 @@ msgstr "경고: 파일들의 목록에서 오로지 첫번째 것만을 편집�
 
 #~ msgid "invalid 'tryS4' internal argument"
 #~ msgstr "유효한 'tryS4' 내부 인자가 아닙니다"
-

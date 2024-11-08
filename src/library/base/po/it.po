@@ -4020,7 +4020,7 @@ msgstr "buffer overflow in ingresso (%s:%d:%d)"
 msgid "function '%s' not supported in RHS call of a pipe (%s:%d:%d)"
 msgstr "funzione '%s' non supportata dalla chiamata RHS di un pipe (%s:%d:%d)"
 
-#: src/main/gram.y:1223 src/main/gram.y:1255
+#: src/main/gram.y:1224 src/main/gram.y:1256
 #, c-format
 msgid "pipe placeholder may only appear once (%s:%d:%d)"
 msgstr "il placeholder di pipe può essere usato solo come argomento definito (%s:%d:%d)"
@@ -8148,4 +8148,3 @@ msgstr "AVVERTIMENTO: Sarà modificato il primo file della lista"
 
 #~ msgid "invalid component [[11]] in \"POSIXlt\" should be 'gmtoff'"
 #~ msgstr "componente [[11]] non valido in \"POSIXlt\" dovrebbe essere 'gmtoff'"
-

@@ -666,9 +666,6 @@ msgstr "Paquete de motor viñeta no especificado"
 msgid "Unsupported engine name"
 msgstr "Nombre de motor no admitido"
 
-msgid "None of packages %s have registered vignette engines"
-msgstr "Ninguno de los paquetes %s tiene motores de viñeta registrados"
-
 msgid "Vignette engine %s is not registered"
 msgstr "El motor de viñetas %s no está registrado"
 
@@ -1359,7 +1356,8 @@ msgstr "Escribir archivos PACKAGES actualizados finales."
 msgid "update_PACKAGES complete."
 msgstr "update_PACKAGES completo."
 
-msgid "'x' must be a single character string"
+#, fuzzy
+msgid "'%s' must be a character string"
 msgstr "'x' debe ser una cadena de un solo carácter"
 
 msgid "test '%s' is not available"
@@ -1583,3 +1581,5 @@ msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Entrada BibTeX correspondiente:"
 msgstr[1] "Entradas BibTeX correspondientes:"
 
+#~ msgid "None of packages %s have registered vignette engines"
+#~ msgstr "Ninguno de los paquetes %s tiene motores de viñeta registrados"

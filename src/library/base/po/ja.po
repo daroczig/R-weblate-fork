@@ -945,7 +945,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr "dimnames(<value>) は NULL でも長さ %d のリストでもありません"
 
-#: src/main/apply.c:343 src/main/coerce.c:2726
+#: src/main/apply.c:343 src/main/coerce.c:2730
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' はリストまたはexpressionでなければなりません"
@@ -1127,7 +1127,7 @@ msgstr "適切な引数ではありません"
 msgid "argument is not a matrix"
 msgstr "引数が行列ではありません"
 
-#: src/main/array.c:1717 src/main/attrib.c:1226
+#: src/main/array.c:1713 src/main/attrib.c:1221
 #, c-format
 msgid "invalid first argument, must be %s"
 msgstr "一番目の引数が不正です。 %sでなくてはなりません"
@@ -1491,12 +1491,12 @@ msgstr "パッケージのインポートの親の環境は設定できません
 msgid "'parent' is not an environment"
 msgstr "'parent' は環境ではありません"
 
-#: src/main/builtin.c:570 src/main/connections.c:4217
-#: src/main/connections.c:4600 src/main/connections.c:4637
-#: src/main/connections.c:5017 src/main/connections.c:5087
-#: src/main/connections.c:5305 src/main/connections.c:5309
-#: src/main/connections.c:5790 src/main/deparse.c:414 src/main/deparse.c:500
-#: src/main/serialize.c:2462
+#: src/main/builtin.c:570 src/main/connections.c:4221
+#: src/main/connections.c:4604 src/main/connections.c:4641
+#: src/main/connections.c:5023 src/main/connections.c:5093
+#: src/main/connections.c:5314 src/main/connections.c:5318
+#: src/main/connections.c:5801 src/main/deparse.c:416 src/main/deparse.c:502
+#: src/main/serialize.c:2466
 msgid "cannot write to this connection"
 msgstr "このコネクションには書き出せません"
 
@@ -1994,13 +1994,13 @@ msgstr "fifo '%s' は準備ができていません"
 msgid "cannot open fifo '%s'"
 msgstr "fifo '%s' を開くことができません"
 
-#: src/main/connections.c:1258 src/main/connections.c:1269
-#: src/main/connections.c:1430 src/main/connections.c:1449
-#: src/main/connections.c:1903 src/main/connections.c:1913
-#: src/main/connections.c:2043 src/main/connections.c:2103
-#: src/main/connections.c:2658 src/main/connections.c:2674
-#: src/main/connections.c:2996 src/main/connections.c:5976
-#: src/main/connections.c:6040
+#: src/main/connections.c:1259 src/main/connections.c:1270
+#: src/main/connections.c:1431 src/main/connections.c:1450
+#: src/main/connections.c:1904 src/main/connections.c:1914
+#: src/main/connections.c:2044 src/main/connections.c:2104
+#: src/main/connections.c:2659 src/main/connections.c:2675
+#: src/main/connections.c:3000 src/main/connections.c:5987
+#: src/main/connections.c:6051
 msgid "too large a block specified"
 msgstr "指定されたブロックが大きすぎます"
 
@@ -2552,14 +2552,14 @@ msgstr "ソケットルーチンがロードできません"
 msgid "not a socket connection"
 msgstr "ソケットコネクションではありません"
 
-#: src/main/connections.c:6427 src/modules/internet/libcurl.c:721
+#: src/main/connections.c:6442 src/modules/internet/libcurl.c:650
 #: src/modules/internet/sockconn.c:62 src/modules/internet/sockconn.c:96
-#: src/modules/internet/sockconn.c:296
+#: src/modules/internet/sockconn.c:297
 #, fuzzy
 msgid "file descriptor is too large for select()"
 msgstr "長さ %d は大きすぎてハッシュできません"
 
-#: src/main/connections.c:6433 src/modules/internet/libcurl.c:606
+#: src/main/connections.c:6448 src/modules/internet/libcurl.c:793
 msgid "too many file descriptors for select()"
 msgstr ""
 
@@ -3677,7 +3677,7 @@ msgstr "強制変換中に不正確な整数変換が行われました"
 msgid "unknown warning (report this!)"
 msgstr "未知の警告です (報告してください！)"
 
-#: src/main/errors.c:1742
+#: src/main/errors.c:1745
 msgid "bad handler data"
 msgstr "ハンドラーデータ (handler data) が不正です"
 
@@ -3872,7 +3872,7 @@ msgstr "代入の左辺が不正 (do_set) です"
 msgid "'%s' is missing"
 msgstr "'%s' が見つかりません"
 
-#: src/main/eval.c:3859
+#: src/main/eval.c:3840
 #, fuzzy, c-format
 msgid "invalid formal argument list for \"%s\""
 msgstr "\"function\" の仮引数リストが不正です"
@@ -3886,7 +3886,7 @@ msgstr "'%s' 引数 (型 '%s') が不正です"
 msgid "numeric 'envir' arg not of length one"
 msgstr "数値の 'envir' 引数の長さが 1 ではありません"
 
-#: src/main/eval.c:4043 src/main/eval.c:4056
+#: src/main/eval.c:4024 src/main/eval.c:4037
 msgid "'Recall' called from outside a closure"
 msgstr "クロージャの外部から 'Recall' が呼び出されました。"
 
@@ -3917,7 +3917,7 @@ msgstr "opcode が不適当です"
 msgid "invalid %s type in 'x %s y'"
 msgstr "'x %s y' の %s の型が不正です"
 
-#: src/main/eval.c:7552
+#: src/main/eval.c:7529
 msgid "byte code version mismatch"
 msgstr "バイトコードのバージョンが不一致です"
 
@@ -6221,12 +6221,12 @@ msgstr "不適切なバージョン値です"
 msgid "binary-mode connection required for ascii=FALSE"
 msgstr "ascii=FALSE に大してはバイナリコネクションが必要です"
 
-#: src/main/serialize.c:2656
+#: src/main/serialize.c:2662
 msgid "cannot return a promise (PROMSXP) object"
 msgstr ""
 
-#: src/main/serialize.c:2808 src/main/serialize.c:2845
-#: src/main/serialize.c:2908
+#: src/main/serialize.c:2815 src/main/serialize.c:2852
+#: src/main/serialize.c:2917
 msgid "serialization is too large to store in a raw vector"
 msgstr "線形化 (serialization) は raw ベクトルに保管するには大きすぎます"
 
@@ -7470,7 +7470,7 @@ msgstr "InternetOpenUrl の失敗: '%s'"
 msgid "cannot open URL '%s': %s status was '%lu %s'"
 msgstr ""
 
-#: src/modules/internet/libcurl.c:216
+#: src/modules/internet/libcurl.c:213
 #, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
 msgstr ""
@@ -7489,14 +7489,14 @@ msgstr ""
 msgid "curlGetHeaders is not supported on this platform"
 msgstr "このプラットフォームでは curlGetHeaders はサポートされていません"
 
-#: src/modules/internet/libcurl.c:363 src/modules/internet/libcurl.c:673
-#: src/modules/internet/libcurl.c:692 src/modules/internet/libcurl.c:1025
-#: src/modules/internet/libcurl.c:1047
+#: src/modules/internet/libcurl.c:374 src/modules/internet/libcurl.c:615
+#: src/modules/internet/libcurl.c:861 src/modules/internet/libcurl.c:1176
+#: src/modules/internet/libcurl.c:1198
 #, fuzzy
 msgid "could not create curl handle"
 msgstr "'name' のための領域を割り当てられませんでした"
 
-#: src/modules/internet/libcurl.c:410 src/modules/internet/libcurl.c:412
+#: src/modules/internet/libcurl.c:421 src/modules/internet/libcurl.c:423
 #, c-format
 msgid ""
 "libcurl error code %d:\n"
@@ -8813,4 +8813,3 @@ msgstr "警告: ファイルリストの最初のみを編集します"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr " 'R_get_primname' がプリミティブでないものに対して呼び出されました "
-

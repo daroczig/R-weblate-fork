@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-08-19 10:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
@@ -121,9 +121,7 @@ msgstr ""
 "    un nouveau générique sera attribué pour %s"
 
 msgid "fdef appears to be a generic function, but with generic name %s instead of %s"
-msgstr ""
-"'fdef' semble être une fonction générique, mais avec le nom générique %s au "
-"lieu de %s"
+msgstr "'fdef' semble être une fonction générique, mais avec le nom générique %s au lieu de %s"
 
 msgid "generic function %s not found for removal"
 msgstr "la fonction générique %s est introuvable pour son élimination"
@@ -512,9 +510,7 @@ msgid "no definition of inheritance from %s to %s, though the relation was impli
 msgstr "pas de définition d'héritage de %s à %s, bien qu'une telle relation était supposée par setIs() de %s"
 
 msgid "Debugging .checkSubclasses(): assignClassDef(what=\"%s\", *, where=%s, force=TRUE);"
-msgstr ""
-"Débogage .checkSubclasses() : assignClassDef(what=“%s”, *, where=%s, "
-"force=TRUE) ;"
+msgstr "Débogage .checkSubclasses() : assignClassDef(what=“%s”, *, where=%s, force=TRUE) ;"
 
 msgid "E := environment(): %s; parent.env(E): %s"
 msgstr "E := environment() : %s ; parent.env(E) : %s"

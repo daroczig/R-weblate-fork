@@ -177,8 +177,15 @@ msgstr "Se recomienda utilizar %s en lugar de %s."
 msgid "Use either %s or %s but not both."
 msgstr "Utilice %s o %s, pero no ambos."
 
-msgid "It is recommended to use %s/%s instead of %s/%s/%s."
-msgstr "Se recomienda utilizar %s/%s en lugar de %s/%s/%s."
+#, fuzzy
+msgid "Arguments of person() should be character or NULL"
+msgstr "'priority' debe ser carácter o NULL"
+
+msgid "subscript out of bounds"
+msgstr "subíndice fuera de límites"
+
+msgid "must have some non-empty fields"
+msgstr ""
 
 msgid "method is only applicable to %s objects"
 msgstr "el método sólo es aplicable a %s objetos"
@@ -191,9 +198,6 @@ msgstr "todos los campos deben tener nombre"
 
 msgid "%s has to be one of %s"
 msgstr "%s tiene que ser uno de %s"
-
-msgid "subscript out of bounds"
-msgstr "subíndice fuera de límites"
 
 msgid "%s should be one of %s"
 msgstr "%s debería ser uno de %s"
@@ -460,8 +464,8 @@ msgstr "Cancelado por el usuario"
 msgid "Unable to connect to CRAN to check R version."
 msgstr "No se puede conectar a CRAN para verificar la versión R."
 
-msgid "argument %s must be a character string"
-msgstr "el argumento %s debe ser una cadena de caracteres"
+msgid "'%s' must be a character string"
+msgstr "'%s' debe ser una cadena de caracteres"
 
 msgid "incorrect field specification"
 msgstr "especificación de campo incorrecta"
@@ -617,9 +621,6 @@ msgstr "el directorio '%s' ya existe"
 msgid "generic functions and other S4 objects (e.g., '%s') cannot be dumped; use the 'code_files' argument"
 msgstr "las funciones genéricas y otros objetos S4 (por ejemplo, '%s') no se pueden volcar; utilizar el argumento 'code_files'"
 
-msgid "invalid 'type'; must be a character string"
-msgstr "'type' no válido; debe ser una cadena de caracteres"
-
 msgid "unable to access index for repository %s"
 msgstr "no se puede acceder al índice del repositorio %s"
 
@@ -716,9 +717,6 @@ msgid ""
 msgstr ""
 "No se sabe en qué elemento de 'lib' instalar las dependencias\n"
 "omitiendo dependencias"
-
-msgid "'%s' must be a character string"
-msgstr "'%s' debe ser una cadena de caracteres"
 
 msgid "type 'binary' is not supported on this platform"
 msgstr "el tipo 'binary' no es compatible con esta plataforma"
@@ -1436,3 +1434,11 @@ msgid_plural "invalid roman numerals: %s"
 msgstr[0] "número romano no válido: %s"
 msgstr[1] "números romanos no válidos: %s"
 
+#~ msgid "It is recommended to use %s/%s instead of %s/%s/%s."
+#~ msgstr "Se recomienda utilizar %s/%s en lugar de %s/%s/%s."
+
+#~ msgid "argument %s must be a character string"
+#~ msgstr "el argumento %s debe ser una cadena de caracteres"
+
+#~ msgid "invalid 'type'; must be a character string"
+#~ msgstr "'type' no válido; debe ser una cadena de caracteres"

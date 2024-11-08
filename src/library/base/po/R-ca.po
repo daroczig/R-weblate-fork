@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Robert Castelo <robert.castelo@upf.edu>\n"
@@ -55,20 +55,19 @@ msgstr "el segon argument ha de ser una llista"
 msgid "'iconvlist' is not available on this system"
 msgstr "«iconvlist» no està disponible en aquest sistema"
 
-msgid "'kind' must be a character string of length 1 (RNG to be used)."
+#, fuzzy
+msgid "'kind' must be a character string (RNG to be used)."
 msgstr "«kind» ha de ser una cadena de caràcters de longitud 1 (RNG a usar)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "«%s» no és una abreviatura vàlida d'un RNG"
 
-msgid "'normal.kind' must be a character string of length 1"
-msgstr "«normal.kind» ha de ser una cadena de caràcters de longitud 1"
+#, fuzzy
+msgid "'%s' must be a character string"
+msgstr "«name» ha de ser una única cadena de caràcters"
 
 msgid "'%s' is not a valid choice"
 msgstr "«%s» no és una elecció vàlida"
-
-msgid "'sample.kind' must be a character string of length 1"
-msgstr "«sample.kind» ha de ser una cadena de caràcters de longitud 1"
 
 msgid "malformed version string"
 msgstr "cadena de versió mal formatada"
@@ -674,9 +673,6 @@ msgstr "No s'ha trobat cap mètode format() per a la classe «%s»"
 msgid "class of 'x' was discarded"
 msgstr "s'ha descartat la classe d'«x»"
 
-msgid "'flag' must be a string, i.e., of length 1"
-msgstr "«flag» ha de ser una cadena, és a dir, de longitud 1"
-
 msgid "'flag' should contain only characters from [0+- #'I]"
 msgstr "«flag» només hauria de contenir caràcters de [0+- #'I]"
 
@@ -945,7 +941,8 @@ msgstr "s'ha d'especificar «file»"
 msgid "nothing specified to be save()d"
 msgstr "no s'ha especificat res per a desar"
 
-msgid "'%s' must be a non-empty string"
+#, fuzzy
+msgid "'%s' must be a non-empty character string"
 msgstr "«%s» ha de ser una cadena no buida"
 
 msgid "'compress' must be logical or character"
@@ -1676,9 +1673,6 @@ msgstr "No hi ha cap traça disponible"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "especificació de versió de no-caràcter «x» no vàlida (tipus: %s)"
 
-msgid "Calls"
-msgstr "Crides"
-
 msgid "invalid version specification %s"
 msgstr "especificació de versió no vàlida %s"
 
@@ -1945,6 +1939,17 @@ msgstr[1] ""
 "A %s :\n"
 " s'ignoraran els arguments addicionals %s"
 
+#~ msgid "'normal.kind' must be a character string of length 1"
+#~ msgstr "«normal.kind» ha de ser una cadena de caràcters de longitud 1"
+
+#~ msgid "'sample.kind' must be a character string of length 1"
+#~ msgstr "«sample.kind» ha de ser una cadena de caràcters de longitud 1"
+
+#~ msgid "'flag' must be a string, i.e., of length 1"
+#~ msgstr "«flag» ha de ser una cadena, és a dir, de longitud 1"
+
+#~ msgid "Calls"
+#~ msgstr "Crides"
+
 #~ msgid "norm '%s' currently always uses exact = FALSE"
 #~ msgstr "la norma «%s» actualment sempre usa «exact = FALSE»"
-

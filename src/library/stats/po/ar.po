@@ -141,15 +141,15 @@ msgstr ""
 msgid "invalid expression in '%s'"
 msgstr ""
 
-#: deriv.c:872
+#: deriv.c:865
 msgid "too many variables"
 msgstr ""
 
-#: deriv.c:1087 model.c:99
+#: deriv.c:1080 model.c:93
 msgid "invalid variable names"
 msgstr ""
 
-#: deriv.c:1095 deriv.c:1097
+#: deriv.c:1088 deriv.c:1090
 msgid "invalid tag"
 msgstr ""
 
@@ -165,11 +165,11 @@ msgstr ""
 msgid "distance(): invalid distance"
 msgstr ""
 
-#: distn.c:47
+#: distn.c:41
 msgid "NaNs produced"
 msgstr ""
 
-#: distn.c:48
+#: distn.c:42
 msgid "Non-numeric argument to mathematical function"
 msgstr ""
 
@@ -287,12 +287,12 @@ msgstr ""
 msgid "'%s' must be of length one"
 msgstr ""
 
-#: isoreg.c:53
+#: isoreg.c:55
 #, c-format
 msgid "non-finite sum(y) == %g is not allowed"
 msgstr ""
 
-#: ksmooth.c:69
+#: ksmooth.c:63
 msgid "only 2500 rows are allowed for sm.method=\"spline\""
 msgstr ""
 
@@ -640,152 +640,152 @@ msgstr ""
 msgid "unknown 'method'"
 msgstr ""
 
-#: optimize.c:221 optimize.c:307 optimize.c:529
+#: optimize.c:214 optimize.c:300 optimize.c:522
 msgid "NA replaced by maximum positive value"
 msgstr ""
 
-#: optimize.c:229 optimize.c:319 optimize.c:537
+#: optimize.c:222 optimize.c:312 optimize.c:530
 msgid "NA/Inf replaced by maximum positive value"
 msgstr ""
 
-#: optimize.c:238
+#: optimize.c:231
 msgid "invalid function value in 'optimize'"
 msgstr ""
 
-#: optimize.c:256 optimize.c:348 optimize.c:723
+#: optimize.c:249 optimize.c:341 optimize.c:716
 msgid "attempt to minimize non-function"
 msgstr ""
 
-#: optimize.c:263 optimize.c:270 optimize.c:279 optimize.c:353 optimize.c:358
-#: optimize.c:374
+#: optimize.c:256 optimize.c:263 optimize.c:272 optimize.c:346 optimize.c:351
+#: optimize.c:367
 #, c-format
 msgid "invalid '%s' value"
 msgstr ""
 
-#: optimize.c:272 optimize.c:359
+#: optimize.c:265 optimize.c:352
 msgid "'xmin' not less than 'xmax'"
 msgstr ""
 
-#: optimize.c:316
+#: optimize.c:309
 msgid "-Inf replaced by maximally negative value"
 msgstr ""
 
-#: optimize.c:329
+#: optimize.c:322
 msgid "invalid function value in 'zeroin'"
 msgstr ""
 
-#: optimize.c:364 optimize.c:369
+#: optimize.c:357 optimize.c:362
 #, c-format
 msgid "NA value for '%s' is not allowed"
 msgstr ""
 
-#: optimize.c:379
+#: optimize.c:372
 msgid "'maxiter' must be positive"
 msgstr ""
 
-#: optimize.c:521
+#: optimize.c:514
 msgid "non-finite value supplied by 'nlm'"
 msgstr ""
 
-#: optimize.c:556
+#: optimize.c:549
 msgid "invalid function value in 'nlm' optimizer"
 msgstr ""
 
-#: optimize.c:568 optimize.c:583
+#: optimize.c:561 optimize.c:576
 msgid "function value caching for optimization is seriously confused"
 msgstr ""
 
-#: optimize.c:598
+#: optimize.c:591
 msgid "numeric parameter expected"
 msgstr ""
 
-#: optimize.c:602
+#: optimize.c:595
 msgid "conflicting parameter lengths"
 msgstr ""
 
-#: optimize.c:606
+#: optimize.c:599
 msgid "invalid parameter length"
 msgstr ""
 
-#: optimize.c:616 optimize.c:623
+#: optimize.c:609 optimize.c:616
 msgid "missing value in parameter"
 msgstr ""
 
-#: optimize.c:628
+#: optimize.c:621
 msgid "invalid parameter type"
 msgstr ""
 
-#: optimize.c:639
+#: optimize.c:632
 msgid "non-positive number of parameters in nlm"
 msgstr ""
 
-#: optimize.c:641
+#: optimize.c:634
 msgid "nlm is inefficient for 1-d problems"
 msgstr ""
 
-#: optimize.c:643
+#: optimize.c:636
 msgid "invalid gradient tolerance in nlm"
 msgstr ""
 
-#: optimize.c:645
+#: optimize.c:638
 msgid "invalid iteration limit in nlm"
 msgstr ""
 
-#: optimize.c:647
+#: optimize.c:640
 msgid "minimization function has no good digits in nlm"
 msgstr ""
 
-#: optimize.c:649
+#: optimize.c:642
 msgid "no analytic gradient to check in nlm!"
 msgstr ""
 
-#: optimize.c:651
+#: optimize.c:644
 msgid "no analytic Hessian to check in nlm!"
 msgstr ""
 
-#: optimize.c:653
+#: optimize.c:646
 msgid "probable coding error in analytic gradient"
 msgstr ""
 
-#: optimize.c:655
+#: optimize.c:648
 msgid "probable coding error in analytic Hessian"
 msgstr ""
 
-#: optimize.c:657
+#: optimize.c:650
 #, c-format
 msgid ""
 "*** unknown error message (msg = %d) in nlm()\n"
 "*** should not happen!"
 msgstr ""
 
-#: optimize.c:668
+#: optimize.c:661
 msgid "Relative gradient close to zero.\n"
 msgstr ""
 
-#: optimize.c:669 optimize.c:673
+#: optimize.c:662 optimize.c:666
 msgid "Current iterate is probably solution.\n"
 msgstr ""
 
-#: optimize.c:672
+#: optimize.c:665
 msgid "Successive iterates within tolerance.\n"
 msgstr ""
 
-#: optimize.c:676
+#: optimize.c:669
 msgid "Last global step failed to locate a point lower than x.\n"
 msgstr ""
 
-#: optimize.c:677
+#: optimize.c:670
 msgid ""
 "Either x is an approximate local minimum of the function,\n"
 "the function is too non-linear for this algorithm,\n"
 "or steptol is too large.\n"
 msgstr ""
 
-#: optimize.c:682
+#: optimize.c:675
 msgid "Iteration limit exceeded.  Algorithm failed.\n"
 msgstr ""
 
-#: optimize.c:685
+#: optimize.c:678
 msgid ""
 "Maximum step size exceeded 5 consecutive times.\n"
 "Either the function is unbounded below,\n"
@@ -794,16 +794,16 @@ msgid ""
 "or stepmx is too small.\n"
 msgstr ""
 
-#: optimize.c:747 optimize.c:752 optimize.c:756 optimize.c:760 optimize.c:764
-#: optimize.c:768 optimize.c:773
+#: optimize.c:740 optimize.c:745 optimize.c:749 optimize.c:753 optimize.c:757
+#: optimize.c:761 optimize.c:766
 msgid "invalid NA value in parameter"
 msgstr ""
 
-#: optimize.c:802
+#: optimize.c:795
 msgid "hessian supplied is of the wrong length or mode, so ignored"
 msgstr ""
 
-#: optimize.c:806
+#: optimize.c:799
 msgid "gradient supplied is of the wrong length or mode, so ignored"
 msgstr ""
 
@@ -955,4 +955,3 @@ msgstr ""
 #, c-format
 msgid "missing value in last %d observations"
 msgstr ""
-

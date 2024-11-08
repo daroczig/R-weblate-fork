@@ -231,11 +231,11 @@ msgstr "no se puede abrir el portapapeles"
 msgid "unable to write to the clipboard"
 msgstr "no se puede escribir en el portapapeles"
 
-#: windows/util.c:414
+#: windows/util.c:416
 msgid "'title' must be a character string"
 msgstr "'title' debe ser una cadena de caracteres"
 
-#: windows/util.c:423
+#: windows/util.c:425
 msgid "'text' must be a character string"
 msgstr "'text' debe ser una cadena de caracteres"
 
@@ -244,7 +244,7 @@ msgstr "'text' debe ser una cadena de caracteres"
 msgid "'%s' must be length 1"
 msgstr "'%s' debe tener longitud 1"
 
-#: windows/util.c:575
+#: windows/util.c:577
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s' debe ser una lista"
@@ -281,4 +281,3 @@ msgstr "'multi' debe ser un valor lógico"
 #: windows/widgets.c:206
 msgid "'filterindex' must be an integer value"
 msgstr "'filterindex' debe ser un valor entero"
-

@@ -667,9 +667,6 @@ msgstr "Vignette engine package not specified"
 msgid "Unsupported engine name"
 msgstr "Unsupported engine name"
 
-msgid "None of packages %s have registered vignette engines"
-msgstr "None of packages %s have registered vignette engines"
-
 msgid "Vignette engine %s is not registered"
 msgstr "Vignette engine %s is not registered"
 
@@ -1110,6 +1107,13 @@ msgstr "package contains no R code"
 msgid "package seems to be using lazy loading already"
 msgstr "package seems to be using lazy loading already"
 
+msgid "'files' and 'bytes' are mutually exclusive"
+msgstr ""
+
+#, fuzzy
+msgid "'bytes' must be a raw vector"
+msgstr "'text' must be a character vector"
+
 msgid ""
 "Cannot process chunk/lines:\n"
 "%s"
@@ -1357,7 +1361,8 @@ msgstr "Writing final updated PACKAGES files."
 msgid "update_PACKAGES complete."
 msgstr "update_PACKAGES complete."
 
-msgid "'x' must be a single character string"
+#, fuzzy
+msgid "'%s' must be a character string"
 msgstr "'x' must be a single character string"
 
 msgid "test '%s' is not available"
@@ -1582,6 +1587,8 @@ msgid_plural "Corresponding BibTeX entries:"
 msgstr[0] "Corresponding BibTeX entry:"
 msgstr[1] "Corresponding BibTeX entries:"
 
+#~ msgid "None of packages %s have registered vignette engines"
+#~ msgstr "None of packages %s have registered vignette engines"
+
 #~ msgid "one of 'package' and 'dir' must be specified."
 #~ msgstr "one of 'package' and 'dir' must be specified."
-

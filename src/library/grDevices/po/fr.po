@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-08-31 03:05+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
@@ -155,12 +155,12 @@ msgstr "entité AFM inconnue rencontrée"
 msgid "invalid string in '%s'"
 msgstr "argument chaîne de caractère incorrect dans '%s'"
 
-#: devPS.c:810
+#: devPS.c:811
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "largeur de police inconnue pour le caractère 0x%02x dans l'encodage %s"
 
-#: devPS.c:871
+#: devPS.c:872
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "métriques de la police inconnues pour le caractère Unicode U+%04X"
@@ -175,18 +175,15 @@ msgstr "encodage inconnu '%s' dans 'PostScriptMetricInfo'"
 msgid "Unicode character %lc (U+%04X) cannot be converted"
 msgstr "Le caractère Unicode %lc (U+%04X) ne peut pas être converti"
 
-#: devPS.c:918 devPS.c:972
+#: devPS.c:919 devPS.c:973
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
-msgstr ""
-"métriques de la police inconnues pour le caractère 0x%02x dans l'encodage %s"
+msgstr "métriques de la police inconnues pour le caractère 0x%02x dans l'encodage %s"
 
-#: devPS.c:987
+#: devPS.c:988
 #, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr ""
-"caractère incorrect (%04X) envoyé à 'PostScriptCIDMetricInfo' dans une "
-"version localisée simple-octet"
+msgstr "caractère incorrect (%04X) envoyé à 'PostScriptCIDMetricInfo' dans une version localisée simple-octet"
 
 #: devPS.c:996
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -370,7 +367,7 @@ msgstr "famille '%s' non incluse dans le périphérique postscript()"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "encodage inconnu '%s' dans 'mbcsToSbcs'"
 
-#: devPS.c:4582 devPS.c:4589
+#: devPS.c:4635 devPS.c:4642
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
 msgstr "erreur de conversion de '%s' dans 'mbcsToSbcs' : pour <%02x>"
@@ -591,7 +588,7 @@ msgstr "Texte non ajouté au chemin contenant un autre dessin"
 msgid "failed to find or load PDF CID font"
 msgstr "impossible de trouver ou de charger la police PDF CID"
 
-#: devPS.c:10786 devPS.c:10878 devPicTeX.c:763
+#: devPS.c:10853 devPS.c:10945 devPicTeX.c:763
 #, c-format
 msgid "invalid 'file' parameter in %s"
 msgstr "paramètre 'file' incorrect dans %s"
@@ -641,9 +638,7 @@ msgstr "Échec dans la création du gradient"
 
 #: devQuartz.c:653 devQuartz.c:686
 msgid "Unsupported gradient fill extend type; using 'pad'"
-msgstr ""
-"Type d'extension de remplissage du gradient non pris en charge ; 'pad' est "
-"utilisé"
+msgstr "Type d'extension de remplissage du gradient non pris en charge ; 'pad' est utilisé"
 
 #: devQuartz.c:729 devQuartz.c:762
 msgid "Failed to create pattern"
@@ -655,8 +650,7 @@ msgstr "Mode d'extension du modèle non pris en charge ;  \"repeat\" est utilis
 
 #: devQuartz.c:814
 msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
-msgstr ""
-"Chemins de détourage Quartz épuisés (échec de l'augmentation de maxClipPaths)"
+msgstr "Chemins de détourage Quartz épuisés (échec de l'augmentation de maxClipPaths)"
 
 #: devQuartz.c:863
 msgid "Quartz clipping paths exhausted"
@@ -692,9 +686,7 @@ msgstr "Les groupes Quartz sont épuisés"
 
 #: devQuartz.c:1177
 msgid "Add compositing operator not supported; falling back to over"
-msgstr ""
-"L'ajout d'opérateur de composition n'est pas pris en charge ; repli sur "
-"\"over\""
+msgstr "L'ajout d'opérateur de composition n'est pas pris en charge ; repli sur \"over\""
 
 #: devQuartz.c:1265 cairo/cairoFns.c:877
 msgid "Groups exhausted"
@@ -726,11 +718,16 @@ msgstr "Tentative de libération d'un chemin de détourage inexistant"
 msgid "Ignored alpha mask (not supported on this device)"
 msgstr "Masque alpha ignoré (non pris en charge par cet équipement)"
 
-#: devQuartz.c:2758 cairo/cairoFns.c:688
+#: devQuartz.c:2773 cairo/cairoFns.c:688
 msgid "Attempt to release non-existent mask"
 msgstr "Tentative de libération d'un masque inexistant"
 
-#: devQuartz.c:3040
+#: devQuartz.c:3023
+#, fuzzy, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "paramètre 'fonts' incorrect dans %s"
+
+#: devQuartz.c:3053
 msgid "Failed to load font"
 msgstr "Échec au chargement de la police"
 
@@ -1065,4 +1062,3 @@ msgstr "Fichier de police non trouvé ; dans la famille de polices et la face"
 
 #~ msgid "re-encoding is not possible on this system"
 #~ msgstr "le réencodage n'est pas possible sur ce système"
-

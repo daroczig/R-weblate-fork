@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 2.13.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -17,19 +17,13 @@ msgid "invalid 'filename'"
 msgstr "'filename' inválido"
 
 msgid "svg: Cairo-based devices are not available for this platform"
-msgstr ""
-"svg: dispositivos baseados em Cairo não estão disponíveis para esta "
-"plataforma"
+msgstr "svg: dispositivos baseados em Cairo não estão disponíveis para esta plataforma"
 
 msgid "cairo_pdf: Cairo-based devices are not available for this platform"
-msgstr ""
-"cairo_pdf: Dispositivos baseados em Cairo não estão disponíveis para esta "
-"plataforma"
+msgstr "cairo_pdf: Dispositivos baseados em Cairo não estão disponíveis para esta plataforma"
 
 msgid "cairo_ps: Cairo-based devices are not available for this platform"
-msgstr ""
-"cairo_ps: Dispositivos baseados em Cairo não estão disponíveis para esta "
-"plataforma"
+msgstr "cairo_ps: Dispositivos baseados em Cairo não estão disponíveis para esta plataforma"
 
 msgid "'coef' must not be negative"
 msgstr "'coef' não pode ser negativo"
@@ -219,8 +213,7 @@ msgid "Unknown font"
 msgstr "fonte desconhecida"
 
 msgid "There must be anchors named \"left\" and \"bottom\""
-msgstr ""
-"Deve haver âncoras denominadas \"left\" (esquerda) e \"bottom\" (inferior)"
+msgstr "Deve haver âncoras denominadas \"left\" (esquerda) e \"bottom\" (inferior)"
 
 msgid "Invalid glyph info"
 msgstr "Informações de glyph/glifo inválidas"
@@ -503,9 +496,7 @@ msgstr "argumentos inválidos em quartzFonts (precisa de argumentos nomeados)"
 
 #, fuzzy
 msgid "cairo-based types are not supported on this build - using \"Xlib\""
-msgstr ""
-"Os tipos baseados no Cairo não são suportados nesta compilação - usando "
-"\"Xlib\""
+msgstr "Os tipos baseados no Cairo não são suportados nesta compilação - usando \"Xlib\""
 
 #, fuzzy
 msgid "unknown family for X11(type = \"XLib\")"

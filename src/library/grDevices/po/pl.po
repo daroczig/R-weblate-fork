@@ -1,13 +1,4 @@
 msgid ""
-
-
-
-
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -23,15 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
-
-
-
-
-
-
-
-
-
 
 #: axis_scales.c:37 axis_scales.c:38 axis_scales.c:50
 #, c-format
@@ -170,12 +152,12 @@ msgstr "napotkano nieznany obiekt AFM"
 msgid "invalid string in '%s'"
 msgstr "niepoprawny łańcuch w '%s'"
 
-#: devPS.c:810
+#: devPS.c:811
 #, c-format
 msgid "font width unknown for character 0x%02x in encoding %s"
 msgstr "nieznana szerokość czcionki dla znaku '0x%02x' w kodowaniu %s"
 
-#: devPS.c:871
+#: devPS.c:872
 #, c-format
 msgid "font metrics unknown for Unicode character U+%04X"
 msgstr "nieznane metryki czcionki dla znaku Unicode 'U+%04X'"
@@ -190,17 +172,15 @@ msgstr "nieznane kodowanie '%s' w 'PostScriptMetricInfo'"
 msgid "Unicode character %lc (U+%04X) cannot be converted"
 msgstr "Znak Unicode %lc (U+%04X) nie może być przekształcony"
 
-#: devPS.c:918 devPS.c:972
+#: devPS.c:919 devPS.c:973
 #, c-format
 msgid "font metrics unknown for character 0x%02x in encoding %s"
 msgstr "nieznane metryki czcionki dla znaku '0x%02x' w kodowaniu %s"
 
-#: devPS.c:987
+#: devPS.c:988
 #, c-format
 msgid "invalid character (%04X) sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
-msgstr ""
-"niepoprawny znak (%04X) wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej "
-"lokalizacji"
+msgstr "niepoprawny znak (%04X) wysłany do 'PostScriptCIDMetricInfo' w jednobajtowej lokalizacji"
 
 #: devPS.c:996
 msgid "invalid character sent to 'PostScriptCIDMetricInfo' in a single-byte locale"
@@ -384,7 +364,7 @@ msgstr "rodzina '%s' nie jest uwzględniona w urządzeniu 'postScript()'"
 msgid "unknown encoding '%s' in 'mbcsToSbcs'"
 msgstr "nieznana strona kodowa '%s' w 'mbcsToSbcs'"
 
-#: devPS.c:4582 devPS.c:4589
+#: devPS.c:4635 devPS.c:4642
 #, c-format
 msgid "conversion failure on '%s' in 'mbcsToSbcs': for <%02x>"
 msgstr "błąd konwersji na '%s'; w 'mbcsToSbcs': dla <%02x>"
@@ -471,9 +451,7 @@ msgstr "Rysunek nie jest dołączony do ścieżki (zawiera tekst)"
 
 #: devPS.c:6981
 msgid "Compositing operator has no corresponding blend mode; defaulting to Normal"
-msgstr ""
-"Operator tworzenia kompozycji nie ma odpowiadającego mu trybu mieszania; "
-"ustawianie domyślnego trybu 'Normal'"
+msgstr "Operator tworzenia kompozycji nie ma odpowiadającego mu trybu mieszania; ustawianie domyślnego trybu 'Normal'"
 
 #: devPS.c:7254
 msgid "Failed to write PDF clipping path"
@@ -493,8 +471,7 @@ msgstr "Nie udało się zapisać pliku PDF fillStroke"
 
 #: devPS.c:7367
 msgid "Glyph ID larger than 0xFFFF; output will be incorrect"
-msgstr ""
-"Identyfikator glifu większy niż 0xFFFF; dane wyjściowe będą nieprawidłowe"
+msgstr "Identyfikator glifu większy niż 0xFFFF; dane wyjściowe będą nieprawidłowe"
 
 #: devPS.c:7390
 msgid "invalid 'alpha' value in PDF"
@@ -608,7 +585,7 @@ msgstr "Tekst nie został dodany do ścieżki zawierającej inny rysunek"
 msgid "failed to find or load PDF CID font"
 msgstr "nie udało się znaleźć lub załadować czcionkę CID PDF"
 
-#: devPS.c:10786 devPS.c:10878 devPicTeX.c:763
+#: devPS.c:10853 devPS.c:10945 devPicTeX.c:763
 #, c-format
 msgid "invalid 'file' parameter in %s"
 msgstr "nieprawidłowy parametr 'file' w %s"
@@ -637,8 +614,7 @@ msgstr "nie można uruchomić urządzenia '%s()'"
 
 #: devQuartz.c:471
 msgid "Quartz gradients exhausted (failed to increase maxPatterns)"
-msgstr ""
-"Gradienty Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
+msgstr "Gradienty Quartz zostały wyczerpane (nie udało się zwiększyć maxPatterns)"
 
 #: devQuartz.c:477
 msgid "Quartz patterns exhausted (failed to increase maxPatterns)"
@@ -671,8 +647,7 @@ msgstr "Nieobsługiwany tryb rozszerzania wzoru;  używanie \"repeat\""
 
 #: devQuartz.c:814
 msgid "Quartz clipping paths exhausted (failed to increase maxClipPaths)"
-msgstr ""
-"Wyczerpano ścieżki przycinania Quartz (nie udało się zwiększyć maxClipPaths)"
+msgstr "Wyczerpano ścieżki przycinania Quartz (nie udało się zwiększyć maxClipPaths)"
 
 #: devQuartz.c:863
 msgid "Quartz clipping paths exhausted"
@@ -708,8 +683,7 @@ msgstr "Wyczerpano grupy Quartz"
 
 #: devQuartz.c:1177
 msgid "Add compositing operator not supported; falling back to over"
-msgstr ""
-"Operator dodawania kompozycji nie jest obsługiwany; ustawianie trybu 'nad'"
+msgstr "Operator dodawania kompozycji nie jest obsługiwany; ustawianie trybu 'nad'"
 
 #: devQuartz.c:1265 cairo/cairoFns.c:877
 msgid "Groups exhausted"
@@ -745,7 +719,12 @@ msgstr "maska alfa została zignorowana (nieobsługiwana na tym urządzeniu)"
 msgid "Attempt to release non-existent mask"
 msgstr "Próba zwolnienia nieistniejącej maski"
 
-#: devQuartz.c:3040
+#: devQuartz.c:3023
+#, fuzzy, c-format
+msgid "Invalid font path: \"%s\""
+msgstr "niepoprawny parametr 'fonts' w %s"
+
+#: devQuartz.c:3053
 msgid "Failed to load font"
 msgstr "nie udało się załadować czcionki"
 
@@ -970,8 +949,7 @@ msgstr "Wyczerpano wzorce Cairo"
 
 #: cairo/cairoFns.c:392
 msgid "Cairo clipping paths exhausted (failed to increase maxClipPaths)"
-msgstr ""
-"Wyczerpano ścieżki przycinania Cairo (nie udało się zwiększyć maxClipPaths)"
+msgstr "Wyczerpano ścieżki przycinania Cairo (nie udało się zwiększyć maxClipPaths)"
 
 #: cairo/cairoFns.c:439
 msgid "Cairo clipping paths exhausted"
@@ -999,6 +977,4 @@ msgstr "Wyczerpano grupy Cairo"
 
 #: cairo/cairoFns.c:2394
 msgid "Font file not found; matching font family and face"
-msgstr ""
-"Nie znaleziono pliku czcionki; Dopasowywanie rodziny czcionek oraz kroju"
-
+msgstr "Nie znaleziono pliku czcionki; Dopasowywanie rodziny czcionek oraz kroju"

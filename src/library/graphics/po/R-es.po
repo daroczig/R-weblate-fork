@@ -226,9 +226,6 @@ msgstr "Los 'descansos' no están aumentando estrictamente"
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr "'probability' es un alias de '!freq', sin embargo, difieren."
 
-msgid "fuzz must be non-negative"
-msgstr "fuzz no debe ser negativo"
-
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr "alguna 'x' no se cuenta; tal vez 'breaks' no abarque el rango de 'x'"
 
@@ -490,3 +487,6 @@ msgid "argument %s is not made use of"
 msgid_plural "arguments %s are not made use of"
 msgstr[0] "el argumento %s no se utiliza"
 msgstr[1] "los argumentos %s no se utilizan"
+
+#~ msgid "fuzz must be non-negative"
+#~ msgstr "fuzz no debe ser negativo"

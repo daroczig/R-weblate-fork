@@ -18,7 +18,8 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.16.4\n"
 
-#: src/gnuwin32/console.c:1200 src/gnuwin32/console.c:1242
+#: src/gnuwin32/console.c:1204 src/gnuwin32/console.c:1246
+#: src/gnuwin32/console.c:1774
 msgid "Not enough memory"
 msgstr "पर्याप्त मेमोरी छैन"
 
@@ -1203,4 +1204,3 @@ msgstr "पृष्ठ परिवर्तन पुष्टि गर्न
 #: src/library/grDevices/src/devWindows.c:3900
 msgid "Click or hit ENTER for next page"
 msgstr "अर्को पृष्ठको लागि ENTER मा थिच्नुहोस् वा क्लिक गर्नुहोस्"
-

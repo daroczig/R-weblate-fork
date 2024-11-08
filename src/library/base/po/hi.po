@@ -255,7 +255,7 @@ msgstr ""
 #: src/modules/lapack/Lapack.c:182 src/modules/lapack/Lapack.c:287
 #: src/modules/lapack/Lapack.c:862 src/modules/lapack/Lapack.c:970
 #: src/modules/lapack/Lapack.c:1032 src/modules/lapack/Lapack.c:1377
-#: src/unix/sys-std.c:1368 src/unix/sys-std.c:1391 src/unix/sys-unix.c:909
+#: src/unix/sys-std.c:1415 src/unix/sys-std.c:1438 src/unix/sys-unix.c:909
 #, c-format
 msgid "invalid '%s' argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -355,9 +355,9 @@ msgstr ""
 msgid "character string expected as third argument"
 msgstr ""
 
-#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:348
-#: src/modules/internet/libcurl.c:351 src/modules/internet/libcurl.c:354
-#: src/modules/internet/libcurl.c:359 src/modules/internet/libcurl.c:395
+#: src/gnuwin32/sys-win32.c:334 src/modules/internet/libcurl.c:359
+#: src/modules/internet/libcurl.c:362 src/modules/internet/libcurl.c:365
+#: src/modules/internet/libcurl.c:370 src/modules/internet/libcurl.c:406
 #, c-format
 msgid "invalid %s argument"
 msgstr "अमान्य '%s' आर्गुमेंट"
@@ -926,7 +926,7 @@ msgstr ""
 msgid "dimnames(<value>) is neither NULL nor list of length %d"
 msgstr ""
 
-#: src/main/apply.c:343 src/main/coerce.c:2726
+#: src/main/apply.c:343 src/main/coerce.c:2730
 #, c-format
 msgid "'%s' must be a list or expression"
 msgstr "'%s' एक लिस्ट (list) या एक्ष्प्रेशन (expression) होना चाहिए"
@@ -1236,7 +1236,7 @@ msgstr ""
 msgid "'dimnames' applied to non-array"
 msgstr ""
 
-#: src/main/attrib.c:1098 src/main/coerce.c:2729
+#: src/main/attrib.c:1097 src/main/coerce.c:2733
 #, c-format
 msgid "'%s' must be a list"
 msgstr "'%s ' एक लिस्ट (list) होनी चाहिए"
@@ -1414,7 +1414,7 @@ msgstr "'dim' बहुत बड़ा ऐरे निर्दिष्ट �
 #: src/main/builtin.c:75 src/main/builtin.c:112 src/main/envir.c:1876
 #: src/main/envir.c:1995 src/main/envir.c:2100 src/main/envir.c:2234
 #: src/main/paste.c:103 src/main/paste.c:345 src/main/random.c:481
-#: src/main/random.c:510 src/main/unique.c:2261
+#: src/main/random.c:510 src/main/unique.c:2262
 msgid "invalid first argument"
 msgstr "पेहली आर्गुमेंट (argument) अमान्य है"
 
@@ -1502,7 +1502,7 @@ msgstr ""
 msgid "cannot set length of non-(vector or list)"
 msgstr ""
 
-#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3096
+#: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
 msgid "invalid value"
 msgstr "अमान्य संख्या"
 
@@ -8005,7 +8005,7 @@ msgstr ""
 msgid "no history available to save"
 msgstr ""
 
-#: src/unix/sys-std.c:1422
+#: src/unix/sys-std.c:1469
 msgid "invalid timestamp"
 msgstr "अमान्य timestamp"
 
@@ -8236,4 +8236,3 @@ msgstr ""
 
 #~ msgid "duplicate row.names: %s"
 #~ msgstr "पंक्तियों के नाम समान है"
-

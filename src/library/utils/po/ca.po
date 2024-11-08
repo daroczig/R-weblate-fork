@@ -229,12 +229,12 @@ msgstr "versió de Windows no admesa"
 msgid "argument must be a character vector or a raw vector"
 msgstr "l'argument ha de ser un vector de caràcters o un vector RAW"
 
-#: windows/util.c:330
+#: windows/util.c:332
 #, fuzzy
 msgid "unable to open the clipboard"
 msgstr "no s'ha pogut obrir el porta-retalls"
 
-#: windows/util.c:335
+#: windows/util.c:337
 #, fuzzy
 msgid "unable to write to the clipboard"
 msgstr "no s'ha pogut escriure al porta-retalls"
@@ -252,7 +252,7 @@ msgstr "«text» ha de ser una cadena de caràcters"
 msgid "'%s' must be length 1"
 msgstr "«%s» ha de ser de longitud 1"
 
-#: windows/util.c:575
+#: windows/util.c:577
 #, c-format
 msgid "'%s' must be a list"
 msgstr "«%s» ha de ser una llista"
@@ -289,4 +289,3 @@ msgstr "«multi» ha de ser un valor lògic"
 #: windows/widgets.c:206
 msgid "'filterindex' must be an integer value"
 msgstr "«filterindex» ha de ser un valor enter"
-

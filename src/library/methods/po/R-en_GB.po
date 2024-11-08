@@ -302,15 +302,6 @@ msgstr "inserting method corresponding to empty signature"
 msgid "inserting method into non-methods-list object (class %s)"
 msgstr "inserting method into non-methods-list object (class %s)"
 
-msgid "invalid method sublist"
-msgstr "invalid method sublist"
-
-msgid "%f is not a valid generic function: methods list was an object of class %s"
-msgstr "%f is not a valid generic function: methods list was an object of class %s"
-
-msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
-msgstr "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
-
 msgid "default method must be a method definition, a primitive or NULL: got an object of class %s"
 msgstr "default method must be a method definition, a primitive or NULL: got an object of class %s"
 
@@ -334,9 +325,6 @@ msgstr "more elements in the method signature (%d) than in the generic signature
 
 msgid "no generic function found corresponding to %s"
 msgstr "no generic function found corresponding to %s"
-
-msgid "skipping methods list element %s of unexpected class %s"
-msgstr "skipping methods list element %s of unexpected class %s"
 
 msgid "%s, along with other use of the \"MethodsList\" metadata objects, is deprecated."
 msgstr "%s, along with other use of the \"MethodsList\" metadata objects, is deprecated."
@@ -491,7 +479,8 @@ msgstr "class cannot have both an ordinary and hidden data type"
 msgid "a validity method must be a function of one argument, got an object of class %s"
 msgstr "a validity method must be a function of one argument, got an object of class %s"
 
-msgid "unable to find required package %s"
+#, fuzzy
+msgid "unable to load required package %s"
 msgstr "unable to find required package %s"
 
 msgid "unable to find an environment containing class %s"
@@ -878,7 +867,8 @@ msgstr "Skeleton of method written to %s"
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "invalid object in meta table of methods for %s, label %s, had class %s"
 
-msgid "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
+#, fuzzy
+msgid "invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 msgstr "invalid mlist element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
 
 msgid "bad method object stored in method table, class %s"
@@ -1329,3 +1319,14 @@ msgid_plural "no definition of class %s in the specified position, %s, definitio
 msgstr[0] "no definition of class %s in the specified position, %s, definition on : %s"
 msgstr[1] "no definition of class %s in the specified position, %s, definitions on : %s"
 
+#~ msgid "invalid method sublist"
+#~ msgstr "invalid method sublist"
+
+#~ msgid "%f is not a valid generic function: methods list was an object of class %s"
+#~ msgstr "%f is not a valid generic function: methods list was an object of class %s"
+
+#~ msgid "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
+#~ msgstr "%s must be TRUE, FALSE, or a named logical vector of those values; got an object of class %s"
+
+#~ msgid "skipping methods list element %s of unexpected class %s"
+#~ msgstr "skipping methods list element %s of unexpected class %s"

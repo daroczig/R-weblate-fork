@@ -66,20 +66,18 @@ msgid "'iconvlist' is not available on this system"
 msgstr "'iconvlist' bu sistemde mevcut değil"
 
 #, fuzzy
-msgid "'kind' must be a character string of length 1 (RNG to be used)."
+msgid "'kind' must be a character string (RNG to be used)."
 msgstr "'kind' 1 uzunluğunda bir karakter dizisi olmalıdır (RNG kullanılacak)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' bir RNG'nin geçerli kısaltması değildir"
 
-msgid "'normal.kind' must be a character string of length 1"
-msgstr "'normal.kind' 1 uzunluğunda bir karakter dizisi olmalıdır"
+#, fuzzy
+msgid "'%s' must be a character string"
+msgstr "%s karakter dizesine dönüştürüldü"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' geçerli bir opsiyon değil"
-
-msgid "'sample.kind' must be a character string of length 1"
-msgstr "'sample.kind' 1 uzunluğunda bir karakter dizisi olmalıdır"
 
 msgid "malformed version string"
 msgstr ""
@@ -1920,9 +1918,14 @@ msgid_plural ""
 " extra arguments %s will be disregarded"
 msgstr[0] ""
 
+#~ msgid "'normal.kind' must be a character string of length 1"
+#~ msgstr "'normal.kind' 1 uzunluğunda bir karakter dizisi olmalıdır"
+
+#~ msgid "'sample.kind' must be a character string of length 1"
+#~ msgstr "'sample.kind' 1 uzunluğunda bir karakter dizisi olmalıdır"
+
 #~ msgid "namespace"
 #~ msgstr "isim alanı"
 
 #~ msgid "not found"
 #~ msgstr "bulunamadı"
-

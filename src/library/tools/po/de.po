@@ -132,7 +132,7 @@ msgstr "Unerwartetes Ende der Eingabe (in %c Zeichenkette bei %s:%d:%d)"
 msgid "cannot open the connection"
 msgstr "kann Verbindung nicht öffnen"
 
-#: gramRd.c:4543
+#: gramRd.c:4544
 msgid "cannot read from this connection"
 msgstr "kann aus dieser Verbindung nicht lesen"
 
@@ -198,4 +198,3 @@ msgstr "unzulässiger Argumenttyp"
 #: text.c:225 text.c:247
 msgid "out of memory"
 msgstr "zu wenig Hauptspeicher"
-

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-09-09 04:02+0000\n"
 "Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
@@ -38,7 +38,11 @@ msgstr "Nincs megadva \"CL\" fürt, és nincs regisztrálva"
 msgid "not a valid cluster"
 msgstr "nem érvényes fürt"
 
-msgid "unknown cluster type"
+msgid "replacing registration for cluster type '%s'"
+msgstr ""
+
+#, fuzzy
+msgid "unknown cluster type: '%s'"
 msgstr "ismeretlen fürttípus"
 
 msgid "numeric 'names' must be >= 1"
@@ -112,9 +116,7 @@ msgstr "Az \"mc.cores\" > 1 nem támogatott Windows rendszeren"
 msgid "Cluster setup failed. %d worker of %d failed to connect."
 msgid_plural "Cluster setup failed. %d of %d workers failed to connect."
 msgstr[0] ""
-msgstr[1] ""
-"A fürt beállítása nem sikerült. A(z) %d vagy %d dolgozóinak többsége nem "
-"tudott csatlakozni."
+msgstr[1] "A fürt beállítása nem sikerült. A(z) %d vagy %d dolgozóinak többsége nem tudott csatlakozni."
 
 msgid "socket cluster with %d nodes on host %s"
 msgid_plural "socket cluster with %d nodes on hosts %s"
@@ -140,4 +142,3 @@ msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] ""
 msgstr[1] ""
-

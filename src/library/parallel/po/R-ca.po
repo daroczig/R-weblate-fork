@@ -41,8 +41,11 @@ msgstr "no s'ha proporcionat cap clúster «cl» i no n'hi ha cap registrat"
 msgid "not a valid cluster"
 msgstr "no és un clúster vàlid"
 
+msgid "replacing registration for cluster type '%s'"
+msgstr ""
+
 #, fuzzy
-msgid "unknown cluster type"
+msgid "unknown cluster type: '%s'"
 msgstr "tipus de clúster desconegut"
 
 #, fuzzy
@@ -167,4 +170,3 @@ msgid "%d parallel job did not deliver a result"
 msgid_plural "%d parallel jobs did not deliver results"
 msgstr[0] "%d tasca paral·lela no ha donat cap resultat"
 msgstr[1] "%d treballs paral·lels no han donat resultats"
-

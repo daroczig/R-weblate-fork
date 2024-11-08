@@ -419,10 +419,6 @@ msgid "status %d in running command '%s'"
 msgstr "estat %d a l'ordre en execució «%s»"
 
 #, fuzzy
-msgid "'file' must be a non-empty character string"
-msgstr "«file» ha de ser una cadena de caràcters no buida"
-
-#, fuzzy
 msgid "Invalid 'glyphInfo'"
 msgstr "«glyphInfo» no vàlid"
 
@@ -540,6 +536,10 @@ msgstr "les longituds «x», «y» i «z» difereixen"
 #, fuzzy
 msgid "'file' is missing with no default"
 msgstr "manca el «fitxer» sense el valor predeterminat"
+
+#, fuzzy
+msgid "'file' must be a non-empty character string"
+msgstr "«file» ha de ser una cadena de caràcters no buida"
 
 #, fuzzy
 msgid "unrecognized format of gs -help"
@@ -691,4 +691,3 @@ msgid "%d %s value <= 0 omitted from logarithmic plot"
 msgid_plural "%d %s values <= 0 omitted from logarithmic plot"
 msgstr[0] "%d %s valor == 0 omès del gràfic logarítmic"
 msgstr[1] "%d %s valors == 0 omesos en el gràfic logarítmic"
-

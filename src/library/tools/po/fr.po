@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-08-19 10:31+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
@@ -67,9 +67,7 @@ msgstr "spécification de format inconnu '%s'"
 
 #: getfmts.c:136
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr ""
-"une seule astérisque '*' est supportée au maximum dans chaque spécification "
-"de conversion"
+msgstr "une seule astérisque '*' est supportée au maximum dans chaque spécification de conversion"
 
 #: gramLatex.c:2592 gramRd.c:3971
 #, c-format
@@ -114,8 +112,7 @@ msgstr "retour de ligne à l'intérieur d'une chaîne de caractères entre guill
 #: gramRd.c:3395
 #, c-format
 msgid "unable to allocate buffer for long macro at line %d"
-msgstr ""
-"impossible d'allouer de la mémoire tampon pour une longue macro à la ligne %d"
+msgstr "impossible d'allouer de la mémoire tampon pour une longue macro à la ligne %d"
 
 #: gramRd.c:3425
 msgid "macros nested too deeply: infinite recursion?"
@@ -129,9 +126,7 @@ msgstr "Macro %s introuvable"
 #: gramRd.c:4032
 #, c-format
 msgid "Unexpected end of input (in %c quoted string opened at %s:%d:%d)"
-msgstr ""
-"Fin d'entrée inattendue (dans la chaîne entre guillements %c ouverte à "
-"%s:%d:%d)"
+msgstr "Fin d'entrée inattendue (dans la chaîne entre guillements %c ouverte à %s:%d:%d)"
 
 #: gramRd.c:4537
 msgid "cannot open the connection"
@@ -165,9 +160,7 @@ msgstr "spécification d'adresse de lien incorrecte"
 #: http.c:37
 #, c-format
 msgid "Invalid port number %d: should be in 0:65535, typically above 1024"
-msgstr ""
-"Numéro incorrect de port %d : doit être dans 0:65535, typiquement plus grand "
-"que 1024"
+msgstr "Numéro incorrect de port %d : doit être dans 0:65535, typiquement plus grand que 1024"
 
 #: install.c:95
 msgid "path too long"

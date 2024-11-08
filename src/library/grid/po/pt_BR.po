@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.2.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -23,9 +23,7 @@ msgstr "updateGContext só deve ser chamado após initGContext"
 
 #: grid.c:199
 msgid "Turning clipping on or off within a (clipping) path is no honoured"
-msgstr ""
-"Ativar ou desativar o recorte em um caminho (recorte) não está sendo "
-"respeitado"
+msgstr "Ativar ou desativar o recorte em um caminho (recorte) não está sendo respeitado"
 
 #: grid.c:241
 msgid "cannot clip to rotated viewport"
@@ -33,9 +31,7 @@ msgstr "Não é possível cortar sobre uma viewport rotacionada"
 
 #: grid.c:456
 msgid "Clipping paths within a (clipping) path are not honoured"
-msgstr ""
-"O recorte dos caminhos dentro de um caminho (de recorte) não está sendo "
-"respeitado"
+msgstr "O recorte dos caminhos dentro de um caminho (de recorte) não está sendo respeitado"
 
 #: grid.c:475
 msgid "Masks within a (clipping) path are not honoured"
@@ -48,9 +44,7 @@ msgstr "A janela de visualização gráfica '%s' não foi encontrada"
 
 #: grid.c:909 grid.c:914 grid.c:1035 grid.c:1040
 msgid "cannot pop the top-level viewport ('grid' and 'graphics' output mixed?)"
-msgstr ""
-"Não é possível mostrar a viewport de nível máximo (saídas gráficas e grid "
-"misturadas?)"
+msgstr "Não é possível mostrar a viewport de nível máximo (saídas gráficas e grid misturadas?)"
 
 #: grid.c:1241
 msgid "attempt to plot on null device"
@@ -120,14 +114,11 @@ msgstr "matriz de transformação singular"
 
 #: state.c:191
 msgid "unable to store 'grid' state.  Too many devices open?"
-msgstr ""
-"Não foi possível guardar o estado do 'grid'. Muitos dispositivos abertos?"
+msgstr "Não foi possível guardar o estado do 'grid'. Muitos dispositivos abertos?"
 
 #: unit.c:65
 msgid "Cannot create unit scalar from 0-length unit vector"
-msgstr ""
-"Não é possível criar escalares de unidades a partir do vetor de unidades de "
-"comprimento 0"
+msgstr "Não é possível criar escalares de unidades a partir do vetor de unidades de comprimento 0"
 
 #: unit.c:799 unit.c:1298
 msgid "invalid unit or unit not yet implemented"
@@ -155,9 +146,7 @@ msgstr "'units' devem ter comprimento > 0"
 
 #: unit.c:1584
 msgid "data must be either NULL, have length 1, or match the length of the final unit vector"
-msgstr ""
-"os dados devem ser NULL, ter comprimento 1 ou corresponder ao comprimento do "
-"vetor de unidade final"
+msgstr "os dados devem ser NULL, ter comprimento 1 ou corresponder ao comprimento do vetor de unidade final"
 
 #: unit.c:1596
 msgid "no string supplied for 'strwidth/height' unit"
@@ -189,8 +178,7 @@ msgstr "objeto não é uma unidade"
 
 #: unit.c:1840
 msgid "units can only be multiplied with numerics and integers"
-msgstr ""
-"as unidades só podem ser multiplicadas por números numéricos ou inteiros"
+msgstr "as unidades só podem ser multiplicadas por números numéricos ou inteiros"
 
 #: util.c:216
 msgid "Unable to calculate text width/height (using zero)"

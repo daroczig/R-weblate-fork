@@ -226,9 +226,6 @@ msgstr ""
 msgid "'probability' is an alias for '!freq', however they differ."
 msgstr ""
 
-msgid "fuzz must be non-negative"
-msgstr ""
-
 msgid "some 'x' not counted; maybe 'breaks' do not span range of 'x'"
 msgstr ""
 

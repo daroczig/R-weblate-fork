@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.3.0\n"
-"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
+"Report-Msgid-Bugs-To: bugs.r-project.org\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
 "PO-Revision-Date: 2024-10-09 22:15+0000\n"
 "Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
@@ -475,9 +475,7 @@ msgstr "atributos 'tzone' inconsistentes"
 
 #, fuzzy
 msgid "as.character(td, ..) no longer obeys a 'format' argument; use format(td, ..) ?"
-msgstr ""
-"as.character(td, ..) não obedece mais a um argumento de 'formato'; use "
-"format(td, ..) ?"
+msgstr "as.character(td, ..) não obedece mais a um argumento de 'formato'; use format(td, ..) ?"
 
 #, fuzzy
 msgid "'digits' must be numeric, integer valued"
@@ -1696,10 +1694,6 @@ msgstr "Nenhum rastreamento disponível"
 msgid "invalid non-character version specification 'x' (type: %s)"
 msgstr "especificação de versão %s inválida"
 
-#, fuzzy
-msgid "Calls"
-msgstr "Chamadas"
-
 msgid "invalid version specification %s"
 msgstr "especificação de versão %s inválida"
 
@@ -1729,8 +1723,7 @@ msgstr "'digits' inválido"
 
 #, fuzzy
 msgid "Direct call of '%s()' is deprecated.  Use '%s()' or '%s()' instead"
-msgstr ""
-"A chamada direta de '%s()' foi preterida.  Use '%s()' ou '%s()' em vez disso"
+msgstr "A chamada direta de '%s()' foi preterida.  Use '%s()' ou '%s()' em vez disso"
 
 msgid "arguments 'show.output.on.console', 'minimized' and 'invisible' are for Windows only"
 msgstr "argumentos 'show.output.on.console', 'minimized' e 'invisible' são válidos somente para Windows"
@@ -1968,6 +1961,10 @@ msgstr[0] ""
 msgstr[1] ""
 "Em %s :\n"
 " argumentos extras %s serão ignorados"
+
+#, fuzzy
+#~ msgid "Calls"
+#~ msgstr "Chamadas"
 
 #~ msgid "'normal.kind' must be a character string of length 1"
 #~ msgstr "'normal.kind' deve ser uma string de tamanho 1"
@@ -2285,4 +2282,3 @@ msgstr[1] ""
 #, fuzzy
 #~ msgid "invalid value of length(bin)"
 #~ msgstr "valor inválido"
-
