@@ -415,9 +415,6 @@ msgstr "las longitudes de 'x', 'y' y 'z' difieren"
 msgid "'file' is missing with no default"
 msgstr "'file' está ausente, sin valor por omisión"
 
-msgid "'file' must be a non-empty character string"
-msgstr ""
-
 msgid "unrecognized format of gs -help"
 msgstr "formato de \"gs -help\" no reconocido"
 

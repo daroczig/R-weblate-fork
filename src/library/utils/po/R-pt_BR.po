@@ -718,9 +718,6 @@ msgstr ""
 "Não é sabido em qual elemento de 'lib' instalar as dependências\n"
 "pulando dependências"
 
-msgid "'%s' must be a character string"
-msgstr "'%s' deve ser uma string"
-
 msgid "type 'binary' is not supported on this platform"
 msgstr "tipo 'binary' não é suportado nesta plataforma"
 

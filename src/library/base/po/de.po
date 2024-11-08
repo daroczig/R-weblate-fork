@@ -6566,12 +6566,6 @@ msgstr "interner Fehler bei rekursiver Indizierung"
 msgid "invalid negative subscript in %s"
 msgstr "ungültiger negativer Index in %s"
 
-#: src/main/subscript.c:298 src/main/subscript.c:302 src/main/subset.c:1331
-#: src/main/subset.c:1389
-#, c-format
-msgid "partial match of '%s' to '%s'"
-msgstr "partieller Treffer von '%s' auf '%s'"
-
 #: src/main/subscript.c:310
 #, c-format
 msgid "further partial match of '%s' to '%s'"
@@ -6757,11 +6751,6 @@ msgstr "Systemaufruf fehlgeschlagen: %s"
 #: src/main/sysutils.c:472 src/main/sysutils.c:507
 msgid "wrong type for argument"
 msgstr "falscher Typ für Argument"
-
-#: src/main/sysutils.c:474
-#, c-format
-msgid "'%s' and '%s' are of different lengths"
-msgstr "'%s' und '%s' sind unterschiedlich lang"
 
 #: src/main/sysutils.c:495
 msgid "'Sys.setenv' is not available on this system"

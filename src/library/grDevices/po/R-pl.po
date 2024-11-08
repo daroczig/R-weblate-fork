@@ -1,9 +1,4 @@
 msgid ""
-
-
-
-
-
 msgstr ""
 "Project-Id-Version: R 3.5.0\n"
 "Report-Msgid-Bugs-To: bugs.r-project.org\n"
@@ -19,11 +14,6 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Generator: Poedit 2.0.4\n"
-
-
-
-
-
 
 msgid "invalid 'filename'"
 msgstr "niepoprawny argument 'filename'"
@@ -426,9 +416,6 @@ msgstr "długości zmiennych 'x', 'y' oraz 'z' różnią się"
 
 msgid "'file' is missing with no default"
 msgstr "brakuje argumentu 'file', a brak zdefiniowanej wartości domyślnej"
-
-msgid "'file' must be a non-empty character string"
-msgstr "argument 'file' musi być niepustym łańcuchem tekstowym"
 
 msgid "unrecognized format of gs -help"
 msgstr "nierozpoznany format 'gs -help'"

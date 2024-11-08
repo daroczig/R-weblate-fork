@@ -1311,12 +1311,6 @@ msgstr ""
 msgid "exactly one attribute 'which' must be given"
 msgstr ""
 
-#: src/main/attrib.c:1533 src/main/attrib.c:1556 src/main/subscript.c:298
-#: src/main/subscript.c:302 src/main/subset.c:1332 src/main/subset.c:1390
-#, c-format
-msgid "partial match of '%s' to '%s'"
-msgstr ""
-
 #: src/main/attrib.c:1601
 msgid "invalid slot name length"
 msgstr ""

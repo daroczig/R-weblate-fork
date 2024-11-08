@@ -424,9 +424,6 @@ msgstr "les longueurs de 'x', 'y' et 'z' diffèrent"
 msgid "'file' is missing with no default"
 msgstr "'file' est manquant sans valeur par défaut"
 
-msgid "'file' must be a non-empty character string"
-msgstr "'file' doit être une chaîne de caractère non vide"
-
 msgid "unrecognized format of gs -help"
 msgstr "format de gs - help inconnu"
 

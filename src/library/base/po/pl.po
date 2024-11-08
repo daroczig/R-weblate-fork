@@ -1328,12 +1328,6 @@ msgstr "atrybut 'which' musi być trybu tekstowego"
 msgid "exactly one attribute 'which' must be given"
 msgstr "dokładnie jeden atrybut 'which' musi zostać podany"
 
-#: src/main/attrib.c:1533 src/main/attrib.c:1556 src/main/subscript.c:298
-#: src/main/subscript.c:302 src/main/subset.c:1332 src/main/subset.c:1390
-#, c-format
-msgid "partial match of '%s' to '%s'"
-msgstr "częściowa zgodność między '%s' a '%s'"
-
 #: src/main/attrib.c:1601
 msgid "invalid slot name length"
 msgstr "niepoprawna długość nazwy gniazda"
@@ -5201,11 +5195,6 @@ msgstr "nie można połączyć '%s' z '%s', powód '%s'"
 #: src/main/platform.c:705
 msgid "(hard) links are not supported on this platform"
 msgstr "(twarde) połączenia nie są wspierane na tej platformie"
-
-#: src/main/platform.c:737 src/main/sysutils.c:474
-#, fuzzy, c-format
-msgid "'%s' and '%s' are of different lengths"
-msgstr "argumenty 'from' oraz 'to' są różnej długości"
 
 #: src/main/platform.c:753
 #, c-format

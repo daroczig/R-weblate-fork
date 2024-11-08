@@ -5216,11 +5216,6 @@ msgstr "impossible de créer un lien symbolique de '%s' vers '%s', à cause de '
 msgid "(hard) links are not supported on this platform"
 msgstr "les liens matériels ne sont pas supportés sur cette architecture"
 
-#: src/main/platform.c:737 src/main/sysutils.c:474
-#, fuzzy, c-format
-msgid "'%s' and '%s' are of different lengths"
-msgstr "'from' et 'to' sont de longueurs différentes"
-
 #: src/main/platform.c:754
 #, c-format
 msgid "cannot rename file '%ls' to '%ls', reason '%s'"
@@ -6603,12 +6598,6 @@ msgstr "erreur interne dans l'utilisation d'indiçage récursif"
 #, c-format
 msgid "invalid negative subscript in %s"
 msgstr "indice négatif incorrect dans %s"
-
-#: src/main/subscript.c:298 src/main/subscript.c:302 src/main/subset.c:1331
-#: src/main/subset.c:1389
-#, c-format
-msgid "partial match of '%s' to '%s'"
-msgstr "correspondance partielle de '%s' en '%s'"
 
 #: src/main/subscript.c:310
 #, c-format
