@@ -8,17 +8,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-03-25 16:30+0300\n"
+"PO-Revision-Date: 2024-11-10 19:04+0000\n"
 "Last-Translator: Ivan Krylov <ikrylov@disroot.org>\n"
 "Language-Team: Russian\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=koi8-r\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Poedit 3.2.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 msgid "'%s' is defunct."
 msgstr "'%s' больше не существует."
@@ -62,16 +63,14 @@ msgstr "второй аргумент должен быть списком"
 msgid "'iconvlist' is not available on this system"
 msgstr "'iconvlist' недоступен в этой системе"
 
-#, fuzzy
 msgid "'kind' must be a character string (RNG to be used)."
-msgstr "'kind' должен быть текстовой строкой длины 1 (будет использован RNG)."
+msgstr "'kind' должен быть строкой, задающей имя ПГСЧ."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' не является правильным сокращением RNG"
 
-#, fuzzy
 msgid "'%s' must be a character string"
-msgstr "'name' должно быть строкой-скаляром"
+msgstr "'%s' должно быть строкой"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' не является правильным выбором"
@@ -516,6 +515,8 @@ msgstr "база данных Olson не найдена"
 
 msgid "No element named \"%s\" found in x, did you mean x[, \"%1$s\"] instead?"
 msgstr ""
+"В x не найден элемент с именем \"%s\", возможно, Вы имели в виду x[, \"%1$s\""
+"]?"
 
 msgid "'file' must be a character string or connection"
 msgstr "'file' должен быть текстовой строкой или соединением"
@@ -642,19 +643,20 @@ msgid "directories are omitted unless 'recursive = TRUE'"
 msgstr "пропускаю директории, если 'recursive' не TRUE"
 
 msgid "file can not be copied both 'from' and 'to'"
-msgstr "файл не может быть скопирован одновременно 'from' и 'to'"
+msgstr ""
+"указание файла для копирования одновременно во 'from' и 'to' не имеет смысла"
 
 msgid "no files to link from"
-msgstr "нет файлов для ссылки с"
+msgstr "не могу создать ссылки: передано 0 исходных файлов ('from')"
 
 msgid "no files/directory to link to"
-msgstr "нет файлов/папок для ссылки на"
+msgstr "не могу создать ссылки: передано 0 целевых файлов/директорий ('to')"
 
 msgid "no files to link to"
-msgstr "нет файлов для ссылки на"
+msgstr "не могу создать ссылки: передано 0 целевых файлов ('to')"
 
 msgid "'package' must be of length 1"
-msgstr "'пакет' должен быть длиной 1"
+msgstr "'package' должен быть длиной 1"
 
 msgid "no file found"
 msgstr "файл не найден"
@@ -948,7 +950,6 @@ msgstr "должен быть указан 'file'"
 msgid "nothing specified to be save()d"
 msgstr "не указаны объекты для сохранения"
 
-#, fuzzy
 msgid "'%s' must be a non-empty character string"
 msgstr "'%s' должен быть непустой строкой"
 
@@ -1086,7 +1087,7 @@ msgid "namespace %s %s is already loaded, but %s %s is required"
 msgstr "пространство имен %s %s загружено, но нужно еще и %s %s"
 
 msgid "- loading"
-msgstr ""
+msgstr "- загружаю"
 
 msgid "namespace %s is already sealed in 'loadNamespace'"
 msgstr "пространство имен %s уже запечатано в 'loadNamespace'"
@@ -1134,7 +1135,7 @@ msgid "package %s was installed by an R version with different internals; it nee
 msgstr "пакет %s установлен версией R с другими внутренними правилами; его нужно переустановить для того, чтобы использовать в этой версии R"
 
 msgid "-- processing imports for"
-msgstr ""
+msgstr "-- обрабатываю импорты для"
 
 msgid "-- done processing imports for"
 msgstr ""
@@ -1560,13 +1561,17 @@ msgid "additional arguments ignored in warning()"
 msgstr "дополнительные аргументы пропущены в warning()"
 
 msgid "no natural language support or missing translations"
-msgstr ""
+msgstr "отсутствуют файлы переводов либо их поддержка"
 
 msgid "In bare C locale: LANGUAGE reset, but message language may be unchanged"
 msgstr ""
+"Действует локаль 'C': язык сообщений может остаться прежним, несмотря на "
+"изменения переменной LANGUAGE"
 
 msgid "In bare C locale, not forcing locale; possibly use 'force = TRUE'?"
 msgstr ""
+"Действует локаль 'C', поэтому не пытаюсь её менять. Возможно, сработает "
+"'force = TRUE'?"
 
 msgid "Sys.setenv(LANGUAGE=\"%s\") may have failed"
 msgstr "Sys.setenv(LANGUAGE=\"%s\") могло не сработать"
