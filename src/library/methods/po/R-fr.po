@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-08-19 10:31+0000\n"
+"PO-Revision-Date: 2024-11-15 21:44+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -484,9 +484,8 @@ msgstr "une classe ne peut avoir simultanément un type 'data' ordinaire et cach
 msgid "a validity method must be a function of one argument, got an object of class %s"
 msgstr "une méthode de validation doit être une fonction a un seul argument, un objet de classe %s est trouvé"
 
-#, fuzzy
 msgid "unable to load required package %s"
-msgstr "impossible de trouver le package %s nécessaire"
+msgstr "impossible de charger le package nécessaire %s"
 
 msgid "unable to find an environment containing class %s"
 msgstr "impossible de trouver un environnement contenant la classe %s"
@@ -872,9 +871,10 @@ msgstr "Le squelette de la méthode est écrite dans %s"
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "objet incorrect dans la table de métadonnées des méthodes pour %s, l'étiquette %s, avait la classe %s"
 
-#, fuzzy
 msgid "invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
-msgstr "élément mlist incorrect pour la signature %s au niveau %d (devrait être MethodDefinition ou .Primitive, a la classe %s)"
+msgstr ""
+"élément de méthode incorrect pour la signature %s au niveau %d (devrait être "
+"MethodDefinition ou .Primitive, a la classe %s)"
 
 msgid "bad method object stored in method table, class %s"
 msgstr "mauvais objet trouvé comme méthode dans la table des méthodes, class %s"
