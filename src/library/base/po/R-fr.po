@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-08-26 19:31+0000\n"
+"PO-Revision-Date: 2024-11-15 21:44+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -60,16 +60,14 @@ msgstr "le second argument doit être une liste"
 msgid "'iconvlist' is not available on this system"
 msgstr "'iconvlist' n'est pas disponible sur ce système"
 
-#, fuzzy
 msgid "'kind' must be a character string (RNG to be used)."
-msgstr "'kind' doit être une chaîne de caractères de longueur 1 (RNG à utiliser)."
+msgstr "'kind' doit être une chaîne de caractères (RNG à utiliser)."
 
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' n'est pas une abbréviation valide d'un RNG"
 
-#, fuzzy
 msgid "'%s' must be a character string"
-msgstr "'name' doit être une chaîne de caractères unique"
+msgstr "'%s' doit être une chaîne de caractères"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' n'est pas un choix correct"
@@ -514,6 +512,8 @@ msgstr "aucune base de donnée Olson trouvée"
 
 msgid "No element named \"%s\" found in x, did you mean x[, \"%1$s\"] instead?"
 msgstr ""
+"Aucun élément nommé \"%s\" n'a été trouvé dans x, pensiez-vous plutôt à x[, "
+"\"%1$s\"] à la place ?"
 
 msgid "'file' must be a character string or connection"
 msgstr "'file' doit être une chîne de caractères ou une connection"
@@ -946,9 +946,8 @@ msgstr "'file' doit être spécifié"
 msgid "nothing specified to be save()d"
 msgstr "rien n'est indiqué pour être sauvé avec save()"
 
-#, fuzzy
 msgid "'%s' must be a non-empty character string"
-msgstr "'name' doit être une chaîne de caractères unique"
+msgstr "'%s' doit être une chaîne de caractères non vide"
 
 msgid "'compress' must be logical or character"
 msgstr "'compress' ou une valeur logique ou une chaîne de caractères"
@@ -1558,13 +1557,17 @@ msgid "additional arguments ignored in warning()"
 msgstr "arguments supplémentaires ignorés dans warning()"
 
 msgid "no natural language support or missing translations"
-msgstr ""
+msgstr "pas de prise en charge de la langue naturelle ou traductions absentes"
 
 msgid "In bare C locale: LANGUAGE reset, but message language may be unchanged"
 msgstr ""
+"Dans la locale C vide : réinitialisation de LANGUAGE, mais la langue des "
+"messages peut être inchangée"
 
 msgid "In bare C locale, not forcing locale; possibly use 'force = TRUE'?"
 msgstr ""
+"Dans la locale C vide, la locale n'est pas forcée ; utiliser éventuellement "
+"'force = TRUE' ?"
 
 msgid "Sys.setenv(LANGUAGE=\"%s\") may have failed"
 msgstr "Sys.setenv(LANGUAGE=\"%s\") peut avoir échoué"
