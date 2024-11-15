@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R-4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-09-08 12:18+0000\n"
+"PO-Revision-Date: 2024-11-15 21:44+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -270,9 +270,9 @@ msgid "unsupported version of Windows"
 msgstr "version de Windows non supportée"
 
 #: src/gnuwin32/extra.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "cannot resolve current user or domain: '%s'"
-msgstr "impossible d'effacer le fichier '%s', à cause de '%s'"
+msgstr "impossible de déterminer l'utilisateur actuel ou le domaine : '%s'"
 
 #: src/gnuwin32/extra.c:757 src/gnuwin32/extra.c:874 src/main/util.c:1068
 msgid "'path' must be a character vector"
@@ -4648,14 +4648,14 @@ msgid "memory exhausted"
 msgstr "mémoire épuisée"
 
 #: src/main/memory.c:2330
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate memory block of size %0.f %s"
-msgstr "impossible d'allouer un bloc de mémoire de taille %0.f Tb"
+msgstr "impossible d'allouer un bloc mémoire de taille %0.f %s"
 
 #: src/main/memory.c:2335
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate memory block of size %0.1f %s"
-msgstr "impossible d'allouer un bloc de mémoire de taille %0.1f Go"
+msgstr "impossible d'allouer un bloc mémoire de taille %0.1f %s"
 
 #: src/main/memory.c:2738
 msgid "vector is too large"
@@ -4677,14 +4677,14 @@ msgid "invalid type/length (%s/%lld) in vector allocation"
 msgstr "type ou longueur incorrecte (%s / %lld) pour l'allocation de vecteur"
 
 #: src/main/memory.c:2916 src/main/memory.c:2920
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate vector of size %0.1f %s"
-msgstr "impossible d'allouer un vecteur de taille %0.1f Go"
+msgstr "impossible d'allouer un vecteur de taille %0.1f %s"
 
 #: src/main/memory.c:2924
-#, fuzzy, c-format
+#, c-format
 msgid "cannot allocate vector of size %0.f %s"
-msgstr "impossible d'allouer un vecteur de taille %0.f Ko"
+msgstr "impossible d'allouer un vecteur de taille %0.f %s"
 
 #: src/main/memory.c:3416
 #, c-format
@@ -4715,24 +4715,23 @@ msgid "'R_Realloc' could not re-allocate memory (%llu bytes)"
 msgstr "'R_Realloc' ne peut réallouer la mémoire (%llu octets)"
 
 #: src/main/memory.c:3810
-#, fuzzy, c-format
+#, c-format
 msgid "%s: argument of type %s is not an external pointer"
-msgstr "le premier argument doit être un environnement ou un pointeur externe"
+msgstr "%s : argument de type %s non pointeur externe"
 
 #: src/main/memory.c:3969
 #, c-format
 msgid "can't change type from %s to %s"
-msgstr ""
+msgstr "impossible de changer le type %s en %s"
 
 #: src/main/memory.c:3976
 #, c-format
 msgid "can't change the type of an ALTREP object from %s to %s"
-msgstr ""
+msgstr "impossible de changer le type d'un objet ALTREP de %s en %s"
 
 #: src/main/memory.c:3983
-#, fuzzy
 msgid "can't change the type of a binding cell"
-msgstr "impossible de changer un lien actif si le lien est verrouillé"
+msgstr "impossible de modifier le type d'une cellule de liaison"
 
 #: src/main/memory.c:4073
 #, c-format
@@ -4760,24 +4759,23 @@ msgid "bad value"
 msgstr "mauvaise valeur"
 
 #: src/main/memory.c:4587
-#, fuzzy, c-format
+#, c-format
 msgid "%s: argument of type %s is not a closure"
-msgstr "l'argument %d n'est pas un vecteur"
+msgstr "%s : argument de type %s non closure"
 
 #: src/main/memory.c:4618
 #, c-format
 msgid "%s: argument of type %s is not a symbol or NULL"
-msgstr ""
+msgstr "%s : argument de type %s qui n'est ni un symbole, ni NULL"
 
 #: src/main/memory.c:4650
-#, fuzzy, c-format
+#, c-format
 msgid "%s: argument of type %s is not an environment or NULL"
-msgstr "l'argument à '%s' n'est pas un environnment"
+msgstr "%s : argument de type %s autre  qu'un environnement ou NULL"
 
 #: src/main/memory.c:4669
-#, fuzzy
 msgid "cycles in parent chains are not allowed"
-msgstr "longueur de vecteurs négative non permise"
+msgstr "les cycles dans les chaînes parentes ne sont pas autorisés"
 
 #: src/main/memory.c:4814
 msgid "memory profiling is not available on this system"
@@ -5463,19 +5461,19 @@ msgstr "trop peu d'étiquettes de colonnes"
 #, c-format
 msgid " %d row"
 msgid_plural " %d rows"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " %d ligne"
+msgstr[1] " %d lignes"
 
 #: src/main/printarray.c:386
 msgid " and"
-msgstr ""
+msgstr " et"
 
 #: src/main/printarray.c:387
 #, c-format
 msgid " %d column"
 msgid_plural " %d columns"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] " %d colonne"
+msgstr[1] " %d colonnes"
 
 #: src/main/printutils.c:641
 #, c-format
@@ -8854,8 +8852,3 @@ msgstr "AVIS : édition uniquement du premier fichier de la liste"
 
 #~ msgid "'R_get_primname' called on a non-primitive"
 #~ msgstr "'R_get_primname' appelé sur une fonction qui n'est pas primitive"
-
-
-
-
-
