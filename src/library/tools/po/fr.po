@@ -6,9 +6,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.0.4\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-19 10:31+0000\n"
+"PO-Revision-Date: 2024-11-15 21:44+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -33,14 +33,14 @@ msgid "md5 failed on file '%s'"
 msgstr "md5 a échoué sur le fichier '%s'"
 
 #: Rsha256.c:86
-#, fuzzy, c-format
+#, c-format
 msgid "sha256 failed on file '%ls'"
-msgstr "md5 a échoué sur le fichier ‘%ls'"
+msgstr "erreur de sha256 sur le fichier ‘%ls'"
 
 #: Rsha256.c:88
-#, fuzzy, c-format
+#, c-format
 msgid "sha256 failed on file '%s'"
-msgstr "md5 a échoué sur le fichier '%s'"
+msgstr "erreur de sha256 sur le fichier '%s'"
 
 #: getfmts.c:61
 #, c-format
