@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: R 4.0.4\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-09-09 04:02+0000\n"
+"PO-Revision-Date: 2024-11-15 21:44+0000\n"
 "Last-Translator: Christian Wiat <w9204-rs@yahoo.com>\n"
 "Language-Team: French <R-core@r-project.org>\n"
 "Language: fr\n"
@@ -183,15 +183,14 @@ msgstr "Il est recommandé d'utiliser %s à la place de %s."
 msgid "Use either %s or %s but not both."
 msgstr "Utilisez soit %s, soit %s, mais pas les deux en même temps."
 
-#, fuzzy
 msgid "Arguments of person() should be character or NULL"
-msgstr "'priority' doit être de type caractère ou NULL"
+msgstr "Les arguments de person() doivent être des caractères ou NULL"
 
 msgid "subscript out of bounds"
 msgstr "indices hors range"
 
 msgid "must have some non-empty fields"
-msgstr ""
+msgstr "doit contenir des champs non vides"
 
 msgid "method is only applicable to %s objects"
 msgstr "la méthode n'est applicable qu'à des objets %s"
@@ -223,6 +222,8 @@ msgstr ""
 
 msgid "package %s has no %s file: only auto-generation is possible"
 msgstr ""
+"le package %s ne contient pas de fichier %s : seule l'auto-génération est "
+"possible"
 
 msgid "could not determine year for %s from package DESCRIPTION file"
 msgstr "impossible de déterminer l'année de %s du fichier DESCRIPTION du package"
@@ -518,7 +519,7 @@ msgid "Otherwise, be patient ..."
 msgstr "Sinon, soyez patient..."
 
 msgid "'%s' must be a non-empty character string"
-msgstr "'%s’doit être une chaîne de caractères non vide"
+msgstr "'%s' doit être une chaîne de caractères non vide"
 
 msgid "no package '%s' was found"
 msgstr "le package '%s' est introuvable"
@@ -570,6 +571,8 @@ msgstr "'%s' est une fonction générique formelle ; probablement pas de méthod
 
 msgid "some methods may be unavailable outside of their namespace"
 msgstr ""
+"certaines méthodes peuvent être indisponibles en dehors de leur espace de "
+"noms"
 
 msgid "no function '%s' is visible"
 msgstr "aucune fonction '%s' n'est visible"
@@ -1303,8 +1306,8 @@ msgstr[1] "Spécifications de rôle incorrectes : %s."
 
 msgid "Invalid ORCID iD: %s."
 msgid_plural "Invalid ORCID iDs: %s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "iD ORCID incorrect : %s."
+msgstr[1] "iDs ORCID incorrects : %s."
 
 msgid "A bibentry of bibtype %s has to specify the field: %s"
 msgid_plural "A bibentry of bibtype %s has to specify the fields: %s"
@@ -1699,4 +1702,3 @@ msgstr[1] "nombres romans incorrects : %s"
 
 #~ msgid "argument 'lib' is missing: using '%s'"
 #~ msgstr "l'argument 'lib' manque : '%s' est utilisé"
-
