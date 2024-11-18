@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-06-08 08:20+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 21:57+0000\n"
+"Last-Translator: Francisco Cardozo <foc9@miami.edu>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -38,11 +38,10 @@ msgid "not a valid cluster"
 msgstr "no es un clúster válido"
 
 msgid "replacing registration for cluster type '%s'"
-msgstr ""
+msgstr "Reemplazando el registro por el tipo de clúster '%s'"
 
-#, fuzzy
 msgid "unknown cluster type: '%s'"
-msgstr "tipo de clúster desconocido"
+msgstr "tipo de clúster desconocido: '%s'"
 
 msgid "numeric 'names' must be >= 1"
 msgstr "valores numéricos en 'names' deben ser >= 1"
