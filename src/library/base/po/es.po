@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-11-18 22:12+0000\n"
-"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 22:46+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -5717,34 +5717,31 @@ msgid "argument 'allow_surrogate_pairs' must be TRUE or FALSE"
 msgstr "'decreciente' debe ser TRUE o FALSE"
 
 #: src/main/relop.c:140 src/main/relop.c:154 src/main/relop.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is not possible for language types"
-msgstr "comparación  (%d) es posible solo para tipos lista y atómico"
+msgstr "comparación (%s) no es posible para tipos 'language'"
 
 #: src/main/relop.c:177
-#, fuzzy
 msgid "comparing this symbol and string pair is not supported"
-msgstr "nombres en strings persistentes no disponibles todavía"
+msgstr "comparación no soportada para este par símbolo-cadena"
 
 #: src/main/relop.c:185
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is not possible language types"
-msgstr "comparación  (%d) es posible solo para tipos lista y atómico"
+msgstr "comparación (%s) no es posible para tipos 'language'"
 
 #: src/main/relop.c:190
-#, fuzzy
 msgid "comparison of call objects is not supported"
-msgstr "comparaciones de estos tipoo no están implementadas"
+msgstr "comparación de objetos tipo 'call' no está soportada"
 
 #: src/main/relop.c:193
-#, fuzzy
 msgid "comparison of language objects is not supported"
-msgstr "comparaciones de estos tipoo no están implementadas"
+msgstr "comparación de objetos de lenguaje no está soportada"
 
 #: src/main/relop.c:298
-#, fuzzy, c-format
+#, c-format
 msgid "comparison (%s) is possible only for atomic and list types"
-msgstr "comparación  (%d) es posible solo para tipos lista y atómico"
+msgstr "comparación (%s) es posible solo para tipos atómicos y de lista"
 
 #: src/main/relop.c:303
 msgid "comparison is not allowed for expressions"
@@ -5759,9 +5756,8 @@ msgid "invalid comparison with complex values"
 msgstr "comparación con valores complejos es inválida"
 
 #: src/main/relop.c:773 src/main/relop.c:818 src/main/relop.c:852
-#, fuzzy
 msgid "'a' and 'b' must have the same type"
-msgstr "'path' debe ser un vector de caracteres"
+msgstr "'a' y 'b' deben tener el mismo tipo"
 
 #: src/main/saveload.c:205 src/main/saveload.c:210 src/main/saveload.c:219
 #: src/main/saveload.c:228 src/main/saveload.c:237 src/main/saveload.c:246
@@ -5813,9 +5809,9 @@ msgid "mismatch on types"
 msgstr "incompatibilidad de tipos"
 
 #: src/main/saveload.c:612 src/main/saveload.c:1283 src/main/serialize.c:1996
-#, fuzzy, c-format
+#, c-format
 msgid "unrecognized internal function name \"%s\""
-msgstr "no se pudo encontrar la función \"%s\""
+msgstr "no se reconoce el nombre de función interna \"%s\""
 
 #: src/main/saveload.c:714
 msgid "cannot save file position while restoring data"
@@ -5834,9 +5830,10 @@ msgid "cannot save namespace in version 1 workspaces"
 msgstr "no es posible guardar nombres de espacio en áreas de trabajo de la versión 1"
 
 #: src/main/saveload.c:924
-#, fuzzy
 msgid "cannot save environment with locked/active bindings in version 1 workspaces"
-msgstr "no es posible guardar ambiente con vínculos bloqueados/activos en áreas de trabajo de la versión 1"
+msgstr ""
+"no es posible guardar entorno con vínculos bloqueados/activos en espacios de "
+"trabajo de la versión 1"
 
 #: src/main/saveload.c:952
 msgid "cannot save weak references in version 1 workspaces"
@@ -5978,9 +5975,9 @@ msgid "XDR read failed"
 msgstr "lectura XDR falló"
 
 #: src/main/saveload.c:2261
-#, fuzzy, c-format
+#, c-format
 msgid "cannot save data -- unable to open '%s': %s"
-msgstr "no es posible guardar los datos -- no fue posible abrir %s"
+msgstr "no es posible guardar los datos -- no fue posible abrir '%s': %s"
 
 #: src/main/saveload.c:2358 src/main/serialize.c:2625
 #, c-format
@@ -6001,9 +5998,8 @@ msgid "error writing to connection"
 msgstr "error al escribir en una conexión"
 
 #: src/main/saveload.c:2465 src/main/serialize.c:2703
-#, fuzzy
 msgid "connection not open for reading"
-msgstr "la conexión no está abierta para la lectura"
+msgstr "la conexión no está abierta para lectura"
 
 #: src/main/saveload.c:2466
 #, fuzzy
@@ -6011,9 +6007,8 @@ msgid "can only load() from a binary connection"
 msgstr "sólo se puede leer desde una conexión binaria"
 
 #: src/main/saveload.c:2479
-#, fuzzy
 msgid "no input is available"
-msgstr "no hay disponible mecanismos de historia"
+msgstr "ninguna entrada disponible"
 
 #: src/main/saveload.c:2504
 msgid "the input does not start with a magic number compatible with loading from a connection"
@@ -6021,7 +6016,7 @@ msgstr "la entrada no comienza con un número mágico compatible con la carga desd
 
 #: src/main/scan.c:374 src/main/scan.c:424
 msgid "EOF within quoted string"
-msgstr ""
+msgstr "EOF dentro de la cadena entrecomillada"
 
 #: src/main/scan.c:494
 #, c-format
@@ -6029,18 +6024,17 @@ msgid "scan() expected '%s', got '%s'"
 msgstr "scan() esperaba '%s', obtuvo '%s'"
 
 #: src/main/scan.c:603 src/main/scan.c:763
-#, fuzzy
 msgid "too many items"
-msgstr "demasiados argumentos"
+msgstr "demasiados elementos"
 
 #: src/main/scan.c:692
 msgid "empty 'what' specified"
 msgstr "especificación vacía de 'what'"
 
 #: src/main/scan.c:751
-#, fuzzy, c-format
+#, c-format
 msgid "line %lld did not have %lld elements"
-msgstr "la linea %lld no tiene %lld elementos"
+msgstr "la línea %lld no tiene %lld elementos"
 
 #: src/main/scan.c:803
 msgid "number of items read is not a multiple of the number of columns"
@@ -6067,9 +6061,8 @@ msgid "invalid quote symbol set"
 msgstr "símbolo de citación especificado inválido"
 
 #: src/main/scan.c:1026
-#, fuzzy
 msgid "embedded nul(s) found in input"
-msgstr "nul incrustado en la cadena: '%s' \""
+msgstr "se encontraron caracteres nulos en la entrada"
 
 #: src/main/seq.c:49
 msgid "unequal factor lengths"
@@ -6080,122 +6073,108 @@ msgid "result would be too long a vector"
 msgstr "el resultado seria un vector muy largo"
 
 #: src/main/seq.c:154
-#, fuzzy
 msgid "argument of length 0"
-msgstr "argumento tiene longitud cero"
+msgstr "argumento de longitud cero"
 
 #: src/main/seq.c:157
-#, fuzzy
 msgid "numerical expression has length > 1"
-msgstr "expresión numérica con %d elemento: solo el primero es utilizado"
+msgstr "expresión numérica tiene longitud > 1"
 
 #: src/main/seq.c:159
-#, fuzzy, c-format
+#, c-format
 msgid "numerical expression has %d elements: only the first used"
-msgstr "expresión numérica con %d elemento: solo el primero es utilizado"
+msgstr "expresión numérica con %d elementos: solo el primero es utilizado"
 
 #: src/main/seq.c:166
 msgid "NA/NaN argument"
 msgstr "Argumento NA/NaN"
 
 #: src/main/seq.c:354
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for '%s' (must be a vector)"
-msgstr "tipo inválido (%s) para 'dimnames' (debe ser un vector)"
+msgstr "tipo inválido (%s) para '%s' (debe ser un vector)"
 
 #: src/main/seq.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "attempt to replicate an object of type '%s'"
-msgstr "intento de réplica de objeto que no es vector"
+msgstr "intento de replicar un objeto de tipo '%s'"
 
 #: src/main/seq.c:430
 msgid "attempt to replicate non-vector"
 msgstr "intento de réplica de objeto que no es vector"
 
 #: src/main/seq.c:445
-#, fuzzy
 msgid "cannot replicate NULL to a non-zero length"
-msgstr "no se puede asignar un vector de longitud %d"
+msgstr "no se puede replicar NULL a una longitud distinta de cero"
 
 #: src/main/seq.c:678 src/main/seq.c:694 src/main/seq.c:854 src/main/seq.c:1095
-#, fuzzy, c-format
+#, c-format
 msgid "first element used of '%s' argument"
-msgstr "solo se utilizó el primer elemento del argumento 'url'"
+msgstr "solo se utilizó el primer elemento del argumento '%s'"
 
 #: src/main/seq.c:832 src/main/seq.c:850 src/main/seq.c:869 src/main/seq.c:876
 #: src/main/seq.c:959 src/main/seq.c:960 src/main/seq.c:1005
 #: src/main/seq.c:1006 src/main/seq.c:1027 src/main/seq.c:1028
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a finite number"
-msgstr "pos' deben ser un entero"
+msgstr "'%s' debe ser finito"
 
 #: src/main/seq.c:852
-#, fuzzy
 msgid "'length.out' must be a non-negative number"
-msgstr "'gap' debe ser un entero no negativo"
+msgstr "'length.out' debe ser un entero no negativo"
 
 #: src/main/seq.c:866 src/main/seq.c:873 src/main/seq.c:881
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be of length 1"
 msgstr "'%s' debe tener longitud 1"
 
 #: src/main/seq.c:899
-#, fuzzy
 msgid "invalid '(to - from)/by'"
-msgstr "'(to - from)/by' inválido en 'seq'"
+msgstr "'(to - from)/by' no válido"
 
 #: src/main/seq.c:911
-#, fuzzy
 msgid "'by' argument is much too small"
-msgstr "argumento 'file' es muy largo"
+msgstr "argumento 'by' demasiado pequeño"
 
 #: src/main/seq.c:913
-#, fuzzy
 msgid "wrong sign in 'by' argument"
-msgstr "longitud incorrecta para el argumento 'mode'"
+msgstr "signo erróneo en el argumento 'by'"
 
 #: src/main/seq.c:1101 src/main/seq.c:1108
-#, fuzzy
 msgid "argument must be coercible to non-negative integer"
-msgstr "argumento debe ser un entorno"
+msgstr "argumento debe ser convertible a un entero no negativo"
 
 #: src/main/seq.c:1128
-#, fuzzy
 msgid "'lengths' is not of mode integer"
-msgstr "argumento no es de modo carácter"
+msgstr "'lengths' no es de modo entero"
 
 #: src/main/seq.c:1131
-#, fuzzy
 msgid "'from' is not of mode integer"
-msgstr "argumento no es de modo carácter"
+msgstr "'from' no es de modo entero"
 
 #: src/main/seq.c:1134
-#, fuzzy
 msgid "'by' is not of mode integer"
-msgstr "argumento no es de modo carácter"
+msgstr "'by' no es de modo entero"
 
 #: src/main/seq.c:1141
-#, fuzzy
 msgid "'from' has length 0, but not 'lengths'"
-msgstr "Largo de grupo es 0 pero el largo de los datos es > 0"
+msgstr "'from' tiene longitud 0 pero 'lengths' no"
 
 #: src/main/seq.c:1143
-#, fuzzy
 msgid "'by' has length 0, but not 'lengths'"
-msgstr "Largo de grupo es 0 pero el largo de los datos es > 0"
+msgstr "'by' tiene longitud 0, pero 'lengths' no"
 
 #: src/main/seq.c:1150
-#, fuzzy
 msgid "'lengths' must be a vector of non-negative integers"
-msgstr "'gap' debe ser un entero no negativo"
+msgstr "'lengths' debe ser un vector de enteros no negativos"
 
 #: src/main/seq.c:1165
 msgid "'from' contains NAs"
-msgstr ""
+msgstr "'from' contiene NAs"
 
 #: src/main/seq.c:1170
 msgid "'by' contains NAs"
-msgstr ""
+msgstr "'by' contiene NAs"
 
 #: src/main/serialize.c:259 src/main/serialize.c:306 src/main/serialize.c:330
 msgid "unknown or inappropriate output format"
@@ -6256,40 +6235,47 @@ msgstr "nombres en strings persistentes no disponibles todavía"
 #, c-format
 msgid "input string '%s' cannot be translated from '%s' to UTF-8, but is valid UTF-8"
 msgstr ""
+"la cadena de entrada '%s' no se puede traducir de '%s' a UTF-8, pero es UTF-"
+"8 válida"
 
 #: src/main/serialize.c:1681
 #, c-format
 msgid "input string '%s' cannot be translated to UTF-8, is it valid in '%s'?"
 msgstr ""
+"la cadena de entrada '%s' no se puede traducir a UTF-8, ¿es válida en '%s'?"
 
 #: src/main/serialize.c:1717
-#, fuzzy, c-format
+#, c-format
 msgid "deserializing invalid UTF-8 string '%s'"
-msgstr "string UTF-8  no válido  'old'"
+msgstr "deserializando cadena UTF-8 no válida '%s'"
 
 #: src/main/serialize.c:1747
 msgid "strings not representable in native encoding will not be translated"
 msgstr ""
+"las cadenas que no se puedan representar en la codificación nativa no se "
+"traducirán"
 
 #: src/main/serialize.c:1749
 msgid "strings not representable in native encoding will be translated to UTF-8"
 msgstr ""
+"las cadenas que no se pueden representar en la codificación nativa se "
+"traducirán a UTF-8"
 
 #: src/main/serialize.c:1766
-#, fuzzy
 msgid "negative serialized length for vector"
-msgstr "no es posible especificar la longitud de un objeto que no es un vector"
+msgstr "longitud serializada negativa para vector"
 
 #: src/main/serialize.c:1774
-#, fuzzy
 msgid "invalid upper part of serialized vector length"
-msgstr "tamaño de parámetro inválido"
+msgstr "parte superior de longitud de vector serializado no válida"
 
 #: src/main/serialize.c:1779
 msgid ""
 "negative serialized vector length:\n"
 "perhaps long vector from 64-bit version of R?"
 msgstr ""
+"longitud del vector serializado negativa:\n"
+"¿quizás un vector largo de la versión de 64 bits de R?"
 
 #: src/main/serialize.c:2059
 msgid "this version of R cannot read class references"
@@ -6305,9 +6291,8 @@ msgid "ReadItem: unknown type %i, perhaps written by later version of R"
 msgstr "ReadItem: tipo desconocido en %i, tal vez escrito con una versión posterio de R"
 
 #: src/main/serialize.c:2255 src/main/serialize.c:2346
-#, fuzzy
 msgid "invalid length of encoding name"
-msgstr "tipo o longitud inválido para el nombre de slot"
+msgstr "longitud no válida para nombre de codificación"
 
 #: src/main/serialize.c:2265
 #, c-format
@@ -6320,19 +6305,16 @@ msgid "cannot read workspace version %d written by R %d.%d.%d; need R %d.%d.%d o
 msgstr "no puede leerse espacio de trabajo versión %d escrita por R %d.%d.%d; necesita R %d.%d.%d más reciente"
 
 #: src/main/serialize.c:2425
-#, fuzzy
 msgid "read failed"
-msgstr "lectura XDR falló"
+msgstr "falló la lectura"
 
 #: src/main/serialize.c:2488
-#, fuzzy
 msgid "error reading from ascii connection"
-msgstr "error al leer desde conexión"
+msgstr "error al leer desde conexión ascii"
 
 #: src/main/serialize.c:2490
-#, fuzzy
 msgid "unexpected format in ascii connection"
-msgstr "no se puede leer desde esta conexión"
+msgstr "formato inesperado en conexión ascii"
 
 #: src/main/serialize.c:2495 src/main/serialize.c:2509
 msgid "error reading from connection"
@@ -6352,13 +6334,12 @@ msgid "bad version value"
 msgstr "valor de versión inválido"
 
 #: src/main/serialize.c:2648
-#, fuzzy
 msgid "binary-mode connection required for ascii=FALSE"
-msgstr "operaciones binarias requieren dos argumentos"
+msgstr "se requiere conexión de modo binario para ascii=FALSE"
 
 #: src/main/serialize.c:2662
 msgid "cannot return a promise (PROMSXP) object"
-msgstr ""
+msgstr "no se puede devolver un objeto promesa (PROMSXP)"
 
 #: src/main/serialize.c:2815 src/main/serialize.c:2852
 #: src/main/serialize.c:2917
@@ -6424,12 +6405,12 @@ msgstr "vetores crudos (raw) no pueden ser ordenados"
 
 #: src/main/sort.c:796
 msgid "NA or infinite index"
-msgstr ""
+msgstr "índice NA o infinito"
 
 #: src/main/sort.c:799
-#, fuzzy, c-format
+#, c-format
 msgid "index %lld outside bounds"
-msgstr "índice %lld fuera de límites"
+msgstr "índice %lld fuera de los límites"
 
 #: src/main/sort.c:804 src/main/sort.c:817
 msgid "NA index"
@@ -6450,13 +6431,13 @@ msgid "%s in \"%s\""
 msgstr "%s en \"%s\""
 
 #: src/main/source.c:168
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s in:\n"
 "\"%s\n"
 "%s\""
 msgstr ""
-"error de sintaxis en:\n"
+"%s en:\n"
 "\"%s\n"
 "%s\""
 
@@ -6467,15 +6448,19 @@ msgstr "coacción de \"texto \" a carácteres  no tuvo éxito"
 #: src/main/source.c:245
 msgid "argument encoding=\"latin1\" is ignored in MBCS locales"
 msgstr ""
+"el argumento encoding=\"latin1\" se ignora en las configuraciones regionales "
+"de MBCS"
 
 #: src/main/source.c:253
 msgid "argument encoding=\"UTF-8\" is ignored in MBCS locales"
 msgstr ""
+"el argumento encoding=\"UTF-8\" se ignora en las configuraciones regionales "
+"de MBCS"
 
 #: src/main/source.c:255
-#, fuzzy, c-format
+#, c-format
 msgid "argument '%s = \"%s\"' will be ignored"
-msgstr "argumento '%s  será ignorado"
+msgstr "argumento '%s = \"%s\"' será ignorado"
 
 #: src/main/split-incl.c:15
 msgid "factor has bad level"
@@ -6490,47 +6475,47 @@ msgid "second argument must be a factor"
 msgstr "segundo argumento debe ser un factor"
 
 #: src/main/split.c:46
-#, fuzzy
 msgid "group length is 0 but data length > 0"
-msgstr "Largo de grupo es 0 pero el largo de los datos es > 0"
+msgstr "longitud del grupo es 0 pero el la longitud de los datos es > 0"
 
 #: src/main/split.c:48
 msgid "data length is not a multiple of split variable"
 msgstr "largo de datos no es múltiplo de la variable de separación"
 
 #: src/main/sprintf.c:98
-#, fuzzy, c-format
+#, c-format
 msgid "required resulting string length %d is greater than maximal %d"
-msgstr "requerido como resultado longitud de la cadena %d es > máxima %d"
+msgstr ""
+"longitud de la cadena resultante requerida %d es mayor que el valor maximal "
+"%d"
 
 #: src/main/sprintf.c:106
-#, fuzzy
 msgid "'fmt' is not a character vector"
-msgstr "'fmt' debe ser un vector de caracteres no vacío"
+msgstr "'fmt' no es un vector de tipo carácter"
 
 #: src/main/sprintf.c:111
-#, fuzzy, c-format
+#, c-format
 msgid "only %d arguments are allowed"
-msgstr "solo 100 argumentos son permitidos"
+msgstr "solo %d argumentos son permitidos"
 
 #: src/main/sprintf.c:119
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type of argument[%d]: '%s'"
-msgstr "'type' (%s) de argumento no válido"
+msgstr "tipo del argumento[%d] no válido: '%s'"
 
 #: src/main/sprintf.c:130 src/main/sprintf.c:133
 msgid "arguments cannot be recycled to the same length"
 msgstr "argumentos no pueden ser reciclados al mismo tamaño"
 
 #: src/main/sprintf.c:155 src/main/sprintf.c:266
-#, fuzzy, c-format
+#, c-format
 msgid "'fmt' length exceeds maximal format length %d"
-msgstr "longitud de 'fmt' excede la longitud máxima %d de buffer"
+msgstr "longitud de 'fmt' excede la longitud máxima de formato %d"
 
 #: src/main/sprintf.c:174
-#, fuzzy, c-format
+#, c-format
 msgid "unrecognised format specification '%s'"
-msgstr "especificación de color inválida '%s"
+msgstr "especificación de formato no reconocida '%s"
 
 #: src/main/sprintf.c:185 src/main/sprintf.c:191 src/main/sprintf.c:204
 #: src/main/sprintf.c:211
@@ -6543,14 +6528,13 @@ msgid "too few arguments"
 msgstr "muy pocos argumentos"
 
 #: src/main/sprintf.c:223
-#, fuzzy
 msgid "at most one asterisk '*' is supported in each conversion specification"
-msgstr "a lo sumo un asterisco `*' es permitido en cada especificación de conversión"
+msgstr ""
+"a lo sumo un asterisco '*' es permitido en cada especificación de conversión"
 
 #: src/main/sprintf.c:234
-#, fuzzy
 msgid "argument for '*' conversion specification must be a number"
-msgstr "argumento para especificación de conversión `*' debe ser un número"
+msgstr "argumento para especificación de conversión '*' debe ser un número"
 
 #: src/main/sprintf.c:276
 msgid "coercion has changed vector length to 0"
@@ -6558,9 +6542,9 @@ msgstr "coerción ha cambiado largo de vector a 0"
 
 #: src/main/sprintf.c:363 src/main/sprintf.c:377 src/main/sprintf.c:391
 #: src/main/sprintf.c:426
-#, fuzzy, c-format
+#, c-format
 msgid "invalid format '%s'; %s"
-msgstr "valor inválido para '%s'"
+msgstr "formato no válido '%s'; %s"
 
 #: src/main/sprintf.c:364
 #, c-format
@@ -6568,9 +6552,9 @@ msgid "use format %d or %i for logical objects"
 msgstr "use formato %d o %i para objetos lógicos"
 
 #: src/main/sprintf.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "use format %d, %i, %o, %x or %X for integer objects"
-msgstr "use formato %d, %i, %x o %X para objetos enteros"
+msgstr "use formato %d, %i, %o, %x o %X para objetos de tipo entero"
 
 #: src/main/sprintf.c:392
 #, fuzzy, c-format
@@ -6583,33 +6567,32 @@ msgid "use format %s for character objects"
 msgstr "use formato %s para objetos tipo carácter"
 
 #: src/main/sprintf.c:432
-#, fuzzy, c-format
+#, c-format
 msgid "likely truncation of character string to %d characters"
-msgstr "Probable truncamento de string de caracteres"
+msgstr "probable truncamiento de cadena a %d caracteres"
 
 #: src/main/sprintf.c:441
 msgid "unsupported type"
 msgstr "tipo no soportado"
 
 #: src/main/sprintf.c:483
-#, fuzzy, c-format
+#, c-format
 msgid "one argument not used by format '%s'"
-msgstr "valor fuera de sus límites en 'perm'"
+msgstr "un argumento no fue usado para formato '%s'"
 
 #: src/main/sprintf.c:485
-#, fuzzy, c-format
+#, c-format
 msgid "%d arguments not used by format '%s'"
-msgstr "valor fuera de sus límites en 'perm'"
+msgstr "%d argumentos no fueron usados para formato '%s'"
 
 #: src/main/sprintf.c:488
-#, fuzzy
 msgid "one argument not used by format"
-msgstr "segundo argumento debe ser un factor"
+msgstr "un argumento no fue usado para formato"
 
 #: src/main/sprintf.c:490
-#, fuzzy, c-format
+#, c-format
 msgid "%d arguments not used by format"
-msgstr "el argumento no es una matriz"
+msgstr "%d argumentos no fueron usados para formato"
 
 #: src/main/startup.c:77
 msgid "R_LibraryFileName: buffer too small"
@@ -6620,14 +6603,15 @@ msgid "attempt to enlarge non-vector"
 msgstr "intento de alargar un objeto diferente a un vector"
 
 #: src/main/subassign.c:156
-#, fuzzy, c-format
+#, c-format
 msgid "assignment outside vector/list limits (extending from %lld to %lld)"
-msgstr "asignación fuera de los límites del vector/lista (extendiendo de %lld a %lld)"
+msgstr ""
+"asignación fuera de los límites del vector o lista (extendiendo de %lld a "
+"%lld)"
 
 #: src/main/subassign.c:274
-#, fuzzy
 msgid "bad names attribute"
-msgstr "nombre de espacio inválido"
+msgstr "atributo 'names' erróneo"
 
 #: src/main/subassign.c:489
 #, c-format
@@ -6640,9 +6624,8 @@ msgstr "NAs no son permitidos en asignaciones subscritas"
 
 #: src/main/subassign.c:686 src/main/subassign.c:985 src/main/subassign.c:1210
 #: src/main/subassign.c:1855
-#, fuzzy
 msgid "replacement has length zero"
-msgstr "argumento tiene longitud cero"
+msgstr "valor de reemplazo tiene longitud cero"
 
 #: src/main/subassign.c:688 src/main/subassign.c:987 src/main/subassign.c:1212
 msgid "number of items to replace is not a multiple of replacement length"
@@ -6667,9 +6650,8 @@ msgid "incompatible types (from %s to %s) in array subset assignment"
 msgstr "tipos incompatibles (de %s a %s) en asignaciones de subconjunto de arreglos (arrays)"
 
 #: src/main/subassign.c:1399 src/main/subassign.c:1421
-#, fuzzy
 msgid "invalid subscript in list assign"
-msgstr "número de subscritos inválidos en asignación de lista"
+msgstr "subíndice no válido en asignación de lista"
 
 #: src/main/subassign.c:1414
 msgid "invalid number of subscripts to list assign"
@@ -6688,9 +6670,8 @@ msgid "[[<- defined for objects of type \"S4\" only for subclasses of environmen
 msgstr "[[<- definido para objectos de tipo \"S4\" solo para subclases de entorno"
 
 #: src/main/subassign.c:1820
-#, fuzzy
 msgid "improper dimensions"
-msgstr "número incorreto de dimensiones"
+msgstr "dimensiones inapropiadas"
 
 #: src/main/subassign.c:1826
 msgid "wrong args for environment subassignment"
@@ -6719,30 +6700,30 @@ msgstr "Realizando coercion de LHD a una lista"
 
 #: src/main/subscript.c:97 src/main/subscript.c:119 src/main/subscript.c:138
 #: src/main/subscript.c:232 src/main/subscript.c:258
-#, fuzzy, c-format
+#, c-format
 msgid "attempt to select less than one element in %s"
-msgstr "intento de selecionar menos de un elemento"
+msgstr "intento de selecionar menos de un elemento en %s"
 
 #: src/main/subscript.c:101 src/main/subscript.c:116 src/main/subscript.c:142
 #: src/main/subscript.c:230 src/main/subscript.c:265 src/main/subscript.c:358
-#, fuzzy, c-format
+#, c-format
 msgid "attempt to select more than one element in %s"
-msgstr "intento de selecionar más de un elemento"
+msgstr "intento de selecionar más de un elemento en %s"
 
 #: src/main/subscript.c:201 src/main/subscript.c:335 src/main/subscript.c:1022
 #: src/main/subscript.c:1106 src/main/subset.c:1229
-#, fuzzy, c-format
+#, c-format
 msgid "invalid subscript type '%s'"
-msgstr "tipo de subscrito inválido"
+msgstr "tipo de subíndice no válido: '%s'"
 
 #: src/main/subscript.c:235
 msgid "internal error in use of recursive indexing"
 msgstr "error interno en uso de indexación recursiva"
 
 #: src/main/subscript.c:257 src/main/subscript.c:264
-#, fuzzy, c-format
+#, c-format
 msgid "invalid negative subscript in %s"
-msgstr "tipo de subscrito inválido"
+msgstr "subíndice negativo no válido en %s"
 
 #: src/main/subscript.c:298 src/main/subscript.c:302 src/main/subset.c:1331
 #: src/main/subset.c:1389
@@ -6781,11 +6762,14 @@ msgstr "arreglo (array) sin atributo 'dimnames'"
 #, c-format
 msgid "%d x %d character matrix subscript illegal for NULL dimnames"
 msgstr ""
+"subíndice de matriz de caracteres %d x %d no es válido con dimnames NULL"
 
 #: src/main/subscript.c:533
 #, c-format
 msgid "subscripting by character matrix of %d columns does not match length(dimnames(x)) == %d"
 msgstr ""
+"al subindizar por matriz de caracteres de %d columnas, no coincide con "
+"length(dimnames(x)) == %d"
 
 #: src/main/subscript.c:594
 msgid "(subscript) logical subscript too long"
@@ -8178,9 +8162,8 @@ msgid "'intern' must be logical and not NA"
 msgstr "'intern' debe ser un valor lógico y no NA"
 
 #: src/unix/sys-unix.c:912
-#, fuzzy
 msgid "'receive.console.signals' must be logical and not NA"
-msgstr "'intern' debe ser un valor lógico y no NA"
+msgstr "'receive.console.signals' debe ser tipo lógico y no NA"
 
 #: src/unix/sys-unix.c:954
 #, c-format
