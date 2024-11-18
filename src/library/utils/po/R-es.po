@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:50\n"
-"PO-Revision-Date: 2024-11-18 22:46+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -177,15 +177,14 @@ msgstr "Se recomienda utilizar %s en lugar de %s."
 msgid "Use either %s or %s but not both."
 msgstr "Utilice %s o %s, pero no ambos."
 
-#, fuzzy
 msgid "Arguments of person() should be character or NULL"
-msgstr "'priority' debe ser carácter o NULL"
+msgstr "Argumentos de person() deben ser carácter o NULL"
 
 msgid "subscript out of bounds"
 msgstr "subíndice fuera de límites"
 
 msgid "must have some non-empty fields"
-msgstr ""
+msgstr "debe tener algunos campos no vacíos"
 
 msgid "method is only applicable to %s objects"
 msgstr "el método sólo es aplicable a %s objetos"
@@ -216,7 +215,7 @@ msgstr ""
 "%s"
 
 msgid "package %s has no %s file: only auto-generation is possible"
-msgstr ""
+msgstr "el paquete %s no tiene el archivo %s: solo es posible la autogeneración"
 
 msgid "could not determine year for %s from package DESCRIPTION file"
 msgstr "no se pudo determinar el año para %s del archivo DESCRIPTION del paquete"
@@ -562,7 +561,7 @@ msgid "'%s' is a formal generic function; S3 methods will not likely be found"
 msgstr "'%s' es una función genérica formal; es probable que no se encuentren los métodos S3"
 
 msgid "some methods may be unavailable outside of their namespace"
-msgstr ""
+msgstr "algunos métodos pueden no estar disponibles afuera de su namespace"
 
 msgid "no function '%s' is visible"
 msgstr "ninguna función '%s' es visible"
@@ -1292,8 +1291,8 @@ msgstr[1] "Especificaciones de rol no válidas: %s."
 
 msgid "Invalid ORCID iD: %s."
 msgid_plural "Invalid ORCID iDs: %s."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "ORCID iD inválido: %s."
+msgstr[1] "ORCID iDs inválidos: %s."
 
 msgid "A bibentry of bibtype %s has to specify the field: %s"
 msgid_plural "A bibentry of bibtype %s has to specify the fields: %s"
