@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-11-18 22:51+0000\n"
-"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -6539,9 +6539,9 @@ msgid "use format %d, %i, %o, %x or %X for integer objects"
 msgstr "use formato %d, %i, %o, %x o %X para objetos de tipo entero"
 
 #: src/main/sprintf.c:392
-#, fuzzy, c-format
+#, c-format
 msgid "use format %f, %e, %g or %a for numeric objects"
-msgstr "use formato %f, %e o %g para objetos numéricos"
+msgstr "use el formato %f, %e o %g para objetos numéricos"
 
 #: src/main/sprintf.c:427
 #, c-format
@@ -7490,15 +7490,16 @@ msgstr "no fue posible asignar memoria para estrutura de tipo X11Routines"
 #: src/modules/internet/internet.c:94
 msgid "the 'wininet' method of url() is deprecated for http:// and https:// URLs"
 msgstr ""
+"El método 'wininet' de url() es obsoleto para las URL http:// y https://"
 
 #: src/modules/internet/internet.c:116
 msgid "the 'wininet' method of url() is deprecated for ftp:// URLs"
-msgstr ""
+msgstr "el método 'wininet' de url() es obsoleto para URLs de tipo ftp://"
 
 #: src/modules/internet/internet.c:127 src/modules/internet/internet.c:519
-#, fuzzy, c-format
+#, c-format
 msgid "scheme not supported in URL '%s'"
-msgstr "reinicios no sustentados en 'eval'"
+msgstr "esquema no es soportado en la URL '%s'"
 
 #: src/modules/internet/internet.c:202 src/modules/internet/internet.c:206
 #: src/modules/internet/internet.c:212 src/modules/internet/internet.c:232
@@ -7522,22 +7523,22 @@ msgid "Download progress"
 msgstr "Descarga en progreso"
 
 #: src/modules/internet/internet.c:378
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open URL '%s', reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no es posible abrir el archivo '%s', el motivo es '%s'"
 
 #: src/modules/internet/internet.c:385 src/modules/internet/internet.c:415
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open destfile '%s', reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no es posible abrir el archivo '%s', el motivo es '%s'"
 
 #: src/modules/internet/internet.c:396
 msgid "the 'internal' method for http:// URLs is defunct"
-msgstr ""
+msgstr "el método 'internal' para URLs tipo http:// no existe"
 
 #: src/modules/internet/internet.c:404
 msgid "the 'wininet' method is deprecated for http:// and https:// URLs"
-msgstr ""
+msgstr "el método 'wininet' es obsoleto para las URL de http:// y https://"
 
 #: src/modules/internet/internet.c:420 src/modules/internet/libcurl.c:705
 #, c-format
@@ -7545,9 +7546,9 @@ msgid "trying URL '%s'\n"
 msgstr "probando la URL '%s'\n"
 
 #: src/modules/internet/internet.c:504 src/modules/internet/libcurl.c:976
-#, fuzzy, c-format
+#, c-format
 msgid "downloaded length %0.f != reported length %0.f"
-msgstr "longitud bajada %d != longitud informada %d"
+msgstr "longitud descargada %d != longitud informada %d"
 
 #: src/modules/internet/internet.c:510 src/modules/internet/libcurl.c:996
 #, c-format
@@ -7556,11 +7557,11 @@ msgstr "no fue posible abrir la URL '%s'"
 
 #: src/modules/internet/internet.c:515
 msgid "the 'wininet' method for ftp:// URLs is defunct"
-msgstr ""
+msgstr "el método 'wininet' para ftp:// URL fue dado de baja"
 
 #: src/modules/internet/internet.c:517
 msgid "the 'internal' method for ftp:// URLs is defunct"
-msgstr ""
+msgstr "el método 'internal' para URLs  tipo \"ftp://\" fue dado de baja"
 
 #: src/modules/internet/internet.c:570 src/modules/internet/internet.c:584
 #: src/modules/internet/internet.c:676 src/modules/internet/internet.c:685
@@ -7571,34 +7572,32 @@ msgstr "fallo en InternetOpenUrl: '%s'"
 #: src/modules/internet/internet.c:599
 #, c-format
 msgid "cannot open URL '%s': %s status was '%lu %s'"
-msgstr ""
+msgstr "no es posible abrir la URL '%s': el estado de %s fue '%lu %s'"
 
 #: src/modules/internet/libcurl.c:213
 #, c-format
 msgid "cannot open URL '%s': %s status was '%ld %s'"
-msgstr ""
+msgstr "no es posible abrir la URL '%s': el estado de %s fue '%ld %s'"
 
 #: src/modules/internet/libcurl.c:218
 #, c-format
 msgid "URL '%s': Timeout of %d seconds was reached"
-msgstr ""
+msgstr "URL '%s': Se ha alcanzado el tiempo de espera de %d segundos"
 
 #: src/modules/internet/libcurl.c:221
 #, c-format
 msgid "URL '%s': status was '%s'"
-msgstr ""
+msgstr "URL '%s': el estado fue '%s'"
 
 #: src/modules/internet/libcurl.c:350
-#, fuzzy
 msgid "curlGetHeaders is not supported on this platform"
-msgstr "esta plataforma no soporta nsl()"
+msgstr "curlGetHeaders no es soportado en esta plataforma"
 
 #: src/modules/internet/libcurl.c:374 src/modules/internet/libcurl.c:615
 #: src/modules/internet/libcurl.c:861 src/modules/internet/libcurl.c:1176
 #: src/modules/internet/libcurl.c:1198
-#, fuzzy
 msgid "could not create curl handle"
-msgstr "no fue posible asignar espacio para la tabla DLL"
+msgstr "no fue posible crear la variable de control curl handle"
 
 #: src/modules/internet/libcurl.c:421 src/modules/internet/libcurl.c:423
 #, c-format
@@ -7606,16 +7605,17 @@ msgid ""
 "libcurl error code %d:\n"
 "\t%s\n"
 msgstr ""
+"código de error libcurl %d:\n"
+"%s\n"
 
 #: src/modules/internet/libcurl.c:637
-#, fuzzy, c-format
+#, c-format
 msgid "URL %s: cannot open destfile '%s', reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no es posible abrir el archivo '%s', el motivo es '%s'"
 
 #: src/modules/internet/libcurl.c:771
-#, fuzzy
 msgid "download.file(method = \"libcurl\") is not supported on this platform"
-msgstr "esta plataforma no soporta nsl()"
+msgstr "ownload.file(method = «libcurl») no es compatible con esta plataforma"
 
 #: src/modules/internet/libcurl.c:801
 #, fuzzy
@@ -7624,37 +7624,33 @@ msgstr "la longitud de los nombres de importación y exportación debe coincidir"
 
 #: src/modules/internet/libcurl.c:839 src/modules/internet/libcurl.c:855
 msgid "out of memory"
-msgstr ""
+msgstr "memoria insuficiente"
 
 #: src/modules/internet/libcurl.c:992
-#, fuzzy
 msgid "cannot download any files"
-msgstr "no fue posible abrir el archivo '%s'"
+msgstr "no se puede descargar ningún archivo"
 
 #: src/modules/internet/libcurl.c:993
-#, fuzzy
 msgid "some files were not downloaded"
-msgstr "el archivo de restauración  puede estar vacío - ningún dato cargado"
+msgstr "algunos archivos no fueron descargados"
 
 #: src/modules/internet/libcurl.c:999
 #, c-format
 msgid "download from '%s' failed"
-msgstr ""
+msgstr "error en la descarga de '%s'"
 
 #: src/modules/internet/libcurl.c:1158
-#, fuzzy
 msgid "cannot read from connection"
-msgstr "no se puede leer desde esta conexión"
+msgstr "no es posible leer desde la conexión"
 
 #: src/modules/internet/libcurl.c:1217
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open the connection to '%s'"
-msgstr "no se puede abrir la conexión"
+msgstr "no es posible abrir la conexión a '%s'"
 
 #: src/modules/internet/libcurl.c:1300
-#, fuzzy
 msgid "url(method = \"libcurl\") is not supported on this platform"
-msgstr "esta plataforma no soporta nsl()"
+msgstr "url(method = «libcurl») no es compatible con esta plataforma"
 
 #: src/modules/internet/sockconn.c:219 src/modules/internet/sockconn.c:223
 #: src/modules/internet/sockconn.c:230 src/modules/internet/sockconn.c:244
@@ -7663,14 +7659,15 @@ msgstr "fallo en la adjudicación de la conexión socket"
 
 #: src/modules/internet/sockconn.c:260 src/modules/internet/sockconn.c:264
 #: src/modules/internet/sockconn.c:271 src/modules/internet/sockconn.c:279
-#, fuzzy
 msgid "allocation of server socket connection failed"
-msgstr "fallo en la adjudicación de la conexión socket"
+msgstr "fallo en la asignación de la conexión del socket del servidor"
 
 #: src/modules/internet/sockconn.c:288
 #, c-format
 msgid "creation of server socket failed: port %d cannot be opened"
 msgstr ""
+"error en la creación del socket del servidor: no es posible abrir el puerto "
+"%d"
 
 #: src/modules/lapack/Lapack.c:66 src/modules/lapack/Lapack.c:85
 #: src/modules/lapack/Lapack.c:100
@@ -7689,9 +7686,9 @@ msgid "argument type[1]='%s' must be one of '1','O', or 'I'"
 msgstr "argument tipo[1]='%s' debe ser uno de  '1','O', or 'I'"
 
 #: src/modules/lapack/Lapack.c:104
-#, fuzzy, c-format
+#, c-format
 msgid "argument type[1]='%s' must be 'U' or 'L'"
-msgstr "argument tipo[1]='%s' debe ser uno de  '1','O', or 'I'"
+msgstr "el argumento type[1]='%s' debe ser 'U' o 'L'"
 
 #: src/modules/lapack/Lapack.c:143 src/modules/lapack/Lapack.c:150
 #: src/modules/lapack/Lapack.c:209 src/modules/lapack/Lapack.c:220
@@ -7737,9 +7734,8 @@ msgstr "singularidad exacta: U[%d,%d] = 0 en la descomposición-LU {Lapack 'dgetr
 #: src/modules/lapack/Lapack.c:442 src/modules/lapack/Lapack.c:478
 #: src/modules/lapack/Lapack.c:543 src/modules/lapack/Lapack.c:599
 #: src/modules/lapack/Lapack.c:635
-#, fuzzy
 msgid "'A' must be a *square* matrix"
-msgstr "'a' debe ser una matriz cuadrada"
+msgstr "'A' debe ser una matriz cuadrada"
 
 #: src/modules/lapack/Lapack.c:457
 #, fuzzy, c-format
