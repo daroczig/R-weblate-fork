@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-19 03:05+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -2623,26 +2623,24 @@ msgstr "la marca de depuración en una función compilada no tiene efecto"
 
 #: src/main/context.c:616
 msgid "debug will apply when function leaves compiled code"
-msgstr ""
+msgstr "la depuración se activará cuando la función salga del código compilado"
 
 #: src/main/context.c:727
 msgid "internal error in 'do_sys'"
 msgstr "error interno en 'do_sys'"
 
 #: src/main/cum.c:68
-#, fuzzy
 msgid "integer overflow in 'cumsum'; use 'cumsum(as.numeric(.))'"
-msgstr "Exceso de capacidad (overflow) en 'cumsum'; use 'cumsum(as.numeric(.))"
+msgstr ""
+"desbordamiento de números enteros en 'cumsum'; use 'cumsum(as.numeric(.))"
 
 #: src/main/cum.c:217
-#, fuzzy
 msgid "'cummax' not defined for complex numbers"
-msgstr "min/max no definido para números complejos"
+msgstr "'cummax' no definido para números complejos"
 
 #: src/main/cum.c:220
-#, fuzzy
 msgid "'cummin' not defined for complex numbers"
-msgstr "min/max no definido para números complejos"
+msgstr "'cummin' no definido para números complejos"
 
 #: src/main/cum.c:247 src/main/cum.c:274
 msgid "unknown cumxxx function"
@@ -2652,6 +2650,8 @@ msgstr "función cumxxx desconocida"
 #: src/main/datetime.c:611
 msgid "datetimes before 1902 may not be accurate: warns once per session"
 msgstr ""
+"es posible que las fechas datetimes previas a 1902 no sean precisas: será "
+"advertido una vez por sesión"
 
 #: src/main/datetime.c:807 src/main/datetime.c:819 src/main/datetime.c:842
 #: src/main/datetime.c:847
@@ -2668,45 +2668,47 @@ msgstr "problema  al desestablecer zona horaria"
 
 #: src/main/datetime.c:986
 msgid "a valid \"POSIXlt\" object is a list of at least 9 elements"
-msgstr ""
+msgstr "un objeto \"POSIXIt\" válido es una lista de al menos 9 elementos"
 
 #: src/main/datetime.c:990
 msgid "a valid \"POSIXlt\" object has names"
-msgstr ""
+msgstr "un objeto \"POSIXIt\" válido tiene nombres"
 
 #: src/main/datetime.c:996
 #, c-format
 msgid "a valid \"POSIXlt\" object has element %d with name '%s' which should be '%s'"
 msgstr ""
+"un objeto \"POSIXlt\" válido tiene el elemento %d con el nombre '%s' que "
+"debería ser '%s'"
 
 #: src/main/datetime.c:1003 src/main/datetime.c:1019
 #, c-format
 msgid "a valid \"POSIXlt\" object has a numeric element %s"
-msgstr ""
+msgstr "un objeto \"POSIXlt\" válido tiene un elemento numérico %s"
 
 #: src/main/datetime.c:1014
 #, c-format
 msgid "a valid \"POSIXlt\" object has a character element %s"
-msgstr ""
+msgstr "un objeto \"POSIXlt\" válido tiene un elemento de tipo caracter %s"
 
 #: src/main/datetime.c:1027 src/main/datetime.c:1269 src/main/datetime.c:1958
-#, fuzzy, c-format
+#, c-format
 msgid "invalid '%s'"
-msgstr "valor de '%s' no válido"
+msgstr "valor '%s' no válido"
 
 #: src/main/datetime.c:1030
 msgid "attr(x, \"tzone\") should have length 1 or 3"
-msgstr ""
+msgstr "attr(x, \"tzone\") debe tener longitud 1 o 3"
 
 #: src/main/datetime.c:1147
-#, fuzzy, c-format
+#, c-format
 msgid "zero-length component [[%d]] in non-empty \"POSIXlt\" structure"
-msgstr "componente de longitud cero en estructura POSIXlt no vacía"
+msgstr "componente de longitud cero [[%d]] en estructura POSIXlt no vacía"
 
 #: src/main/datetime.c:1791
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a \"%s\""
-msgstr "fifo '%s' no está listo"
+msgstr "'%s' no es \"%s\""
 
 #: src/main/dcf.c:112 src/main/dcf.c:188 src/main/dcf.c:269
 msgid "could not allocate memory for 'read.dcf'"
@@ -2727,9 +2729,9 @@ msgid "argument must be a function"
 msgstr "argumento debe ser una función"
 
 #: src/main/debug.c:111
-#, fuzzy, c-format
+#, c-format
 msgid "Value for '%s' must be TRUE or FALSE"
-msgstr "'all.x' debe ser TRUE o FALSE"
+msgstr "Valor para '%s' debe ser TRUE o FALSE"
 
 #: src/main/debug.c:141 src/main/debug.c:169 src/main/debug.c:244
 msgid "argument must not be a function"
@@ -2752,9 +2754,8 @@ msgid "R was not compiled with support for memory profiling"
 msgstr "R no fue compilado con soporte para perfil de memoria 'R profiling'"
 
 #: src/main/deparse.c:176
-#, fuzzy
 msgid "invalid 'cutoff' value for 'deparse', using default"
-msgstr "'cutoff' inválido para deparse, se usó el definido por omisión"
+msgstr "'cutoff' no válido para 'deparse', se usa el valor predeterminado"
 
 #: src/main/deparse.c:306
 msgid "deparse may be incomplete"
@@ -2765,9 +2766,8 @@ msgid "deparse may be not be source()able in R < 2.7.0"
 msgstr "deparse may be not be source()able in R < 2.7.0"
 
 #: src/main/deparse.c:398 src/main/deparse.c:443 src/main/source.c:204
-#, fuzzy
 msgid "'file' must be a character string or connection"
-msgstr "que debe ser un string de caracteres o una función"
+msgstr "'file' debe ser una cadena de caracteres o conexión"
 
 #: src/main/deparse.c:422 src/main/deparse.c:518 src/main/deparse.c:524
 msgid "wrote too few characters"
@@ -2778,7 +2778,6 @@ msgid "character arguments expected"
 msgstr "argumentos de tipo carácter esperados"
 
 #: src/main/deparse.c:448
-#, fuzzy
 msgid "zero-length argument"
 msgstr "argumento de longitud cero"
 
@@ -2809,6 +2808,8 @@ msgstr "ningún dispositivo activo o por defecto"
 #: src/main/devices.c:177
 msgid "no active device and default getOption(\"device\") is invalid"
 msgstr ""
+"no hay ningún dispositivo activo y y la opción predeterminada getOption("
+"\"device\") no es válida"
 
 #: src/main/devices.c:391 src/main/devices.c:453
 msgid "too many open devices"
@@ -2837,9 +2838,10 @@ msgid "symbol '%s' is too long"
 msgstr "symbol '%s' es demasiado largo"
 
 #: src/main/dotcode.c:174
-#, fuzzy
 msgid "first argument must be a string (of length 1) or native symbol reference"
-msgstr "'name' debe ser un string (de longitud 1) o una referencia a un símbolo nativo"
+msgstr ""
+"el primer argumento debe ser una cadena de longitud 1 o una referencia a un "
+"símbolo nativo"
 
 #: src/main/dotcode.c:224 src/main/dotcode.c:1425
 msgid "too many arguments in foreign function call"
@@ -2847,13 +2849,13 @@ msgstr "demasiados argumentos en llamada a una función externa"
 
 #: src/main/dotcode.c:236
 msgid "PACKAGE = \"\" is invalid"
-msgstr ""
+msgstr "PACKAGE = \"\" no es válido"
 
 #: src/main/dotcode.c:292 src/main/dotcode.c:297 src/main/dotcode.c:302
 #: src/main/dotcode.c:307
-#, fuzzy, c-format
+#, c-format
 msgid "\"%s\" not available for %s() for package \"%s\""
-msgstr "\t\"Información métrica no disponible para este dispositivo"
+msgstr "\"%s\" no disponible para %s() para el paquete \"%s\""
 
 #: src/main/dotcode.c:312
 #, c-format
@@ -2867,9 +2869,9 @@ msgstr "%s nombre de símbolo \"%s\" no está en la tabla de carga"
 
 #: src/main/dotcode.c:368 src/main/dotcode.c:370 src/main/dotcode.c:380
 #: src/main/dotcode.c:445 src/main/dotcode.c:452
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' used more than once"
-msgstr "DUP usado más de un vez"
+msgstr "'%s' usado más de un vez"
 
 #: src/main/dotcode.c:376
 msgid "DLL name is too long"
@@ -2892,14 +2894,13 @@ msgid "too many arguments"
 msgstr "demasiados argumentos"
 
 #: src/main/dotcode.c:554 src/main/dotcode.c:1417 src/main/dotcode.c:1673
-#, fuzzy
 msgid "'.NAME' is missing"
-msgstr "'EXPR' esta perdida"
+msgstr "'.NAME' faltante"
 
 #: src/main/dotcode.c:563 src/main/dotcode.c:1432 src/main/dotcode.c:1693
-#, fuzzy, c-format
+#, c-format
 msgid "Incorrect number of arguments (%d), expecting %d for '%s'"
-msgstr "Número incorreto de argumentos (%d), esperando %d para %s"
+msgstr "Número incorrecto de argumentos (%d), se esperaban %d para '%s'"
 
 #: src/main/dotcode.c:1400 src/main/dotcode.c:2548
 msgid "too many arguments, sorry"
@@ -2915,17 +2916,17 @@ msgstr "valor NULL para DLLInfoReference cuando se está buscando DLL"
 
 #: src/main/dotcode.c:1635
 msgid "DLL requires the use of native symbols"
-msgstr ""
+msgstr "DLL requiere el uso de símbolos nativos"
 
 #: src/main/dotcode.c:1732
-#, fuzzy, c-format
+#, c-format
 msgid "wrong type for argument %d in call to %s"
-msgstr "Tipo erróneo para el argumento %d en la llamada a %s"
+msgstr "tipo erróneo para el argumento %d en la llamada a %s"
 
 #: src/main/dotcode.c:1761
-#, fuzzy, c-format
+#, c-format
 msgid "long vectors (argument %d) are not supported in %s"
-msgstr "esta plataforma no soporta symlinks"
+msgstr "vectores largos (argumento %d) no soportados en %s"
 
 #: src/main/dotcode.c:1792
 #, c-format
@@ -2943,14 +2944,14 @@ msgid "complex NA/NaN/Inf in foreign function call (arg %d)"
 msgstr "NA/NaN/Inf complejo en llamada a una función externa (arg %d)"
 
 #: src/main/dotcode.c:1912 src/main/dotcode.c:1933 src/main/dotcode.c:1944
-#, fuzzy, c-format
+#, c-format
 msgid "invalid mode (%s) to pass to Fortran (arg %d)"
-msgstr "modo inválido para pasar a Fortran (arg %d)"
+msgstr "modo inválido (%s) para pasar a Fortran (arg %d)"
 
 #: src/main/dotcode.c:1938
-#, fuzzy, c-format
+#, c-format
 msgid "invalid mode (%s) to pass to C or Fortran (arg %d)"
-msgstr "modo inválido para pasar a Fortran (arg %d)"
+msgstr "modo inválido (%s) para pasar a C o a Fortran (arg %d)"
 
 #: src/main/dotcode.c:1949
 msgid "pairlists are passed as SEXP as from R 2.15.0"
@@ -2975,14 +2976,12 @@ msgid "zip path is too long"
 msgstr "el path de zip es demasiado largo"
 
 #: src/main/dounzip.c:351
-#, fuzzy
 msgid "'exdir' is too long"
-msgstr "'destination' es demasiado largo"
+msgstr "'exdir' es demasiado largo"
 
 #: src/main/dounzip.c:354
-#, fuzzy
 msgid "'exdir' does not exist"
-msgstr "el menú no existe"
+msgstr "'exdir' no existe"
 
 #: src/main/dounzip.c:379
 msgid "requested file not found in the zip file"
@@ -3010,9 +3009,8 @@ msgid "unz connections can only be opened for reading"
 msgstr "las conecciones unz sólo pueden ser abiertas para lectura"
 
 #: src/main/dounzip.c:432
-#, fuzzy
 msgid "invalid description of 'unz' connection"
-msgstr "descripción inválida de conexión unz"
+msgstr "descripción de conexión 'unz' no válida"
 
 #: src/main/dounzip.c:438
 #, c-format
@@ -3034,19 +3032,16 @@ msgstr "no esta permitido escribir en esta conexión"
 
 #: src/main/dounzip.c:511 src/main/dounzip.c:515 src/main/dounzip.c:522
 #: src/main/dounzip.c:540
-#, fuzzy
 msgid "allocation of 'unz' connection failed"
-msgstr "la localización de la conexión unz falló"
+msgstr "fallo al asignar conexión 'unz'"
 
 #: src/main/dstruct.c:90
-#, fuzzy
 msgid "invalid formal arguments for 'function'"
-msgstr "argumentos formales inválidos para \"function\""
+msgstr "argumentos formales no válidos para 'function'"
 
 #: src/main/dstruct.c:100
-#, fuzzy
 msgid "invalid body argument for 'function'"
-msgstr "argumentos formales inválidos para \"function\""
+msgstr "argumento 'body' no válido para 'function'"
 
 #: src/main/edit.c:111
 msgid "invalid argument to edit()"
@@ -3087,14 +3082,14 @@ msgid "unable to open file to read"
 msgstr "no fue posible abrir un archivo de lectura"
 
 #: src/main/edit.c:198
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "%s occurred on line %d\n"
 " use a command like\n"
 " x <- edit()\n"
 " to recover"
 msgstr ""
-"un error ocurrió en la linea %d\n"
+"ocurrió '%s' en la linea %d\n"
 " use un comando de tipo\n"
 " x <- edit()\n"
 " para recuperar"
@@ -3127,7 +3122,6 @@ msgstr "unión de línea inválida"
 
 #: src/main/engine.c:778 src/main/engine.c:887 src/main/engine.c:1233
 #: src/main/engine.c:1343 src/main/engine.c:1455 src/main/engine.c:1509
-#, fuzzy
 msgid "'lwd' must be non-negative and finite"
 msgstr "'gap' debe ser un entero no negativo"
 
