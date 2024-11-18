@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-18 22:51+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -2549,9 +2549,8 @@ msgid "bad write indicators"
 msgstr "indicadores de escritura defectuosos"
 
 #: src/main/connections.c:6437
-#, fuzzy
 msgid "a server socket connection cannot be writeable"
-msgstr "rutinas socket no pueden ser cargadas"
+msgstr "una conexión de socket de servidor no puede ser de escritura"
 
 #: src/main/connections.c:6439
 msgid "not a socket connection"
@@ -2560,13 +2559,12 @@ msgstr "no es una  conexión socket"
 #: src/main/connections.c:6442 src/modules/internet/libcurl.c:650
 #: src/modules/internet/sockconn.c:62 src/modules/internet/sockconn.c:96
 #: src/modules/internet/sockconn.c:297
-#, fuzzy
 msgid "file descriptor is too large for select()"
-msgstr "longitud %d es muy grande para uso de hash"
+msgstr "descriptor de archivo demasiado grande para select()"
 
 #: src/main/connections.c:6448 src/modules/internet/libcurl.c:793
 msgid "too many file descriptors for select()"
-msgstr ""
+msgstr "demasiados descriptores de archivo para select()"
 
 #: src/main/connections.c:6783
 msgid "unknown compression, assuming none"
@@ -2574,14 +2572,13 @@ msgstr "compresión desconocido, en el supuesto ninguno"
 
 #: src/main/connections.c:6977 src/main/connections.c:6981
 #: src/main/connections.c:6988
-#, fuzzy, c-format
+#, c-format
 msgid "allocation of %s connection failed"
-msgstr "fallo de asignación de la conexión básica"
+msgstr "fallo al asignar conexión %s"
 
 #: src/main/context.c:347
-#, fuzzy
 msgid "no loop for break/next, jumping to top level"
-msgstr "ningún ciclo para romper, saltando a nivel superior"
+msgstr "ningún bucle para romper/continuar, saltando a nivel superior"
 
 #: src/main/context.c:355
 msgid "no function to return from, jumping to top level"
@@ -2592,9 +2589,8 @@ msgid "target context is not on the stack"
 msgstr "contexto de destino no está en la pila"
 
 #: src/main/context.c:385
-#, fuzzy
 msgid "NA argument is invalid"
-msgstr "el argumento no es un modelo válido"
+msgstr "argumento NA no es válido"
 
 #: src/main/context.c:393 src/main/context.c:408 src/main/context.c:491
 #: src/main/context.c:503 src/main/context.c:514 src/main/context.c:526
@@ -2623,7 +2619,7 @@ msgstr "no es que muchas funciones en la pila de llamadas"
 
 #: src/main/context.c:614
 msgid "debug flag in compiled function has no effect"
-msgstr ""
+msgstr "la marca de depuración en una función compilada no tiene efecto"
 
 #: src/main/context.c:616
 msgid "debug will apply when function leaves compiled code"
