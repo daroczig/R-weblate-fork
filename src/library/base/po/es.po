@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-11-18 21:57+0000\n"
-"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 22:12+0000\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1527,9 +1527,10 @@ msgid "vector: cannot make a vector of mode '%s'."
 msgstr "vector: no es posible hacer un vector de modo '%s'."
 
 #: src/main/builtin.c:837
-#, fuzzy
 msgid "cannot set length of non-(vector or list)"
-msgstr "no es posible especificar la longitud de un objeto que no es un vector"
+msgstr ""
+"no es posible especificar la longitud de un objeto que no es un vector o "
+"lista"
 
 #: src/main/builtin.c:838 src/main/character.c:663 src/main/coerce.c:3099
 msgid "invalid value"
@@ -1552,18 +1553,17 @@ msgid "'...' used in an incorrect context"
 msgstr "'...' usado en un contexto incorrecto"
 
 #: src/main/builtin.c:1003
-#, fuzzy, c-format
+#, c-format
 msgid "duplicate 'switch' defaults: '%s' and '%s'"
-msgstr "duplicado de interuptores por defecto: '%s' y '%s'"
+msgstr "elementos por defecto de 'switch' duplicados: '%s' y '%s'"
 
 #: src/main/builtin.c:1036
 msgid "'EXPR' is missing"
 msgstr "'EXPR' esta perdida"
 
 #: src/main/builtin.c:1040 src/main/eval.c:8603
-#, fuzzy
 msgid "EXPR must be a length 1 vector"
-msgstr "switch: EXPR debe devolver un vector de longitud 1"
+msgstr "EXPR debe ser un vector de longitud 1"
 
 #: src/main/builtin.c:1043 src/main/eval.c:8606
 #, c-format
@@ -1573,9 +1573,8 @@ msgid ""
 msgstr ""
 
 #: src/main/builtin.c:1100 src/main/eval.c:8616 src/main/eval.c:8645
-#, fuzzy
 msgid "'switch' with no alternatives"
-msgstr "EXPR numéricos son necesarios para el switch() sin alternativas con nombre"
+msgstr "'switch' sin alternativas"
 
 #: src/main/character.c:117 src/main/character.c:305
 #, c-format
@@ -1593,24 +1592,24 @@ msgstr "%s' requiere un vector de caracteres"
 #: src/main/character.c:176 src/main/character.c:202 src/main/character.c:216
 #: src/main/character.c:281 src/main/character.c:388 src/main/character.c:593
 #: src/main/character.c:598
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, %s"
-msgstr "string multibyte %d inválida"
+msgstr "cadena multibyte inválida, %s"
 
 #: src/main/character.c:192
-#, fuzzy, c-format
+#, c-format
 msgid "number of characters is not computable in \"bytes\" encoding, %s"
-msgstr "número de caracteres no es computable para el elemento %d en el \"bytes\" codificación"
+msgstr "número de caracteres no es computable en codificación \"bytes\", %s"
 
 #: src/main/character.c:245
-#, fuzzy, c-format
+#, c-format
 msgid "width is not computable for %s in \"bytes\" encoding"
-msgstr "el ancho no es computable para el elemento %d en el \"bytes\" codificación"
+msgstr "el ancho no es computable para %s en la codificación \"bytes\""
 
 #: src/main/character.c:345
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string, element %ld"
-msgstr "string multibyte %d inválida"
+msgstr "cadena multibyte no válida, elemento %ld"
 
 #: src/main/character.c:348
 #, fuzzy, c-format
@@ -1627,14 +1626,12 @@ msgid "extracting substrings from a non-character object"
 msgstr "tentativa de extraer substrings de un objeto que no es de tipo carácter"
 
 #: src/main/character.c:440 src/main/character.c:660
-#, fuzzy
 msgid "invalid substring arguments"
-msgstr "argumento(s) string no válido"
+msgstr "argumentos no válidos para 'substring'"
 
 #: src/main/character.c:485
-#, fuzzy
 msgid "non-character object(s)"
-msgstr "nombres de tipo no carácter"
+msgstr "objeto(s) de tipo no carácter"
 
 #: src/main/character.c:655
 msgid "replacing substrings in a non-character object"
