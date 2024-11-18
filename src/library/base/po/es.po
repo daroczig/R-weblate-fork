@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-18 22:12+0000\n"
-"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1485,14 +1485,12 @@ msgid "can not set parent of the empty environment"
 msgstr "no se puede fijar un entorno en el ambiente vacío"
 
 #: src/main/builtin.c:413
-#, fuzzy
 msgid "can not set the parent environment of a namespace"
-msgstr "no se puede fijar un entorno en el ambiente vacío"
+msgstr "no se puede definir el entorno de un namespace"
 
 #: src/main/builtin.c:415
-#, fuzzy
 msgid "can not set the parent environment of package imports"
-msgstr "no se puede fijar un entorno en el ambiente vacío"
+msgstr "no se puede fijar un entorno superior para el paquete imports"
 
 #: src/main/builtin.c:423 src/main/memory.c:4666
 msgid "'parent' is not an environment"
