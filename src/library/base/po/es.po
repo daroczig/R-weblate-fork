@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 3.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-03-19 12:53+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 21:57+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -271,9 +271,9 @@ msgid "unsupported version of Windows"
 msgstr "versión de Windows no soportada"
 
 #: src/gnuwin32/extra.c:334
-#, fuzzy, c-format
+#, c-format
 msgid "cannot resolve current user or domain: '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no se puede resolver el usuario o dominio actual: '%s'"
 
 #: src/gnuwin32/extra.c:757 src/gnuwin32/extra.c:874 src/main/util.c:1068
 msgid "'path' must be a character vector"
@@ -352,6 +352,8 @@ msgid ""
 "expanded path length %llu would be too long for\n"
 "%s\n"
 msgstr ""
+"largo de la ruta expandida %ll es muy larga para\n"
+"%s\n"
 
 #: src/gnuwin32/sys-win32.c:263
 msgid "character string expected as first argument"
@@ -427,7 +429,7 @@ msgstr "file.show(): archivo '%s' no existe\n"
 #: src/gnuwin32/system.c:1076
 #, c-format
 msgid "Not enough memory"
-msgstr ""
+msgstr "Memoria no suficiente"
 
 #: src/gnuwin32/system.c:1092 src/unix/system.c:462
 #, c-format
@@ -481,9 +483,8 @@ msgid "object of type '%s' is not subsettable"
 msgstr "objeto de tipo '%s' no es subconjunto"
 
 #: src/include/Errormsg.h:29
-#, fuzzy
 msgid "missing subscript"
-msgstr "[[ ]] con subscrito ausente"
+msgstr "subíndice ausente"
 
 #: src/main/CommandLineArgs.c:176
 msgid "WARNING: no value given for --encoding"
@@ -526,24 +527,20 @@ msgid "WARNING: '--max-ppsize' value is too large: ignored"
 msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado grande: ignorado"
 
 #: src/main/CommandLineArgs.c:257
-#, fuzzy
 msgid "WARNING: no value given for '--max-connections'"
-msgstr "ATENCIÓN: ningún valor especificado para '--max-ppsize'"
+msgstr "ATENCIÓN: ningún valor especificado para '--max-connections'"
 
 #: src/main/CommandLineArgs.c:262
-#, fuzzy
 msgid "WARNING: '--max-connections' value is negative: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es negativo: ignorado"
+msgstr "ATENCIÓN: el valor de '-max-connections' es negativo: ignorado"
 
 #: src/main/CommandLineArgs.c:264
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too small: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado pequeño: ignorado"
+msgstr "ATENCIÓN: el valor de '-max-connections' es demasiado pequeño: ignorado"
 
 #: src/main/CommandLineArgs.c:266
-#, fuzzy
 msgid "WARNING: '--max-connections' value is too large: ignored"
-msgstr "ATENCIÓN: el valor de '-max-ppsize' es demasiado grande: ignorado"
+msgstr "ATENCIÓN: el valor de '-max-connections' es demasiado grande: ignorado"
 
 #: src/main/RNG.c:180
 #, c-format
@@ -663,40 +660,37 @@ msgid "R_RegisterRoutines called with invalid DllInfo object."
 msgstr "R_RegisterRoutines invocado con un objeto DllInfo no válido."
 
 #: src/main/Rdynload.c:420
-#, fuzzy
 msgid "Invalid object."
-msgstr "conexión inválida"
+msgstr "objeto inválido"
 
 #: src/main/Rdynload.c:427
 #, c-format
 msgid "Invalid entry '%s' in native symbol object."
-msgstr ""
+msgstr "Entrada '%s' inválida en el objeto nativo símbolo."
 
 #: src/main/Rdynload.c:433
 #, c-format
 msgid "Component '%s' missing in symbol object."
-msgstr ""
+msgstr "Componente '%s' faltante en el objeto símbolo."
 
 #: src/main/Rdynload.c:445
-#, fuzzy
 msgid "Invalid symbol list."
-msgstr "símbolo inválido"
+msgstr "Lista símbolo inválida."
 
 #: src/main/Rdynload.c:459
 #, c-format
 msgid "Symbol at %d does not have registration information."
-msgstr ""
+msgstr "Símbolo en %d no tiene información de registración."
 
 #: src/main/Rdynload.c:495
-#, fuzzy
 msgid "Invalid symbol name."
-msgstr "símbolo inválido"
+msgstr "Nombre de símbolo inválido."
 
 # Igual que antes, fijate si conviene asi. No lo modifico
 #: src/main/Rdynload.c:498
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot register already registered native symbol '%s'."
-msgstr "no fue posible adjudicar memoria para el símbolo nativo registrado (%d bytes)"
+msgstr "No se puede registrar el símbolo nativo '%s' previamente registrado."
 
 #: src/main/Rdynload.c:500
 #, c-format
@@ -706,17 +700,17 @@ msgstr "El símbolo '%s' no tiene una dirección nativa válida."
 #: src/main/Rdynload.c:502
 #, c-format
 msgid "Symbol '%s' does not have a valid DllInfo reference."
-msgstr ""
+msgstr "El símbolo '%s' no tienen una referencia DllInfo válida."
 
 #: src/main/Rdynload.c:507
 #, c-format
 msgid "Symbol '%s' comes from a different shared object."
-msgstr ""
+msgstr "El símbolo '%s' viene de un objeto compartido diferente."
 
 #: src/main/Rdynload.c:510
 #, c-format
 msgid "Symbol '%s' is missing parameter specification."
-msgstr ""
+msgstr "Al símbolo '%s' le falta el parámetro de especificación."
 
 #: src/main/Rdynload.c:851
 msgid "`maximal number of DLLs reached..."
@@ -858,9 +852,9 @@ msgstr "error regcomp:  '%s'"
 #: src/main/grep.c:1409 src/main/grep.c:2274 src/main/grep.c:2564
 #: src/main/grep.c:3174 src/main/grep.c:3262 src/main/grep.c:3425
 #: src/main/grep.c:3432
-#, fuzzy, c-format
+#, c-format
 msgid "input string %lld is invalid in this locale"
-msgstr "string de entrada %lld es inválida en este locale"
+msgstr "string de entrada %lld es inválido en este locale"
 
 #: src/main/agrep.c:528 src/main/agrep.c:768 src/main/connections.c:2514
 #: src/main/grep.c:572 src/main/grep.c:1295 src/main/grep.c:1297
@@ -927,22 +921,22 @@ msgid "type '%s' is not supported"
 msgstr "el tipo '%s' no es soportado"
 
 #: src/main/apply.c:177
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be length %d,\n"
 " but FUN(X[[%lld]]) result is length %d"
 msgstr ""
-"Los valores deben ser de longitud %d, \n"
+"los valores deben ser de longitud %d,\n"
 "pero la longitud del resultado de FUN(X [[%lld]]) es %d"
 
 #: src/main/apply.c:189
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "values must be type '%s',\n"
 " but FUN(X[[%lld]]) result is type '%s'"
 msgstr ""
 "valores deben ser del tipo '%s',\n"
-"pero el resultado FUN(X[[%lld]])  es del tipo  '%s'"
+"pero el resultado FUN(X[[%lld]]) es del tipo '%s'"
 
 #: src/main/apply.c:266
 #, c-format
@@ -1059,19 +1053,24 @@ msgid "invalid 'ncol' value (< 0)"
 msgstr "valor de 'ncol' no válido (< 0)"
 
 #: src/main/array.c:158
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of rows [%d]"
-msgstr "la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número de filas [%d] en la matriz"
+msgstr ""
+"la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número "
+"de filas [%d]"
 
 #: src/main/array.c:162
-#, fuzzy, c-format
+#, c-format
 msgid "data length [%lld] is not a sub-multiple or multiple of the number of columns [%d]"
-msgstr "la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número de columnas [%d] en la matriz"
+msgstr ""
+"la longitud de los datos [%lld] no es un submúltiplo o múltiplo del número "
+"de columnas [%d]"
 
 #: src/main/array.c:166 src/main/array.c:169
-#, fuzzy, c-format
+#, c-format
 msgid "data length differs from size of matrix: [%lld != %d x %d]"
-msgstr "la longitud de los datos difiere del tamaño de la matriz [%lld != %d x %d]"
+msgstr ""
+"la longitud de los datos difiere del tamaño de la matriz [%lld != %d x %d]"
 
 #: src/main/array.c:174
 msgid "non-empty data for zero-extent matrix"
@@ -1112,16 +1111,16 @@ msgid "a matrix-like object is required as argument to '%s'"
 msgstr "se requiere un objeto tipo matriz como argumento para '%s'"
 
 #: src/main/array.c:1269
-#, fuzzy, c-format
+#, c-format
 msgid "%d argument passed to '%s' which requires at least %d"
 msgid_plural "%d arguments passed to '%s' which requires at least %d"
-msgstr[0] "%d argumento dado a '%s', que requieren %d o %d"
-msgstr[1] "%d argumentos dados a '%s', que requeiren %d o %d"
+msgstr[0] "el argumento %d dado a '%s', requiere al menos %d"
+msgstr[1] "los argumentos %d dados a '%s', requeiren al menos %d"
 
 #: src/main/array.c:1285
 #, c-format
 msgid "more than 2 arguments passed to default method of '%s'"
-msgstr ""
+msgstr "más de 2 argumentos enviados al método por defecto de '%s'"
 
 #: src/main/array.c:1290
 msgid "requires numeric/complex matrix/vector arguments"
@@ -1205,14 +1204,15 @@ msgid "cannot set attribute on a symbol"
 msgstr "no se puede establecer un atributo en un símbolo"
 
 #: src/main/attrib.c:407
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type (%s) for 'names': must be vector or NULL"
-msgstr "tipo no válido (%s)  para 'names': debe ser un vector"
+msgstr "tipo no válido (%s) para 'names': debe ser un vector o NULL"
 
 #: src/main/attrib.c:410
-#, fuzzy, c-format
+#, c-format
 msgid "'names' attribute [%lld] must be the same length as the vector [%lld]"
-msgstr "el atributo 'names' [%lld] debe tener la misma longitud que el vector [%lld]"
+msgstr ""
+"el atributo 'names' [%lld] debe tener la misma longitud que el vector [%lld]"
 
 #: src/main/attrib.c:416
 msgid "names() applied to a non-vector"
@@ -1247,9 +1247,9 @@ msgid "attempt to set invalid 'class' attribute"
 msgstr "se intenta especificar un atributo 'class' no válido"
 
 #: src/main/attrib.c:926
-#, fuzzy, c-format
+#, c-format
 msgid "invalid to use names()<- on an S4 object of class '%s'"
-msgstr "No es valido usar names()<- para dar 'names' a un slot en una clase que no es vector ('%s')"
+msgstr "no es valido usar names()<- en un objeto S4 de clase '%s'"
 
 #: src/main/attrib.c:968
 msgid "incompatible 'names' argument"
@@ -1265,7 +1265,7 @@ msgid "'dimnames' applied to non-array"
 msgstr "'dimnames' aplicado a un objeto que no es un arreglo"
 
 #: src/main/attrib.c:1097 src/main/coerce.c:2733
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' must be a list"
 msgstr "'%s' debe ser una lista"
 
@@ -1285,9 +1285,9 @@ msgid "length of 'dimnames' [%d] not equal to array extent"
 msgstr "la longitud de 'dimnames' [%d] no es igual a la extensión del arreglo"
 
 #: src/main/attrib.c:1223
-#, fuzzy, c-format
+#, c-format
 msgid "invalid second argument, must be %s"
-msgstr "segundo argumento inválido"
+msgstr "segundo argumento inválido, debe ser %s"
 
 #: src/main/attrib.c:1230
 msgid "length-0 dimension vector is invalid"
@@ -1302,12 +1302,12 @@ msgid "the dims contain negative values"
 msgstr "el dims contiene valores negativos"
 
 #: src/main/attrib.c:1241
-#, fuzzy, c-format
+#, c-format
 msgid "dims [product %lld] do not match the length of object [%lld]"
 msgstr "dims [producto %lld] no coincide con la longitud del objeto [%lld]"
 
 #: src/main/attrib.c:1323
-#, fuzzy, c-format
+#, c-format
 msgid "factor level [%lld] is duplicated"
 msgstr "el nivel [%lld] del factor está duplicado"
 
@@ -1333,14 +1333,13 @@ msgid "exactly one attribute 'which' must be given"
 msgstr "exactamente 1 atributo 'which' debe ser especificado"
 
 #: src/main/attrib.c:1604
-#, fuzzy
 msgid "invalid slot name length"
-msgstr "longitud no válida"
+msgstr "longitud del nombre no válida"
 
 #: src/main/attrib.c:1608
-#, fuzzy, c-format
+#, c-format
 msgid "invalid type '%s' for slot name"
-msgstr "tipo o longitud inválido para el nombre de slot"
+msgstr "tipo inválido '%s' para el nombre del slot"
 
 #: src/main/attrib.c:1655
 msgid "'name' must be non-null character string"
@@ -1361,19 +1360,17 @@ msgid "no slot of name \"%s\" for this object of class \"%s\""
 msgstr "no hay un slot de nombre \"%s\" para ese objeto de clase \"%s\""
 
 #: src/main/attrib.c:1843
-#, fuzzy
 msgid "attempt to set slot on NULL object"
-msgstr "se intenta especificar un atributo en un NULL"
+msgstr "intento de definir slot en un objeto NULL"
 
 #: src/main/attrib.c:1899
-#, fuzzy
 msgid "formal classes cannot be used without the 'methods' package"
-msgstr "no pueden utilizarse clases formales  sin el paquete métodos"
+msgstr "clase formal no puede ser usada sin el paquete 'methods'"
 
 #: src/main/attrib.c:1909
-#, fuzzy, c-format
+#, c-format
 msgid "no applicable method for `@` applied to an object of class \"%s\""
-msgstr "no hay método aplicable para \"%s\""
+msgstr "método no aplicable para `@` aplicado a un objeto de clase \"%s\""
 
 #: src/main/bind.c:165
 #, c-format
@@ -1405,9 +1402,9 @@ msgid "class name too long in '%s'"
 msgstr "el nombre de la clase es muy largo en '%s'"
 
 #: src/main/bind.c:1175
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create a matrix from type '%s'"
-msgstr "no es posible crear una matriz a partir de estos tipos"
+msgstr "no es posible crear una matriz de tipo '%s'"
 
 #: src/main/bind.c:1245
 #, c-format
@@ -1415,9 +1412,9 @@ msgid "number of rows of matrices must match (see arg %d)"
 msgstr "el número de filas de las matrices debe coincidir (vea arg %d)"
 
 #: src/main/bind.c:1412
-#, fuzzy, c-format
+#, c-format
 msgid "cannot create a matrix of type '%s'"
-msgstr "no es posible crear una matriz a partir de estos tipos"
+msgstr "no es posible crear una matriz de tipo '%s'"
 
 #: src/main/bind.c:1513
 #, c-format
@@ -1464,9 +1461,8 @@ msgid "use of NULL environment is defunct"
 msgstr "no es posible usar un ambiente NULL"
 
 #: src/main/builtin.c:259 src/main/builtin.c:274
-#, fuzzy
 msgid "argument is not a function"
-msgstr "el argumento no debe ser una función"
+msgstr "el argumento no es una función"
 
 #: src/main/builtin.c:331
 msgid "replacement object is not an environment"
