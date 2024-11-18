@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-18 22:46+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1569,6 +1569,8 @@ msgid ""
 "EXPR is a \"factor\", treated as integer.\n"
 " Consider using '%s' instead."
 msgstr ""
+"EXPR es un \"factor\", usado como un entero.\n"
+" Considere usar '%s' en su lugar."
 
 #: src/main/builtin.c:1100 src/main/eval.c:8616 src/main/eval.c:8645
 msgid "'switch' with no alternatives"
@@ -1610,14 +1612,16 @@ msgid "invalid multibyte string, element %ld"
 msgstr "cadena multibyte no válida, elemento %ld"
 
 #: src/main/character.c:348
-#, fuzzy, c-format
+#, c-format
 msgid "number of characters is not computable in \"bytes\" encoding, element %ld"
-msgstr "número de caracteres no es computable para el elemento %d en el \"bytes\" codificación"
+msgstr ""
+"el número de caracteres no es computable en la codificación \"bytes\", "
+"elemento %ld"
 
 #: src/main/character.c:351
-#, fuzzy, c-format
+#, c-format
 msgid "width is not computable in \"bytes\" encoding, element %ld"
-msgstr "el ancho no es computable para el elemento %d en el \"bytes\" codificación"
+msgstr "el ancho no es computable para la codificación \"bytes\", elemento %ld"
 
 #: src/main/character.c:429
 msgid "extracting substrings from a non-character object"
@@ -1648,9 +1652,9 @@ msgid "non-character names"
 msgstr "nombres de tipo no carácter"
 
 #: src/main/character.c:1036 src/main/character.c:1165
-#, fuzzy, c-format
+#, c-format
 msgid "invalid multibyte string %lld"
-msgstr "string multibyte %lld inválida"
+msgstr "cadena multibyte %lld inválida"
 
 #: src/main/character.c:1078 src/main/grep.c:576
 msgid "non-character argument"
@@ -1687,9 +1691,9 @@ msgid "'old' is longer than 'new'"
 msgstr "'old' es más largo que 'new'"
 
 #: src/main/character.c:1594
-#, fuzzy, c-format
+#, c-format
 msgid "invalid input multibyte string %lld"
-msgstr "string multibyte %lld de entrada inválida"
+msgstr "cadena de entrada multibyte %lld inválida"
 
 #: src/main/character.c:1701
 msgid "strtrim() requires a character vector"
@@ -1708,9 +1712,8 @@ msgid "NAs introduced by coercion"
 msgstr "NAs introducidos por coerción"
 
 #: src/main/coerce.c:84
-#, fuzzy
 msgid "NAs introduced by coercion to integer range"
-msgstr "NAs introducidos por coerción"
+msgstr "NAs introducidos por coerción al rango de números enteros"
 
 #: src/main/coerce.c:86 src/main/errors.c:1445
 msgid "imaginary parts discarded in coercion"
@@ -1726,9 +1729,9 @@ msgid "invalid data of mode '%s' (too short)"
 msgstr "dato inválido de modo '%s' (muy corto)"
 
 #: src/main/coerce.c:1032 src/main/coerce.c:1155 src/main/coerce.c:1178
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' object cannot be coerced to type '%s'"
-msgstr "el objeto 'pairlist' no puede ser coercionado a '%s'"
+msgstr "el objeto '%s' no puede convertirse a tipo '%s'"
 
 #: src/main/coerce.c:1208 src/main/coerce.c:1578
 msgid "no method for coercing this S4 class to a vector"
@@ -1763,19 +1766,17 @@ msgid "invalid body for function"
 msgstr "cuerpo inválido para la función"
 
 #: src/main/coerce.c:1683
-#, fuzzy
 msgid "argument must be character"
-msgstr "el argumento de 'code' debe ser un string de caracteres"
+msgstr "el argumento debe ser tipo carácter"
 
 #: src/main/coerce.c:1688
-#, fuzzy
 msgid "argument must be a character string"
-msgstr "el argumento de 'code' debe ser un string de caracteres"
+msgstr "el argumento debe ser una cadena de caracteres"
 
 #: src/main/coerce.c:1729
 #, c-format
 msgid "parsing result not of length one, but %d"
-msgstr ""
+msgstr "resultado de interpretación no es de longitud uno sino %d"
 
 #: src/main/coerce.c:1761
 msgid "invalid length 0 argument"
@@ -1784,6 +1785,7 @@ msgstr "longitud 0 del argumento inválida"
 #: src/main/coerce.c:1777
 msgid "as.call(<character>) not feasible; consider str2lang(<char.>)"
 msgstr ""
+"no es posible usar as.call(<character>) , considere usar str2lang(<char.>)"
 
 #: src/main/coerce.c:1780
 msgid "invalid argument list"
@@ -1792,7 +1794,7 @@ msgstr "argumento de lista inválido"
 #: src/main/coerce.c:1798
 #, c-format
 msgid "'length = %lld' in coercion to '%s'"
-msgstr ""
+msgstr "'length = %lld' en conversión a '%s'"
 
 #: src/main/coerce.c:2143
 msgid "type \"single\" unimplemented in R"
@@ -1821,9 +1823,8 @@ msgid "first argument must be a character string"
 msgstr "el primer argumento debe ser un string de caracteres"
 
 #: src/main/coerce.c:2726
-#, fuzzy
 msgid "'what' must be a function or character string"
-msgstr "'text' debe ser un string de caracteres"
+msgstr "'what' debe ser una función o una cadena de caracteres"
 
 #: src/main/coerce.c:2737 src/main/unique.c:1860
 msgid "'envir' must be an environment"
@@ -1894,9 +1895,9 @@ msgid "root finding code failed"
 msgstr "falló la raíz que encuentra el código"
 
 #: src/main/connections.c:193
-#, fuzzy, c-format
+#, c-format
 msgid "all %d connections are in use"
-msgstr "todas las conexiones están en uso"
+msgstr "todas las conexiones %d están en uso"
 
 #: src/main/connections.c:204
 msgid "connection not found"
@@ -1938,20 +1939,20 @@ msgid "invalid input found on input connection '%s'"
 msgstr "entrada inválida encontrada en la conexión de entrada '%s'"
 
 #: src/main/connections.c:860 src/main/platform.c:941
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%ls': %s"
-msgstr "no fue posible abrir el archivo '%s': %s"
+msgstr "no es posible abrir el archivo '%ls': %s"
 
 #: src/main/connections.c:867
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%ls': it is a directory"
-msgstr "no fue posible abrir el archivo '%s': %s"
+msgstr "no fue posible abrir el archivo '%ls': es un directorio"
 
 #: src/main/connections.c:899 src/main/connections.c:1838
 #: src/main/connections.c:1990 src/main/connections.c:2186
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open file '%s': it is a directory"
-msgstr "no fue posible abrir el archivo '%s': %s"
+msgstr "no fue posible abrir el archivo '%s': es un directorio"
 
 #: src/main/connections.c:1019
 msgid "connection is not open for reading"
@@ -2009,24 +2010,22 @@ msgid "too large a block specified"
 msgstr "bloque especificado demasiado largo"
 
 #: src/main/connections.c:1333
-#, fuzzy
 msgid "allocation of fifo name failed"
-msgstr "falla en la asignación de conexión fifo"
+msgstr "fallo al asignar nombre en conexión fifo"
 
 #: src/main/connections.c:1394
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open fifo '%s', reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no fue posible abrir conexión fifo '%s', motivo: '%s'"
 
 #: src/main/connections.c:1434 src/main/connections.c:1458
-#, fuzzy
 msgid "allocation of fifo buffer failed"
-msgstr "falla en la asignación de conexión fifo"
+msgstr "fallo al asignar búfer para conexión fifo"
 
 #: src/main/connections.c:1466
-#, fuzzy, c-format
+#, c-format
 msgid "cannot write FIFO '%s'"
-msgstr "no fue posible abrir la URL '%s'"
+msgstr "no fue posible escribir '%s' en la conexión fifo"
 
 #: src/main/connections.c:1502 src/main/connections.c:1506
 #: src/main/connections.c:1513 src/main/connections.c:1530
@@ -2059,9 +2058,9 @@ msgid "fifo connections are not available on this system"
 msgstr "la conexión fifo no está disponible en este sistema"
 
 #: src/main/connections.c:1652
-#, fuzzy, c-format
+#, c-format
 msgid "cannot pipe() cmd '%ls': %s"
-msgstr "no fue posible abrir el comando pipe() '%s' : %s"
+msgstr "no fue posible realizar pipe() cmd '%ls' : %s"
 
 #: src/main/connections.c:1663
 #, c-format
@@ -2069,9 +2068,9 @@ msgid "cannot open pipe() cmd '%s': %s"
 msgstr "no fue posible abrir el comando pipe() '%s' : %s"
 
 #: src/main/connections.c:1843 src/main/connections.c:2180
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open compressed file '%s', probable reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no fue posible abrir el archivo comprimido '%s', probable razón '%s'"
 
 #: src/main/connections.c:1884
 msgid "whence = \"end\" is not implemented for gzfile connections"
@@ -2087,9 +2086,9 @@ msgid "allocation of gzfile connection failed"
 msgstr "falla en la asignación de la conexión gzfile"
 
 #: src/main/connections.c:1984
-#, fuzzy, c-format
+#, c-format
 msgid "cannot open bzip2-ed file '%s', probable reason '%s'"
-msgstr "no fue posible abrir el archivo '%s', motivo '%s'"
+msgstr "no fue posible abrir el archivo bzip2 '%s', razón probable '%s'"
 
 #: src/main/connections.c:1998
 #, c-format
@@ -2102,14 +2101,14 @@ msgid "initializing bzip2 compression for file '%s' failed"
 msgstr "inicialización de la compresión bzip2 para el archivo '%s' falló"
 
 #: src/main/connections.c:2062
-#, fuzzy
 msgid "allocation of overflow buffer for bzfile failed"
-msgstr "falla en la asignación de conexión del archivo"
+msgstr "fallo al asignar búfer de desbordamiento para bzfile"
 
 #: src/main/connections.c:2069
-#, fuzzy, c-format
+#, c-format
 msgid "file '%s' has trailing content that appears not to be compressed by bzip2"
-msgstr "el archivo '%s' parece no haber sido comprimido por bzip2"
+msgstr ""
+"el archivo '%s' finaliza con contenido que parece no ser comprimido con bzip2"
 
 #: src/main/connections.c:2115 src/main/connections.c:2119
 #: src/main/connections.c:2126 src/main/connections.c:2144
@@ -2154,9 +2153,8 @@ msgid "unable to open the clipboard"
 msgstr "no se puede abrir el área de transferencia"
 
 #: src/main/connections.c:2591
-#, fuzzy
 msgid "unable to write to the clipboard"
-msgstr "no se puede escribir en el área de transferencia"
+msgstr "no fue posible escribir en el portapapeles"
 
 #: src/main/connections.c:2631
 msgid "attempt to seek outside the range of the clipboard"
@@ -2202,23 +2200,22 @@ msgid "allocation of raw connection failed"
 msgstr "fallo de asignación de la conexión básica"
 
 #: src/main/connections.c:3130
-#, fuzzy, c-format
+#, c-format
 msgid "'%s' is not a %s"
-msgstr "fifo '%s' no está listo"
+msgstr "'%s' no es %s"
 
 #: src/main/connections.c:3134
-#, fuzzy, c-format
+#, c-format
 msgid "internal connection is not a %s"
-msgstr "la conexión no está abierta"
+msgstr "conexión interna no es %s"
 
 #: src/main/connections.c:3147
 msgid "'con' is not an output rawConnection"
 msgstr "'con' no es un resultado de una conexión básica"
 
 #: src/main/connections.c:3188
-#, fuzzy
 msgid "too many characters for text connection"
-msgstr "no puede asignar memoria para la conexión de texto"
+msgstr "demasiados caracteres para conexión de texto"
 
 #: src/main/connections.c:3193
 msgid "cannot allocate memory for text connection"
@@ -2269,28 +2266,25 @@ msgid "unknown 'rw' value"
 msgstr "valor 'rw' desconocido"
 
 #: src/main/connections.c:3805
-#, fuzzy, c-format
+#, c-format
 msgid "Problem closing connection:  %s"
-msgstr "problema al escribir en la conexión"
+msgstr "Problema al cerrar la conexión:  %s"
 
 #: src/main/connections.c:3807
-#, fuzzy
 msgid "Problem closing connection"
-msgstr "problema al escribir en la conexión"
+msgstr "Problema al cerrar la conexión"
 
 #: src/main/connections.c:3876
 msgid "cannot close standard connections"
 msgstr "no se pueden cerrar las conexiones estándar"
 
 #: src/main/connections.c:3879
-#, fuzzy
 msgid "cannot close 'output' sink connection"
-msgstr "no se puede cerrar la salida de conexión sink"
+msgstr "no es posible cerrar la conexión de salida de sink()"
 
 #: src/main/connections.c:3881
-#, fuzzy
 msgid "cannot close 'message' sink connection"
-msgstr "no se puede cerrar el mensaje de conexión sink"
+msgstr "no se puede cerrar la conexión para mensajes de sink()"
 
 #: src/main/connections.c:3906 src/main/connections.c:5800
 #: src/main/connections.c:5808 src/main/serialize.c:2456
@@ -2299,19 +2293,18 @@ msgid "connection is not open"
 msgstr "la conexión no está abierta"
 
 #: src/main/connections.c:4004 src/main/connections.c:4017
-#, fuzzy, c-format
+#, c-format
 msgid "line longer than buffer size %lu"
-msgstr "Línea más larga que el tamaño del buffer"
+msgstr "línea más larga que el tamaño del búfer (%lu)"
 
 #: src/main/connections.c:4035
-#, fuzzy, c-format
+#, c-format
 msgid "Error writing to connection:  %s"
-msgstr "error al escribir en una conexión"
+msgstr "Error al escribir en la conexión: %s"
 
 #: src/main/connections.c:4037
-#, fuzzy
 msgid "Error writing to connection"
-msgstr "error al escribir en una conexión"
+msgstr "Error al escribir en la conexión"
 
 #: src/main/connections.c:4096 src/main/connections.c:4098
 #: src/main/connections.c:4386 src/main/connections.c:4943
@@ -2328,12 +2321,12 @@ msgstr "no se puede asignar buffer en readLines"
 #: src/main/connections.c:4151
 #, c-format
 msgid "line %lld appears to contain an embedded nul"
-msgstr ""
+msgstr "la línea %lld parece contener un nul enbebido"
 
 #: src/main/connections.c:4170
-#, fuzzy, c-format
+#, c-format
 msgid "incomplete final line found on '%s'"
-msgstr "readLines encontró la línea final incompleta en '%s'"
+msgstr "se encontró una línea final incompleta en '%s'"
 
 #: src/main/connections.c:4176
 msgid "too few lines read in readLines"
@@ -2380,14 +2373,12 @@ msgid "can only write to a binary connection"
 msgstr "sólo se puede escribir en una conexión binaria"
 
 #: src/main/connections.c:4622
-#, fuzzy
 msgid "only 2^31-1 bytes can be written to a raw vector"
-msgstr "solo formato ascii puede ser escrito en conexiones de modo texto"
+msgstr "solo se pueden escribir 2^31-1 bytes en un vector de tipo 'raw'"
 
 #: src/main/connections.c:4624
-#, fuzzy
 msgid "only 2^31-1 bytes can be written in a single writeBin() call"
-msgstr "sólo 2^31-1 bytes se pueden escribir en una sola llamada readBin ()"
+msgstr "sólo se pueden escribir 2^31-1 bytes en una sola llamada a writeBin()"
 
 #: src/main/connections.c:4676 src/main/connections.c:4814
 #: src/main/connections.c:5119 src/main/connections.c:5160
@@ -2404,9 +2395,8 @@ msgid "invalid UTF-8 input in readChar()"
 msgstr "entrada UTF-8 inválida en readChar()"
 
 #: src/main/connections.c:4859 src/main/connections.c:4872
-#, fuzzy
 msgid "truncating string with embedded nuls"
-msgstr "no se permite traducción de cadenas con \"bytes\" de codificación"
+msgstr "truncando cadena con caracteres nulos embebidos"
 
 #: src/main/connections.c:4971
 msgid "can only read in bytes in a non-UTF-8 MBCS locale"
@@ -2416,6 +2406,7 @@ msgstr "puede solo leer en bytes en un local  non-UTF-8 MBCS"
 #, c-format
 msgid "text connection used with %s(), results may be incorrect"
 msgstr ""
+"conexión de texto usada con %s(), los resultados podrían ser incorrectos"
 
 # No se en que contexto va este mensaje, puede estar bien o mal traducido. Vos sabes?
 #: src/main/connections.c:5049
@@ -2431,15 +2422,13 @@ msgid "writeChar: more characters requested than are in the string - will zero-p
 msgstr "writeChar: se requieren más caracteres que los existentes en el string - serán reemplazados con cero"
 
 #: src/main/connections.c:5191
-#, fuzzy
 msgid "maximum number of pushback lines exceeded"
-msgstr "excedido el número máximo de colores"
+msgstr "se excedió el número máximo de líneas devueltas al búfer"
 
 #: src/main/connections.c:5197 src/main/connections.c:5201
 #: src/main/connections.c:5238 src/main/connections.c:5246
-#, fuzzy
 msgid "could not allocate space for pushback"
-msgstr "no es posible asignar espacio para pushBack"
+msgstr "no se puede asignar espacio para devolver líneas al búfer (push back)"
 
 #: src/main/connections.c:5229
 msgid "can only push back on open readable connections"
@@ -2462,9 +2451,8 @@ msgid "no sink to remove"
 msgstr "ningún sink para remover"
 
 #: src/main/connections.c:5458
-#, fuzzy
 msgid "there is no connection NA"
-msgstr "No hay conexión %d"
+msgstr "no existe conexión NA"
 
 #: src/main/connections.c:5460
 #, c-format
@@ -2472,13 +2460,13 @@ msgid "there is no connection %d"
 msgstr "No hay conexión %d"
 
 #: src/main/connections.c:5611
-#, fuzzy
 msgid "method = \"wininet\" is only supported on Windows"
-msgstr "esta plataforma no soporta nsl()"
+msgstr "method = \"wininet\" solo está soportado en Windows"
 
 #: src/main/connections.c:5678 src/modules/internet/internet.c:225
 msgid "the 'internal' method of url() is defunct for http:// and ftp:// URLs"
 msgstr ""
+"el método 'internal' de url() fue retirado para las URL http:// y ftp://"
 
 #: src/main/connections.c:5691
 msgid "file(\"\") only supports open = \"w+\" and open = \"w+b\": using the former"
@@ -2487,17 +2475,16 @@ msgstr "file(\"\") permite solamente open = \"w+\" y open = \"w+b\": se usó la p
 #: src/main/connections.c:5712
 #, c-format
 msgid "using 'raw = TRUE' because '%s' is a fifo or pipe"
-msgstr ""
+msgstr "usando 'raw = TRUE' porque '%s' es un fifo o pipe"
 
 #: src/main/connections.c:5719
 #, c-format
 msgid "'raw = FALSE' but '%s' is not a regular file"
-msgstr ""
+msgstr "'raw = FALSE' pero '%s' no es un archivo regular"
 
 #: src/main/connections.c:5763
-#, fuzzy
 msgid "URL scheme unsupported by this method"
-msgstr "esta plataforma no soporta nsl()"
+msgstr "esquema URL no soportado por este método"
 
 #: src/main/connections.c:5855
 msgid "file stream does not have gzip magic number"
@@ -2512,7 +2499,7 @@ msgid "writing error whilst flushing 'gzcon' connection"
 msgstr "error de escritura al vaciar la conexión 'gzcon'"
 
 #: src/main/connections.c:6033
-#, fuzzy, c-format
+#, c-format
 msgid "crc error %lx %lx\n"
 msgstr "error crc %lx %lx\n"
 
@@ -2545,9 +2532,10 @@ msgid "using a text-mode 'file' connection may not work correctly"
 msgstr "la conección puede fallar si se usa un argumento en modo texto en 'file'"
 
 #: src/main/connections.c:6116
-#, fuzzy
 msgid "cannot create a 'gzcon' connection from a writable textConnection; maybe use rawConnection"
-msgstr "no se puede crear una conexión gzcon de una escritura textConnection, tal vez el use rawConnection"
+msgstr ""
+"no se puede crear una conexión 'gzcon' desde una textConnection de escritura;"
+" intente usar rawConnection"
 
 #: src/main/connections.c:6119 src/main/connections.c:6123
 #: src/main/connections.c:6131 src/main/connections.c:6146
