@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: R 3.4.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-11-18 22:46+0000\n"
-"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 22:51+0000\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -6767,7 +6767,7 @@ msgstr "solamente 0's pueden ser mezclados con subscritos negativos"
 
 #: src/main/subscript.c:805
 msgid "subscript too large for 32-bit R"
-msgstr "sub'indice muy largo para R de 32-bit"
+msgstr "subíndice muy largo para R de 32-bit"
 
 #: src/main/subscript.c:1050
 msgid "subscripting on non-vector"
@@ -6804,7 +6804,7 @@ msgstr "argumentos incorrectos para obtención de subconjuntos de un ambiente"
 
 #: src/main/subset.c:1225
 msgid "invalid subscript length"
-msgstr "largo del subíndice inválido"
+msgstr "longitud del subíndice inválido"
 
 #: src/main/summary.c:33
 #, c-format
@@ -6813,7 +6813,7 @@ msgstr "'type' (%s) de argumento no válido"
 
 #: src/main/summary.c:116
 msgid "integer overflow - use sum(as.numeric(.))"
-msgstr "desbordamiento de número entero - usa sum(as.numeric(.))"
+msgstr "desbordamiento de número entero - usar sum(as.numeric(.))"
 
 #: src/main/summary.c:690
 #, c-format
@@ -6822,11 +6822,11 @@ msgstr "error interno ('op = %d' en do_summary).\t Llame a un Guru"
 
 #: src/main/summary.c:846
 msgid "Integer overflow - use sum(as.numeric(.))"
-msgstr "desbordamiento de número entero - usa sum(as.numeric(.))"
+msgstr "desbordamiento de número entero - usar sum(as.numeric(.))"
 
 #: src/main/summary.c:961
 msgid "no non-missing arguments, returning NA"
-msgstr "argumentos no no-faltantes, devolviendo NA"
+msgstr "sin argumentos no faltantes, devolviendo NA"
 
 #: src/main/summary.c:964
 msgid "no non-missing arguments to min; returning Inf"
@@ -6838,7 +6838,7 @@ msgstr "ningun argumento finito para max; retornando -Inf"
 
 #: src/main/summary.c:1127
 msgid "argument to 'which' is not logical"
-msgstr "argumento 'which' no es lógico"
+msgstr "argumento de 'which' no es de tipo lógico"
 
 #: src/main/summary.c:1202
 msgid "no arguments"
@@ -6846,7 +6846,7 @@ msgstr "sin argumentos"
 
 #: src/main/summary.c:1214 src/main/summary.c:1232
 msgid "invalid input type"
-msgstr "tipo de entrada inválida"
+msgstr "tipo de entrada no válida"
 
 #: src/main/summary.c:1249
 msgid "an argument will be fractionally recycled"
@@ -6865,7 +6865,7 @@ msgstr "codificación de un nombre de archivo no puede ser 'bytes'"
 #: src/main/sysutils.c:1936
 #, c-format
 msgid "unsupported conversion from '%s' in codepage %d"
-msgstr "conversión no soportada de '%s' en %d"
+msgstr "conversión no soportada de '%s' en página de códigos %d"
 
 #: src/main/sysutils.c:191
 msgid "file name conversion problem -- name too long?"
@@ -6873,7 +6873,7 @@ msgstr "problema de conversión de nombre de archivo -- ¿nombre del archivo demas
 
 #: src/main/sysutils.c:192
 msgid "file name conversion problem"
-msgstr "problema de conversión en nombre de archivo"
+msgstr "problema de conversión de nombre de archivo"
 
 #: src/main/sysutils.c:266
 msgid "invalid filename pattern"
@@ -6881,7 +6881,7 @@ msgstr "patrón de nombre de archivo inválido"
 
 #: src/main/sysutils.c:270
 msgid "invalid file extension"
-msgstr "extensión de archivo inválida"
+msgstr "extensión de archivo no válida"
 
 #: src/main/sysutils.c:272
 msgid "no 'pattern'"
