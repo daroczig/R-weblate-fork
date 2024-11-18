@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.2.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-09-09 04:02+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 21:57+0000\n"
+"Last-Translator: Francisco Cardozo <foc9@miami.edu>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -479,9 +479,8 @@ msgstr "la clase no puede tener tanto un tipo de datos ordinario como uno oculto
 msgid "a validity method must be a function of one argument, got an object of class %s"
 msgstr "un método de validación debe ser una función de un argumento, se obtuvo un objeto de clase %s"
 
-#, fuzzy
 msgid "unable to load required package %s"
-msgstr "imposible hallar el paquete requerido %s"
+msgstr "no se puede cargar el paquete requerido %s"
 
 msgid "unable to find an environment containing class %s"
 msgstr "imposible hallar un entorno que contenga la clase %s"
@@ -755,6 +754,8 @@ msgid ""
 "All %s names must be distinct in:\n"
 "(%s)"
 msgstr ""
+"Todos los nombres de %s deben ser distintos en: \n"
+"(%s)"
 
 msgid "argument %s must be a list or a character vector; got an object of class %s"
 msgstr "el argumento '%s' debe ser una lista o vector de caracteres; se obtuvo un objeto de clase %s"
@@ -865,9 +866,10 @@ msgstr "Esqueleto para método se escribió en %s"
 msgid "invalid object in meta table of methods for %s, label %s, had class %s"
 msgstr "objeto no válido en la metatabla de métodos para %s, etiqueta %s, tenía clase %s"
 
-#, fuzzy
 msgid "invalid method element for signature %s at level %d (should be MethodDefinition or .Primitive, had class %s)"
-msgstr "elemento mlist no válido para la firma de método %s en el nivel %d (debe ser MethodDefinition o .Primitive, tenía clase %s)"
+msgstr ""
+"Elemento de método no válido para la firma %s en el nivel %d (debería ser "
+"MethodDefinition o .Primitive, pero se encontró la clase %s)"
 
 msgid "bad method object stored in method table, class %s"
 msgstr "objeto de método erróneo almacenado en la tabla de métodos, clase %s"
