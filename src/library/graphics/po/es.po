@@ -6,17 +6,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2023-04-22 22:09+0200\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 4.13.1\n"
+"X-Generator: Weblate 4.16.4\n"
 "X-Poedit-Language: Spanish\n"
 
 #: base.c:43
@@ -157,9 +157,9 @@ msgid "\"%s\" is not a graphical parameter"
 msgstr "\"%s\" es un parámetro gráfico inválido"
 
 #: par.c:1109
-#, fuzzy, c-format
+#, c-format
 msgid "argument %d does not name a graphical parameter"
-msgstr "\"%s\" es un parámetro gráfico inválido"
+msgstr "argumento %d no nombra a un parámetro gráfico"
 
 #: par.c:1117
 msgid "invalid argument passed to par()"
