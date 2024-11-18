@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-09-09 04:02+0000\n"
-"Last-Translator: Michael Chirico <michaelchirico4@gmail.com>\n"
+"PO-Revision-Date: 2024-11-18 22:46+0000\n"
+"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -62,9 +62,8 @@ msgstr "'kind' debe ser una cadena de caracteres de longitud 1 (RNG a utilizar).
 msgid "'%s' is not a valid abbreviation of an RNG"
 msgstr "'%s' no es una abreviatura válida de un RNG"
 
-#, fuzzy
 msgid "'%s' must be a character string"
-msgstr "'name' debe ser un string de un solo caracter"
+msgstr "' %s' debe ser una cadena de caracteres"
 
 msgid "'%s' is not a valid choice"
 msgstr "'%s' no es una elección válida"
@@ -190,9 +189,8 @@ msgstr "no es una especificación válida para un restart"
 msgid "condition handlers must be functions"
 msgstr "los controladores de condición deben ser funciones"
 
-#, fuzzy
 msgid "pushing duplicate `%s` handler on top of the stack"
-msgstr "moviendo el controlador duplicado `%s` al tope de la pila"
+msgstr "moviendo el controlador duplicado `%s` al  inicio de la pila"
 
 #, fuzzy
 msgid "argument 'where' of length 0"
@@ -205,9 +203,8 @@ msgstr "sólo se pueden escribir objetos de tipo carácter"
 msgid "'headers' must have names and must not be NA"
 msgstr "'headers' debe tener nombres y no deben ser NA"
 
-#, fuzzy
 msgid "'name' must be a single character string"
-msgstr "'name' debe ser una cadena de un solo carácter"
+msgstr "'name' debe ser una cadena de caracteres"
 
 msgid "'origin' must be one of 'start', 'current' or 'end'"
 msgstr "'origin' debe ser uno entre 'start, 'current' o 'end'"
@@ -1994,5 +1991,3 @@ msgstr[1] ""
 
 #~ msgid "'origin' must be supplied"
 #~ msgstr "'origin' debe ser especificado"
-
-
