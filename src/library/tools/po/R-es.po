@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: R 4.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49\n"
-"PO-Revision-Date: 2024-11-18 22:46+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -259,7 +259,7 @@ msgid "Authors@R field gives persons with invalid ORCID identifiers:"
 msgstr "El campo Authors@R proporciona personas con identificadores ORCID no válidos:"
 
 msgid "Authors@R field gives persons with duplicated ORCID identifiers:"
-msgstr ""
+msgstr "campo Authors@R devuelve personas con identificadores ORCID duplicados:"
 
 msgid "Encoding '%s' is not portable"
 msgstr "La codificación '%s' no es portable"
@@ -753,10 +753,10 @@ msgid "loading failed"
 msgstr "la carga falló"
 
 msgid "'cc' is not on the path"
-msgstr ""
+msgstr "'cc' no está en la ruta"
 
 msgid "'objdump' is not on the path"
-msgstr ""
+msgstr "'objdump' no está en la ruta"
 
 msgid "Got %s in evaluating %s; wanted %s"
 msgstr "Se obtuvo %s al evaluar %s; se buscaba %s"
@@ -1107,10 +1107,10 @@ msgid "package seems to be using lazy loading already"
 msgstr "el paquete parece ya estar usando carga diferida (lazy)"
 
 msgid "'files' and 'bytes' are mutually exclusive"
-msgstr ""
+msgstr "'files' y 'bytes' son mutuamente excluyentes"
 
 msgid "'bytes' must be a raw vector"
-msgstr ""
+msgstr "'bytes' debe ser un vector de tipo 'raw'"
 
 msgid ""
 "Cannot process chunk/lines:\n"
@@ -1206,10 +1206,10 @@ msgid "unimplemented encoding"
 msgstr "codificación no implementada"
 
 msgid "x must be a single string"
-msgstr ""
+msgstr "x debe ser una cadena individual"
 
 msgid "invalid hex string"
-msgstr ""
+msgstr "cadena hex inválida"
 
 msgid "this requires 'objdump.exe' to be on the PATH"
 msgstr "esto requiere que 'objdump.exe' esté en PATH"
@@ -1236,7 +1236,7 @@ msgid "Testing examples for package %s"
 msgstr "Ejemplos de prueba para el paquete %s"
 
 msgid "Error: running examples in %s failed"
-msgstr ""
+msgstr "Error: ejecutando ejemplos en %s falló"
 
 msgid "comparing %s to %s ..."
 msgstr "comparando %s con %s..."
@@ -1263,7 +1263,7 @@ msgid "Running %s"
 msgstr "Ejecutando %s"
 
 msgid "Error: running the tests in %s failed"
-msgstr ""
+msgstr "Error: ejecutando tests en %s falló"
 
 msgid "Running vignettes for package %s"
 msgstr "Ejecutando viñetas para el paquete %s"
@@ -1411,7 +1411,7 @@ msgid "cannot source package code:"
 msgstr "no se puede hacer source() sobre el código del paquete:"
 
 msgid "inferiorCallError"
-msgstr ""
+msgstr "existe inferiorCallError"
 
 msgid "inferior call failed"
 msgstr "llamada inferior fallida"
@@ -1542,8 +1542,8 @@ msgstr[1] "RESUMEN: falló el procesamiento de los siguientes archivos:"
 
 msgid "Package %s does not have a registered vignette engine"
 msgid_plural "None of packages %s have registered vignette engines"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "El paquete %s no tienen un motor de viñetas registrado"
+msgstr[1] "Ninguno de los paquetes %s tienen un motor de viñetas registrado"
 
 msgid "unable to re-encode %s line %s"
 msgid_plural "unable to re-encode %s lines %s"
