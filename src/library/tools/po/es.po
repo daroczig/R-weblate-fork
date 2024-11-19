@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-06-11 03:05+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Paola Corrales <paobcorrales@gmail.com>\n"
 "Language-Team: none\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -35,12 +35,12 @@ msgstr "md5 falló en el archivo '%s'"
 #: Rsha256.c:86
 #, c-format
 msgid "sha256 failed on file '%ls'"
-msgstr ""
+msgstr "sha256 falló en archivo '%ls'"
 
 #: Rsha256.c:88
 #, c-format
 msgid "sha256 failed on file '%s'"
-msgstr ""
+msgstr "sha256 falló en archivo '%s'"
 
 #: getfmts.c:61
 #, c-format
