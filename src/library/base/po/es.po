@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-20 03:05+0000\n"
-"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
+"Last-Translator: Natalia Labadie <nlabadie.fbioyf@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -1492,7 +1492,7 @@ msgstr "no se puede definir el entorno de un namespace"
 
 #: src/main/builtin.c:415
 msgid "can not set the parent environment of package imports"
-msgstr "no se puede definir un entorno superior para el paquete imports"
+msgstr "no se puede fijar el entorno primario de la importación de paquetes"
 
 #: src/main/builtin.c:423 src/main/memory.c:4666
 msgid "'parent' is not an environment"
