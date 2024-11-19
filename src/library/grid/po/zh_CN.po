@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-04-01 10:33-0700\n"
-"PO-Revision-Date: 2023-12-20 13:03+0000\n"
-"Last-Translator: Shun Wang <shuonwang@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Tony Stone <1601952990@qq.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: gpar.c:632
 msgid "updateGContext must only be called after initGContext"
-msgstr ""
+msgstr "只有进行initGContext后才能调用updateGContext"
 
 #: grid.c:199
 msgid "Turning clipping on or off within a (clipping) path is no honoured"
@@ -86,7 +86,7 @@ msgstr ""
 #: grid.c:4099
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
-msgstr ""
+msgstr "绘图字符'%d'在当前地区语言无效"
 
 #: grid.c:4920
 #, c-format
