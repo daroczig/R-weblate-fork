@@ -5,10 +5,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 2.1.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-10-09 22:15+0000\n"
-"Last-Translator: Gabriela de Lima Marin <gabi.lima.marin@gmail.com>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Lucio Queiroz <luciorqueiroz@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
@@ -375,9 +375,9 @@ msgid "invalid '%s' argument"
 msgstr "argumento '%s' inválido"
 
 #: plot.c:3081 plot.c:3221
-#, fuzzy, c-format
+#, c-format
 msgid "invalid number of points in %s"
-msgstr "número de pontos inválidos em locator()"
+msgstr "número de pontos inválidos em %s"
 
 #: plot.c:3086
 msgid "invalid plot type"
