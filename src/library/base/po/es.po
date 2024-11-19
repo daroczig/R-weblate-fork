@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-19 16:23+0000\n"
-"Last-Translator: Francisco Cardozo <foc9@miami.edu>\n"
+"Last-Translator: \"Luis D. Verde Arregoitia\" <luisd@ciencias.unam.mx>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -3578,7 +3578,7 @@ msgstr "Aviso en %s :"
 
 #: src/main/errors.c:520 src/main/errors.c:535 src/main/errors.c:878
 msgid "Calls:"
-msgstr ""
+msgstr "Llamadas:"
 
 #: src/main/errors.c:582 src/main/errors.c:601 src/main/errors.c:772
 msgid "Lost warning messages\n"
