@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: R 2.2.0\n"
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-11-18 21:57+0000\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
 "Last-Translator: Lucio Queiroz <luciorqueiroz@gmail.com>\n"
 "Language-Team: http://www.feferraz.net/br/P/Projeto_Traducao_R_Portugues\n"
 "Language: pt_BR\n"
@@ -32,35 +32,35 @@ msgid "md5 failed on file '%s'"
 msgstr "md5 falhou no arquivo '%s'"
 
 #: Rsha256.c:86
-#, fuzzy, c-format
+#, c-format
 msgid "sha256 failed on file '%ls'"
-msgstr "md5 falhou no arquivo '%s'"
+msgstr "sha256 falhou no arquivo '%s'"
 
 #: Rsha256.c:88
-#, fuzzy, c-format
+#, c-format
 msgid "sha256 failed on file '%s'"
-msgstr "md5 falhou no arquivo '%s'"
+msgstr "sha256 falhou no arquivo '%s'"
 
 #: getfmts.c:61
 #, c-format
 msgid "only %d arguments are allowed"
-msgstr ""
+msgstr "apenas %d argumentos são permitidos"
 
 #: getfmts.c:66
 msgid "'fmt' is not a character vector"
-msgstr ""
+msgstr "'fmt' não é um vetor de caracteres"
 
 #: getfmts.c:69
 msgid "'fmt' must be length 1"
 msgstr "comprimento de 'fmt' deve ser 1"
 
 #: getfmts.c:75
-#, c-format
+#, c-format, fuzzy
 msgid "'fmt' length exceeds maximal format length %d"
 msgstr "comprimento de 'fmt' excede o comprimento máximo do formato %d"
 
 #: getfmts.c:96
-#, c-format
+#, c-format, fuzzy
 msgid "unrecognised format specification '%s'"
 msgstr "especificação de formato não reconhecida '%s'"
 
