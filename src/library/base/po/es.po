@@ -9,7 +9,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
 "PO-Revision-Date: 2024-11-20 03:05+0000\n"
-"Last-Translator: Patricia loto <patricia.andrea.loto@gmail.com>\n"
+"Last-Translator: Ricardo Villalba <rikivillalba@gmail.com>\n"
 "Language-Team: Spanish <pabloemilio.verde@uni-duesseldorf.de>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
@@ -762,10 +762,9 @@ msgstr "el objeto compartido '%s' no fue cargado"
 msgid "cannot allocate memory for registered native symbol (%d byte)"
 msgid_plural "cannot allocate memory for registered native symbol (%d bytes)"
 msgstr[0] ""
-"no fue posible adjudicar memoria para el símbolo nativo registrado (%d bytes)"
+"no fue posible adjudicar memoria para el símbolo nativo registrado (%d byte)"
 msgstr[1] ""
-"no fue posible adjudicar memoria para los símbolos nativos registrados (%d "
-"bytes)"
+"no fue posible adjudicar memoria para el símbolo nativo registrado (%d bytes)"
 
 #: src/main/Rdynload.c:1461 src/main/Rdynload.c:1660
 msgid "NULL value passed for DllInfo"
@@ -3348,9 +3347,8 @@ msgstr ""
 "Los nombres de x deben ser un vector de caracteres de la misma longitud que x"
 
 #: src/main/envir.c:1920
-#, fuzzy
 msgid "'envir' argument must be an environment"
-msgstr "el argumento 'env' debe ser un ambiente"
+msgstr "el argumento 'envir' debe ser un entorno"
 
 #: src/main/envir.c:1950
 msgid "cannot remove variables from base namespace"
@@ -4795,17 +4793,16 @@ msgstr "%s: el argumento de tipo %s no es un 'closure'"
 #: src/main/memory.c:4618
 #, c-format
 msgid "%s: argument of type %s is not a symbol or NULL"
-msgstr ""
+msgstr "%s: el argumento de tipo %s no es de tipo símbolo o NULL"
 
 #: src/main/memory.c:4650
-#, fuzzy, c-format
+#, c-format
 msgid "%s: argument of type %s is not an environment or NULL"
-msgstr "el argumento a '%s' no es un entorno"
+msgstr "%s: el argumento de tipo %s no es un entorno o NULL"
 
 #: src/main/memory.c:4669
-#, fuzzy
 msgid "cycles in parent chains are not allowed"
-msgstr "no se permiten vectores de longitud negativa"
+msgstr "no se permiten ciclos en la cadena de dependencia de entornos"
 
 #: src/main/memory.c:4814
 msgid "memory profiling is not available on this system"
