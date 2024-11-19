@@ -6,10 +6,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: R 4.4.0\n"
-"Report-Msgid-Bugs-To: bugs.r-project.org\n"
+"Report-Msgid-Bugs-To: sourcestringbugs.o40l9j@zapiermail.com\n"
 "POT-Creation-Date: 2024-10-25 14:49-0700\n"
-"PO-Revision-Date: 2024-08-28 03:05+0000\n"
-"Last-Translator: Jinyu Lu <jil945@mail.usask.ca>\n"
+"PO-Revision-Date: 2024-11-19 03:05+0000\n"
+"Last-Translator: Tony Stone <1601952990@qq.com>\n"
 "Language-Team: Chinese\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
@@ -3136,7 +3136,7 @@ msgstr "没有活动图形设备"
 #: src/main/engine.c:2182
 #, c-format
 msgid "pch value '%d' is invalid in this locale"
-msgstr "'%d'这个pch值在本语言环境下不适用"
+msgstr "绘图字符'%d'在当前地区语言无效"
 
 #: src/main/engine.c:2440
 #, c-format
